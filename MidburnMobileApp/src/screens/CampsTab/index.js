@@ -6,6 +6,10 @@ import {
   View,
   ListView
 } from 'react-native';
+import CampRow from './CampRow';
+import Navigation from 'react-native-navigation';
+import SCREEN_NAMES from './../screenNames';
+
 
 const data = require('../../../data/camps');
 
@@ -30,14 +34,21 @@ export default class CampsTab extends Component {
     };
   }
 
+  _onRowPressed = async (data) => {
+    await Navigation.push(this.props.containerId, {
+      name: SCREEN_NAMES.MAP,
+      passProps: {
+        data
+      }
+    });
+
+  }
+
 
   _renderRow = (data) => {
     return (
-      <View style={{flex: 1, margin: 5, backgroundColor: 'green'}}>
-        <Text style={{color: '#ecf0f1'}}>{data.name_en}</Text>
-      </View>
+      <CampRow data={data} onPress={this._onRowPressed}/>
     );
-
   }
 
   render() {
