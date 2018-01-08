@@ -3,29 +3,50 @@ import {
   Platform,
   StyleSheet,
   Text,
-  View
+  View,
+  ListView
 } from 'react-native';
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-  'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-  'Shake or press menu button for dev menu',
-});
+const data = require('../../../data/camps');
 
-export default class CampsTab extends Component<{}> {
+export default class CampsTab extends Component {
+
+  static get navigationOptions() {
+    return {
+      topBar: {
+        title: 'CAMPS',
+        textColor: 'black',
+        drawUnder: false
+      }
+    };
+  }
+
+
+  constructor() {
+    super();
+    const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
+    this.state = {
+      dataSource: ds.cloneWithRows(data.ToPublish),
+    };
+  }
+
+
+  _renderRow = (data) => {
+    return (
+      <View style={{flex: 1, margin: 5, backgroundColor: 'green'}}>
+        <Text style={{color: '#ecf0f1'}}>{data.name_en}</Text>
+      </View>
+    );
+
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to React Native!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
+        <ListView
+          dataSource={this.state.dataSource}
+          renderRow={this._renderRow}
+        />
       </View>
     );
   }
@@ -36,16 +57,6 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'green',
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
-  },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+    backgroundColor: '#34495e',
   },
 });
