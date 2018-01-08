@@ -3,7 +3,7 @@ const PREFIX = 'midburn';
 
 const SCREENS = {
   CAMPS: `${PREFIX}.CAMPS`,
-  CAMPS: `${PREFIX}.CAMPS`,
+  PROGRAM: `${PREFIX}.PROGRAM`,
   MAP: `${PREFIX}.MAP`,
 };
 
