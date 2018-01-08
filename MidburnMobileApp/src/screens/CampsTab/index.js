@@ -13,7 +13,7 @@ const instructions = Platform.select({
   'Shake or press menu button for dev menu',
 });
 
-export default class FirstTab extends Component<{}> {
+export default class CampsTab extends Component<{}> {
   render() {
     return (
       <View style={styles.container}>
