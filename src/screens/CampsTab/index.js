@@ -53,7 +53,7 @@ export default class CampsTab extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
+      <View center>
         <ListView
           dataSource={this.state.dataSource}
           renderRow={this._renderRow}

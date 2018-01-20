@@ -11,7 +11,7 @@ export default class CampsTab extends Component {
   render() {
     return (
       <View style={{flex: 1, margin: 5, backgroundColor: 'green'}}>
-        <Button label={this.props.data.name_en} onPress={this._onPress}/>
+        <Button link label={this.props.data.name_en} onPress={this._onPress}/>
       </View>
     );
   }
