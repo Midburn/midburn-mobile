@@ -35,12 +35,17 @@ export default class CampsTab extends Component {
   }
 
   _onRowPressed = async (data) => {
-    await Navigation.push(this.props.containerId, {
-      name: SCREEN_NAMES.MAP,
-      passProps: {
-        data
-      }
-    });
+    // await Navigation.push(this.props.containerId, {
+    //   name: SCREEN_NAMES.MAP,
+    //   passProps: {
+    //     data
+    //   }
+    // });
+
+    this.props.navigator.push({
+      screen: SCREEN_NAMES.MAP,
+      passProps: {data}
+    })
 
   }
 
