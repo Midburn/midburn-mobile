@@ -1,39 +1,11 @@
 import {Navigation}from 'react-native-navigation';
 import { registerContainers } from './screens';
 import SCREENS from './screens/screenNames';
+import * as appActions from './stores/appActions';
 
-
-
-// function start() {
-//
-//   Navigation.events().onAppLaunched(() => {
-//
-//     Navigation.setRoot({
-//       bottomTabs: [
-//         {
-//           container: {
-//             name: SCREENS.CAMPS,
-//             navigationOptions: {
-//               bottomTab: {
-//                 title: 'Tab 1'
-//               }
-//             }
-//           }
-//         },
-//         {
-//           container: {
-//             name: SCREENS.PROGRAM,
-//             navigationOptions: {
-//               bottomTab: {
-//                 title: 'Tab 2'
-//               }
-//             }
-//           }
-//         }]});
-//   });
-// }
 
 function start() {
+  appActions.loadTabsData();
   registerContainers();
   Navigation.startTabBasedApp({
     tabs: [
