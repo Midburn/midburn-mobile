@@ -1,78 +1,41 @@
 import React, {Component} from 'react';
-import {
-  Platform,
-  StyleSheet,
-  Text,
-  View,
-  ListView
-} from 'react-native';
+import {View, FlatList} from 'react-native';
+import {connect} from 'remx';
 import CampRow from './CampRow';
-import Navigation from 'react-native-navigation';
 import SCREEN_NAMES from './../screenNames';
+import * as campsStore from '../../stores/camps/store';
 
-
-const data = require('../../../data/camps');
-
-export default class CampsTab extends Component {
-
-  static get navigationOptions() {
-    return {
-      topBar: {
-        title: 'CAMPS',
-        textColor: 'black',
-        drawUnder: false
-      }
-    };
-  }
-
-
-  constructor() {
-    super();
-    const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
-    this.state = {
-      dataSource: ds.cloneWithRows(data.ToPublish),
-    };
-  }
+class CampsTab extends Component {
 
   _onRowPressed = async (data) => {
-    // await Navigation.push(this.props.containerId, {
-    //   name: SCREEN_NAMES.MAP,
-    //   passProps: {
-    //     data
-    //   }
-    // });
-
     this.props.navigator.push({
-      screen: SCREEN_NAMES.MAP,
+      screen: SCREEN_NAMES.CAMP_SCREEN,
       passProps: {data}
     })
-
   }
 
-
-  _renderRow = (data) => {
+  _renderRow = (data, iii) => {
     return (
-      <CampRow data={data} onPress={this._onRowPressed}/>
+      <CampRow data={data.item} onPress={this._onRowPressed}/>
     );
   }
 
   render() {
     return (
       <View center>
-        <ListView
-          dataSource={this.state.dataSource}
-          renderRow={this._renderRow}
+        <FlatList
+          data={this.props.campsData}
+          renderItem={this._renderRow}
         />
       </View>
     );
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#34495e',
-  },
-});
+function mapStateToProps() {
+  return {
+    campsData: campsStore.getters.getCamps()
+  };
+}
+
+export default connect(mapStateToProps)(CampsTab);
