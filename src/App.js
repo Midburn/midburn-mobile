@@ -17,12 +17,19 @@ function start() {
         navigatorButtons: {} // override the nav buttons for the tab screen, see "Adding buttons to the navigator" below (optional)
       },
       {
-        label: 'CAMPS',
-        screen: SCREENS.CAMPS,
-        title: 'CAMPS',
+        label: 'PROGRAM',
+        screen: SCREENS.PROGRAM,
+        title: 'PROGRAM',
         navigatorStyle: {}, // override the navigator style for the tab screen, see "Styling the navigator" below (optional),
         navigatorButtons: {} // override the nav buttons for the tab screen, see "Adding buttons to the navigator" below (optional)
       },
+      {
+        label: 'MAP',
+        screen: SCREENS.MAP,
+        title: 'MAP',
+        navigatorStyle: {}, // override the navigator style for the tab screen, see "Styling the navigator" below (optional),
+        navigatorButtons: {} // override the nav buttons for the tab screen, see "Adding buttons to the navigator" below (optional)
+      }
     ],
     tabsStyle: {},
     appStyle: {

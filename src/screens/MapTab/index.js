@@ -18,7 +18,7 @@ export default class MapTab extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          {this.props.data.name_en}
+          MAP TAB
         </Text>
         <Text style={styles.instructions}>
           To get started, edit App.js

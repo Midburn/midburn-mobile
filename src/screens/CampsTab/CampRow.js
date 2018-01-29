@@ -10,7 +10,7 @@ export default class CampsTab extends Component {
   render() {
     return (
       <View flex center paddingV-10>
-          <Button link linkColor={'black'} label={this.props.data.name_en} onPress={this._onPress}/>
+        <Button link linkColor={'black'} label={this.props.data.name_en} onPress={this._onPress}/>
       </View>
     );
   }

@@ -3027,6 +3027,10 @@ minimist@^1.1.0, minimist@^1.1.1, minimist@^1.2.0:
   dependencies:
     minimist "0.0.8"
 
+mobx@3.x.x:
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/mobx/-/mobx-3.4.1.tgz#37abe5ee882d401828d9f26c6c1a2f47614bbbef"
+
 morgan@~1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/morgan/-/morgan-1.6.1.tgz#5fd818398c6819cba28a7cd6664f292fe1c0bbf2"
@@ -3765,6 +3769,13 @@ regjsparser@^0.1.4:
 remove-trailing-separator@^1.0.1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/remove-trailing-separator/-/remove-trailing-separator-1.1.0.tgz#c24bce2a283adad5bc3f58e0d48249b92379d8ef"
+
+remx@2.x.x:
+  version "2.0.39"
+  resolved "https://registry.yarnpkg.com/remx/-/remx-2.0.39.tgz#6c6866a06127ce6621c66c9c1037d3303f8d7e9c"
+  dependencies:
+    lodash "4.x.x"
+    mobx "3.x.x"
 
 repeat-element@^1.1.2:
   version "1.1.2"
