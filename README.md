@@ -11,7 +11,6 @@ Mobile client for Burners
 
 ### Run the project
 
-- `cd MidburnMobileApp`
 - `yarn` or `npm install`
 - `yarn start` or `npm run start`
 - another terminal `react-native run-ios` or `react-native run-android`
