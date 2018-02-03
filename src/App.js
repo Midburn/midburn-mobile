@@ -13,23 +13,22 @@ function start() {
         label: 'CAMPS',
         screen: SCREENS.CAMPS,
         title: 'CAMPS',
-        navigatorStyle: {}, // override the navigator style for the tab screen, see "Styling the navigator" below (optional),
-        navigatorButtons: {} // override the nav buttons for the tab screen, see "Adding buttons to the navigator" below (optional)
-      },
+        },
       {
         label: 'PROGRAM',
         screen: SCREENS.PROGRAM,
         title: 'PROGRAM',
-        navigatorStyle: {}, // override the navigator style for the tab screen, see "Styling the navigator" below (optional),
-        navigatorButtons: {} // override the nav buttons for the tab screen, see "Adding buttons to the navigator" below (optional)
-      },
+        },
+      {
+        label: 'ART',
+        screen: SCREENS.MAP,
+        title: 'ART',
+        },
       {
         label: 'MAP',
         screen: SCREENS.MAP,
         title: 'MAP',
-        navigatorStyle: {}, // override the navigator style for the tab screen, see "Styling the navigator" below (optional),
-        navigatorButtons: {} // override the nav buttons for the tab screen, see "Adding buttons to the navigator" below (optional)
-      }
+        }
     ],
     tabsStyle: {},
     appStyle: {

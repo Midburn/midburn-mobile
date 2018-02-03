@@ -26,6 +26,7 @@ class CampsTab extends Component {
         <FlatList
           data={this.props.campsData}
           renderItem={this._renderRow}
+          keyExtractor={(item, index) => index}
         />
       </View>
     );
