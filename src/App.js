@@ -14,25 +14,31 @@ function start() {
         screen: SCREENS.CAMPS,
         title: 'Camps',
         icon: require('../data/img/campfire.png')
-        },
+      },
       {
         label: 'Program',
         screen: SCREENS.PROGRAM,
         title: 'Program',
         icon: require('../data/img/open-book.png')
-        },
+      },
       {
         label: 'Art',
-        screen: SCREENS.MAP,
+        screen: SCREENS.ART,
         title: 'Art',
         icon: require('../data/img/paint.png')
-        },
+      },
       {
         label: 'Map',
         screen: SCREENS.MAP,
         title: 'Map',
         icon: require('../data/img/map.png')
-        }
+      },
+      {
+        label: 'Info',
+        screen: SCREENS.INFO,
+        title: 'Info',
+      }
+
     ],
     tabsStyle: {},
     appStyle: {
