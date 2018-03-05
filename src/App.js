@@ -10,24 +10,24 @@ function start() {
   Navigation.startTabBasedApp({
     tabs: [
       {
-        label: 'CAMPS',
+        label: 'Camps',
         screen: SCREENS.CAMPS,
-        title: 'CAMPS',
+        title: 'Camps',
         },
       {
-        label: 'PROGRAM',
+        label: 'Program',
         screen: SCREENS.PROGRAM,
-        title: 'PROGRAM',
+        title: 'Program',
         },
       {
-        label: 'ART',
+        label: 'Art',
         screen: SCREENS.MAP,
-        title: 'ART',
+        title: 'Art',
         },
       {
-        label: 'MAP',
+        label: 'Map',
         screen: SCREENS.MAP,
-        title: 'MAP',
+        title: 'Map',
         }
     ],
     tabsStyle: {},

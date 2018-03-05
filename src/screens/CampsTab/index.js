@@ -10,7 +10,8 @@ class CampsTab extends Component {
   _onRowPressed = async (data) => {
     this.props.navigator.push({
       screen: SCREEN_NAMES.CAMP_SCREEN,
-      passProps: {data}
+      passProps: {data},
+      title: data.name_en
     })
   }
 

@@ -32,7 +32,7 @@ export default class CampsTab extends Component {
   _renderContent() {
     return (
       <View flex center>
-        <Text>{this.props.data.name_en}</Text>
+        <Text text60 margin-19>{this.props.data.name_en}</Text>
       </View>
     );
   }
@@ -42,7 +42,7 @@ export default class CampsTab extends Component {
       <View flex bg-dark70 margin-16 marginB-0 paddingV-8 style={{borderRadius: 3}}>
         <TouchableOpacity onPress={this._onPress} style={{flex: 1}}>
           <View row left flex>
-            {this._renderSidePanel()}
+            {/* {this._renderSidePanel()} */}
             {this._renderContent()}
           </View>
         </TouchableOpacity>
