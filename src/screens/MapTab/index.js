@@ -20,12 +20,6 @@ export default class MapTab extends Component {
         <Text style={styles.welcome}>
           MAP TAB
         </Text>
-        <Text style={styles.instructions}>
-          To get started, edit App.js
-        </Text>
-        <Text style={styles.instructions}>
-          {instructions}
-        </Text>
       </View>
     );
   }
@@ -36,7 +30,7 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'green',
+    backgroundColor: 'yellow',
   },
   welcome: {
     fontSize: 20,

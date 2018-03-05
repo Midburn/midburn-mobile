@@ -15,7 +15,7 @@ class CampsTab extends Component {
     })
   }
 
-  _renderRow = (data, iii) => {
+  _renderRow = (data) => {
     return (
       <CampRow data={data.item} onPress={this._onRowPressed}/>
     );
