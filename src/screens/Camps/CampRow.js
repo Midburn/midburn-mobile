@@ -1,10 +1,10 @@
 import _ from 'lodash';
-import React, {Component} from 'react';
+import React, {PureComponent} from 'react';
 import {Image} from 'react-native';
 import {Text, View, TouchableOpacity} from 'react-native-ui-lib';
 import {getRandomImagesArray}from '../../../data/img';
 
-export default class CampsTab extends Component {
+export default class CampsTab extends PureComponent {
 
   constructor(props) {
     super(props);

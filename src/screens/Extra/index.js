@@ -15,11 +15,9 @@ export default class InfoTab extends Component {
 
   render() {
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          INFO TAB
-        </Text>
-        <Button label={'Principles'} onPress={() => this.onPrinciplesPressed()}/>
+      <View flex center>
+        <Button margin-8 label={'Important Phone'} onPress={() => this.onPrinciplesPressed()}/>
+        <Button margin-8 label={'Principles'} onPress={() => this.onPrinciplesPressed()}/>
       </View>
     );
   }

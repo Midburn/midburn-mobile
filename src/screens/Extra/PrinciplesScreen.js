@@ -19,9 +19,9 @@ export default class PrinciplesScreen extends Component {
               <View padding-8 key={principle.name}>
                 <Text text30>{principle.name}</Text>
                 <Text text70>{principle.description}</Text>
-              <Image
-                source={require('./principlesData/civicresponsability.png')}
-              />
+              {/*<Image*/}
+                {/*source={require('./principlesData/civicresponsability.png')}*/}
+              {/*/>*/}
               </View>
             );
           })

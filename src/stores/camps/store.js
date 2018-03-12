@@ -1,7 +1,8 @@
 import * as remx from 'remx';
 
 const state = remx.state({
-  camps: []
+  camps: [],
+  search: undefined
 });
 
 export const setters = remx.setters({
