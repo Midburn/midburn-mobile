@@ -1,20 +1,22 @@
 import {Navigation} from 'react-native-navigation';
 import SCREENS from './screenNames';
-import CampsTab from './Camps';
+import CampsScreen from './Camps';
 import SecondTab from './Program';
-import MapTab from './Map';
-import ArtTab from './Art';
-import ExtraTab from './Extra';
+import MapScreen from './Map';
+import ArtScreen from './Art';
+import ExtraScreen from './Extra';
+import NowScreen from './Now';
 import PrinciplesScreen from './Extra/PrinciplesScreen';
 import CampScreen from './Camps/CampScreen'
 
 // register all screens of the app (including internal ones)
 export function registerContainers() {
-  Navigation.registerComponent(SCREENS.CAMPS, () => CampsTab);
+  Navigation.registerComponent(SCREENS.CAMPS, () => CampsScreen);
   Navigation.registerComponent(SCREENS.PROGRAM, () => SecondTab);
-  Navigation.registerComponent(SCREENS.MAP, () => MapTab);
-  Navigation.registerComponent(SCREENS.ART, () => ArtTab);
-  Navigation.registerComponent(SCREENS.EXTRA, () => ExtraTab);
+  Navigation.registerComponent(SCREENS.MAP, () => MapScreen);
+  Navigation.registerComponent(SCREENS.ART, () => ArtScreen);
+  Navigation.registerComponent(SCREENS.NOW, () => NowScreen);
+  Navigation.registerComponent(SCREENS.EXTRA, () => ExtraScreen);
   Navigation.registerComponent(SCREENS.PRINCIPLES, () => PrinciplesScreen);
 
   Navigation.registerComponent(SCREENS.CAMP_SCREEN, () => CampScreen);

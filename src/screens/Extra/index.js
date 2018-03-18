@@ -5,7 +5,7 @@ import {Text, View, Button} from 'react-native-ui-lib';
 import SCREENS from './../../screens/screenNames';
 
 
-export default class InfoTab extends Component {
+export default class ExtraScreen extends Component {
 
   onPrinciplesPressed() {
     this.props.navigator.push({
