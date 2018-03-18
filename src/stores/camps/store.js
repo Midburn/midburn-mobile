@@ -17,9 +17,6 @@ export const setters = remx.setters({
 });
 
 export const getters = remx.getters({
-  getCamps() {
-    return state.camps;
-  },
   getSearchText() {
     return state.search;
   },
