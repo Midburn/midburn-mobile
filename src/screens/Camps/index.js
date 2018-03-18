@@ -10,7 +10,7 @@ const SEARCH_BUTTON_ID = 'camp_search';
 const PLACEHOLDER_SEARCH_INPUT = 'Type camp to serach';
 
 const FILTER = {
-  FAVOURITES: 'favourites',
+  FAVOURITES: 'Favourites',
   ABC: 'ABC'
 };
 
@@ -21,7 +21,7 @@ class CampsScreen extends Component {
     rightButtons: [
       {
         id: 'camp_search',
-        title: 'search'
+        systemItem: 'search'
       }
     ]
   };
@@ -38,6 +38,7 @@ class CampsScreen extends Component {
     if (event.id == SEARCH_BUTTON_ID) {
 
       this.setState({showSearchBar: !this.state.showSearchBar});
+      this.searchTextInputRef.focus();
     }
   }
 
@@ -69,8 +70,10 @@ class CampsScreen extends Component {
     return (
       <View>
         <TextInput
+          ref={(ref) => this.searchTextInputRef = ref}
+          autoCorrect={false}
           style={{height: 40, borderColor: 'gray', borderWidth: 1}}
-          onChangeText={(text) => this.setState({text})}
+          onChangeText={(text) => campsStore.setters.setSearch(text)}
           value={this.state.text}
           placeholder={PLACEHOLDER_SEARCH_INPUT}
         />
@@ -82,10 +85,10 @@ class CampsScreen extends Component {
     return (
       <View row spread bg-dark70 marginT-8>
         <View flex center>
-          <Button title={'ABC'} onPress={this._onFavouriteFilterBarPressed}/>
+          <Button title={FILTER.ABC} onPress={this._onFavouriteFilterBarPressed}/>
         </View>
         <View flex center>
-          <Button title={'Favourite'} onPress={this._onABCFilterBarPressed}/>
+          <Button title={FILTER.FAVOURITES} onPress={this._onABCFilterBarPressed}/>
         </View>
       </View>
     );
@@ -108,7 +111,8 @@ class CampsScreen extends Component {
 
 function mapStateToProps() {
   return {
-    campsData: campsStore.getters.getCamps()
+    campsData: campsStore.getters.getCampsToShow(),
+    searchText: campsStore.getters.getSearchText()
   };
 }
 
