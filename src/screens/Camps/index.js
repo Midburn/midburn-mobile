@@ -1,14 +1,21 @@
 import React, {Component} from 'react';
-import {View, FlatList, TextInput} from 'react-native';
+import {FlatList, TextInput, Button} from 'react-native';
+import {View} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import CampRow from './CampRow';
-import SCREEN_NAMES from './../screenNames';
 import * as campsStore from '../../stores/camps/store';
+import * as actions from './../../stores/camps/actions';
 
 const SEARCH_BUTTON_ID = 'camp_search';
 const PLACEHOLDER_SEARCH_INPUT = 'Type camp to serach';
 
-class CampsTab extends Component {
+const FILTER = {
+  FAVOURITES: 'favourites',
+  ABC: 'ABC'
+};
+
+
+class CampsScreen extends Component {
 
   static navigatorButtons = {
     rightButtons: [
@@ -36,11 +43,20 @@ class CampsTab extends Component {
 
 
   _onRowPressed = async (data) => {
-    this.props.navigator.push({
-      screen: SCREEN_NAMES.CAMP_SCREEN,
-      passProps: {data},
-      title: data.name_en
-    })
+    actions.showCampScreen({data, navigator: this.props.navigator});
+  }
+
+  _onFavouriteFilterBarPressed = () => {
+    this._onFilterBarPressed(FILTER.FAVOURITES);
+
+  }
+
+  _onABCFilterBarPressed = () => {
+    this._onFilterBarPressed(FILTER.ABC);
+  }
+
+  _onFilterBarPressed(type) {
+
   }
 
   _renderRow = (data) => {
@@ -62,10 +78,24 @@ class CampsTab extends Component {
     );
   }
 
+  _renderFilterBar() {
+    return (
+      <View row spread bg-dark70 marginT-8>
+        <View flex center>
+          <Button title={'ABC'} onPress={this._onFavouriteFilterBarPressed}/>
+        </View>
+        <View flex center>
+          <Button title={'Favourite'} onPress={this._onABCFilterBarPressed}/>
+        </View>
+      </View>
+    );
+  }
+
   render() {
     return (
-      <View center>
+      <View flex marginH-16>
         {this.state.showSearchBar && this._renderSearchBar()}
+        {this._renderFilterBar()}
         <FlatList
           data={this.props.campsData}
           renderItem={this._renderRow}
@@ -82,4 +112,4 @@ function mapStateToProps() {
   };
 }
 
-export default connect(mapStateToProps)(CampsTab);
+export default connect(mapStateToProps)(CampsScreen);

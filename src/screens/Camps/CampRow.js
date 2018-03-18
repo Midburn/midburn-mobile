@@ -39,7 +39,7 @@ export default class CampsTab extends PureComponent {
 
   render() {
     return (
-      <View flex bg-dark70 margin-16 marginB-0 paddingV-8 style={{borderRadius: 3}}>
+      <View flex bg-dark70 margin-16 marginH-0 marginB-0 paddingV-8 style={{borderRadius: 3}}>
         <TouchableOpacity onPress={this._onPress} style={{flex: 1}}>
           <View row left flex>
             {/* {this._renderSidePanel()} */}
