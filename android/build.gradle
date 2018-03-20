@@ -24,3 +24,21 @@ allprojects {
         google()
     }
 }
+
+subprojects {
+    afterEvaluate {project ->
+        if (project.hasProperty("android")) {
+            android {
+                compileSdkVersion 27
+                buildToolsVersion "27.0.3"
+            }
+        }
+
+        if (project.hasProperty("defaultConfig")) {
+            defaultConfig {
+                minSdkVersion 21
+                targetSdkVersion 27
+            }
+        }
+    }
+}

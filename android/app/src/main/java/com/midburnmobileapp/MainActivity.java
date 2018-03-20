@@ -14,8 +14,8 @@ package com.midburnmobileapp;
 //}
 
 
-import com.reactnativenavigation.NavigationActivity;
+import com.reactnativenavigation.controllers.SplashActivity;
 
-public class MainActivity extends NavigationActivity {
+public class MainActivity extends SplashActivity {
 
 }

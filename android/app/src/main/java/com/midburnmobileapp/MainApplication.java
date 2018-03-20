@@ -4,7 +4,6 @@ package com.midburnmobileapp;
 
 import android.support.annotation.Nullable;
 
-import com.facebook.react.BuildConfig;
 import com.facebook.react.ReactPackage;
 import com.reactnativenavigation.NavigationApplication;
 
@@ -22,4 +21,10 @@ public class MainApplication extends NavigationApplication {
   public List<ReactPackage> createAdditionalReactPackages() {
     return null;
   }
+
+    @Nullable
+    @Override
+    public String getJSMainModuleName() {
+        return "index";
+    }
 }
