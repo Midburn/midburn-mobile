@@ -10,23 +10,16 @@ function start() {
   Navigation.startTabBasedApp({
     tabs: [
       {
-        label: 'Camps',
-        screen: SCREENS.CAMPS,
-        title: 'Camps',
-        icon: require('../data/img/campfire.png')
-      },
-
-      {
-        label: 'Art',
-        screen: SCREENS.ART,
-        title: 'Art',
-        icon: require('../data/img/paint.png')
-      },
-      {
         label: 'Now',
         screen: SCREENS.NOW,
         title: 'Now',
         icon: require('../data/img/open-book.png')
+      },
+      {
+        label: 'Camps',
+        screen: SCREENS.CAMPS,
+        title: 'Camps',
+        icon: require('../data/img/campfire.png')
       },
       {
         label: 'Program',
