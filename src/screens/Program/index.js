@@ -6,7 +6,36 @@ import {
   ScrollView
 } from 'react-native';
 import {Text, View, Button} from 'react-native-ui-lib';
+import {HoursScheduleComponent} from './HoursScheduleComponent';
 import * as _ from 'lodash';
+
+//fake events, should be removed!
+const events = [{
+  name: 'old event',
+  start: Date.now() - 40 * 60000,
+  end: Date.now() - 10 * 60000
+}, {
+  name: 'now',
+  start: Date.now() + 1 * 60000,
+  end: Date.now() + 30 *60000
+},
+{
+  name: 'now2',
+  start: Date.now() + 1 * 60000,
+  end: Date.now() + 30 *60000
+},{
+  name: 'two hours from now',
+  start: Date.now() + 120 *60000,
+  end:  Date.now() + 150 *60000
+}, {
+  name: 'half an hour from now',
+  start: Date.now() + 30 *60000,
+  end: Date.now() + 200 *60000
+},{
+  name: '40 min from now',
+  start:  Date.now() + 40 *60000,
+  end:  Date.now() + 330 *60000,
+}];
 
 export default class ProgramScreen extends Component {
   constructor(props) {
@@ -44,13 +73,7 @@ export default class ProgramScreen extends Component {
             }
           </ScrollView>
         </View>
-        
-        <ScrollView>
-            {
-              this.state.events.map((event, i) => this.renderEvent(event, i))
-            }
-          </ScrollView>
-        
+        <HoursScheduleComponent events={events} firstHour={0} lastHour={24} highlightCurrentTime={false}/>
       </View>
     );
   }

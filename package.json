@@ -8,6 +8,7 @@
     "xcode": "open ios/MidburnMobileApp.xcodeproj"
   },
   "dependencies": {
+    "prop-types": "^15.6.1",
     "react": "16.0.0",
     "react-native": "0.51.0",
     "react-native-navigation": "^1.0.x",
