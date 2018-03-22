@@ -45,8 +45,8 @@ class ScheduleRow extends Component {
     return this.props.highlightCurrentTime && this.props.hour === convertTimestampToScheduleHourFormat(Date.now());
   }
   render() {
-    return (<View style={styles.row}>
-      <Text text80 style={[styles.time, this.props.isOddRow? styles.oddRow : styles.evenRow, this.shouldHighlightRow() && styles.boldText]} key={this.props.hour}>
+    return (<View style={[styles.row, this.props.isOddRow? styles.oddRow : styles.evenRow]}>
+      <Text text80 style={[styles.time, this.shouldHighlightRow() && styles.boldText]} key={this.props.hour}>
         {getTimeAsFormatedString(this.props.hour % 24)}
       </Text>
       <View style={styles.eventContaier}>
@@ -88,10 +88,10 @@ const styles = StyleSheet.create({
     flexDirection: 'row'
   },
   time: {
-    textAlign: 'center',
     width: 100,
     paddingTop: 10,
-    paddingBottom: 10
+    paddingBottom: 10,
+    paddingLeft: 15
   }
 });
 
