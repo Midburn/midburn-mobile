@@ -7,7 +7,7 @@ import ArtScreen from './Art';
 import ExtraScreen from './Extra';
 import NowScreen from './Now';
 import PrinciplesScreen from './Extra/PrinciplesScreen';
-import CampScreen from './Camps/CampScreen'
+import CampDetailsScreen from './Camps/CampDetailsScreen'
 import {EventDetailsModal} from './Program/EventDetailsModal';
 
 // register all screens of the app (including internal ones)
@@ -20,6 +20,6 @@ export function registerContainers() {
   Navigation.registerComponent(SCREENS.EXTRA, () => ExtraScreen);
   Navigation.registerComponent(SCREENS.PRINCIPLES, () => PrinciplesScreen);
   
-  Navigation.registerComponent(SCREENS.CAMP_SCREEN, () => CampScreen);
+  Navigation.registerComponent(SCREENS.CAMP_SCREEN, () => CampDetailsScreen);
   Navigation.registerComponent(SCREENS.EVENT_DETAILS, () => EventDetailsModal);
 }
