@@ -32,7 +32,7 @@ export default class CampsTab extends PureComponent {
   _renderContent() {
     return (
       <View flex center>
-        <Text text60 margin-19>{this.props.data.name_en}</Text>
+        <Text text60 margin-19>{this.props.title}</Text>
       </View>
     );
   }

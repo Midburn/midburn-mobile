@@ -11,7 +11,6 @@ export const setters = remx.setters({
     state.camps = camps;
   },
   setSearch(search) {
-    console.log('RANG', 'setSearch', search);
     state.search = search;
   }
 });
@@ -23,12 +22,20 @@ export const getters = remx.getters({
   getCampsToShow() {
     if (state.search) {
       const ans = _.filter(state.camps, (camp) => {
-        if (camp['name_en']) {
-          return camp['name_en'].toLowerCase().includes(state.search.toLowerCase());
+        if (camp['title']) {
+          return camp['title'].toLowerCase().includes(state.search.toLowerCase());
         } return false;
       });
       return ans;
     }
     return state.camps;
+  },
+  getCampForId(campId) {
+    return _.find(state.camps, (camp) => camp.campId === campId);
+
+  },
+  getCampTitle(campId) {
+    const camp = getters.getCampForId(campId);
+    _.get(camp, 'title');
   }
 });

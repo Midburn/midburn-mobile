@@ -35,8 +35,7 @@ function start() {
 
     ],
     tabsStyle: {},
-    appStyle: {
-    }
+    appStyle: {}
   });
 }
 

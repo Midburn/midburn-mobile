@@ -62,7 +62,12 @@ class CampsScreen extends Component {
 
   _renderRow = (data) => {
     return (
-      <CampRow data={data.item} onPress={this._onRowPressed}/>
+      <CampRow
+        data={data.item}
+        campId={data.item.campId}
+        title={data.item.title}
+        onPress={this._onRowPressed}
+      />
     );
   }
 
