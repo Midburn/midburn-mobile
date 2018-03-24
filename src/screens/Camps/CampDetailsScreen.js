@@ -4,7 +4,7 @@ import {ScrollView, Image, Dimensions} from 'react-native';
 import {Text, View, Button} from 'react-native-ui-lib';
 import {getRandomImage} from '../../../data/img';
 
-const COVER_IMAGE_EXAMPLE = require('./../../../data/cover-images/cover.jpg');
+const COVER_IMAGE_EXAMPLE = require('./../../../data/cover-images/heart-1137259_1280.jpg');
 const SAHRE_FEELINGS_TEXT = 'Share with us your feeling & thought about this camp';
 const {height, width} = Dimensions.get('window');
 const ICON_SIZE = 30;
