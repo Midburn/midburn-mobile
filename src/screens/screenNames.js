@@ -10,11 +10,12 @@ const SCREENS = {
   ART: `${PREFIX}.ART`,
   NOW: `${PREFIX}.NOW`,
   EXTRA: `${PREFIX}.EXTRA`,
-
+  
   PRINCIPLES: `${PREFIX}.PRINCIPLES`,
-
+  
   // screens
   CAMP_SCREEN: `${PREFIX}.CAMP_SCREEN`,
+  EVENT_DETAILS: `${PREFIX}.EVENT_DETAILS`,
 };
 
 export default SCREENS;

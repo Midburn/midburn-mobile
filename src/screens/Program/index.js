@@ -70,7 +70,7 @@ export default class ProgramScreen extends Component {
             }
           </ScrollView>
         </View>
-        <HoursScheduleComponent events={events} firstHour={0} lastHour={24} highlightCurrentTime={false} />
+        <HoursScheduleComponent events={events} firstHour={0} lastHour={24} highlightCurrentTime={false} navigator={this.props.navigator} />
       </View>
     );
   }

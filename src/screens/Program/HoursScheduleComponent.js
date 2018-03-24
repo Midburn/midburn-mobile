@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Platform, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
 import { Text, View, Button } from 'react-native-ui-lib';
 import PropTypes from 'prop-types';
+import SCREENS from './../../screens/screenNames';
 
 const DARK_GRAY = '#C9C9C9';
 const MID_GRAY = '#E4E4E4';
@@ -21,6 +22,7 @@ export class HoursScheduleComponent extends Component {
     for (let hour = this.props.firstHour; hour < this.props.lastHour; hour += HALF_AN_HOUR) {
       rows.push(
         <ScheduleRow
+          navigator={this.props.navigator}
           isOddRow={Number.isInteger(hour)}
           isFirstRow={hour === this.props.firstHour}
           key={hour}
@@ -44,14 +46,24 @@ class ScheduleRow extends Component {
   shouldHighlightRow() {
     return this.props.highlightCurrentTime && this.props.hour === convertTimestampToScheduleHourFormat(Date.now());
   }
+
+  onEventPressed = (event) => {
+    this.props.navigator.showModal({
+      screen: SCREENS.EVENT_DETAILS,
+      passProps: {event}
+    });
+  }
+
   render() {
-    return (<View style={[styles.row, this.props.isOddRow? styles.oddRow : styles.evenRow]}>
+    return (<View style={[styles.row, this.props.isOddRow ? styles.oddRow : styles.evenRow]}>
       <Text text80 style={[styles.time, this.shouldHighlightRow() && styles.boldText]} key={this.props.hour}>
         {getTimeAsFormatedString(this.props.hour % 24)}
       </Text>
       <View style={styles.eventContaier}>
         {this.props.events.map(event =>
-          <Text key={event.name} text100 style={styles.event}>{event.name}</Text>
+          <TouchableOpacity key={event.name} onPress={() => this.onEventPressed(event)}>
+            <Text text100 style={styles.event}>{event.name}</Text>
+          </TouchableOpacity>
         )}
       </View>
     </View>);
@@ -121,7 +133,8 @@ HoursScheduleComponent.propTypes = {
   events: PropTypes.array,
   lastHour: PropTypes.number,
   firstHour: PropTypes.number,
-  highlightCurrentTime: PropTypes.bool
+  highlightCurrentTime: PropTypes.bool,
+  navigator: PropTypes.object
 }
 HoursScheduleComponent.defaultProps = {
   firstHour: convertTimestampToScheduleHourFormat(Date.now()),
