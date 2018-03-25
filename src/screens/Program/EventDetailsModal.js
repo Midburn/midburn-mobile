@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { StyleSheet } from 'react-native';
 import { Modal, View, Text } from 'react-native-ui-lib';
+import {EventComponent} from '../Now/EventComponent';
 
 export class EventDetailsModal extends Component {
   dismiss = () => {
@@ -12,14 +13,16 @@ export class EventDetailsModal extends Component {
     return (
       <View>
         <Modal.TopBar
-          title={this.props.event.name}
           onCancel={this.dismiss}
         />
-        <View style={styles.mainContent}>
+        {/* <View style={styles.mainContent}>
           <Text>Event Start: {new Date(this.props.event.start).toLocaleDateString()}</Text>
           <Text>Event End: {new Date(this.props.event.end).toLocaleDateString()}</Text>
           <Text>Event Description:</Text>
-        </View>
+        </View> */}
+         <EventComponent index={0} title={this.props.event.title} place={this.props.event.locationName} time={'12:00'}
+                      address={this.props.event.locationAddress} description={this.props.event.description}
+                      color={this.props.event.color} />
       </View>
     );
   }
