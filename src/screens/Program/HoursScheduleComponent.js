@@ -103,7 +103,7 @@ const styles = StyleSheet.create({
   },
   eventContaier: {
     display: 'flex',
-    flexDirection: 'row'
+    flexDirection: 'column'
   },
   time: {
     width: 100,
