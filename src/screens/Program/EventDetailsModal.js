@@ -15,11 +15,6 @@ export class EventDetailsModal extends Component {
         <Modal.TopBar
           onCancel={this.dismiss}
         />
-        {/* <View style={styles.mainContent}>
-          <Text>Event Start: {new Date(this.props.event.start).toLocaleDateString()}</Text>
-          <Text>Event End: {new Date(this.props.event.end).toLocaleDateString()}</Text>
-          <Text>Event Description:</Text>
-        </View> */}
          <EventComponent index={0} title={this.props.event.title} place={this.props.event.locationName} time={'12:00'}
                       address={this.props.event.locationAddress} description={this.props.event.description}
                       color={this.props.event.color} />
