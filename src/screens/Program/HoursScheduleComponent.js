@@ -17,9 +17,15 @@ export class HoursScheduleComponent extends Component {
     }
   }
 
+  componentWillReceiveProps(nextProps){
+    if(this.props.events !== nextProps.events){
+      this.setState({eventsByHour: getUpcomingEventsGroupedByHour(nextProps.events)})
+    }
+  }
+
   renderContent() {
     const rows = [];
-    for (let hour = this.props.firstHour; hour < this.props.lastHour; hour += HALF_AN_HOUR) {
+    for (let hour = this.props.firstHour; hour < 24; hour += HALF_AN_HOUR) {
       rows.push(
         <ScheduleRow
           navigator={this.props.navigator}
@@ -61,8 +67,8 @@ class ScheduleRow extends Component {
       </Text>
       <View style={styles.eventContaier}>
         {this.props.events.map(event =>
-          <TouchableOpacity key={event.name} onPress={() => this.onEventPressed(event)}>
-            <Text text100 style={styles.event}>{event.name}</Text>
+          <TouchableOpacity key={event.title} onPress={() => this.onEventPressed(event)}>
+            <Text text100 style={styles.event}>{event.title}</Text>
           </TouchableOpacity>
         )}
       </View>
@@ -114,9 +120,9 @@ const getTimeAsFormatedString = (time) => {
 const getUpcomingEventsGroupedByHour = (events) => {
   const eventsByHour = {};
   events
-    .filter(event => event.start >= Date.now())
+    .filter(event => event.time >= Date.now())
     .forEach(event => {
-      const start = convertTimestampToScheduleHourFormat(event.start);
+      const start = convertTimestampToScheduleHourFormat(event.time);
       eventsByHour[start] = eventsByHour[start] || [];
       eventsByHour[start].push(event);
     });
@@ -131,13 +137,11 @@ const convertTimestampToScheduleHourFormat = (timestamp) => {
 
 HoursScheduleComponent.propTypes = {
   events: PropTypes.array,
-  lastHour: PropTypes.number,
   firstHour: PropTypes.number,
   highlightCurrentTime: PropTypes.bool,
   navigator: PropTypes.object
 }
 HoursScheduleComponent.defaultProps = {
   firstHour: convertTimestampToScheduleHourFormat(Date.now()),
-  lastHour: convertTimestampToScheduleHourFormat(Date.now()) + 12,
   highlightCurrentTime: true
 }

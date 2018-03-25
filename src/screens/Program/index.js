@@ -1,65 +1,39 @@
-import React, {Component} from 'react';
-import {Platform, StyleSheet,TouchableOpacity,ScrollView} from 'react-native';
-import {Text, View, Button} from 'react-native-ui-lib';
-import {HoursScheduleComponent} from './HoursScheduleComponent';
+import React, { Component } from 'react';
+import { Platform, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
+import { Text, View, Button } from 'react-native-ui-lib';
+import { HoursScheduleComponent } from './HoursScheduleComponent';
 import * as _ from 'lodash';
+import { connect } from 'remx';
+import * as giftsStore from '../../stores/gifts/store';
 
+// const MIDBURN_STARTING_DATE = 1526299661000;
+const MIDBURN_STARTING_DATE = 1522092866000; //fake date for presentation, set to 26.3
 
-const MIDBURN_STARTING_DATE = 14;
-//fake events, should be removed!
-const events = [{
-  name: 'old event',
-  start: Date.now() - 40 * 60000,
-  end: Date.now() - 10 * 60000
-}, {
-  name: 'now',
-  start: Date.now() + 1 * 60000,
-  end: Date.now() + 30 * 60000
-},
-{
-  name: 'now2',
-  start: Date.now() + 1 * 60000,
-  end: Date.now() + 30 * 60000
-}, {
-  name: 'two hours from now',
-  start: Date.now() + 120 * 60000,
-  end: Date.now() + 150 * 60000
-}, {
-  name: 'half an hour from now',
-  start: Date.now() + 30 * 60000,
-  end: Date.now() + 200 * 60000
-}, {
-  name: '40 min from now',
-  start: Date.now() + 40 * 60000,
-  end: Date.now() + 330 * 60000,
-}];
+const getNumericalStartingDate = () => {
+  return new Date(MIDBURN_STARTING_DATE).getDate();
+}
 
-export default class ProgramScreen extends Component {
+class ProgramScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
       dates: ["MON", "TUE", "WED", "THU", "FRI", "SAT"],
-      selectedDateIndex: 0,
-      events: [{
-        name: 'Full sun party',
-        description: 'Amazing party under the moon',
-        camp: 'Valahala',
-        time: '15:30'
-      },
-      {
-        name: 'Full sun party',
-        description: 'Amazing party under the moon',
-        camp: 'Valahala',
-        time: '15:30'
-      },
-      {
-        name: 'Full sun party',
-        description: 'Amazing party under the moon',
-        camp: 'Valahala',
-        time: '15:30'
-      }]
+      selectedDate: getNumericalStartingDate()
     }
   }
+
+  shouldDisplayEventForSelectedDate = (event) => {
+    return new Date(event.time).getDate() === this.state.selectedDate;
+  }
+
+  getFirstHourToShow() {
+      if(this.state.selectedDate === new Date().getDate()) {
+        return new Date().getHours();
+      } else {
+        return 0;
+      }
+  }
+
   render() {
     return (
       <View style={styles.container}>
@@ -70,22 +44,22 @@ export default class ProgramScreen extends Component {
             }
           </ScrollView>
         </View>
-        <HoursScheduleComponent events={events} firstHour={0} lastHour={24} highlightCurrentTime={false} navigator={this.props.navigator} />
+        <HoursScheduleComponent events={this.props.gifts.filter(this.shouldDisplayEventForSelectedDate)} firstHour={this.getFirstHourToShow()}  highlightCurrentTime={false} navigator={this.props.navigator} />
       </View>
     );
   }
 
   renderDateItem(date, i) {
     return (
-      <TouchableOpacity onPress={() => this.dateItemPressed(date, i)} key={date} style={[styles.dateItem, this.state.selectedDateIndex === i && styles.dateItemSelected]}>
+      <TouchableOpacity onPress={() => this.dateItemPressed(date, i)} key={date} style={[styles.dateItem, this.state.selectedDate === i + getNumericalStartingDate() && styles.dateItemSelected]}>
         <Text>{date}</Text>
-        <Text text100>{i + MIDBURN_STARTING_DATE}</Text>
+        <Text text100>{i + getNumericalStartingDate()}</Text>
       </TouchableOpacity>
     );
   }
 
   dateItemPressed(date, i) {
-    this.setState(_.merge(this.state, { selectedDateIndex: i }));
+    this.setState(_.merge(this.state, { selectedDate: i + getNumericalStartingDate() }));
   }
 }
 
@@ -104,3 +78,13 @@ const styles = StyleSheet.create({
     backgroundColor: 'gray'
   }
 });
+
+
+function mapStateToProps() {
+  return {
+    gifts: giftsStore.getters.getGifts()
+  };
+}
+
+export default connect(mapStateToProps)(ProgramScreen);
+
