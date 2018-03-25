@@ -90,10 +90,10 @@ class CampsScreen extends Component {
     return (
       <View row spread bg-dark70 marginT-8>
         <View flex center>
-          <Button title={FILTER.ABC} onPress={this._onFavouriteFilterBarPressed}/>
+          <Button title={FILTER.ABC} onPress={this._onFavouriteFilterBarPressed} />
         </View>
         <View flex center>
-          <Button title={FILTER.FAVOURITES} onPress={this._onABCFilterBarPressed}/>
+          <Button title={FILTER.FAVOURITES} onPress={this._onABCFilterBarPressed} />
         </View>
       </View>
     );
@@ -101,10 +101,11 @@ class CampsScreen extends Component {
 
   render() {
     return (
-      <View flex marginH-16>
+      <View flex>
         {this.state.showSearchBar && this._renderSearchBar()}
         {this._renderFilterBar()}
         <FlatList
+          style={{padding: 15}}
           data={this.props.campsData}
           renderItem={this._renderRow}
           keyExtractor={(item, index) => index}

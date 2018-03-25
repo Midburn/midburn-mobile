@@ -1,8 +1,8 @@
 import _ from 'lodash';
 import React, {PureComponent} from 'react';
 import {Image} from 'react-native';
-import {Text, View, TouchableOpacity} from 'react-native-ui-lib';
-import {getRandomImagesArray}from '../../../data/img';
+import {Text, View, Card} from 'react-native-ui-lib';
+import {getRandomImagesArray} from '../../../data/img';
 
 export default class CampsTab extends PureComponent {
 
@@ -21,7 +21,7 @@ export default class CampsTab extends PureComponent {
       <View>
         {_.map(this.icons, (src, key) => {
           return (
-            <Image key={key} source={src} style={{width: 30, height: 30, margin: 4}}/>
+            <Image key={key} source={src} style={{width: 30, height: 30, margin: 4}} />
           );
         })}
 
@@ -37,16 +37,25 @@ export default class CampsTab extends PureComponent {
     );
   }
 
+  // render() {
+  //   return (
+  //     <View flex bg-dark70 margin-16 marginH-0 marginB-0 paddingV-8 style={{borderRadius: 3}}>
+  //       <TouchableOpacity onPress={this._onPress} style={{flex: 1}}>
+  //         <View row left flex>
+  //           {/* {this._renderSidePanel()} */}
+  //           {this._renderContent()}
+  //         </View>
+  //       </TouchableOpacity>
+  //     </View>
+  //   );
+  // }
   render() {
     return (
-      <View flex bg-dark70 margin-16 marginH-0 marginB-0 paddingV-8 style={{borderRadius: 3}}>
-        <TouchableOpacity onPress={this._onPress} style={{flex: 1}}>
-          <View row left flex>
-            {/* {this._renderSidePanel()} */}
-            {this._renderContent()}
-          </View>
-        </TouchableOpacity>
-      </View>
+      <Card onPress={this._onPress} key={this.props.index} containerStyle={{marginBottom: 15}}>
+        <Card.Section style={{alignItems: 'center'}} body>
+          <Text text50>{this.props.title}</Text>
+        </Card.Section>
+      </Card>
     );
   }
 }
