@@ -11,17 +11,14 @@ export class EventComponent extends Component {
       expanded: false
     }
   }
-//style={{height: this.state.expanded ? undefined : 35}}
   renderDescriptionText() {
+    let numberOfLines = 2;
     if (this.state.expanded) {
-      return (
-        <Text text90 color={Colors.dark10}>
-          {this.props.description}
-        </Text>
-      );
+      numberOfLines = undefined;
     }
+
     return (
-      <Text text90 color={Colors.dark10} numberOfLines={2}>
+      <Text text90 color={Colors.dark10} numberOfLines={numberOfLines}>
         {this.props.description}
       </Text>
     );
