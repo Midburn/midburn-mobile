@@ -10,8 +10,8 @@ const SEARCH_BUTTON_ID = 'camp_search';
 const PLACEHOLDER_SEARCH_INPUT = 'Type camp to serach';
 
 const FILTER = {
-  FAVOURITES: 'Favourites',
-  ABC: 'ABC'
+  CAMPS: 'Camps',
+  ART: 'Art'
 };
 
 
@@ -48,12 +48,12 @@ class CampsScreen extends Component {
   }
 
   _onFavouriteFilterBarPressed = () => {
-    this._onFilterBarPressed(FILTER.FAVOURITES);
+    this._onFilterBarPressed(FILTER.ART);
 
   }
 
   _onABCFilterBarPressed = () => {
-    this._onFilterBarPressed(FILTER.ABC);
+    this._onFilterBarPressed(FILTER.CAMPS);
   }
 
   _onFilterBarPressed(type) {
@@ -90,10 +90,10 @@ class CampsScreen extends Component {
     return (
       <View row spread bg-dark70 marginT-8>
         <View flex center>
-          <Button title={FILTER.ABC} onPress={this._onFavouriteFilterBarPressed} />
+          <Button title={FILTER.CAMPS} onPress={this._onFavouriteFilterBarPressed} />
         </View>
         <View flex center>
-          <Button title={FILTER.FAVOURITES} onPress={this._onABCFilterBarPressed} />
+          <Button title={FILTER.ART} onPress={this._onABCFilterBarPressed} />
         </View>
       </View>
     );
