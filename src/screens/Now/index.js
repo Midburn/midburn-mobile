@@ -7,6 +7,19 @@ import * as giftsStore from '../../stores/gifts/store';
 import {EventComponent} from './EventComponent';
 
 class NowScreen extends Component {
+
+  static navigatorButtons = {
+    rightButtons: [
+      {
+        id: 'surprise_me',
+        title: 'Now',
+        icon: require('../../../data/img/present_new.png'),
+
+      },
+    ]
+  };
+
+
   constructor(props) {
     super(props);
   }
