@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
-import {Text, Card, Colors, Button} from 'react-native-ui-lib';
+import {Text, Card, Colors, Button, View, Image} from 'react-native-ui-lib';
+
+const DOWN_ARROW = require('./../../../data/img/down.png');
+const UP_ARROW = require('./../../../data/img/up.png');
 
 export class EventComponent extends Component {
   constructor(props) {
@@ -19,12 +22,17 @@ export class EventComponent extends Component {
             </Text>
           </Card.Section>
           <Card.Section>
-            <Text text90 color={Colors.dark10} style={{height: this.state.expanded ? undefined : 35}}>
-              {this.props.description}
-            </Text>
+            <View column>
+              <Text text90 color={Colors.dark10} style={{height: this.state.expanded ? undefined : 35}}>
+                {this.props.description}
+              </Text>
+              <View center>
+                <Image style={{width: 30, height: 30}} source={this.state.expanded ? UP_ARROW : DOWN_ARROW}/>
+              </View>
+            </View>
           </Card.Section>
           <Card.Section footer>
-          <Card.Item>
+            <Card.Item>
               <Text text90 color={this.props.color}>
                 {this.props.place + ' | '}
               </Text>
