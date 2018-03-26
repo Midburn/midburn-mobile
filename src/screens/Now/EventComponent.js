@@ -11,6 +11,21 @@ export class EventComponent extends Component {
       expanded: false
     }
   }
+//style={{height: this.state.expanded ? undefined : 35}}
+  renderDescriptionText() {
+    if (this.state.expanded) {
+      return (
+        <Text text90 color={Colors.dark10}>
+          {this.props.description}
+        </Text>
+      );
+    }
+    return (
+      <Text text90 color={Colors.dark10} numberOfLines={2}>
+        {this.props.description}
+      </Text>
+    );
+  }
 
   render() {
     return (
@@ -23,9 +38,7 @@ export class EventComponent extends Component {
           </Card.Section>
           <Card.Section>
             <View column>
-              <Text text90 color={Colors.dark10} style={{height: this.state.expanded ? undefined : 35}}>
-                {this.props.description}
-              </Text>
+              {this.renderDescriptionText()}
               <View center>
                 <Image style={{width: 30, height: 30}} source={this.state.expanded ? UP_ARROW : DOWN_ARROW}/>
               </View>
