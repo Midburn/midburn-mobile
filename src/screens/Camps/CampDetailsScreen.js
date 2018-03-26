@@ -3,8 +3,9 @@ import React, {Component} from 'react';
 import {ScrollView, Image, Dimensions} from 'react-native';
 import {Text, View, Button} from 'react-native-ui-lib';
 import {getRandomImage} from '../../../data/img';
+import {getRandomCoverImage} from '../../../data/cover-images';
 
-const COVER_IMAGE_EXAMPLE = require('./../../../data/cover-images/heart-1137259_1280.jpg');
+// const COVER_IMAGE_EXAMPLE = require('./../../../data/cover-images/heart-1137259_1280.jpg');
 const SAHRE_FEELINGS_TEXT = 'Share with us your feeling & thought about this camp';
 const {height, width} = Dimensions.get('window');
 const ICON_SIZE = 30;
@@ -21,12 +22,11 @@ export default class CampDetailsScreen extends Component {
   }
 
   renderCoverImage() {
-    console.log('RANG', 'renderCoverImage', this.props.data.coverUrl);
     return (
       <View>
         <Image
           style={{width: IMAGE_SIZE.width, height: IMAGE_SIZE.height}}
-          source={COVER_IMAGE_EXAMPLE}
+          source={getRandomCoverImage()}
         />
       </View>
     );
