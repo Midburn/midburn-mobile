@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
-import { StyleSheet } from 'react-native';
-import { Modal, View, Text } from 'react-native-ui-lib';
-import { EventComponent } from '../Now/EventComponent';
+import React, {Component} from 'react';
+import {StyleSheet} from 'react-native';
+import {Modal, View, Text}  from 'react-native-ui-lib';
+import {EventComponent} from '../Now/EventComponent';
 
 export class EventDetailsModal extends Component {
+
+  static navigatorStyle = {
+    navBarHidden: true
+  };
+
   dismiss = () => {
     this.props.navigator.dismissModal({
       animationType: 'slide-down'
@@ -11,7 +16,7 @@ export class EventDetailsModal extends Component {
   }
   render() {
     return (
-      <View>
+      <View padding-15>
         <Modal.TopBar
           onCancel={this.dismiss}
         />
