@@ -1,34 +1,56 @@
 import _ from 'lodash';
 import * as remx from 'remx';
 
+const TABS = {
+  CAMPS: 0,
+  ART: 1
+};
+
 const state = remx.state({
   camps: [],
-  search: undefined
+  art: [],
+  search: undefined,
+  selectedTab: TABS.CAMPS
 });
 
 export const setters = remx.setters({
   setCamps(camps) {
     state.camps = camps;
   },
+  setArt(art) {
+    state.art = art;
+  },
   setSearch(search) {
     state.search = search;
+  },
+  setSelectedTab(selected) {
+    state.selectedTab = selected;
   }
 });
 
 export const getters = remx.getters({
+  getSelectedTab() {
+    return state.selectedTab;
+  },
   getSearchText() {
     return state.search;
   },
-  getCampsToShow() {
+  getArtDataToShow() {
+    return getters.getDataToShow(state.art);
+  },
+  getCampsDataToShow() {
+    return getters.getDataToShow(state.camps);
+  },
+  getDataToShow(dataArray) {
     if (state.search) {
-      const ans = _.filter(state.camps, (camp) => {
-        if (camp['title']) {
-          return camp['title'].toLowerCase().includes(state.search.toLowerCase());
+      const ans = _.filter(dataArray, (obj) => {
+        if (obj['title']) {
+          return obj['title'].toLowerCase().includes(state.search.toLowerCase());
         } return false;
       });
       return ans;
     }
-    return state.camps;
+    return dataArray;
   },
   getCampForId(campId) {
     return _.find(state.camps, (camp) => camp.campId === campId);

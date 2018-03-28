@@ -4,7 +4,12 @@ import * as _ from 'lodash';
 
 export function loadCamps() {
   const data = require('../../../data/2018/camps');
-  store.setters.setCamps(data)
+  store.setters.setCamps(data);
+}
+
+export function loadArt() {
+  const data = require('../../../data/2018/arts');
+  store.setters.setArt(data);
 }
 
 export function showCampScreen({data, navigator}) {

@@ -1,7 +1,8 @@
-import * as campsActions from './camps/actions';
+import * as campsAndArtActions from './campsAndArt/actions';
 import * as giftsActions from './gifts/actions';
 
 export function loadTabsData() {
-  campsActions.loadCamps();
+  campsAndArtActions.loadCamps();
+  campsAndArtActions.loadArt();
   giftsActions.loadGifts();
 }
