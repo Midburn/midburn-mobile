@@ -1,12 +1,9 @@
 import React, { Component } from 'react';
-import { Platform, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
+import { Platform, TouchableOpacity, ScrollView } from 'react-native';
 import { Text, View, Button } from 'react-native-ui-lib';
 import PropTypes from 'prop-types';
-import SCREENS from './../../screens/screenNames';
+import {Styles} from './Styles'; 
 
-const DARK_GRAY = '#C9C9C9';
-const MID_GRAY = '#E4E4E4';
-const LIGHT_GRAY = '#D7D7D7';
 const HALF_AN_HOUR = 0.5;
 
 export class HoursScheduleComponent extends Component {
@@ -28,7 +25,7 @@ export class HoursScheduleComponent extends Component {
     for (let hour = this.props.firstHour; hour < 24; hour += HALF_AN_HOUR) {
       rows.push(
         <ScheduleRow
-          navigator={this.props.navigator}
+          onEventPressed={this.props.onEventPressed}
           isOddRow={Number.isInteger(hour)}
           isFirstRow={hour === this.props.firstHour}
           key={hour}
@@ -42,7 +39,7 @@ export class HoursScheduleComponent extends Component {
 
   render() {
     return (
-      <ScrollView style={styles.container}>
+      <ScrollView style={Styles.hourTableContainer}>
         {this.renderContent()}
       </ScrollView>);
   }
@@ -53,65 +50,21 @@ class ScheduleRow extends Component {
     return this.props.highlightCurrentTime && this.props.hour === convertTimestampToScheduleHourFormat(Date.now());
   }
 
-  onEventPressed = (event) => {
-    this.props.navigator.showModal({
-      screen: SCREENS.EVENT_DETAILS,
-      passProps: {event}
-    });
-  }
-
   render() {
-    return (<View style={[styles.row, this.props.isOddRow ? styles.oddRow : styles.evenRow]}>
-      <Text text80 style={[styles.time, this.shouldHighlightRow() && styles.boldText]} key={this.props.hour}>
+    return (<View style={[Styles.hourTableRow, this.props.isOddRow ? Styles.hourTableOddRow : Styles.hourTableEvenRow]}>
+      <Text text80 style={[Styles.timeCell, this.shouldHighlightRow() && Styles.boldText]} key={this.props.hour}>
         {getTimeAsFormatedString(this.props.hour % 24)}
       </Text>
-      <View style={styles.eventContaier}>
+      <View style={Styles.eventContaier}>
         {this.props.events.map(event =>
-          <TouchableOpacity key={event.title} onPress={() => this.onEventPressed(event)}>
-            <Text text100 style={styles.event}>{event.title}</Text>
+          <TouchableOpacity key={event.title} onPress={() => this.props.onEventPressed(event)}>
+            <Text text100  style={Styles.event}>{event.title}</Text>
           </TouchableOpacity>
         )}
       </View>
     </View>);
   }
 }
-
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: DARK_GRAY,
-    width: '100%'
-  },
-  row: {
-    display: 'flex',
-    flexDirection: 'row',
-    width: '100%'
-  },
-  oddRow: {
-    backgroundColor: MID_GRAY
-  },
-  evenRow: {
-    backgroundColor: LIGHT_GRAY
-  },
-  boldText: {
-    fontWeight: 'bold'
-  },
-  event: {
-    backgroundColor: 'white',
-    textAlign: 'center',
-    padding: 5,
-    margin: 5,
-  },
-  eventContaier: {
-    display: 'flex',
-    flexDirection: 'column'
-  },
-  time: {
-    width: 100,
-    paddingTop: 10,
-    paddingBottom: 10,
-    paddingLeft: 15
-  }
-});
 
 const getTimeAsFormatedString = (time) => {
   return Number.isInteger(time) ? `${time}:00` : `${Math.floor(time)}:30`
@@ -136,10 +89,10 @@ const convertTimestampToScheduleHourFormat = (timestamp) => {
 };
 
 HoursScheduleComponent.propTypes = {
-  events: PropTypes.array,
+  events: PropTypes.array.isRequired,
   firstHour: PropTypes.number,
-  highlightCurrentTime: PropTypes.bool,
-  navigator: PropTypes.object
+  highlightCurrentTime: PropTypes.bool.isRequired,
+  onEventPressed: PropTypes.func.isRequired,
 }
 HoursScheduleComponent.defaultProps = {
   firstHour: convertTimestampToScheduleHourFormat(Date.now()),
