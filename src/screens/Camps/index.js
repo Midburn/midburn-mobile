@@ -1,10 +1,10 @@
 import React, {Component} from 'react';
-import {FlatList, TextInput, Button} from 'react-native';
-import {View} from 'react-native-ui-lib';
+import {FlatList} from 'react-native';
+import {View, TabBar, TextInput, Text} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import CampRow from './CampRow';
-import * as campsStore from '../../stores/camps/store';
-import * as actions from './../../stores/camps/actions';
+import * as store from '../../stores/campsAndArt/store';
+import * as actions from './../../stores/campsAndArt/actions';
 
 const SEARCH_BUTTON_ID = 'camp_search';
 const PLACEHOLDER_SEARCH_INPUT = 'Type camp to serach';
@@ -38,7 +38,9 @@ class CampsScreen extends Component {
     if (event.id == SEARCH_BUTTON_ID) {
 
       this.setState({showSearchBar: !this.state.showSearchBar});
-      this.searchTextInputRef.focus();
+      if (this.searchTextInputRef) {
+        this.searchTextInputRef.focus();
+      }
     }
   }
 
@@ -58,6 +60,7 @@ class CampsScreen extends Component {
 
   _onFilterBarPressed(type) {
 
+    // actions.change
   }
 
   _renderRow = (data) => {
@@ -71,14 +74,22 @@ class CampsScreen extends Component {
     );
   }
 
+  onTextChanged = (text) => {
+    store.setters.setSearch(text)
+  }
+
+  onSelectedTabChanged = (index) => {
+    store.setters.setSelectedTab(index);
+  }
+
   _renderSearchBar() {
     return (
-      <View>
+      <View paddingH-8>
         <TextInput
           ref={(ref) => this.searchTextInputRef = ref}
           autoCorrect={false}
           style={{height: 40, borderColor: 'gray', borderWidth: 1}}
-          onChangeText={(text) => campsStore.setters.setSearch(text)}
+          onChangeText={this.onTextChanged}
           value={this.state.text}
           placeholder={PLACEHOLDER_SEARCH_INPUT}
         />
@@ -88,28 +99,50 @@ class CampsScreen extends Component {
 
   _renderFilterBar() {
     return (
-      <View row spread bg-dark70 marginT-8>
-        <View flex center>
-          <Button title={FILTER.CAMPS} onPress={this._onFavouriteFilterBarPressed} />
-        </View>
-        <View flex center>
-          <Button title={FILTER.ART} onPress={this._onABCFilterBarPressed} />
-        </View>
-      </View>
+        <TabBar
+          selectedIndex={this.props.selectedTab}
+          onChangeIndex={this.onSelectedTabChanged}
+          ref={element => (this.tabbar = element)}
+        >
+          <TabBar.Item label={FILTER.CAMPS} />
+          <TabBar.Item label={FILTER.ART} />
+        </TabBar>
+    );
+  }
+
+  renderCampsList() {
+    return (
+      <FlatList
+        key={'camps'}
+        style={{padding: 15, backgroundColor: '#74b9ff'}}
+        data={this.props.campsData}
+        renderItem={this._renderRow}
+        keyExtractor={(item, index) => index}
+        initialNumToRender={10}
+      />
+    );
+  }
+
+  renderArtList() {
+    return (
+      <FlatList
+        key={'art'}
+        style={{padding: 15, backgroundColor: '#fab1a0' }}
+        data={this.props.artData}
+        renderItem={this._renderRow}
+        keyExtractor={(item, index) => index}
+        initialNumToRender={10}
+      />
     );
   }
 
   render() {
+    console.log('RANG', 'render', this.props.selectedTab);
     return (
       <View flex>
         {this.state.showSearchBar && this._renderSearchBar()}
         {this._renderFilterBar()}
-        <FlatList
-          style={{padding: 15}}
-          data={this.props.campsData}
-          renderItem={this._renderRow}
-          keyExtractor={(item, index) => index}
-        />
+        {this.props.selectedTab === 0 ? this.renderCampsList() : this.renderArtList()}
       </View>
     );
   }
@@ -117,8 +150,10 @@ class CampsScreen extends Component {
 
 function mapStateToProps() {
   return {
-    campsData: campsStore.getters.getCampsToShow(),
-    searchText: campsStore.getters.getSearchText()
+    campsData: store.getters.getCampsDataToShow(),
+    artData: store.getters.getArtDataToShow(),
+    searchText: store.getters.getSearchText(),
+    selectedTab: store.getters.getSelectedTab()
   };
 }
 
