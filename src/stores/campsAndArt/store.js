@@ -10,7 +10,8 @@ const state = remx.state({
   camps: [],
   art: [],
   search: undefined,
-  selectedTab: TABS.CAMPS
+  selectedTab: TABS.CAMPS,
+  selectedTagIndex: undefined
 });
 
 export const setters = remx.setters({
@@ -25,6 +26,13 @@ export const setters = remx.setters({
   },
   setSelectedTab(selected) {
     state.selectedTab = selected;
+  },
+  setSelectedTagIndex(index) {
+    if (state.selectedTagIndex === index) {
+      state.selectedTagIndex = undefined;
+    } else {
+      state.selectedTagIndex = index;
+    }
   }
 });
 
@@ -59,5 +67,18 @@ export const getters = remx.getters({
   getCampTitle(campId) {
     const camp = getters.getCampForId(campId);
     _.get(camp, 'title');
+  },
+  getSelectedTagIndex() {
+    return state.selectedTagIndex
+  },
+  getAllTags() {
+
+    const tagsArray = _.map(state.camps, (camp) => {
+      return _.get(camp, 'tags');
+    });
+
+    const tagsWithDuplicates =  _.flattenDeep(tagsArray);
+    return _.uniq(tagsWithDuplicates);
+
   }
 });
