@@ -3,8 +3,10 @@ import {FlatList} from 'react-native';
 import {View, TabBar, TextInput, Text} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import CampRow from './CampRow';
+import IndicatorBar from '../components/IndicatorBar';
 import * as store from '../../stores/campsAndArt/store';
 import * as actions from './../../stores/campsAndArt/actions';
+import {getRandomImage} from '../../../data/img';
 
 const SEARCH_BUTTON_ID = 'camp_search';
 const PLACEHOLDER_SEARCH_INPUT = 'Type camp to serach';
@@ -54,21 +56,13 @@ class CampsScreen extends Component {
 
   }
 
-  _onABCFilterBarPressed = () => {
-    this._onFilterBarPressed(FILTER.CAMPS);
-  }
-
-  _onFilterBarPressed(type) {
-
-    // actions.change
-  }
-
   _renderRow = (data) => {
     return (
       <CampRow
         data={data.item}
         campId={data.item.campId}
         title={data.item.title}
+        tags={data.item.tags}
         onPress={this._onRowPressed}
       />
     );
@@ -80,6 +74,11 @@ class CampsScreen extends Component {
 
   onSelectedTabChanged = (index) => {
     store.setters.setSelectedTab(index);
+  }
+
+  onTagsFilterPressed = (index) => {
+    store.setters.setSelectedTagIndex(index);
+
   }
 
   _renderSearchBar() {
@@ -136,11 +135,23 @@ class CampsScreen extends Component {
     );
   }
 
+  _renderTagsFilterBar() {
+    return (
+      <IndicatorBar
+        itemSize={40}
+        items={this.props.tags}
+        containerStyle={{padding: 8}}
+        selectedIndex={this.props.selectedTagIndex}
+        onChangeIndex={this.onTagsFilterPressed}
+      />
+    );
+  }
+
   render() {
-    console.log('RANG', 'render', this.props.selectedTab);
     return (
       <View flex>
         {this.state.showSearchBar && this._renderSearchBar()}
+        {this._renderTagsFilterBar()}
         {this._renderFilterBar()}
         {this.props.selectedTab === 0 ? this.renderCampsList() : this.renderArtList()}
       </View>
@@ -153,7 +164,9 @@ function mapStateToProps() {
     campsData: store.getters.getCampsDataToShow(),
     artData: store.getters.getArtDataToShow(),
     searchText: store.getters.getSearchText(),
-    selectedTab: store.getters.getSelectedTab()
+    selectedTab: store.getters.getSelectedTab(),
+    selectedTagIndex: store.getters.getSelectedTagIndex(),
+    tags: store.getters.getAllTags()
   };
 }
 
