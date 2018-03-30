@@ -31,6 +31,7 @@ function start() {
         label: 'Extra',
         screen: SCREENS.EXTRA,
         title: 'Extra',
+        icon: require('../data/img/campfire.png')
       }
 
     ],
