@@ -4,6 +4,7 @@ import {ScrollView, Image, Dimensions} from 'react-native';
 import {Text, View, Button} from 'react-native-ui-lib';
 import {getRandomImage} from '../../../data/img';
 import {getRandomCoverImage} from '../../../data/cover-images';
+import {EventsComponent} from './../Now/EventsComponent';
 
 // const COVER_IMAGE_EXAMPLE = require('./../../../data/cover-images/heart-1137259_1280.jpg');
 const SAHRE_FEELINGS_TEXT = 'Share with us your feeling & thought about this camp';
@@ -77,6 +78,22 @@ export default class CampDetailsScreen extends Component {
     );
   }
 
+  renderGifts() {
+    return (
+      <EventsComponent
+        gifts={this.props.gifts}
+      />
+    );
+  }
+
+  renderGiftsHeader() {
+    return (
+      <View>
+        <Text text50>Gifts</Text>
+      </View>
+    );
+  }
+
   render() {
     return (
       <View flex >
@@ -87,6 +104,11 @@ export default class CampDetailsScreen extends Component {
             {this.renderIcons()}
             {this.renderDescription()}
             {this.renderSharingBlock()}
+          </View>
+
+          <View flex margin-16>
+            {this.renderGiftsHeader()}
+            {this.renderGifts()}
           </View>
         </ScrollView>
       </View>
