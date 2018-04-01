@@ -135,24 +135,11 @@ class CampsScreen extends Component {
     );
   }
 
-  _renderTagsFilterBar() {
-    return (
-      <IndicatorBar
-        itemSize={40}
-        items={this.props.tags}
-        containerStyle={{padding: 8}}
-        selectedIndex={this.props.selectedTagIndex}
-        onChangeIndex={this.onTagsFilterPressed}
-      />
-    );
-  }
 
   render() {
     return (
       <View flex>
         {this.state.showSearchBar && this._renderSearchBar()}
-        {this._renderTagsFilterBar()}
-        {this._renderFilterBar()}
         {this.props.selectedTab === 0 ? this.renderCampsList() : this.renderArtList()}
       </View>
     );
