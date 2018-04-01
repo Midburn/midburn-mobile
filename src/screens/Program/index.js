@@ -1,104 +1,38 @@
 import React, { Component } from 'react';
-import { Platform, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
-import { Text, View, Button, TabBar } from 'react-native-ui-lib';
-import { HoursScheduleComponent } from './HoursScheduleComponent';
-import * as _ from 'lodash';
-import { connect } from 'remx';
+import {StyleSheet, FlatList} from 'react-native';
+import {View} from 'react-native-ui-lib';
+import {connect} from 'remx';
 import * as giftsStore from '../../stores/gifts/store';
-import * as giftsActions from '../../stores/gifts/actions';
-import SCREENS from './../../screens/screenNames';
-var moment = require('moment');
-import {EventsComponent} from '../Now/EventsComponent';
-
-// const MIDBURN_STARTING_DATE = 1526299661000;
-const MIDBURN_STARTING_DATE = 1522092866000; //fake date for presentation, set to 26.3
-
-const getNumericalStartingDate = () => {
-  return new Date(MIDBURN_STARTING_DATE).getDate();
-}
+import {EventComponent} from './../Now/EventComponent';
 
 class ProgramScreen extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      dates: ["MON", "TUE", "WED", "THU", "FRI", "SAT"],
-      selectedDate: getNumericalStartingDate(),
-      selectedIndex: 0
-    }
-  }
 
-  componentDidMount() {
-    this.dateItemPressed(0);
-  }
-
-  isSelectedDateIsCurrentDate(){
-    return this.state.selectedDate === new Date().getDate();
-  }
-
-  shouldDisplayEventForSelectedDate = (event) => {
-    return new Date(event.time).getDate() === this.state.selectedDate;
-  }
-
-  getFirstHourToShow() {
-    if (this.isSelectedDateIsCurrentDate()) {
-      return new Date().getHours();
-    } else {
-      return 0;
-    }
-  }
-  onEventPressed = (event) => {
-    this.props.navigator.showModal({
-      screen: SCREENS.EVENT_DETAILS,
-      passProps: { event }
-    });
-  }
-  
-  getDateItemColor(i){
-    return this.state.selectedIndex === i ? '#F56897': 'black';
-  }
-
-  renderDateItem(date, i) {
+  _renderRow(gift, i) {
     return (
-      <TouchableOpacity onPress={() => this.dateItemPressed(date, i)} key={date} style={[styles.dateItem, this.state.selectedIndex === i && styles.dateItemSelected]}>
-        <Text color={this.getDateItemColor(i)} >{date}</Text>
-        <Text color={this.getDateItemColor(i)} text100>{i + getNumericalStartingDate()}</Text>
-      </TouchableOpacity>
+      <EventComponent index={i} title={gift.item.title}
+                      place={gift.item.locationName}
+                      time={'12:00'}
+                      address={gift.item.locationAddress}
+                      description={gift.item.description}
+                      color={gift.item.color}
+      />
     );
   }
 
-  dateItemPressed(date, i) {
-    const newDate = moment(MIDBURN_STARTING_DATE, 'x').add(i, 'day');
-    this.selectedDate(newDate);
-    this.setState(_.merge(this.state, { selectedDate: newDate, selectedIndex: i }));
-  }
-
-  selectedDate(date) {
-    giftsActions.presentGiftsByDate(date);
-  }
-
-  handleOnTabChange = (selectedTabIndex) => {
-    this.setState({ selectedTabIndex });
-  }
-
-  renderDatePicker() {
-    return (
-      <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-          {
-            this.state.dates.map((date, i) => this.renderDateItem(date, i))
-          }
-        </ScrollView>
-    );
-  }
   renderPublicTab(){
     return (
-      <EventsComponent gifts={this.props.gifts} />
+      <FlatList
+        data={this.props.gifts}
+        style={{padding: 15}}
+        renderItem={this._renderRow}
+        keyExtractor={(item, index) => index}
+      />
     );
   }
 
   render() {
     return (
       <View style={styles.container}>
-        {this.renderDatePicker()}
         {this.renderPublicTab()}
       </View>
     );
@@ -110,7 +44,7 @@ const styles = StyleSheet.create({
     flex: 1
   },
   dateItem: {
-    height: 65,
+    height: 35,
     width: 75,
     alignItems: 'center',
     justifyContent: 'center'
@@ -118,9 +52,9 @@ const styles = StyleSheet.create({
 });
 
 
-function mapStateToProps(props) {
+function mapStateToProps() {
   return {
-    gifts: giftsStore.getters.getPresentedGifts()
+    gifts: giftsStore.getters.getAllGifts()
   };
 }
 
