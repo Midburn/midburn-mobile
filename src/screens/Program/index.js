@@ -25,6 +25,27 @@ class ProgramScreen extends Component {
       selectedDate: getNumericalStartingDate(),
       selectedIndex: 0
     }
+
+    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
+  }
+
+  static navigatorButtons = {
+    leftButtons: [
+      {
+        id: 'filter_tags',
+        icon: require('../../../data/img/filter.png')
+      }
+    ]
+  };
+
+  onNavigatorEvent(event) {
+    if (event.type == 'NavBarButtonPress') {
+      if (event.id == 'filter_tags') {
+        this.props.navigator.showModal({
+          screen: SCREENS.FILTER_TAGS
+        });
+      }
+    }
   }
 
   componentDidMount() {
