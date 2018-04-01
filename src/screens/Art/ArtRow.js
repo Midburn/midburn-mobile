@@ -47,9 +47,10 @@ export default class ArtRow extends PureComponent {
   render() {
     return (
       <Card onPress={this._onPress} key={this.props.index} containerStyle={{marginBottom: 15}}>
-        <Card.Image height={120} imageSource={} />
+        <Card.Image height={120} imageSource={require('../../../data/cover-images/cover1.jpg')} />
         <Card.Section style={{flexDirection: 'row', alignItems: 'center'}} body>
           <Text text50>{this.props.title}</Text>
+          <Image source={require('../../../data/img/hart_empty.png')}/>
         </Card.Section>
 
       </Card>
