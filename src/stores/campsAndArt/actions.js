@@ -1,4 +1,5 @@
 import * as store from './store'
+import * as giftsStore from './../gifts/store'
 import SCREEN_NAMES from "../../screens/screenNames";
 import * as _ from 'lodash';
 
@@ -13,9 +14,13 @@ export function loadArt() {
 }
 
 export function showCampScreen({data, navigator}) {
+  const gifts = giftsStore.getters.getAllGifts();
   navigator.push({
     screen: SCREEN_NAMES.CAMP_SCREEN,
-    passProps: {data: _.clone(data)},
+    passProps: {
+      data: _.clone(data),
+      gifts
+    },
     title: data.title
   })
 }
