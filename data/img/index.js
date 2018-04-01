@@ -47,7 +47,7 @@ function tagToImg(tag) {
       return img_1;
     case 'adult':
       return img_2;
-    case 'alchohol':
+    case 'Alcohol':
       return img_3;
     case 'sound':
       return img_4;
