@@ -140,7 +140,7 @@ const styles = StyleSheet.create({
 
 function mapStateToProps() {
   return {
-    gifts: giftsStore.getters.getGifts()
+    gifts: giftsStore.getters.getAllGifts()
   };
 }
 

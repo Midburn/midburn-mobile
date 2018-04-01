@@ -8,6 +8,7 @@
     "xcode": "open ios/MidburnMobileApp.xcodeproj"
   },
   "dependencies": {
+    "moment": "^2.22.0",
     "prop-types": "^15.6.1",
     "react": "16.0.0",
     "react-native": "0.51.0",

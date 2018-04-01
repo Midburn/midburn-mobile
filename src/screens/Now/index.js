@@ -5,6 +5,7 @@ import * as _ from 'lodash';
 import {connect} from 'remx';
 import * as giftsStore from '../../stores/gifts/store';
 import {EventComponent} from './EventComponent';
+var moment = require('moment');
 
 class NowScreen extends Component {
 
@@ -25,6 +26,9 @@ class NowScreen extends Component {
   }
 
   render() {
+    if (this.props.gifts.length === 0) {
+      return this.renderEmptyState();
+    }
     return (
       <FlatList
           data={this.props.gifts}
@@ -36,9 +40,17 @@ class NowScreen extends Component {
     );
   }
 
+  renderEmptyState() {
+    return (
+      <View flex style={styles.emptyContainer}>
+        <Text text70 dark20>No available events 🤔</Text>
+      </View>
+    );
+  }
+
   _renderRow(gift, i) {
     return (
-      <EventComponent index={i} title={gift.item.title} place={gift.item.locationName} time={'12:00'}
+      <EventComponent index={i} title={gift.item.title} place={gift.item.locationName} time={gift.item.hour}
                       address={gift.item.locationAddress} description={gift.item.description}
                       color={gift.item.color} />
     );
@@ -48,12 +60,17 @@ class NowScreen extends Component {
 const styles = StyleSheet.create({
   list: {
     padding: 15
+  },
+  emptyContainer: {
+    justifyContent: 'center',
+    alignItems: 'center'
   }
 });
 
 function mapStateToProps() {
   return {
-    gifts: giftsStore.getters.getGifts()
+    gifts: giftsStore.getters.getGiftsInRange(moment().subtract(3, 'days'), moment().add(3, 'days'))
+    // gifts: giftsStore.getters.getGiftsInRange(moment(), moment().add(3, 'hours'))
   };
 }
 

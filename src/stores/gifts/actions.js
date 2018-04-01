@@ -1,12 +1,14 @@
 import * as store from './store'
 import SCREEN_NAMES from "../../screens/screenNames";
+var moment = require('moment');
 
 export function loadGifts() {
   const gifts = require('../../../data/2018/gifts');
   gifts.forEach(gift => {
-    gift.color = getRandomColor()
+    gift.color = getRandomColor();
+    gift.hour = moment(gift.time, 'x').format("HH:mm");
   });
-  
+
   store.setters.setGifts(gifts);
 }
 
@@ -19,8 +21,3 @@ function getRandomColor() {
   }
   return color;
 }
-// function giftsByDate(gifts) {
-//   gifts.forEach(gift => {
-    
-//   });
-// }
