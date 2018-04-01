@@ -5,29 +5,13 @@ import { HoursScheduleComponent } from './HoursScheduleComponent';
 import * as _ from 'lodash';
 import { connect } from 'remx';
 import * as giftsStore from '../../stores/gifts/store';
+import * as giftsActions from '../../stores/gifts/actions';
 import SCREENS from './../../screens/screenNames';
+var moment = require('moment');
+import {EventsComponent} from '../Now/EventsComponent';
+
 // const MIDBURN_STARTING_DATE = 1526299661000;
 const MIDBURN_STARTING_DATE = 1522092866000; //fake date for presentation, set to 26.3
-const events = [{
-  title: 'old event',
-  time: Date.now() - 40 * 60000,
-}, {
-  title: 'now',
-  time: Date.now() + 1 * 60000,
-},
-{
-  title: 'now2',
-  time: Date.now() + 1 * 60000,
-}, {
-  title: 'two hours from now',
-  time: Date.now() + 120 * 60000,
-}, {
-  title: 'half an hour from now',
-  time: Date.now() + 30 * 60000,
-}, {
-  title: '40 min from now',
-  time: Date.now() + 40 * 60000,
-}];
 
 const getNumericalStartingDate = () => {
   return new Date(MIDBURN_STARTING_DATE).getDate();
@@ -39,8 +23,12 @@ class ProgramScreen extends Component {
     this.state = {
       dates: ["MON", "TUE", "WED", "THU", "FRI", "SAT"],
       selectedDate: getNumericalStartingDate(),
-      selectedTabIndex: 0
+      selectedIndex: 0
     }
+  }
+
+  componentDidMount() {
+    this.dateItemPressed(0);
   }
 
   isSelectedDateIsCurrentDate(){
@@ -66,12 +54,12 @@ class ProgramScreen extends Component {
   }
   
   getDateItemColor(i){
-    return this.state.selectedDate === i + getNumericalStartingDate()? '#F56897': 'black';
+    return this.state.selectedIndex === i ? '#F56897': 'black';
   }
 
   renderDateItem(date, i) {
     return (
-      <TouchableOpacity onPress={() => this.dateItemPressed(date, i)} key={date} style={[styles.dateItem, this.state.selectedDate === i + getNumericalStartingDate() && styles.dateItemSelected]}>
+      <TouchableOpacity onPress={() => this.dateItemPressed(date, i)} key={date} style={[styles.dateItem, this.state.selectedIndex === i && styles.dateItemSelected]}>
         <Text color={this.getDateItemColor(i)} >{date}</Text>
         <Text color={this.getDateItemColor(i)} text100>{i + getNumericalStartingDate()}</Text>
       </TouchableOpacity>
@@ -79,47 +67,39 @@ class ProgramScreen extends Component {
   }
 
   dateItemPressed(date, i) {
-    this.setState(_.merge(this.state, { selectedDate: i + getNumericalStartingDate() }));
+    const newDate = moment(MIDBURN_STARTING_DATE, 'x').add(i, 'day');
+    this.selectedDate(newDate);
+    this.setState(_.merge(this.state, { selectedDate: newDate, selectedIndex: i }));
   }
+
+  selectedDate(date) {
+    giftsActions.presentGiftsByDate(date);
+  }
+
   handleOnTabChange = (selectedTabIndex) => {
     this.setState({ selectedTabIndex });
   }
 
-  renderPrivateTab() {
+  renderDatePicker() {
     return (
-      <View>
-        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+      <ScrollView horizontal showsHorizontalScrollIndicator={false}>
           {
             this.state.dates.map((date, i) => this.renderDateItem(date, i))
           }
         </ScrollView>
-        <HoursScheduleComponent
-          // events={this.props.gifts.filter(this.shouldDisplayEventForSelectedDate)} 
-          events={events}
-          onEventPressed={this.onEventPressed}
-          firstHour={this.getFirstHourToShow()}
-          highlightCurrentTime={this.isSelectedDateIsCurrentDate()}
-        />
-      </View>
     );
   }
-
   renderPublicTab(){
     return (
-      <Text>Yogev's component comes here</Text>
+      <EventsComponent gifts={this.props.gifts} />
     );
   }
 
   render() {
     return (
       <View style={styles.container}>
-        <TabBar
-          selectedIndex={this.state.selectedTabIndex}
-          onChangeIndex={this.handleOnTabChange}>
-          <TabBar.Item label={'Public'} />
-          <TabBar.Item label={'Private'} />
-        </TabBar>
-        {this.state.selectedTabIndex === 0 ? this.renderPublicTab() : this.renderPrivateTab()}
+        {this.renderDatePicker()}
+        {this.renderPublicTab()}
       </View>
     );
   }
@@ -130,7 +110,7 @@ const styles = StyleSheet.create({
     flex: 1
   },
   dateItem: {
-    height: 35,
+    height: 65,
     width: 75,
     alignItems: 'center',
     justifyContent: 'center'
@@ -138,9 +118,9 @@ const styles = StyleSheet.create({
 });
 
 
-function mapStateToProps() {
+function mapStateToProps(props) {
   return {
-    gifts: giftsStore.getters.getAllGifts()
+    gifts: giftsStore.getters.getPresentedGifts()
   };
 }
 

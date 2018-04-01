@@ -5,6 +5,8 @@ import * as _ from 'lodash';
 import {connect} from 'remx';
 import * as giftsStore from '../../stores/gifts/store';
 import {EventComponent} from './EventComponent';
+import {EventsComponent} from './EventsComponent';
+
 var moment = require('moment');
 
 class NowScreen extends Component {
@@ -15,57 +17,18 @@ class NowScreen extends Component {
         id: 'surprise_me',
         title: 'Now',
         icon: require('../../../data/img/present_new.png'),
-
       },
     ]
   };
 
-
-  constructor(props) {
-    super(props);
-  }
-
   render() {
-    if (this.props.gifts.length === 0) {
-      return this.renderEmptyState();
-    }
     return (
-      <FlatList
-          data={this.props.gifts}
-          style={styles.list}
-          renderItem={this._renderRow}
-          keyExtractor={(item, index) => index}
-          style={styles.list}
-        />
-    );
-  }
-
-  renderEmptyState() {
-    return (
-      <View flex style={styles.emptyContainer}>
-        <Text text70 dark20>No available events 🤔</Text>
-      </View>
-    );
-  }
-
-  _renderRow(gift, i) {
-    return (
-      <EventComponent index={i} title={gift.item.title} place={gift.item.locationName} time={gift.item.hour}
-                      address={gift.item.locationAddress} description={gift.item.description}
-                      color={gift.item.color} />
+      <EventsComponent
+          gifts={this.props.gifts}
+      />
     );
   }
 }
-
-const styles = StyleSheet.create({
-  list: {
-    padding: 15
-  },
-  emptyContainer: {
-    justifyContent: 'center',
-    alignItems: 'center'
-  }
-});
 
 function mapStateToProps() {
   return {

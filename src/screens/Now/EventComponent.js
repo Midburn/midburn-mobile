@@ -59,6 +59,14 @@ export class EventComponent extends Component {
     );
   }
 
+  renderTag() {
+    return (
+      <View>
+        <Text>Sound</Text>
+      </View>
+    );
+  }
+
   expandCardPressed() {
     this.setState({expanded: !this.state.expanded});
   }
