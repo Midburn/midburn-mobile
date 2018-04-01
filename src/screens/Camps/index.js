@@ -19,11 +19,14 @@ const FILTER = {
 
 class CampsScreen extends Component {
 
+  static navigatorStyle = {
+    navBarButtonColor: '#ed1b68'
+  };
   static navigatorButtons = {
     rightButtons: [
       {
         id: 'camp_search',
-        systemItem: 'search'
+        icon: require('../../../data/img/hart_full.png'),
       }
     ]
   };
