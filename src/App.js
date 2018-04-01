@@ -22,6 +22,12 @@ function start() {
         icon: require('../data/img/campfire.png')
       },
       {
+        label: 'Art',
+        screen: SCREENS.ART,
+        title: 'Art',
+        icon: require('../data/img/campfire.png')
+      },
+      {
         label: 'Program',
         screen: SCREENS.PROGRAM,
         title: 'Program',
