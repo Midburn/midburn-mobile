@@ -14,7 +14,6 @@ export default class ArtRow extends PureComponent {
     super(props);
   }
 
-
   _onPress = () => {
     this.props.onPress(this.props.data);
   }
@@ -40,7 +39,6 @@ export default class ArtRow extends PureComponent {
   _renderContent() {
     return (
       <View flex row>
-
         <Text text60 margin-19>{this.props.title}</Text>
       </View>
     );
@@ -51,7 +49,6 @@ export default class ArtRow extends PureComponent {
       <Card onPress={this._onPress} key={this.props.index} containerStyle={{marginBottom: 15}}>
         <Card.Image height={120} imageSource={require('../../../data/cover-images/cover1.jpg')} />
         <Card.Section style={{flexDirection: 'row', alignItems: 'center'}} body>
-
           <Text text50>{this.props.title}</Text>
         </Card.Section>
 
