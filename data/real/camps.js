@@ -6,13 +6,48 @@ process.on('unhandledRejection', r => console.log(r));
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
 
-const extractCampData = camp => {
+// const extractCampData = camp => {
+//
+//     return {
+//         campId: camp.id,
+//         campName_he: camp['camp_name_he'],
+//         campName_en: camp['camp_name_en'],
+//     }
+// };
 
-    return {
-        campId: camp.id,
-        campName_he: camp['camp_name_he'],
-        campName_en: camp['camp_name_en'],
+const randomUUID = () => {
+    let d = new Date().getTime();
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,
+        c => {
+            const r = (d + Math.random()*16)%16 | 0;
+            d = Math.floor(d/16);
+            return (c === 'x' ? r : (r&0x3|0x8)).toString(16);
+        });
+};
+
+
+const AllCamps = [];
+
+const extractCampData = gift => {
+    const camp = AllCamps.find(c => c.campName === gift.campName )
+    if (!camp) {
+        const newCamp = {
+            campId: randomUUID(),
+            campName: gift.campName,
+            gifts: [gift.giftId],
+        };
+
+        AllCamps.push( newCamp )
+    } else {
+        camp.gifts.push( gift.giftId )
     }
+};
+
+const applyGeneratedCampIds = gifts => {
+    AllCamps.forEach( camp => {
+        const giftsForCamp = gifts.filter( g => g.campName === camp.campName );
+        giftsForCamp.forEach( g => g.campId = camp.campId );
+    })
 };
 
 /*
@@ -127,9 +162,6 @@ const extractGiftTags = (tags, hearingImpaired, kidsOrAdults) => {
     return extractedTags;
 };
 
-const allTags = new Set();
-
-
 const extractGiftData = gift => {
     const dateDesc = gift['יום בו מתרחשת הפעילות'];
     const hourDesc = gift['שעה'].split(':');
@@ -137,7 +169,6 @@ const extractGiftData = gift => {
     const tags = gift[' מה האייקונים המתארים הכי נכון את הפעילות? בחרו עד 3 אייקונים לכל היותר! (שימו לב בחירה של יותר מ-3 אפשרויות תוביל ללקיחת 3 האפשרויות הראשונות שנבחרו) אם אתם מרגישים שאתם חייבים לבחור עוד אייקון - רשמו לנו איזה בהערות למטה'].split(',').map(t => t.trim());
     const hearingImpaired = gift['האם הפעילות מונגשת בשפת הסימנים?'];
     const kidsOrAdults = gift['האם הפעילות מיועדת לילדים או מתאימה למבוגרים בלבד? (אם הפעילות בתחום האפור אל תסמנו כלום)'];
-    tags.forEach( t => allTags.add(t) );
 
     const giftTags = extractGiftTags(tags, hearingImpaired, kidsOrAdults);
 
@@ -148,6 +179,7 @@ const extractGiftData = gift => {
     return giftDates.map(date => {
         return {
             campId: '',
+            giftId: randomUUID(),
             campName: gift['שם המחנה'],
             description: gift['תיאור הפעילות בעברית'],
             descriptionEn: gift['תיאור הפעילות באנגלית'],
@@ -212,6 +244,8 @@ const extractGiftData = gift => {
 //     const camp = midburnCamps[0];
 //     console.log(extractCampData(camp));
 //
+//     return writeFile('../2018/camps.json', JSON.stringify(midburnCamps, null, '\t'));
+//
 //     // camps.map(camp => {
 //     //     camp
 //     //     }
@@ -220,47 +254,16 @@ const extractGiftData = gift => {
 
 readFile('gifts.json').then(file => {
     const gifts = JSON.parse(file);
-
-
     const giftsParsed = Object.keys(gifts).map((key) => gifts[key] );
-        // obj.hasOwnProperty(key)
 
-        // key: the name of the object key
-        // index: the ordinal position of the key within the object
-    // });
+    const giftsProcessed = [].concat.apply([], giftsParsed.map(extractGiftData));
 
+    giftsProcessed.forEach( extractCampData );
 
-    // const gift = giftsParsed[4];
-
-    // extractGiftData(giftsParsed[1])
-    // extractGiftData(giftsParsed[2])
-    // extractGiftData(giftsParsed[3])
-    // extractGiftData(giftsParsed[4])
-
-    giftsParsed.map(extractGiftData)
-    console.log()
-    console.log()
-    console.log()
-    console.log()
-    console.log(allTags)
+    applyGeneratedCampIds( giftsProcessed );
 
 
-    return writeFile('../2018/gifts.json', JSON.stringify(giftsParsed.map(extractGiftData),null, '\t'));
-    // console.log(JSON.stringify(allTags))
-
-    // console.log(extractGiftData(giftsParsed[3]))
-    // console.log(extractGiftData(gift))
-
-    // const midburnCamps = camps.filter(c => c['event_id'] === 'MIDBURN2018' && c['__prototype'] === 'theme_camp');
-    //
-    // const camp = midburnCamps[0];
-    // console.log(extractCampData(camp));
-
-    // camps.map(camp => {
-    //     camp
-    //     }
-    // );
-
-
+    return writeFile('../2018/camps.json', JSON.stringify(AllCamps, null, '\t'))
+        .then( writeFile('../2018/gifts.json', JSON.stringify(giftsProcessed, null, '\t')) );
 });
 
