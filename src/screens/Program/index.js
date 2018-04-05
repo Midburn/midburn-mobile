@@ -11,7 +11,8 @@ var moment = require('moment');
 import {EventsComponent} from '../Now/EventsComponent';
 
 // const MIDBURN_STARTING_DATE = 1526299661000;
-const MIDBURN_STARTING_DATE = 1522092866000; //fake date for presentation, set to 26.3
+// const MIDBURN_STARTING_DATE = 1522092866000; //fake date for presentation, set to 26.3
+const MIDBURN_STARTING_DATE = 1522915200; //fake date for presentation, set to 26.3
 
 const getNumericalStartingDate = () => {
   return new Date(MIDBURN_STARTING_DATE).getDate();
@@ -24,7 +25,7 @@ class ProgramScreen extends Component {
       dates: ["MON", "TUE", "WED", "THU", "FRI", "SAT"],
       selectedDate: getNumericalStartingDate(),
       selectedIndex: 0
-    }
+    };
 
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
   }

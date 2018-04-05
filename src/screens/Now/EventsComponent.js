@@ -1,14 +1,13 @@
 import React, {Component} from 'react';
 import {Platform, StyleSheet, TouchableOpacity, FlatList} from 'react-native';
 import {Text, View, Button, Card, Colors} from 'react-native-ui-lib';
-import * as _ from 'lodash';
+import _ from 'lodash';
 import {connect} from 'remx';
-import * as giftsStore from '../../stores/gifts/store';
 import {EventComponent} from './EventComponent';
 
 export class EventsComponent extends Component {
   render() {
-    if (this.props.gifts.length === 0) {
+    if (_.get(this.props, 'gifts.length') === 0) {
       return this.renderEmptyState();
     }
     return (
@@ -32,9 +31,14 @@ export class EventsComponent extends Component {
 
   _renderRow(gift, i) {
     return (
-      <EventComponent index={i} title={gift.item.title} place={gift.item.locationName} time={gift.item.hour}
-                      address={gift.item.locationAddress} description={gift.item.description}
-                      color={gift.item.color} />
+      <EventComponent index={i}
+                      titleEn={gift.item.titleEn}
+                      place={gift.item.locationName}
+                      time={gift.item.hour}
+                      address={gift.item.locationAddress}
+                      descriptionEn={gift.item.descriptionEn}
+                      color={gift.item.color}
+      />
     );
   }
 }

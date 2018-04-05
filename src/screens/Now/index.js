@@ -33,7 +33,6 @@ class NowScreen extends Component {
 function mapStateToProps() {
   return {
     gifts: giftsStore.getters.getGiftsInRange(moment().subtract(3, 'days'), moment().add(3, 'days'))
-    // gifts: giftsStore.getters.getGiftsInRange(moment(), moment().add(3, 'hours'))
   };
 }
 

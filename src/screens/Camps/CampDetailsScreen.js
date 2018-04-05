@@ -7,7 +7,7 @@ import {getRandomCoverImage} from '../../../data/cover-images';
 import {EventsComponent} from './../Now/EventsComponent';
 
 // const COVER_IMAGE_EXAMPLE = require('./../../../data/cover-images/heart-1137259_1280.jpg');
-const SAHRE_FEELINGS_TEXT = 'Share with us your feeling & thought about this camp';
+const SHARE_FEELINGS_TEXT = 'Share with us your feeling & thought about this camp';
 const {height, width} = Dimensions.get('window');
 const ICON_SIZE = 30;
 
@@ -36,7 +36,7 @@ export default class CampDetailsScreen extends Component {
   renderDescription() {
     return (
       <View marginT-20>
-        <Text text70>{this.props.data.description}</Text>
+        <Text text70>{this.props.description}</Text>
       </View>
     );
   }
@@ -44,7 +44,7 @@ export default class CampDetailsScreen extends Component {
   renderTitle() {
     return (
       <View center marginT-30>
-        <Text text40>{this.props.data.title}</Text>
+        <Text text40>{this.props.title}</Text>
       </View>
     );
   }
@@ -52,7 +52,7 @@ export default class CampDetailsScreen extends Component {
   renderSharingBlock() {
     return (
       <View bg-dark70 padding-10 marginT-12>
-        <Button link label={SAHRE_FEELINGS_TEXT} labelProps={{numberOfLines: 2, center: true}}/>
+        <Button link label={SHARE_FEELINGS_TEXT} labelProps={{numberOfLines: 2, center: true}}/>
       </View>
     );
   }
@@ -60,7 +60,7 @@ export default class CampDetailsScreen extends Component {
   renderIcons() {
     return (
       <View row marginT-30>
-        {_.map(this.props.data.tags, (tag, i) => {
+        {_.map(this.props.tags, (tag, i) => {
             return (
               <View marginR-6 key={i}>
                 <Image
@@ -69,11 +69,8 @@ export default class CampDetailsScreen extends Component {
                 />
               </View>
             );
-
           }
-
         )}
-
       </View>
     );
   }
@@ -96,7 +93,7 @@ export default class CampDetailsScreen extends Component {
 
   render() {
     return (
-      <View flex >
+      <View flex>
         <ScrollView style={{backgroundColor: '#F2F4F5'}}>
           {this.renderCoverImage()}
           <View flex margin-30 marginT-0>

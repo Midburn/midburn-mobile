@@ -52,5 +52,12 @@ export const getters = remx.getters({
       return moment(gift.time, 'x').isBetween(fromDate, toDate) && gift.campId === campId;
     });
     return _.sortBy(filteredGifts, ['hour']);
+  },
+
+  getGiftsForCampId(campId) {
+    const filteredGifts = _.filter(state.gifts, (gift) => {
+      return gift.campId === campId;
+    });
+    return filteredGifts;
   }
 });

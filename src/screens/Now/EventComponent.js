@@ -5,40 +5,20 @@ const DOWN_ARROW = require('./../../../data/img/down.png');
 const UP_ARROW = require('./../../../data/img/up.png');
 
 export class EventComponent extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      expanded: false
-    }
-  }
-  renderDescriptionText() {
-    let numberOfLines = 2;
-    if (this.state.expanded) {
-      numberOfLines = undefined;
-    }
-
-    return (
-      <Text text90 color={Colors.dark10} numberOfLines={numberOfLines}>
-        {this.props.description}
-      </Text>
-    );
-  }
-
   render() {
     return (
-      <Card onPress={this.expandCardPressed.bind(this)} key={this.props.index} containerStyle={{marginBottom: 15}}>
+      <Card key={this.props.index} containerStyle={{marginBottom: 15}}>
         <Card.Section body>
           <Card.Section>
             <Text text50 color={Colors.dark10}>
-              {this.props.title}
+              {this.props.titleEn}
             </Text>
           </Card.Section>
           <Card.Section>
             <View column>
-              {this.renderDescriptionText()}
-              <View center>
-                <Image style={{width: 30, height: 30}} source={this.state.expanded ? UP_ARROW : DOWN_ARROW}/>
-              </View>
+              <Text text90 color={Colors.dark10}>
+                {this.props.descriptionEn}
+              </Text>
             </View>
           </Card.Section>
           <Card.Section footer>
@@ -65,9 +45,5 @@ export class EventComponent extends Component {
         <Text>Sound</Text>
       </View>
     );
-  }
-
-  expandCardPressed() {
-    this.setState({expanded: !this.state.expanded});
   }
 }

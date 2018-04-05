@@ -3,18 +3,12 @@ import {FlatList} from 'react-native';
 import {View, TabBar, TextInput, Text} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import CampRow from './CampRow';
-import IndicatorBar from '../components/IndicatorBar';
 import * as store from '../../stores/campsAndArt/store';
 import * as actions from './../../stores/campsAndArt/actions';
-import {getRandomImage} from '../../../data/img';
 
 const SEARCH_BUTTON_ID = 'camp_search';
+const FAVOURITES_BUTTON_ID = 'camp_favourites';
 const PLACEHOLDER_SEARCH_INPUT = 'Type camp to serach';
-
-const FILTER = {
-  CAMPS: 'Camps',
-  ART: 'Art'
-};
 
 
 class CampsScreen extends Component {
@@ -25,7 +19,11 @@ class CampsScreen extends Component {
   static navigatorButtons = {
     rightButtons: [
       {
-        id: 'camp_search',
+        id: SEARCH_BUTTON_ID,
+        systemItem: 'search'
+      },
+      {
+        id: FAVOURITES_BUTTON_ID,
         icon: require('../../../data/img/hart_full.png'),
       }
     ]
@@ -41,11 +39,14 @@ class CampsScreen extends Component {
 
   onNavigatorEvent(event) {
     if (event.id == SEARCH_BUTTON_ID) {
-
       this.setState({showSearchBar: !this.state.showSearchBar});
       if (this.searchTextInputRef) {
         this.searchTextInputRef.focus();
       }
+    }
+
+    if (event.id == FAVOURITES_BUTTON_ID) {
+      actions.showFavouritesScreen(this.props.navigator, '', this._renderRow, this._onRowPressed);
     }
   }
 
@@ -64,7 +65,7 @@ class CampsScreen extends Component {
       <CampRow
         data={data.item}
         campId={data.item.campId}
-        title={data.item.title}
+        title={data.item.campName}
         tags={data.item.tags}
         onPress={this._onRowPressed}
       />

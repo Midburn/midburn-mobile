@@ -6,7 +6,6 @@ import ArtRow from './ArtRow';
 import IndicatorBar from '../components/IndicatorBar';
 import * as store from '../../stores/campsAndArt/store';
 import * as actions from './../../stores/campsAndArt/actions';
-import {getRandomImage} from '../../../data/img';
 
 const SEARCH_BUTTON_ID = 'camp_search';
 const PLACEHOLDER_SEARCH_INPUT = 'Type camp to serach';
@@ -61,7 +60,7 @@ class ArtScreen extends Component {
       <ArtRow
         data={data.item}
         campId={data.item.campId}
-        title={data.item.title}
+        title={data.item.nameEn}
         tags={data.item.tags}
         imageUrl={data.item.imageUrl}
         onPress={this._onRowPressed}
