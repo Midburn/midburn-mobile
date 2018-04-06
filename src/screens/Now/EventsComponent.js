@@ -1,25 +1,11 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, TouchableOpacity, FlatList} from 'react-native';
+import {StyleSheet, FlatList} from 'react-native';
 import {Text, View, Button, Card, Colors} from 'react-native-ui-lib';
 import _ from 'lodash';
 import {connect} from 'remx';
 import {EventComponent} from './EventComponent';
 
 export class EventsComponent extends Component {
-  render() {
-    if (_.get(this.props, 'gifts.length') === 0) {
-      return this.renderEmptyState();
-    }
-    return (
-      <FlatList
-          data={this.props.gifts}
-          style={styles.list}
-          renderItem={this._renderRow}
-          keyExtractor={(item, index) => index}
-          style={styles.list}
-        />
-    );
-  }
 
   renderEmptyState() {
     return (
@@ -39,6 +25,21 @@ export class EventsComponent extends Component {
                       descriptionEn={gift.item.descriptionEn}
                       color={gift.item.color}
       />
+    );
+  }
+
+  render() {
+    if (_.get(this.props, 'gifts.length') === 0) {
+      return this.renderEmptyState();
+    }
+    return (
+      <FlatList
+          data={this.props.gifts}
+          style={styles.list}
+          renderItem={this._renderRow}
+          keyExtractor={(item, index) => index}
+          style={styles.list}
+        />
     );
   }
 }

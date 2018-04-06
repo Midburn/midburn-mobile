@@ -7,6 +7,7 @@ import {getRandomImage} from '../../../data/img';
 import SCREENS from './../../screens/screenNames';
 const IMPORTANT_PHONES = 'Important Phone';
 const MIDBURN_PRINCIPLES = 'Midburn Principles';
+const MAP =  'Map';
 const SETTINGS = 'Settings';
 
 const RIGHT_CHEVRON = require('../../../data/img/right-chevron.png');
@@ -28,6 +29,10 @@ const ITEMS = ds.cloneWithRows([
   },
   {
     image: '',
+    text: MAP,
+  },
+  {
+    image: '',
     text: SETTINGS,
   }
 ]);
@@ -35,7 +40,8 @@ const ITEMS = ds.cloneWithRows([
 
 export default class ExtraScreen extends Component {
 
-  onPrinciplesPressed = () => {
+  onPrinciplesPressed = (i) => {
+    console.log('RANG', 'onPrinciplesPressed', i);
     this.props.navigator.push({
       screen: SCREENS.PRINCIPLES
     })

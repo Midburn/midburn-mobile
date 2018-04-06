@@ -1,10 +1,7 @@
 import React, {Component} from 'react';
-import {Platform, StyleSheet, TouchableOpacity, FlatList} from 'react-native';
 import {Text, View, Button, Card, Colors} from 'react-native-ui-lib';
-import * as _ from 'lodash';
 import {connect} from 'remx';
 import * as giftsStore from '../../stores/gifts/store';
-import {EventComponent} from './EventComponent';
 import {EventsComponent} from './EventsComponent';
 
 var moment = require('moment');
