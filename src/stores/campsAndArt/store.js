@@ -70,15 +70,5 @@ export const getters = remx.getters({
   },
   getSelectedTagIndex() {
     return state.selectedTagIndex
-  },
-  getAllTags() {
-
-    const tagsArray = _.map(state.camps, (camp) => {
-      return _.get(camp, 'tags');
-    });
-
-    const tagsWithDuplicates =  _.flattenDeep(tagsArray);
-    return _.uniq(tagsWithDuplicates);
-
   }
 });

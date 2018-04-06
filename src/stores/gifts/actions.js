@@ -32,6 +32,9 @@ export function presentGiftsByDate(date) {
   store.setters.setPresentedGifts(store.getters.getGiftsByDay(date));
 }
 
+export function dismissFilterScreen(navigator) {
+  navigator.dismissModal();
+}
 
 function getRandomColor() {
   var letters = '0123456789ABCDEF';

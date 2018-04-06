@@ -41,7 +41,6 @@ const ITEMS = ds.cloneWithRows([
 export default class ExtraScreen extends Component {
 
   onPrinciplesPressed = (i) => {
-    console.log('RANG', 'onPrinciplesPressed', i);
     this.props.navigator.push({
       screen: SCREENS.PRINCIPLES
     })

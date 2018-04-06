@@ -157,7 +157,6 @@ function mapStateToProps() {
     searchText: store.getters.getSearchText(),
     selectedTab: store.getters.getSelectedTab(),
     selectedTagIndex: store.getters.getSelectedTagIndex(),
-    tags: store.getters.getAllTags()
   };
 }
 

@@ -105,17 +105,6 @@ class ArtScreen extends Component {
     );
   }
 
-  _renderTagsFilterBar() {
-    return (
-      <IndicatorBar
-        itemSize={40}
-        items={this.props.tags}
-        containerStyle={{padding: 8}}
-        selectedIndex={this.props.selectedTagIndex}
-        onChangeIndex={this.onTagsFilterPressed}
-      />
-    );
-  }
 
   render() {
     return (
@@ -133,8 +122,7 @@ function mapStateToProps() {
     artData: store.getters.getArtDataToShow(),
     searchText: store.getters.getSearchText(),
     selectedTab: store.getters.getSelectedTab(),
-    selectedTagIndex: store.getters.getSelectedTagIndex(),
-    tags: store.getters.getAllTags()
+    selectedTagIndex: store.getters.getSelectedTagIndex()
   };
 }
 

@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import * as remx from 'remx';
-var moment = require('moment');
+import moment from 'moment';
 
 const state = remx.state({
   gifts: [],
@@ -59,5 +59,16 @@ export const getters = remx.getters({
       return gift.campId === campId;
     });
     return filteredGifts;
+  },
+
+  getAllTags() {
+
+    const tagsArray = _.map(state.gifts, (gift) => {
+      return _.get(gift, 'tags');
+    });
+
+    const tagsWithDuplicates =  _.flattenDeep(tagsArray);
+    return _.uniq(tagsWithDuplicates);
+
   }
 });

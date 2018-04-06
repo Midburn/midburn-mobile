@@ -1,18 +1,17 @@
-import React, { Component } from 'react';
-import { Platform, StyleSheet, TouchableOpacity, ScrollView } from 'react-native';
+import React, {Component} from 'react';
+import {StyleSheet, TouchableOpacity, ScrollView} from 'react-native';
 import { Text, View, Button, TabBar } from 'react-native-ui-lib';
-import { HoursScheduleComponent } from './HoursScheduleComponent';
 import * as _ from 'lodash';
 import { connect } from 'remx';
 import * as giftsStore from '../../stores/gifts/store';
 import * as giftsActions from '../../stores/gifts/actions';
 import SCREENS from './../../screens/screenNames';
-var moment = require('moment');
 import {EventsComponent} from '../Now/EventsComponent';
+import moment from 'moment';
 
 // const MIDBURN_STARTING_DATE = 1526299661000;
 // const MIDBURN_STARTING_DATE = 1522092866000; //fake date for presentation, set to 26.3
-const MIDBURN_STARTING_DATE = 1522915200; //fake date for presentation, set to 26.3
+const MIDBURN_STARTING_DATE = 1522915200; //fake date for presentation, set to 5.4
 
 const getNumericalStartingDate = () => {
   return new Date(MIDBURN_STARTING_DATE).getDate();
@@ -98,10 +97,6 @@ class ProgramScreen extends Component {
     giftsActions.presentGiftsByDate(date);
   }
 
-  handleOnTabChange = (selectedTabIndex) => {
-    this.setState({ selectedTabIndex });
-  }
-
   renderDatePicker() {
     return (
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
@@ -140,7 +135,7 @@ const styles = StyleSheet.create({
 });
 
 
-function mapStateToProps(props) {
+function mapStateToProps() {
   return {
     gifts: giftsStore.getters.getPresentedGifts()
   };
