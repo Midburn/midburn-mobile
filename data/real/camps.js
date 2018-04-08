@@ -132,8 +132,9 @@ const extractGiftData = gift => {
 };
 
 const downloadArtImage = async (artId, {name, url}) => {
-    await ensureDir(path.resolve(path.join()));
-    const file = path.resolve(path.join('..', '2018', 'images', 'arts', artId, name))
+    const baseDir = path.resolve(path.join('..', '2018', 'images', 'arts', `${artId}`));
+    await ensureDir(baseDir);
+    const file = path.resolve(path.join(baseDir, name))
     await download.image({
         url: url,
         dest: file,
@@ -144,7 +145,7 @@ const extractArtData = async art => {
     const artId = art['Id'];
     const imageUrls = await locateArtImages(artId);
 
-    imageUrls.forEach( async artUrl => await downloadArtImage(artId, artUrl) );
+    await Promise.all(imageUrls.map( async artUrl => await downloadArtImage(artId, artUrl) ));
 
     return {
         artId: artId,
@@ -288,7 +289,7 @@ const mainProcess = async () => {
 
     const artsRaw = await readJsonFile('art.json');
     const arts = Object.keys(artsRaw).map((key) => artsRaw[key] );
-    const artsProcessed = arts.map(extractArtData);
+    const artsProcessed = await Promise.all( arts.map(async art => await extractArtData(art)) );
     await writeJsonFile('arts.json', artsProcessed);
 };
 
