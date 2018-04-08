@@ -92,7 +92,6 @@ export const getters = remx.getters({
   getChunkedGifts() {
     const gifts = getters.getAllGifts();
     const ans =  _.chunk(gifts, gifts.length / 5);
-    console.log('RANG', 'getChunkedGifts', ans);
     return ans;
   }
 });
