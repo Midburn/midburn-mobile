@@ -1,12 +1,16 @@
 const fs = require('fs');
+const fse = require('fs-extra');
 const fetch = require('node-fetch');
 const {promisify} = require('util');
 const htmlparser = require("htmlparser2");
+const download = require('image-downloader');
+const path = require('path');
 
 process.on('unhandledRejection', r => console.log(r));
 
 const readFile = promisify(fs.readFile);
 const writeFile = promisify(fs.writeFile);
+const ensureDir = promisify(fse.ensureDir);
 
 const randomUUID = () => {
     let d = new Date().getTime();
@@ -18,28 +22,16 @@ const randomUUID = () => {
         });
 };
 
-
-const AllCamps = [];
-
-const extractCampData = gift => {
-    const camp = AllCamps.find(c => c.campName === gift.campName )
-    if (!camp) {
-        const newCamp = {
-            campId: randomUUID(),
-            campName: gift.campName,
-            gifts: [gift.giftId],
-        };
-
-        AllCamps.push( newCamp )
-    } else {
-        camp.gifts.push( gift.giftId )
-    }
-};
-
-const applyGeneratedCampIds = gifts => {
-    AllCamps.forEach( camp => {
+const applyGeneratedCampIds = (camps, gifts) => {
+    camps.forEach( camp => {
+        // todo: check that the filter matches !!!
         const giftsForCamp = gifts.filter( g => g.campName === camp.campName );
+
+        if (giftsForCamp.isEmpty) {
+            console.log(`cannot find match for ${camp.campName}`)
+        }
         giftsForCamp.forEach( g => g.campId = camp.campId );
+        camp.gifts = giftsForCamp.map(gift => gift.giftId);
     })
 };
 
@@ -137,77 +129,169 @@ const extractGiftData = gift => {
             tags: giftTags
         }
     });
-
 };
 
-const extractArtData = art => {
-  return {
-      artId: art['Id'],
-      name: art['Name'],
-      nameEn: art['En name'],
-      title: art['Subtitle'],
-      titleEn: art['En subtitle'],
-      description: art['Description'],
-      artist: art['Contact name'],
-      philosophy: art['Dreamprop philosophy'],
-  }
+const downloadArtImage = async (artId, {name, url}) => {
+    await ensureDir(path.resolve(path.join('..', '2018', 'arts', 'images', artId)));
+    const file = path.resolve(path.join('..', '2018', 'arts', 'images', artId, name))
+    const { filename/*, image*/ } = await download.image({
+        url: url,
+        dest: file,
+    });
+};
+
+const extractArtData = async art => {
+    const artDreamId = art['Id'];
+    const imageUrls = await locateArtImages(artDreamId);
+    const artId = randomUUID();
+
+    imageUrls.forEach( async artUrl => await downloadArtImage(artId, artUrl) );
+
+    return {
+        artId: artId,
+        name: art['Name'],
+        nameEn: art['En name'],
+        title: art['Subtitle'],
+        titleEn: art['En subtitle'],
+        description: art['Description'],
+        artist: art['Contact name'],
+        philosophy: art['Dreamprop philosophy'],
+        images: imageUrls.map(art => art.name),
+    }
 };
 
 
-const downloadArtImages = artId => {
-    return fetch(`https://dreams.midburn.org/dreams/${artId}`)
-        .then(res => res.text())
-        .then(body => {
-            const artImageUrls = [];
-            return new Promise(function(resolve, reject){
-                const parser = new htmlparser.Parser( {
-                    onopentag: function(name, attribs) {
-                        if (name === 'img') {
-                            artImageUrls.push(attribs.src);
-                        }
-                    },
-                    onend: function() {
-                        resolve(artImageUrls);
-                    }
-                });
-                parser.write(body);
-                parser.end();
+const locateArtImages = async artId => {
+    const res = await fetch(`https://dreams.midburn.org/dreams/${artId}`);
+    const body = await res.text();
 
-            });
+    const artImageUrls = [];
+    let counter = 1;
+    return await new Promise(function(resolve, reject){
+        const parser = new htmlparser.Parser( {
+            onopentag: function(name, attribs) {
+                if (name === 'img') {
+                    artImageUrls.push({
+                        name: `art${counter}.jpg`,
+                        url: attribs.src,
+                    });
+                    counter += 1;
+                }
+            },
+            onend: function() {
+                resolve(artImageUrls);
+            }
         });
+        parser.write(body);
+        parser.end();
+    });
 };
 
-downloadArtImages(294).then(console.log );
+const extractCampTags = (tags, disabledOptions, kidsOrAdults) => {
+
+    const extractedTags = [];
 
 
-readFile('art.json').then(file => {
-    const arts = JSON.parse(file);
-    const artsParsed = Object.keys(arts).map((key) => arts[key] );
 
-    const artsProcessed = artsParsed.map(extractArtData);
-    const imagesFuture = artsProcessed.map(a => {
-        return downloadArtImages(a.artId).then(images => {
-            a.imageUrls = images;
-            return a;
-        } )
-    } );
-
-    return Promise.all( imagesFuture )
-                  .then( artsWithImageUrls => writeFile('../2018/arts.json', JSON.stringify(artsWithImageUrls, null, '\t')) );
-});
-
-readFile('gifts.json').then(file => {
-    const gifts = JSON.parse(file);
-    const giftsParsed = Object.keys(gifts).map((key) => gifts[key] );
-
-    const giftsProcessed = [].concat.apply([], giftsParsed.map(extractGiftData));
-
-    giftsProcessed.forEach( extractCampData );
-
-    applyGeneratedCampIds( giftsProcessed );
+    if (disabledOptions === 'מונגש מוגבלויות לתנועה') {
+        extractedTags.push("PhysicallyDisabled")
+    }
+    if (disabledOptions === 'מונגש למוגבלויות ראיה') {
+        extractedTags.push("VisuallyImpaired")
+    }
+    if (disabledOptions === 'מונגש בשפת הסימנים (מוגבלויות שמיעה)') {
+        extractedTags.push("HearingImpaired")
+    }
 
 
-    return writeFile('../2018/camps.json', JSON.stringify(AllCamps, null, '\t'))
-        .then( writeFile('../2018/gifts.json', JSON.stringify(giftsProcessed, null, '\t')) );
-});
+    if (kidsOrAdults === 'הכניסה לקאמפ הינה למבוגרים בלבד (18+)') {
+        extractedTags.push("Adults")
+    } else if (kidsOrAdults === 'מיועד בעיקר/גם לילדים') {
+        extractedTags.push("Kids")
+    }
+    //
+    // if (tags.includes('אוכל') || tags.includes('שתיה')) {
+    //     extractedTags.push("ServesFoodOrDrinks")
+    // }
+    // if (tags.includes('אלכוהול')) {
+    //     extractedTags.push("Alcohol")
+    // }
+    // if (tags.includes('מסיבה')) {
+    //     extractedTags.push("Party")
+    // }
+    // if (tags.includes('פעילות בשפה האנגלית')) {
+    //     extractedTags.push("English")
+    // }
+    //
+    // if (tags.isElement) {
+    //     extractedTags.push("Other")
+    // }
+
+    return extractedTags;
+};
+
+const downloadImageForCamp = async (campId, coverUrl) => {
+    if ((!coverUrl || /^\s*$/.test(coverUrl))) {
+        console.log(`Empty cover url ${coverUrl}`)
+        return "";
+    }
+
+    await download.image({
+        url: `https://www.googleapis.com/drive/v3/files/${googleDriverFileId}?key=${googleApiKey}`,
+        // url: `https://googledrive.com/host/${googleDriverFileId}`,
+        dest: path.join(__baseDir, 'coverUrl.jpg'),
+    });
+    return `2018/camps/images/${campId}/coverUrl.jpg`
+};
+
+
+const extractCampsData = camp => {
+
+    const campId = randomUUID();
+    const tags = camp['סוג המחנה - בחרו עד 3 אייקונים שמציגים אתכם בצורה הטובה ביותר וממצים את הפעילויות שאתם עושים (שימו לב בחירה של יותר מ-3 אפשרויות תוביל ללקיחת 3 האפשרויות הראשונות שנבחרו) רוצים לבחור אפשרות רביעית? רשמו לנו בהערות למטה.'];
+    const disabledOptions = camp['האם הקאפ והפעילויות בו מונגשות?'];
+    const kidsOptions = camp['מה מקומם של ילדים בפעילויות הקאמפ?'];
+    const parsedTags = extractCampTags(tags, disabledOptions, kidsOptions);
+
+    const coverUrl = camp['השנה התוכניה תופיע גם באופציה דיגיטלית. לצורך כך נשמח לקבל מכם תמונה שמייצגת את הקאמפ. בסגנון סמל הקאמפ, חברי הקאמפ או כל דבר שלדעתכם יעביר את רוח הקאמפ.'];
+    // const imageName = await downloadImageForCamp(campId, coverUrl);
+    const imageName = coverUrl;
+
+
+    return {
+        campId: campId,
+        campName: camp['שם המחנה'],
+        description: camp['תיאור המחנה בעברית'],
+        descriptionEn: camp['תיאור המחנה באנגלית'],
+        coverUrl: imageName,
+        tags: parsedTags,
+    }
+};
+
+const readJsonFile = async (fileName) => readFile(fileName).then( JSON.parse );
+const writeJsonFile = async (fileName, data) => {
+    console.log(`Writing ${fileName}`)
+    writeFile(path.join('../2018', fileName), JSON.stringify(data, null, '\t'));
+}
+
+
+const mainProcess = async () => {
+    const camps = await readJsonFile('camps.json');
+    const campsProcessed = camps.map( extractCampsData );
+
+    const giftsRaw = await readJsonFile('gifts.json');
+    const gifts = Object.keys(giftsRaw).map((key) => giftsRaw[key] );
+    const giftsProcessed = [].concat.apply([], gifts.map(extractGiftData));
+    applyGeneratedCampIds( campsProcessed, giftsProcessed );
+
+    await writeJsonFile('camps.json', campsProcessed);
+    await writeJsonFile('gifts.json', giftsProcessed);
+
+    const artsRaw = await readJsonFile('art.json');
+    const arts = Object.keys(artsRaw).map((key) => artsRaw[key] );
+    const artsProcessed = arts.map(extractArtData);
+    await writeJsonFile('arts.json', artsProcessed);
+};
+
+mainProcess()
 
