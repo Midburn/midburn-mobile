@@ -1,1203 +1,1740 @@
 [
 	{
-		"campId": "ae1b435b-057f-448c-84ad-db75e3505cb3",
+		"campId": "7017970f-dced-4f85-b5d6-050350ae37a0",
 		"campName": "קוף X",
+		"description": "בדיקה למחוק",
+		"descriptionEn": "test",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled",
+			"Kids"
+		],
 		"gifts": [
-			"fd76f0e2-c450-4a8f-81b3-e666ccd9ad8d",
-			"c799366c-8f2c-494e-9177-1d4612c5df53",
-			"d4ac7165-147b-4c17-bd06-2639dbfad186",
-			"b101e4d0-1288-4a82-858c-e62fde5a7316",
-			"2bb48719-9376-4eab-b01f-fd18239f79a4",
-			"32c58591-5584-4aa0-87f7-de5d70ef51b2",
-			"9d67e54b-75cd-46f2-ba50-eb8d31798a24",
-			"71d61f8e-2388-4595-9e59-2e5f1964b56e",
-			"3bb17e73-814f-43da-a862-f92c75fc1c01",
-			"abe45ffd-f4b3-4189-8d18-1314235b8fa4",
-			"2994acf1-ea71-4df8-ab7e-07816116c34a",
-			"13825540-3fc0-4841-8024-65049f5f8036"
+			"e9286502-0f2d-4504-94a9-60c74978ae54",
+			"95c42093-ed17-4dc2-a76d-d18f39350225",
+			"2dfbd40a-3b97-494d-bb9a-6fa7f8f68f68",
+			"b50be36c-ecb2-4592-881d-78a317016134",
+			"e4e1ad40-98d0-4f5d-be12-5d569b7b6be1",
+			"fffc405a-0af5-468a-8cc1-0f97478e6ea7",
+			"42ed4d1e-1209-4ce3-9b91-3491f7bbce23",
+			"6b124efd-1c3d-4823-ad31-6fc29515048c",
+			"854be314-3285-4e1a-8780-53850f1a55b4",
+			"b1eea294-19a3-480a-97cc-c9ead7a58f75",
+			"9db22fb7-c6bb-4d1e-92f0-a4f15162bd94",
+			"c59be6c1-4c83-42b0-b9f3-2434014cdedd"
 		]
 	},
 	{
-		"campId": "2b33a0ad-3f54-4449-aa77-caf66b8d6e23",
-		"campName": "כנעניה",
-		"gifts": [
-			"24164af3-51de-4e41-9587-74c9ee442cfb",
-			"419889e0-6b77-40d4-adf9-0ce88459848e",
-			"c5d04659-7787-4ada-830b-5fbf19771d1d",
-			"6309a7da-c832-4957-b67e-bb1fffa755be",
-			"3fb0cc54-3a43-452d-86b7-b843afe92763",
-			"e1fdbdd5-e655-4878-8299-34b4a9dbf52c"
-		]
-	},
-	{
-		"campId": "6f9371de-6252-4d59-9e62-98a79704d3e2",
-		"campName": "מלביט",
-		"gifts": [
-			"a8f889dd-5c56-49a3-9215-0ef1bdab40a3",
-			"e6b6a6a2-234a-4662-8afc-81ebb0658ab6",
-			"dc1c5eb6-c7bb-4c2f-b432-0e25d386f1cd",
-			"ccbb18c7-cf44-4a4c-b33f-a4f589398a83",
-			"41a23de2-1ea4-49de-ae4b-92a43a104d7e",
-			"9887557e-be04-442f-a423-88ef2fafea2b"
-		]
-	},
-	{
-		"campId": "2b3d76e7-d053-4a22-8585-2871eb593ebc",
-		"campName": "מג'יק מרקרס",
-		"gifts": [
-			"fb407aff-ca85-4280-966d-01c9283ef953",
-			"cddb5935-97f1-46bb-af0e-047a03f98ce6",
-			"a801e2bb-c1d3-4003-adbc-455bb3cdaaa5",
-			"0582eaea-c38b-4674-b17c-fb995a50e545",
-			"57e1accb-2409-4f76-aa44-6c89a57b22ea",
-			"a2ba9443-24dc-43e8-82cd-a2f59998fa38"
-		]
-	},
-	{
-		"campId": "1d3dfc55-64f9-42f0-9a73-6312112e19b3",
-		"campName": "קוסומו",
-		"gifts": [
-			"7cf7c5c6-dfbd-40b8-96c7-9bbef11a9362"
-		]
-	},
-	{
-		"campId": "0bf3479d-d3f9-4ffa-a18c-5c000ae54bc2",
-		"campName": "קומורבי העין המדברים",
-		"gifts": [
-			"9d62a363-f1f7-415d-a2a4-40bd4f17e8e1",
-			"98e069cf-9a0a-454b-a43d-bd42ae5a8670",
-			"3fa6e6da-bf5a-4364-af1f-900836c64114",
-			"99f59759-94ab-44ee-a997-ec6aa672e3ce",
-			"82cb7dc2-663d-428a-8f4a-ee68aaf73901",
-			"4df60cc9-d5c9-41fe-80db-de9792f4c8e9"
-		]
-	},
-	{
-		"campId": "81b698d9-39b7-4dd6-9146-d924ee86854a",
-		"campName": "צ'אפטי",
-		"gifts": [
-			"0325b36e-aa3e-41b4-8450-a06aa98f493b",
-			"4701b0eb-d1b3-46da-87f3-91e21084eb9e",
-			"85895276-4d99-48bb-981f-15d6f86e7895",
-			"a9dffb51-60af-4d26-814b-e78f9442e798",
-			"8759ce1c-6e1c-40ad-8cdf-10fcbf876123",
-			"9fa363cb-5b38-4581-aebc-677691a37859"
-		]
-	},
-	{
-		"campId": "d586bb91-d68e-498f-a80f-a352911443f2",
-		"campName": "\"04\"",
-		"gifts": [
-			"07947fac-b733-4d17-8f56-9d45f70c746a",
-			"09fd2170-1b8b-4e79-877b-976dd10b35ab",
-			"093d27f9-96e6-464a-b09a-404b486880c9",
-			"985e4c4d-6942-42c4-a94a-69ea64738b0c",
-			"547f5e6b-f128-49b7-93c4-4d5640687510",
-			"0c5cebb1-302e-4b63-bbef-41f2eaf1e0ce",
-			"00c689ac-88ee-44ba-a599-9e1f267b3490"
-		]
-	},
-	{
-		"campId": "f4773c7e-e045-4ba6-a479-05636a4ad9b9",
-		"campName": "הילד הפנימי",
-		"gifts": [
-			"df7ae2d2-e924-4e35-9060-67c0a32a27b0",
-			"c3eb188a-590d-4d41-8fbe-8d3b07b0448e",
-			"c978bd70-fb95-4be0-a837-b726913d360b",
-			"a1770277-5b66-47e9-b817-ba94164dda98",
-			"511bc7d4-389f-4e02-bd7e-8b20361d0d1c",
-			"c0f89170-0a15-4f10-a113-4296ee656e77"
-		]
-	},
-	{
-		"campId": "35e91ae7-c262-4a97-9cd8-b32e8ba94668",
-		"campName": "סי ++ אבטיחים קרייזי קאמפ",
-		"gifts": [
-			"7a9c7e0b-dcc6-44cd-9c34-08c62c1d2783",
-			"52dc01f9-694a-4c6c-bbde-f4a133433781",
-			"8243705d-9bc8-4a2b-94ba-ec81bab4c832"
-		]
-	},
-	{
-		"campId": "8272c65c-3291-4ee0-9b04-67fc2d17e870",
-		"campName": "זקני השבט",
-		"gifts": [
-			"f624c20a-2ef2-40f7-9ac0-89a8431f2c4f",
-			"8f57886b-7e0a-4c2c-b1a9-e473d609ac55",
-			"2d251f7b-01fe-41e3-93b6-fdc9d699f9a7",
-			"b8cdc2c5-24d6-4b4b-97b7-47eacb3da46e",
-			"b6e815e0-cd39-42e6-b435-f572f469c026",
-			"b88e88b0-5de1-4e63-aaf0-12ee271721e9"
-		]
-	},
-	{
-		"campId": "3cb431c2-b772-4a1f-8961-b12fca280b9c",
-		"campName": "ראס אל שטן",
-		"gifts": [
-			"3bd1ddaa-17f8-445d-a337-47113574344e",
-			"fc2c9a05-ba6c-46ce-a654-33f2f796e2d3",
-			"1bc92645-b2e9-42c9-9a24-d8887b659b65",
-			"5798a09a-e43a-45e0-925b-25a30d0e51eb",
-			"939b945f-dd7c-4662-8966-c30b89b035a5",
-			"5e727d2a-a50f-4709-914c-0b07f8752d66"
-		]
-	},
-	{
-		"campId": "4cd90575-231b-45f5-90ab-94d25f5d97a4",
-		"campName": "בוקרף",
-		"gifts": [
-			"80ebfbf7-773e-47b4-8f43-5d55ce6fa4e2",
-			"9ce871ed-9696-4aae-a1f0-cb28585adf05",
-			"dde46da6-4a66-4aaf-9c31-edddb577bdfa",
-			"2e4cef5e-21dd-43ea-a79a-e9ea59762477",
-			"732bccdf-772a-413d-811f-0689c4cb4ff5",
-			"c269c121-e4cb-4ffc-965b-1e57bd95d1a6",
-			"b0a953e4-2080-4708-b944-69fc77a0ed0d"
-		]
-	},
-	{
-		"campId": "54bca456-abef-4a5d-abb5-663ecca441c4",
-		"campName": "שנ\"צ",
-		"gifts": [
-			"309d31d2-ed4f-4c30-87c5-5da78f1fa28d",
-			"b2093289-d2e4-47a0-bf95-f8953da869fb",
-			"efc0e5d8-8d75-4434-bb1c-ec720961a060",
-			"174a88d5-1af0-404c-af8e-e78c1621d302",
-			"4ce4d103-551f-4183-ab75-e5ae4e4a6e73",
-			"5abfe4cd-5e6b-466a-8e50-2b439d760f4b"
-		]
-	},
-	{
-		"campId": "fd1fe42a-9967-46fd-a1ce-db9b8b34e81a",
-		"campName": "איזוניישן",
-		"gifts": [
-			"8d04af0b-2a19-4dfb-a3e8-ae830c1b957a",
-			"ec249b95-ad18-4199-b38b-e483861aabe7"
-		]
-	},
-	{
-		"campId": "113a738c-9042-463a-8ee6-e9a560e30e41",
-		"campName": "קאמפי קאמפ",
-		"gifts": [
-			"09ec18fc-5646-4676-b78c-27ed57cba7e0",
-			"bbc84bd2-7020-460c-92e0-fa0fc498d334",
-			"b0e69529-c94b-485a-92ae-6d8cba79d48f",
-			"41500700-a4d2-4c9e-aad0-cc17ffba27ac",
-			"de1e437b-22d2-4a2b-9bca-00f2bf8ec958",
-			"e2ec9cda-ecb5-44d8-b839-83cf78e9c5d0",
-			"42eb470a-0d8b-4f8f-af64-1f2dfa6f9143",
-			"ba93dbaf-01aa-4770-83b5-9fc31b04541b",
-			"426a7349-7b10-4edf-add5-31081f661ee9",
-			"64dd97c7-4cfa-4e92-8fd0-5b4556fe1d64",
-			"168fd084-e2b2-4b36-af2d-d4ff155d4816",
-			"683c52c4-651b-48fe-a11c-eeed254e9a13"
-		]
-	},
-	{
-		"campId": "5f9afdb2-7f8a-4c02-8657-652c19e61cbc",
-		"campName": "נע ונד",
-		"gifts": [
-			"ff232421-2500-46bf-963d-a5ea749f7c26",
-			"d678d124-12f7-447f-bc99-3b9f86553736",
-			"eb3f4668-5194-47b8-9527-7e200bd53d4f",
-			"fca824f0-d2d9-4579-aed9-928ca3f9fb0b",
-			"976c5f8d-0099-419b-b7fa-3808cf359e81",
-			"9618f7c3-fc87-4061-b27a-47b0a139e01d",
-			"80ab626f-62a0-471c-a799-fe99b0203ae4",
-			"22ea6123-d30b-49f7-b0d5-9192d7738f9c",
-			"195618f9-dc10-4ddd-b8a2-c29219e25c44",
-			"26df40e8-5cfe-443f-b3e7-182cab4ce7fc",
-			"767d91a2-a0cb-4bb7-9b36-31afa456551d",
-			"ed6d9063-4d44-4284-98eb-4bba9f53b98a",
-			"34770934-2fbd-4e27-b1f3-b7baeef12456",
-			"027ab978-b71b-4884-9087-bd18a4bea4e8",
-			"e5c4070a-b578-4099-840d-0927f747d104",
-			"0a7b12d1-4356-4f31-b766-d3001176949a",
-			"53ded76e-d3b5-4626-b8f6-52665fe901d7",
-			"672c8a1d-4b4d-4174-8f6d-d1f709258af8",
-			"bc76240f-6ff6-41b6-ae27-77551e95025d",
-			"de26a4bf-c5a7-49d4-919f-99a89086d11d",
-			"abec8184-fe81-40b5-974d-7302a73231d3",
-			"11b2552c-6f76-48ea-a0ae-b8d6eb318a87",
-			"8f981d1b-3765-40ec-b0e4-4b53180c8ac6",
-			"110890ca-c731-447c-a039-13e954fa66d4"
-		]
-	},
-	{
-		"campId": "a4a6ce10-6d18-4794-8ad0-f5c6f44c6c99",
-		"campName": "עדן בן זקאמפ",
-		"gifts": [
-			"21b699c1-e353-4108-88e6-6f4abcfaf1ca",
-			"9fa0bfd1-a854-4bfb-8869-35a355ee6b4d",
-			"28450859-9323-4f90-ab2a-9f3f8f9699a3"
-		]
-	},
-	{
-		"campId": "359f2e6f-8c74-4433-92c3-3b2e1b121397",
-		"campName": "אייס, קרים אנד פייר",
-		"gifts": [
-			"de449392-c052-4b6e-8db8-5959d9f6ef3c",
-			"56dfab5c-51eb-4ab9-bb92-78bc49f972ad",
-			"c751407b-8765-4b99-9152-1dec226a8c86",
-			"5d861a14-cf90-45cc-88c1-89046d31ab6a",
-			"7b8c915c-ca53-40dd-acf6-162383f77fd3",
-			"a8b9e4de-5694-4f93-828f-2cece0196704"
-		]
-	},
-	{
-		"campId": "c3a711c6-bfb2-46b8-aed7-9fd3fe48cf9c",
-		"campName": "מחנה 80",
-		"gifts": [
-			"7d5b0a3f-4aca-49d2-b749-b7d0bbef4977",
-			"c3bd1a10-64a1-4505-a6e1-20a53a4b2040",
-			"09a23a60-1134-4026-817e-4ba9aa3b0120",
-			"dfb8b567-7660-40d0-85ae-5b0ac4c4cbfd",
-			"c07dc53d-f048-4ded-8157-e87dab4c389f",
-			"194dbc17-2137-4e3f-8877-0611d509ef87",
-			"758b70c1-cd58-4216-8fdc-79461115d753",
-			"d4e9f1bc-1857-498c-ae9f-d469e9f2e056",
-			"0e2c8ef0-ba21-46e7-8032-8c6733af1170",
-			"a237a963-622b-4773-a4b5-3ddb7a71e650",
-			"11906e10-eaec-41e6-a7a5-65379045c303",
-			"ab3bdbff-750f-4901-a4be-2540ba1703a4",
-			"651d0476-55eb-431c-ad6b-129a46469773",
-			"b6dc6260-b351-4390-8cb2-906c9f4b54be",
-			"297f4d32-d604-48dd-b736-e80df04c0d0c",
-			"0dabcebc-21a6-44af-b799-3ba04cedf613",
-			"1ae02116-f4a6-4739-8eb6-598bf8b9f20b"
-		]
-	},
-	{
-		"campId": "7dea2349-88ab-46e3-8451-afc67c41ef5d",
-		"campName": "The Nest",
-		"gifts": [
-			"2fcc6ce7-d147-4f02-a1d3-184362570078",
-			"826e4dcf-f8a1-4936-931c-dba08044d7e3",
-			"95bb46de-af1d-4b2d-ae80-16985091fb53",
-			"90435f31-f592-46ca-8e97-238c9214d4ff",
-			"e374f1d8-f319-4e1e-90aa-edf002b2e88f",
-			"95706054-f4d5-477a-af7d-6684d0fdc603"
-		]
-	},
-	{
-		"campId": "fb8f78f6-2bfe-40a6-b6ec-e512c341a94d",
-		"campName": "ביט דה ביט",
-		"gifts": [
-			"bd256705-6c14-45ae-816b-12f361e0d08e",
-			"096f6667-aa81-427c-bf37-6234ef26b5f3",
-			"fe5b8cd4-c332-4398-acfe-f95d692bec72",
-			"d24cb24f-f7bc-4b94-bbfe-d38c611ace99",
-			"4988261e-e979-4be1-b565-0ccfbd3e9493",
-			"74778871-4934-46dd-a71b-774ee409dd35"
-		]
-	},
-	{
-		"campId": "de34fcc1-e48e-47a3-b0cb-8405c58af05a",
-		"campName": "אורגניקמפ",
-		"gifts": [
-			"6cbde864-8c66-4573-810b-0fc5bb8d1c93",
-			"3f3b50af-434b-4f54-9bd2-a7caab7bc568",
-			"35de130c-ec01-4855-b161-7981f7cc236a",
-			"a6d4490d-f614-476c-8bca-2cf486d755d2",
-			"23a1f03e-4c72-450a-ac8f-06a36632e9f1",
-			"7e01b646-81aa-4afd-ad4c-c2b7ea2c7a1d"
-		]
-	},
-	{
-		"campId": "c8f4159b-1caf-413b-8d78-98b4165126f7",
-		"campName": "אקרו  קמפ",
-		"gifts": [
-			"420e293d-96bb-498d-a701-b19ce43a3432",
-			"b333cb35-014b-4a45-b980-3860d181e069",
-			"50530f1b-ec37-4028-ae1a-3dbe005bc8a1",
-			"fdb43677-1bdc-4361-b0a5-95ce9d785f38",
-			"144a976f-4b96-4a74-9607-2ff77caca416",
-			"ed41741c-2f66-4465-acaa-4fb93dcc2bd7",
-			"203d3cb6-bbdf-4cd6-bced-a5916ee9d741",
-			"5a10e94f-d767-4154-a7a0-f76e87684069",
-			"b60ea80c-e907-4a30-95bb-2673d130668d",
-			"87b35c1d-8ec6-4145-90f0-9500be4f5820",
-			"3879d1b8-7c3f-48be-b558-e3a009b908ab",
-			"95ac7e4d-2e12-4a00-a64a-6d113e46ab05",
-			"9411889b-bd7f-4f27-b8bf-12afca8c20f3",
-			"767f5466-175b-4850-973b-f597062f304a",
-			"a6bda203-8ff4-4bca-9ce7-f87c450b4b6a",
-			"89ee912b-1191-4b90-ae57-9d5f8984cf85",
-			"03db3d08-9ee9-4ac5-84f0-20c920cedc5a",
-			"e204d8c4-3f6d-4463-8532-e17a45b506c4",
-			"bab450e5-6132-47bc-b49e-48b9f96cdd0f"
-		]
-	},
-	{
-		"campId": "33f13c05-e27b-4cd1-a72a-750ffdcb7e27",
-		"campName": "אקס או אקס או",
-		"gifts": [
-			"f1725de0-7bab-47bb-9e47-d2da918e5c2b",
-			"f92ecb03-cb06-40bc-99b1-e93e02ebc9d3",
-			"ae6a459b-99e0-442e-8bb6-d4a94942a5fc",
-			"cdec4856-45be-4290-98fb-2a88a5b5212d",
-			"43e36195-08e1-4c44-be3d-735e70df5d28",
-			"88252d33-6195-4357-b278-4c18f2645e6c",
-			"0a7e3792-2f8b-42c8-b12b-fcdc205bd9f1"
-		]
-	},
-	{
-		"campId": "9511a8d8-d58f-4e51-ab8a-50bff9880fdf",
-		"campName": "אימפריית הפנקייקים",
-		"gifts": [
-			"6ecb3326-c3b9-40ed-9d69-873eb57733ad",
-			"11d4d30e-b868-4ccd-b952-ff8c4430449e",
-			"285792a5-de47-4709-98c3-8057a420f552"
-		]
-	},
-	{
-		"campId": "c135d777-9f9a-4683-82db-099e83229a8e",
-		"campName": "האחיות מספריים",
-		"gifts": [
-			"66a6b362-8e32-4b7b-b029-4c46ebad4136",
-			"a83d1520-cad8-418c-aba7-4d72ae4940d2",
-			"81fb323f-00ae-4219-badf-5b273d909e77",
-			"12e30a4c-1e8f-42fd-8307-83b37e92ec67"
-		]
-	},
-	{
-		"campId": "cccb3d68-90a6-4efe-8650-e0d276355d12",
-		"campName": "שובי דובי",
-		"gifts": [
-			"c35a28d4-f0c0-4aa8-8f12-35ea2b8207d5"
-		]
-	},
-	{
-		"campId": "a42bc20b-7c33-4fc4-b8f5-86a30bf2ab2b",
-		"campName": "ספארקל יוניקורן",
-		"gifts": [
-			"22b392d8-9544-4279-8bd1-df7de83b4128",
-			"74b9ea5b-84df-4c0a-a3f4-a9dcc9192066",
-			"1439bff8-9fa9-4f39-8ffe-0f1829b70206",
-			"f992f1a2-b0b2-4410-94f0-e2367c942382",
-			"9004f7d7-59f7-48f5-8325-419ad10ef867",
-			"0ed95cb5-39ef-4587-bf65-f9408529cde7",
-			"f548962c-de07-4929-9097-2a26e509fd97",
-			"6a721446-7959-48ab-a356-cd9f9ff92f00",
-			"8559d5cb-30dc-48c2-bb75-8a75ecfd772d",
-			"b043903d-7a82-425c-87de-1e0ebe972725",
-			"cfa97afe-e862-44d5-bfa9-222e8e84a110",
-			"fd72dcd0-ba96-4454-9a3d-5481b1338057"
-		]
-	},
-	{
-		"campId": "44465b47-1ce4-4a16-b5ad-fa72bf5af5d3",
-		"campName": "קריוקאמפ!",
-		"gifts": [
-			"17720271-7769-4580-9e7d-c9f1f9318578",
-			"e55eab21-de24-469a-868e-a7f72724f951",
-			"a0e655c1-37a1-4e96-885f-4d3d9d1ea9ce",
-			"81889f60-3a70-4e9c-b251-635cabeed797",
-			"22180b0f-df3e-4ebb-97d9-f07dd4d6b93c",
-			"14790099-e7af-4225-94ab-09a5a857bfb7"
-		]
-	},
-	{
-		"campId": "40a262e7-da4e-459d-a720-8d49465a00ac",
-		"campName": "ביונד קומון סנס",
-		"gifts": [
-			"a4697ccd-f1ea-45e8-a2f0-7e2ef495d428",
-			"843e61eb-ca0e-4ec1-86ff-8cc6693ccda3",
-			"55cd4d7e-cbca-4379-9649-1976d96c2017",
-			"2cf947b8-6dca-4406-adea-762101727baf",
-			"d51eeaea-e635-4b40-96d9-387da141003d",
-			"1730fadf-8754-4a62-a9c2-efc3a2ce5ed1"
-		]
-	},
-	{
-		"campId": "ef9548a5-022e-40ff-91b4-557a9b970107",
-		"campName": "קאמפ רנדום",
-		"gifts": [
-			"54960059-a13b-4dce-ae2b-918dc5e30033"
-		]
-	},
-	{
-		"campId": "7ed1b3d3-0a82-4e3d-ad9a-73fce45e9b03",
-		"campName": "גיזוטה",
-		"gifts": [
-			"eea79e41-c785-4d35-92bb-db8cbedca8e5",
-			"4bca760c-5acc-47f7-8e6b-bea38d73051d",
-			"7d018767-acda-47e0-bb11-9944a25c83e8",
-			"6d46f3fc-610e-4b3e-b78c-52fe82efe387"
-		]
-	},
-	{
-		"campId": "329919df-6b6d-4d90-88a8-2bb3adc357c2",
-		"campName": "סאנרייז קינגדום",
-		"gifts": [
-			"030ae169-ddf2-4e23-b2b2-d007e558f90a",
-			"fbddf489-6141-4e47-8923-01f8415dc8e6",
-			"f8c18fc2-33b7-45f1-b74e-e69864d0ce4e",
-			"a84fffff-f6b7-48a7-9184-2acc4ff4b6ac",
-			"681234a0-3a8b-4c4e-9e33-d6d7d9a03c68",
-			"6c52c36d-5c72-40c2-8c29-75cb9fe5423f"
-		]
-	},
-	{
-		"campId": "aecff271-a951-425d-b57f-a7e6bbe53c1c",
-		"campName": "ג'אנגל סטורם",
-		"gifts": [
-			"5ceb9103-efa0-4053-99b0-d7e159a039f3"
-		]
-	},
-	{
-		"campId": "e9637974-9629-4db2-93c7-a8b50a12e80a",
-		"campName": "ולהאלה",
-		"gifts": [
-			"6b899628-c463-4926-8de3-aab2783bb71d",
-			"0b14e944-9470-4d56-8369-002cd21e7f28",
-			"952f65b1-3072-4709-bba1-b00504c795e6",
-			"28372925-3240-488c-b4db-56b1b09def91"
-		]
-	},
-	{
-		"campId": "9077db7d-efbd-4c8a-8a6b-21d3c43178c6",
-		"campName": "מיראז'",
-		"gifts": [
-			"df92376f-0aae-4784-88ff-00b0f955a5a6",
-			"a6580d9c-57ce-4c76-9495-0fbb4a3277bd",
-			"b216bbc9-7884-425e-9670-5ceda6a3aab0",
-			"9d6f407b-944e-4e32-84ec-e2d657ad90a0",
-			"5c65ffcd-316a-4e66-925b-0b2b87d722ec",
-			"121a3fd1-dbe9-4069-ad84-9a3e64a7cedd"
-		]
-	},
-	{
-		"campId": "26ebef04-d192-4560-bf53-8a532b8174b4",
-		"campName": "תה המדבר",
-		"gifts": [
-			"fbd54fc2-1b9d-4dd5-9d3b-7aee97c7a611",
-			"2aed99c9-ce09-4acf-beb4-c6ab45995685",
-			"059bc269-0a7c-4ade-b706-81b8f6ac903c",
-			"70d5aace-985b-4dde-8b6e-f7a10466e6b7",
-			"cd0a6cc5-352c-4a6a-bba7-5cb4dd175e4f"
-		]
-	},
-	{
-		"campId": "bc7c4c33-1f4c-480e-bdd3-7edfb03cf475",
-		"campName": "פוסינמה",
-		"gifts": [
-			"44995280-b4b3-4c93-af39-332b3a26416e",
-			"16e99d46-5267-4873-b8b9-54b877a555f5",
-			"8de4fe51-12ff-4256-ae40-0222f7b40361",
-			"f6a8bd9b-bda6-4a95-818f-2019e7c85f37",
-			"6a60ded8-f13a-4aba-8769-86a334d6f2d9",
-			"fd32e67f-3366-4bda-a7a7-379a0ef6c4fb"
-		]
-	},
-	{
-		"campId": "18b49577-ac6a-4366-8579-304e6692fcee",
-		"campName": "פרילאב",
-		"gifts": [
-			"dbf9bddf-7731-4f16-9a1e-e101b24ce346",
-			"7eddd514-d80f-432b-b091-6620fc9eba99",
-			"a7006ce5-0993-45e3-a409-3a6316699039",
-			"08bac91c-7b44-4b2a-adf1-db605f9a3e58",
-			"14a9f9de-2c3e-40aa-a0ea-ae8bc488d853",
-			"c8d8ff5c-6bf0-4299-b596-ccefac75214f",
-			"c3466c10-6839-4e9e-a7df-0af30c437b3a",
-			"c499e566-fd0c-4712-8141-d8f6f469dc82",
-			"8b8af642-3f1e-40b8-bb26-aa80d7ac741c",
-			"1de2e810-77a2-4e77-8ea4-2ea23f356cf0",
-			"eec4bbf7-2dd2-4cdc-a62d-47a5a8fb8a07",
-			"2a1e1bd8-df31-42f9-9d27-caa3daa4cb80",
-			"375f7864-ea95-46b9-828e-b72d665edc57",
-			"d1856dfb-2f52-4c68-895d-d1a8d9538f17",
-			"311af922-91a7-479f-8249-3f58b830d3f0",
-			"2e47493a-9357-47be-b3b4-83ca7fbf9a66",
-			"a5731b02-6b71-43ec-853a-7e0e1afeb560",
-			"c840d8e9-a75b-4fb7-9e76-bd10a7bbb510",
-			"e8e40b81-d5f7-4f8c-b15b-f827e983a07f",
-			"b119ff74-eba3-48d1-947b-40ef7a3dfb9f",
-			"a6b3e9a0-2683-4272-b095-12ff5e8a9b8d",
-			"8d952e85-17e4-4ce2-84f4-df289cfbbc95",
-			"763486f2-9c43-4d72-904a-b8a88e5cda0d",
-			"1d416070-160a-4bbb-9e29-f80c9b701d12",
-			"33041f99-ad4e-4c28-ae99-eed047929cc1",
-			"e6fa3507-953a-41c9-a749-a74079e4862a",
-			"94c13c3f-2e46-4c56-bc4f-c5cd7cf3820c",
-			"c718ee7b-a8cf-4bca-9798-560c7804baf4",
-			"5f2bf545-d238-448f-96e8-b357ae6c3ab6",
-			"497f4560-83ae-476f-bfaa-a417837bf442",
-			"8595b252-e7d1-4bf0-896b-17342a250116",
-			"262dd293-5b27-4dbe-8abf-a0d11b20510e",
-			"313df015-9f81-4d2a-a3b5-acd47a647cba",
-			"2a89b6a0-05b6-496a-a049-c0192ebb7380",
-			"1f555448-70c6-4eb0-85df-eda4724f075c"
-		]
-	},
-	{
-		"campId": "567aa809-51f5-4478-8e05-539d462badfe",
-		"campName": "פיזדייץ",
-		"gifts": [
-			"f2440890-6a5a-4a95-9676-2ea7361ebb2e",
-			"0d95be73-63e6-43e6-86e4-cd9fc84ee022",
-			"2ea5ab65-aa0c-4edf-b563-21c06c089c05",
-			"c56126f6-2d4f-4363-ad30-b08e44e838da",
-			"cedf7544-aaf5-45a4-8620-be16e0d87c29",
-			"dc35846c-3f88-4f28-b5d5-42cc7bfc8a00"
-		]
-	},
-	{
-		"campId": "997b952b-806f-4cea-9b6e-44e2b45c15ae",
-		"campName": "חלום במציאות",
-		"gifts": [
-			"ab2e4f79-4533-46e0-9ea8-d752270a661f",
-			"d245046f-1c7d-4c7c-8981-3732a57fcc30",
-			"7c67486b-772b-4aae-9b63-eeed334ec9cc",
-			"8faeb17d-f2bd-45b9-a3bf-83ebb943fd71",
-			"6e1bd5da-ffc4-4b00-9b8b-2c6403fbed7c",
-			"ae3f5140-2f41-4ffe-bcdd-82ce83a1e900"
-		]
-	},
-	{
-		"campId": "c428be7c-b17d-445b-96af-594e81ace7eb",
-		"campName": "הילדים האבודים",
-		"gifts": [
-			"aaf3aa59-c62a-468e-9da0-88c14f78641a",
-			"393f891d-0b9f-4cf1-99ab-b444cb69a3ec",
-			"b6abe5bb-16b7-4499-a041-a667829ed363",
-			"df26131a-9118-451c-b26f-f16566cb93ac",
-			"2d0ced6c-dc24-465a-be33-2500954679e6",
-			"41fe8d5d-eb57-4eee-a37f-97a622246bdc",
-			"bc498857-4434-4812-a773-e6e0ed168cfb",
-			"ec30cbc0-c1ee-452f-9abd-e60ae00df1d9"
-		]
-	},
-	{
-		"campId": "44589ee8-4afa-49cf-9717-475648cce594",
-		"campName": "IHOP",
-		"gifts": [
-			"98161d80-8ab6-4451-aab6-ee7b98c905cf",
-			"215a5ae7-5690-4377-a42f-3771fe813210",
-			"abc12546-3ffb-4d61-91f5-a784d9ef3cca",
-			"de3f184c-3611-477f-9d3a-5be3129e8373",
-			"5806705c-7893-4c13-a844-47222ba0fb1c",
-			"510106da-f53c-4c9a-9f0e-600ebac0ce2f",
-			"39b8a4b8-867b-46be-bd36-99d10401c952",
-			"9e3d9a07-22ed-4e23-987c-98aaf6a4a0c5",
-			"bc0ea4ed-2518-4b07-98af-930c64a178aa"
-		]
-	},
-	{
-		"campId": "3324a0d9-e1a1-4903-af58-a8e8fcf11a35",
-		"campName": "ארט טוריסמו",
-		"gifts": [
-			"3117a92e-e7e4-4ea0-ba8e-ed6b50e57958",
-			"d626fdc0-c917-425f-aac3-42321d4a25bb",
-			"1469463b-ed59-4ab1-9b54-a9a4363a91b0",
-			"4f18d8d3-f39d-4eb9-9e09-9ed787086d5b",
-			"07018329-5845-4c88-ac1b-0fbab0ff3c45",
-			"b4b29376-7750-46a8-af12-840d540b7774"
-		]
-	},
-	{
-		"campId": "57563fd5-3cf2-4e11-9cbe-91a7d0b3b4f8",
-		"campName": "ברנפלקס",
-		"gifts": [
-			"a74e01b9-a004-4979-b364-2973b4431690",
-			"f218dd60-e6cc-4f7e-9d35-8fc5f82082a0",
-			"42c29120-9b17-4f20-8287-0352e438a5c4",
-			"aa2ce021-8348-44a0-a00d-b96589edfa82",
-			"43dd2b51-a1c4-48a1-9562-e444a7221475",
-			"f704b6d9-c1ca-4a22-b242-a568eddc5e85"
-		]
-	},
-	{
-		"campId": "86b595c9-fba5-426d-a2d6-ce1c147daf06",
-		"campName": "א3 - הכיתה הטיפולית",
-		"gifts": [
-			"e1dd0cb7-7bb4-498d-9391-baa19242e9a3",
-			"d34e9d46-5a07-4e84-8518-6e0722c2ea39",
-			"63c93177-2d2c-45d4-a14c-e35617e16ea4",
-			"4001d5c3-31de-434c-a40d-c52124d4755d",
-			"44a8dc41-6989-44fd-bc55-8897e50af999",
-			"25c1eb6e-987c-4c15-9aa9-d610018976ad"
-		]
-	},
-	{
-		"campId": "48c04fae-3ba4-460f-b63d-3af2ecec81e3",
-		"campName": "דרקאריס",
-		"gifts": [
-			"57f7f1b2-c45b-424c-8833-8c37a9ed11b6",
-			"488d1ffe-6fa3-469b-b984-5bf80844328e"
-		]
-	},
-	{
-		"campId": "4e414a65-f5e9-42df-ba87-abbef0f8eaa3",
-		"campName": "סטרייט פרנדלי",
-		"gifts": [
-			"491aa32f-2661-4966-908e-916c12a1f1c6",
-			"252d39cb-ead1-4501-9e3c-3b850d7e2152",
-			"c64cca52-939e-4db9-afcb-d7254a26e8e8",
-			"9e6ec1f8-81f0-420a-941e-600b08b07c6d",
-			"2f7509b6-f539-4513-b2f1-bf6549cba7fe",
-			"c4d99d41-1c71-4247-8426-7fc174e3fdd4",
-			"8126392d-cb75-4636-8ca0-e3b803d22135"
-		]
-	},
-	{
-		"campId": "90324800-4ed5-440e-b0a8-154c74c77da5",
-		"campName": "פילואו פייט קלאב",
-		"gifts": [
-			"3cc890d5-5f34-4951-bcd4-1192d0a5d935",
-			"8fd6e826-0a75-4270-9c90-9c098014bc2e",
-			"18f74f8a-98e8-494d-bebd-e0e9e0b134eb",
-			"fc5ced58-a122-446d-861e-46fc8492d97e",
-			"e5836da2-782e-428c-a122-bb3fabf74d72",
-			"ee5a1469-0e8e-4063-b260-9a821dc2a32f",
-			"5c5bd8c9-e3c8-4d92-9078-54d53229d5d7",
-			"bed68f10-d268-4abe-8c77-cb6fc944e23c",
-			"54cb6361-d4b9-4691-9d10-035d0f72cd72",
-			"18ca192a-2257-44f0-973d-c6d29e6520a3",
-			"360885c7-c22d-4b6f-bfc3-bc7a72b94cb5",
-			"a29534ce-9110-41ef-a25c-6debe08152f9"
-		]
-	},
-	{
-		"campId": "1ae7d5c5-d7f3-4902-a86a-3d7d723400c2",
-		"campName": "בעקבות מנהרת הארנג",
-		"gifts": [
-			"a0d1b02e-7a4a-496d-aaaa-297cb1afc780",
-			"8d21c848-0156-43da-9c04-b9057fd5601d"
-		]
-	},
-	{
-		"campId": "efc5d2ec-027e-4c61-999b-bfb8378757a9",
-		"campName": "מירי גרב והמאהל הבדואי",
-		"gifts": [
-			"a6933884-8286-4758-b719-b9af33bacaf0",
-			"3917c544-8049-4183-821d-2d12389eda47",
-			"fb7053b7-93cc-4b99-8314-0471dc4be956",
-			"5b5c5dd5-16cf-4889-b5c3-c7dd469a6610",
-			"2c83ebb6-f39e-4b19-9e52-ea691fa30752",
-			"98586140-892b-4510-9d7b-88a6c5b429d4",
-			"a2a027fe-83bb-46c2-a017-fd9c24e2cce9",
-			"7b516b3f-600f-4698-895e-4a35157edcc3",
-			"9b4b518d-13c3-414d-ab57-51070a46e773",
-			"e48b4a63-6df5-4398-8334-0c638932ffec",
-			"665ad46a-2751-44ec-9942-9e882da5c55c",
-			"bf53bd84-2467-4c66-a3fe-34a8d764757c"
-		]
-	},
-	{
-		"campId": "0bd82f66-38ef-4938-a999-fd4acdbaa0b0",
-		"campName": "Challenge Accepted",
-		"gifts": [
-			"9bfa63d9-5aab-40f6-aaf4-a1b385c6b0a6",
-			"9d65f3f3-fd7b-4dbd-873e-1b7bba71473c",
-			"11c8420b-a328-4475-99ce-85114f20abaf",
-			"72e2e2fe-3dae-48ad-97d9-2eb5c2db4ecd",
-			"c74bcf03-9b03-4781-9e3e-c3cb3e87e782",
-			"498ecdb2-4877-4cb5-af56-a72c4b623cde",
-			"eab5109d-5743-4c75-894c-300895b42191"
-		]
-	},
-	{
-		"campId": "55288928-b3e1-43d2-b5cc-09d5b086a94e",
+		"campId": "4b34e9de-6484-4c59-a3c1-9e8ee01c2ee8",
 		"campName": "מיד-בר",
+		"description": "מיד בר- בר במידבר",
+		"descriptionEn": "Mid Bar- a Bar in the desert",
+		"coverUrl": "https://drive.google.com/open?id=1RGr1fzx0RdHfLo7xSAEtHSPnfbKiqm17",
+		"tags": [
+			"PhysicallyDisabled"
+		],
 		"gifts": [
-			"ff0fc69e-9eb7-470f-ba93-1770221513fc",
-			"bb990f5c-0802-418a-8305-a4f5325ea9a4",
-			"3f238e3e-630f-4765-9c0e-b417c9db74af",
-			"50f59828-95dc-40c0-8237-fc4cc36ffdb5",
-			"445261e0-e3c3-43bc-bf67-b1642c938a35"
+			"ecefc3bc-1c01-4720-992b-d0fa4f0cf9c7",
+			"bbd480be-39df-4862-a210-a2cfee9c3c99",
+			"a6543812-7fc1-4137-9e0e-8d4de77820cf",
+			"6bce22a5-0f80-4a66-a80b-749dcb90aecb",
+			"ed16c04e-8a29-4652-84ab-08578298ebbb"
 		]
 	},
 	{
-		"campId": "fa0e16ef-4f86-4bdc-9e33-2948e1a06151",
-		"campName": "מקסיקמפ",
+		"campId": "78481cb6-cde0-4794-a98c-7cd5f1be7bfa",
+		"campName": "ארנבים בחול",
+		"description": "מחנה סאונד (האוס וטכנו) וגם מיצב אמנות",
+		"descriptionEn": "Sound Camp ( Techno & House) & Art Instillation",
+		"coverUrl": "https://drive.google.com/open?id=1R7NZftKNNXpYKrIRgciVIdb3QUIePONB",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": []
+	},
+	{
+		"campId": "d51d984c-3709-459d-bb91-03d990c57aeb",
+		"campName": "כנעניה",
+		"description": "פלאפל וערק בצהרים ועונשים תנ\"כיים",
+		"descriptionEn": "Falafel and arak at noon and biblical punishments",
+		"coverUrl": "https://drive.google.com/open?id=1I2YMvptiHgvAoK1U6T6HYlxRSXZ_OhQF",
+		"tags": [
+			"PhysicallyDisabled"
+		],
 		"gifts": [
-			"2f99ed16-b1ec-473d-a995-d0361a43b912",
-			"e69bf3f8-daf2-426f-9f18-8f23beb7cd2a",
-			"194c07b9-b444-44d8-8cc9-902b11eec81b",
-			"8deefb96-b0bf-46f3-8e8d-0baebf9c1081",
-			"c6b8785d-0769-4b8a-8b73-190373a6ee81",
-			"c9d0908c-6cc8-4431-bf9f-4e32b174b0be",
-			"9a20863c-3b61-4579-a783-7c5f8e2e3484",
-			"058f50c5-4e22-4780-a2da-e7c796f5ec2d",
-			"01676ed7-dfdb-41e0-96c7-3ea14ceaa353",
-			"469a507e-60f8-4247-964c-d516e2e55091",
-			"a3658b5c-a127-4fdd-af8d-2f74696630b5",
-			"c26c98a0-c4b1-4f17-9dcc-879994f217fd",
-			"996d1bf3-c327-4bee-bc7f-1ceb603f6fa8",
-			"7be9a206-9749-493d-a79c-ab217e2455c1",
-			"2e31f38d-6f6a-42f7-be70-5db07a90c8a9"
+			"78b87b2e-62f5-40f1-82b6-a330418d00ce",
+			"85ffa74d-3ee4-4c95-9c70-f79c42f6268b",
+			"e8aa7774-7dea-4fa8-86c0-9858926c5a51",
+			"e385e7e0-7b88-4204-86ea-deb6c8f8522f",
+			"79025be0-b163-4470-bfb6-c824fb44a893",
+			"66dc8679-ba1e-4f88-afac-9014df926109"
 		]
 	},
 	{
-		"campId": "df9d3f0e-8079-48e6-9bb5-fbbc4fe904e7",
-		"campName": "הלמון טרי",
+		"campId": "0546f51b-df6c-4098-b3b5-bf416b8a85f7",
+		"campName": "חפלה בפלה",
+		"description": "הכתרת שייח? חפלה? דבר אחד בטוח-תהיה שם בפלה",
+		"descriptionEn": "Coronation? Hafla? Either way, there will be Bafla",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": []
+	},
+	{
+		"campId": "4c64c42b-3d93-46ca-b8f0-517953c3f2f9",
+		"campName": "מלביט",
+		"description": "כל יום בצהריים מגישים מלבי קר ומסיבה אלקטרו-ערבית",
+		"descriptionEn": "cold malabi and electro-arab music at noon",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
 		"gifts": [
-			"a6cbb141-089c-44d2-a98b-1af60ef07975",
-			"76f31507-082a-467d-a6e8-0b13d17b3aa9",
-			"b06844eb-038c-4c16-a9f0-6f97b1adc4ff",
-			"cb9191be-0c26-44c3-b6d2-a945e2e5bb3b",
-			"8c5ee336-5feb-46cd-9241-8717e5c6a077",
-			"c3ea1e6b-3c34-4077-9be3-230c14a15da4",
-			"8bd15c3b-daa6-4d4a-8ea5-d36fe54af334",
-			"e1e7ccef-dc50-4432-ade0-21b8a9a22d41",
-			"aa1b19ac-0409-45e9-a19d-b4c40ba58b83",
-			"52844338-b5e3-4f83-8ff1-a6e7d9457d25",
-			"4f96b791-1edc-4c19-b98b-920339828093"
+			"f1331570-62b4-4d16-8984-925f4dcbb1c2",
+			"abb6805a-518f-4847-b73c-bc6e79a47db3",
+			"9809af10-c1e5-4c0a-8c09-a261a3e17a22",
+			"1693e434-4321-49d5-b074-1e12ce668d33",
+			"967eb003-c322-456f-81fa-40c88bef22dc",
+			"cf949f52-a0bb-474b-9592-5fba632ac729"
 		]
 	},
 	{
-		"campId": "f3c5730b-b344-4719-9002-5b1785b69f19",
-		"campName": "ההצגה",
+		"campId": "abcb70d3-f4d8-4acc-8329-aaa1c518c628",
+		"campName": "מג'יק מרקרס",
+		"description": "מכונות ארקייד בלילה!בלאדימרי בבוקר!בואו לעוף איתנו",
+		"descriptionEn": "Magic markers: Bar-Cade!",
+		"coverUrl": "https://drive.google.com/open?id=1miIt3Iidcq8GfIDbAnlYFYG1vHgJR5jk",
+		"tags": [
+			"PhysicallyDisabled"
+		],
 		"gifts": [
-			"bc4d0f27-9506-4565-8c65-8ed10b8662e3",
-			"9fe2fd9a-3a2a-4430-ba20-b56152d0a2e7",
-			"57f9df0c-6577-48e1-960a-4f06913fc328",
-			"f131ce70-7812-409e-a368-7febb09c98b5",
-			"29bb4003-89d4-4326-abce-492ab344bd8c",
-			"44eb3dc8-bcf5-4e7f-b031-78ad518209b5"
+			"b493feab-d0b0-4cae-970b-d03cd662f8d8",
+			"c3c8ab29-5577-4eba-8256-66e79b30a4da",
+			"30c317c3-927d-4632-b5e2-440bb48ed07a",
+			"92438ed9-d5c0-458a-970b-70b9bce7873f",
+			"cf827189-6cc1-40b2-b1f4-1cf688ce6fb4",
+			"8afe59b0-6902-40be-a631-7e984db43aff"
 		]
 	},
 	{
-		"campId": "256fdb3d-e77f-4d99-a672-409a0d66e328",
-		"campName": "הקוטב הצפוני",
+		"campId": "47c4a084-a0c0-43d6-980a-13bcbc31987a",
+		"campName": "קוסומו",
+		"description": "מחנה קוסומו האגדי חוזר לפלאיה בפעם החמישית",
+		"descriptionEn": "The KuSumo is back in the Playa for the 5th time",
+		"coverUrl": "https://drive.google.com/open?id=1RtBWSRIDKYGJK6e5q_Fdfu1Vt7LiAyny",
+		"tags": [
+			"PhysicallyDisabled"
+		],
 		"gifts": [
-			"aa6ca38f-2546-458a-8c7d-d1bf30f3b0a4",
-			"add5d34a-44cd-4b06-bb05-c2bb89901141",
-			"6add5943-0cfc-42aa-a499-710a174c1073",
-			"17506ab9-6059-4e27-89f1-ffd4dc54bde8",
-			"2f6ffc9b-6929-45eb-bf33-626376b05342",
-			"ee798976-b9ed-41c8-ad60-eaa4f70c6fec"
+			"da8e5429-21ff-45cd-9e2a-17090c58e17f"
 		]
 	},
 	{
-		"campId": "ad9d2d7a-faae-4edb-91d4-3741f369a702",
+		"campId": "0c24e29c-839c-455d-91c5-4b2bf4f40898",
+		"campName": "קומורבי העין המדברים",
+		"description": "מגישים מרגריטות ובירה",
+		"descriptionEn": "We surve beer and margarita",
+		"coverUrl": "",
+		"tags": [
+			"Adults"
+		],
+		"gifts": [
+			"fe8dc473-2115-423a-94c6-ee642ababe23",
+			"6baf0f10-942f-4e1e-891b-44a0ae8352a0",
+			"0a35a1f5-f6ba-45ab-b8e3-9f3eda27688e",
+			"377237d9-44d8-4adc-a51f-7f7bd5b46f2b",
+			"a0be8578-5d82-479d-99fd-9ac218b7731a",
+			"be614886-4cdd-4e46-a85c-74b9d4588229"
+		]
+	},
+	{
+		"campId": "1ed34bac-6056-472c-933e-0e3400732413",
+		"campName": "הילד הפנימי",
+		"description": "מדברים תודעה, מבינים את המהות הרוחנית שאנחנו",
+		"descriptionEn": "consciousness understanding spiritual existence",
+		"coverUrl": "https://drive.google.com/open?id=1x2Os4YzXvM_0EdDK9fcS1-ozDLux0J-t",
+		"tags": [
+			"VisuallyImpaired",
+			"Kids"
+		],
+		"gifts": [
+			"6d5ecb07-880c-4de6-be3b-2dd10d6d0fcb",
+			"99ec9e03-a1eb-4f62-8574-2732b5ea7551",
+			"9409b3e5-a48c-4c5c-bc6b-a2e3685f123f",
+			"df7682e9-6481-42a2-8947-5ab89dc4953d",
+			"8752c4d4-fb58-4008-8821-2fa4c6d4a9e6",
+			"8cb1a222-4b6c-4c14-a3ed-47570edf36d0"
+		]
+	},
+	{
+		"campId": "0521c05f-0400-423b-aaa7-0906ab6258b3",
+		"campName": "שובי דובי",
+		"description": "בריכת כרבולים עם דובים",
+		"descriptionEn": "Teddy bears cuddle puddle",
+		"coverUrl": "",
+		"tags": [
+			"Adults"
+		],
+		"gifts": [
+			"ca51b0c6-d699-4400-81a5-6aece143caf6"
+		]
+	},
+	{
+		"campId": "327faeb3-cfe8-419b-9c8c-b2e401466d68",
+		"campName": "צ'אפטי",
+		"description": "ארט קאר ספינת הפיראטים, עליו מופיעים DJ",
+		"descriptionEn": "art car pirete ship is the stage to dj play music",
+		"coverUrl": "https://drive.google.com/open?id=1z5j9amayz4DAa38T10GqhFkZ7gYG7FVg",
+		"tags": [],
+		"gifts": [
+			"e23e6152-fd2b-4d3d-8645-6d8855043345",
+			"7deb99a6-cff3-40b7-9e15-f1dcb74b1042",
+			"93ae649a-f757-467f-bff5-52e298ba739e",
+			"c7a97327-1949-4a08-9e91-b6f8b53d43ac",
+			"e5987525-c025-4099-8489-ed534b7b4b7d",
+			"e207d658-a9c7-4273-81d3-708dbb2a3b1a"
+		]
+	},
+	{
+		"campId": "002bbb79-d942-4b1c-9630-fa4c6630659d",
 		"campName": "ארץ יצורי הפרא",
+		"description": "מספרי סיפורים לילדים בכל הגילאים 3>",
+		"descriptionEn": "Storytellers for kid of all ages <3",
+		"coverUrl": "https://drive.google.com/open?id=1vA7xKwFzs5KND2sDoQafgC9e3RiXBQov",
+		"tags": [
+			"PhysicallyDisabled",
+			"Kids"
+		],
 		"gifts": [
-			"779485f5-b4ef-443e-8de5-8d09f004b41d",
-			"ce8afec8-d4c3-4c6c-80fe-4052137d2fa1",
-			"4f4ae316-726b-4503-8737-ea5f9e0b3ec8",
-			"302c0883-b347-4d06-845f-045afd56d43a",
-			"4e1da65e-6851-4b98-b822-b50ebe2a113b",
-			"3a662d05-a6ec-41c7-8ff1-ea83c83b7b50"
+			"8fb1e97a-0031-4ecc-89af-3b54eeaba8a9",
+			"69c93a77-e3d1-49ee-8278-5b932f2cda6d",
+			"a24f531e-ffc9-40db-a7b0-bf55b1e6ab94",
+			"15c30b61-1284-44d9-9972-b45b6bbc965e",
+			"9353c60e-7e08-4bc1-9600-6f4127c6632f",
+			"3736c686-dbc1-44ab-a02f-8c965f1bd2d0"
 		]
 	},
 	{
-		"campId": "3e6bab46-a50d-4d7c-b408-a759f74993b2",
-		"campName": "ברנינגדייט",
-		"gifts": [
-			"ae45ff95-5cb7-44b4-b279-3b7ab9c15dc0",
-			"a4ee4e0a-ebc9-46e9-875a-d79bda71b67c",
-			"d5d4b3d2-0fbd-4ffa-85ad-55ed5fdf197e",
-			"9efaade0-f08a-4d4c-9a15-5e59a064b96e",
-			"4da42877-4b5b-46d9-850e-55ffe900504f",
-			"e41f0beb-d13c-47be-b95f-371243f670e3",
-			"3c84ec16-47ce-44fb-a7ba-39b497d71793",
-			"27161653-4939-436d-b3af-f23d88726bd8",
-			"3bc1fab8-6996-4447-b36e-2b607be474fe",
-			"348cf6d6-7807-4c99-8126-76b57a69c977",
-			"3cb074d1-3a71-416f-bb57-14ed1e84303f",
-			"a9f2d549-b53a-4c41-90cb-0e37c19bd0de"
-		]
-	},
-	{
-		"campId": "9ad6a9fc-b4b5-48fa-9687-0bca22e52177",
-		"campName": "מוחאיים ג'אר مخيم جار מחנה שכן",
-		"gifts": [
-			"271b047a-c5f4-4de4-a62c-c45fd2924304",
-			"7e6b7d3d-b8d6-49eb-8a54-ed09e0e5c9d2",
-			"f5f0b321-7c0b-4c41-afe5-e8c3a6b4ca8d",
-			"7cbbc53f-2acd-47d4-aeaa-c39b733aaee5",
-			"98460193-9b5e-49f5-ba6e-de707fe9e184",
-			"d9266f82-26d2-4192-b5b0-80c5063d51b8",
-			"a444b610-48e8-4909-b5e8-2d81a47ae8fb",
-			"7e78f135-f88d-4881-a9ed-496d9bab1aa8",
-			"ed0a0ff7-9974-402c-ae6b-5aadcf6deed1",
-			"5b51840e-969e-4a52-9caa-1e5b59e03974",
-			"3f7bcd49-7b33-4d0e-a0c4-112b57717248",
-			"ec96a3d4-2057-4dfb-9e43-d6f040bd214f",
-			"fe61afde-ca8a-48ce-b7ad-4356503dc03b",
-			"8b169662-9fb6-4450-bde6-9af140674a58",
-			"60f54810-edfb-4e28-95f9-20928412278d",
-			"2a6ba200-284d-434c-b65a-71a3ae51edae",
-			"f3f19dcb-b846-4370-91b3-5aac9a3b0b73",
-			"beb56262-a7c1-4253-8467-4c64856766a7",
-			"be27eebc-dfcd-4a14-a615-6302f98802f0",
-			"ec219031-1974-4763-a94f-2c97c06f51f0",
-			"01e81a30-e9e8-4102-be11-4f51acd6dd7a"
-		]
-	},
-	{
-		"campId": "be85c716-fee9-4856-b2fb-0494c8014f9c",
-		"campName": "היום שאחרי",
-		"gifts": [
-			"cfa82a54-9137-4c23-950a-8b3e5740ca10",
-			"c89f8e20-8a6b-47e9-b161-cd8933d122ba",
-			"f313a30f-b894-43b8-9c8f-f5583197addd",
-			"fbb8e0e5-2d57-41a2-934d-b7f61234f66a",
-			"6e32afe3-52bf-4f86-a1a4-fffdc1527ae2",
-			"7f9257db-d886-4562-935d-c3c6aea5f65b"
-		]
-	},
-	{
-		"campId": "d0d4866c-bc82-4a4a-92f4-815b7a0023d2",
-		"campName": "המורדים",
-		"gifts": [
-			"aa5988fb-2e17-40e6-9ac8-61da1fd6d5ae",
-			"1a741461-7318-451b-8dbd-3f2cd07b9073",
-			"6a2f4ac0-8d3a-4b60-a205-5a95af34c94b",
-			"b293df01-e5e3-4d88-9746-469c8590e569",
-			"bcda2958-0d81-4f69-ae8d-6e86ca0ab276",
-			"dbacc96a-bc4a-494a-846d-b23557a33b78"
-		]
-	},
-	{
-		"campId": "ef20981f-7252-4af0-bc2e-cc693fe176eb",
-		"campName": "מקדש הבועה",
-		"gifts": [
-			"09fac447-b3e1-4206-ae07-4b1e2367deee",
-			"72ae6f88-8cb6-4614-a95c-2cd0fa9860b8",
-			"81753c49-6474-4cb7-9f60-4d5606069fd9",
-			"e262a5be-20d0-4777-82b1-85ef4ce02f03",
-			"227e0b78-aebd-4338-8426-f88488254bd4",
-			"6b4caf0c-d123-4b13-ab43-ccb8707b5284"
-		]
-	},
-	{
-		"campId": "c6b66a76-4b53-4b0b-9592-4e8efa12bf9c",
-		"campName": "קפה ועוגיות",
-		"gifts": [
-			"65fdc2e4-58a4-413b-a43b-1495a27fced5",
-			"47a71792-a7e4-49f5-af42-1c10e7594cfe",
-			"dfe1ddc3-d620-42c6-851e-a6aa5025fdb3"
-		]
-	},
-	{
-		"campId": "0a248051-7616-4987-bc84-6cbb5493a787",
-		"campName": "קאמפ אברנבאל",
-		"gifts": [
-			"df4888ae-8a16-43fe-9527-4132338532d9",
-			"5f9198ba-d0b1-4559-a7f5-ca0ddf0b647b",
-			"fa30803a-6dac-4a64-aa4b-e127dab569af"
-		]
-	},
-	{
-		"campId": "281fad15-0d88-4fa0-8473-5fbb4a9693d9",
-		"campName": "קונטרה ברן",
-		"gifts": [
-			"722471f4-5f3b-4519-8d08-4bf6014bf75d",
-			"9ac4d110-0dd1-4cba-bd9b-34acf5cb351b",
-			"3b8a32e2-ad78-4dae-93f8-aeb5888c5f04",
-			"38cabd11-2b4d-4029-b237-6d7d17a9607a",
-			"71a09dd2-6c51-4d63-bcf2-d83b934bc34f",
-			"d78db5a9-7488-4640-82a2-b18f87d75bcc",
-			"0c5705d2-8920-4dcb-9d51-29711809b86c",
-			"8557e5a1-2419-4674-949b-be2da0dcdc13",
-			"fc739d96-cec1-4a2f-82d3-3d13ebc1a506",
-			"4e460d9f-74c9-43b0-87ee-d5fc17bc6a85",
-			"b6b5060e-28a6-4203-86b6-ba2926b46482",
-			"84a68e9c-6630-40af-bad8-bb00adf829a5",
-			"d9bbee1c-7b0a-49e7-af0c-ca658d0c0d89",
-			"1214cde4-f1e9-4e53-ac7d-8cf25eb7fab6",
-			"242fbb9d-0bd9-457b-a459-d282bd8fad52",
-			"95a8f4fb-0cca-4f5b-bff6-e90cfbf85aba",
-			"040fb1e4-9064-4019-b91a-beb86e158fc7",
-			"8e592e38-fcfe-459c-b8fe-2b1c78dbd506",
-			"91f73d89-1396-40cc-a6eb-bd72970d755e",
-			"9ed019ff-0055-40cb-b26d-096b1a426073"
-		]
-	},
-	{
-		"campId": "58da9d0e-c63f-4053-ab9e-7de930fdf0d8",
-		"campName": "מרכבה",
-		"gifts": [
-			"c8f69f1a-f0c4-49c8-ad3f-225d6a775b12",
-			"f9225ac7-ef7f-4b0b-a882-0f0992cbe6cd",
-			"b9663a03-d8a8-48a1-94b9-4076375b1b49",
-			"2a0ba600-3ec1-4050-8ac9-0b3b705a187d",
-			"3ef7bfcf-c426-4e87-8a71-54d448921180",
-			"1a93e56c-9a28-444b-a6e3-7769557678d9",
-			"5efeb5e8-4ad7-4359-ab53-8df730b2472c",
-			"d679a15e-58b0-4a59-840a-9feb9fc43451"
-		]
-	},
-	{
-		"campId": "ce8cb4c9-0461-43ee-8717-e449937ad080",
-		"campName": "קדאווה",
-		"gifts": [
-			"a03f3865-8e29-4299-a99d-967a1115b90c",
-			"d05957dd-c5ca-4198-91e5-f814830cc1c5",
-			"7e7dbeb1-5f5a-48ac-af7c-edd5b61348ce",
-			"0aaa302c-0d41-4dc4-a8dd-5fc702a72d10",
-			"4deaf823-ae51-4994-87fa-8bda95718ca2",
-			"2c1497fd-d519-4f10-bac2-91ff2aff7013"
-		]
-	},
-	{
-		"campId": "625e522a-bf93-495a-8ada-52b86cfc4135",
-		"campName": "שטיפל'ה",
-		"gifts": [
-			"5742f01d-0934-4338-9845-6271a2bd3117",
-			"f367e44e-ad09-4e32-bb0b-9f829b64e191",
-			"bdedd4c7-447e-4d2c-a391-ba7242c5c6af",
-			"e1bc6e3e-0724-490e-a685-1f9b76dd4dcd",
-			"ba930895-aca7-447a-a78b-755f4f1c292b",
-			"0f0f2e8f-4424-4cbf-b81a-cb11cccbcb55",
-			"4d47d99a-ebaf-4ab1-b656-845bb66c42ba",
-			"9644c3da-5cd4-42af-a70e-7b6149dcf506",
-			"d543fb1b-13d7-4904-80bc-e9218a5dfadb",
-			"f94dc900-6fcc-41fd-93a1-b456bd64b397",
-			"36bc8044-63b5-406d-8c77-5e6a61028b62",
-			"69f3c688-5937-4062-920b-07a9a17397f3",
-			"599a1e67-d8db-45d2-81d5-57fedeacd829",
-			"131e26d1-5e00-4344-a180-ef7ccf511541",
-			"970b7fa8-6128-41b9-993f-496a5f73c58f",
-			"a611893b-5ee7-4050-accc-a943bb05c80b",
-			"3cd26ce2-6658-4c17-9498-e51b346fc902",
-			"90550f05-253b-4cba-9cd9-d392f7de372b"
-		]
-	},
-	{
-		"campId": "7ec025b5-c185-46ef-9b04-12c7ad18db38",
-		"campName": "פרפר הטמפל",
-		"gifts": [
-			"62ab25e1-e6d2-4942-ba88-d7bf8ce573c4",
-			"b8f7eedb-ea64-49a0-b087-94a9d0522482",
-			"663bbc52-c36d-438d-a813-ddd696d6a1d8",
-			"8fa21578-7b94-49cb-9835-e639ba3d7ada",
-			"7a5a771a-b9fa-4b41-9bc6-e3090438a937",
-			"b6b4e886-08f8-4639-b70d-b9c05cb3fe76"
-		]
-	},
-	{
-		"campId": "8fd7a152-cef9-4758-8c51-5bf16b86d5a4",
-		"campName": "שיחות נפש",
-		"gifts": [
-			"d8ae3ac8-e0d2-47c7-b15e-96c9d6ac39a8",
-			"da05d4f4-134a-41c7-b77f-12106e4af61f",
-			"ef9ae5aa-e32e-4e6d-8afa-e0ecdc232dbe",
-			"8736a7d8-815b-4129-a23c-64ceeae1b863",
-			"7861bf15-c0aa-4c02-aada-23418a208229",
-			"783d1d84-a57e-46a2-99cc-47c8d4e24eba",
-			"8453b08d-4344-4247-afc1-9801ffc0ef54",
-			"f0652eeb-3e0e-44fc-996c-58193badfd8b",
-			"275e4fb3-f884-4ac1-b280-a755a807b42c",
-			"3d7d1de9-409b-485e-94dc-e6e9aa0236c0",
-			"2768c213-2b4c-4fe1-bf51-68550c40a2d5",
-			"f5f3fafb-1e81-447b-add2-f2ab0545ac9f",
-			"18fdabe9-afed-4a8b-91c1-babc9d366a88",
-			"cfca2f7c-7b97-429b-82f5-504280ff6af2"
-		]
-	},
-	{
-		"campId": "ad62378a-b5fc-4a9f-979d-f123b2bb1495",
-		"campName": "לוכדי החלומות",
-		"gifts": [
-			"27c9ba26-5b8e-4cfd-b93d-4dcb7a052e81",
-			"259c54c7-295d-4372-aa03-77426715bd40",
-			"fb053817-6446-4d11-a918-d2c30e17848c",
-			"65efd3e8-9269-430a-8cef-92a44631d260",
-			"8fbde02b-7c83-4899-9337-7b845f473753",
-			"5a29094a-29c8-4a7c-940a-33e07b7ed32a"
-		]
-	},
-	{
-		"campId": "7887cf2e-6e3b-45cd-8f79-47d84777d5b1",
-		"campName": "סמלי קאמפ - הקאמפ החמודי",
-		"gifts": [
-			"b03b51b7-bcd6-4492-9960-d6d43a306f06",
-			"52cfeb60-5fc8-42ac-bef7-8b7591e9261c",
-			"aa5589a9-bd9b-4d59-8bc5-41868f8c45be",
-			"82f3c7c0-21c4-49bd-b1ab-f08565a616a1",
-			"79bef706-f36b-4fcf-ad55-b3f51996a505"
-		]
-	},
-	{
-		"campId": "e4269d59-01e8-47fb-80ac-4405519e840a",
-		"campName": "זו-זו ובניו",
-		"gifts": [
-			"0e32a73b-15a4-44df-ad9c-8fa3b4ef6f12",
-			"f3546070-0bde-4de8-b2ac-9e5ae0ab67c9",
-			"85dfc7b0-894f-442a-a510-5d0fde00908c",
-			"b7fdc86e-690a-4d93-99b7-4976444a976f",
-			"7eed1b84-c265-417d-8a87-4a4ee6ed6453",
-			"a69102ea-6051-4d1c-8cf7-a7e886b6f45f",
-			"7eec64db-da9a-47c3-8dd5-e953ad132329"
-		]
-	},
-	{
-		"campId": "9dd28051-1d08-4b11-827d-ba995ab5244b",
-		"campName": "ערסלון",
-		"gifts": [
-			"82f25f5e-b48a-4a8c-b901-9c4b25382e3d",
-			"7696b4f6-d56e-4720-a25a-98e5e0c684dd",
-			"d5a92882-0205-4a7c-8289-351c8ea99080",
-			"b0d8f645-da1f-47ba-b189-881d0f301db5",
-			"5a2fb373-e605-4b89-9f46-9e11234b0532",
-			"99e6789a-0598-47eb-a2de-2999b64d00f1"
-		]
-	},
-	{
-		"campId": "2c87c3ba-bf66-4dca-b830-4bc38d8be06d",
-		"campName": "ג'י ספוט",
-		"gifts": [
-			"905c89d7-9026-4df7-a3c7-643b955d39cb",
-			"ff3e8466-5dc8-4220-ba11-0c11bf7e9887",
-			"cd5c609b-732d-45f5-93b2-9de1ef5cadc2",
-			"0d2f43da-addb-43ce-8ca6-3bb1c1c87676",
-			"2c7c7485-1097-4a2d-8780-0bde5e0d0fa4",
-			"ae2ed94d-6814-482d-9b05-f03aee065bed"
-		]
-	},
-	{
-		"campId": "e3d37c05-5916-4a81-a982-7c5a942bce70",
-		"campName": "פריפלואו",
-		"gifts": [
-			"2b587cd7-7453-414c-9c6f-64c58d9d5967",
-			"a0db533f-3c93-4f41-a815-3e031b452f26",
-			"6ba2c8b3-5050-47e9-befe-664c09fe6ae2",
-			"2feb5492-27bc-4352-b05b-0c9d3af834a6",
-			"72c6f5de-0a70-4a8d-bf1c-df0c983924db",
-			"12829de2-2b0f-405a-b183-48408b84c9af",
-			"e87df211-b9ae-46a8-bef3-3231ace9d982",
-			"62207d20-946f-4132-92c0-6cc1323a854e",
-			"2e073b0d-ca51-4c94-90c9-50852c3e8fee",
-			"2c8959cd-381d-42be-87be-95e22624c52f",
-			"45eaf141-d92e-48a8-b208-accee9f6d68b",
-			"8481926d-146a-419b-950b-e5ac5402e585",
-			"82e81b3a-7f6f-4b54-978f-19f7d4d202dd",
-			"a71382d4-04cc-4c74-86f7-a4da7995f698",
-			"d5a8cd63-ea6d-4fa3-9e83-1d467ef03b48",
-			"3c152c6a-6eb7-49a3-9dfb-b4e0f973e625",
-			"6c65c740-914b-4e92-9ac9-ed89d9463a5c",
-			"6853f967-57e4-4cc3-9565-9f1dfe920fe9"
-		]
-	},
-	{
-		"campId": "2d56cf53-fc8b-4321-8e87-ed8a0b8649a9",
-		"campName": "קאמפייר",
-		"gifts": [
-			"03b45d0e-7d84-4d65-bfc6-cb413acd51f2",
-			"c8a83248-eb5c-413d-987d-0017c9871d2f",
-			"60c8150e-3fd6-4dc3-8d4f-d528244a2f99",
-			"3ded5519-ddf9-46b1-ac92-21a2cf46666d",
-			"c091877e-9c8a-4520-9743-0d25b76b1a4d",
-			"442680e2-ce42-4a33-9875-90931696ee49"
-		]
-	},
-	{
-		"campId": "fa8d9c0c-2ef7-41fd-adbe-c30fd1ded9d8",
-		"campName": "הקיבוץ",
-		"gifts": [
-			"c021a6b6-c853-49c7-b1f4-977473ae423f",
-			"49750dd3-7a48-4322-8c14-65c17b6b06b2",
-			"ed864faf-0f0f-4911-8ab7-20d73db0c24a",
-			"41cc2d5a-6984-46a4-91d6-8222384be03d"
-		]
-	},
-	{
-		"campId": "0d5aac5b-ec76-452f-bd16-34ff3706ee50",
-		"campName": "קריסטל גריי",
-		"gifts": [
-			"a6d3532f-cea2-487a-a7e5-7cc08069628f",
-			"96b4493f-2726-47b9-86b6-77829bcfa385",
-			"88738a57-f6ae-46d4-8562-7fec630c5813"
-		]
-	},
-	{
-		"campId": "af74bf15-b445-4678-b935-485a8def1854",
-		"campName": "סקייסקרייפרז",
-		"gifts": [
-			"be3cc343-7742-437d-8fca-0540b990b371",
-			"11cdc451-bb43-4020-9399-53eb40932fed",
-			"f71d576d-3828-4371-afb0-eb0e02259505",
-			"ff2f2bb6-f031-4737-bc5f-4396375b5e9e",
-			"0d4a9561-dc09-46d7-aa80-dff17a74e3a1",
-			"f88b501e-9165-4064-8779-33510721ded3"
-		]
-	},
-	{
-		"campId": "5bd11979-b35c-463b-afff-e3cfcbd3614c",
-		"campName": "ג'וקבוקס",
-		"gifts": [
-			"5387b9c9-50c4-4ccf-acc8-0c110d43f29c"
-		]
-	},
-	{
-		"campId": "ab4aebc4-94f3-4cc9-9b55-b4c38c4de224",
-		"campName": "הבית של מיכל",
-		"gifts": [
-			"aaafd214-781e-4abf-8520-064ea48a9e4e",
-			"27bf13e8-1f5f-461c-8dca-fc5760365a0f",
-			"ff0d0fdb-9fef-4fb6-8a7f-a8a3670fd868",
-			"9c44cfbf-87d8-45d1-99f7-d5064ca9f2c4",
-			"d047e799-bb86-4a92-b064-ae6f514eff09",
-			"f171e0ad-3e75-42a3-b2e4-a4be604b113b"
-		]
-	},
-	{
-		"campId": "e2d8ead0-4099-4f35-b7db-714be77a0db3",
+		"campId": "d535ffa9-00f9-4873-90be-244068f50760",
 		"campName": "משולש ברמודה",
+		"description": "בחדר החושך הממוזג שלנו לא תראו דבר,עולם של מסתורין",
+		"descriptionEn": "The Dark Room , an air-conditioned playground",
+		"coverUrl": "https://drive.google.com/open?id=1iJ_T2J-lGPvK9iWUSaj73_ENrc6epQdp",
+		"tags": [
+			"VisuallyImpaired",
+			"Adults"
+		],
 		"gifts": [
-			"51629882-3c5e-4573-9501-5e25c5162b23",
-			"24723d1e-2aa8-400f-b5e9-41684be066f3",
-			"a53f9b9a-97db-4e33-aad1-2428bd87bb84",
-			"6fa984fc-ccb0-4407-b731-320704a41bc7",
-			"e4c42755-bf5a-43fc-a867-d91771683863",
-			"90a02fdb-27b4-4aed-bb0d-7d4336b1c114",
-			"f33f6e83-69a4-4fc7-b49d-ba4ffa8bbfcd",
-			"e01db342-3ed0-487b-ad1b-ef012f54024f",
-			"ed1fa1b8-a500-4b3f-b06d-141ade4f5907",
-			"f327820d-948d-45c0-9ece-33460db211e4",
-			"df8d35e6-0233-4f9c-aa1d-7911eb692438",
-			"1181dcd2-d8b4-409a-95be-9537244439b3",
-			"972eae66-e2cd-4b3d-a2c5-0aa350db1ac8",
-			"168bcf99-4757-4063-b592-e43abebdd94b",
-			"d66c9a12-221a-4ab8-930c-d1d193e9aecd",
-			"5eb9f956-67fe-4188-9b28-fa327daea91b",
-			"ab18309c-c341-4c9f-b32c-c73c36e37dc4",
-			"e901d5fb-9acb-4d57-ab2f-efc2261e8105",
-			"4ab2dc39-433a-4dd0-9d59-d155de66455f",
-			"dff21873-cc5a-4e0d-9d8d-36508c4fa952",
-			"d3125575-3a3e-4386-b830-a598c08d1327"
+			"27521cbf-f14f-42c9-abe8-5bed81ae96b4",
+			"3a951e36-1b4f-452c-9c93-2fbb184f5ebc",
+			"2f430ba4-a8ae-430c-840c-ba04453dc1fc",
+			"acbce7fe-dce5-4fd1-864d-b32746c3c6bd",
+			"29a5ef77-b971-4ef6-8526-4d55638b557e",
+			"aba37f02-ee0b-4613-b3fd-49dbdf499214",
+			"25c3e7e1-0afa-430b-968e-e2f734d6b286",
+			"8659eadc-f640-40dd-9c9f-a039ef031273",
+			"fa0a948d-cbfb-4125-91b3-95744d18960f",
+			"311fc239-680c-4eb8-b4f6-736dc72644af",
+			"7dcb1721-c74c-4f97-8bf7-86d34f6c65c3",
+			"6a58ae8f-3ad9-43cc-ae2c-85d86b6c0a62",
+			"fb08a68a-b61c-4456-93fd-98a370b07d62",
+			"ef920e54-eecc-48e5-b8a7-ca824b337430",
+			"9c3d705b-acd3-4cb1-9e3d-92e61f602c7b",
+			"e5aacc7c-186d-4131-a6d8-75b25608ddb4",
+			"44639a3f-2479-4483-ab88-cfbdbd2a221e",
+			"38120c66-229e-47af-b804-95882d41132e",
+			"ceb20a92-723e-4f79-89e4-5be7ee9e5682",
+			"2d5359d1-4a0a-493b-aa09-07558e48b779",
+			"7a80a590-faec-45a0-8f21-5140603e64fb"
 		]
 	},
 	{
-		"campId": "3c59f07b-611a-43bc-b193-bf572145d194",
-		"campName": "אינסנטי",
+		"campId": "94ea246e-81ad-408a-895c-4a4f163c9bab",
+		"campName": "04",
+		"description": "חוויה על חושית בדום ענק וקסום לצלילי האלקטרו",
+		"descriptionEn": "we r *04* - Sound Camp",
+		"coverUrl": "",
+		"tags": [],
+		"gifts": []
+	},
+	{
+		"campId": "160dec57-d732-46d3-979d-e77add093675",
+		"campName": "ספארקל יוניקורן",
+		"description": "מגיעים גם השנה להפיץ את משקה החדקרן הייחודי שלנו!",
+		"descriptionEn": "Returning to spread our amazing Unicorn Potion!!!",
+		"coverUrl": "https://drive.google.com/open?id=1vyw2UIuPSs9O_iXwLFaedwyegbH6s5Dq",
+		"tags": [
+			"PhysicallyDisabled",
+			"Adults"
+		],
 		"gifts": [
-			"e93f0962-5458-4980-a704-ebc87b4b7049",
-			"df4ee880-6f6c-4bf6-b267-660e6f2b0fa2",
-			"bf85407e-083f-4f82-b4eb-8d4e41dc049d",
-			"c22d21b8-0373-413f-88a0-a9b0bd3e3f4c",
-			"470edda1-a29c-41c8-9190-b30e9cc6c046",
-			"32f44b6e-7562-447f-80b3-d6c26064fa7e"
+			"9f1755d8-1ce0-4d64-9e42-2358165d15e8",
+			"33bd1b5a-2622-453a-8f11-01ab72e04002",
+			"bfdcd00b-25da-4b99-aaf9-de618a6731ff",
+			"99228980-3746-43c6-a66a-1d0d2a0ad374",
+			"9618170c-f141-4f4f-89a1-b79d568eb45b",
+			"db35996b-235f-4a17-aed5-ecf1a6344c2e",
+			"a45cbc14-4599-46ca-898a-25f7b64bdd98",
+			"6b0a8b09-2c53-4545-a962-5efe26d0977c",
+			"b6822f7e-e351-475a-bdf7-362fb427017c",
+			"f99d3e43-c914-4ac1-ab03-2e86ba520cc3",
+			"073f4593-140e-4279-99d2-0e66ec0adbd8",
+			"f2615b10-b380-4a0b-9d33-f166b7b48289"
 		]
 	},
 	{
-		"campId": "11c1baf9-cbc2-4ed1-8720-4f011bb0b3b4",
+		"campId": "779b0464-5d85-4042-924a-7bcb0cf365ae",
+		"campName": "סי ++ אבטיחים קרייזי קאמפ",
+		"description": "מסיבות,שייקים, קוקטיילים, פינוקים, פינות ישיבה .",
+		"descriptionEn": "Party's , cocktails, seating areas.",
+		"coverUrl": "https://drive.google.com/open?id=1dDumkCNkLo073BZjDCuY6sn9u0xRmy52",
+		"tags": [
+			"PhysicallyDisabled",
+			"Adults"
+		],
+		"gifts": [
+			"6bfc32eb-256e-4b7c-ae53-ebdc9ee26dc8",
+			"92d17405-c39a-4d38-843a-b044288b972f",
+			"47cada9b-7f5e-4df9-8fab-1a3aa15b60ec"
+		]
+	},
+	{
+		"campId": "5f732598-219c-4236-a70f-11eb9877de35",
+		"campName": "עדן בן זקאמפ",
+		"description": "אוכל משובח, מוזיקה והופעות חיות, אהבה מזרחית וכיף!",
+		"descriptionEn": "Fine Food, Live music show and Jams, Love and Fun",
+		"coverUrl": "https://drive.google.com/open?id=1B8VhaUfDGJK6Huyy__CWaAQQZRWUbjpt",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"1e84702f-148a-4307-9312-8597849ec2f3",
+			"56fa88f1-266e-4580-a827-474eb54d16b6",
+			"79036e3b-5a07-4f64-b2f1-efe593837a24"
+		]
+	},
+	{
+		"campId": "f09c06bc-306e-4669-903f-26b45eb20ef5",
+		"campName": "זקני השבט",
+		"description": "הרצאות, מדיטציות, כיבוד-קל והטענת ניידים",
+		"descriptionEn": "Lectures meditations, snacks & smartphone charger",
+		"coverUrl": "https://drive.google.com/open?id=1hkmavYe9MXgDd6g284suk3wASvZYYGVs",
+		"tags": [
+			"PhysicallyDisabled",
+			"Adults"
+		],
+		"gifts": [
+			"5acc2b26-db36-4389-b547-e2e1a3cd2731",
+			"1c9a616f-d305-4921-9a70-81d91037b103",
+			"3ef823f3-dcd7-4aa2-9c31-89ecf3c7b6ce",
+			"a1bedb18-24ed-42eb-b67f-72fcfaf94115",
+			"31bceff0-35ad-4380-bd8a-d0f77ee4e45b",
+			"1eebdcf1-8347-407e-8a62-1907665b1f11"
+		]
+	},
+	{
+		"campId": "daec54f7-e6e3-4d88-a60e-72c4d7949669",
+		"campName": "ראס אל שטן",
+		"description": "חושה מדברית, ומסיבות שקיעה שמרקידות כל גמל ונאקה.",
+		"descriptionEn": "Laid back Sinai camp with daily sundown parties",
+		"coverUrl": "https://drive.google.com/open?id=1F9WvG8imrXBRjFW9wfpTimBQ5gAW8CY4",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"f3848078-ca6d-4d40-b6ad-9737c4abd7ca",
+			"1df751c2-4a78-4c50-bf69-c638ab172223",
+			"45208f3b-be31-4f43-bdac-d32889b055ff",
+			"593c6585-7861-46cd-ad8b-31fc4bf1c9d2",
+			"18ba23c2-08ba-4730-8396-5c0bcdefa577",
+			"c92aeb31-570a-4a2a-a9ca-b3792b93c3c8"
+		]
+	},
+	{
+		"campId": "81e42191-2971-4118-a43f-931023eb820e",
+		"campName": "בוקרף",
+		"description": "לאונג' עם ספות, בר ,מסיבות וחריף",
+		"descriptionEn": "Lounge with sofas, bar, parties and  spicy",
+		"coverUrl": "https://drive.google.com/open?id=1QKoKDQsEjMNVPULmey60nFOji93YJuaf",
+		"tags": [],
+		"gifts": [
+			"73512490-70e6-458f-8478-dc89e92d8882",
+			"e73128d8-a78d-43ac-a35d-e61f48d0ecad",
+			"f23afe63-1fff-45f9-a1d2-25e87b190a86",
+			"f7fcd63a-b017-48dc-baeb-59738797545b",
+			"50a1d6c5-39a6-46bd-9f20-55f35d62f9e5",
+			"802aae90-f82c-4290-b660-7f456494bc28",
+			"ef0f35c0-86c3-4314-ad18-a0d1d57b3e69"
+		]
+	},
+	{
+		"campId": "ad036a12-499a-4a93-9e6f-7aecd43d663d",
+		"campName": "שנ\"צ",
+		"description": "קמפ שנ\"צ מזמין אתכם למנוחת צהריים מפנקת !",
+		"descriptionEn": "Camp Shnazzz treats you to a magical afternoon nap",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"3961abf7-328e-44b9-a486-3fdececdc203",
+			"112a0e0b-e401-4f2e-8348-928d344acaa2",
+			"0a499fa1-d717-453d-8927-e95b74018dab",
+			"511650c2-56ff-484e-b6b5-22e7709b0a77",
+			"ca3d1311-83c1-44b5-96e8-2df3f84ead6c",
+			"d19e5fc0-64f6-4950-9548-f2faf4e7586b"
+		]
+	},
+	{
+		"campId": "e9c315b9-1bc0-4845-9889-d7214462f394",
+		"campName": "איזוניישן",
+		"description": "קונטרה מוזיקלית לשלל הפלאות של הפלאיה",
+		"descriptionEn": "Musical contradict to all Playa wonders",
+		"coverUrl": "https://drive.google.com/open?id=1fCK8rObpo22vYx2uii2ZEsZv2JqZuPSS",
+		"tags": [],
+		"gifts": [
+			"3385c9db-1513-4e00-8c35-61563f0edfbd",
+			"20488be5-3dc2-440a-84fb-717251be7a8a"
+		]
+	},
+	{
+		"campId": "e8fa686e-1d2a-4efd-976e-f056411129ab",
+		"campName": "קאמפי קאמפ",
+		"description": "קאמפי קאמפ -  להירגע, לשחק, ליצור.",
+		"descriptionEn": "Campy Camp - relax, play, create.",
+		"coverUrl": "https://drive.google.com/open?id=15h07POP6zX0LQFxhU7prnQGDc5Avt4tH",
+		"tags": [],
+		"gifts": [
+			"92647d99-733c-434f-8471-f14dd6373cff",
+			"e40e41d4-dade-4501-9661-d4c7c32a31aa",
+			"07b6b11e-b125-4222-9e6f-4a06571f8282",
+			"1dd04575-74e8-4f0d-9693-25c6b7c6737a",
+			"9d5a5c68-0330-4df5-885b-37182cfae698",
+			"a40850be-a89d-4016-bf34-13a9e51d905e",
+			"6affa8ce-71ca-487f-b86b-b2d9f660ce92",
+			"60645848-a9c8-485e-b916-1a6310365352",
+			"bfe6417e-6a9f-4e29-aca5-77ceedbd73f4",
+			"454996a1-9caf-434c-91a9-82c7b7288bb4",
+			"8d68bff4-22f3-4211-be30-b572fecf4cf6",
+			"0434db2d-625e-4506-a44a-96f53b579243"
+		]
+	},
+	{
+		"campId": "f6f47bbf-e853-4c02-ac1f-e4e6e6504e15",
+		"campName": "נע ונד",
+		"description": "אי של שניות-מעודד נוודות פנימית-חיצונית קונטרסטית.",
+		"descriptionEn": "uni-duality- inward-outward nomadism in contrast.",
+		"coverUrl": "https://drive.google.com/open?id=13eebWnqxqlCAiago-iNeloiMFTlPUm9W",
+		"tags": [],
+		"gifts": [
+			"28071ef4-c2c9-4374-ae1e-fb42c2c4cf3c",
+			"fe80aab1-29e8-4c01-a828-251aa074ac26",
+			"8bc749b1-b642-4b7f-a29c-ab72598aeff4",
+			"101f924e-d816-4c51-95ec-e8df63cf78f2",
+			"a2f79b8b-d149-45e1-8d73-14b489367d41",
+			"b5767cf5-dea8-4366-a8c1-5a31ff9c6bd2",
+			"87fbf050-3659-4aec-9387-d6fe9f037a2e",
+			"d320e673-bd91-473b-a295-6f04954cc9cd",
+			"0d96f47c-e26a-4012-8414-8cc36169a78d",
+			"7f73ca06-123a-48b4-9da8-6bee2e0d62b4",
+			"3a42dc0f-ef9a-42f8-828f-73dffd0783b1",
+			"db3b64df-25ad-4f57-9b0f-b63bf88a0bda",
+			"22e0f343-d96a-4d66-8454-417b4b608b1d",
+			"e86accc7-a9cf-4f42-bb8d-1594f25ab4c3",
+			"f44eea07-368b-4b67-b00e-82fb4938ba14",
+			"b52d6375-e050-425f-8644-e164bc8bcee5",
+			"11b39a3c-031a-4e08-8ebe-8e0ceef9bfa4",
+			"20dde7d0-f2c4-4d53-b6c5-2312f26060a7",
+			"88d17151-9452-42ec-9c62-4605a5b78d9b",
+			"84658ac9-f5ee-4c77-866d-86c40275419b",
+			"7334b65d-ef99-47dd-9f06-28eea74f99ca",
+			"b4b6e752-2f01-4f01-86cb-89d6ff7aec14",
+			"d99a05f1-85e3-418f-b770-de2dbc978c6b",
+			"59c51765-01d9-4a66-a63d-53b60e712c79"
+		]
+	},
+	{
+		"campId": "ba3d72e3-8db9-4254-b720-f67a25b07116",
+		"campName": "לדברן",
+		"description": "סלון מזמין, מוזיקת צ'יל,מזרנים,מיטת מסג' ונעימי",
+		"descriptionEn": "Lounge,mattresses, chill noon music& activities",
+		"coverUrl": "https://drive.google.com/open?id=1p2hYQUR8aa_BzAFO_lmfP5cgH-FA05Jx",
+		"tags": [
+			"PhysicallyDisabled",
+			"Adults"
+		],
+		"gifts": []
+	},
+	{
+		"campId": "0856e0d1-c916-4691-90b1-3a905d53c810",
+		"campName": "אייס, קרים אנד פייר",
+		"description": "הקמפ הותיק ביותר במידברן - ארטיקים ומנוחה",
+		"descriptionEn": "The oldest   midbern camp - Popsicles and Rest",
+		"coverUrl": "https://drive.google.com/open?id=1fPW6ZvpvIzhBpG6BQg14dYlI5YbAD1Nf",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"177b3373-f765-4d0a-bd75-f388bc090a49",
+			"c7289b09-d191-4178-9daa-72f046ab57e6",
+			"71712d46-44f5-49b9-8007-72a0c4de70fe",
+			"5d63e3c3-55ac-4618-a1ec-c5fb426adce1",
+			"f58cace7-35b8-4be3-8e36-4a4eaf0f3dcb",
+			"e3af7388-471e-4e7a-a075-dc7074de8882"
+		]
+	},
+	{
+		"campId": "4d1204e6-f3a5-41be-9f61-1753960bb821",
+		"campName": "מחנה 80",
+		"description": "בואו איתנו בחזרה לעתיד... מחנה 80",
+		"descriptionEn": "Come with us back to the future - Camp 80s",
+		"coverUrl": "https://drive.google.com/open?id=1jn48fzr3dGyZTo_wPpVa7zg9cyN1210p",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"39d52130-ed76-45c1-800b-668b8093bc5b",
+			"7ffbfbdc-fde1-4cda-bca3-ecbf616fbbc0",
+			"be15600e-41e8-4fd0-9b44-5436ad86753e",
+			"808bacfc-d2c2-4ea1-b955-8055b4476b25",
+			"36ec3ee3-d3a1-4622-8cb6-d16cbe421435",
+			"fc70c5f6-5a19-4619-97a2-7805c31b08d3",
+			"b8068a00-e215-4df4-83fe-7cd936d14732",
+			"2668956c-27a5-4a89-b24c-860b83e17554",
+			"44c1e975-0216-47a0-a988-bcc978246db1",
+			"9c1f35e5-d13c-4167-9e05-a1ca74514325",
+			"9b22537b-c4be-4e18-b1da-8fdb4ddf81dd",
+			"3244bcca-c519-4daa-8662-04cd57670e14",
+			"d95c35cb-c3d3-492d-8f09-8226adab8a36",
+			"4f6888ea-952f-4b69-99cc-06a8d3af1614",
+			"f30e16ab-a783-41ca-8dbf-173657c6052c",
+			"9609717f-d26e-4428-8ab3-6feb2ea6c557",
+			"d819694b-e0e4-4a42-aa95-42b2cb267874"
+		]
+	},
+	{
+		"campId": "e49c9be0-6951-498e-988a-f1c668e60fdb",
+		"campName": "The Nest",
+		"description": "בית התה: מקום לנוח, לשתות תה 24/7 ולפעמים ורקוד",
+		"descriptionEn": "Tea House: chillout and drink tea 24/7",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"3248c469-3429-41d5-9bf9-42c2a05c887a",
+			"32a6fb1d-ed13-4bf4-9d78-9756ddc42db2",
+			"2707ba1a-e4f3-4670-809f-f7d6fa625290",
+			"ec35157d-ef56-48f9-9ae4-c98b97644bf5",
+			"cfc1bef1-ea44-49e5-af12-7d78619e5e50",
+			"82f5bc4e-13e7-43bd-b4c8-f24a7c7b9415"
+		]
+	},
+	{
+		"campId": "524f9213-4572-44ff-a58e-086ae41fc32d",
+		"campName": "ביט דה ביט",
+		"description": "שותים משקאות סלק, רוקדים ומרביצים לסלקים",
+		"descriptionEn": "drink beetroot beverages, dance and punch beets",
+		"coverUrl": "https://drive.google.com/open?id=1Iyz1qnt-juwwT1nQgVTk75DNOitXWcse",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"2c0652aa-3595-4c18-812f-8f4c7f01301c",
+			"e6c6e169-b117-4256-adad-63115a14afed",
+			"fc2108c0-a6ae-41b4-922f-13ac22c681d1",
+			"3d97d752-b2a8-4c72-9821-09f9c0218fd0",
+			"f5d608c2-5e75-4a83-ba76-0d237089c136",
+			"63de9b26-4882-4533-8aa4-54a98ca22a77"
+		]
+	},
+	{
+		"campId": "b6aec4ec-9f1d-498c-b06e-bfe90ab1609c",
+		"campName": "אורגניקמפ",
+		"description": "בית מרקחת לבעיות נפוצות ואבסורד",
+		"descriptionEn": "we will cure your buddy and soul",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"7f272d42-228f-48c5-8d42-c5949bf5baaa",
+			"d299b35c-bcee-44cb-9019-e7aad974222f",
+			"6845237d-0a6a-409e-9ec5-45670ff990a2",
+			"22a38540-1bc9-43e0-8895-84d4b15ee7ea",
+			"829db273-54cc-45b0-84e5-808170794b65",
+			"d46cd6b3-403a-42cf-9d6f-9269d05994a4"
+		]
+	},
+	{
+		"campId": "8bf726c5-3abe-44f2-a8a4-bfd775a85d58",
+		"campName": "האחיות מספריים",
+		"description": "סלון היופי של האחיות מספריים - מקום להיגזר בו",
+		"descriptionEn": "The Scissor's Sisters Cutting (W)edge Beauty Salon",
+		"coverUrl": "https://drive.google.com/open?id=1ENvAoXnFW0nQkoXiESvsmKYBh_fJFXJk",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"060d3093-5171-42cf-96f9-5f3ea5526089",
+			"dba9bf32-2d2c-4e0f-8c99-ebab786144b3",
+			"b3df168e-3af5-4b79-8eac-a19c0c238a90",
+			"ef6c1f03-10e6-4559-9a81-0a6bb556a485"
+		]
+	},
+	{
+		"campId": "b8aaefd6-85c5-42bc-bf45-9ee89dc52d15",
+		"campName": "מוחאיים ג'אר مخيم جار מחנה שכן",
+		"description": "פלסטיני-ישראלי +++ דיסקו ערבי+טרנס+נרגילות+מופלטות",
+		"descriptionEn": "Palestinian-Israeli ++ Arab disco+nargilas+mufleta",
+		"coverUrl": "https://drive.google.com/open?id=11zn7l76vw-9gkCn5PQLdsov5Nw681l1N",
+		"tags": [],
+		"gifts": [
+			"f8869799-f576-460e-80f7-7c525b7a3070",
+			"844def2d-df88-4011-9037-5b4176061300",
+			"cedb4a2a-2266-4519-a24d-195d20289ce0",
+			"519a8ace-66d4-4d42-9d81-0751dc64bf0d",
+			"905ed73f-c707-4b51-980e-3d76d49bf0a4",
+			"bb4446b5-917b-4c2b-b4e6-6a43f7e93554",
+			"8442cbbc-1286-4cb1-85cb-2316e0558570",
+			"43447a6e-449f-40ae-b3c8-5841650cf665",
+			"e2409e60-b597-4e98-bcd8-7f9f7fd5c2f0",
+			"ae1831f6-32c6-4bb3-adbf-bf06a501c04c",
+			"185dc105-81af-4c64-aaa6-9e242894842a",
+			"bcdddf08-d1cd-427f-aa25-a86025751468",
+			"0ba030d7-c2e4-4e32-b5b2-ce5b0cc9fdd8",
+			"1c7c4c76-64e7-49af-9b02-f483cac17223",
+			"fb708d83-669c-4a6a-a926-aefd4bc9a3aa",
+			"b8169c01-20cc-40c3-aa24-d8db0cb06cc5",
+			"b91b6986-050d-49a5-8b0c-4cf40bc9c56c",
+			"20104294-2812-40b0-8993-28959046d132",
+			"2a1ff5a4-5f0c-4e38-8894-b7555ecb65a2",
+			"2c5efdb0-0a04-40a2-8f45-964f66f893be",
+			"48c8c2a6-1033-48ac-83cf-d1d97f4dd37d"
+		]
+	},
+	{
+		"campId": "b9e42a0c-e692-40d6-ab4f-4a445eb6ff5e",
+		"campName": "שובי דובי",
+		"description": "לשקוע בנעימות פרוותית אין סופית של חברינו הדובים.",
+		"descriptionEn": "The cuddle Puddle - endless furry softness.",
+		"coverUrl": "https://drive.google.com/open?id=1gLNxPZDYix5xx-7hQ7LbwOVPX_SbySVn",
+		"tags": [],
+		"gifts": [
+			"ca51b0c6-d699-4400-81a5-6aece143caf6"
+		]
+	},
+	{
+		"campId": "a0242a50-3974-4f45-8e94-6df68ec9dacc",
+		"campName": "ביונד קומון סנס",
+		"description": "אירוח שמעבר להגיון הסביר בחצר הארמון",
+		"descriptionEn": "Enter kingdom's court for a \"Beyond\" experience",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled",
+			"Adults"
+		],
+		"gifts": [
+			"fd2383d5-e0e3-488b-af4b-ae67d72a39bc",
+			"dfdb4f00-de8e-456a-9a23-18a14d6663df",
+			"1d994589-88e9-4d42-94ac-3ae18de78aa8",
+			"06f1234f-e2c4-409f-98fc-ffdf8c6bfd9b",
+			"ba0da8f5-ebe7-4580-b3c3-f67afb99b1f1",
+			"53d95fc1-8f44-406a-95e8-54e8631ecc24"
+		]
+	},
+	{
+		"campId": "be2aee5f-f304-4a1e-b618-09557770d5fd",
+		"campName": "קאמפ רנדום",
+		"description": "הפתעות רנדומליות",
+		"descriptionEn": "At camp random every day a new surprise awaits",
+		"coverUrl": "",
+		"tags": [
+			"Adults"
+		],
+		"gifts": [
+			"35769917-2a8c-483d-809c-5a515d09ddb2"
+		]
+	},
+	{
+		"campId": "a8e63ed3-e729-4ea6-b856-aa4675a98925",
+		"campName": "סאנרייז קינגדום",
+		"description": "דיפ האוס וטכנו משקיעה עד זריחה ומעבר",
+		"descriptionEn": "Deep House & Techno from sunset till sunrise",
+		"coverUrl": "https://drive.google.com/open?id=1HJFjO6MTaDMW8oaK8OZLRjU62Jj2I5SB",
+		"tags": [],
+		"gifts": [
+			"94a68224-86b4-44e9-8354-f3fd51d8a695",
+			"ce638a8b-e9f7-46eb-b0a8-17effe50cc86",
+			"9932e03c-a6e5-466f-8b72-d6f1562da2d3",
+			"c2c83867-e38c-4c68-aa52-24fb19219e6e",
+			"8c46b65b-ab0c-4530-8a86-48022d54a5d9",
+			"c68b3826-5ca5-4216-a2d5-7bb23751647f"
+		]
+	},
+	{
+		"campId": "ff0f6b94-7b82-4aff-97f0-c10459f73b7d",
+		"campName": "ולהאלה",
+		"description": "שער גן העדן הויקינגי נפתח! בירה! טרפת! ראגנארוק!",
+		"descriptionEn": "Viking heaven is open! Beer! Madness! Ragnarök!",
+		"coverUrl": "https://drive.google.com/open?id=1-k_DPP__uTqegUBJA4fR4F_dYrNYe19L",
+		"tags": [],
+		"gifts": [
+			"578714d3-51d7-4605-8174-cfc5d5eb0942",
+			"bb1bd6e4-3f66-4405-b34b-847f90ec6459",
+			"666ffecb-52aa-44a9-908d-bcae4e54f69c",
+			"3fc942e1-a94a-461f-b0ed-50446f472d09"
+		]
+	},
+	{
+		"campId": "b92fdbc7-4bd9-4821-82fc-0eba7f4f2868",
+		"campName": "ג'אנגל סטורם",
+		"description": "המקום המושלם להתפנן בו במדבר: עצים ערסלים וטפטפות",
+		"descriptionEn": "The perfect place to chill: trees, hammocks, spray",
+		"coverUrl": "https://drive.google.com/open?id=1f5rlXl85QdcRtnBCDc040n3_0FX9kWG1",
+		"tags": [],
+		"gifts": [
+			"1019bcdc-e02a-44c4-9df3-9cb9a8966d0e"
+		]
+	},
+	{
+		"campId": "900312d2-cf02-4944-a9bd-6962fad885aa",
+		"campName": "מיראז'",
+		"description": "גלריית צילומי מידברן יוגה מדיטציה וסדנאות התפתחות",
+		"descriptionEn": "Midburn PhotoGallery & Yoga & meditation",
+		"coverUrl": "https://drive.google.com/open?id=1DojPFLHhXH5m0bO17l4OIZzs_U_-BAN9",
+		"tags": [
+			"Adults"
+		],
+		"gifts": [
+			"1da9685b-d47f-4e6c-a3f7-f0e69cad0b74",
+			"3a0c82ed-58e0-46eb-9f43-02b12c1dd7ff",
+			"945ff6e6-d0ce-4f0e-8773-f3310999e011",
+			"77381f16-f5f3-4061-a6ac-21aa5a6cc57c",
+			"f13e4491-043d-4341-9a98-5c63c75157cf",
+			"b4c0a440-11d0-46de-9df2-f1aec1f00cac"
+		]
+	},
+	{
+		"campId": "1800d27a-6382-4b56-97a2-b9d12a4c3c57",
+		"campName": "פרילאב",
+		"description": "כאן חוקרים ומבטאים מיניות בכל יופיה ועל כל גווניה!",
+		"descriptionEn": "An open space for sexual exploration & expression",
+		"coverUrl": "https://drive.google.com/open?id=1Se3U5-muNGCokrMjvCzlWqO63DCeHvYX",
+		"tags": [
+			"PhysicallyDisabled",
+			"Adults"
+		],
+		"gifts": [
+			"b34be37b-b454-48f4-b388-090a5925d194",
+			"b773f6da-0838-43ec-b851-b12848cde72c",
+			"a652fa8a-8465-4b73-9ca6-5e29e82f5176",
+			"3e9e6350-0225-471f-b3f7-407a45ad1a74",
+			"ad5d7236-52f3-4505-a166-756245d99bc6",
+			"51e607bd-74f3-4c2d-9e77-6d0f725dd9d6",
+			"90e7b38a-4ce0-4923-91ea-5e653eda8606",
+			"ebda2834-b771-44e2-8afd-eed4c7b3df98",
+			"cc555a1e-090f-4725-8b10-cb3db0e92aed",
+			"d1c77158-e38a-4f77-acee-19c246046b93",
+			"d76a125d-4b4d-41c5-95b5-63a31d6f74f7",
+			"854f688b-a3f0-42f9-89a2-cbdfa4cb88b7",
+			"ba4ae309-d6ba-42b9-b31b-cad2f238c681",
+			"7570ba03-addb-4f71-b41f-ba9f52e485eb",
+			"153f6b9c-2556-47c3-8804-6818fb3deccb",
+			"129c411a-d8ea-4cc2-910f-90893793a204",
+			"79a46c2d-dca1-4531-9d2b-b324e5db6e9e",
+			"7c05a646-619e-4eb9-b1a8-32dd9fa88671",
+			"a1c33176-3dbd-43c1-95da-70cc8d3f91db",
+			"4ea2fdf5-4d05-4d5d-aa61-71afb764c7e3",
+			"10703bcf-f8f0-42bd-853c-77176ab25838",
+			"dc6fad65-85e2-465c-ba25-cca0589284db",
+			"15b45d2b-e68a-48a2-bdd8-0d19b0719751",
+			"34594829-b8be-41c3-92b6-1e6365ff79db",
+			"ebf1b910-dc17-48bf-bbc2-ffd42b259871",
+			"1ce3fbb9-685b-4c9b-8d19-55aa26783ad2",
+			"3bae750d-28fc-4c3e-9055-88b1c9442a77",
+			"f7b440ed-3322-4ece-aff2-bc837c383cdf",
+			"88997dc6-70ca-40de-a6a8-b63f621a53bc",
+			"436ccf2f-9acf-4e31-8b55-dc273bca73a1",
+			"1eb818d3-362d-4ca0-9d96-11c3afeb89b8",
+			"181242b6-bd4a-4c9a-864e-89e7cb568d2d",
+			"bd793920-ec2b-46f8-8198-b89a485108ee",
+			"55a36bff-5508-41d5-82ec-65c3deffd33b",
+			"89053adf-4874-44a6-b2e3-f6a91897ebcd"
+		]
+	},
+	{
+		"campId": "697f7106-27af-459d-9936-f477777c2d5c",
+		"campName": "אימפריית הפנקייקים",
+		"description": "המתחם הפיננסי של המידברן למסיבת פנקייקים וקזינו",
+		"descriptionEn": "Spend your Midcoins in Pancake Party & the Casino",
+		"coverUrl": "https://drive.google.com/open?id=1hrkxXoUORoN_soUboqB3thFfNqyw7T7A",
+		"tags": [],
+		"gifts": [
+			"0b90f1cc-4907-4b8b-989f-56decf47a380",
+			"9bb22da1-8aad-40aa-8634-33c2d94e35a2",
+			"adf30388-08b9-45b9-a592-31bacdfe16c5"
+		]
+	},
+	{
+		"campId": "562c6dca-3f49-45f6-bd38-f040521b2d30",
+		"campName": "פיזדייץ",
+		"description": "המון לבבות שמתחברים לסאונד ועושים מוזיקה",
+		"descriptionEn": "heart that contacts to sound and make a music",
+		"coverUrl": "https://drive.google.com/open?id=1CIaBkSXo8X9KsdOZPZ0WUfhPWQAY4leh",
+		"tags": [
+			"Adults"
+		],
+		"gifts": [
+			"b1589e73-890a-4e5a-a655-14770f1ca36e",
+			"7d15540a-7205-4d3c-a339-13db911dbee5",
+			"30008a07-72ef-490e-b20d-c7775e6295bc",
+			"49697fad-7d0f-4384-957e-f4b3662a2f0b",
+			"4932a58a-d57d-44dc-bad9-847d82865cf9",
+			"36134548-5348-4380-a10a-9eff40b029ef"
+		]
+	},
+	{
+		"campId": "2d9ff11b-adc5-47a0-b37c-f015a4cbebd2",
+		"campName": "Challenge Accepted",
+		"description": "מאתגרים את הפלאיה!",
+		"descriptionEn": "CHALLENGING THE PLAYA",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"afaad835-a0c9-48d0-9bd8-42abef977c95",
+			"61ed225c-d7ad-4c3a-9540-b9a6d7d11bc1",
+			"8850a834-7d90-4ef2-93cc-e7f717f408ba",
+			"3aba3a7c-6cfd-48c9-a25c-bf312c64c9c8",
+			"3e64a518-11cb-48d1-8f2b-f2b14d70f7e0",
+			"af58facc-bb04-4898-ac51-e4e6d61eba5e",
+			"fe7e6f52-c644-44ef-afeb-b49a21b06caa"
+		]
+	},
+	{
+		"campId": "8115a10a-8a29-46ee-8ae6-ed99741b3d3c",
+		"campName": "חלום במציאות",
+		"description": "מרחב פתוח לחלום חלומות אישיים וחברתיים",
+		"descriptionEn": "A place for social & personal dreams",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"e313b94a-43d7-4fa5-b6e3-7deb2de27f34",
+			"f3a43ed1-79b7-426b-979d-34c19391f82f",
+			"033392af-723b-4e8c-b37c-7abd1522f042",
+			"cd0622b6-62c3-4e76-be0c-30de9db14557",
+			"1710fdb6-926d-4757-a015-1f6914e3689c",
+			"3f4fbded-caf8-4548-b545-3ebdbcac8814"
+		]
+	},
+	{
+		"campId": "11d033fc-4e7c-4b16-8d7d-8c30bc2c916d",
+		"campName": "מקסיקמפ",
+		"description": "מידברן חריף יותר עם מוחיטו, ריקודים וסיאסטה",
+		"descriptionEn": "A spicer Midburn with Mojito, Fiesta & Siesta.",
+		"coverUrl": "https://drive.google.com/open?id=1gCQ18bEaDB6ZncfXefer1p8Gl-UqOpkk",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"9f8d6d4d-7040-449f-bd6d-4f1607d8d127",
+			"4a96d13b-33d2-4ab0-8252-1f63f9a15b25",
+			"8e3c5116-05f8-42e1-bf20-3772cba31be4",
+			"224c958b-c2ca-431c-95df-67644cee9cd3",
+			"b8cc8001-dc66-4257-993f-a9836d98ef2e",
+			"60da5bfd-268e-423b-bd30-589ffab222a5",
+			"88167603-185f-42b4-aa92-914aa52c4b46",
+			"c34e07a7-2bea-4caf-bd84-76ad909fbafc",
+			"08db7335-a002-4835-a7ba-1f53d0ac5a4d",
+			"6cba3627-f204-4483-99c0-593593b4ad41",
+			"d91ea097-7a3a-45e0-898c-bb20f0c4bb3b",
+			"3852eb34-f4a9-4a0a-a0f1-e09cec188e22",
+			"21149380-66ad-4df7-9976-a680535bb55b",
+			"9675fdcd-b471-4907-804c-9b0a58c5470b",
+			"1faff278-ae52-486a-aeb1-03b5b9677964"
+		]
+	},
+	{
+		"campId": "3cb0fd7c-03c0-46c2-a225-24ed94cd145a",
+		"campName": "הילדים האבודים",
+		"description": "זירת קרב בין פיראטים לאינדיאנים עם אקדחי Nerf",
+		"descriptionEn": "Nerf shooting arena, Pirates against Indians",
+		"coverUrl": "",
+		"tags": [
+			"HearingImpaired",
+			"Kids"
+		],
+		"gifts": [
+			"0930a722-dde5-482d-816d-0caa400c8ae7",
+			"6e914e38-0d90-434c-b2d0-6144fb1b5895",
+			"57d5f195-ef9e-469b-9e09-b96e061c1fcb",
+			"b28ce17c-1bca-4b84-8da1-5e77f528750f",
+			"7b4c0d5f-25db-455f-96c2-755b4be91229",
+			"0c4c76b9-4b33-4018-80c0-2375ecaac63a",
+			"bf7a0090-d164-4b48-9f11-483e695f9961",
+			"874830ba-7ac8-4dfa-81ab-e59b6907c2a3"
+		]
+	},
+	{
+		"campId": "e8b26725-81dc-468d-81ca-7555ada166a8",
+		"campName": "קוף X",
+		"description": "בג'ונגל הקופים תתהלכו בין קוטביות הכאוס לשלווה",
+		"descriptionEn": "Monkeys' jungle full of chaos and tranquility",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"e9286502-0f2d-4504-94a9-60c74978ae54",
+			"95c42093-ed17-4dc2-a76d-d18f39350225",
+			"2dfbd40a-3b97-494d-bb9a-6fa7f8f68f68",
+			"b50be36c-ecb2-4592-881d-78a317016134",
+			"e4e1ad40-98d0-4f5d-be12-5d569b7b6be1",
+			"fffc405a-0af5-468a-8cc1-0f97478e6ea7",
+			"42ed4d1e-1209-4ce3-9b91-3491f7bbce23",
+			"6b124efd-1c3d-4823-ad31-6fc29515048c",
+			"854be314-3285-4e1a-8780-53850f1a55b4",
+			"b1eea294-19a3-480a-97cc-c9ead7a58f75",
+			"9db22fb7-c6bb-4d1e-92f0-a4f15162bd94",
+			"c59be6c1-4c83-42b0-b9f3-2434014cdedd"
+		]
+	},
+	{
+		"campId": "6ea8aeb4-08f9-466b-9c3f-a69fa71ccf63",
+		"campName": "IHOP",
+		"description": "אינטרגלקטיק האוס אוף פנקייק מרחף באמבט אדים מופלא",
+		"descriptionEn": "Intergalactic house of pancake floating in steam",
+		"coverUrl": "https://drive.google.com/open?id=1yYxKwqqPSqj18EQLj7dU5fOC3lOAKjgM",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"5e80cc4f-16eb-490a-b45d-bb01a8de0974",
+			"60df14ea-ecf0-444b-8d0a-dcfe5d0bc843",
+			"e9dcc225-67b9-4ba9-b047-b553c0678522",
+			"4c9484d3-764e-4a3e-b9f5-b053c4cdcc72",
+			"972d7cde-5df3-4cbf-bb85-6b3c9429a6c8",
+			"77cfa286-dcae-4b83-978d-4b73e110691d",
+			"2a24c54f-3a65-4979-8d89-ab3c7f79cea2",
+			"a52bb2cf-d4c1-4d99-b649-4bae31ce2035",
+			"304c581e-0e37-40c8-9d8a-9a26d4963873"
+		]
+	},
+	{
+		"campId": "a31a49f3-530f-4e3a-bce4-fcf0dfbe5e39",
+		"campName": "קפה ועוגיות",
+		"description": "בית הקפה של הפלאייה",
+		"descriptionEn": "The playa cafe'",
+		"coverUrl": "https://drive.google.com/open?id=1OxsrHj94CK4mOCP4xUs6x5WLXLVzaOBS",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"30bd1442-c9e9-4860-a565-79ed6ec18ed6",
+			"ee6e8d9b-b214-4813-9279-d9d706cf04ab",
+			"93af0a4e-ccbe-45f8-9c55-26baf6d7de3a"
+		]
+	},
+	{
+		"campId": "ed5e00a3-4b60-461b-a744-eee562bcd8d9",
+		"campName": "ארט טוריסמו",
+		"description": "קמפ סאונד פרפרים באולטרה סגול וסיורי אמנות מודרכים",
+		"descriptionEn": "Sound Camp UV Butterflies and Guided Art Tours",
+		"coverUrl": "https://drive.google.com/open?id=1VOABIEg_nK96iOZd1PR7tXzVtliD3TAJ",
+		"tags": [
+			"Adults"
+		],
+		"gifts": [
+			"acdab78d-1949-4862-9471-a291b843467a",
+			"e8858947-9803-4eeb-818c-a801ce5666b7",
+			"508f1aaa-d5bc-4f0e-b5be-7bc2b2f2056e",
+			"db063f40-9ba0-4f82-8ba8-5651943c5f22",
+			"c2184fe0-6ab1-4bbe-b5bd-40a42aa6f744",
+			"02bbcc70-1dd3-48cd-9474-9a1bfbffa324"
+		]
+	},
+	{
+		"campId": "577cbf97-6aad-4880-bdb5-2e3bc4f48a01",
+		"campName": "הקרקס של שלאפי",
+		"description": "באות לקרקס את הפלאיה! הופעות והפתעות! 18+",
+		"descriptionEn": "Ur Circus wtch a show or b the show! 18+",
+		"coverUrl": "https://drive.google.com/open?id=1TgTjtvoXGYEOYRi7vsNs8LKR0igk8Jjk",
+		"tags": [
+			"HearingImpaired",
+			"Adults"
+		],
+		"gifts": []
+	},
+	{
+		"campId": "8629a218-6275-4aa4-ab91-fe0143e99903",
+		"campName": "אקס או אקס או",
+		"description": "הרגישו כמו בסיני או בהודו בגסטהאוס של XOXO",
+		"descriptionEn": "Feel like Sinai or India in XOXO’s guesthouse",
+		"coverUrl": "",
+		"tags": [],
+		"gifts": [
+			"ad662dce-5a62-4dc9-b7d0-156d174e70aa",
+			"d580b6d6-f141-479c-a082-d19116acd682",
+			"0a01982e-c970-4208-8e27-1a0334b9ac8d",
+			"dd5dd3e5-05ac-421e-804c-328e9c376cb7",
+			"83de0da0-4eed-4f88-a263-f134f8e33bb8",
+			"c87c1e88-0c1c-40d7-9545-95fede8abda6",
+			"80208d17-fbdf-4776-8856-5ecba9d05cd6"
+		]
+	},
+	{
+		"campId": "eb31b9a7-0272-4c16-ac1d-9f86dfc64f07",
+		"campName": "א3 - הכיתה הטיפולית",
+		"description": "חזרה לבית ספר",
+		"descriptionEn": "Back to school",
+		"coverUrl": "https://drive.google.com/open?id=1L7KVgxLFOlSFbsd9om531XEAVi0eyMWr",
+		"tags": [],
+		"gifts": [
+			"d74aca61-27c0-418e-8a8a-afacf209f7e8",
+			"9505b851-221b-4c56-a275-94fbb0c59025",
+			"34d6d369-ec9c-40ed-85e1-427299246d58",
+			"7742d904-60a4-4b08-84f9-377f01f41ddf",
+			"9b387136-930a-4b9b-9470-5e1d49aef5d5",
+			"679f1271-5db7-4678-8e10-49dcd69721ea"
+		]
+	},
+	{
+		"campId": "5c008099-3c18-4343-9ad0-ff3a077e778a",
+		"campName": "סטרייט פרנדלי",
+		"description": "המחנה הגאה! מלא מסיבות גאות, מופעי דראג וטונה גלאם",
+		"descriptionEn": "The Gay camp! Gay parties, Drag shows and Glam!",
+		"coverUrl": "https://drive.google.com/open?id=1VdgCW357aGKy1EQiOrfFrTbQ7p1yDBd8",
+		"tags": [
+			"PhysicallyDisabled",
+			"Adults"
+		],
+		"gifts": [
+			"15074013-3d5b-4dfa-abd3-2aae7ac6c358",
+			"0729faea-0661-4826-9329-502b369739ec",
+			"4655901a-f51d-414c-ac45-59c3e3b4897d",
+			"9886e6f6-e27b-4395-bae9-8de0f57ac97d",
+			"482e4077-f1c3-494f-ac92-1642b70afd66",
+			"9aba406d-83a9-40d6-bd34-27fb97f95aaf",
+			"834c0afe-d1e6-4c6a-a711-46de69b66190"
+		]
+	},
+	{
+		"campId": "3b2de3c1-3b7c-440a-8832-1438155e996a",
+		"campName": "ברנפלקס",
+		"description": "בואו לאכול קצת קורנפלקס אחרי לילה ארוך ומפרך",
+		"descriptionEn": "Come eat some cereal after a hard days night",
+		"coverUrl": "https://drive.google.com/open?id=1y_AMAgtelIeCtk31HyFhpff_smBtTGMY",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"70e990a8-eee3-4664-b705-a2410fcbee05",
+			"74fe7769-66de-4add-8ff2-e5a015a6b285",
+			"eb74e4bb-4eff-479b-8857-72b437d03926",
+			"b11d16c0-f1d6-4e08-8a4c-5c6516eb7a7e",
+			"8d9cc34f-8529-47b0-a928-1b288c1fe56a",
+			"63252546-e750-4ed6-9834-e5c99b93cbd3"
+		]
+	},
+	{
+		"campId": "88057612-223f-4e4d-9b03-4ad3e7f07d02",
+		"campName": "פילואו פייט קלאב",
+		"description": "זירת אגרוף מלאתלפים כריות בואו להנות בכל יום הפתעה",
+		"descriptionEn": "A stunning pillowfighting arena lots of surprises",
+		"coverUrl": "https://drive.google.com/open?id=1FQ1fo_8Myg7M32IARecBv46RBUaU3oB_",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"2c570d11-fd7f-4655-9096-2dcc3ac09e1b",
+			"bc918fec-bd3b-47a9-b32c-5dd1f2162e10",
+			"7cf8d9c3-c9a2-4cda-b4a9-1f82cc2c9648",
+			"ee0b3cf3-ec33-41cd-9a65-46a131a82f96",
+			"9c2f146a-c6c8-4b55-8d1f-7966e935ef64",
+			"4e618af3-a384-4ea4-b4e4-49469a274240",
+			"59588128-3831-41ab-8bed-64ece13651c0",
+			"ea48fd44-7fe0-410c-98ea-3bab4c4faa7c",
+			"9e7f30c7-d151-4790-a31f-d5da7a85616a",
+			"9ae1c7cb-5c3c-4415-baed-cc2a4bd7eaa4",
+			"67ada782-0aa1-4153-a58c-57e708b1f0a2",
+			"13facbc5-daa7-4819-8501-1138ef70e7ad"
+		]
+	},
+	{
+		"campId": "f841fe79-ff37-481c-a5b1-9e71fa1f7562",
+		"campName": "קאמפ ווינרס",
+		"description": "מחנה קטן ורדיקלי מעניק מגוון פעילויות מטה פיזיות",
+		"descriptionEn": "Radical small camp given metaphysical activity",
+		"coverUrl": "https://drive.google.com/open?id=1W6jlTVYQvfY7tAHwKKcrcM0BHYrxBaD4",
+		"tags": [
+			"VisuallyImpaired"
+		],
+		"gifts": []
+	},
+	{
+		"campId": "ab478885-4201-48f5-af0c-0c0bc24c78ef",
+		"campName": "בעקבות מנהרת הארנג",
+		"description": "מחילה צוננת המהווה מפלט מרענן באמצע מדבר שרבי",
+		"descriptionEn": "Rabbit hole -  Chilled refreshing desert sanctuary",
+		"coverUrl": "https://drive.google.com/open?id=1oyr4LdgjiWuPNZnUttAhblvMy5v3rMIi",
+		"tags": [
+			"PhysicallyDisabled",
+			"Kids"
+		],
+		"gifts": [
+			"5e530111-62a5-4ed0-8843-4058601ab521",
+			"cda2c042-6dff-42d8-b009-a3c1eaeeddac"
+		]
+	},
+	{
+		"campId": "055ab4e1-0bac-4546-bd63-becfa0a29a76",
+		"campName": "בעזרת השם",
+		"description": "בואו לפתוח את הלב ולהיוולד מחדש עם שם פלאיה קסום",
+		"descriptionEn": "Open your heart & receive a new magical Playa name",
+		"coverUrl": "https://drive.google.com/open?id=1sKQsLmYNhNan_ZKYl0c521vp4K1dDxt7",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": []
+	},
+	{
+		"campId": "3c529471-79e3-46fb-815a-bb1942dfaadf",
+		"campName": "היום שאחרי",
+		"description": "קמפ משפחות",
+		"descriptionEn": "Family Camp",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled",
+			"Kids"
+		],
+		"gifts": [
+			"4a6f71b1-ad3b-41c2-b732-8b1b46b94510",
+			"acfe498e-a566-4a2c-b1f5-621ad5854e1a",
+			"157ad2f9-1da7-4f90-b3e2-c943512dd65d",
+			"02310d74-9a7c-44b7-b6f9-d2e3cbe4f5a6",
+			"c39fa142-6dab-42a9-a168-6cfb43a04f6a",
+			"4b25747d-0d93-4dc3-88f3-39520063f3da"
+		]
+	},
+	{
+		"campId": "96edfe98-8a9b-4b5b-b39f-b3f69987d0f8",
+		"campName": "IHOP",
+		"description": "אינטרגלקטיק האוס אוף פנקייק מרחף באמבט אדים מופלא",
+		"descriptionEn": "Intergalactic house of pancake floating in steam",
+		"coverUrl": "https://drive.google.com/open?id=1Km0wNUUM9frowdc-EDCad6H0FanHbW6-",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"5e80cc4f-16eb-490a-b45d-bb01a8de0974",
+			"60df14ea-ecf0-444b-8d0a-dcfe5d0bc843",
+			"e9dcc225-67b9-4ba9-b047-b553c0678522",
+			"4c9484d3-764e-4a3e-b9f5-b053c4cdcc72",
+			"972d7cde-5df3-4cbf-bb85-6b3c9429a6c8",
+			"77cfa286-dcae-4b83-978d-4b73e110691d",
+			"2a24c54f-3a65-4979-8d89-ab3c7f79cea2",
+			"a52bb2cf-d4c1-4d99-b649-4bae31ce2035",
+			"304c581e-0e37-40c8-9d8a-9a26d4963873"
+		]
+	},
+	{
+		"campId": "b571c803-3cdd-4d83-a082-8cb8ba40475a",
+		"campName": "המורדים",
+		"description": "הקרנות סרטי בורקס, חלוקת פופקורן וצמר גפן מתוק",
+		"descriptionEn": "Old Israeli Films, with popcorn and candy floss",
+		"coverUrl": "",
+		"tags": [],
+		"gifts": [
+			"c2df346f-cc09-43c1-a3ee-1c694c25308e",
+			"668a5abb-0422-41d4-9110-f76733ed769c",
+			"b57409cc-8a3e-4b3a-8262-13b3fdcfb2f1",
+			"52e67a71-e2c9-4f04-b26e-61b268b96847",
+			"8718497b-66d1-4ff9-b26d-4841568b0cab",
+			"fdfbc0f7-fc68-45bc-aa21-8e77895ae290"
+		]
+	},
+	{
+		"campId": "d3eda8a0-46f0-4a04-b20b-22ecb7a15ccc",
+		"campName": "פילואו פייט קלאב",
+		"description": "The 1st rule of PFC is: Always Hold a Pillow",
+		"descriptionEn": "The 1st rule of PFC is: Always Hold a Pillow",
+		"coverUrl": "https://drive.google.com/open?id=1HlKivZHHZ6O0Gsesmq03-SnSxSuqNHJL",
+		"tags": [
+			"HearingImpaired",
+			"Kids"
+		],
+		"gifts": [
+			"2c570d11-fd7f-4655-9096-2dcc3ac09e1b",
+			"bc918fec-bd3b-47a9-b32c-5dd1f2162e10",
+			"7cf8d9c3-c9a2-4cda-b4a9-1f82cc2c9648",
+			"ee0b3cf3-ec33-41cd-9a65-46a131a82f96",
+			"9c2f146a-c6c8-4b55-8d1f-7966e935ef64",
+			"4e618af3-a384-4ea4-b4e4-49469a274240",
+			"59588128-3831-41ab-8bed-64ece13651c0",
+			"ea48fd44-7fe0-410c-98ea-3bab4c4faa7c",
+			"9e7f30c7-d151-4790-a31f-d5da7a85616a",
+			"9ae1c7cb-5c3c-4415-baed-cc2a4bd7eaa4",
+			"67ada782-0aa1-4153-a58c-57e708b1f0a2",
+			"13facbc5-daa7-4819-8501-1138ef70e7ad"
+		]
+	},
+	{
+		"campId": "c6780326-4333-4cd2-8b6e-7eea203ad185",
+		"campName": "רדיו יוניברס",
+		"description": "תחנת הרדיו של הפלאיה. מביאים לכם מוזיקה וצחוקים.",
+		"descriptionEn": "The playas radio. Bringing you music and laughs",
+		"coverUrl": "https://drive.google.com/open?id=1Dal5J3U43XOJnN6TVNBWtfCBNcnFXSjX",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": []
+	},
+	{
+		"campId": "c5825e90-5dc6-497a-a525-95eb17cb9874",
+		"campName": "קאמפ אברנבאל",
+		"description": "קפה אינטרנט אינטרגלקטי",
+		"descriptionEn": "Intergalactic Internet Cafe",
+		"coverUrl": "https://drive.google.com/open?id=1cFJ_ZzeQcAtvEWt7S8SVdJ8OX5_gEdA3",
+		"tags": [],
+		"gifts": [
+			"625997cf-fcd5-48d9-bca0-faa44a985f01",
+			"3764f01c-0f66-4d31-be52-a504207760a3",
+			"61d62ac1-01f7-4d99-a4b1-665fc40f110b"
+		]
+	},
+	{
+		"campId": "b128b060-3b94-46e7-b6d5-b8f288a9e10f",
+		"campName": "קונטרה ברן",
+		"description": "בין דקלים שוכן הקונטרה למידברן,מחנות,מיצבים ומיול",
+		"descriptionEn": "Contra burn event-Tours between camps,arts.",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled",
+			"Adults"
+		],
+		"gifts": [
+			"da581262-2d66-4c0c-bde6-b86dd529f9d0",
+			"fd0184d6-d034-417f-86bb-12f9e7447536",
+			"0498cea7-5ea8-4c22-9ce4-25724b17ce62",
+			"80c27372-b7ff-4c78-99d6-de09a7dd26e9",
+			"3f8446e1-8891-487d-bb08-e8a6e5584b87",
+			"d191f53e-4031-4c21-9f4d-3c6c4b54eba7",
+			"fbcfee03-f110-4376-8eb8-5a979fdce15f",
+			"f49bd46e-663c-468d-9849-96db26977653",
+			"9a62aac3-0bc5-4b7d-b4be-4771f91937ff",
+			"23d89454-8139-43c1-b3f5-083f1b8b5130",
+			"b17187b0-a5e9-468e-9151-a5d3961de585",
+			"9e391cfd-1b86-421d-b1e7-62da11e3514e",
+			"09ae7629-5512-42b3-a325-ebeb1ae10ee0",
+			"cfdbdc0c-66f9-4ed6-927a-84fe09453630",
+			"dbc20025-f440-4e94-9644-92f90fa40e0e",
+			"5db3123a-b1a1-48cc-a28c-5fad2cfc8804",
+			"9a67c786-a419-43fa-a6c2-c42356fc01b9",
+			"74520f7f-c0a1-4991-9794-ab8312798f44",
+			"95d386a8-2e13-42c3-bbfe-ecdb6335c167",
+			"18a746c6-eb92-4756-b8b9-64044dec7d3a"
+		]
+	},
+	{
+		"campId": "755a4272-b5fb-469f-9cd5-808e544c6cd7",
+		"campName": "Waiting Point",
+		"description": "אם אתם כבר מחכים, אז לפחות בכיף!",
+		"descriptionEn": "If we're already waiting, we may as well enjoy it!",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": []
+	},
+	{
+		"campId": "61d67dc1-cbe2-4f49-bbcf-b84053c091d1",
+		"campName": "הלמון טרי",
+		"description": "כשהשמש קופחת יש אצלנו לימונדה, צל ומוזיקה מדהימה",
+		"descriptionEn": "When the sun's up come for music, lemonade & shade",
+		"coverUrl": "https://drive.google.com/open?id=1yXU3sLFBgV7kUn3vjMFCOUymFKe9HXvV",
+		"tags": [
+			"VisuallyImpaired"
+		],
+		"gifts": [
+			"4d52cac9-c1af-45a4-b7f6-4a1c46b45a52",
+			"99dac5bd-8647-42c4-a0c1-9bc1ee3e6d9e",
+			"e4115fce-cfd2-4936-8bd6-2ef2b00e5e1d",
+			"b6bdba61-78cd-4700-a329-05d705dd2928",
+			"5a8909c6-97e5-41be-9c0f-703cea3c72d2",
+			"6618ba02-7384-4aec-91fa-6c025f3ca4f3",
+			"545f021e-f1b4-4f9a-bd0f-047d9dd093fc",
+			"147d167c-c27d-47fe-becc-5025e3172ec6",
+			"40dbcf21-0ac4-44ef-9bac-cd15177724d0",
+			"7aa57442-c9ac-4254-b308-ce82a731b521",
+			"0c152db1-3da5-4f63-8c43-5ba5aef6df37"
+		]
+	},
+	{
+		"campId": "b2fdcbda-6335-4958-9125-0cd32091aa8b",
+		"campName": "קדאווה",
+		"description": "מגרש משחקים ענק גדול ממך וקטן מהחיוך שלך כשתיכנסי",
+		"descriptionEn": "Our games will be big,  your smile will be bigger",
+		"coverUrl": "https://drive.google.com/open?id=1LzQWVj_3p7-l5K9mSKsUOgezX3VA6B8L",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"e4972284-d4f7-4c83-a663-c0ff15529110",
+			"0e3a959c-5db5-43d4-ad19-269c2007552b",
+			"fd6c2c27-75e7-4f1a-b75e-20aa64d1f90e",
+			"8f799211-d2f5-46dd-9212-8be17e2dca5f",
+			"c3fce9d0-4718-4a45-9d55-8260944633a6",
+			"df276891-f234-40a5-a685-25255f1a1e68"
+		]
+	},
+	{
+		"campId": "b0a50f0c-e1a4-43fc-80c0-2e7690e6308c",
+		"campName": "הקוטב הצפוני",
+		"description": "לוהט בחוץ? בואו להתקרר באיגלו הממוזג שלנו!",
+		"descriptionEn": "We invites you to chill in our cozy Igloo!",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled",
+			"Kids"
+		],
+		"gifts": [
+			"5b864ceb-4d9a-44dd-87eb-22991a6ecebb",
+			"585eef11-4413-49c3-80cd-9f62551c856b",
+			"6a44bf5f-b687-442f-91b8-114ecf5a8987",
+			"376b74b0-0b66-400e-b5f2-f98c481227b6",
+			"f17328d4-de92-46bd-b141-5be11e1bfac2",
+			"d11d1b02-3a89-4b5a-ad8e-f738ed6e99b9"
+		]
+	},
+	{
+		"campId": "78dc5fe5-720a-437e-a2b8-3feb1196b7b1",
+		"campName": "שטיפל'ה",
+		"description": "מים, מים ומים! מקלחות, מסיבות וכל מה שרטוב",
+		"descriptionEn": "WATER! showers, music and everything in between",
+		"coverUrl": "https://drive.google.com/open?id=12eXQ1l62IdrohoQbegApLzkzaQF6tLDe",
+		"tags": [
+			"HearingImpaired",
+			"Adults"
+		],
+		"gifts": [
+			"a028f3a0-0531-4348-add6-c13967d95e65",
+			"580c2a1a-d04d-4c4e-87ca-8942c9ac39a1",
+			"db227c88-9837-4825-bf76-efa465958d17",
+			"128bd066-9aa1-4e7e-848c-a08ac61a1952",
+			"dc6b15c1-7589-41d8-bb32-cef9f41f9e69",
+			"9a3d3ece-4b24-4046-835e-aaebba41383f",
+			"dc26c533-7dd2-4384-8378-62e9f5818bd3",
+			"b095aa6a-7594-436a-9e3e-108af69d88ce",
+			"106f5347-82fd-4e6f-8d1f-7d179b19bf48",
+			"61e52b3b-2aca-40a3-b42f-7025cafdefb2",
+			"eb8b4249-c977-4199-99f3-029c9d265c0a",
+			"7e975098-c27f-4771-87b8-ffd2098a5102",
+			"84e9f22e-2104-4ebe-ac8d-583d0d27719a",
+			"292b2bac-da41-4125-925b-ad143da05f11",
+			"58084a2e-ca79-4c98-9076-9c9582e376fb",
+			"5fa07a8e-327a-4c46-b1ed-b51bde4c3417",
+			"cf587b27-e6ce-4687-ad16-dfb31d34be15",
+			"cb557043-3be6-4432-957a-4a8de21fabe9"
+		]
+	},
+	{
+		"campId": "50e3a5ae-4d7b-419e-9206-15923a01ebef",
+		"campName": "ממלכת העוגיות",
+		"description": "עוגיות טריות, שוגר היי ופאן קופצני לילדים מגודלים",
+		"descriptionEn": "Sugar high for your inner child",
+		"coverUrl": "https://drive.google.com/open?id=1hEIUrV5r1MDOxibvcwYYdrw5IWVDf3jg",
+		"tags": [],
+		"gifts": []
+	},
+	{
+		"campId": "ff35406e-6972-4364-a77c-9023a0514583",
+		"campName": "מירי גרב והמאהל הבדואי",
+		"description": "חפלה בדואית שרק מירי יודעת! פיתות ופינוקים בשקיעה!",
+		"descriptionEn": "Miri's Bedouin party! Pitas & treats at sunset",
+		"coverUrl": "",
+		"tags": [],
+		"gifts": [
+			"a5e1e4c8-8516-4262-b710-8567ecfca118",
+			"d999e775-7138-45db-984f-50da7177b072",
+			"845d2a71-9dc1-418a-b697-3dba5c1cb0e1",
+			"34ab749c-cd04-4ae8-96a2-ff4fbca89d59",
+			"b185f9de-ceaf-4539-999c-92a463c48201",
+			"f6bed6b4-abbe-4043-8eb1-41a84c02c6eb",
+			"8c8cbb89-06f8-405c-ae8a-bfd84d9c482a",
+			"cfee92b7-a1d7-4d28-9972-82d1a1156ec8",
+			"7b71c867-41e4-4949-b684-85e6a261f595",
+			"640b115b-73fb-462d-b7d5-028efcefb134",
+			"932d0205-054f-4462-bed0-497cc08c2aec",
+			"31ed3238-7cd5-43c6-92ce-1972b88fef80"
+		]
+	},
+	{
+		"campId": "dbb96dfd-9f23-49ea-8bc5-f1fd3eeaaadc",
+		"campName": "פרפר הטמפל",
+		"description": "מקיים סדנאות  לזיווג בתקשור",
+		"descriptionEn": "Conducts workshops for mating in channeling",
+		"coverUrl": "https://drive.google.com/open?id=1j5ELwBtwmFjLI51ExptKjTZqTX6Uxal3",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"5f48cf0f-c8b0-4aa8-bb1a-c8dc0086c868",
+			"f178cf2c-e4fd-4a9b-bec2-4d560f460ef2",
+			"216b20ed-da1f-43a3-9745-632bb9af98cc",
+			"aa84d19f-53cd-4cab-9b88-e8871063d4f5",
+			"491e2ac5-66f2-463c-8b93-b01de942911d",
+			"f63fba8d-3e1d-4c8e-a99e-4a277ea4031d"
+		]
+	},
+	{
+		"campId": "7b7d2f55-b366-494d-b615-76057c1c8584",
+		"campName": "שיחות נפש",
+		"description": "מרחב נעים ומזמין, לשבת ולקבל הקשבה והכלה.",
+		"descriptionEn": "A space where you can be truly heard and accepted",
+		"coverUrl": "https://drive.google.com/open?id=1mLJBdYMVdBi7-UKjVwo_MMxGZKXXsoBF",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"3d29a5ec-d662-4902-8d9a-19389993a677",
+			"283f2f06-3a23-475c-b134-8a619205122c",
+			"fb5af389-16e7-4792-8d50-07664b3238ca",
+			"bdd7e375-e5ee-443d-b9bf-d9e8f1f516ee",
+			"477125c7-bde7-44cc-b518-43902b6b5226",
+			"222bceb7-336b-46f3-84b8-3a53bdba05a6",
+			"2fefca1a-4c9e-40e3-92a5-2cd80b4dced3",
+			"40f53030-713d-4ff9-90c5-3e8d3e8584d6",
+			"bce5a557-b74c-4394-a3e2-48c9520d870a",
+			"1648b391-2695-48b4-907a-212bee307fdb",
+			"3872fc1f-2abc-4836-8134-f449f295f65c",
+			"44773aa5-bb1b-4dbd-934c-5c892f74aa10",
+			"808ba013-d136-42cf-80d1-77867bff1676",
+			"1f73b843-684f-455b-998d-1f656ddac2f6"
+		]
+	},
+	{
+		"campId": "04b9cb42-beab-4fd3-b9b5-44ce4f6191e4",
+		"campName": "הפולחן הרדיקלי",
+		"description": "מקיימים את טקס הREBURN  של לידה מחדש דרך אש וטהרה",
+		"descriptionEn": "Hosts the REBURN ceremony of rebirth through fire",
+		"coverUrl": "https://drive.google.com/open?id=13uw8R9H6awymGWekL0ZU2Zddk8qN3xjr",
+		"tags": [
+			"Adults"
+		],
+		"gifts": []
+	},
+	{
+		"campId": "b77a7357-e881-424c-8ec2-a427674060a5",
+		"campName": "לוכדי החלומות",
+		"description": "ל\"ח מוסמכים ילכדו ויפרשו חלומות בשינה ובערות",
+		"descriptionEn": "Qualified D\"C will capture&interpret dreams",
+		"coverUrl": "https://drive.google.com/open?id=1LpXC5YTdc44Gj1BbGIZvcohlaaSpOU_2",
+		"tags": [
+			"PhysicallyDisabled",
+			"Adults"
+		],
+		"gifts": [
+			"0e884981-4611-49d7-a9da-8ccf379a50c7",
+			"17e3aded-1955-46fc-b3f6-5cb40528f1bd",
+			"62708c9e-b53a-4712-b902-d5e92719b4f0",
+			"013ed573-5592-4fde-9b94-4331780ebf8d",
+			"3bdb59ba-af77-491c-9573-6ed75a4d2f5e",
+			"b42a74cf-c1af-44ed-9d1d-3511146fd1aa"
+		]
+	},
+	{
+		"campId": "bf08180e-2d68-47a1-9d6f-4ec3ce32fc0c",
+		"campName": "הפטריות",
+		"description": "תחנת עגינה לכל המבולבלים",
+		"descriptionEn": "Docking station for those who are confused",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": []
+	},
+	{
+		"campId": "2e13bbcf-2c57-4980-8932-1011ec194725",
+		"campName": "סמלי קאמפ - הקאמפ החמודי",
+		"description": "בואו להריח חמודים",
+		"descriptionEn": "Coe to smell cuteness",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"290901cc-4617-4fd7-af3f-80a714e650d6",
+			"a432c069-613e-41f4-8240-ec435f07a3ec",
+			"01a18801-bb8b-460d-b1ce-4ff92c6e022a",
+			"94b35e98-4b15-4c8f-a0e9-851ae58ede7d",
+			"014c25cd-7eeb-4e1c-9d00-5597c1f64bf5"
+		]
+	},
+	{
+		"campId": "f146ebf2-3b1f-4b7b-a8c2-a294e28243dd",
+		"campName": "נווה מדבר",
+		"description": "בין דקלים ואגמים, שוכן לו נווה המדבר הקריר והמזמין",
+		"descriptionEn": "surrounded by palms, an inviting oasis awaits",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": []
+	},
+	{
+		"campId": "facce876-338c-4c0a-aedf-3770cb336dd1",
+		"campName": "פריפלואו",
+		"description": "בית ספר לאמנויות הפלואו והקרקס, בואו לשחק איתנו.",
+		"descriptionEn": "Flow arts school and play ground, come and play.",
+		"coverUrl": "",
+		"tags": [],
+		"gifts": [
+			"1136ad90-8942-4c8b-a551-57871671acf8",
+			"e4c7f739-3466-4bcb-ad25-cc71a6038213",
+			"ceeb0c17-e7d5-41fd-ba81-df70cb25fa78",
+			"70636276-d27d-4797-9425-4306add2671e",
+			"8865003e-6dd6-4253-9741-1a51b1ff2dd0",
+			"5d7a9c0f-90ce-450c-b2ed-c86e88fd64bd",
+			"dc0a6256-d01f-4b5a-a8fe-181c0307a8de",
+			"a52a1730-d93f-4ffe-b058-dd394a3872ca",
+			"25af81a1-9c10-4d76-a531-d56fa089cf20",
+			"a8cded62-449c-411d-ab58-41035a6aaa2c",
+			"dc5e464c-879c-447c-b2bc-ad0d3c83da98",
+			"e342bc3a-3f3d-487e-9e00-5511422dfc47",
+			"bdae1922-12d0-4e37-a2e3-718802491891",
+			"e2cb0b8d-de81-48a4-9400-80c9f20eb4f1",
+			"7ab10732-1dd5-4187-885a-293a41881a58",
+			"c584fd2e-e48c-47e7-baa9-637317618a75",
+			"14551a44-7409-4c10-8418-9bf8c05cda4e",
+			"f2d820e9-81df-47f9-9f51-ef8a5498bb59"
+		]
+	},
+	{
+		"campId": "f587fc22-5c27-4b73-a00c-e84bf44cb8c5",
+		"campName": "זו-זו ובניו",
+		"description": "בואי לגלות את החיה ששוכנת בך!",
+		"descriptionEn": "Come and find out which animals lies within you!",
+		"coverUrl": "https://drive.google.com/open?id=16uro6oDdFrZwG7w7eDEMsRTIQ0F30Szu",
+		"tags": [
+			"Adults"
+		],
+		"gifts": [
+			"6b72ef3c-0c45-46bd-85d9-c57f2a6f0a5f",
+			"227bc775-fe56-492e-bcf0-9e97f072e8ef",
+			"23f7f825-c8ba-4a3d-8c79-4f836bf2da21",
+			"e366112f-b20f-4d4a-ba59-9777835fade9",
+			"e4758e7c-b615-404e-946e-6ec178e98a7c",
+			"c4a508bf-f845-41ce-9a34-b618523b4d49",
+			"9b7ca362-9cc5-4e2a-b084-f62daea5b596"
+		]
+	},
+	{
+		"campId": "de27b3f9-c340-46cf-aa66-1745b4c36d67",
+		"campName": "ג'י ספוט",
+		"description": "פינת אואזיס שקטה וקרירה להנות מבר ברד קריר ומענג.",
+		"descriptionEn": "small and refreshing oasis offering ice drinks",
+		"coverUrl": "https://drive.google.com/open?id=1CrpXD9hYNtlr--YA9UcTIUXNQlcGmmTd",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"86fadf7f-00e1-4dcf-a2c5-49c3db10a343",
+			"9188dc1a-f986-4244-9fa9-6233c525f474",
+			"d0de21c1-7326-41a5-b28e-c700c57eb29a",
+			"fc8a6517-94b7-4ff7-8643-ecefb746887c",
+			"6b606f5b-eb53-49a4-ba0c-22ab37f1f589",
+			"622c1217-a728-44e3-bd23-30d8063a3d60"
+		]
+	},
+	{
+		"campId": "48826ff8-9b0f-409c-bc39-216527e3c6ef",
+		"campName": "קאמפייר",
+		"description": "חוויות ומסעות מסביב למדורה",
+		"descriptionEn": "Experiences around the camp fire",
+		"coverUrl": "https://drive.google.com/open?id=1y_HgbsYOCG9ztf80HPpXxJIIm9neJdqg",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"cafdc94d-d4d7-4f4f-a7c3-8c63c57ce8b0",
+			"21f7a90a-1254-4042-ae72-bf9a9b35fe58",
+			"ce7c945f-5dc7-4437-8955-30fd6e9ad8e4",
+			"77f4d4fc-f974-444d-8370-2de2343cc891",
+			"cbe13dde-9fc1-4d68-a6de-564197b26cc0",
+			"60a84098-4edf-49d7-8016-f2025890acea"
+		]
+	},
+	{
+		"campId": "f7647bca-540c-4f8b-9874-6de51dad6a59",
+		"campName": "קמפ בליב איט",
+		"description": "סדנאות יוגה, מדיטציה וטיפולים בתנועה.",
+		"descriptionEn": "Yoga, Meditation and Movement workshops.",
+		"coverUrl": "",
+		"tags": [],
+		"gifts": []
+	},
+	{
+		"campId": "56ecd673-65af-4bc0-ad28-bca6f300231f",
+		"campName": "קאמפי קאמפ",
+		"description": "קאמפי קאמפ - להרגע, לשחק, ליצור",
+		"descriptionEn": "Campy Camp - relax, play, create",
+		"coverUrl": "https://drive.google.com/open?id=1q8G0MGTaTC1MXvD9G22k3CST-BVTxgPg",
+		"tags": [],
+		"gifts": [
+			"92647d99-733c-434f-8471-f14dd6373cff",
+			"e40e41d4-dade-4501-9661-d4c7c32a31aa",
+			"07b6b11e-b125-4222-9e6f-4a06571f8282",
+			"1dd04575-74e8-4f0d-9693-25c6b7c6737a",
+			"9d5a5c68-0330-4df5-885b-37182cfae698",
+			"a40850be-a89d-4016-bf34-13a9e51d905e",
+			"6affa8ce-71ca-487f-b86b-b2d9f660ce92",
+			"60645848-a9c8-485e-b916-1a6310365352",
+			"bfe6417e-6a9f-4e29-aca5-77ceedbd73f4",
+			"454996a1-9caf-434c-91a9-82c7b7288bb4",
+			"8d68bff4-22f3-4211-be30-b572fecf4cf6",
+			"0434db2d-625e-4506-a44a-96f53b579243"
+		]
+	},
+	{
+		"campId": "09f5e071-c2a2-4d2a-89dd-445e58b08fde",
+		"campName": "הקיבוץ",
+		"description": "האוכל הכי בינוני בפלאייה.",
+		"descriptionEn": "A hot medium meal will be served at noon",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"3beb7f68-633b-4afc-ad03-2cf923400bc4",
+			"25e17a6a-90d6-4b6e-a8b0-05cb164b27b2",
+			"897724de-c844-4376-bffc-eff2647693bd",
+			"5d579f48-3344-467d-9403-f6d202b4e895"
+		]
+	},
+	{
+		"campId": "f7716312-0245-4ff7-9c29-c62a8e25380c",
+		"campName": "קריסטל גריי",
+		"description": "קריסטל גריי והבר הנייד",
+		"descriptionEn": "Crystal Gray rolling bar",
+		"coverUrl": "https://drive.google.com/open?id=1cLrc20d4wR-IaK5N7S1nQsUKnXB4QKlB",
+		"tags": [
+			"Adults"
+		],
+		"gifts": [
+			"2755ad54-1e88-4e96-84a7-e36fdabc1e88",
+			"21151455-c703-40bc-b9c0-f61c02022353",
+			"56ddd1e4-d87f-41c1-9f49-5073673d3c22"
+		]
+	},
+	{
+		"campId": "69257fe9-1da0-4c4f-9e0b-b06ec65268cc",
+		"campName": "סקייסקרייפרז",
+		"description": "עופו גבוה, ,צרו אמנות, השאירו חותם רגעי",
+		"descriptionEn": "Fly high, imprint extrasensory momentary art",
+		"coverUrl": "",
+		"tags": [],
+		"gifts": [
+			"edf74515-72a5-4a62-b025-ea12b06cffcb",
+			"42149113-0e87-4228-8cbf-cc4a5a71bd79",
+			"5ab7750b-f577-4933-9123-34474a20683f",
+			"208c7149-0171-467e-9f6c-893e516f3257",
+			"7f0e6504-a02d-470f-8e30-14dcc2970bda",
+			"3b4f6025-7753-4a5a-8afb-1d2840fca089"
+		]
+	},
+	{
+		"campId": "d084533f-43d6-4a8f-81dc-1a705cd7a85b",
+		"campName": "מחניודה",
+		"description": "השוק של העיר הכי חמה ומאובקת משקשק ומפנק",
+		"descriptionEn": "The Market of the desssseret city",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": []
+	},
+	{
+		"campId": "799b2113-aa84-4021-b459-07b051c0fd40",
+		"campName": "פופ קאמפ",
+		"description": "קאמפ של אושר, חיוכים, ריקודים, ברד קר ופופקורן חם!",
+		"descriptionEn": "Camp of Smiles, Dance, slushies and Popcorn!",
+		"coverUrl": "https://drive.google.com/open?id=1Ug63inOH4-_hmaJOqFwOR3jXoZfu4SS_",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": []
+	},
+	{
+		"campId": "d8026962-3acf-4fa6-a155-eb896755db31",
+		"campName": "ג'וקבוקס",
+		"description": "מוסיקה ולהיטים מכול הזמנים",
+		"descriptionEn": "Music and hits from all times",
+		"coverUrl": "https://drive.google.com/open?id=1MoaLNlWoAcIn7SC6wJx5fQWbvEHtPFPY",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"92619890-7fdf-4089-a0c6-484c58aa59f8"
+		]
+	},
+	{
+		"campId": "1827f691-2906-4c26-acc4-6e7710be066a",
+		"campName": "הבית של מיכל",
+		"description": "קמפ שמארח חולניקים ומגיש משקאות אלכוהוליים קרים",
+		"descriptionEn": "Home for foreigners that gifts cold alcohol drinks",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
+		"gifts": [
+			"1cc4c457-da07-4d34-a319-4901511fecae",
+			"14087e5c-a338-4856-8b06-f51b2db6db08",
+			"8650ec9d-43c9-44d6-897f-359a8720f4d8",
+			"3e2b6f74-1c31-474f-b6af-f6ff020af49e",
+			"055ea728-dc3a-4b6e-bf46-585841cb6364",
+			"90257c19-cf22-4648-8aa9-7f3251166f51"
+		]
+	},
+	{
+		"campId": "c9483bf1-4a0c-41b2-b9c2-a4a6a1dce248",
+		"campName": "יוניק קורן",
+		"description": "באישון ליל נסתובב בפלאיה הקרה ונגיש שוקו חם עם רום",
+		"descriptionEn": "Hot chocolate with rum",
+		"coverUrl": "",
+		"tags": [
+			"Adults"
+		],
+		"gifts": []
+	},
+	{
+		"campId": "eacba6b0-c224-4b85-9327-5cf16b43f435",
 		"campName": "מחנה אויר",
+		"description": "מחנה אויר עושה פוטו-בר! בואו לשתות, לקשקש ולהצטלם",
+		"descriptionEn": "air camp making foto-bar! come to drink& mingling",
+		"coverUrl": "",
+		"tags": [
+			"PhysicallyDisabled"
+		],
 		"gifts": [
-			"b4c80189-28c7-4da0-9e08-4d0d4126d3e2"
+			"a83dbb57-890d-4a79-abc5-bf9398fa5451"
 		]
 	},
 	{
-		"campId": "15b6fe79-09e3-4a1c-80f4-3e71ae1f7819",
+		"campId": "0c6f0ffc-296c-4900-b5f5-977d94e372d8",
 		"campName": "שפריצלה",
+		"description": "שפריצלה מאפשר ציור בתנועה והבעה עצמית ויזואלית",
+		"descriptionEn": "A painting party on HUGE Canvas floor",
+		"coverUrl": "https://drive.google.com/open?id=1oWcHne3yvjcByjEHtg4mW0WPnelvyYm4",
+		"tags": [
+			"Adults"
+		],
 		"gifts": [
-			"f5a5c830-fdce-4a9a-b941-d24fcd50a8d3"
-		]
-	},
-	{
-		"campId": "e1a843db-beff-4cc0-b6bd-f7a89007ac69",
-		"campName": "קיס מיי אסי",
-		"gifts": [
-			"68dc4b33-3ee5-4973-9e35-d6dea5ea8758",
-			"a13df8c8-b699-4c03-ae09-00179678e597",
-			"5c2f1389-c6ab-4c27-9195-bd3ca02701e0",
-			"318cba35-5e3a-4048-8eba-8c925efe7e1a",
-			"cec8e460-3c24-43c2-a696-a4d7080e0df8"
+			"1e4772f3-f126-464f-9eee-63737813b355"
 		]
 	}
 ]

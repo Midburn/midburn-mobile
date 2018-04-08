@@ -8,11 +8,11 @@
 		"description": "A mobile space that can be popped up anywhere and create tropical drinks, good music, and great vibes.",
 		"artist": "Lonz & Yonz",
 		"philosophy": "להביא מוזיקה ושתייה ואוירה לכל מקום בפלייה",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/001/997/medium/IMG_5637.JPG?1512818841",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/718/medium/WhatsApp_Image_2018-03-01_at_17.25.59.jpeg?1519919792",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/719/medium/WhatsApp_Image_2018-03-01_at_17.26.00.jpeg?1519919814",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/720/medium/WhatsApp_Image_2018-03-01_at_17.26.00_%281%29.jpeg?1519919827"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
 		]
 	},
 	{
@@ -24,29 +24,29 @@
 		"description": "",
 		"artist": "Safe & Sound",
 		"philosophy": "ביוון העתיקה הגו שישנם 3 סוגי מוסיקה - מוסיקה של האדם, הטבע והקוסמוס. הוידויים הם מוסיקת האדם, הסאונד הוא מוסיקת הטבע והקוסמוס הינו ההרמוניה של האור עם הסאונד.\nברצוננו להביא לידי ביטוי חיבור חוויתי של הסוד עם מוסיקה אמנותית אבסטרקטית (אלקטרונית וקלאסית).\nהמיצב נועד להוות מקום של חוויה אקוסטית שונה משאר רחבי הפלאייה.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/915/medium/1.jpg?1520171765",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/921/medium/7.jpg?1520171839",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/922/medium/8.jpg?1520171848",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/926/medium/front.jpg?1520171903",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/929/medium/%D7%9E%D7%91%D7%98_%D7%9E%D7%9C%D7%A4%D7%A0%D7%99%D7%9D.jpg?1520172130",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/916/medium/2.jpg?1520171777",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/917/medium/3.jpg?1520171787",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/919/medium/5.jpg?1520171812",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/920/medium/6.jpg?1520171824",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/928/medium/Side.jpg?1520171923",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/932/medium/%D7%A4%D7%A8%D7%98%D7%99%D7%9D_%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA.jpg?1520172161",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/918/medium/4.jpg?1520171803",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/923/medium/9.jpg?1520171857",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/927/medium/section.jpg?1520171913",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/937/medium/%D7%97%D7%9C%D7%9C.jpg?1520173761",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/924/medium/10.jpg?1520171868",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/925/medium/Back.jpg?1520171896",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/930/medium/%D7%9E%D7%91%D7%98_%D7%A4%D7%A8%D7%98%D7%99%D7%9D.jpg?1520172141",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/931/medium/%D7%9E%D7%91%D7%98_%D7%A6%D7%93.jpg?1520172151",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/933/medium/%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA.jpg?1520172170",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/935/medium/%D7%A9%D7%9E%D7%A9.jpg?1520173738",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/936/medium/%D7%A4%D7%A8%D7%A1%D7%A4%D7%A7%D7%98%D7%99%D7%91%D7%94.jpg?1520173749"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg",
+			"art10.jpg",
+			"art11.jpg",
+			"art12.jpg",
+			"art13.jpg",
+			"art14.jpg",
+			"art15.jpg",
+			"art16.jpg",
+			"art17.jpg",
+			"art18.jpg",
+			"art19.jpg",
+			"art20.jpg",
+			"art21.jpg",
+			"art22.jpg"
 		]
 	},
 	{
@@ -58,15 +58,15 @@
 		"description": "ביום, אנשים יוכלו לטפס ולהסתכל לתוך פנים המיצב,אלו שיצליחו לחדור את הקליפה שלו יהנו ממרחב מקלט אינטימי. בלילה סבי אור בקצוות המיצב יאירו את הפלאיה.",
 		"artist": "MoscoLeach",
 		"philosophy": "הפרחת המדבר",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/001/999/medium/The-Burning-Seed---Day_905.jpg?1514044943",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/000/medium/The-Burning-Seed---Night_905.jpg?1514044961",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/001/medium/131120_night-render_905_%281%29.jpg?1514044987",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/003/medium/The-Burning-Seed---Plan_905_%281%29.jpg?1514045187",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/004/medium/140116_internal_905_%281%29.jpg?1514045203",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/005/medium/scale-model1_9051.jpg?1514045227",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/007/medium/sec.png?1514056959",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/864/medium/%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA.jpg?1520108699"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg"
 		]
 	},
 	{
@@ -78,9 +78,9 @@
 		"description": "כמו הנפש שמלאה בחדרים שונים- כאב, רוך, שמחה עצב ועוד... \nכך גם COSMIC DIP שלנו- נכניס אתכן אל מבוך של 8 חדרים, כל חדר אחר, שונה, מפתיע, משחרר, מלחיץ, משמח...  \nאתם לא רואים לאיזה חדר אתן נכנסים, אתם מתמסרים לחוויה פותחים עיניים ואתם מגלים שאתן בחדר שתמיד רציתם לברוח ממנו ולמרות הכל- נעים לכם! אז אתם נשארים עוד קצת עד שאתם מגלים דלת סתרים! אתם פותחים אותה ומגלים עוד חדר- האם תשמחו? תבכו? תכעסו? לא תדעו עד שתיכנסו...\nוכך אתם עוברים 8 חדרים- כל חדר הוא מסע לנפש, לגוף, לרוח...\nתאפשרו לעצמכם להתמודד עם עצמכן!",
 		"artist": "נרניה",
 		"philosophy": "מבוך חומרים משתנים- לתת למשתתפים להפעיל את החושים שלהם ולהתמסר אליהם. \nכל חדר מאופיין בחומר/ חוש אחר, גודל החדרים משתנה, מאפשר למשתתפים דינאמיות תמידית.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/019/medium/WhatsApp_Image_2018-03-21_at_21.11.19.jpeg?1521735349",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/020/medium/photo_2018-03-22_18-44-24.jpg?1521737134"
+		"images": [
+			"art1.jpg",
+			"art2.jpg"
 		]
 	},
 	{
@@ -92,9 +92,9 @@
 		"description": "הצבת המילה you באותיות בגובה 240 על רוחב 120 כל אות. כל אות תלת מימדית בעומק 50 סמ. מצופות טפט מראה.\n המשמעות הכפולה היא הרעיון. \nבכל הכאוס המאורגן של המידברן אנחנו פוגשים את עצמנו \n אתה הרואה/חווה/נותן/מקבל...הבנתם כבר...\nהמתבונן רואה עצמו בהשתקפות.\nבנוסף, נחבר לאותיות תושים ונציע למשתתפים לשתף את הרגשות שלהם ולכתוב אותם על גבי האותיות. כך לא רק נפגוש את עצמנו כשנתבונן במילה אלא נפגוש גם את האחר.",
 		"artist": "השלנגרס",
 		"philosophy": "הצבת המילה you כאשר המילה עצמה מצוםה בטאפט מראה וכך המתבונן למעשה מתבונן בעצמו.\n המשמעות הכפולה היא הרעיון. \nבכל הכאוס המאורגן של המידברן אנחנו פוגשים את עצמנו \n אתה הרואה/חווה/נותן/מקבל...הבנתם כבר...\nהמתבונן רואה עצמו בהשתקפות.\nהאפשרות לרשום על גביי הטאפט מאפשרת למתבונן לשתף את הרגשות שלו עם האחר ולקרוא רגשות ששיתפו האחרים.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/064/medium/Screenshot_20180104-194346.jpg?1515089672",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/066/medium/20180104_231125.jpg?1515102265"
+		"images": [
+			"art1.jpg",
+			"art2.jpg"
 		]
 	},
 	{
@@ -106,27 +106,27 @@
 		"description": "סרטון תדמית: https://www.youtube.com/watch?v=4xnavpbpXuM&t=7s\n \nמסע חיפוש של סימני דרך.\nהמטוטלת,הטוטאמים,הקמיעות, המצפן,\nהטקס* - הנוגע במרחב ובזמן.\nכל אילו מציירים את מפת הדרכים שלנו.\n\nהדחפים הפיזיולוגים, הגנטיים, והתרבותיים שלנו מלווים אותנו מימי קדם.\nמאגר ידע עצום ואוסף מנהגים ותכתיבים המושתת על איתני הטבע והיקום ומייצר התוויה טבעית.\nההתוויה הטבעית, שבתוכינו, מובילה אותנו אל הבחירות הרגשיות והאינטואיטיביות שלנו.\n\nאך מה קורה, כשבמציאות האובייקטיבית, מתקיים הרס ?\nפירוק של הבית שבזיכרון ?\nאובדן של המוכר והבטוח ?\nכשאנו מכוונים לחזור אל בית שלא קיים ?\n\nלאן אנחנו הולכים ?\n\nהמסע הוא הריפוי...\nכשנשמע את הקריאה הפנימית לשוב הביתה,\nניזכר שאנו חיים בתוך חלום שלזמן ולמרחב אין בו משמעות ליניארית.\nהעבר לא נמצא בעבר, העתיד לא קיים בכלל.\nובתוך הרגע הזה, של המסע - נתעורר.\nנסנכרן את הכוונות וניזכר.\nשהמסע הוא הבית.\n\n* הטקס הינו מייצב בתוך מייצב. יבוצע ע\"י עדי בש.",
 		"artist": "סימונה דר לוריא, לימור וייס",
 		"philosophy": "המסע אל הבית.\nדרך הנתיבים העמוקים המוחתמים בזיכרון,\nדרך המידע הגנטי הטבוע בנו,\nדרך המצפן הפנימי החבוי בתוכנו\nהמדמה את מסעות הנדודים של החיות בטבע,\nחזרה אל ביתן.\n\nבחרנו במסע צבי הים, אל הבית שמעולם לא ראו,\nכאמצעי המשקף את הבחירה הפנימית, האינסופית- לחזור למקום אליו אנו שייכים.\nהבית.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/077/medium/%D7%A9%D7%99%D7%A8%D7%98%D7%95%D7%982.jpg?1515407317",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/079/medium/IMG_20180108_114042_%281%29.jpg?1515407380",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/078/medium/IMG_20180108_114042_%281%29.jpg?1515407380",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/492/medium/%D7%A8%D7%99%D7%A9%D7%95%D7%99_1.jpg?1518259711",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/081/medium/%D7%A6%D7%9C%D7%97%D7%AA_%D7%A6%D7%9C_%D7%97%D7%A6%D7%A8.jpg?1515407494",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/082/medium/%D7%A6%D7%9C%D7%97%D7%AA_%D7%94%D7%97%D7%A6%D7%A8.jpg?1515407646",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/034/medium/IMG_20171124_101802.jpg?1514661339",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/041/medium/%D7%9E%D7%98%D7%95%D7%98%D7%9C%D7%AA.jpg?1514661621",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/015/medium/_.jpg?1514659746",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/018/medium/20171230_195615.jpg?1514659974",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/038/medium/20171218_171535.jpg?1514661528",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/030/medium/IMG_20171012_000041_%281%29.jpg?1514661098",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/033/medium/IMG_20171213_141346_%281%29.jpg?1514661256",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/494/medium/%D7%A8%D7%99%D7%A9%D7%95%D7%99_1.jpg?1518259719",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/495/medium/%D7%A8%D7%99%D7%A9%D7%95%D7%99_2.jpg?1518259774",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/500/medium/%D7%A8%D7%99%D7%A9%D7%95%D7%99_5.jpg?1518260125",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/499/medium/%D7%A8%D7%99%D7%A9%D7%95%D7%99_4.jpg?1518260079",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/501/medium/%D7%A8%D7%99%D7%A9%D7%95%D7%99_6_%D7%9E%D7%93%D7%95%D7%99%D7%99%D7%A7.jpg?1518260218",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/502/medium/%D7%A8%D7%99%D7%A9%D7%95%D7%99_7.jpg?1518260265",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/503/medium/IMG_20170810_213025_HHT_%282%29.jpg?1518260314"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg",
+			"art10.jpg",
+			"art11.jpg",
+			"art12.jpg",
+			"art13.jpg",
+			"art14.jpg",
+			"art15.jpg",
+			"art16.jpg",
+			"art17.jpg",
+			"art18.jpg",
+			"art19.jpg",
+			"art20.jpg"
 		]
 	},
 	{
@@ -138,16 +138,16 @@
 		"description": "פסל הגמל המעופף יהיה בנוי מעץ וכפות תמרים, מעוטר ערבסקות ומתנשא לגובה של כ12 מטרים.\nמי שירצה לנוח יוכל לתפוס פינה של צל בחאן הגמל או להנות מהופעה חיה, מסיבת שקיעה ולצפות בוידאו ארטים שיאירו את הגמל בלילה.",
 		"artist": "הגמל המעופף",
 		"philosophy": "לקחת חיה מקומית מדברית ואיטית ביומיום ולתת לה לפרוש כנפיים במקום שבו הכל אפשרי.\nלתת ביטוי חדש לחוויה מזרח תיכונית ארצישראלית.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/060/medium/mabat_zad.jpg?1514929686",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/061/medium/IMG-9096_meshulav.jpg?1514929825",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/063/medium/mabat_al.jpg?1514930805",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/058/medium/D5.jpg?1514929169",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/855/medium/%D7%A2%D7%9E%D7%95%D7%93_%D7%9B%D7%A0%D7%A3_%D7%98%D7%99%D7%A4%D7%95%D7%A1%D7%99_%D7%A2%D7%9D_%D7%9E%D7%97%D7%91%D7%A8_%D7%A2%D7%9C%D7%99%D7%95%D7%9F_%D7%95%D7%9E%D7%97%D7%91%D7%A8_%D7%AA%D7%97%D7%AA%D7%95%D7%9F.jpg?1520104649",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/859/medium/%D7%9E%D7%91%D7%98_%D7%90%D7%97%D7%95%D7%A8%D7%99_%D7%A9%D7%9C%D7%93_%D7%92%D7%9E%D7%9C.jpg?1520104838",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/857/medium/%D7%9E%D7%91%D7%98_%D7%A7%D7%95%D7%A8%D7%94_%D7%A9%D7%9C%D7%93_%D7%92%D7%9E%D7%9C.jpg?1520104676",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/858/medium/%D7%9E%D7%91%D7%98_%D7%A6%D7%93_%D7%A9%D7%9C%D7%93.jpg?1520104728",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/835/medium/%D7%A4%D7%A8%D7%98%D7%99%D7%9D_%D7%A4%D7%A8%D7%99%D7%A1%D7%94.jpg?1520101851"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg"
 		]
 	},
 	{
@@ -159,10 +159,10 @@
 		"description": "במרכז העיר החלומית מסתתרת דלת קסמים, דלת מופלאה, דלת שהיא חלום. הדלת אינה גלויה לעין אך מי שימצא אותה מעבר למסתור יגיע למעבר אל מעבר לאינסוף, אל חלום מקביל חלום אחר. כל משתתף שיפתח את הדלת יגיע למקום אחר ושרק הוא מכיר או רק הוא יודע על קיומוץ מפני שהמעבר יוביל את מי שיגיע אליו אל דמיונו וחלומו האישי. ניתן לממש חוויה משותפת בזוגות ובקבוצות. הרי חלום שחולמים לבד הוא רק חלום, אך חלום שחולמים ביחד הוא מציאות.",
 		"artist": "לוכדי החלומות",
 		"philosophy": "אנו רוצים לאפשר למשתתפי האירוע לפתוח את ראשם ומחשבותיהם אל הדמיון באמצעות אשליה של אינסוף חלומי. אנו רוצים לפתוח את הראש לחלום גם בחוויה יחידנית וגם בחוויה קבוצתית.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/504/medium/door.jpg?1518279322",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/506/medium/Screenshot_1.png?1518279689",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/507/medium/Screenshot_2.png?1518279715"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg"
 		]
 	},
 	{
@@ -174,8 +174,8 @@
 		"description": "אי שם בדיפ פלאיה ימוקם לו שולחן איפור תמים למראה שיאפשר לאנשים לבחון את בבואתם ולפעמים תעלמו ותראו את האינסוף במראה.\nשולחן האיפור מאפשר לראות את עצמכם ולפעמים גם לשכוח.\nבואו לנסות ותצאו מאופרים.",
 		"artist": "Waves of Rubi",
 		"philosophy": "ליצור חוויה אינטרקטיבית ומפתיעה בדיפ פלאיה\nאנחנו מתעסקים לא מעת בדיפולט במראה החיצוני שלנו, ואת האמת, גם בפלאיה.\nמה רע לי משחקת עם ההתעסקות בחיצוניות וקוראת לכניסה עמוקה והתבוננות פנימה.\nדווקא ברגע שמופיעה לצופה הזדמנות באמצע שום מקום לבחון את המראה החיצוני, הישיבה על הכיסה לא מאשפרת לעשות זאת והקתרזיס המובטח נעלם כלא היה ובמקומו מגיעה צלילה על תוך האינסוף.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/070/medium/WhatsApp_Image_2018-01-05_at_18.15.23.jpeg?1515168986"
+		"images": [
+			"art1.jpg"
 		]
 	},
 	{
@@ -187,37 +187,37 @@
 		"description": "המיצב מתוכנן להיות בגובה 5-6 מטרים (עד קצה הקרן)\nומורכב מכמה חלקים, \nראש החד קרן המשמש גם כשעון השמש, המצביע על השעה ביום ועל השעה בפלאיה, המסודרת בצורת עיגול על האדמה בצורת כריות בדואיות שעלהן ניתן לעצור ולנוח לאחר הליכה בפלאיה.. בזמן המנוחה תיהנו מבועות סבון אותן שולח חד הקרן לאוויר העולם :)\n\nבלילה אפשר להינות על הנדנדה הנמצאת בגופו של חד הקרן, וליהנות מתצוגה ויזואלית (לדים) המופעלת בעזרת הנידנוד.",
 		"artist": "Kodama",
 		"philosophy": "הפלאיה מסודרת כשעון, ושטופת שמש מעצם היותה באיזור מדברי. מעט מאוד משמעות ניתנת לשעה בשוטטות בפלאיה, אך השמש תמיד קובעת את הזמן ביום.\nשעון השמש יתן למשוטטי הפלאיה מקום לנוח ולהשתעשע במימד הזמן. המיצב יכיל מהויות של שעונים שונים ויחבר את המשתמש אליהם באינטרקאקטיביות מהנה.\nכמובן שגם השעה השמשית מוצגת בכל שעות היום",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/903/medium/st7.jpg?1520123630",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/898/medium/st1.jpg?1520123350",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/280/medium/WhatsApp_Image_2018-01-11_at_22.45.52.jpeg?1515853551",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/852/medium/Kurokku_dim.jpg?1520103374",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/853/medium/%D7%A2%D7%99%D7%92%D7%95%D7%9F_%D7%A7%D7%95%D7%A8%D7%95%D7%A7%D7%95.jpg?1520103406",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/901/medium/st5.jpg?1520123598",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/365/medium/IMG_0756_%281%29.jpg?1515877213",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/287/medium/WhatsApp_Image_2018-01-13_at_14.38.06.jpeg?1515853728",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/908/medium/so99.jpg?1520123747",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/286/medium/WhatsApp_Image_2018-01-13_at_13.14.49.jpeg?1515853612",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/279/medium/WhatsApp_Image_2018-01-11_at_22.45.50.jpeg?1515853533",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/282/medium/WhatsApp_Image_2018-01-11_at_22.45.55.jpeg?1515853568",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/284/medium/WhatsApp_Image_2018-01-11_at_22.45.57.jpeg?1515853595",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/285/medium/WhatsApp_Image_2018-01-13_at_12.56.04.jpeg?1515853603",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/288/medium/WhatsApp_Image_2018-01-13_at_14.38.06_%281%29.jpeg?1515853755",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/281/medium/WhatsApp_Image_2018-01-11_at_22.45.54.jpeg?1515853561",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/283/medium/WhatsApp_Image_2018-01-11_at_22.45.56.jpeg?1515853586",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/914/medium/%D7%A4%D7%A8%D7%98_1_%D7%A7%D7%95%D7%A8%D7%95%D7%A7%D7%95.jpg?1520159973",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/904/medium/st8.jpg?1520123646",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/905/medium/st9.jpg?1520123670",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/907/medium/st92.jpg?1520123716",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/940/medium/ground_level_down.jpg?1520242366",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/900/medium/st4.jpg?1520123576",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/906/medium/st91.jpg?1520123700",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/941/medium/ground_level_up.jpg?1520242376",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/899/medium/st0.jpg?1520123371",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/902/medium/st6.jpg?1520123616",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/769/medium/IMG-20180302-WA0004.jpg?1520017660",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/770/medium/IMG-20180302-WA0003.jpg?1520017679",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/897/medium/stoo.jpg?1520123308"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg",
+			"art10.jpg",
+			"art11.jpg",
+			"art12.jpg",
+			"art13.jpg",
+			"art14.jpg",
+			"art15.jpg",
+			"art16.jpg",
+			"art17.jpg",
+			"art18.jpg",
+			"art19.jpg",
+			"art20.jpg",
+			"art21.jpg",
+			"art22.jpg",
+			"art23.jpg",
+			"art24.jpg",
+			"art25.jpg",
+			"art26.jpg",
+			"art27.jpg",
+			"art28.jpg",
+			"art29.jpg",
+			"art30.jpg"
 		]
 	},
 	{
@@ -229,22 +229,22 @@
 		"description": "פרוייקט ה TechNoDrome (מוכר גם בשמו השני The Delta Expirience)הינו חווית אור וסאונד יחודית , יחידה מסוגה בארץ בגודלה וצורת בנייתה. המיצג הינו כדור (sphere) גאודזי עשוי ברזל, בנוי בתדר מורכבות של V4, לגובה של 11 מטרים וקוטר של 12.8 ויוצר את המבנה הגאודזי הגדול והמורכב שנבנה בארץ אי פעם. המבנה מחופה ב125 משולשים עשויים חומר פלסטי מיוחד, אשר נחתכו בלייזר לאחר חישובים קפדניים ומהווים את גופי התאורה. החומר, תופס באופן ייחודי את תאורת הLED אשר הותאמה לפרוייקט. התאורה נשלטת בבקרה ותוכנה יעודית אשר בנינו, וכל משולש ניתן לשליטה יחידנית וכל המתחם בעל יכולת ליצור תבניות תאורה שונות. הפרוייקט נבנה בעבודת יד בחצר ירושלמית במשך כחצי שנה.\nהמתקן, יוצר בלילה מרחב מנותק מהמתרחש מחוצה לו על ידי העמדת הצופה במרכז ויצירת תחושה כאילו הוא במרכז של חוויה המקיפה את כל תחום ראייתו ושמיעתו מכל הכיוונים. המתחם אמנם פתוח וחופשי לכניסה מכל הכיוונים, אך יוצר תחושה של ניתוק מהחוץ ומעין \"ורטיגו\" קליל ונעים. התאורה משתנה בLIVE בהתאם למוסיקה, כמות האנשים במתחם, האווירה והתנועה על ידי אלגוריתם ותבניות ממוחשבות כמו גם הפעלה בלייב של אמני תאורה.\nהכדור מהווה מעין מסך אשר אליו משודרות תבניות תאורה שונות אשר תוכנתו אחת אחת במלאכת מחשבת ארוכה או נוצרות בזמן אמת.\n\nהשנה, הטכנודרום צף בפעם השניה מעל פני האדמה, וברצוננו לשדרג את החוויה של המשתתפים על ידי שדרוגים שונים - החומר בו נשתמש יזרח גם ביום והמיצב יהיה מוצל וקריר גם במהלך שעות האור! התוכנה והחומרה - כולה חדשה! כל גופי התאורה - חדשניים יותר ובוהקים יותר! טכנולוגיה חדשה עם מצלמה שמזהה את כמות האנשים ותנועתם, עם משולשי פרספקס מחומר יעודי שזוהר גם ביום ולא רק בלילה, עם עין יותר גדולה ומפחידה, עם להביור ועוד שלל הפתעות. אנו מאמינים כי אמנם היצירה שלנו מעוררת השראה לאנשים להאמין שגם לחיות פנטזיה זה אפשרי, אבל אסור לנו לקפוא על השמרים כי הגיפט שאנחנו מתכננים חייב להיות מדוייק ומשתפר משנה לשנה.",
 		"artist": "לב קרייטמן",
 		"philosophy": "בכל שנה אני חולם על להחיות סרט מדע בדיוני ולעורר השראה שניתן לדמיין ולבנות הכל, ואף לחיות את זה. אני רוצה לגרום לאנשים להרגיש חווית פנטזיה חיה עלי אדמות.\nאני חושב ששיטת הבנייה שלנו , היות והיא מאוד low tech בבסיסה, יכולה לגרום לכל אחד להרגיש שגם הוא יכול להקים ולבנות כל דבר שהוא מדמיין או רוצה, והמבנה כל כך גדול ומרשים, שאפשר לרגע אחד לדמיין כל סיפור או סרט פנטזיה שהכרנו ולהרגיש כאילו הוא בהישג יד.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/049/medium/close_aqua_dome.jpg?1514673997",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/050/medium/P5308864.JPG?1514674043",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/051/medium/20170528_032119.jpg?1514674077",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/043/medium/20170810-3Q7A5789.jpg?1514673831",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/044/medium/IMG_4417.jpg?1514673882",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/045/medium/P5308702.JPG?1514673922",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/046/medium/19247870_1286362824819946_4152436026297846307_n.jpg?1514673943",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/047/medium/image2.jpeg?1514673957",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/048/medium/unnamed_%285%29.jpg?1514673974",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/587/medium/ec0c45c2-3e74-42ea-80eb-a8cb898ec586.jpg?1519222501",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/588/medium/%D7%94%D7%95%D7%A8%D7%93.png?1519222563",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/589/medium/faces.png?1519222909",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/590/medium/%D7%AA%D7%9B%D7%A0%D7%95%D7%9F_%D7%94%D7%A0%D7%93%D7%A1%D7%99.png?1519222933",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/591/medium/dome.vertexinside.jpg?1519222957",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/592/medium/d.jpg?1519222977"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg",
+			"art10.jpg",
+			"art11.jpg",
+			"art12.jpg",
+			"art13.jpg",
+			"art14.jpg",
+			"art15.jpg"
 		]
 	},
 	{
@@ -256,16 +256,16 @@
 		"description": "המייצב אותו אני מכין הוא יציקת ברונזה מלאה בפרטים  של ברנרית (בהשראת ברנרית אמיתית מתמונה מצולמת) מאושרת עם הידיים מורמות למעלה בשמחה, כאשר ביד אחת יש לה בקבוק מים ובשניה טלפון נייד. הפסל יעמוד על בסיס בגובה 120 ס\"מ עשוי מעץ מצופה פרווה מואר בלדים בלילה וממנו תבקע מוזיקה רגועה ליצירת אווירה אינטימית בין המתבונן למייצב. הפסל אמור להשרות אווירה של חופש, שיחרור, אצמעות ושמחה אצל המתבונן.\nהחוויה שאני מתכנן היא: הפסל יעמוד בשטח פתוח אבל עם תנועה ביום ובלילה. בשלב ראשון התאורה המעניינת שאני מתכנן לבסיס ( תאורה שתבקע ממתחת לפרווה) תמשוך אנשים לחקור מה זה וכשיתקרבו יתחילו לשמוע את המוזיקה. בשלב זה יגלו את הפסל העומד בראש הבסיס ויוכלו להתקרב ולראות את כל הפרטים הקטנים שבו.ביום הבסיס המעניין ימשוך אנשים ל\"חקירה\" של מה יש שם, הרקע המדברי או החושך שמסביב בלילה ישלימו את האווירה האינטימית עם היצירה ויעזרו להעלות את התחושות שאני מנסה להעביר דרכה.",
 		"artist": "גיל בורשטיין",
 		"philosophy": "יצירת אווירת שמחה ומתן השארה של רגשות חיוביים וטובים והעצמה למתבונן,  תוך יצירת תחושה של תגלית אישית של פסל קטן של ברנרית עוצמתית מאושרת במרחב המדבר הגדול.\nהמבנה הלא שגרתי של הבסיס שעליו עומד הפסל (ציפוי פרווה ותאורה) יעורר את הסקרנות ואת הרצון להתקרב. \nתמונת ההשראה העבירה בי רגשות  טובים כאלו ואני רוצה בעזרת הפסל להעביר אותם ולחלוק וליצור באנשים את אותם רגשות.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/099/medium/sculpture_layout_Day_01-01.jpg?1515532790",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/474/medium/ScreenHunter_07_Jan._23_02.04.jpg?1516666030",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/462/medium/ScreenHunter_07_Jan._19_01.25.jpg?1516317885",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/463/medium/day_vision_01.jpg?1516317935",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/470/medium/ScreenHunter_05_Jan._23_01.03.jpg?1516662114",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/472/medium/ScreenHunter_06_Jan._23_01.03.jpg?1516665144",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/482/medium/Sculpture_at_midburn_scene_01.jpg?1517435063",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/471/medium/ScreenHunter_04_Jan._23_01.03.jpg?1516665118",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/073/medium/151520188595696316780.jpg?1515201925"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg"
 		]
 	},
 	{
@@ -277,15 +277,15 @@
 		"description": "אנחנו נערוך טקסי פרידה שמחים לזהות עצמית שרובינו המצאנו לעצמינו עד היום, חגיגת פרידה לכל הרעיונות, הפחדים והאשליות שרובינו בוחרים להאמין בהם. בעצם לוותר על סיפור שבחרנו להיאחז בו, ואולי לבחור בסיפור חדש. המיצב (שיהיה פתוח 24/7) הוא מרחב של being, מעין חלל משנה תודעה. למיצב מגיעים דרך שביל המייצר שיטוט פנימי וישמש גם כבאר אשליות עם אפקטים של תאורה וסאונד שיזוזו בין שני חצאי העיגול וייצרו תקשורת ויזואלית וקולית בינהם. בין שני חצי העיגול יעמוד לו פסל של עץ מברזל שעל ידי הקהילה יצמיח עליו עלים במהלך האירוע . יהיו בחללים חימר, שבלונות של עלים  ומטפחות. כל מי שמוכן לוותר על הסיפור שהוא סיפר לעצמו עד היום יוכל לתלות על העץ את המטפחת עם עלה החימר שהכין וכך יחד עם המטפחת והעלה שישאיר על העץ, הוא ישאיר משהו מעצמו שהוא לא מעוניין בו יותר, ויבטא באופן פיזי את שחרורו מגדר/ות שבנה לעצמו בעבר. בערב האחרון נשרוף את העץ עם עלי החימר ותליוני העלה שיווצרו שם יהיו הגיפטינג לאנשי הקהילה האמיצים שעברו את המסע. העץ יסמל את האחדות הקיימת בקהילה ואף ביקום כולו. חיבור של הרבה אינדיבידואלים היוצרים משהו אחד שלם, יוצרים קהילה.",
 		"artist": "The inner eye",
 		"philosophy": "קיים רצון להביא את הברנרים האהובים להתעוררות פנימית-תודעתית. לתת מקום בו ניתן להחליט להיפרד מהסבל ולא להזדהות עם הסיפור שרובינו המצאנו לעצמינו. להציע בבחירה של היוולדות מחדש במידברן. המסע הרוחני יהיה גם אינדיבידואלי וגם חברתי קהילתי. העץ באמצע המיצב יסמל את החיבור של כל הסיפור האישיים לסיפור אחד שלם.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/910/medium/%D7%97%D7%AA%D7%9A.jpg?1520146031",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/909/medium/%D7%AA%D7%9B%D7%A0%D7%99%D7%AA.jpg?1520145945",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/387/medium/%D7%94%D7%93%D7%9E%D7%99%D7%941.jpg?1515879943",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/390/medium/%D7%94%D7%93%D7%9E%D7%99%D7%94_3.jpg?1515880030",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/389/medium/%D7%94%D7%93%D7%9E%D7%99%D7%94_2.jpg?1515879996",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/388/medium/night25.jpg?1515879969",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/895/medium/isometria.jpg?1520115143",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/913/medium/%D7%9E%D7%A1%D7%91%D7%9A_%D7%A4%D7%A8%D7%98%D7%99%D7%9D.jpg?1520154670"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg"
 		]
 	},
 	{
@@ -297,18 +297,18 @@
 		"description": "בקרוב...",
 		"artist": "SKySKrapers",
 		"philosophy": "הרעיון משלב את האפשרות להכנס לתוך יצירה של אדם אחר, מלווה שמוזיקה ואווירה שלא מהעולם הזה.\nהיוצר \"עף\" באמצעות מערכת הרמה ויוצר סערה של צבע וצורות על דפנות המבנה. הצופים אשר יושבים בהיקף משתתפים במה שעובר עליו, ומצטרפים בראש שלהם לסערה המתחוללת מעל לראשם.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/263/medium/lift_system.PNG?1515828251",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/262/medium/laser_paint.PNG?1515828159",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/737/medium/lift_system.JPG?1519946007",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/738/medium/psp2018-top.JPG?1519946030",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/739/medium/psp2018-side.JPG?1519946039",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/740/medium/psp2018-inside.JPG?1519946055",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/000/medium/20180318_142553.jpg?1521382439",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/001/medium/20180318_142549.jpg?1521383432",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/002/medium/20180318_142558.jpg?1521383466",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/003/medium/20180318_142609.jpg?1521383496",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/017/medium/MSA_Harness_light.jpg?1521558400"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg",
+			"art10.jpg",
+			"art11.jpg"
 		]
 	},
 	{
@@ -320,12 +320,12 @@
 		"description": "המיצב הוא חופה מעוצבת באלמנטים של טבע פראי - יער, שיחים פרחים (כמובן עם לדים צבעוניים בלילה). היא תמוקם, בתקווה, בפלאייה העמוקה, במיקום שצופה על כל העיר ולא קרוב למוקד מוזיקה כלשהו, על מנת לאפשר עריכת טקסים שכוללים הקראת טקסטים ו/או שירה. במהלך האירוע, כל מי שחפצה נפשה בטקס זוגיות/חתונה/אחר תוכל להשתמש במיצב עבור זוג, שלישייה, קבוצה ועוד. \nבצמוד למיצב ימוקם שולחן גבוה עם דפי הוראות, עליהם יירשמו נהלי טקסי חתונה מכל העולם (יהודי, נוצרי, בודהיסטי, קלטי, מוסלמי, הינדי ועוד ועוד). \nאנחנו מקווים שייעשה שימוש רב ככל האפשר בחופה שלנו, כך שהיא תעורר אצל משתמשיה ואורחיה רומנטיקה, התרגשות, ציפייה, אופטימיות, שמחה ואהבה. \nמי שספונטנית תוכל לערוך טקסים מזדמנים בו במקום, אם החופה פנויה. לאחרות יתאפשר לשריין לעצמן את החופה מראש אצלנו. טבלת זמנים תיתלה בצמוד לחופה, עם בקשה לכבד את האחרת...\nמבחנית חומרים וציוד - החופה תיבנה מסנדות, בזנ\"טים, יתדות, חבלים, בד תחרה, לדים ואביזרי ארט.",
 		"artist": "לוסי ואסלן",
 		"philosophy": "מידברן הפך לאחד החלקים המשמעותיים בחיינו, אם לא הכי משמעותי. הכרנו והתאהבנו כחברים בצוות המוביל של מחנה נושא ב-2016 ולאחר הניצוץ הראשוני המשכנו בצוותים המובילים של מחלקות העמותה, מחנות נושא ומיצבים במידברן ובאירועים קהילתיים נוספים. רק מתבקש שנערוך את טקס החתונה שלנו באירוע. טקס זה חשוב בעיננו יותר מהטקס שייערך בדיפולט \"רק כי חייבים\". \nהחלטנו לעשות את זה כמו שצריך ולבטא את עצמנו בעזרת חופה מעוצבת על ידינו, אשר תוכל לשמש גם עבור שאר חברי הקהילה שיחפצו בכך.\nאל תוך מיצב החופה נטמיע את כל מה ששאבנו מהשנתיים האחרונות...",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/113/medium/20180110_230848.jpg?1515619118",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/548/medium/IMG-20180217-WA0002.jpg?1518878488",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/622/medium/HOOPTI_TECHNICAL.jpeg?1519597034",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/623/medium/%D7%9E%D7%A7%D7%91%D7%99%D7%9C%D7%94.jpg?1519597162",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/624/medium/%D7%A6%D7%95%D7%9C%D7%91%D7%AA.JPG?1519597176"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg"
 		]
 	},
 	{
@@ -337,13 +337,13 @@
 		"description": "",
 		"artist": "רודף העפיפונים",
 		"philosophy": "האפשרות לראות אפקטים ויזואליים מרשימים בחוויה אינטראקטיבית (סיבוב העציץ).",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/547/medium/flower_kaleidoscope.jpg?1518869782",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/580/medium/flower_kaleidoscope_measurments.jpg?1518979619",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/581/medium/flower_kaleidoscope3.jpg?1518981015",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/582/medium/40309798352_c0a3f181b0_o.jpg?1519032543",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/955/medium/prahim.jpg?1520522424",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/021/medium/kaleidoscope_eyepiece.jpg?1521920792"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg"
 		]
 	},
 	{
@@ -355,10 +355,10 @@
 		"description": "מאסיב פין ארט הוא קנבס ציבורי, רגעי ומשתנה. \n\nרגע- מה זה בעצם?\nכמו הצעצוע המשרדי pin art- \nhttps://www.mikamax.nl/wp-content/uploads/2015/01/Pin-art.jpg. \nמיצב בגודל 1.2X2.4 מ', העשוי שני לוחות מחוררים ובניהם המון (המון) מוטות. יהיה ניתן להטביע כל דבר (גוף, חפצים וכו') ולהשאיר כאומנות זמנית באמצע הפלאיה. \n\nאחרי שהאבטיפוס עבר בהצלחה את הברנרות, הגיע הזמן להשתדרג לקראת מידברן. \nאנחנו מכוונים ליותר גדול, יותר חלק, יותר יפה, יותר מואר, יותר כתום? \nאז בואו להשאיר את החותם שלכם על האומנות בפלאייה, ולראות אותה נמחקת מיד ומוחלפת ביצירה הבאה בתור. בואו לקבל שיעור ביצירה ושחרור.\nיהיה כיף",
 		"artist": "D.J",
 		"philosophy": "המיצב מדגיש שני עקרונות באופן מובהק- מיידיות, וביטוי עצמי.\nביטוי עצמי- המיצב הוא קנבס שרק מחכה ליוצרים שיבואו ויציירו עליו את עצמם, או מה שהם רוצים. הוא מאפשר לכל משתתף במידברן לשלוח מסר כלשהו לשאר העיר.\nבמקביל, אולי כמעט בניגוד, כל יצירה שמוצגת על המיצב מהר מאוד נמחקת ונעלמת ללא זכר. דבר זה מכריח את היוצר לקבל את הזמניות ומיידיות של היצירה שלו, ולשחרר עצמו מהצורך לשמור ולתעד. הדיסוננס הזה, בין ההזמנה ליצירה, ובין המהירות בה היא נעלמת, מאפשר להתחבר לרגע ולשכוח מהצורך בשימור.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/715/medium/WhatsApp_Image_2017-12-18_at_13.57.15%284%29.jpeg?1519919709",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/717/medium/WhatsApp_Image_2018-03-01_at_17.52.55.jpeg?1519919779",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/721/medium/WhatsApp_Image_2017-12-18_at_13.57.15.jpeg?1519919916"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg"
 		]
 	},
 	{
@@ -370,8 +370,8 @@
 		"description": "טוב די, לא יכול לפרט הכל.\nדמייני, את הולך בין שטחי המידברן, כאשר אתם מזההים את כדור הארץ נושם ומנסה לתקשר איתכם. החזיקו \n את שורשיו וראו איך הוא מגיב.\nבאו תנוחו קצת ותהנו מהאווירה הרגועה שכדור הארץ  משרה",
 		"artist": "Led-Art",
 		"philosophy": "היצירה מאנישה את כדור הארץ, ונותנת תחושות שכדור הארץ נושם וזורם",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/204/medium/IMG-20180112-WA0007.jpg?1515769192"
+		"images": [
+			"art1.jpg"
 		]
 	},
 	{
@@ -383,11 +383,11 @@
 		"description": "הסינסתזיה היא מערכת של פסנתר חשמלי וכלי הקשה - שיתחברו לפסי לדים צבעוניים שעולם לגובה.\nכל הקשה על קליד מסוים יגרום לפס צבעוני להידלק - ובכך נגינה על הפסנתר/תוף תגרום למופע אור וקול מסונכרן\n\nנחבר פסנתר 88 קלידים לקבוצת פסי לדים צבעוניים שנמצאים בתוך סלילי פלסטיק מט בגובה 2 מטרים. נגינה על הפסנתר תפעיל את פסי הלדים שעולים לגובה\nבנוסף נחבר כלי הקשה לטבעות לדים צבעוניים - הקשה על התופים תגרום לטבעות לדלוק\nכך שלמעשה המיצג יצור 2 סוגי צלילים (פסנתר ותופים) ו2 סוגי צורות (פסים וטבעות) בצבעים רבים\n\nהמיצג מזמין את כולם להשתתף בחוויית היצירה - ליד הפסנתר יהיה ספסל שמתאים ל2 אנשים וליד התופים יהיה מקום ישיבה לאדם אחד\n\nהרעיון הגיע מתופעה שנקראת עירוב חושים בה גירוי קוגניטיבי בחוש מסויים מעורר חוויה סובייקטיבית בחוש אחר - נגינה על הפסנתר והתופים תיצור מוזיקה ויזואלית\nאנחנו מאוד רוצים לתת לכולם ליצור את החתימה היחודית שלהם לבד, או ביחד",
 		"artist": "Valhala Crew",
 		"philosophy": "סינסתזיה (בכתיב לועזי: Synesthesia; סינ=תחילית שמשמעה יחד, אסתזיס=חושים), ובעברית: עירוב חושים (ערבוב חושי) היא תופעה שבה גירוי אובייקטיבי אשר נתפס באופנות חושית אחת מעורר חוויה סובייקטיבית באופנות חושית אחרת. כלומר, מיזוג קוגניטיבי בין חושים שונים (מקור - ויקיפדיה)\n\nהרעיון הוא לגרום לעירבוב של חוש השמיעה והראיה - ולא פחות חשוב - לעורר את תחושת היצירה והיצירתיות המוזיקלית והויזואלית אצל המשתתפים במיצב",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/329/medium/p1.jpg?1515868696",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/332/medium/p4.png?1515868754",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/331/medium/p3.jpeg?1515868740",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/790/medium/%D7%A9%D7%A8%D7%98%D7%95%D7%98-%D7%98%D7%9B%D7%A0%D7%99.jpeg?1520076208"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
 		]
 	},
 	{
@@ -399,24 +399,24 @@
 		"description": "המיצב החוויתי הינו נדנדת-קרוסלה ענקית אשר עולה ויורדת וחגה סביב ציר. או אולי בעצם זה יותר קרוסלה-מתנדנדת שמסתובבת ומתרגשת כל פעם שעולים עליה 2 ברנריות שרוצות לדלג לשחקים. \nובלילה, חזיז ורעם!!! המיצג, כמיטב המסורת הברנרית העתיקה, ילבש היבהובי לדים מדליקים.\nזהירות החוויה ממכרת!!!",
 		"artist": "דותן ועידן",
 		"philosophy": "הרעיון לתת חוויה חדשה ושונה לבאי המידברן בתחום הפיזי. כמה היה לנו כייף להתנדנד בנדנדה כשהיינו קטנים כמה מדליק יהיה לעשות זאת שוב אבל הפעם בהסתובבות 360 מעלות. כמו-כן יש כאן אתגר מסויים להיכנס לסינכרון עם הבן-זוג ואחר-כך אולי התחלה של מפגש איתו.\nוגם לעובר אורך זו יכולה להיות חוויה אסטית ומיוחדת לראות אנשים מתעופפים ומרחפים.\nהרעיון מתכתב עם עקרון הקהילתי בהיבט של שותפות בין שני אנשים למטרת הנאה משותפת. כמוכן הרעיון מצריך השתתפות .",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/846/medium/11.PNG?1520103055",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/847/medium/12.PNG?1520103087",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/848/medium/13.PNG?1520103107",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/849/medium/14.PNG?1520103130",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/850/medium/15.PNG?1520103161",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/851/medium/16.PNG?1520103183",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/148/medium/mw3.png?1515683292",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/844/medium/9.PNG?1520102908",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/833/medium/1.PNG?1520101571",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/834/medium/2.PNG?1520101592",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/837/medium/3.PNG?1520102723",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/838/medium/4.PNG?1520102764",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/839/medium/5.PNG?1520102791",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/840/medium/6.PNG?1520102809",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/841/medium/7.PNG?1520102830",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/842/medium/8.PNG?1520102857",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/845/medium/10.PNG?1520102944"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg",
+			"art10.jpg",
+			"art11.jpg",
+			"art12.jpg",
+			"art13.jpg",
+			"art14.jpg",
+			"art15.jpg",
+			"art16.jpg",
+			"art17.jpg"
 		]
 	},
 	{
@@ -428,12 +428,12 @@
 		"description": "ניצור כיפה שאפשר להיות בה גם הצופה וגם האמן, כל אחד ומה שמרגיש לו באותו הרגע\nהחדר יכיל מיצגים פשוטים, שעושים דברים מורכבים ויפים, בעזרת לדים, לייזרים, מראות, סאונד, מים וחלק מהם גם יהיו אינטראקטיביים",
 		"artist": "Sanity(In)",
 		"philosophy": "אנחנו רוצים ליצור חדר מנותק מהחלל החיצוני מלא הטירוף של הפלאיה, שאפשר להיות בו גם הצופה וגם האמן, כל אחד ומה שמרגיש לו באותו הרגע\nהחדר יכיל מיצגים פשוטים, שעושים דברים מורכבים ויפים, בעזרת לדים, לייזרים, מראות, סאונד, מים וחלק מהם גם יהיו אינטראקטיביים ויאפשרו לכם לשחק",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/729/medium/0a9d310f-1917-4655-847e-69ad415f3ca6.JPG?1519936052",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/731/medium/ce142aca-db12-45a7-9375-ad3c4df7fb26.JPG?1519936080",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/732/medium/dome_%284%29.png?1519936091",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/733/medium/dome_%285%29.png?1519936108",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/734/medium/dome_%286%29.png?1519936121"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg"
 		]
 	},
 	{
@@ -445,12 +445,12 @@
 		"description": "עמוק בפלאייה עומד מבנה מסתורי. קשה לראות מבחוץ מה קורה שם בפנים. אם אתם אמיצים - אתם נכנסים למיצב ועוברים לעולם שכולו מראות. צד אחד שלמות, צד אחד שבורות. מי שהולך בין המראות רואה את עצמו ואת הסובבים אותו משתקפים הלוך חזור, שבורים ושלמים, בשני הצדדים לפעמים מספר פעמים בודדות ולפעמים עד אינסוף, תלוי בזוויות בין המראות. בזמן ההליכה בתוך המיצב יש לך זמן להרהר, האם אני שבור? או שלם? או שניהם?",
 		"artist": "בורגנים במדבר",
 		"philosophy": "היצירה מעוררת מחשבה על איך אנחנו רואים ותופשים את עצמנו. מצד אחד אנחנו מקרינים החוצה דמות של אדם שלם, קונסיסטני, שמתפקד בעולם כאדם בוגר, פעיל ותורם. מצד שני כל אחד יודע שעמוק בפנים יש לו/ה שריטות/סדקים/שברים, פגיעויות ונקודות חולשה שהן תוצאה של החיים שחיינו. יופי אמיתי, פנימי וחיצוני, מושג כאשר אדם מצליח לראות את עצמו כמכלול של שני הפנים האלו.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/291/medium/WhatsApp_Image_2018-01-13_at_17.13.02.jpeg?1515857185",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/292/medium/WhatsApp_Image_2018-01-13_at_17.13.03.jpeg?1515857207",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/289/medium/WhatsApp_Image_2018-01-13_at_17.13.01.jpeg?1515857024",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/290/medium/WhatsApp_Image_2018-01-13_at_17.12.59.jpeg?1515857044",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/866/medium/%D7%A9%D7%A8%D7%98%D7%95%D7%98%D7%99%D7%9D_%D7%9E%D7%A8%D7%90%D7%94_%D7%9E%D7%A8%D7%90%D7%94.jpg?1520110310"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg"
 		]
 	},
 	{
@@ -462,13 +462,13 @@
 		"description": "רצית פעם לדבר עם מישהו בלי שישפטו אותך? בלי הנחנות יסוד? בלי טענות או הנחות מראש?\nבלי שהמראה החיצוני שלך ישפיע על האופן בו דבריך הנובעים מהלב יתקבלו?\nהאם יש שאלות שהיית רוצה לשאול בלי להתבייש? זר מוחלט או אהוב ישן- ושהתשובה תהיה רלוונטית רק לשאלה ולא להיסטוריה משותפת?\nרצית פעם לפתוח את הלב, עד הסוף, ולראות מה יקרה?\n \nזה לא תמיד קל.\n\nבין אם נרצה ובין אם לאו, לפעמים אנו שיפוטיים. \nמעשה או אמירה של מישהו יכולים לעורר בנו רגש בלתי נשלט בהתחלה. אמנם, נוכל להתגבר עליו- אבל רגע השיפוט הפנימי התרחש. \nופעמים רבות, אותו רגע של שיפוט עצמי מקרין, בצורה זו או אחרת החוצה. וגם כאן, לא תמיד יש לנו שליטה על כך. \nהשיפוט אינו בהכרח שלילי. הוא חיוני להערכתנו את העולם. אבל בכל זאת. \nהאם אני מרגיש בנוח לספר על הפינות הכי חשוכות שלי ולחשוף את כל כולי?\n\nוכך נולד הDOT. \n\nמספר נקודות טלפון, כל אחת תהיה מעוצבת באופן שונה על ידי הצוות שיהי אחראי עליה. כורסה וטלפון חוגה? הולך. תא טלפון ציבורי? הולך. בונקר אטומי עם טלפון אדום? הולך. כל צוות עושה מה שירצה. הטלפונים יחוברו ביניהם, ואפשר יהיה לחייג לאן שתרצו. ולדבר עם מישהו, אקראי, ארעי, ללא עבר, ללא הווה, ללא עתיד, על כל מה שתרצו, תרגישו, תחוו. \n\nתרצו להמשיך לדבר עד הבוקר? נהדר. \nתרצו לנתק בכעס וללכת משם? מצויין.\nהבכי יפרוץ בלי שליטה? ננסה לדאוג לטישו. \n\nבואו. התחברו. געו. \n\nהמיצג בנוי כך, שכל צוות אמנים שירצה לקחת על עצמו נק' - יוכל לעשות זאת- ותהיה לו אוטונומיה מוחלטת בעיצוב- כאשר הצוות הטכני שלנו ידאג לכל חיבורי התקשורת, מה שיאפשר גם לקבוצות אמנים מרוחקות לקחת חלק ביצירה. \n\nבנוסף, בכל עמדת טלפון שכזו יהיו 3 לחצני חיוג מהיר: נוודים, מיט\"ה וחב\"ק או מרפאה. בלי קשר למייצג- זה יכול לעיתים לעזור. \n\nגילוי נאות: זה העתק כמעט מוחלט של מייצב שהיה ב2016 ולא יצא לנו להיות בו. אנחנו רוצים לחוות אותו,  והדרך הטובה לחוות משהו בפלאיה היא לייצר אותו. אז אם יש כאן מישו מהמניות המקוריים- בואו איתנו :)",
 		"artist": "דוט",
 		"philosophy": "נקודות המהוות שער לתקשורת בלי תלויה בין אנשים",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/938/medium/IMG_20180304_213528.jpg?1520193761",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/939/medium/IMG_20180304_211951.jpg?1520193807",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/996/medium/IMG-20180313-WA0011.jpg?1520989506",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/997/medium/IMG-20180313-WA0021.jpg?1520989541",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/998/medium/IMG-20180313-WA0023.jpg?1520989577",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/995/medium/IMG-20180313-WA0024.jpg?1520989475"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg"
 		]
 	},
 	{
@@ -480,12 +480,12 @@
 		"description": "הכל התחיל בברן האחרון כשעמדתי ליד מסך טאצ' שאפשר לי לשנות את האורות מולי. רציתי יותר ויותר שליטה על מה שאני רואה.\nכדי ליצור תחושת סיפוק כזו לברנרים אחרים החלטנו לרכז אתכם ללהקה ולאפשר לכם לשלוט ביחד על האורות. אבל אין נסדר את האורות? חשבנו לעצמנו.\nמנהרה !!! כך שתוכלו לנגן את האורות או לשבת בתוך המנהרה, להיות חלק מהמופע ולהגזר על החברים המנגנים.",
 		"artist": "קונטרה בן",
 		"philosophy": "חווית אורות אינטרקטיבית שתחבר בין המיצב למשתמש השולט בו. ריבוי כלי הנגינה יאפשר לברנרים לחוות יחד את המיצב.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/067/medium/lights.png?1515160522",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/594/medium/IMG-20180217-WA0009.jpg?1519395054",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/603/medium/DSC_0666.JPG?1519481486",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/607/medium/%D7%9E%D7%91%D7%98%D7%A2%D7%9C.png?1519482721",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/608/medium/%D7%9E%D7%99%D7%A6%D7%91.jpg?1519483899"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg"
 		]
 	},
 	{
@@ -497,24 +497,24 @@
 		"description": "In the middle of brain storm. \nWhen powerfull wind of ideas  is blowing and geting you up and down.\nand giant waves of inspiration are overwhelming you\n\nYou might need a shelter - the lifeboat can take you aboard.\nTake a sit. Take a breath. Take a rest.",
 		"artist": "The Other Half Of The Beaver",
 		"philosophy": "The boat here is the center of the universe, it gives you peace and confidence\nAncient symbol of transition to another dimension\nYou are reborn to yourself.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/339/medium/1.jpg?1515869067",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/341/medium/3.jpg?1515869089",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/340/medium/2.jpg?1515869080",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/344/medium/5.jpg?1515869137",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/430/medium/The_Boat_3.JPG?1515885047",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/429/medium/The_Boat_1.JPG?1515885035",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/343/medium/4.JPG?1515869128",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/794/medium/General_Dimensions.jpg?1520082058",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/795/medium/bench_dim_1.jpg?1520082090",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/796/medium/Boat_side_dim_f.jpg?1520082101",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/797/medium/Boat_side_material.jpg?1520082124",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/798/medium/Mast_rake.jpg?1520082137",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/799/medium/Side_1.jpg?1520082148",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/800/medium/Safety_strips.jpg?1520082925",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/999/medium/Sail_dim.jpg?1521023189",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/009/medium/IMG_7499.JPG?1521457401",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/025/medium/Boat_av.jpg?1521979688"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg",
+			"art10.jpg",
+			"art11.jpg",
+			"art12.jpg",
+			"art13.jpg",
+			"art14.jpg",
+			"art15.jpg",
+			"art16.jpg",
+			"art17.jpg"
 		]
 	},
 	{
@@ -526,13 +526,13 @@
 		"description": "המיצב יאפשר למשתתפים לדוג דגים מתוך \"בריכת דגים\" מסתובבת (בלי מים לא לדאוג)\nכל דג יהיה בעל מאפיינים אחרים שמסמלים מוזיקה מסויימת\nהשאיפה שלנו היא שכל פעם שמרימים דג מסויים, המוזיקה שמאפיינת את אותו הדג תתחיל להתנגן ברקע",
 		"artist": "מחנה קוסומו",
 		"philosophy": "משחק הדגים של פעם רק בגדול",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/764/medium/1J.jpg?1520001743",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/550/medium/%D7%93%D7%92%D7%99%D7%9D.jpg?1518891962",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/551/medium/51hSVzBi8hL._SY300_QL70_.jpg?1518892120",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/552/medium/maxresdefault.jpg?1518892137",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/766/medium/3J.jpg?1520001826",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/765/medium/2J.jpg?1520001811"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg"
 		]
 	},
 	{
@@ -544,8 +544,8 @@
 		"description": "\"בעתיד כולם יהיו מפורסמים ל15 דקות\" - אנדי וורהאול \nהמיצב \"מפגש\" מאתגר את המשתתפים לקחת חלק בניסוי אינטימי. המשתתפים מתבקשים לשבת אחד מול השני ולהסתכל בעיניים אחת של השניה. בזמן אמת מצלמות מתעדות את הפנים של המשתתפים ומקרינות אותם על הפנים של 2 דמויות ענק אשר מוצבות במרחב. כתגובה לעולם הדיגיטלי המנסה להגדיל ולהתמיר את החוויות האינטימיות היומיומיות שלנו, אנחנו רוצים ליצור מרחב פיזי בו המשתתפים יכולים לחוות בצורה מיידית את ההשפעה של מפגש אינטימי ההופך לציבורי בעזרת אמנות.",
 		"artist": "Fugara",
 		"philosophy": "הרצון ליצור תגובה יצירתית לעולם המדיה החברתית אשר מרדד אינטרקציות חברתיות לכמות לייקים ושיירים.\nלאתגר משתתפים לייצר חוויה אינטימית משמעותית ולבחון מה קורה כאשר חוויה זו מוגדלת ומוצגת לציבור המשתתפים הרחב.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/074/medium/WhatsApp-Image-2017-12-17-at-19.jpg?1515320023"
+		"images": [
+			"art1.jpg"
 		]
 	},
 	{
@@ -557,9 +557,9 @@
 		"description": "תור איכותי לכל מטרה, בהזמנה מראש ועל בסיס מקום פנוי",
 		"artist": "הסמורים החתוליים",
 		"philosophy": "הגיע הזמן שברנרים יתחילו לקחת את התורים שלהם ברצינות. אנחנו מנסים לקדם מודעות לתורים איכותיים יותר, שיצרו חויית משתמש מעמיקה ומשמעותית.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/215/medium/photo_2018-01-12_20-00-05.jpg?1515780075",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/051/medium/photo_2018-04-04_13-16-29.jpg?1522837042"
+		"images": [
+			"art1.jpg",
+			"art2.jpg"
 		]
 	},
 	{
@@ -571,14 +571,14 @@
 		"description": "המשאלה שלנו היא ליצור מרחב חברתי בהשראת זכרונות וחוויות ילדות שהפכו לסימבול תרבותי -ישיבה על הברזלים מחוץ לבתי ספר כמקום שמשלב מעבר מצד אחד והתקהלות מצד שני, יוצרים את הבסיס התמטי של שיעתוק המרחב אל הפלאיה. הישיבה מזמינה לאינטראקציה תוך התרגשות וזלילה של חוויה מקומית, מנת פלאפל שהיא בעצמה ייצוג תרבותי אל זמני. היינו רוצים שה״ברזלים״ יהיו ממוקמים ב״דיפ פלאיה״, זמינים למשתתפים שחוקרים את האירוע וסקרנים לגלות מהם האורות האלו שקורצים להם ממרחק. ה״ברזלים״ יהיו מוארים באופן שייצר קווי מתאר מוכרים אך מסתוריים,  כאשר ככל שיתקרבו המיצב יהפוך ברור יותר וריח הפלאפל יעלה עוד התרגשות. לצד הברזלים יעמוד תמרור של ״ילדים בדרך״, תמרור שיעוצב עם ילדים במראה ברנרי ״מקומי״ לאירוע.\nבמשך שלוש שעות במהלך היממה דוכן הפלאפל יגיש ארבע גרסאות שונות למנה המוכרת, המשתתף יסובב גלגל והמנה תבחר בשבילו. המנות שיוגשו:\n1. הקלאסית- פלאפל, טחינה ופטרוזיליה\n2. הרדיקלית- מלא חריף עם מעט פלאפל\n3. נוואדה- פלאפל עם בייקון \n4. ריינבו יוניקורן- פלאפל עם טחינה בארבע צבעים ונצנצים אכילים",
 		"artist": "נלי ותמי גיא",
 		"philosophy": "המשאלה שלנו היא ליצור מרחב חברתי בהשראת זכרונות וחוויות ילדות שהפכו לסימבול תרבותי -ישיבה על הברזלים מחוץ לבתי ספר כמקום שמשלב מעבר מצד אחד והתקהלות מצד שני, יוצרים את הבסיס התמטי של שיעתוק המרחב אל הפלאיה. הישיבה מזמינה לאינטראקציה תוך התרגשות וזלילה של חוויה מקומית, מנת פלאפל שהיא בעצמה ייצוג תרבותי על זמני. היינו רוצים שה״ברזלים״ יהיו ממוקמים ב״דיפ פלאיה״, זמינים למשתתפים שחוקרים את האירוע וסקרנים לגלות מהם האורות האלו שקורצים להם ממרחק. ה״ברזלים״ יהיו מוארים באופן שייצר קווי מתאר מוכרים אך מסתוריים,  כאשר ככל שיתקרבו המיצב יהפוך ברור יותר וריח הפלאפל יעלה עוד התרגשות. לצד הברזלים יעמוד תמרור של ״ילדים בדרך״, תמרור שיעוצב עם ילדים במראה ברנרי ״מקומי״ לאירוע.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/818/medium/2.JPG?1520100597",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/819/medium/3.JPG?1520100604",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/821/medium/5.JPG?1520100633",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/822/medium/4.JPG?1520100642",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/823/medium/6.JPG?1520100668",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/825/medium/7.JPG?1520100686",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/827/medium/1.JPG?1520100697"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg"
 		]
 	},
 	{
@@ -590,16 +590,16 @@
 		"description": "ארט-קאר של דרקון בגודל עצום כמו באגדות. הדרקון יסע בפלאיה מנקודה לנקודה כאשר על גבו רוכב רוכב הדרקון. לדרקון תהיה מערכת הגברה שתשמיע קולות וגם מוזיקה. הדרקון ירק אש אמיתית מפיו, ויוכל לעלות ולהוריד את ראשו וצווארו. הדרקון ילווה בקבוצת מלווים מקושטים.",
 		"artist": "קבוצת הדרקטור, אמנים: רני שילון, כריסי יהב",
 		"philosophy": "כשביתי, זהר, היתה בת 4, היא נכנסה לחוג בבית הספר שהיה על דרקונים ומאז הם חלק מחיינו בבית, היום זהר בת 8 והיא השנה תהיה בפעם הרביעית במדברן. לאחר הצלחת הביצב שלנו בשנה שעברה, שאלתי את ביתי זהר, איזה מיצג אנחנו נרצה לבנות? ביחד החלטנו לבנות הדרקון.  למרות שלא יחסתי חשיבות בעבר ליצור, דרך עינייה של ביתי, למדתי לאהוב את היצור המפחיד והבנתי שהוא גם יכול לחדור ללב של כולנו.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/511/medium/m3.jpg?1518443967",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/512/medium/T6_%281%29.jpg?1518444042",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/513/medium/t4.jpg?1518444092",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/515/medium/T5.jpg?1518444180",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/517/medium/m2.jpg?1518444246",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/508/medium/WhatsApp_Image_2018-02-10_at_22.44.31.jpeg?1518335541",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/519/medium/m6.jpg?1518444393",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/516/medium/IMG-20180201-WA0004.jpg?1518444201",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/518/medium/m5.jpg?1518444346"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg"
 		]
 	},
 	{
@@ -611,10 +611,10 @@
 		"description": "קודם כל- תכינו את הלסתות, הן הולכות ליפול לכן.\nראיתם פעם קטר דוהר על אדמה ללא מסילות?!\nקטר ענק עשוי נחושת וברזל על פלאייה ים תיכונית. זה לא רק חלום . זה חלום שכבר מתממש ונבנה.\nנפגש בקרוב ממש !",
 		"artist": "עידן שליט",
 		"philosophy": "ליצור אמנות מדהימה ברמה בינ\"ל ולתת השראה שהכל אפשרי",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/090/medium/bc9f1252-1482-406a-be81-35fceb5eed29.jpeg?1515517551",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/553/medium/WhatsApp_Image_2018-02-17_at_20.19.00_%282%29.jpeg?1518895871",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/554/medium/WhatsApp_Image_2018-02-17_at_20.19.00_%281%29.jpeg?1518895889"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg"
 		]
 	},
 	{
@@ -626,12 +626,12 @@
 		"description": "שלושה זוגות של משקפיים ענקיים, \nבראשון (המראות) נראה את עצמינו בתוך ההזיה שאנחנו נמצאים בה\nבשני (הויטראז) נראה דרך פילטרים של צבעים שונים את המציאות\nובשלישי (הספירלות) נישאב לתוך המראה הפסיכדלי של היקום",
 		"artist": "ארבל פישלר",
 		"philosophy": "הרעיון תכלס הוא של אישתי. דברו איתה.\nבגדול - כולם אוהבים להצטלם בכל מראה שהם מוצאים ברחבי הפלאיה, עם הנוף המאמם מאחור.\nמכיוון שהמראה קמורה, זה נותן הרבה שטח שרואים ועוד איזה עיוות במראה של הכל (כאילו שחסר)",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/097/medium/411.jpg?1515526337",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/095/medium/20170530_200521_HDR-01.jpeg?1515525951",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/096/medium/18767858_10154380380386216_1758724490117552906_n.jpg?1515526215",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/583/medium/20170309_235238_HDR_2.jpg?1519072968",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/584/medium/20170309_235223_HDR_3.jpg?1519073013"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg"
 		]
 	},
 	{
@@ -643,10 +643,10 @@
 		"description": "וולקן הוא אל הנפחות והאש - אמלגמציה של כוחות טבע סוערים שחוברים לרגש ולחמם את דיירי הפלאיה. זהו מייצב אש דינמי המורכב ממספר רב של להבות המגיבות ומרקדות לצלילי מוזיקה אלוהית הבוקעת מהמייצב (או צלילים אלוהיים יותר או פחות הבוקעים ממי שמחזיק את המיקרופון ברגע נתון).\nהמייצב מבוסס על עקרון פיזיקלי ידוע בשם Rubens Tube. צינור מתכת באורך 2 מטר ממולא בגז בישול. בחלקו העליון מספר רב של קדחים מהם יוצא הגז, מוצת, ובוער בשורה של להבות. לאחד מקצוות הצינור מחובר רמקול שמשמיע צלילים\\מוזיקה\\תדרים המנוגנים באותו הרגע. צידו הנגדי של הצינור סגור. גלי הקול נעים מהרמקול דרך הגז שבצינור ומוחזרים מהדופן הנגדית הסגורה. או-אז מתרחשת תופעה פיזיקלית של התאבכות הגלים עד כדי יצירת \"גל עומד\" בצינור. הגלים בתוך הצינור, משנים למעשה את הלחץ המקומי של הגז, ולפיכך, את קצב הזרימה שלו מבעד הנקבים. היכן שהצלילים גורמים ללחץ מקומי גבוה, בתער להבה גדולה יותר וההיפך. כך, נוצרת למעשה תופעה של מספר רב של להבות המגיבות ו\"רוקדות\" למוזיקה. צינור הרובנז שלנו יכלול גם אפשרות לפעילות אינטראקטיבית - הצלילים והקולות שמושמעים למיקרופון ע\"י תושבי הפלאייה במצביהם התודעתיים השונים ישפיעו אף הם על ריקוד הלהבות, והן, יחממו בחזרה את תושבי הפלאייה.",
 		"artist": "פוגארה",
 		"philosophy": "ברמה הפיזיקלית - \"צינור רובנז\" - הדגמה של גלים עומדים ולחצים דיפרנציאליים בצינור.\nברמה האומנותית - שמחת חיים צרופה - הלהבות כמטאפורה לאנרגיית החיים, התתנועה הקצבית כמרפררת ומרמזת לתענוגות הדוניסטים.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/087/medium/rubens_tube.jpg?1515449764",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/088/medium/Rubens_draft_0.1.jpg?1515449784",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/086/medium/vulcan.jpg?1515449694"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg"
 		]
 	},
 	{
@@ -658,8 +658,8 @@
 		"description": "-",
 		"artist": "gitel & rom",
 		"philosophy": "",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/741/medium/scatch.png?1519982161"
+		"images": [
+			"art1.jpg"
 		]
 	},
 	{
@@ -671,12 +671,12 @@
 		"description": "הקהילה עברה איתנו שנה עמוסת אירועים וחוויות. במיצב השנה ניתן לקהילה את האופציה להיזכר ו/או להכיר את התחנות השונות שעברנו. באי המיצב יוכלו לעבור דרך איזור דמוי בוסתן פורח, איזור דמוי ים מרענן וכו (5 תחנות סהכ) אשר נמחיש ע״י מספר רב של דרכים עם דגש על אמנות וידאו וסאונד אבל לא רק. במיצב יהיו הרבה איזורי ישיבה מוצלים, חידונים, מסרים נסתרים, פינוקים והפתעות. התחנה האחרונה תהיה רחבת הריקודים המושקעת עם סאונד נכון ומלטף אשר תוכנן בקפידה לחוויה מושלמת ורגישה גם לשכנינו.",
 		"artist": "Rabbits in the sand",
 		"philosophy": "הראביטס אין דה סנד הפך מאז היווצרותו לקולקטיב של מוסיקאים ואומנים מסוגים שונים אשר פועלים כולם בתחום ״אמנות הלילה״ ולרוב בתוך המסגרת של מסיבות. האמנות שלנו אם כך, פחות מתעסקת בנרטיב או רעיון כזה או אחר אלא בחוויה הפיזית הנוצרת במפגש המיוחד שלה עם הצופים. לשם כך חשוב לנו ליצר חוויה טוטאלית ועוצמתית כמה שיותר אשר משלבת מוסיקה אינטילגנטית ומיוחדת, וידאו ארט מהפנט וסביבה משחקית ומחבקת.\nהשנה אנחנו רוצים לקחת את הברנרים לטיול דרך 5 תחנות אשר ימחישו את ציוני הדרך המשמעותיים יותר שעברנו ממידברן 2017 ועד היום.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/786/medium/%D7%A80005.png?1520075875",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/787/medium/%D7%A8%D7%99%D7%99.png?1520075892",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/788/medium/Totem_Model_2_copy.png?1520076038",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/789/medium/Totem_Model_2_copy%D7%A7.png?1520076112",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/791/medium/rabbits123.jpg?1520077748"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg"
 		]
 	},
 	{
@@ -688,9 +688,9 @@
 		"description": "מה שרואים הוא שלושה מבנים הנדסיים (גובה פלטה 244). \nמרוב המקומות זה נראה כמו סתם בלאגן, אבל יש שני מקומות במרחק של כ20 מטר מהמיצג ,בכיוונים שונים (שיסומנו בדגל יפה או איזה מתקן צפיה אחר)\nשמהם רואים YES או NO. תלוי איפה עומדים.\nהברן הוא מקום שבו גבולות היכולת והראיה של הדברים לפעמים משתנה כשאנחנו משנים נקודת מבט.\nדיר בלאק אתם לוקחים את זה למקום של הטרדות מיניות. שם אין נקודת מבט. ברור? NO means NO וזהו.",
 		"artist": "ארבל פישלר",
 		"philosophy": "הרעיון הוא לא מקורי. זה משהו שראיתי שבנו מלגו.\nחיפשתי ולא ראיתי שמישהו ביצע משהו כזה בברנינג מן (ובטח שלא במידברן)",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/101/medium/yesno.jpg?1515534401",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/585/medium/20180219_234723-01.jpeg?1519077617"
+		"images": [
+			"art1.jpg",
+			"art2.jpg"
 		]
 	},
 	{
@@ -702,11 +702,11 @@
 		"description": "פינה קטנה בה יוכלו משתתפי.ות מדברן לסוע לרגע לעבר דרך אורות, קולות ונענועי ג׳ויסטיקים. תרומתנו למגרש המשחקים העצום הזה",
 		"artist": "Enchanted Sharpies",
 		"philosophy": "לייצר חוויה סוריאליסטית של מפגש עם מכונת ארקייד בודדת (ועובדת!) בלב המדבר. חיבור בין טבע פראי לעולם טכנולוגי נוסטלגי.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/157/medium/ARCADE.JPG?1515692594",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/156/medium/photo_2018-01-11_19-41-12.jpg?1515692581",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/153/medium/Arcade_Machine1.JPG?1515692212",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/154/medium/Arcade_Machine.JPG?1515692221"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
 		]
 	},
 	{
@@ -718,8 +718,8 @@
 		"description": "כותבים הודעה שרוצים שתיקרא. שמים בקופסא ולוחצים שלח. עם הלחיצה יופיעו שני VV כחולים. \nלוקחים הודעה שכתב זה שלפניכם וקוראים אותה.",
 		"artist": "Cheerup",
 		"philosophy": "כל אחד רוצה לדעת שההודעות שהוא כותב נקראו. המיצב מספק את הידיעה שההודעה שלך נקראה ומאפשר להתמודד עם הצורך במענה. ההודעה תיקרא, לא נוכל לדעת מי קרא אותה ולא נקבל מענה.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/782/medium/152006055089072017801.jpg?1520060599"
+		"images": [
+			"art1.jpg"
 		]
 	},
 	{
@@ -731,16 +731,16 @@
 		"description": "מים, גשם, ים, נחל, מפל. קשה לדמיין אותם במדבר. כל טיפה נותנת תקווה. הרעש של גשם, של מים שוצפים, כמה רחוקים הם מצלילי המדבר. \n4 במות, נווה מדבר. שכב עליהם, תנוח, תקשיב לזרימה.\nכל במה חלולה, בעלת חלל פנימי הבנוי כמו טופוגרפיה מוכרת- הנגב, קו החוף שלנו, ים המלח וים כנרת. הבמות בעלות בסיס קפיצי, והחלל הפנימי מלא בגולות שינועו כמו נוזלים בתוך הטופוגרפיה, אם רק ישבו או ישכבו עליהן ויניעו אותן בעדינות. הקולות והמראות של הגולות ידמו את תנועת המים בתוך הטוטפוגרפיה.",
 		"artist": "Pencil Case",
 		"philosophy": "עם כל הלדים, האורות הנוצצים והבאונד המפציץ, רצינו לחזור אחורה. לרגעים שבהם רעש טבעי, מים, זרימה, פשוט היו הדבר היפה ביותר. רצינו לחזור להביט על איפה שאנחנו. להראות מלמעלה את הקרקע, הטבע, המקום, לעצום עיניים ולהקשיב. לזוז, ולהרגיש איך המיצב זז איתך, נושם, זורם.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/123/medium/single_night.jpg?1515672923",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/122/medium/single_day.jpg?1515666035",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/893/medium/X.JPG?1520112909",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/882/medium/%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA_%D7%97%D7%93%D7%A91.jpg?1520111101",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/883/medium/%D7%94%D7%93%D7%9E%D7%99%D7%99%D7%94_%D7%97%D7%93%D7%A9.jpg?1520111162",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/884/medium/%D7%97%D7%95%D7%9E%D7%A8%D7%99%D7%9D_%D7%97%D7%93%D7%A9.jpg?1520111189",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/885/medium/%D7%9E%D7%99%D7%93%D7%95%D7%AA_%D7%97%D7%93%D7%A9.jpg?1520111237",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/891/medium/%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA_%D7%97%D7%93%D7%A92.jpg?1520111869",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/892/medium/%D7%91%D7%9E%D7%94.jpg?1520112591"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg"
 		]
 	},
 	{
@@ -752,10 +752,10 @@
 		"description": "בעידן בו כולם מסתובבים עם הראש תקוע במסך, בעידן בו איבדנו את האינטרקציה והקשר הויזואלי עם הסביבה - אנחנו ​נגרום לפלאייה להרים את הראש ולהסתכל לשמיים​. נשחק ביחד בצורה אינטרקטיבית ונהנה מהאפקט המדהים שיאיר את הלילה בצבעים מרהיבים.",
 		"artist": "הש״ת",
 		"philosophy": "הרעיון שעומד בבסיס היצירה הוא יצירת מיצג שיאפשר זווית צפייה של 360 מעלות שתאפשר לכל תושבי הפלאייה לראות ולהנות מקצת יופי, שיאיר את הלילות החשוכים של המדבר, וימשוך אליו מבקרים שיוכלו לקחת חלק בהצגה של התמונות המתחלפות על המסך באמצעות משחק זה עם זה. יופי ואינטרקטביות שיצרו קירוב לבבות ויעלו חיוך על הפנים",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/114/medium/Ilustration.jpg?1515620136",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/115/medium/Ilustration2.jpg?1515620156",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/692/medium/Baloon.png?1519913233"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg"
 		]
 	},
 	{
@@ -767,11 +767,11 @@
 		"description": "כמה פעמים הסתכלתם על עצמכם במראה? כמה פעמים ראיתם את עצמכם בחלום? איך אנשים אחרים רואים אותנו? אין סוף נקודות מבט ופירושים. \nאיך אנחנו רואים אתכם? בפיקסלים. \nמסך פיקסלים ענק ייתן פירוש לדמותכם בעולם שלנו. ברוכים הבאים. \nבכל שעה ביום תיראו אחרת. \nכל תזוזה שלכם תתפרש בצבע שונה. \nכל דבר שתחשבו יופיע על המסך. (סתם לא באמת - אבל אולי...:)\nאיך הייתם רוצים להראות? אתם לבד? עם חברים? עם חפצים? אתם אתם, או שזה הצל שלכם?\nכל אחד מאיתנו יצור צבעוני, כאן אתם יכולים לבוא לראות את זה חי.\nלמה אני אדום ואז כחול? למה הוא ירוק ואז צהוב? שאלות רבות וגודולות אפשר לשאול את עצמינו על עצמינו, כאן אנחנו נותנים לכם להכנס לראש של עצמכם, ולראות את עצמכם קצת אחרת. זאת \"מראה\" שמשקפת דברים אחרים, לא רק איך שאתם נראים.",
 		"artist": "LED BOYS",
 		"philosophy": "הרעיון הוא התקלות מקרית בטבע עם אלמנט דיגיטלי \"חכם\" שמגיב לתזוזות שלך. הפתעה, משחק, תזוזה.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/267/medium/%D7%94%D7%93%D7%9E%D7%99%D7%94_%D7%9E%D7%A1%D7%9A_%D7%9C%D7%93%D7%99%D7%9D.jpg?1515837043",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/268/medium/untitled.487.png?1515837062",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/269/medium/untitled.486.png?1515837098",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/270/medium/%D7%A9%D7%A8%D7%98%D7%95%D7%98_%D7%9E%D7%A1%D7%9A_%D7%9C%D7%93%D7%99%D7%9D.jpg?1515837189"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
 		]
 	},
 	{
@@ -783,9 +783,9 @@
 		"description": "מידברן קורה במידבר. החלום שלנו קשור לאדמה עצמה, ומאפשר נוכחות של המידברן בבור טבעי. אנחנו אוהבים את הבורות ורוצים לתת להם כבוד, להנכיח אותם באופן יצירתי. נדגיש את קווי הגובה של אחד הבורות בעזרת לדים, ונאפשר לדמויות חימר ברנריות לחגוג בו. כך יהיה לפחות בור אחד שלא יהיה מוקף גדרות מכוערות, וגם לא יפלו לתוכו... נאפשר גם מרחב יצירה מסביב לבור- עם צל ומקום לשבת, ולשחק באדמת הפלאייה הנהדרת.",
 		"artist": "The Rotems",
 		"philosophy": "לאפשר התבוננות אחרת על השטח של המדבר ועל הבורות/ערוצים שאנו חולפים על פניהם במהלך השיטוטים בפלאיה.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/117/medium/IMG_20170921_102404.jpg?1515623673",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/116/medium/Desert_Hole_-_draft.jpg?1515623656"
+		"images": [
+			"art1.jpg",
+			"art2.jpg"
 		]
 	},
 	{
@@ -797,9 +797,9 @@
 		"description": "העץ יעניק מתנות במהלך הפסטיבל, אשר תושבי הפלאיה יוכלו להנות ממנו ולמלא את מחסורם.\nאך העץ. לא ייתן רק מתנות פיזיות , גם עצות יחולו שם ואולי דברים נוספים וקסומים.\nכל מי שיחפוץ יוכל להעניק מתנות לתושבי פלאיה.",
 		"artist": "Haagaf",
 		"philosophy": "רעיון הגיפטינג שמלווה את קהילת המידברן כחלק מעקרונתיו. \nהספר העץ הנדיב מדבר על ה גיפטר האולטמטיבי, העץ שנתן ונתן ונת מעצמו",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/205/medium/20171230_202710.jpg?1515771620",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/207/medium/dead-tree-silhouette-vector-old-dry-oak-vector-clip-art_csp39742510.jpg?1515772068"
+		"images": [
+			"art1.jpg",
+			"art2.jpg"
 		]
 	},
 	{
@@ -811,11 +811,11 @@
 		"description": "המוח שלנו מרגיש עונג חזק יותר - כאשר כל חלקי המוח \"דולקים\".\nלא מספיק רק \"לגרות\" את החושים שלנו - צריך גם לתת לנו לפעול - להיות חלק!\nהמיצג מאפשר לנו \"לנגן\" את המוזיקה לשירים מוכרים (ומוכרים פחות) - ולשלב פנימה גם את העונג של \"הצלחה\" ו\"הישג\". \nכל זה קורה - תו\"כ שמישהו אחר מקבל גיפטינג פיזי בצורה של מסאז' מוזיקלי.\nהאיטראקטיביות דומה לזו של המשחק המוכר \"גיטאר הירו\" שבו לפני שאתה צריך לנגן תו מסוים - פס של אור מתקדם אליך - ועלייך ללחוץ עליו ברגע הנכון.\nאולם החוויה - תהיה חוויה של אורות סוחפים - ומגע אנושי כדי לנגן.\n(POC הוצג בדיקו ובמידברנרות - אבל עוד לא היה שם האלמנטים האומנותיים והמרכזיים)",
 		"artist": "WonderScope Crew",
 		"philosophy": "סדנאת המסאז' המוזיקלי שהעברנו בברנים בשנים האחרונות. פתחה לנו את הראש שאנחנו רוצים לשלב שם חושים נוספים.\nהאינטראקטיביות בבסיס היצירה- היא מה שעושה אותה ככ מהנה (ומלהיבה ע\"פ הפיילוטים האחרונים שערכנו)",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/555/medium/RH1.JPG?1518896161",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/556/medium/RH2.JPG?1518896199",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/557/medium/IMG_7364_CR2_embedded.jpg?1518896326",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/558/medium/IMG_20171005_183843-ANIMATION.gif?1518896387"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
 		]
 	},
 	{
@@ -827,9 +827,9 @@
 		"description": "יקום הוא אינסופי גם החוצה (כוכבים, גלקסיות וכד') וגם פנימה (איברים, תאים, מולקולות כד') \nאנחנו סקרנים החוצה כמו שאנחנו סקרנים פנימה. \nתסתכלו על האצבעות שלנו, על הלב שלנו, ואפילו על קצה השערה - בכל אחד מהם מסתתר יקום שלם, שהוא לא פחות עשיר מהיקום שאנחנו חיים בו.\n\nאתם הולכים לכם בלילה על הפלייה, ורואים קופסא מסקרנת . \nבצד הצד (העיינית) שני אנשים מביטים אל השמש והירח - ובעניים אחד של השני. \nבצידו האחר הרחב (העוצמית): \nמוקרנות תמונות מרתקות, דברים שלא ראיתם מעולם. צבעים ותזוזות מעניינות על גבי מסך. \nאתם רואים עלמת חן מצמידה מיקרוסקופ ידני דיגיטלי, לכף היד שלה, ללחי שלה, ולשיער הכחול שלה. ביחד איתה אתם מגלים את היופי המסתתר במקומות החשופים של הגוף שלנו. פתאום אתם מגלים על כמה דברים מעולם לא ידעתם! \nהתפעול יהיה ידני ועצמאי לחלוטין. כל אחד יכול להסתכל איך נראות השערות שלו, נקודת חן, זיפי הזקן, ועוד עצמים וחפצים שונים שימוקמו בחלל. \nהחוויה תוקרן על גבי מסך מה שיאפשר את החויה למשתתפים רבים בו זמנית.\n\nעל פי הגישה הפילוספית \\מדעית \"ההתחלקות האינסופית\" Infinite divisibility \nהעולם לא מורכב מאטומים שלא ניתנים לחלוקה (כי הרי הם מתחלקים לפרוטונים ולאקלטרונים, ואלו מתחלקים בתורם הלאה) אלה ככל שנעמיק לחקור, נגלה גם אינסופיות פנימה. \nחברתית, אנחנו תמיד נוטים להסתכל ולבקר ולחקור החוצה - לכן שם אנחנו מכירים יותר - אבל כמה אנחנו באמת מכירים פנימה? \nכשמשלבים את המבט החוצה, ואת המבט פנימה, אפשר ליצור איזון משלים ונעים שפותח לנו את היצירתיות והתודעה.\n\nהצטרפו לחלום, גלו כמה עולמות מסתתרים עליכם!",
 		"artist": "WonderScope Crew",
 		"philosophy": "חוויה על האינסוף - להסעיר את המוח שלנו עם מה שקורה עמוק בתוכנו",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/559/medium/6b2cb473-8761-4dd3-a39b-1ab4bc1804d9.jpg?1518897431",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/560/medium/fa7a09d5-8aea-4d55-9b3a-3487b09949e4.jpg?1518897497"
+		"images": [
+			"art1.jpg",
+			"art2.jpg"
 		]
 	},
 	{
@@ -841,8 +841,8 @@
 		"description": "הרעיון\nהעיקרון המרכזי במיצג הוא עיקרון אי הוודאות של הייזנברג. עיקרון זה בא מעולם מכניקת הקוונטים. העיקרון מנסה להסביר כי בעולם של אי וודאות רק בהתערבות ניתן למצוא תשובה למשוואת מיקום האלקטרון. את העיקרון הזה ניסה שרודינגר להסביר בעזרת פרדוקס החתול של שרודינגר. בפרדוקס זה שרודינגר שואל, במצב היפותטי בו יש קופסא סגורה ובה יש חתול ורעל, האם החתול חי או מת? התשובה לשאלה הזו היא; החתול גם חי וגם מת עד שנפתח את הקופסה. בעת פתיחת הקופסה אנחנו עצרנו את הניסוי ובו שתי האופציות תקפות: החתול אכל מהרעל ומת, או האופציה השנייה שהחתול לא אכל מהרעל והוא חי. על כן, המסקנה היא שעד שלא נתערב, כלומר, נפתח את הקופסא, כל האופציות תקפות בו זמנית ואני רוצה להעביר את הרעיון הפילוסופי הזה בפלטפורמה של המידברן שבה הכל יכול לקרות. אני מציע מערכת היוצרת אירועים כביכול סתמיים בצורה אקראית לחלוטין שיכולה לייצר דינמקיה מעניינת. המסר העיקרי הוא שהאירוע הסתמי הזה גם קורה וגם לא קורה אלא אם נתערב (בהשתתפות).\n\nקצת טכני\nהמיצג הינו שעון על עמוד במרכז הפלאיה אשר מחולק ל3 טבעות\nטבעת פנימית-שעון-המתאר מיקום גיאוגרפי בפלאיה-12 טמפל 11 אפיגי...      \nטבעת אמצעית-פעולה-רוקדים, שרים, מדברים, משחקים, קוראים...\nטבעת חיצונית-תיאור של פעולה-בעצב, מחובקים, עם כיסוי עיניים, בלי לחשוף שיניים...",
 		"artist": "טל אדלר",
 		"philosophy": "העיקרון המרכזי במיצג הוא עיקרון אי הוודאות של הייזנברג. עיקרון זה בא מעולם מכניקת הקוונטים. העיקרון מנסה להסביר כי בעולם של אי וודאות רק בהתערבות ניתן למצוא תשובה למשוואת מיקום האלקטרון. את העיקרון הזה ניסה שרודינגר להסביר בעזרת פרדוקס החתול של שרודינגר. בפרדוקס זה שרודינגר שואל, במצב היפותטי בו יש קופסא סגורה ובה יש חתול ורעל, האם החתול חי או מת? התשובה לשאלה הזו היא; החתול גם חי וגם מת עד שנפתח את הקופסה. בעת פתיחת הקופסה אנחנו עצרנו את הניסוי ובו שתי האופציות תקפות: החתול אכל מהרעל ומת, או האופציה השנייה שהחתול לא אכל מהרעל והוא חי. על כן, המסקנה היא שעד שלא נתערב, כלומר, נפתח את הקופסא, כל האופציות תקפות בו זמנית ואני רוצה להעביר את הרעיון הפילוסופי הזה בפלטפורמה של המידברן שבה הכל יכול לקרות. אני מציע מערכת היוצרת אירועים כביכול סתמיים בצורה אקראית לחלוטין שיכולה לייצר דינמקיה מעניינת. המסר העיקרי הוא שהאירוע הסתמי הזה גם קורה וגם לא קורה אלא אם נתערב (בהשתתפות).",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/956/medium/%D7%A9%D7%A8%D7%98%D7%95%D7%98_%D7%A9%D7%A2%D7%95%D7%9F.png?1520522568"
+		"images": [
+			"art1.jpg"
 		]
 	},
 	{
@@ -854,15 +854,15 @@
 		"description": "אואזיס נוצר כמקום מפלט. קרקע פוריה לחוויות חדשות. \nהמפלט הסביבתי יהווה מוקד משיכה לעוברים והשבים תוך מחשבה על מקום ליצירת אינטראקציה בין מבקשי צל ומנוחה אקראיים במהלך שעות היום. בלילה האואזיס יהפוך למקום מפלט מוזיקלי בו ניתן יהיה לשבת ולהיסחף ביחד עם המוזיקה.\nהמטרה היא לתכנן מקום אינטראקטיבי ייחודי שנעים לשהות בו ונותן את המענה לצורך הכרחי במהלך שעות היום- צל. התוצאה היא יער. יער פרחי ענק המשלב משחק בקנה מידה. בנינו מודלים שונים וניסינו לשחק בקנה המידה שלהם. פרחי הענק באואזיס ייצרו תחושת בלבול וחוסר שליטה ועם זאת תחושת רגיעה מכל המתרחש מחוצה לו. פרחי הענק תוכננו כך שחלקם, אלו הנגישים- ימוקמו על הקרקע ואפשרו כניסה אליהם, אם לבד ואם בקבוצה. בלילה המוזיקה תיקח את התודעה למחוזות חדשים, עם צלילים המאפשרים מפלט תודעתי ברוח היער...",
 		"artist": "נופר חן _ חנן קמיר",
 		"philosophy": "אנו מאמינים שהתנועה שלנו לעשייה מושפעת מגורמים חיצוניים וגורמים פנימיים. לצורך יצירת רעיונות חדשים, תנועה, למידה, התחדשות והתפתחות אישית וחברתית עלינו לשהות בסביבה נוחה ומפרה המאפשרת מפגש בתנאים בו האדם יוכל להרגיש בנוח עם אחרים, ועם עצמו לחשוב, לחלום, לשתף, להרהר ולהתחבר. מנקודה זו שאפנו לייצר אזור בו קודם כל המרחב והתנאים הפיזיים יאפשרו קרקע נוחה ליצירת התנועה הראשונית ושיתוף בסערה האישית שמתחוללת בכל אחד ואחת מאיתנו עם עצמנו ועם הסביבה.  \nבהמשך להבנה זו, יצרנו מכונה לייצור צל,  אזור המאפשר מפגש ומפלט מהשמש הקופחת במהלך שעות היום. באואזיס יתאפשר שיטוט אקראי בין פרחי הענק שנמצאים בו ומתעתעים את התודעה וכמו כן ניתן יהיה להירגע ולנוח בצילם-לבד או ביחד ולאפשר לגוף לשהות במקום אחד בזמן שהמוח יפליג באופן בילתי נשלט למחוזות אחרים.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/196/medium/102.jpg?1515714506",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/509/medium/%D7%97%D7%96%D7%99%D7%AA.jpg?1518340879",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/981/medium/2.jpg?1520848841",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/982/medium/3.jpg?1520848858",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/983/medium/4.jpg?1520848875",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/022/medium/1.jpg?1521967570",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/044/medium/col_texture_300.jpg?1522277234",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/045/medium/03-n.jpg?1522368452"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg"
 		]
 	},
 	{
@@ -874,26 +874,26 @@
 		"description": "\"יער העולם\"- 7 עצים שבמרכזם אוהל חושך, ובתוכו חווית גרפיטי בחושך מלא שמאתגרת מחשבה וראייה אחרת\n                    \nעל העצים יהיו תלויים בקבוקים קטנים מפלסטיק שיהוו \"קפסולות זמן\" ובתוכם פתקים עם חלומות- כלומר כל אדם/ילד שנכנס לאוהל לוקח חלום קורא אותו, מחזיר, נכנס פנימה וביציאה\n                     כותב חלום חדש בקפסולת זמן בעקבות החוויה שעבר בפנים והחלום שקרא.   \n                       \nבמהלך היום יתקיימו סדנאות- מוסיקה/ יצירתיות/ חושך ובלילה הכיפה תואר ויהיה את מיצג האורות הגדול ע\"י הלדים. \n\nהמיצג הינו מקום פתוח לקבלת חלומות ונתינת חלומות.\nהמיצג יפעל גם מחוץ לזמן הסדנאות באופן עצמאי- ניתן להגיע לכתוב חלומות גם כשאין סדנא. \nלעומת זאת, חווית הגרפיטי בתוך האוהל תהיה אך ורק בזמן סדנאות עם לו\"ז שיפורט בתיק הבטיחות. \n\nתאורת המיצג:\nהתאורה תופעל 24 שעות יום וליל ע\"י לדים שמפוזרים+ איזורים בהם יהיו פרחי לדים ,מסביב למיצג 6 מקרנים שיקרינו וידאו על המיצג בשעות הלילה.\n\nאחד החוקים של מידברן- קהילתיות- וכאן המאמץ הקהילתי הוא נתינת מקום לביטוי חופשי על ידי חלימת חלומות משותפים.",
 		"artist": "יער העולם",
 		"philosophy": "יער העולם הוא חור שחור במידברן שמחבר את תושבי העיר ל-2 קצוות היקום- הצד השחור של היקום והפשוט של היקום- אוהל חושך, והצד הצבעוני של היקום- הלדים והחלומות שלנו שיירשמו בתוך הקפסולות ביער העולם. \nכל פרח יעוצב על ידי בני נוער ברחבי הארץ ויהווה השראה לבני נוער ליצירות נוספות. \nבבסיס היצירה, נחבר את נוער ישראל מכל הגוונים והסוגים ליצירות ולמלאכות של מידברן ישראל. \nבמיצג יער העולם יהיו חיפושיות שיצוירו על חלוקי נחל שילדים מבי\"ס הרים לחינוך מיוחד יציירו - ויהוו מתנה של הילדים לתושבי העיר. \nהחיפושיות ב3 הימים הראשונים של המידברן יפוזרו במחנות ותושבי העיר יצטרכו לזכות באמון החיפושיות ולאסוף אותן מרחבי העיר ולמקם אותם במיצג יער העולם לפי השעה שמהן הן מגיעות אלינו .\nלטובת המיצג גויסו מובילים מרכזיים שכבר פעלו יחד בפיילוטים של המיצג (ניתן לראות בתמונות): רמי מאירי, אמן הגרפיטי ומירל רזניק, כנר בינלאומי.\nבנוסף, בי\"ס לילידים אוטיסטים בגבעת עדה, \"הרים\" הביעו נכונות לשתף את הילדים בפרויקט הגרפיטי החושי.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/648/medium/WhatsApp_Image_2018-02-27_at_00.51.01.jpeg?1519747942",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/649/medium/WhatsApp_Image_2018-02-27_at_00.51.02_%281%29.jpeg?1519747954",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/650/medium/WhatsApp_Image_2018-02-27_at_00.51.02.jpeg?1519747967",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/651/medium/WhatsApp_Image_2018-02-27_at_00.51.03_%281%29.jpeg?1519747982",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/652/medium/WhatsApp_Image_2018-02-27_at_00.51.03.jpeg?1519747998",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/653/medium/WhatsApp_Image_2018-02-27_at_00.51.04_%281%29.jpeg?1519748010",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/654/medium/WhatsApp_Image_2018-02-27_at_00.51.04_%282%29.jpeg?1519748038",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/647/medium/WhatsApp_Image_2018-02-27_at_00.51.01_%281%29.jpeg?1519747930",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/655/medium/WhatsApp_Image_2018-02-27_at_00.51.04.jpeg?1519748060",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/657/medium/WhatsApp_Image_2018-02-27_at_18.16.26.jpeg?1519748241",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/658/medium/WhatsApp_Image_2018-02-27_at_18.16.25.jpeg?1519748257",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/728/medium/WhatsApp_Image_2018-03-01_at_22.00.33.jpeg?1519934504",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/736/medium/WhatsApp_Image_2018-03-01_at_23.36.49.jpeg?1519940280",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/774/medium/WhatsApp_Image_2018-02-16_at_16.44.57_%282%29.jpeg?1520036370",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/775/medium/WhatsApp_Image_2018-02-16_at_16.45.02.jpeg?1520036404",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/776/medium/WhatsApp_Image_2018-02-16_at_16.45.06_%281%29.jpeg?1520036430",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/784/medium/WhatsApp_Image_2018-03-03_at_12.50.36.jpeg?1520074316",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/785/medium/WhatsApp_Image_2018-02-15_at_17.39.46.jpeg?1520074339",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/792/medium/WhatsApp_Image_2018-03-03_at_13.58.33.jpeg?1520078336"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg",
+			"art10.jpg",
+			"art11.jpg",
+			"art12.jpg",
+			"art13.jpg",
+			"art14.jpg",
+			"art15.jpg",
+			"art16.jpg",
+			"art17.jpg",
+			"art18.jpg",
+			"art19.jpg"
 		]
 	},
 	{
@@ -905,11 +905,11 @@
 		"description": "מגי הארט קארית , כבאית המשוגעת יוצרת במה לכל שמחות חברי הקהילה.\nמעבירה את מרחב היצירה ממקום סטטי למקום דנאמי ושמח\nובקצור תהווה חוויה בלתי נשכחת",
 		"artist": "מורן חייקיס  ארז בלושטיין",
 		"philosophy": "מגי הכבאית הארט קארית !!!\nתפנק ותחבק את חברי הפלאיה ולספק להם רגעי אושר קאסטם מייד,בלתי נשכחים באירועיהם השונים\nעם המון מצב רוח ושיגועים (כבאית אירועים ניידת).\nחברי הקהילה יוכלו להירשם מראש ולרשום את האירוע שברצונם לחגוג ושמחה תגיע עד לבית הלקוח ותספק אירוע של פעם בחיים.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/943/medium/%D7%9B%D7%91%D7%90%D7%99%D7%AA_%D7%AA%D7%A6%D7%9C%D7%95%D7%9D.jpg?1520328862",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/944/medium/%D7%9B%D7%91%D7%90%D7%99%D7%AA_%D7%A9%D7%99%D7%A8%D7%98%D7%95%D7%98_1.jpg?1520328888",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/945/medium/%D7%A9%D7%A8%D7%98%D7%95%D7%98_%D7%9E%D7%A0%D7%A9_%D7%90.jpg?1520328921",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/946/medium/%D7%A9%D7%A8%D7%98%D7%95%D7%98_%D7%9B%D7%91%D7%90%D7%99%D7%AA_%D7%9E%D7%A0%D7%A9_%D7%91.jpg?1520328943"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
 		]
 	},
 	{
@@ -921,16 +921,16 @@
 		"description": "\"מעבדת\" הדמיונון הינה רחבת-משחק עתידנית, בה מוזמנים המבקרים להנות מחוויה אור-קולית אינטראקטיבית ייחודית. בדימיונון, המבקרים יוצרים ומעצבים ביחד קטעי מוזיקה אלקטרונית מקוריים דרך שעשוע ומשחק בצלילים, תווים, מקצבים וקטעי מלודיה \"המיוצרים\" על ידי תוכנה מחשב ייחודית ומתקדמת. \n\nדמותם של כל המבקרים ברחבת המשחק המרכזית מוקרנת על מערך הלדים הפנימי, ואפקטי סאונד שונים נשלטים על ידי תנועתם במרחב. כמו כן, על ידי שימוש במשטחי שליטה מצוירים (בצבע מוליך) ביכולתם להחליף את כל הצלילים, ולשלוף מיליארדי קטעי מלודיה ומקצבים שונים מהמערכת הבינה-המלאכותית המוזיקלית שבלב הפרוייקט. \n\n קוטר הרחבה הפנימית\\מרכזית בתוך המבנה הינו 4 מטר. אורך מוטות הבמבוק הראשיים הינו 6 מטר. \n\nרחבת הדמיונון הינה חגיגה טכנולוגית, שילוב קיצוני של יותר מ30,000 נורות לד, סאונד סראונד איכותי, מערך מצלמות עומק רגישות ומדויקות, ועשרות חיישני מגע המבוססים על צבע המוליך חשמל, ויותר מ-2600 כבלים וחוטים בעבודת-יד.  \n\nהתוכנה בליבו של הדמיונון מתבססת על בינה-מלאכותית מוזיקלית אינטראקטיבית וייחודית, המשתמשת במספר סינטיסייזרים מעולים וכותבת את תוויה תוך כדי פעולה, על ידי שימוש במערך נתונים ענק של צלילים, ואלגוריתמים לכתיבת ושילוב קטעי תוים קצרים. הבינה המלאכותית מודעת למבנה ואופי של מגוון רחב של סגנונות מוזיקה מודרנים, ולומדת מדי יום מהעדפות המשתמשים בה.",
 		"artist": "יוסף לנדסמן",
 		"philosophy": "שיתוף פעולה יצירתי רב-ממדי כמנוע לפריחה חברתית...",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/438/medium/20171222_1730552.jpg?1515886848",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/867/medium/Final_Measurements_1.png?1520110380",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/043/medium/Screenshot_2018-03-28_00.09.17.png?1522185033",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/039/medium/Screenshot_2018-03-27_23.56.26.png?1522184333",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/036/medium/Screenshot_2018-03-27_23.32.00.png?1522183763",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/040/medium/Screenshot_2018-03-27_23.55.05.png?1522184356",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/035/medium/Screenshot_2018-03-27_23.28.48.png?1522183738",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/041/medium/Screenshot_2018-03-27_23.56.57.png?1522184494",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/042/medium/Screenshot_2018-03-28_00.08.30.png?1522184986"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg"
 		]
 	},
 	{
@@ -942,12 +942,12 @@
 		"description": "בין 3-12 צינורות אקריליק שקופים וגבוהים, עם קונפטי בתוכם, הצינורות מעוגנים בקרקע.בתוכם מאווררים חבויים שייצרו סופה בלתי נגמרת של קונפטי. בלילה המיצב יואר באורות מבפנים",
 		"artist": "צוות פינייטה",
 		"philosophy": "רצינו מיצב בלי סאונד, בלי טירוף טכנולוגי או לדים, משהו שמשתנה בצורה מתמדת בלי לכתוב לו קוד. משהו מעניין, שאפשר להסתכל עליו שעות",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/234/medium/all_9_night.jpg?1515786282",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/235/medium/all_9_day.jpg?1515786335",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/771/medium/%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA2.jpg?1520026300",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/772/medium/%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA3.jpg?1520026320",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/773/medium/%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA1.jpg?1520026460"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg"
 		]
 	},
 	{
@@ -959,10 +959,10 @@
 		"description": "המגרש יהיה מקום מפגש ומשחק, אשר יאפשר אינטראקציה בין תושבי העיר ובינם לבין המדבר. \nהמיצג יכלול מגרש כדורעף חופים מקצועי בגודל אמיתי (כולל רשת וכדורים).\nמשחקי ענק כדוגמת דוקים ענקיים, ג'מבו ג'נגה וכו'. \nהמיצג יוצל באמצעות צילייה, ולידו תוקם פינת צפייה/ישיבה.\nבלילה המיצג יואר כדי שניתן יהיה להמשיך ולהשתעשע בו גם בשעות החשכה. \nניתן יהיה לערוך סדנאות ופעילויות שונות.",
 		"artist": "גיא כובע, קאמפ קדאווה",
 		"philosophy": "המגרש יהיה מקום מפגש ומשחק, אשר יאפשר אינטראקציה בין תושבי העיר ובינם לבין המדבר. \nהמיצג יכלול מגרש כדורעף חופים מקצועי בגודל אמיתי (כולל רשת וכדורים).\nמשחקי ענק כדוגמת דוקים ענקיים, ג'מבו ג'נגה וכו'. \nהמיצג יוצל באמצעות צילייה, ולידו תוקם פינת צפייה/ישיבה.\nבלילה המיצג יואר כדי שניתן יהיה להמשיך ולהשתעשע בו גם בשעות החשכה. \nניתן יהיה לערוך סדנאות ופעילויות שונות.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/449/medium/vb_court_size.png?1515911709",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/227/medium/glow_ball.png?1515780607",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/226/medium/court.jpg?1515780590"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg"
 		]
 	},
 	{
@@ -974,16 +974,16 @@
 		"description": "שדה גדול של עשרות זקיפים חלקם שחורים שמקרינים זהב מתוכם, חלקם שקופים חלביים שמקרינים את תאורת הלד שבתוכם. מפוזרים בפלאיה באזור מרוכז שדה הזקיפים מדבר בינו לבין עצמו, אך אם משתתף מגיע ונכנס לשדה - הזקיפים מתחילים לדבר (בסאונד ושינוי תאורה) בינם לבין המשתתף. יוצרים אינטראקציה שמדמה פעילות נוירונית תוך מוחית. ככל שיותר משתתפים נכנסים לשדה - נוצרים חיבורים בין זקיפים וסערות קטנות עד אורגיה של חיבורים ויזואלים וקוליים",
 		"artist": "InLight.Me",
 		"philosophy": "הרעיון הוא ליצור שדה זקיפים המדמה פעילות מוחית שאנשים יוכלו לטייל בין זקיף לזקיף ולתקשר איתם ולהפעיל אותם, כך- המיצב יפעיל את הפעילות המוחית של המשתתף חזרה. \nיותר משתתפים- יותר חוויה וסערה נוירונית- יותר משמעותית",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/167/medium/IMG_8675.jpg?1515710799",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/173/medium/31870663-low-poly-icicles-Stock-Photo.jpg?1515711388",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/177/medium/img_9.jpg?1515711532",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/169/medium/IMG_4408_2.JPG?1515710866",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/171/medium/IMG_8679.JPG?1515710917",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/172/medium/IMG_8353_2.jpg?1515711038",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/175/medium/812ff0ef6a46ce4021d935b06797c568.jpg?1515711410",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/170/medium/IMG_8672.JPG?1515710884",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/174/medium/3deb0d223f676444d2691db839adc58d.jpg?1515711401"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg"
 		]
 	},
 	{
@@ -995,11 +995,11 @@
 		"description": "לוח גדול מאוד עומד ניצב על ציר. נראה כמו ראי על עמוד.  ניתן לסובב אותו ולהטות אותו באמצעות סיבוב ידיות. יש עליו בליטות אשר מטילות צל אם מוארות מהצד. בזוית מסויימת מול השמש הבליטות מתחברות יחד  ויוצרות צללית על הלוח. כשהשמש נעה בשמים יש להזיז את הלוח כדי לראות את הדמות.\nמהי הדמות? האם יש עוד דמות? מה זו הצללית שנוצרה? למה 27?\n\nבלילה המיצב יואג בפרוז׳קטורים מתחלפים ולכן עדיין יהיה צורך להזיז אותו כדי לראות את הצללית.\n\nצרפתי תמונה שנקראת Shadow Art שממחישה את השיטה לייצר את הצללית.\nבנוסף צרפתי תמונה של Amy שהיא דוגמא לאחת הצלליות אותן אני רוצה ליצור",
 		"artist": "איתי רונן",
 		"philosophy": "רציתי ליצור יצירה שתתכתב עם הסביבה מצד אחד ותדרוש הפעלה מצד המשתתפים וגם לא תהיה מובנת מאליה.\nבנוסף, לאחר שני מיצבי לילה, רציתי יצירה שתעבוד טוב גם ביום וגם בלילה.\n\nהיצירה עצמה מהווה חידה. לוקח זמן להבין איך מסובבים את הידיות. לוקח זמן להבין איך מתגלה הדמות. וגם אז לא ברור מי הדמות ואיך היא קשורה לדמות השניה.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/261/medium/Amy.jpg?1515800350",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/260/medium/Shadow_Art.png?1515800309",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/863/medium/27_Technical.jpg?1520108083",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/520/medium/Kurt_Cobain.jpg?1518472452"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
 		]
 	},
 	{
@@ -1011,13 +1011,13 @@
 		"description": "רפסודה בגודל של 6 מ' על 6 מ', עליה תורן באורך של 3 מ'.\nהרפסודה בנויה מ12 חביות כחולות (חביות הצפה), עליהן מונחת פלטת עץ, סביב הרפסודה יחולקו ספרים ענקיים בגודל מטר על מטר בהם משתתפי המדברן יוכלו לרשום את חלומותיהם. \n\nהרעיון המרכזי- בכל רפסודה יש רב חובל של חלומות וכך נדמיין עצמנו כרבי חובלים, כחולמים, כיצירתיים.",
 		"artist": "טאזלנד",
 		"philosophy": "בכל רפסודה יש רב חובל של חלומות וכך נדמיין עצמנו כרבי חובלים, כחולמים, כיצירתיים.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/634/medium/WhatsApp_Image_2018-02-27_at_00.51.04_%282%29.jpeg?1519723072",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/637/medium/WhatsApp_Image_2018-02-27_at_00.51.03_%281%29.jpeg?1519723119",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/642/medium/WhatsApp_Image_2018-02-27_at_16.04.48_%281%29.jpeg?1519740346",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/643/medium/WhatsApp_Image_2018-02-27_at_16.04.48.jpeg?1519740361",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/793/medium/WhatsApp_Image_2018-03-03_at_14.38.28_%281%29.jpeg?1520081923",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/810/medium/Cape.JPG?1520086731"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg"
 		]
 	},
 	{
@@ -1029,10 +1029,10 @@
 		"description": "הרעיון עצמו כמו שכבר ציינתי הוא פשוט, פשוט לחבר בין אנשים ולתת להם את האופציה להרגיש חופשיים לדבר ולשתף את מה שעל ליבם, רובנו נמצאים במירוץ הזה של החיים שאף פעם לא נותן לנו רגע של מנוחה, אז אנחנו רוצים לתת לכם את ההרגשה הזאת של חופש, חופש ביטויי, חופש לעשות מה שעושה לכם טוב בכל רגע ורגע, המתקן הוא לא הרעיון עצמו, המתקן הוא רק כלי שאיתו אנחנו מגשימים את הרעיון הזה, ונשמח לארח כל אחד ואחד מאנשי הפסטיבל.",
 		"artist": "MaxInABox",
 		"philosophy": "הרעיון שעומד בבסיסה של היצירה הוא לתת לאנשים מקום חם אוהב ונוח לבוא ולנוח בוא בשעות היום והלילה, וכך ליצור כור היתוך אינטימי יותר שייתן גישה לאנשים להכיר אחד את השני לדבר בפתיחות ולהינות מהווייב הרגוע והשמח של הMaxInABox",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/201/medium/IMG-20180112-WA0005.jpg?1515757902",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/461/medium/5fdf33fd-fdc1-4e0b-a1de-5f2046efc39d.jpg?1516130589",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/202/medium/IMG-20180112-WA0002.jpg?1515757962"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg"
 		]
 	},
 	{
@@ -1044,19 +1044,19 @@
 		"description": "",
 		"artist": "קנדה",
 		"philosophy": "בברן הקודם בנינו את בקתת העץ הבקתה הייתה בשטח המחנה שלנו. והרשנו שזה טוב אבל עדיין לא מספיק ושאפשר השנה לשדרג את המייצב ולעורר את אפקט ההפתעה והריוגש בכך שנציב אותה עמוק בתוך הפלאייה. המטרה שלנו לעורר ולרגש את חברי הפלאיה.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/455/medium/IMG_7808.JPG?1516034613",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/458/medium/IMG_7792.JPG?1516034738",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/484/medium/Slide1.jpg?1517935709",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/454/medium/IMG_7804.JPG?1516034525",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/459/medium/IMG_7823.JPG?1516034793",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/679/medium/%D7%AA%D7%99%D7%A7_%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA_%D7%A2%D7%9E%D7%95%D7%93_1_.png?1519896290",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/682/medium/%D7%AA%D7%99%D7%A7_%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA_%D7%A2%D7%9E%D7%95%D7%93_4.png?1519896369",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/684/medium/%D7%AA%D7%99%D7%A7_%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA_%D7%A2%D7%9E%D7%95%D7%93_6.png?1519896393",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/677/medium/%D7%A9%D7%A8%D7%98%D7%95%D7%98_%D7%91%D7%A7%D7%AA%D7%AA_%D7%90%D7%99%D7%A0%D7%A1%D7%95%D7%A3.png?1519895750",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/680/medium/%D7%AA%D7%99%D7%A7_%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA_%D7%A2%D7%9E%D7%95%D7%93_2.png?1519896337",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/681/medium/%D7%AA%D7%99%D7%A7_%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA_%D7%A2%D7%9E%D7%95%D7%93_3.png?1519896351",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/683/medium/%D7%AA%D7%99%D7%A7_%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA_%D7%A2%D7%9E%D7%95%D7%93_5.png?1519896382"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg",
+			"art10.jpg",
+			"art11.jpg",
+			"art12.jpg"
 		]
 	},
 	{
@@ -1068,9 +1068,9 @@
 		"description": "",
 		"artist": "מספר חברים",
 		"philosophy": "המיצב מבןסס על מטוטלת כפולה. זהו מבנה מאוד פשוט רעיונית אך הוא יוצר תנועה כאוטית, מורכבת ומעניינת. מטרת המיצב היא ליצור פליאה במהלך המבט והמשחק עם המיצב.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/200/medium/78DCFF9C-5BE5-4846-8318-A092C4347451.jpeg?1515754717",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/836/medium/IMG-3575.JPG?1520102368"
+		"images": [
+			"art1.jpg",
+			"art2.jpg"
 		]
 	},
 	{
@@ -1082,11 +1082,11 @@
 		"description": "באמצע הפלאיה עומד מבנה קעור בקוטר מטר, השוכב על בסיס גלילי. \nכאשר מתקרבים, רואים שהקערה מפוסלת כמטאפורה לפות נשי ובה שני איזורי נגיעה עיקריים: הדגדגן והוגינה. כאשר מזיזים את הדגדגן ישמע סאונד המראה האם הנגיעה נעימה, ועד כמה היא נעימה. כאשר ממשיכים לגעת וללטף בהתאם להכוונת הצלילים, הפות תתחיל להשפריץ מים ממרכזה. זרם המים משתנה לפי רמת ההנאה של הפות - אם כיף לה מאוד הזרם יהיה חזק, אם רק קצת נעים - הזרם יהיה חלש.\n\nבמהלך היום הפות תהיה כנווה מדבר - מזרקה בהירה באמצע הפלאיה, שפריצים נעימים של מים בחום של המדבר. \nבלילה תיווצר תחושה דרמטית ואינטימית יותר בחושך שמסביב - כאשר כל שפריץ יהיה מואר בלדים צבעוניים.\n\nאהבת הפות תיתן הצצה למיניות האישה בצורת חידה אותה יש לפתור. הפות תאפשר לעד שני אנשים לגעת בה בו זמנית ובכך לנסות לפצח את השיטה לגרום לה להנות ולהשפריץ.",
 		"artist": "יוליה לושק",
 		"philosophy": "הפות - איבר שאנחנו מחזיקות סגור ברוב ימות השנה - יוצא לחופשי ומותר לגעת בו! \nהיצירה תיצור חוויה מהנה וגם מלמדת ותהווה מטאפורה לחיי המין שלנו - כיצד מפענחים מה הצד השני רוצה מה עושה לה טוב? להנות מהנאת הפרטנר :)",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/212/medium/fountain-03.png?1515775229",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/213/medium/fountain-02.png?1515775272",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/804/medium/fountain-01.png?1520083511",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/806/medium/fountain-04.png?1520083816"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
 		]
 	},
 	{
@@ -1098,13 +1098,13 @@
 		"description": "המיצב brainstorming נולד ללא מימון כלל באירוע ה\"קונטרה 2017\", ולאחר שחווינו יחד עם הקהל את כל קשת הרגשות שהמיצב ייצר בליבו של כל מי שחווה אותו, מרחוק ומקרוב. ו\"לבקשת הקהל\" בנינו אותו גם ב\"קאמל ברן\", וכך התגלגל לו brainstorming לאירועים ולקהלים נוספים כמו שדרות רוטשילד ופסטיבל Digital. ואני מודה שכיוצר המיצב היה זה מרגש מאוד וממלא, לראות את brainstorming מגשים את ייעודו ויוצר לקהל חוויה רגשית, ואיך בעזרת אור המיצב מצליח ליצור רגש.\nמטרת המיצב היא לעורר רגש וסיפוק בלב אלו שחווים אותו. אך מטרת העל של המיצג היא יצירת מפגש. גם מפגש עם עצמך כשאתה חווה אור ויופי, אך גם מפגש עם אנשים נוספים שחווים איתך את אותה החוויה, ובכך נוצר חיבור טבעי מתוך החוויה המשותפת. המיצב בנוי מחישוקים, אשר מושכים את האדם להכנס למרכז שלהם בשביל לראות ולחוות את המיצב במלואו. וככששני אנשים זרים עושים זאת, מבטם נפגש באופן טבעי בתוך המיצב ומתוך כך לרוב גם נוצר קשר מילולי. וזה בדיוק הדבר שסיפק אותי יותר מכל במיצב, לראות 2 אנשים זרים נמשכים ליופי שלו משני כיוונים שונים, ובתוך המיצב מבטם נפגש, החיוכים עולים ולאחר מספר דקות הם גם מתחילים לדבר על החוויה שלהם. כי מעבר לאור וליופי, brainstorming מחבר בין אנשים ובין מוחות.\nומכיוון שבצירוף מקרים מופלא הוחלט על תמה עם שם זהה למיצב. החלטתי שמגיע לbrainstorming להגיע למדבר ולסכם את שנת הברן המופלאה שעברה עליו. ובמידברן כמו במידברן, שהוא האירוע הגדול של קהילתנו הנפלאה, המעמד מחייב, ולכן נביא למדבר את גרסת ה senior של brainstorming. ונבנה אותו כפול בגודל ובאורך, כך שניתן יהיה גם לשכב בתוכו או לעמוד מחובק עם אדם אהוב ולייצר יחד חווית חושית ויזואלית מרגשת.\nלא יודע מה איתכם אבל אני כבר נרגש מהציפיה של מראה האנשים הזרים שיפגשו בתוכו ויצרו אינטראקציה, ואיני יכול לחכות לעמוד על גבעה במדבר ולראות את ה\"תולעת\" (זה השם חיבה שנתתי למיצב כאבא שלו) שנקראת brainstorming זוחלת על גבעה חשוכה במדבר. ומי שמכיר את brainstorming בטוח נרגש כמוני מלראות את הגרסה הענקית שלו....",
 		"artist": "ניצן דגן/ Nitzan Dagan",
 		"philosophy": "הרעיון הבסיסי של היצירה היא משחק עם העין, המוח והלב של הקהל.\nעוד משחר קיומנו נמשכנו כבני אדם לאור. וידוע שבעזרת אור ניתן ליצור רגש אצל בני אדם.\nוהיצירה באה לשחק עם העין והמוח באמצעות האור ובכך להצית רגש בלב הקהל. \nמבנה היצירה נועד למשוך את הקהל לחוות את היצירה במלואה ולעמוד במרכזה, שזה למעשה בתוך החישוקים. ובכך שהקהל עומד בתוך החישוקים ואחד מול השני, נוצר בין האנשים קשר עין, חיוכים ואינטראקציות אנושיות באופן טבעי.\nוזה המהות של היצירה, יצירת מפגש וסיעור מוחות בין 2 אנשים זרים.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/203/medium/20170906_230538.jpg?1515759084",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/353/medium/BRAINSTORMING_SENIOR%D7%A2%D7%93%D7%9B%D7%95%D7%9F2.jpg?1515875608",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/359/medium/BRAINSTORMING_SENIOR%D7%A2%D7%93%D7%9B%D7%95%D7%9F8.jpg?1515875717",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/352/medium/BRAINSTORMING_SENIOR%D7%A2%D7%93%D7%9B%D7%95%D7%9F1.jpg?1515875599",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/361/medium/BRAINSTORMING_SENIOR%D7%A2%D7%93%D7%9B%D7%95%D7%9F6.jpg?1515875995",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/351/medium/BRAINSTORMING_SENIOR%D7%A2%D7%93%D7%9B%D7%95%D7%9F.jpg?1515875588"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg"
 		]
 	},
 	{
@@ -1116,31 +1116,31 @@
 		"description": "העכבאיש יוצב בפלאיה וישנה את תנוחותיו, צבעו וקולו במהלך האירוע. שינוי תנוחות העכבאיש ישקפו את הסערה הפנימית המתחוללת בכל אחת ואחד מאיתנו.\nרגע אחד של פחד ואימה, וברגע אחר תחושת חום וקבלה. רגע העכבאיש מאיים וברגע אחר הוא מחבק. \nדיירי הפלאיה יופתעו מחדש בכל ביקור את העכבאיש. בכל פעם הוא יראה להם שונה ממה שראו בביקור הקודם. \nבגלל מימדי הענק של העכבאיש נוכל לזהותו מכל נקודה בפלאיה ואף נזהה את מצב רוחו. \nדיירי הפלאיה יוכלו לגעת וללטף או סתם לעמוד לבהות, להשתהות בפליאה, לבכות משמחה, להתרגש מאהבה. \nתנו לעכבאיש למשוך אתכם אליו, להתערבב עם דיירים נוספים שנמשכו אליו דווקא באותה נקודת זמן בגלקסיה.\nהעכבאיש ייצר תדר אנרגטי ראשוני אשר ימשוך אליו אנשים הנמשכים באותם רגעים לתדר המשודר. התכנסות האנשים תיצור הגברה של התדר במוקד העכבאיש ותיצור חוויה קהילתית רגשית המתחלקת בין אנשי התדר הזהה לאותו הרגע.\nנשמח לייצר ולהיות חלק מהחוויה האנרגטית השונה ממה שהכרנו בעבר.\nתנו לנו לעשות לכם את זה !\nDrop da mic",
 		"artist": "Random ArT",
 		"philosophy": "לספק חוויה מיוחדת וחד פעמית לדיירי הפלאיה ומשתתפי האירוע. חוויה נדירה שכל אחד ימצא את דרכו להתחבר אליה.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/209/medium/77.jpg?1515772914",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/221/medium/2018-01-12-PHOTO-00000078.jpg?1515780224",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/222/medium/2018-01-12-PHOTO-00000079.jpg?1515780240",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/223/medium/2018-01-12-PHOTO-00000081.jpg?1515780260",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/218/medium/2018-01-12-PHOTO-00000075.jpg?1515780173",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/224/medium/2018-01-12-PHOTO-00000082.jpg?1515780274",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/216/medium/2018-01-12-PHOTO-00000073.jpg?1515780138",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/219/medium/2018-01-12-PHOTO-00000076.jpg?1515780190",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/220/medium/2018-01-12-PHOTO-00000077.jpg?1515780205",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/208/medium/7.jpg?1515772896",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/217/medium/2018-01-12-PHOTO-00000074.jpg?1515780153",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/693/medium/image2.jpg?1519914611",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/694/medium/image3.jpg?1519914626",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/695/medium/image5.jpg?1519914654",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/696/medium/image6.jpg?1519914676",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/697/medium/image7.jpg?1519914703",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/698/medium/image8.jpg?1519914748",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/699/medium/image9.jpg?1519914786",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/700/medium/image10.jpg?1519914830",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/701/medium/image11.jpg?1519914859",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/702/medium/image12.jpg?1519914889",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/703/medium/image13.jpg?1519914921",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/704/medium/image14.jpg?1519914956",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/705/medium/image15.jpg?1519914991"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg",
+			"art10.jpg",
+			"art11.jpg",
+			"art12.jpg",
+			"art13.jpg",
+			"art14.jpg",
+			"art15.jpg",
+			"art16.jpg",
+			"art17.jpg",
+			"art18.jpg",
+			"art19.jpg",
+			"art20.jpg",
+			"art21.jpg",
+			"art22.jpg",
+			"art23.jpg",
+			"art24.jpg"
 		]
 	},
 	{
@@ -1152,14 +1152,14 @@
 		"description": "לילה, חושך. מרחוק את רואה Dome סגול ועצום (כיפה גאודזית) מואר בתותחי אולטרה סגול זוהרים ומוזיקת דיפ האוס שמלטפת אותך ככל שאת מתקרבת.\nבכניסה למתחם מקבלת אותך הגריטרית שלנו בחום ואהבה, ובפסיעה הראשונה של לתוך ה Dome את מבינה שמשהו פה שונה. הגירוי הויזואלי והאודיטורי אינו רגיל ולא משהו שיצא לך לחוות אף פעם.\nאלפי פרפרים זוהרים באולטרה סגול מפוזרים על גבי הרצפה, את ממש רוקדת לצלילי המוזיקה על גבי פרפרים זוהרים. מבט למעלה מגלה שיש אלפי פרפרים זוהרים שנראים כמעופפים, תלויים באוויר ונוצצים להם באור אולטרה סגול מרהיב בחשכת הלילה. \nתקרת ה Dome מקושטת בצמחים, עלים, פרפרים עצומים. מכונת דרבי ומכונת בועות סבון נותנים למתחם תחושה של יער פרפרים מתוך אגדה.\nהאינטראקציה עם כל החברים במתחם קסומה, עם מוזיקת דיפ-האוס מלטפת המספקת ביחד עם התפאורה מקום מהאגדות לאינטראקציות קסומות.",
 		"artist": "Butterfly Effect Camp ( ex Art Turismo)",
 		"philosophy": "הרעיון התחיל מיום אחד בו חזרתי מהעבודה בלילה, וראיתי משהו זוהר על הרצפה. התכופפתי והסתכלתי מקרוב וזו הייתה מדבקה זוהרת של פרפר. אמרתי לעצמי שזה יהיה סופר מגניב לרקוד על ובתוך ענן של פרפרים זוהרים ביחד עם כל האנשים בברן. הרעיון קרם עור וגידים בשיתוף של המון אנשים מהקמפ ומחוצה לו, ויצא לפועל בברנרות 2017 כפיילוט שהוכתר כהצלחה לקראת מידברן 2018.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/310/medium/glowingbuttefly.jpg?1515863844",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/311/medium/adrawingmap.jpg?1515863888",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/277/medium/glowingbuttefly.jpg?1515851706",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/278/medium/zmat.jpg?1515851778",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/305/medium/geodome.gif?1515863490",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/665/medium/dome1.png?1519837669",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/666/medium/dome2.png?1519837678"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg"
 		]
 	},
 	{
@@ -1171,26 +1171,26 @@
 		"description": "הריאקטור בנוי משלושה מבני עץ גדולים היוצרים ביחד מרחב המעניק תחושות חיובית של קיימות ועוצמה לעומדים במרכזו.",
 		"artist": "Assaf",
 		"philosophy": "הרעיון הוא ליצור ביחד מרחב אשר יחולל אנרגיה חיובית ויפיץ אותה הלאה. הפסל יבנה וישרף בשלוש נקודות שונות בעולם במסגרת ארועי שירפה גדולים, \nישראל - פנמה - ארה\"ב",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/348/medium/WhatsApp_Image_2018-01-13_at_14.01.00%281%29.jpeg?1515870712",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/239/medium/WhatsApp_Image_2018-01-06_at_18.30.59.jpeg?1515789005",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/240/medium/WhatsApp_Image_2018-01-06_at_18.30.59_%281%29.jpeg?1515789078",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/567/medium/IMG_8016.JPG?1518951054",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/241/medium/WhatsApp_Image_2017-12-31_at_17.57.10.jpeg?1515789146",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/568/medium/IMG_5747.JPG?1518951128",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/569/medium/IMG_6477.JPG?1518951311",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/570/medium/DJI_0844.JPG?1518951346",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/574/medium/IMG_5440.JPG?1518951946",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/576/medium/IMG_5994.JPG?1518952006",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/577/medium/IMG_5745.JPG?1518952033",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/579/medium/IMG_3855.JPG?1518956332",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/571/medium/IMG_5748.JPG?1518951388",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/572/medium/DJI_0851.JPG?1518951576",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/573/medium/DJI_0846.JPG?1518951666",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/575/medium/IMG_5439.JPG?1518951979",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/578/medium/IMG_4008.JPG?1518952070",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/780/medium/unnamed_%282%29.jpg?1520047941",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/781/medium/unnamed_%281%29.jpg?1520047998"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg",
+			"art10.jpg",
+			"art11.jpg",
+			"art12.jpg",
+			"art13.jpg",
+			"art14.jpg",
+			"art15.jpg",
+			"art16.jpg",
+			"art17.jpg",
+			"art18.jpg",
+			"art19.jpg"
 		]
 	},
 	{
@@ -1202,9 +1202,9 @@
 		"description": "החלום שלנו הולך להתגשם \nואנחנו לא חייבות 4096 תווים כדי להגיד לכם\nשזה יהיה מדהים\nלעבור בין מסיבות ולתת פוף פוף של אש בדיוק כשהמוזיקה מתגברת\nלנסוע בשקט ליד מישהו ופתאום לעשות פוף גדול של אש\nלחנות באמצע הפלאייה ככה סתם ולעשות טבעות עשן בשמיים\nלהתקרב למרחב לוציפר ולתקשר בפופים עם אחיינו הפופרים הנייחים\nלשמח להרים להרעיש\nזה מה שאנחנו אוהבים \nיש לנו חלום והוא הולך להתגשם \nאיזה אדיר!!!!",
 		"artist": "lucifire crew",
 		"philosophy": "הרצון לשמוח ולשמח עם אש אש אש\nמה שנקרא באנו להרים\nלהיות בכל מקום כל הזמן\nלהפתיע ,לתקשר, לרגש, להצחיק",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/664/medium/the_ride.png?1519835776",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/957/medium/THE_RIDE_%D7%9E%D7%91%D7%98_%D7%A2%D7%99%D7%9C%D7%99.PNG?1520690925"
+		"images": [
+			"art1.jpg",
+			"art2.jpg"
 		]
 	},
 	{
@@ -1216,13 +1216,13 @@
 		"description": "מרחב מאפשר ומתחשב.\n אלמנט הלב עשוי ברזל בניין בתוכו 4-5 קוב של גזעים. חיפוי הלב יעשה בזרדים.\nלב נמצא בגובה 4 מטר מהרצפה. מתקבלת פגודה, קומת קרקע - 100 מטר צל, קומה ראשונה 30 מטר צל.\nבשריפה חיפוי הלב ושאר האלמנטים יישרפו מהר ומה שישאר זה לב בוער לכמה שעות.\n\nביום יום מוזיקה נעימה ויום אחד מסיבה אולי.",
 		"artist": "ג'קה",
 		"philosophy": "ליצור נווה מדבר. מרחב למפגש ולפתיחות.\n\nלב הוא מנוע פועם.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/875/medium/44.jpg?1520110448",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/890/medium/77.jpg?1520111637",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/958/medium/hazit.jpg?1520702812",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/959/medium/pirut_lev.jpg?1520703306",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/961/medium/toxnit_esh.jpg?1520703409",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/962/medium/perp1.jpg?1520703465"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg"
 		]
 	},
 	{
@@ -1234,8 +1234,8 @@
 		"description": "משחק קופסה ותיק המשנה את קנה המידה והופך למשחק שטח- יוצר אינטראקציה משעשעת בין הורים לילדים בין משפחות או בין כל מי שמרגיש עדיין ילד. \nשדה המשחקים שלנו מצטמצם מאד בבגרותנו אבל בכל גיל אנחנו עדיין נהנים לחזור לאחור -לחשוב להרגיש ולהתנהג כמו ילד.",
 		"artist": "שושי / רלי",
 		"philosophy": "פעילות אינטראקטיבית משעשעת ותחרותית המערבת משפחות, ילדים ומבוגרים שמתגעגעים למשחקי הילדות.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/242/medium/%D7%A1%D7%91%D7%9C%D7%A0%D7%95%D7%AA_-_%D7%9C%D7%95%D7%97_%D7%9E%D7%A9%D7%97%D7%A7.png?1515789921"
+		"images": [
+			"art1.jpg"
 		]
 	},
 	{
@@ -1247,11 +1247,11 @@
 		"description": "קונקט יחבר בין אנשים בפלאיה.\nאפשר להפעיל אותו לבד. אפשר להפעיל אותו בצוות.\n\nמעגל של 24 צינורות עומד בפלאיה. קוטרו 10 מטרים. גובה המוטות מעל 2 מטרים. המוטות מתעקלי כלפי פנים ומתחברים במרכז המעגל בגובה של 4 מטרים. \nהמוטות אינטראקטיביים. כאשר נוגעים במוט כלשהו המוט נצבע בצבע יחודי ומפיק צליל שיחודי למוט. כל מוט עם צבע וצליל אחר. הצבע עולה במעלה המוט באופן רציף תוך שימוש באנימציה של הלדים. \nכאשר אדם אחד או שרשרת של אנשים שנוגעים בשני מוטות בבת אחת הצבעים והצלילים מתערבבים. הצבעים מטפסים במעלה שני המוטות כלפי המרכז ומתערבבים זה עם זה. הצלילים משתלבים זה עם זה ויוצרים אקורדים וסולמות. ככל שנוגעים יותר זמן הצלילים נהיים עשירים יותר והערבוב הצבעים נהיה מהיר יותר. \nיש אלפי צרופים אפשריים מאחר וכמה שרשראות יכולות להווצר בבת אחת.\n\nעל מנת לחבר את המוטות המרוחקים ביותר יש צורך בשרשרת של 7 אנשים. זו עבודת צוות של כל המשתתפים.\n\nהצלילים יעטפו את המשתתפים מכל הכיוונים והצבעים יעטפו את המשתתפים מכל הכיוונים. זו תהיה חוויה טוטאלית וחזקה.\n\n\nהיצירה מזמינה שיתוף פעולה. היצירה מחוללת מרחב ליצירה של אינטראקטיביות. היצירה מעודדת מגע בין זרים במדבר.",
 		"artist": "URB",
 		"philosophy": "הרעיון הוא ליצור מיצב אינטראקטיבי מהפכני שמצד אחד יוכל לתת לכל אחד להשפיע עליו לבדו, שיוכל להרבה משתתפים (עד 24!) להשפיע עליו באופן עצמאי וגם לתתאפשרות למשתתפים יכולת לשתף פעולה ביניהם ולהפיק מהמיצב עוד יותר צלילים ואאורות.\n\n1.למיצב יש סאונד עשיר שהוא חלק מהמיצב ואף משתתף באינטראקטיביות.\n2.הצבעים מקיפים את המשתתפים גם מהצדדים ומעליהם כך שנוצר מעין יקום שמבודד משאר הפלאיה\n3. עיקר הקסם קורה כשיש עבודה קבוצתית ולא אינדיבידואלית. יש לשתף פעולה עם אנשים זרים, לתת להם ידיים, ליצור מגע על מנת להפעיל את המיצג.\n4. קלות ההפעלה והפעלה אינטואיטיבית.  רק לגעת.\n\nאנו רוצים ליצור אינטראקציה בין אנשים בפלאיה ובין אנשים ליצירה.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/879/medium/Connect_Technical.jpg?1520110787",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/411/medium/URB6.jpg?1515881410",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/418/medium/Connect2.jpg?1515881810",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/415/medium/Connect_night3.jpg?1515881743"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
 		]
 	},
 	{
@@ -1263,9 +1263,9 @@
 		"description": "",
 		"artist": "Sunrise Kingdom",
 		"philosophy": "",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/645/medium/m-image.jpg?1519742450",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/646/medium/%D7%91%D7%98%D7%99%D7%97%D7%95%D7%AA.jpg?1519742518"
+		"images": [
+			"art1.jpg",
+			"art2.jpg"
 		]
 	},
 	{
@@ -1277,11 +1277,11 @@
 		"description": "השנה אנחנו הולכים ליצור רחבה רב חושית , שהקו המנחה הוא טקסיות ופגרניזם עם עוד אתגר חדש שתהיה ההנגשה של הרחבה. \nלתת חוויה מוזיקלית קצת אחרת , ליצור מרחב שבו ניתן לראות את הסאונד והתדר, להרגיש אותו בכל הגוף, לגעת בו ולהתחבר אליו . \nברחבה יהיו מקומות ישיבה שיאפשרו מקום לנוח או לרקוד לא רק בעמידה.\nועוד הפתעות שיעבירו את התדר לא רק על ידי שמיעה.",
 		"artist": "מקדש הבועה 2018",
 		"philosophy": "הרעיון שעומד בבסיס היצירה הוא ליצור חוויה רב חושית , הנגשת הסאונד , ערבוב של חושים , מתיחת גבולות עם המוסיקה ושימוש בא שהוא קצת אחר . \nלהביא את החיבור של מוסיקה ואומנות בלייב, יצירות חד פעמיות, כל סט של אמן יוצר נראות אחרת שמשתנה כל הזמן , לצאת מגבולות המוכר .\nליצור רחבה מונגשת שלא רק מביאה סאונד איכותי אלה משקפת אותו , מראה אותו במגוון דרכים יצירתיות , יוצרת אנטרקציה בין המשתתפים לגעת , להרגיש , לשבת , להתכנס . \nחוויה של צבע , ומגע.\n במהלך היום יהיו סדנאות ליצירת מוסיקה שיעביר שטובי (אלוף הוויזואל המוסיקלי) , ובתקווה אמנים נוספים .",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/431/medium/%D7%9E%D7%A9%D7%95%D7%A9%D7%99%D7%9D_2.JPG?1515885088",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/434/medium/WhatsApp_Image_2018-01-13_at_21.23.19.jpeg?1515885306",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/432/medium/WhatsApp_Image_2018-01-13_at_21.24.38.jpeg?1515885283",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/433/medium/WhatsApp_Image_2018-01-13_at_21.24.01.jpeg?1515885297"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
 		]
 	},
 	{
@@ -1293,14 +1293,14 @@
 		"description": "Artcars are a big part of our Burning Man experience and we want to bring it to our beloved Midburn. We are creating a glittery, shiny, glowing and full of life ArtBus that is inspired by the art installations of Cai Guo Qiang. Music and sound are an integral part of this creation.",
 		"artist": "Sattva",
 		"philosophy": "The Sattva ArtBus brings people to a pure state where the mind is considered one with the soul as a result of a true state of musical and spiritual awakening.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/561/medium/ARTBUS3.jpg?1518900049",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/984/medium/%D7%97%D7%96%D7%99%D7%AA_%D7%A8%D7%97%D7%91%D7%94.png?1520869942",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/985/medium/SATTVA_5.jpg?1520869981",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/986/medium/SATTVA_4.jpg?1520870001",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/987/medium/SATTVA_3.jpg?1520870109",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/988/medium/SATTVA_2.jpg?1520870131",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/989/medium/SATTVA_1.jpg?1520870155"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg"
 		]
 	},
 	{
@@ -1312,9 +1312,9 @@
 		"description": "",
 		"artist": "שטאצ",
 		"philosophy": "We wanted to create a piece that we would like to meet in the desert heat. It gives an experience that is both surrealistic as well as practical and intergrates interaction as one person needs to run it and the other gets to enjoy the benefits of it.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/854/medium/20180303_210534.png?1520104639",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/856/medium/20180303_210747.png?1520104675"
+		"images": [
+			"art1.jpg",
+			"art2.jpg"
 		]
 	},
 	{
@@ -1326,14 +1326,14 @@
 		"description": "החילזון מהשפן הוא חילזון  עייף כבד איטי, צבעו צבע פטינה (ברזל חלוד) וברזל משופשף. החילזון נע באיטיות בשטח הפלאייה ובטיילת ומשאיר אחריו אבקת פלייה שמתרוממת קלות לאוויר.\nלפעמים החילזון הנהוג על ידי המאסטר שלו נרתם לעגלה.עגלת ההפתעות היא עגלת המסיבות,בתוכה יחביא מים צוננים וריר אלכוהולי במגוון צבעים וטעמים.\nהחילזון בזמן תנועתו האיטית יפיק רחשים מוזרים המזכירים קולות נפיחה ושובל אבק באחוריו.\nבלילות ידלקו שתי עיניו ותאורת לדים עדינה תאיר אותו בקשת צבעים.\nלפעמים ללא התרעה מוקדמת יפתח החילזו את מערכת ההגברה שלו וירים סביבו מהומה/מסיבה....עד חזרתו לשקט והדממה.",
 		"artist": "אילן שרמן",
 		"philosophy": "ארט קאר.עיצוב בברזל.דמות \"החילזון\" מהאגדות.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/672/medium/6be26182-cead-4697-b803-85bc025424ef.jpg?1519856756",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/674/medium/%D7%97%D7%99%D7%9C%D7%96%D7%95%D7%9F_%D7%94%D7%9E%D7%93%D7%91%D7%A8_%D7%9E%D7%99%D7%93%D7%95%D7%AA.JPG?1519856853",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/676/medium/151988379154748885.jpg?1519883811",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/032/medium/DSC03610.JPG?1522095780",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/034/medium/%D7%92%D7%99%D7%A9%D7%98%D7%9C.jpg?1522096077",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/033/medium/DSC03886.JPG?1522096019",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/031/medium/DSC03883.JPG?1522095371"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg"
 		]
 	},
 	{
@@ -1345,15 +1345,15 @@
 		"description": "מתוך החושים, החלומות, והשאיפות שלנו- אנו רוצים להעניק לפלאיה מרחב של התעלות הלב, בו אפשר ורצוי להתחבר לתחושה שאנו חלק ממשהו הגדול מאיתנו.\nמטרת הטקסים שבכוונתנו ליצור ולאכלס במרחב ״עין הסערה״ מדי יום הינה חיבור המשתתפים לתדר הלב, מתוכו יווצרו חיים חדשים.\n\nהמחשבה העומדת מאחורי הפרויקט הינה הרצון לגשר בין תרבויות טקסיות עתיקות - שמאניזם, בודהיזם, יהדות ועוד - אל העולם החדש שאנו עומדים בפתחו.\nהקבוצה המתכנסת מורכבת מיוצרים מתחומים ועולמות שונים; במאים, יוצרות ניו-מדיה, פרפורמרים.יות, מעצבים תעשייתים, מוסיקאיות, פיזיקאים, מדיסין-וו/מאנס ועוד. \n\nאנחנו רוצים לבנות פלטפורמה מרחבית שתאפשר לנו וליוצרים נוספים לרקום חוויה אחת המורכבת מיני חוויות, בעזרת הכלים הטכנו-דיגיטליים העדכניים ביותר (מערכות אודיו-ויזואל) וכלים מסורתיים (צמחי מרפא, קריסטלים, כלי נגינה, מסכות, שירה) שימצאו בחלל. \n\nבכוונתנו לפרסם קול קורא בקהילת מידברן לאותם צוותים שירצו לקחת חלק ביצירה וביחד לבנות ״סינופסיס״ שירכז את מהלך הפעילויות השונות. בין האירועים שאנו מדמיינות: טקסי קקאו, טקסי מעבר, סליחה ושחרור, ג׳אמים מוסיקליים, סדנאות אומנות, ריקוד ותנועה, מדיטציה, הודיה. \n\nהסיפור שאנו רוצים לספר דרך המרחב הוא סיפור על טרנספורמציה, אישית וקבוצתית. כל חוויה שתיווצר בחלל אוצרת בתוכה חלק מהסיפור, וכולן יחד מתחברות ליצירה המלאה. לכל משתתף בטקסים תהיה האפשרות לעבור שינוי, לפתוח את הלב, ולהתחבר לשאר הלבבות שנפתחו בעין הסערה. \n\n O - מעגלים מעגלים של א.נשים - מנדלה חיה.",
 		"artist": "tbc",
 		"philosophy": "מטרת הטקסים שבכוונתנו ליצור ולאכלס במרחב ״עין הסערה״ מדי יום הינה חיבור המשתתפים לתדר הלב, מתוכו יווצרו חיים חדשים.\nהסיפור שאנו רוצים לספר דרך המרחב הוא סיפור על טרנספורמציה, אישית וקבוצתית.  לכל משתתף בטקסים תהיה האפשרות לעבור שינוי, לפתוח את הלב, ולהתחבר לשאר הלבבות שנפתחו בעין הסערה. \n\nאנחנו רוצים לבנות פלטפורמה מרחבית שתאפשר לנו וליוצרים נוספים לרקום חוויה אחת המורכבת מיני חוויות, בעזרת כלים טכנו-דיגיטליים (מערכות אודיו-ויזואל) וכלים מסורתיים (צמחי מרפא, קריסטלים, כלי נגינה, שירה, תנועה ויצירה) שימצאו בחלל. \n\nבכוונתנו לפרסם קול קורא לאותם יוצרים שירצו לקחת חלק ביצירה ולבנות ״סינופסיס״ שירכז את מהלך הפעילויות השונות. בין האירועים שאנו מדמיינות: טקסי קקאו, טקסי מעבר, סליחה ושחרור, ג׳אמים מוסיקליים, סדנאות אומנות, ריקוד ותנועה, מדיטציה, הודיה. \n\n O - מעגלים מעגלים של א.נשים - מנדלה חיה.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/435/medium/WhatsApp_Image_2018-01-10_at_18.25.02.jpeg?1515885938",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/404/medium/WhatsApp_Image_2018-01-10_at_18.25.03_%281%29.jpeg?1515881218",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/407/medium/WhatsApp_Image_2018-01-10_at_18.25.03.jpeg?1515881261",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/406/medium/WhatsApp_Image_2018-01-10_at_19.06.33_%281%29.jpeg?1515881238",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/409/medium/WhatsApp_Image_2018-01-10_at_18.25.04_%281%29.jpeg?1515881286",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/801/medium/Perspective.jpg?1520082981",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/802/medium/Front.jpg?1520082997",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/803/medium/Top.jpg?1520083014"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg"
 		]
 	},
 	{
@@ -1365,12 +1365,12 @@
 		"description": "מייצב אנטראקטיבי המזמין את משתתפי הברן לבוא ולחוות אורגזמה קהילתית המבוססת על שיתוף פעולה הדדי.\nכל משתתף ייבחר את אופי התפקיד שלו, מצד אחד יוכל לבחור להתנסות בחוויה יוצאת דופן לעירור העונג הואגינלי\\רקטאלי או כל אופן אחר שייבחר\nומנגד האחרת תוכל להיות הדומיננטית וזאת ששולטת בבקר מרחוק.\n\nיוצבו מס' מושבים נוחים מאחורי חלונות ראווה עם וילונות לפרטיות (או חדרי זוגות) ובכל מושב תוצב ביצת קסמים רוטטת ומענגת\nבכל תא יוצמד מיקרופון בכדי להקליט את הנעשה בחדר ויישדר אל עמדת הבקרה.\nבמרחק פסיעה מן התאים, יוצב דוכן שעליו יונחו בקרי שליטה על הרכיבים שנמצאים בתאים והם אלו אשר ישלטו על מוד העוצמה של הרטט.\nכל משתתף שייבחר לשבת בתא הנבחר, תחליט על אופי השימוש ברכיב ותוכל לענג את עצמה בכל דרך אפשרית \nתו\"כ שמירה על כל כללי ההיגיינה (יוצבו במקום כל האמצעים) הנדרשים בעבור כך.\n\nבעת לחיצה על הבקרים יופעלו נורות לד כדי לציין את התא שאותו הוא מפעיל ותנוגן מוזיקת רקע בהתאם.\nהשתתפים יוכלו לשחק את משחק הכיסאות הרוטטים ולהיות אלו שגורמים לאחר לאושר ותחושת עילוי ושובא.\n\nבנוסף ננהל מגוון אירועים ותחרויות בין המשתתפים במהלך האירוע ונאתגר את הקהל לבוא ולהתנסות במשחקי תפקידים\nשלא נראו עד היום על הפאלייה, נחלק באופן אקראי בקרי שליטה בין קבוצה של ברנרים ומנגד נחלק ביצי קינדר\nנכניס אותן למתחם הפעילות הסגור שלנו ונזמין אותם למצוא את ה- MATCH בין הביצה (הרכיב הרוטט) לתרנגולת (הרכיב השולט).\n\nנשקול גם להוסיף ART CAR ייעודי המשלב את האלמנטים של המייצב.\nיש למה לצפות!\n\nנ.ב: מחפשים נסיינים ונסייניות בכדי להחליט על הרכיבים האולטימטייבים למקס' חווית משתמש\nברצוננו לנסח דו\"ח שקיפות מלא ואנונימי לאורך כל פעילות המחקר והביצוע בשטח.\n\nנתראה על הפלאייה XXX",
 		"artist": "V for Vendetta",
 		"philosophy": "אינטארקציה ייחודית ומעניינת המאפשרת לקהל לבוא בהסכמה ולהתנסות בחוויה מינית יוצאת דופן",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/425/medium/Capture2.PNG?1515882126",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/426/medium/Capture1.PNG?1515882157",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/423/medium/Capture.PNG?1515882001",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/427/medium/KinderLach_scheme.png?1515882193",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/421/medium/confessions-chair-2.jpg?1515881953"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg"
 		]
 	},
 	{
@@ -1382,11 +1382,11 @@
 		"description": "הפרויקט מורכב ממסך עליו ירוצו סרטונים תלת מימדיים ועדשה אופטית מרכזת שתועמד מול המסך במרחק השווה למרחק נקודת השבירה שלה.\nהקסם הפיזיקלי יגרום לאשליה אופטית אצל המתבונן כך שהסרטון יידמה כמוגדל ומוקרן באוויר בתלת מימד.",
 		"artist": "NOL",
 		"philosophy": "יש דברים שניתן לראות רק אם מסתכלים בפרספקטיבה הנכונה (במקרה הזה - במקום הנכון במרחב)",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/630/medium/%D7%9E%D7%91%D7%98_%D7%A2%D7%9C_-_%D7%90%D7%97%D7%95%D7%A8%D7%99.PNG?1519711641",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/631/medium/%D7%97%D7%9C%D7%95%D7%9F_%D7%A7%D7%93%D7%9E%D7%99_-_%D7%A2%D7%93%D7%A9%D7%94.PNG?1519711667",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/632/medium/%D7%97%D7%9C%D7%95%D7%9F_%D7%90%D7%97%D7%95%D7%A8%D7%99_-_%D7%93%D7%9C%D7%AA_%D7%AA%D7%A4%D7%A2%D7%95%D7%9C.PNG?1519711676",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/629/medium/%D7%9E%D7%91%D7%98_%D7%A6%D7%99%D7%93%D7%99_-_%D7%A9%D7%A7%D7%99_%D7%97%D7%95%D7%9C.PNG?1519711626"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
 		]
 	},
 	{
@@ -1398,10 +1398,10 @@
 		"description": "יוצבו ברחבי המדבר כששה עמודי עץ אורן מעוצבים, העמודים מרוחקים ומפוזרים היטב ברחבי המדבר העמוק, על כל עמוד יש אות או מספר וכמו כן סימון אינדקס ( חלק 1 מתוך 6 של הקוד / חלק 2 מתוך 6 של הקוד וכן הלאה) על אחד העמודים, השישי במספר בנוסף לחלק האחרון של הקוד תהיה תיבה עשויה עץ אורן ונעולה עם מנעול. הקוד למנעול הוא רצף האותיות והמספרים המפוזרים במדבר ובתוך התיבה אומנות מיניאטורית נסתרת וספר בו ניתן לחתום, לספר סיפור או לצייר ציור",
 		"artist": "Yoav Zic",
 		"philosophy": "לייצר למשתתף הרפתקאה עם פרס בסוף",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/947/medium/IMG_20180307_101650.jpg?1520410998",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/948/medium/IMG_20180307_101655.jpg?1520411208",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/949/medium/cover.jpg?1520415326"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg"
 		]
 	},
 	{
@@ -1413,8 +1413,8 @@
 		"description": "",
 		"artist": "מיכל בן שבתאי",
 		"philosophy": "להציץ לתוך סערת המוחות , ולהיות חלק מחלומות וכמו כן מראה לשוני הפנימי והחיצוני במחשבות ,מה שנדמה שמבחוץ  לא תמיד מה שמבפנים",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/452/medium/BUSH1.png?1515972701"
+		"images": [
+			"art1.jpg"
 		]
 	},
 	{
@@ -1426,13 +1426,13 @@
 		"description": "מיטה מתנייעת\nארטקאר בצורה של מיטה שיסע בפלאייה.\nמיטת אפריון מפוארת אנחנו ניקח איתנו ברנרים לסיבוב במיטה.",
 		"artist": "שדוזה",
 		"philosophy": "לקחנו את הרעיון של מיטת אפריון, ממלון אהבה והוצאנו אותה לפלאייה.\nזאת מיטה, שכשנכנסים אליה באמת אי אפשר לדעת לאן מגיעים",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/783/medium/sheduza-bed.jpeg?1520067730",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/811/medium/tomcar1.jpg?1520092823",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/812/medium/tomcar3.jpg?1520092838",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/813/medium/tomcar2.jpg?1520092849",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/814/medium/image.png?1520092898",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/815/medium/tomcar.png?1520093226"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg"
 		]
 	},
 	{
@@ -1444,7 +1444,7 @@
 		"description": "יש אנשים שהמדבר הזה צהוב להם מידי, ויש את אלו המרגישים מחנק. \nבתוך חממת זכוכית קטנה שוכן לו אי ירוק בלב מדבר.  \nהצמחים שבפנים צריכים אותכם וכשתכגיעו תבינו שגם אתם צריכים אותם.\nאתם מוזמנים לקחת שאיפה מלוא הריאות (עדיף מהאף, יש ריחות מעולים) ולרוות את החמצן שהם פולטים.\nהבאים אחריכם ישמחו מאוד אם גם תנשפו חזרה פנימה קצת פחמן דו-חמצני.\nתהיו נשמות - תעזרו להם גם עם איזה שפריץ מים צוננים ורעננים.",
 		"artist": "isopods are us",
 		"philosophy": "במהלך האירוע מתרחשים הרבה מפגשים והרבה גיפטינג ניתן מברנריות לברנרים.\nאנחנו רוצים להמחיש את הגיפטינג שאנו מקבלים כל יום כל הזמן מהצמחים (חמצן לנשימה).\nכמו כן אנו רוצים לאפשר יחסי גומלין של סמביוזה בהם המבקרים יכולים לתת גם הם גיפטינג לצמחים (פד\"ח ומים).\nמעבר לכך, מרגיש לנו שצמחים חיים בלב מדבר שזה שיכול לרגש רבים.",
-		"imageUrls": []
+		"images": []
 	},
 	{
 		"artId": 342,
@@ -1455,17 +1455,17 @@
 		"description": "מזה מספר שנים שאנו וחברי קהילת מידברן חוזרים שוב ושוב לעיר הזמנית המאובקת שלנו.\nיוצרים בה, צומחים בה, מתפרקים בה ונבנים מחדש.\nמידברן הוא הקנבס עליו אנחנו מציירים את החלומות שלנו.\nאחד מהמבנים המרכזיים הוא ה\"טמפל\".\nהוא מוקם מחדש בכל שנה, בפרשנות אחרת ובהובלה של אמן, אמנים או קבוצה.\nמיצב הטמפל הוא הלב של מידברן, העיר הזמנית שקמה בכל שנה בחג שבועות בנגב.\nהטמפל הוא אינסטליישן המזמין את המבקרים בו להסתכל פנימה.\nמקום לשאול בו שאלות.\nמקום לשים בו כוונה.\nמרחב להשיל בו את שרוצים לשחרר.\nמקום שבו אני מוצאת את עצמי.\nמקום למצוא בו את הצפון האמיתי.\nהשנה, אנו רוצים לזקק את המהות \"הטמפלית\" בייצוג אחר\nוהחלטנו לסמוך על קולה של הקהילה ועל הקול הפנימי שלנו כדי למצוא את הצפון.\nוכך נולד לו המצפן.\nהמצפן מזמין את המשתתפים להעביר את המבט ממבט החוצה אל מבט פנימה\nממי הייתי רוצה להיות, אל מי אני באמת.\nמתוך תהליך שאילת השאלות וזיקוק המהות \"הטמפלית\"\nהגענו למסקנה שטמפל בזיקוק מהות, הוא מצפן.\nמצפן אשר מאפשר למבקרים בו להתכונן ולהתכוונן.\nאנו חולמים על מבנה מעץ המורכב מ-12 עגורי אוריגמי אייקונים\nהעגורים מתכנסים במעגל רגע לפני ההמראה אל היעד הבא\nפונים אל מרכז המבנה ומתכנסים רגע לפני היציאה אל המסע.\nממבט על - עגורי האוריגמי יוצרים צורה של מצפן.\nהמצפן הינו המרכז הפועם של העיר הזמנית\nמקום שמזמין להשיל ולהשאיר בו את שרוצים לשחרר\nחלל שמהדהד בו חיפוש, שאילת שאלות, התכווננות וכוונה.\nהמצפן הוא המקום אליו באים להתכנס על מנת להביט פנימה\nוממנו יוצאים עם כוחות מחודשים להמשיך הלאה.\nבמרכז המבנה ובנקודה אליה מביטים העגורים נמצא ה\"אלטר\".\nה\"אלטר\" הינו האש הבוערת סביבה מתכנסים\nוהוא בנוי מגבישים העשויים מאדמת המקום\nספוגים בחווית עבר\nחוויות ההווה\nומתכווננים אל העתיד.",
 		"artist": "The Quasiz",
 		"philosophy": "המצפן הינו המרכז הפועם של העיר הזמנית\nמרחב להתכווננות עבור תושבי העיר המגיעים אליו על מנת לבקש הכוונה\nמקום שמזמין להשיל ולהשאיר בו את שרוצים לשחרר\nחלל שמהדהד בו חיפוש, שאילת שאלות והקשבה למצפן הפנימי.\nהמצפן הוא המקום אליו באים על מנת להביט פנימה\nובו מוצאים את הכוחות המחודשים להמשיך הלאה.\n\nמזה מספר שנים שאנו וחברי הקהילה שלנו חוזרים שוב ושוב לעיר הזמנית המאובקת שלנו.\nיוצרים בה, צומחים בה, מתפרקים בה ונבנים מחדש.\nמידברן הוא הקנבס עליו אנחנו מציירים את החלומות שלנו.\nה\"טמפל\" הוא הלב.\nאז למה בעצם טמפל? כי בברנינג מן יש אחד כזה?\nזה לא סיבה מספיק טובה.\nלכן החלטנו לשאול את עצמנו ואת חברי הקהילה שלנו\nמה זה טמפל בשבילך?\nהבנו שטמפל זו מהות.\nמקום להסתכל בו פנימה.\nמקום לשאול בו שאלות.\nמקום לשים בו כוונה.\nמרחב להשיל בו את מה שרוצים לשחרר.\nמקום שבו אני מוצאת את עצמי.\nמקום למצוא בו את הצפון האמיתי.\nרצינו למצוא את המהות \"הטמפלית\" בייצוג אחר\nוהחלטנו לסמוך על קולה של הקהילה ועל הקול הפנימי שלנו כדי למצוא את הצפון.\nוכך נולד לו המצפן.\nהמצפן מזמין את המשתתפים להעביר את המבט ממבט החוצה אל מבט פנימה\nמבט החוצה / הם / ברנינג מן / ארה\"ב >> מבט פנימה / אני / מידברן / ישראל.\nמי הייתי רוצה להיות, אל מול מי אני באמת.\nהמצפן הוא הטמפל, בזיקוק מהות ובזיקה למקום שבו הוא הולך להיבנות.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/527/medium/untitled1t.288.jpg?1518617311",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/755/medium/1real.jpg?1520000613",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/756/medium/2full.jpg?1520000642",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/757/medium/3part.jpg?1520000732",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/758/medium/4roof_connector.jpg?1520000772",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/759/medium/5neck_connector.jpg?1520000836",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/760/medium/6main.jpg?1520000890",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/761/medium/7mid_crane.jpg?1520000918",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/762/medium/8floor_plan.jpg?1520000957",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/763/medium/9tails.jpg?1520000984"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg",
+			"art9.jpg",
+			"art10.jpg"
 		]
 	},
 	{
@@ -1477,11 +1477,11 @@
 		"description": "פסל בגודל מציאותי של אדם על הברכיים מניף מיכל דלק ועולה באש. הפסל יהיה מורכב מצינורות ברזל המרכיבים שלד פנימי, ומכוסה ביריעות נחושת אשר לבסוף מהודקות בחוטי ברזל. בתוך היריעות בחלקו העליון של הטורסו והראש יהיו חירורי להביור ובתאים בפנימיים תובער אש בצורת שביבי אש \\ אבוקות",
 		"artist": "סבירות קלושה",
 		"philosophy": "הרעיון הוא האסוציאציה המילולית של BURNING MAN, שמהווה סמל קיצוני למאבק וסבל.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/477/medium/46762250-CA20-41D2-A39F-B3BA9A3CBA54.jpeg?1517099406",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/886/medium/Schematics-1.jpg?1520111420",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/888/medium/Schematics-3.jpg?1520111442",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/887/medium/Schematics-2.jpg?1520111432"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
 		]
 	},
 	{
@@ -1493,11 +1493,11 @@
 		"description": "המיצב שלנו מעמיד שני אובייקטים האחד כיסא מלך מוגדל עשוי עץ היודע להכיל 2-3 אנשים מעוטר בעיטורים ובבד קטיפה אדום. מול כיסא המלך ניצבת מראה גדולה עם מסגרת זהב, בהעמדה מעניינת הקוראת לברנר המשוטט לו בפלאיה לעצור רגע מכל הטירוף , לשבת על כיסא המלך, להביט בעצמו במראה ובכך להשלים את היצירה. עצם הישיבה וההתבוננות במראה מזמינה את הברנר להתבונן בעצמו ובבבואתו ולנתח את היצירה המושלמת.",
 		"artist": "ציידי הקרנפים",
 		"philosophy": "אנו רוצים ליצור מקום שבו ניתנת האפשרות לכל אחד לשבת, להתבונן בעצמו ובסביבה ולהעמיק במחשבה של מה הוא רואה (עצמו) ומה זה גורם לו להרגיש.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/526/medium/%D7%90%D7%99%D7%9C%D7%95%D7%A1%D7%98%D7%A8%D7%A6%D7%99%D7%94_%D7%A8%D7%90%D7%A9%D7%95%D7%A0%D7%99%D7%AA_%D7%A9%D7%9C_%D7%94%D7%9E%D7%99%D7%A6%D7%91.jpg?1518553072",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/971/medium/WhatsApp_Image_2018-03-10_at_23.21.28.jpeg?1520756323",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/972/medium/WhatsApp_Image_2018-03-10_at_23.21.27.jpeg?1520756356",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/973/medium/WhatsApp_Image_2018-03-10_at_23.21.29.jpeg?1520756371"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
 		]
 	},
 	{
@@ -1509,13 +1509,13 @@
 		"description": "קובייה מסתובבת עליה ציור אבסטרקט שידמה לגרמי שמים שיבוצע על ידי חברי קמפ שפרילצה בטכניקת ציור בתנועה על ידי התזות צבעים זוהרים. המערכת תהיה מוקפת בספוטים של אולטרה סגול. האינטרקציה עם גרמי שמיים שטופי זרח, בעת סיבוב מהיר, תעתע את העין ותיצור מעין ערבול ויזואלי שמנסה להמחיש סופרנובה - תופעה שבה כוכב מסיבי מתפוצץ משום שהלחץ שההיתוך הגרעיני יוצר בו כלפי חוץ אינו מספיק כדי לאזן את כוח הכבידה העצמי שלו. צופה בתופעה כזו ממרחק של שנות אור רבות, יבחין כי בהירות הכוכב גדלה במהירות ובחדות.",
 		"artist": "שפריצלה קמפ",
 		"philosophy": "הרעיון הינו ליצור תחושת צפייה בסופרנובה - תופעה שבה כוכב מסיבי מתפוצץ משום שהלחץ שההיתוך הגרעיני יוצר בו כלפי חוץ אינו מספיק כדי לאזן את כוח הכבידה העצמי שלו. צופה בתופעה כזו ממרחק של שנות אור רבות, יבחין כי בהירות הכוכב גדלה במהירות ובחדות.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/865/medium/%D7%A9%D7%A8%D7%98%D7%95%D7%98_%D7%A9%D7%A4%D7%A8%D7%99%D7%A6%D7%99%D7%9D_%D7%91%D7%9E%D7%93%D7%91%D7%A8_-_%D7%A4%D7%A8%D7%95%D7%A4%D7%99%D7%9C.jpeg?1520109934",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/004/medium/%D7%94%D7%A1%D7%91%D7%A8_%D7%97%D7%99%D7%91%D7%95%D7%A8_%D7%A9%D7%9C%D7%93%D7%94.jpeg?1521405619",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/005/medium/%D7%9E%D7%95%D7%98_%D7%9E%D7%A1%D7%AA%D7%95%D7%91%D7%91.jpeg?1521405636",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/006/medium/%D7%A9%D7%A8%D7%98%D7%95%D7%98_%D7%A9%D7%A4%D7%A8%D7%99%D7%A6%D7%99%D7%9D_%D7%91%D7%9E%D7%93%D7%91%D7%A8_-_%D7%9E%D7%91%D7%98_%D7%A2%D7%9C.jpeg?1521405651",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/007/medium/%D7%A9%D7%A8%D7%98%D7%95%D7%98_%D7%A9%D7%A4%D7%A8%D7%99%D7%A6%D7%99%D7%9D_%D7%91%D7%9E%D7%93%D7%91%D7%A8_-_%D7%A4%D7%A8%D7%95%D7%A4%D7%992%D7%9C.jpg.jpeg?1521405664",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/008/medium/%D7%A9%D7%A8%D7%98%D7%95%D7%98_%D7%A9%D7%A4%D7%A8%D7%99%D7%A6%D7%99%D7%9D_%D7%91%D7%9E%D7%93%D7%91%D7%A8_-_%D7%A4%D7%A8%D7%95%D7%A4%D7%99%D7%9C.jpeg?1521405679"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg"
 		]
 	},
 	{
@@ -1527,13 +1527,13 @@
 		"description": "בחלומנו אנו רואים שני דוכנים עם שלטים גדולים מעליהם. מעל דוכן אחד כתוב ״Good Advice\" ומעל הדוכן השני כתוב ״Bad Advice\". שני הדוכנים ימוקמו \nהרחק אחד מהשני והברנר המשוטט לא יבחין בשניהם בו-זמנית. בדוכנים יש כיסאות ישיבה שמשמשים את כל מי שחפץ להתיישב ולשרת את עוברי האורח במתן עצות. השלטים יוארו בLED-ים בוהקים אשר ייראו למרחק ביום ובלילה. שלט הGood Advice יואר בצבעים ירוקים עזים ואילו שלט הBad Advice  בצבעים אדומים עוצמתיים. מעל הדוכנים יותקנו ציליות/יריעות מזמינות שיקראו לברנרים לשבת בחסותם גם ללא סיבה מיוחדת - כך אולי תיקרא בפניהם ההזדמנות לתת עצה מבלי להיות מוכנים לכך. הצבת הדוכנים בשני צידי הפלאיה והרחק אחד מהשני הינה לצורך מניעת דילמה כלשהי וחיבור הברנר לתחושת הספונטיות והרדיקליות האופפת את הפלאיה אפילו במתן\\קבלת עצות הרות גורל. \nכמו כן, בדוכנים יונחו חוברות שיתנו השראה רדיקלית לבאי המיצג וצורך מתן המלצות ברוח המיצג.\nאת ההשראה למיצג קיבלנו מהברנינג-המן בנאוודה. בשיטוטינו בפלאיה נתקלנו בשלט ה-Good Advice באמצע השממה המידברית. כשהתקרבנו היבחנו באדם יושב ובוהה סביבו. ניגשנו לקבל עצה טובה אך נענינו בפנים תומהות שהופתעו מהבקשה....\nיומיים לאחר מכן נתקלנו בצדה השני של הפלאיה בשלט ה-Bad Advice יתום,  כי מי רוצה לחלק עצות רעות בברנינג מן?   (:<",
 		"artist": "Dusty kids",
 		"philosophy": "עוברים ושבים יכולים לבחור להתקרב בכדי לחוות חוויה אינטרקטיבית, לנוח ולהיסחף לדיון עם חברים או משוטטים.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/486/medium/Screen_Shot_2018-02-09_at_01.18.29.png?1518131964",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/488/medium/Screen_Shot_2018-02-09_at_01.19.07.png?1518131986",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/490/medium/Screen_Shot_2018-02-09_at_15.06.03.png?1518181603",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/487/medium/Screen_Shot_2018-02-09_at_01.18.39.png?1518131976",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/491/medium/Screen_Shot_2018-02-09_at_15.05.10.png?1518181613",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/549/medium/walltowallconnection-Vertical-Joint-3.gif?1518890747"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg"
 		]
 	},
 	{
@@ -1545,8 +1545,8 @@
 		"description": "",
 		"artist": "PsycheLEDic",
 		"philosophy": "",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/667/medium/psycheLEDic2018.jpeg?1519846940"
+		"images": [
+			"art1.jpg"
 		]
 	},
 	{
@@ -1558,12 +1558,12 @@
 		"description": "יש דברים שרק המדבר יכול להכיל. \nתפאורה מסוג היצירה שלנו דורשת מרחב מאוד מיוחד שאין בנמצא בלב המודרניזציה.\nהמדבר והטופוגרפיה של שטח העיר באים בסמביוזה עם משחק האורות המגניב שתכננו. \nהמיצג הוא קריצה קורנת  אור שנחשף מתוך החשיכה עם פעימות התאורה המתוכנתת \nשמדגישה בכל פעימה פאה אחרת של הכיפה באור אולטרה סגול שמגיב עם מאות האלמנטים בחלל .\nבראש המיצג בגובה של שש וחצי מטרים בקודקוד שני דרקונים פונים אחד אל השני.",
 		"artist": "FuckUltra",
 		"philosophy": "אנו צוות משפחתי ומקצועי וכבר ארבע שנים בונים מחנות פאר (מי שלא נכנס למחנה פאקאולטרה לא ראה מחנה מימיו :) שבקדמתם תמיד היה מייצג\\מסיבה. כל שנה התפתחנו עד שהמחנה הפך מעמסה בדרך לאומנות אז החלטנו לשנות פורמט.  אנו אוהבים לשחק עם אולטרה סגול אז העבודה שלנו באה לבטא את היכולת שלנו לייצר מחזה מרהיב ע\"י שימוש בטכניקות חשיפה מיוחדות של קרינה אולטרה סגולה על אומנות מעוצבת במיוחד להגיב אליה. המגמה היא להמם את הצופה בנוכחות וגודל שמשולבות עם תצוגה מהפנטת של תנועה מוארת אולטרה סגול בלב המדבר החשוך.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/687/medium/WhatsApp_Image_2018-03-01_at_1.37.14_PM.jpeg?1519905788",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/688/medium/WhatsApp_Image_2018-03-01_at_2.27.34_PM.jpeg?1519905806",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/689/medium/Midburn_top.jpeg?1519906444",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/690/medium/Midburn_top.jpeg?1519907175",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/691/medium/midburn_side.jpeg?1519907206"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg"
 		]
 	},
 	{
@@ -1575,8 +1575,8 @@
 		"description": "המידברן הוא מקום ופלטפורמה המאפשר פתיחות גדולה עם ביטחון. בניגוד להתהלכות בעולם החיצון לפלאייה, אנשים כאן מישירים מבט, מחייכים זה לזה ומדברים בפתיחות. פותחים עיניים, פה ולב. בצורה אמיתית ופשוטה. המיצב שלנו הוא המשך ישיר של החוויה החושית והרגשית הזו. כאן יש להם אפשרות למתוח את העונג הזה עד מלוא היריעה ולחבק בצורה אוהבת, ללטף או פשוט לשוחח מלב אל לב. מה יותר מידברן מזה? :)))))",
 		"artist": "ירדן סגל וויקי וינוקור",
 		"philosophy": "הרעיון הוא לייצר אפשרות למקום אינטימי ואוהב שבו ניתן לקבל מגע מהלב, בנוסף ללאפשר לחיבורים בין אנשים לקרות בתוך מיצב המאפשר קצת שקט וקרבה מההמולה שבחוץ. פלטפורמה לחוויה אישית, רגשית, מקרבת, מרוממת נפש.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/816/medium/20180303_194254.jpg?1520099147"
+		"images": [
+			"art1.jpg"
 		]
 	},
 	{
@@ -1588,12 +1588,12 @@
 		"description": "פסלי בעלי חיים  מורכבים מחלקי מכונות, מתכות ישנות ופסולת רכבים.  גן החיות התעשייתי של הפלאיה. \nהפסולת המתכתית חורקת, חלודה, משוננת ולא אורגנית בעליל.  בעזרת הדמיון נהפוך אותה לבעלי חיים קסומים, מסקרנים, יפים. \nנא לא להאכיל את החיות!",
 		"artist": "יעל שושני",
 		"philosophy": "",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/668/medium/F1130E1A-FD80-4EE7-AFC7-E3D324EBBDF1.jpeg?1519848532",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/669/medium/B853C74E-9A70-4755-AB3A-746E62490956.jpeg?1519848556",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/670/medium/DB861DEA-F862-42B6-A048-3EFFAB0A1369.jpeg?1519848593",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/671/medium/14A3AED7-6A70-4080-ACED-4938DD39A4B2.jpeg?1519848714",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/942/medium/48C01B4D-E394-4C48-A713-EF3DC015D007.png?1520249747"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg"
 		]
 	},
 	{
@@ -1605,8 +1605,8 @@
 		"description": "A Sculpture made from Wood, chicken wires and \"papier maché\": a King and A Queen wrapped by ropes representing attachments, rules, conditions and mind projections.",
 		"artist": "Frederic TAIEB",
 		"philosophy": "An installation at midway between a sculpture and a temple to let go of wounds from relationships of any kind",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/546/medium/Sepheralova.jpg?1518851917"
+		"images": [
+			"art1.jpg"
 		]
 	},
 	{
@@ -1618,12 +1618,12 @@
 		"description": "UFOMO  היא חללית בקוטר 10 מטר המרחפת על פני הפלאייה ומרוצפת במאות (!) מטרים של לדים מתוכנתים המגיבים למוזיקה. במרכז החללית עמדת דיג'י מאוכלסת בלדופיל מבית לדברן שתפקידו להרים אבק ועכוזיים בעזרת דציבלים ותדרי סאונד שיגעו לך בקצוות. ברחבת הלדברן תחת החללית נבצע בתושבי העיר ניסויים ונישואין ונבתר את שאריות התודעה לסגמנטים מרצדים.",
 		"artist": "Camp LedBurn and the origins of UFOMO",
 		"philosophy": "חללית שהגיע לכדור הארץ ומתכננת להשתלט על היקום ע\"י יצירת פומו במיקום בכל מקום שאינו תחת החללית",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/742/medium/Capture.PNG?1519987054",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/743/medium/Capture2.PNG?1519987102",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/744/medium/Capture3.PNG?1519987152",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/745/medium/Capture4.PNG?1519987198",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/746/medium/index.jpg?1519987293"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg"
 		]
 	},
 	{
@@ -1635,13 +1635,13 @@
 		"description": "",
 		"artist": "נירית לבב פקר",
 		"philosophy": "",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/564/medium/%D7%A6%D7%99%D7%A4%D7%95%D7%A8.jpg?1518930571",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/824/medium/IMG-20180303-WA0025.jpg?1520100667",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/826/medium/IMG-20180303-WA0026.jpg?1520100691",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/830/medium/IMG-20180303-WA0026.jpg?1520100761",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/831/medium/IMG-20180303-WA0027.jpg?1520100782",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/832/medium/IMG-20180303-WA0026.jpg?1520100805"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg"
 		]
 	},
 	{
@@ -1653,11 +1653,11 @@
 		"description": "ליבו של המיצב הוא מיכל שקוף וחלול שלתוכו ייצקו המשתתפים את החוויות והמתנות שהם קיבלו בפלאיה ובכך ישתתפו ביצירה והתהוותו של המיצב.\nהמיצב יתפתח לאורך כל האירוע ויהיה שונה בכל רגע נתון.\nהמיצב יהיה תצוגה קולקטיבית של כל המשתתפים.",
 		"artist": "The Love Captain",
 		"philosophy": "התבוננות ושיקוף עצמי על התהליכים שאנחנו עוברים במהלך האירוע",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/028/medium/IMG-20180325-WA0002.jpg?1521998837",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/030/medium/20180303_155426.jpg?1522004078",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/026/medium/IMG-20180325-WA0000.jpg?1521998737",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/029/medium/IMG-20180325-WA0003.jpg?1521998858"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
 		]
 	},
 	{
@@ -1669,15 +1669,15 @@
 		"description": "המיצב מדבר על החיים שאנחנו חווים ביום יום. החיים של כולנו על פניו גסים וברורים, בנויים מפרקים ושלבים מעוצבים ומגובשים אבל כשמסתכלים פנימה לכל מרכיב וחלקיק שלהם ניתן לראות מבנים רגישים ועדינים מאוד, מיקרו סיטואציות ותת תנועות שמרכיבים תנועה אחת שלמה והוליסטית. ניסינו ליצר מיצב שמשקף את החוויה שלנו מהחיים- חומר גס, המאפשר תנועה קטנה ועדינה היוצרת מראה הוליסטי שלם. בחרנו להשתמש בחומר מתכת גס ולא מהוקצע שיוצר תנועת כנפיים עדינה. הפער בין המתכת הגסה לתנועה העדינה ייצור מחזה מרגשת שצפוי לפתוח את הלבבות שיצפו בו. \nהמיצב יראה כשתי כנפיים שייצרו תנועת תעופה עדינה ממונעות שיפעלו במשך מספר דקות בכל שעה עגולה וילוו במוזיקה מקורית שלנו. \nבאחד הערבים המיצב יישרף (לא כולו) אלא רק הכנפיים וייצר מראה של הפניקס (עוף החול).",
 		"artist": "Guy’s guys",
 		"philosophy": "המיצב מדבר על החיים שאנחנו חווים ביום יום. החיים של כולנו על פניו גסים וברורים, בנויים מפרקים ושלבים מעוצבים ומגובשים אבל כשמסתכלים פנימה לכל מרכיב וחלקיק שלהם ניתן לראות מבנים רגישים ועדינים מאוד, מיקרו סיטואציות ותת תנועות שמרכיבים תנועה אחת שלמה והוליסטית. ניסינו ליצר מיצב שמשקף את החוויה שלנו מהחיים- חומר גס, המאפשר תנועה קטנה ועדינה היוצרת מראה הוליסטי שלם. בחרנו להשתמש בחומר מתכת גס ולא מהוקצע שיוצר תנועת כנפיים עדינה. הפער בין המתכת הגסה לתנועה העדינה ייצור מחזה מרגשת שצפוי לפתוח את הלבבות שיצפו בו. \nהמיצב יראה כשתי כנפיים שייצרו תנועת תעופה עדינה ממונעות שיפעלו במשך מספר דקות בכל שעה עגולה וילוו במוזיקה מקורית שלנו. \nבאחד הערבים המיצב יישרף (לא כולו) אלא רק הכנפיים וייצר מראה של הפניקס (עוף החול).",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/752/medium/bird_layout_1.jpg?1520000069",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/747/medium/IMG_20170816_141237.jpg?1519993959",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/748/medium/IMG_20170816_141225.jpg?1519993986",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/749/medium/IMG_20170816_141345.jpg?1519994021",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/750/medium/IMG_20170816_141447.jpg?1519994046",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/751/medium/DSC09536.jpg?1519994096",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/753/medium/bird_layout_2.jpg?1520000080",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/754/medium/bird_layout_3.jpg?1520000166"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg"
 		]
 	},
 	{
@@ -1689,10 +1689,10 @@
 		"description": "חממת ערוגת המוחות תשמש מקום לגידול ופיתוח של נושאים שאנשים חשבו לפתח אבל לא ידעו איך, ומה שיותר חשוב, לא מצאו עם מי. ומסתבר שהרבה מוחות טובים חושבים דומה, ושם זו תהיה הזדמנות לחיבור. הערוגה בתחילת הפסטיבל תהיה עם כרובים, כלומר מוחות :-), ואנחנו \"נשתול\" שם כמה רעיונות שזקוקים לפיתוח או לשותפים, כדי לשמש דוגמא. הזריעה היא פיזית. מקל עם פתק כתוב שתוקעים באדמה. מאחורי הפתק אפשר להשאיר פרטים כדי שיתאפשר חיבור בין אנשים. מי שרוצה להציע הצעות לפיתוח הרעיון, או שיש לו פיתרון טכני לבעיה שנשתלה, או שמעוניין לחבור, זורע לייד הפתק המקורי פתק בצבע שני. אנשים יוזמנו לעשות \"ייחורים\", כלומר לקחת פתק תשובה שמישהו שם, ולשכפל אותו למקום אחר בו תשובה זו הינה רלוונטית גם(להעתיק לעוד פתק, עם אזכור לפתק המקורי (נקודה זו עדיין דורשת עיבוד). \n\nהנושאים יכולים להיות מגוונים, מבניה של משהו יחד, לחיפוש אנשים בעלי מכנה משותף בנושא מסוים. מהקמת עסק משותף ועד למציאת חבר להסתובב איתו במדבר. בסוף הפסטיבל, בשאיפה, הערוגה תהיה פורחת עם המון מקלות שיפוד ופתקים, כלומר החממה אפשרה לנו לתת מקום ותנאים מתאימים לפיתוח רעיונות בשיתוף חברתי, ומאפשרת חיבור בין אנשים ורעיונות שלא יכול היה  להתרחש בלי זה. ניתן יהיה לבוא ולקטוף את הצמחים, ולעבד את הרעיונות וליצור קשר עם האנשים הרלוונטיים (אם עדיין לא נוצר הקשר במידברן עצמו ).\n\nמדובר במבנה נמוך יחסית (משיקולים טכניים ובטיחותיים בעיקר), המאפשר למספר אנשים מצומצם (או להרבה אנשים מצומצמים) לשבת זקוף בפנים  בו זמנית. המטרה היא לייצר חלל אינטימי שנעים לשהות בו, חלל בו לא מרגישים שממהרים לעזוב, שמוצל ביום וחמים בערב, המשרה רוגע המאפשר קשיבות ועומק. זהו כלי עבודה. אנחנו נעשה הכל כדי שהברנרים ישכילו להשתמש בו.\n\nמבחינת הניראות, בתוך החממה, לאורך כל המשטח, על חצי מהרוחב, יש ערוגה (נוסיף חול רך כדי שניתן יהיה לשתול שם), ובערוגה \"שתולים מוחות\". המוחות הם כרוביות שיעברו עיבוד (צביעה וציפוי פוליאסטר (בבחינה כרגע) שייאפשר להן לשרוד בתנאי המדבר. זו ההשראה, וידוע שמוחות כאלו מפזרים גלים חיוביים המעודדים חשיבה. בשאר השטח, יהיה כריות ישיבה. \nאנחנו נספק: -  פתקים  בשלושה צבעים : 1- להצגת רעיון \\ בעיה \\ משאלה  2- הצעת פיתרון \\ רעיון שיכול לעזור  3- אני רוצה להצטרף \\ לדבר אתך על זה\\ אשמח להכיר.\n                  - שיפודים, נייר דבק, כלי כתיבה.",
 		"artist": "Gardeners",
 		"philosophy": "אנחנו מאמינים גדולים מאוד בכח של סערת מוחות ככלי לפיתוח רעיונות. קצת כמו שיטת \"דבר אל העציץ\" כשנתקלים בבעיה. לפעמים כשאנחנו מנסים לפתח משהו לבד, או מנסים לפתור בעיה, אנחנו מרגישים תקועים. ומספיק להעמיד מישהו (\"עציץ\") ולהתייעץ איתו, כדי להתחיל להבין מה כיוון הפיתרון. ואז, כשאנשים מעלים הצעות, נפתחים אפיקים חדשים שלא חשבנו עליהם, וקסם נוסף קורה כשאנשים בעלי עניין משותף מגלים את החיבור והחממה מאפשרת לזרוע את תחילת החברות והעבודה המשותפת.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/529/medium/%D7%90%D7%95%D7%A4%D7%A6%D7%99%D7%94_1.jpg?1518628476",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/530/medium/%D7%90%D7%95%D7%A4%D7%A6%D7%99%D7%94_2.jpg?1518628512",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/531/medium/%D7%94%D7%A2%D7%A8%D7%95%D7%92%D7%94.jpg?1518628538"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg"
 		]
 	},
 	{
@@ -1704,12 +1704,12 @@
 		"description": "",
 		"artist": "באובב - משפחה שהיא עץ :)",
 		"philosophy": "",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/050/medium/efigi.jpg?1522696334",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/046/medium/image.png?1522695120",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/047/medium/image%281%29.png?1522695156",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/048/medium/image%283%29.png?1522695214",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/049/medium/image%284%29.png?1522695251"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg"
 		]
 	},
 	{
@@ -1721,15 +1721,15 @@
 		"description": "ספינה שבנויה מעץ..\nנותן למשתתפי האירוע חוויה של הפלגה על חולות המדבר השקט בידיוק כמו האוקיינוס .\nעל הסירה נחלק קרפ צרפתי שאותו יכין בחור צרפתי אורגינל שבא במיוחד לפסטיבל מצרפת ! מה שיוסיף לחוויה שלהם מעבר למיצב המדהים והיפה שיבלוט לעיניהם גם טעם מתוק בסוף ויתן להם אנרגיה להמשך הפסטיבל.",
 		"artist": "pop productions",
 		"philosophy": "הרעיון הוא לתת חופש ביטוי לחלומות שלנו תוך כדי עשיה ונתינה לאחר. בנוסף הקבוצה מביאה בעזרת הסירה את האהבה שלה לים ולשייט (מנהל הפרויקט סקייפר בתחביבו) ולכן אנחנו רוצים לשתף את שאר העולם באהבה שלנו ובתחביבינו.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/709/medium/%D7%A2%D7%92%D7%9C%D7%94.jpg?1519918624",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/712/medium/%D7%97%D7%AA%D7%9A_%D7%AA%D7%95%D7%A8%D7%9F.jpg?1519918987",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/713/medium/%D7%97%D7%AA%D7%9A_%D7%91-%D7%91.jpg?1519919017",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/714/medium/%D7%97%D7%AA%D7%9A_%D7%90-%D7%90.jpg?1519919044",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/722/medium/%D7%AA%D7%95%D7%9B%D7%A0%D7%99%D7%AA.jpg?1519920024",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/723/medium/%D7%94%D7%93%D7%9E%D7%99%D7%99%D7%94_2.jpg?1519920075",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/724/medium/%D7%94%D7%93%D7%9E%D7%99%D7%99%D7%94_1.jpg?1519920096",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/725/medium/%D7%94%D7%93%D7%9E%D7%99%D7%99%D7%94_3.jpg?1519920120"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg",
+			"art8.jpg"
 		]
 	},
 	{
@@ -1741,13 +1741,13 @@
 		"description": "את הולכת בפלאיה. איש הגזרים בדיוק גזר אותך עם גזר. את רואה טנק ורוד. את חושבת שאת לא רואה טנק ורוד. הטנק הורוד נעמד מולך. הטנק מכוון אליך תותח ויורה בועות סבון וגלי עטרי מתנגנת \"תעשי רק מה שאת אוהבת, רק מה שאת חושבת שיהיה לך טוב\". את עולה על הטנק ואתם נוסעים לעבר הזריחה. הישבן שלך לא מפסיק לקפץ. איש הגזרים מנופף מרחוק ומחייך.",
 		"artist": "JK productions",
 		"philosophy": "טיול מדהים שערכנו בארה\"ב סביב הברנינג מן שלקח אותנו לאורך החוף המערבי נתן לנו השראה להביא את האנרגיה המיוחדת של ארט-קארים למידברן. ביחוד הארט-קארים הקטנים יותר והאינטימיים שמייצרים מפגשים שאולי נוגעים בפחות אנשים אבל בצורה יותר עמוקה. הרעיון לטנק ורוד שיורה בועות סבון מגיע מתרבות ההיפ הופ שעברה מעבר מדימויים מאוד אלימים, דרך הגזמה בדימויים האלה ועד להגחכה שלהם. מוטיבים כגון רובים מצופי זהב וכלי נשק ורודים נותנים זוית מרעננת על אלמנטים מאוד רציניים וכבדי משקל בתרבות שלנו.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/015/medium/tank5.jpg?1521500468",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/014/medium/tank3.png?1521500428",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/016/medium/P80317-121604-01.jpg?1521525225",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/012/medium/tank1.png?1521499674",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/013/medium/tank2.png?1521500387",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/003/018/medium/JK.png?1521619260"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg"
 		]
 	},
 	{
@@ -1759,13 +1759,13 @@
 		"description": "דמיינו לכם מסע קסום במדבר, אורות , צבעים אינפורמציה, שמחה ולפתע אתם מגיעים למקום שמרגיש כמו עיירת רפאים של ימי הביניים,\nלא ברור לחלוטין מה אתם רואים, זה נראה כמו ערימה של גופות עירומים ולבנים, אך הם דוממים ונינוחים. הפסלים שעומדים במנחים לא הגיוניים נראים כמו יצירת מופת, האם היא נושמת? האם זה אדם? זה בטוח מרגיש מאוד טיקסי ומלא ברגש, האורות מהבהבים ורק לפרקים רואים את הבעות הפנים מלאות האישיות שבהם. \nברקע מוזיקת כנסיות וסינטיסייזרים שנמתחים ומושכים כל צליל... לפתע אתם שמים לב שהפסל שלידכם נושם וגם זז, הוא חי, הוא מביט לא מביט, מסתכלים על פסל ליד, הוא דומם לחלוטין, לפתע בין לבין אתם קולטים שחלק מהפסלים הם בעצם אנשים חיים השרויים בטראנס עמוק, רוקדים את מחול הבוטו - מחול אוונגרד יפני, ריקוד טקסי, תקשור באמצעות הגוף, רוחני ומלא במשמעות, מתוח ומשחרר, הנוגע בכל הסקאלה של הרגשות, עובר על כל המורכבויות של האישיות, המביע את כל מה שלא נמצאו לו עדיין מילים... הפסלים החיים באינטראקציה איתכם והפסלים הדוממים, מרגישים ממש כאילו עוד רגע הם גם קמים לתחייה... :) חוויה מעוררת השראה.\nבחלק מהימים נעביר במיצג סדנאות של אקסטטיק בוטו שבהם נלמד את המבקרים אודות המחול האוונגרדי ובמרחב הזה נחווה שחרור עמוק באמצעות תנועה והבעות פנים וגוף.",
 		"artist": "קבוצת המסתורין",
 		"philosophy": "רעיון של סיפור רוחני ואינטרקציה אנושית בתוך הדומם.",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/950/medium/21316420_10154610972227245_5559981024717552958_o.jpg?1520445802",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/951/medium/28619481_10212708827693714_885741378297405051_o.jpg?1520446367",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/952/medium/14359194_10154584043975159_3829465773596625160_n.jpg?1520451147",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/953/medium/14355132_10208446626937193_2329216357767142280_n.jpg?1520451197",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/954/medium/14368755_10209445314744222_7224682018552959349_n.jpg?1520451230",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/974/medium/IMG_20180311_192855.jpg?1520789468"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg"
 		]
 	},
 	{
@@ -1777,9 +1777,9 @@
 		"description": "ג'קוזי מפתיע. מלא בחול. החול נמצא במצב פיזיקלי בו הוא מתנהג כמו מים. מעבר להפתעה ותחושה כי אנחנו נמצאים בעולם פנטזיה בו חוקי הפיזיקה מתקימים באופן חלקי או שונה. ניתן יהיה להיכנס פנימה להפסיק את הפעולה של החול ולהחזיר אותו למצב הטבעי. במצב זה האדם שבפנים יחווה תחושת לחץ מכל הכיוונים כמו חיבוק שמקיף אותך. ידוע שחיבוק או תחושת לחץ על הגוף גורם להפרשת אוקסיטוצין וחומרים נוספים שמרגיעים. החוויה כולה היא ייחודית ומאפשרת לחוות תחושות מוכרות יותר או פחות.",
 		"artist": "גוטה",
 		"philosophy": "הרעיון הוא להעביר את המשתתף חויה בה התחושה היא שהוא נמצא במקום אחר. משהו כמו עליזה בארץ הפלאות. מציאות שונה בה חוקי הפיזיקה חלים בצורה שונה",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/726/medium/how-to-make-liquid-sand-3.png?1519932493",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/727/medium/%D7%9E%D7%99%D7%93%D7%91%D7%A8%D7%9F_p30.png?1519932537"
+		"images": [
+			"art1.jpg",
+			"art2.jpg"
 		]
 	},
 	{
@@ -1791,14 +1791,14 @@
 		"description": "כ 60 בלונים שמרחפים מעל הפלאייה \nמלאים בגז הליום\nהבלונים מחוברים לאופניים \nכל אחד מוזמן לפדל ולהאיר את השמיים",
 		"artist": "שי שטרקר",
 		"philosophy": "הפעלה של ברנרים ויצירית לב אחד גדול ומואר",
-		"imageUrls": [
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/767/medium/%D7%A9%D7%98%D7%A8.jpg?1520008425",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/768/medium/%D7%A9%D7%98%D7%A8%D7%A7%D7%A8_1.jpg?1520008481",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/990/medium/balloone2.3.jpg?1520922425",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/991/medium/balloone2.31.jpg?1520922470",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/992/medium/unnamed_%283%29.jpg?1520964271",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/993/medium/unnamed_%284%29.jpg?1520964347",
-			"https://s3-eu-central-1.amazonaws.com/dreams.midburn.org/images/attachments/000/002/994/medium/unnamed_%285%29.jpg?1520964576"
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg",
+			"art5.jpg",
+			"art6.jpg",
+			"art7.jpg"
 		]
 	}
 ]
