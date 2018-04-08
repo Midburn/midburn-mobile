@@ -3,8 +3,7 @@ import {Text, View, Button, Card, Colors} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import * as giftsStore from '../../stores/gifts/store';
 import {EventsComponent} from './EventsComponent';
-
-var moment = require('moment');
+import moment from 'moment';
 
 class NowScreen extends Component {
 

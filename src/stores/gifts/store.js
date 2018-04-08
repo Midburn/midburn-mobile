@@ -2,7 +2,7 @@ import _ from 'lodash';
 import * as remx from 'remx';
 import moment from 'moment';
 
-const MIDBURN_STARTING_DATE = 1526299661;
+const MIDBURN_STARTING_UNIX_DATE = 1526299661;
 
 const state = remx.state({
   gifts: [],
@@ -32,13 +32,24 @@ export const setters = remx.setters({
     state.giftsByDay = giftsByDay;
   },
   setGiftForDays() {
-    const chunksArray = _.chunk(state.gifts, 5);
+    let formDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE);
+    let toDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE).add(1, 'd');
 
-    state.giftsDay1 = chunksArray[0];
-    state.giftsDay2 = chunksArray[1];
-    state.giftsDay3 = chunksArray[2];
-    state.giftsDay4 = chunksArray[3];
-    state.giftsDay5 = chunksArray[4];
+    state.giftsDay1 = getters.getGiftsInRange(formDay, toDay);
+    formDay = toDay;
+    toDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE).add(2, 'd');
+    state.giftsDay2 = getters.getGiftsInRange(formDay, toDay);
+    formDay = toDay;
+    toDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE).add(3, 'd');
+    state.giftsDay3 = getters.getGiftsInRange(formDay, toDay);
+    formDay = toDay;
+    toDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE).add(4, 'd');
+    state.giftsDay4 = getters.getGiftsInRange(formDay, toDay);
+    formDay = toDay;
+    toDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE).add(5, 'd');
+    state.giftsDay5 = getters.getGiftsInRange(formDay, toDay);
+
+    ;
   }
 });
 
@@ -51,7 +62,7 @@ export const getters = remx.getters({
   },
   getGiftsInRange(fromDate, toDate) {
     const filteredGifts = _.filter(state.gifts, (gift) => {
-      return moment(gift.time, 'x').isBetween(fromDate, toDate);
+      return createMomentDate(gift.time).isBetween(fromDate, toDate);
     });
     return _.sortBy(filteredGifts, ['hour']);
   },
@@ -61,13 +72,13 @@ export const getters = remx.getters({
   },
   getGiftsByDayForCamp(campId, date) {
     const filteredGifts = _.filter(state.gifts, (gift) => {
-      return moment(gift.time, 'x').isSame(date, 'day') && gift.campId === campId;
+      return createMomentDate(gift.time).isSame(date, 'day') && gift.campId === campId;
     });
     return _.sortBy(filteredGifts, ['hour']);
   },
   getGiftsInRangeForCamp(campId, fromDate, toDate) {
     const filteredGifts = _.filter(state.gifts, (gift) => {
-      return moment(gift.time, 'x').isBetween(fromDate, toDate) && gift.campId === campId;
+      return createMomentDate(gift.time).isBetween(fromDate, toDate) && gift.campId === campId;
     });
     return _.sortBy(filteredGifts, ['hour']);
   },
@@ -90,8 +101,11 @@ export const getters = remx.getters({
 
   },
   getChunkedGifts() {
-    const gifts = getters.getAllGifts();
-    const ans =  _.chunk(gifts, gifts.length / 5);
-    return ans;
+    return [state.giftsDay1, state.giftsDay2, state.giftsDay3, state.giftsDay4, state.giftsDay5];
   }
 });
+
+
+function createMomentDate(timestamp) {
+  return moment(timestamp, 'X');
+}
