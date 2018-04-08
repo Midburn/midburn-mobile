@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {StyleSheet} from 'react-native';
 import {Modal, View, Text}  from 'react-native-ui-lib';
-import {EventComponent} from '../Now/EventComponent';
+import {EventComponent} from '../components/EventComponent';
 
 export class EventDetailsModal extends Component {
 

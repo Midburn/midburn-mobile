@@ -3,7 +3,7 @@ import {StyleSheet, FlatList} from 'react-native';
 import {Text, View, Button, Card, Colors} from 'react-native-ui-lib';
 import _ from 'lodash';
 import {connect} from 'remx';
-import {EventComponent} from './EventComponent';
+import {EventComponent} from '../components/EventComponent';
 
 export class EventsComponent extends Component {
 
@@ -16,12 +16,13 @@ export class EventsComponent extends Component {
   }
 
   _renderRow(gift, i) {
+
     return (
       <EventComponent index={i}
                       titleEn={gift.item.titleEn}
                       place={gift.item.locationName}
                       time={gift.item.hour}
-                      address={gift.item.locationAddress}
+                      address={'9:30'}
                       descriptionEn={gift.item.descriptionEn}
                       color={gift.item.color}
       />
@@ -38,7 +39,6 @@ export class EventsComponent extends Component {
           style={styles.list}
           renderItem={this._renderRow}
           keyExtractor={(item, index) => index}
-          style={styles.list}
         />
     );
   }

@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
-import {StyleSheet, TouchableOpacity, ScrollView} from 'react-native';
-import { Text, View, Button, TabBar } from 'react-native-ui-lib';
+import {StyleSheet, TouchableOpacity, ScrollView, Dimensions} from 'react-native';
+import {Text, View, Button, TabBar, Carousel} from 'react-native-ui-lib';
 import * as _ from 'lodash';
-import { connect } from 'remx';
+import {connect} from 'remx';
 import * as giftsStore from '../../stores/gifts/store';
 import * as giftsActions from '../../stores/gifts/actions';
 import SCREENS from './../../screens/screenNames';
@@ -12,19 +12,23 @@ import moment from 'moment';
 // const MIDBURN_STARTING_DATE = 1526299661000;
 // const MIDBURN_STARTING_DATE = 1522092866000; //fake date for presentation, set to 26.3
 const MIDBURN_STARTING_DATE = 1522915200; //fake date for presentation, set to 5.4
+const {width} = Dimensions.get('window');
+
 
 const getNumericalStartingDate = () => {
   return new Date(MIDBURN_STARTING_DATE).getDate();
-}
+};
+
+const DAYS = ["MON", "TUE", "WED", "THU", 'FRI', 'SAT'];
 
 class ProgramScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      dates: ["MON", "TUE", "WED", "THU", "FRI", "SAT"],
       selectedDate: getNumericalStartingDate(),
       selectedIndex: 0
     };
+    this.carousel = undefined;
 
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
   }
@@ -48,17 +52,10 @@ class ProgramScreen extends Component {
     }
   }
 
-  componentDidMount() {
-    this.dateItemPressed(0);
-  }
-
   isSelectedDateIsCurrentDate(){
     return this.state.selectedDate === new Date().getDate();
   }
 
-  shouldDisplayEventForSelectedDate = (event) => {
-    return new Date(event.time).getDate() === this.state.selectedDate;
-  }
 
   getFirstHourToShow() {
     if (this.isSelectedDateIsCurrentDate()) {
@@ -67,25 +64,14 @@ class ProgramScreen extends Component {
       return 0;
     }
   }
+
   onEventPressed = (event) => {
     this.props.navigator.showModal({
       screen: SCREENS.EVENT_DETAILS,
       passProps: { event }
     });
   }
-  
-  getDateItemColor(i){
-    return this.state.selectedIndex === i ? '#F56897': 'black';
-  }
 
-  renderDateItem(date, i) {
-    return (
-      <TouchableOpacity onPress={() => this.dateItemPressed(date, i)} key={date} style={[styles.dateItem, this.state.selectedIndex === i && styles.dateItemSelected]}>
-        <Text color={this.getDateItemColor(i)} >{date}</Text>
-        <Text color={this.getDateItemColor(i)} text100>{i + getNumericalStartingDate()}</Text>
-      </TouchableOpacity>
-    );
-  }
 
   dateItemPressed(date, i) {
     const newDate = moment(MIDBURN_STARTING_DATE, 'x').add(i, 'day');
@@ -93,51 +79,56 @@ class ProgramScreen extends Component {
     this.setState(_.merge(this.state, { selectedDate: newDate, selectedIndex: i }));
   }
 
-  selectedDate(date) {
-    giftsActions.presentGiftsByDate(date);
+
+  onPageChanged = (newPageIndex) => {
+    console.log('RANG', 'onPageChanged', newPageIndex);
   }
 
-  renderDatePicker() {
+  _renderEventsComponent(giftsOfDay, i) {
     return (
-      <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-          {
-            this.state.dates.map((date, i) => this.renderDateItem(date, i))
-          }
-        </ScrollView>
+      <View width={width} key={i}>
+        <EventsComponent gifts={giftsOfDay} />
+      </View>
     );
   }
-  renderPublicTab(){
+  renderGiftsList(){
     return (
-      <EventsComponent gifts={this.props.gifts} />
+      <Carousel
+        loop={false}
+        onChangePage={this.onPageChanged}
+        ref={(carousel) => (this.carousel = carousel)}
+      >
+        {_.map(this.props.gifts, (giftsOfDay, i) =>
+          this._renderEventsComponent(giftsOfDay, i)
+        )}
+
+      </Carousel>
+    );
+  }
+
+  _renderTopNextPrevStrip() {
+    return (
+      <View row spread marginH-18 marginV-6>
+        <Button link label={'prev'}/>
+        <Button link label={'next'}/>
+      </View>
     );
   }
 
   render() {
     return (
-      <View style={styles.container}>
-        {this.renderDatePicker()}
-        {this.renderPublicTab()}
+      <View flex>
+        {this._renderTopNextPrevStrip()}
+        {this.renderGiftsList()}
       </View>
     );
   }
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1
-  },
-  dateItem: {
-    height: 65,
-    width: 75,
-    alignItems: 'center',
-    justifyContent: 'center'
-  }
-});
-
 
 function mapStateToProps() {
   return {
-    gifts: giftsStore.getters.getPresentedGifts()
+    gifts: giftsStore.getters.getChunkedGifts()
   };
 }
 
