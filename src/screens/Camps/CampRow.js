@@ -4,7 +4,6 @@ import {Image} from 'react-native';
 import {Text, View, Card} from 'react-native-ui-lib';
 import {tagToImg, getRandomImage} from '../../../data/img';
 
-const CAMP_PLACEHOLDER = require('../../../data/img/camp-placeholder.png');
 const AVARTAR_SIZE = 30;
 const AVATAR_MARGIN = 4;
 const AVATAR_CONTAINER_WIDTH = AVARTAR_SIZE*2 + AVATAR_MARGIN*4;
