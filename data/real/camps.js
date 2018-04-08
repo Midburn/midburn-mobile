@@ -132,18 +132,17 @@ const extractGiftData = gift => {
 };
 
 const downloadArtImage = async (artId, {name, url}) => {
-    await ensureDir(path.resolve(path.join('..', '2018', 'arts', 'images', artId)));
-    const file = path.resolve(path.join('..', '2018', 'arts', 'images', artId, name))
-    const { filename/*, image*/ } = await download.image({
+    await ensureDir(path.resolve(path.join()));
+    const file = path.resolve(path.join('..', '2018', 'images', 'arts', artId, name))
+    await download.image({
         url: url,
         dest: file,
     });
 };
 
 const extractArtData = async art => {
-    const artDreamId = art['Id'];
-    const imageUrls = await locateArtImages(artDreamId);
-    const artId = randomUUID();
+    const artId = art['Id'];
+    const imageUrls = await locateArtImages(artId);
 
     imageUrls.forEach( async artUrl => await downloadArtImage(artId, artUrl) );
 
