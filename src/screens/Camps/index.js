@@ -6,9 +6,10 @@ import CampRow from './CampRow';
 import * as store from '../../stores/campsAndArt/store';
 import * as actions from './../../stores/campsAndArt/actions';
 
+
 const SEARCH_BUTTON_ID = 'camp_search';
 const FAVOURITES_BUTTON_ID = 'camp_favourites';
-const PLACEHOLDER_SEARCH_INPUT = 'Type camp to serach';
+const PLACEHOLDER_SEARCH_INPUT = 'Type camp to search';
 
 
 class CampsScreen extends Component {
@@ -63,10 +64,9 @@ class CampsScreen extends Component {
   _renderRow = (data) => {
     return (
       <CampRow
-        data={data.item}
         campId={data.item.campId}
         title={data.item.campName}
-        tags={data.item.tags}
+        // tags={data.item.tags}
         onPress={this._onRowPressed}
       />
     );
@@ -76,14 +76,7 @@ class CampsScreen extends Component {
     store.setters.setSearch(text)
   }
 
-  onSelectedTabChanged = (index) => {
-    store.setters.setSelectedTab(index);
-  }
 
-  onTagsFilterPressed = (index) => {
-    store.setters.setSelectedTagIndex(index);
-
-  }
 
   _renderSearchBar() {
     return (
@@ -100,18 +93,6 @@ class CampsScreen extends Component {
     );
   }
 
-  _renderFilterBar() {
-    return (
-        <TabBar
-          selectedIndex={this.props.selectedTab}
-          onChangeIndex={this.onSelectedTabChanged}
-          ref={element => (this.tabbar = element)}
-        >
-          <TabBar.Item label={FILTER.CAMPS} />
-          <TabBar.Item label={FILTER.ART} />
-        </TabBar>
-    );
-  }
 
   renderCampsList() {
     return (
@@ -126,25 +107,13 @@ class CampsScreen extends Component {
     );
   }
 
-  renderArtList() {
-    return (
-      <FlatList
-        key={'art'}
-        style={{padding: 15, backgroundColor: '#fab1a0' }}
-        data={this.props.artData}
-        renderItem={this._renderRow}
-        keyExtractor={(item, index) => index}
-        initialNumToRender={10}
-      />
-    );
-  }
 
 
   render() {
     return (
       <View flex>
         {this.state.showSearchBar && this._renderSearchBar()}
-        {this.props.selectedTab === 0 ? this.renderCampsList() : this.renderArtList()}
+        {this.renderCampsList()}
       </View>
     );
   }
@@ -153,10 +122,7 @@ class CampsScreen extends Component {
 function mapStateToProps() {
   return {
     campsData: store.getters.getCampsDataToShow(),
-    artData: store.getters.getArtDataToShow(),
     searchText: store.getters.getSearchText(),
-    selectedTab: store.getters.getSelectedTab(),
-    selectedTagIndex: store.getters.getSelectedTagIndex(),
   };
 }
 
