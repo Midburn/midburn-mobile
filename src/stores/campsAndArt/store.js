@@ -1,5 +1,6 @@
 import _ from 'lodash';
 import * as remx from 'remx';
+import * as ArtImages from '../../../data/2018/images/arts';
 
 const TABS = {
   CAMPS: 0,
@@ -13,6 +14,7 @@ const state = remx.state({
   selectedTab: TABS.CAMPS,
   selectedTagIndex: undefined
 });
+
 
 export const setters = remx.setters({
   setCamps(camps) {
@@ -70,5 +72,19 @@ export const getters = remx.getters({
   },
   getSelectedTagIndex() {
     return state.selectedTagIndex
+  },
+  getArtImage(data) {
+
+    const id = _.get(data, 'item.artId');
+    // if (!_.includes(tempArr, id)) {
+    //   console.log(`${id}: require('./${id}/art1.jpg'),`);
+    //   tempArr.push(id);
+    // }
+
+    const ans = ArtImages.getImageForArtId(id);
+
+    return ans;
   }
 });
+
+// const tempArr = [];

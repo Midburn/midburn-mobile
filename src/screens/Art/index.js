@@ -62,7 +62,7 @@ class ArtScreen extends Component {
         campId={data.item.campId}
         title={data.item.nameEn}
         tags={data.item.tags}
-        imageUrl={data.item.imageUrl}
+        imageSource={store.getters.getArtImage(data)}
         onPress={this._onRowPressed}
       />
     );
@@ -72,10 +72,6 @@ class ArtScreen extends Component {
     store.setters.setSearch(text)
   }
 
-  onTagsFilterPressed = (index) => {
-    store.setters.setSelectedTagIndex(index);
-
-  }
 
   _renderSearchBar() {
     return (
