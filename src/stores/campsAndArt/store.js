@@ -2,16 +2,11 @@ import _ from 'lodash';
 import * as remx from 'remx';
 import * as ArtImages from '../../../data/2018/images/arts';
 
-const TABS = {
-  CAMPS: 0,
-  ART: 1
-};
 
 const state = remx.state({
   camps: [],
   art: [],
   search: undefined,
-  selectedTab: TABS.CAMPS,
   selectedTagIndex: undefined
 });
 
@@ -26,16 +21,6 @@ export const setters = remx.setters({
   setSearch(search) {
     state.search = search;
   },
-  setSelectedTab(selected) {
-    state.selectedTab = selected;
-  },
-  setSelectedTagIndex(index) {
-    if (state.selectedTagIndex === index) {
-      state.selectedTagIndex = undefined;
-    } else {
-      state.selectedTagIndex = index;
-    }
-  }
 });
 
 export const getters = remx.getters({
