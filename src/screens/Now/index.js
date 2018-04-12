@@ -3,7 +3,8 @@ import {Text, View, Button, Card, Colors} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import * as giftsStore from '../../stores/gifts/store';
 import {EventsComponent} from './EventsComponent';
-import moment from 'moment';
+
+const HOURS_WINDOW = 3;
 
 class NowScreen extends Component {
 
@@ -28,7 +29,7 @@ class NowScreen extends Component {
 
 function mapStateToProps() {
   return {
-    gifts: giftsStore.getters.getGiftsInRange(moment().subtract(3, 'days'), moment().add(3, 'days'))
+    gifts: giftsStore.getters.getGiftsForHoursWindow(HOURS_WINDOW)
   };
 }
 

@@ -15,7 +15,6 @@ class FavouritesScreen extends Component {
 
 
   _onRowPressed = async (data) => {
-    console.error(this.props.navigator);
     actions.showCampScreen({data, navigator: this.props.navigator});
   }
 
