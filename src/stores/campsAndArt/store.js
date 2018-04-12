@@ -6,7 +6,8 @@ import * as ArtImages from '../../../data/2018/images/arts';
 const state = remx.state({
   camps: [],
   art: [],
-  search: undefined,
+  searchCamp: undefined,
+  searchArt: undefined,
   selectedTagIndex: undefined
 });
 
@@ -18,8 +19,11 @@ export const setters = remx.setters({
   setArt(art) {
     state.art = art;
   },
-  setSearch(search) {
-    state.search = search;
+  setSearchCamp(search) {
+    state.searchCamp = search;
+  },
+  setSearchArt(search) {
+    state.searchArt = search;
   },
 });
 
@@ -31,19 +35,19 @@ export const getters = remx.getters({
     return state.search;
   },
   getArtDataToShow() {
-    return getters.getDataToShow(state.art);
+    return getters.getDataToShow(state.art, state.searchArt, 'name');
   },
   getCampsDataToShow() {
-    return getters.getDataToShow(state.camps);
+    return getters.getDataToShow(state.camps, state.searchCamp, 'campName');
   },
-  getDataToShow(dataArray) {
-    if (state.search) {
-      const ans = _.filter(dataArray, (obj) => {
-        if (obj['title']) {
-          return obj['title'].toLowerCase().includes(state.search.toLowerCase());
+  getDataToShow(dataArray, whatToSearch, keyToSearch) {
+    if (whatToSearch) {
+      return _.filter(dataArray, (obj) => {
+        const text = _.get(obj, `${keyToSearch}`);
+        if (text) {
+          return _.toLower(text).includes(_.toLower(whatToSearch));
         } return false;
       });
-      return ans;
     }
     return dataArray;
   },

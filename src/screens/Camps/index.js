@@ -73,7 +73,7 @@ class CampsScreen extends Component {
   }
 
   onTextChanged = (text) => {
-    store.setters.setSearch(text)
+    store.setters.setSearchCamp(text)
   }
 
 
@@ -94,14 +94,18 @@ class CampsScreen extends Component {
   }
 
 
+  _keyExtractor = (item, index) => {
+    return index;
+  }
+
   renderCampsList() {
     return (
       <FlatList
         key={'camps'}
-        style={{padding: 15, backgroundColor: '#74b9ff'}}
+        style={{padding: 15}}
         data={this.props.campsData}
         renderItem={this._renderRow}
-        keyExtractor={(item, index) => index}
+        keyExtractor={this._keyExtractor}
         initialNumToRender={10}
       />
     );

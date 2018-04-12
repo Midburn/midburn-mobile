@@ -69,7 +69,7 @@ class ArtScreen extends Component {
   }
 
   onTextChanged = (text) => {
-    store.setters.setSearch(text)
+    store.setters.setSearchArt(text)
   }
 
 
@@ -88,14 +88,18 @@ class ArtScreen extends Component {
     );
   }
 
+  _keyExtractor = (item, index) => {
+    return index;
+  }
+
   renderArtList() {
     return (
       <FlatList
         key={'art'}
-        style={{padding: 15, backgroundColor: '#fab1a0' }}
+        style={{padding: 15}}
         data={this.props.artData}
         renderItem={this._renderRow}
-        keyExtractor={(item, index) => index}
+        keyExtractor={this._keyExtractor}
         initialNumToRender={10}
       />
     );
