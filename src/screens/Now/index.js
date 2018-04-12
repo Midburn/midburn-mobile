@@ -4,7 +4,6 @@ import {connect} from 'remx';
 import * as giftsStore from '../../stores/gifts/store';
 import {EventsComponent} from './EventsComponent';
 
-const HOURS_WINDOW = 3;
 
 class NowScreen extends Component {
 
@@ -29,7 +28,7 @@ class NowScreen extends Component {
 
 function mapStateToProps() {
   return {
-    gifts: giftsStore.getters.getGiftsForHoursWindow(HOURS_WINDOW)
+    gifts: giftsStore.getters.getGiftsForHoursWindow()
   };
 }
 

@@ -3,6 +3,8 @@ import * as remx from 'remx';
 import moment from 'moment';
 
 const MIDBURN_STARTING_UNIX_DATE = 1526299661;
+const DEFAULT_NOW_HOURS_WINDOW = 3;
+
 
 const state = remx.state({
   gifts: [],
@@ -66,7 +68,7 @@ export const getters = remx.getters({
     });
     return _.sortBy(filteredGifts, ['hour']);
   },
-  getGiftsForHoursWindow(hours) {
+  getGiftsForHoursWindow(hours = DEFAULT_NOW_HOURS_WINDOW) {
     let formDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE);
     let toDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE).add(hours, 'h');
     return getters.getGiftsInRange(formDay, toDay);
