@@ -29,6 +29,10 @@ export class EventsComponent extends Component {
     );
   }
 
+  _keyExtractor = (item, index) => {
+    return index;
+  }
+
   render() {
     if (_.get(this.props, 'gifts.length') === 0) {
       return this.renderEmptyState();
@@ -38,7 +42,7 @@ export class EventsComponent extends Component {
           data={this.props.gifts}
           style={styles.list}
           renderItem={this._renderRow}
-          keyExtractor={(item, index) => index}
+          keyExtractor={this._keyExtractor}
         />
     );
   }
