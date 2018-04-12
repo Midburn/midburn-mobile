@@ -66,6 +66,11 @@ export const getters = remx.getters({
     });
     return _.sortBy(filteredGifts, ['hour']);
   },
+  getGiftsForHoursWindow(hours) {
+    let formDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE);
+    let toDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE).add(hours, 'h');
+    return getters.getGiftsInRange(formDay, toDay);
+  },
   getGiftsByDay(date) {
     const filteredGifts = state.giftsByDay[date.format('YYYY-MM-DD')];
     return filteredGifts;//_.sortBy(filteredGifts, ['hour']);
