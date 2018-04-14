@@ -2,6 +2,7 @@ import {Navigation}from 'react-native-navigation';
 import { registerContainers } from './screens';
 import SCREENS from './screens/screenNames';
 import * as appActions from './stores/appActions';
+import Strings from './utils/Strings';
 
 
 function start() {
@@ -10,33 +11,33 @@ function start() {
   Navigation.startTabBasedApp({
     tabs: [
       {
-        label: 'Now',
+        label: Strings('NOW'),
         screen: SCREENS.NOW,
-        title: 'Now',
+        title: Strings('NOW'),
         icon: require('../data/img/open-book.png')
       },
       {
-        label: 'Camps',
+        label: Strings('CAMPS'),
         screen: SCREENS.CAMPS,
-        title: 'Camps',
+        title: Strings('CAMPS'),
         icon: require('../data/img/campfire.png')
       },
       {
-        label: 'Art',
+        label: Strings('ART'),
         screen: SCREENS.ART,
-        title: 'Art',
+        title: Strings('ART'),
         icon: require('../data/img/campfire.png')
       },
       {
-        label: 'Program',
+        label: Strings('PROGRAM'),
         screen: SCREENS.PROGRAM,
-        title: 'Program',
+        title: Strings('PROGRAM'),
         icon: require('../data/img/open-book.png')
       },
       {
-        label: 'Extra',
+        label: Strings('EXTRA'),
         screen: SCREENS.EXTRA,
-        title: 'Extra',
+        title: Strings('EXTRA'),
         icon: require('../data/img/campfire.png')
       }
 

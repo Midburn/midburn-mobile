@@ -20,10 +20,12 @@ export class EventsComponent extends Component {
     return (
       <EventComponent index={i}
                       titleEn={gift.item.titleEn}
+                      titleHeb={gift.item.title}
                       place={gift.item.locationName}
                       time={gift.item.hour}
                       address={'9:30'}
                       descriptionEn={gift.item.descriptionEn}
+                      descriptionHeb={gift.item.description}
                       color={gift.item.color}
       />
     );

@@ -2,6 +2,7 @@ import _ from 'lodash';
 import React, {Component} from 'react';
 import {Text, Card, Colors, Button, View, Image} from 'react-native-ui-lib';
 import {getRandomImage} from '../../../data/img';
+import {getString, isRTL} from '../../utils/Strings';
 
 const TAG_IMAGE_SIZE = 30;
 
@@ -10,12 +11,21 @@ const IMAEG_2 = getRandomImage();
 const IMAEG_3 = getRandomImage();
 
 export class EventComponent extends Component {
+
+  constructor(props) {
+    super(props);
+    this.title = getString(this.props.titleHeb, this.props.titleEn);
+    this.description = getString(this.props.descriptionHeb, this.props.descriptionEn);
+  }
+
   _renderHeader() {
     return (
       <Card.Section>
-        <Text text50 color={Colors.dark10}>
-          {this.props.titleEn}
-        </Text>
+        <View flex right={isRTL()}>
+          <Text style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}} text50 color={Colors.dark10}>
+            {this.title}
+          </Text>
+        </View>
       </Card.Section>
     );
   }
@@ -38,9 +48,9 @@ export class EventComponent extends Component {
   _renderBody() {
     return (
       <Card.Section>
-        <View column>
+        <View flex column right={isRTL()}>
           <Text text90 color={Colors.dark10}>
-            {this.props.descriptionEn}
+            {this.description}
           </Text>
           {this._renderTags()}
         </View>
@@ -86,3 +96,4 @@ export class EventComponent extends Component {
     );
   }
 }
+

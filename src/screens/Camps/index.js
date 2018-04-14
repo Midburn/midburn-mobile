@@ -5,6 +5,7 @@ import {connect} from 'remx';
 import CampRow from './CampRow';
 import * as store from '../../stores/campsAndArt/store';
 import * as actions from './../../stores/campsAndArt/actions';
+import {ART_PLACEHOLDER} from '../../../data/2018/images/arts';
 
 
 const SEARCH_BUTTON_ID = 'camp_search';
@@ -65,8 +66,12 @@ class CampsScreen extends Component {
     return (
       <CampRow
         campId={data.item.campId}
-        title={data.item.campName}
-        // tags={data.item.tags}
+        titleHeb={data.item.campName}
+        titleEn={'Camp Title'}
+        descriptionHeb={data.item.description}
+        descriptionEn={data.item.descriptionEn}
+        imageSource={ART_PLACEHOLDER}
+        tags={data.item.tags}
         onPress={this._onRowPressed}
       />
     );
@@ -106,7 +111,7 @@ class CampsScreen extends Component {
         data={this.props.campsData}
         renderItem={this._renderRow}
         keyExtractor={this._keyExtractor}
-        initialNumToRender={10}
+        initialNumToRender={30}
       />
     );
   }

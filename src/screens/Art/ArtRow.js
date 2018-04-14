@@ -3,6 +3,7 @@ import React, {PureComponent} from 'react';
 import {Image} from 'react-native';
 import {Text, View, Card} from 'react-native-ui-lib';
 import {tagToImg} from '../../../data/img';
+import {isRTL} from '../../utils/Strings';
 
 
 const AVARTAR_SIZE = 30;
@@ -13,6 +14,7 @@ export default class ArtRow extends PureComponent {
 
   constructor(props) {
     super(props);
+    this.title = isRTL() ? this.props.titleHeb : this.props.titleEn;
   }
 
   _onPress = () => {
@@ -24,7 +26,9 @@ export default class ArtRow extends PureComponent {
       <Card onPress={this._onPress} key={this.props.index} containerStyle={{marginBottom: 15}}>
         <Card.Image height={120} imageSource={this.props.imageSource} />
         <Card.Section style={{flexDirection: 'row', alignItems: 'center'}} body>
-          <Text text50>{this.props.title}</Text>
+          <View flex right={isRTL()}>
+            <Text text50>{this.title}</Text>
+          </View>
         </Card.Section>
 
       </Card>

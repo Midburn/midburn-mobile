@@ -7,6 +7,8 @@ import {getRandomCoverImage} from '../../../data/cover-images';
 import {EventsComponent} from './../Now/EventsComponent';
 import * as store from '../../stores/campsAndArt/store';
 import * as actions from '../../stores/campsAndArt/actions';
+import {isRTL} from '../../utils/Strings';
+
 
 // const COVER_IMAGE_EXAMPLE = require('./../../../data/cover-images/heart-1137259_1280.jpg');
 const SHARE_FEELINGS_TEXT = 'Share with us your feeling & thought about this camp';

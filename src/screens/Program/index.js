@@ -6,6 +6,7 @@ import {connect} from 'remx';
 import * as giftsStore from '../../stores/gifts/store';
 import SCREENS from './../../screens/screenNames';
 import {EventsComponent} from '../Now/EventsComponent';
+import {isRTL} from '../../utils/Strings';
 
 // const MIDBURN_STARTING_DATE = 1526299661000;
 // const MIDBURN_STARTING_DATE = 1522092866000; //fake date for presentation, set to 26.3
@@ -13,7 +14,9 @@ import {EventsComponent} from '../Now/EventsComponent';
 const {width} = Dimensions.get('window');
 
 
-const DAYS = ['MON, 14', 'TUE, 15', 'WED, 16', 'THU, 17', 'FRI, 19', 'SAT, 20'];
+const DAYS_EN = ['MON, 14', 'TUE, 15', 'WED, 16', 'THU, 17', 'FRI, 18', 'SAT, 19'];
+const DAYS_HEB = ['שני, 14', 'שלישי, 15', 'רביעי, 16', 'חמשיי, 17', 'שיש, 18', 'שבת, 19'];
+const DAYS = isRTL() ? DAYS_HEB: DAYS_EN;
 const BUTTON_TYPE = {
   PREV: 'prev',
   CURRENT: 'current',
@@ -108,11 +111,11 @@ class ProgramScreen extends Component {
 
     } else if (type === BUTTON_TYPE.NEXT && _.inRange(index+1, 0, DAYS.length-1)) {
       const label = DAYS[index+1];
-      return  `${label}>`
+      return  isRTL() ? `${label}` : `${label}>`
 
     } else if (type === BUTTON_TYPE.PREV && _.inRange(index-1, 0, DAYS.length)) {
       const label = DAYS[index-1];
-      return  `<${label}`
+      return isRTL() ? `${label}` : `<${label}`
     }
     return;
   }
@@ -121,7 +124,11 @@ class ProgramScreen extends Component {
     return (
       <View row spread paddingV-8>
         <View flex>
-          <Button link label={this.getDayLabel(index, BUTTON_TYPE.PREV)} onPress={this.onPrevPressed}/>
+          <Button link
+                  label={this.getDayLabel(index, BUTTON_TYPE.PREV)}
+                  onPress={this.onPrevPressed}
+                  labelStyle={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}
+          />
         </View>
         <View center flex>
           <Text>{this.getDayLabel(index, BUTTON_TYPE.CURRENT)}</Text>

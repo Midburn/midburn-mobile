@@ -60,7 +60,8 @@ class ArtScreen extends Component {
       <ArtRow
         data={data.item}
         campId={data.item.campId}
-        title={data.item.nameEn}
+        titleEn={data.item.nameEn}
+        titleHeb={data.item.name}
         tags={data.item.tags}
         imageSource={store.getters.getArtImage(data)}
         onPress={this._onRowPressed}
@@ -100,7 +101,7 @@ class ArtScreen extends Component {
         data={this.props.artData}
         renderItem={this._renderRow}
         keyExtractor={this._keyExtractor}
-        initialNumToRender={10}
+        initialNumToRender={50}
       />
     );
   }
