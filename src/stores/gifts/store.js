@@ -50,9 +50,7 @@ export const setters = remx.setters({
     formDay = toDay;
     toDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE).add(5, 'd');
     state.giftsDay5 = getters.getGiftsInRange(formDay, toDay);
-
-    ;
-  }
+  },
 });
 
 export const getters = remx.getters({

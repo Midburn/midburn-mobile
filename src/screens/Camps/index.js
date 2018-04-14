@@ -52,8 +52,8 @@ class CampsScreen extends Component {
   }
 
 
-  _onRowPressed = async (data) => {
-    actions.showCampScreen({data, navigator: this.props.navigator});
+  _onRowPressed = async (campId) => {
+    actions.showCampScreen({campId, navigator: this.props.navigator});
   }
 
   _onFavouriteFilterBarPressed = () => {

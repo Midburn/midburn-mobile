@@ -25,9 +25,16 @@ export const setters = remx.setters({
   setSearchArt(search) {
     state.searchArt = search;
   },
+  setGiftForCamp(campId, gifts) {
+    const camp = getters.getCampForId(campId);
+    camp.gifts = gifts;
+  }
 });
 
 export const getters = remx.getters({
+  getCamps() {
+    return state.camps;
+  },
   getSelectedTab() {
     return state.selectedTab;
   },
@@ -73,6 +80,10 @@ export const getters = remx.getters({
     const ans = ArtImages.getImageForArtId(id);
 
     return ans;
+  },
+  getCampGiftForId(campId) {
+    const camp = getters.getCampForId(campId);
+    return _.get(camp, 'gifts');
   }
 });
 

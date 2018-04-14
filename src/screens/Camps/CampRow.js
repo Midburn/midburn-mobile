@@ -21,7 +21,7 @@ export default class CampsTab extends PureComponent {
 
 
   _onPress = () => {
-    this.props.onPress(this.props.data);
+    this.props.onPress(this.props.campId);
   }
 
 

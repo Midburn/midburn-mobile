@@ -5,4 +5,5 @@ export function loadTabsData() {
   campsAndArtActions.loadCamps();
   campsAndArtActions.loadArt();
   giftsActions.loadGifts();
+  campsAndArtActions.setCampsGifts();
 }

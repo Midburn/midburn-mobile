@@ -5,6 +5,7 @@ import {Text, View, Button} from 'react-native-ui-lib';
 import {getRandomImage} from '../../../data/img';
 import {getRandomCoverImage} from '../../../data/cover-images';
 import {EventsComponent} from './../Now/EventsComponent';
+import * as store from '../../stores/campsAndArt/store';
 
 // const COVER_IMAGE_EXAMPLE = require('./../../../data/cover-images/heart-1137259_1280.jpg');
 const SHARE_FEELINGS_TEXT = 'Share with us your feeling & thought about this camp';
@@ -16,6 +17,17 @@ const IMAGE_SIZE = {
   height: height/3
 }
 export default class CampDetailsScreen extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      gifts: []
+    }
+  }
+
+  componentWillMount() {
+    this.setState({gifts: store.getters.getCampGiftForId(this.props.campId)});
+  }
 
   renderTextIfExists(description, data) {
     return data && <Text text80>{`${description}: ${data}`}</Text>
@@ -78,7 +90,7 @@ export default class CampDetailsScreen extends Component {
   renderGifts() {
     return (
       <EventsComponent
-        gifts={this.props.gifts}
+        gifts={this.state.gifts}
       />
     );
   }
