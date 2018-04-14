@@ -58,6 +58,7 @@ ext {
 }
 
 dependencies {
+    compile project(':react-native-device-info')
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "com.facebook.react:react-native:+"
     implementation "com.android.support:support-v4:$supportLibraryVersion"
