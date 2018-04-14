@@ -1,11 +1,12 @@
 import _ from 'lodash';
 import React, {Component} from 'react';
-import {ScrollView, Image, Dimensions} from 'react-native';
+import {ScrollView, Image, Dimensions, Linking} from 'react-native';
 import {Text, View, Button} from 'react-native-ui-lib';
 import {getRandomImage} from '../../../data/img';
 import {getRandomCoverImage} from '../../../data/cover-images';
 import {EventsComponent} from './../Now/EventsComponent';
 import * as store from '../../stores/campsAndArt/store';
+import * as actions from '../../stores/campsAndArt/actions';
 
 // const COVER_IMAGE_EXAMPLE = require('./../../../data/cover-images/heart-1137259_1280.jpg');
 const SHARE_FEELINGS_TEXT = 'Share with us your feeling & thought about this camp';
@@ -27,6 +28,11 @@ export default class CampDetailsScreen extends Component {
 
   componentWillMount() {
     this.setState({gifts: store.getters.getCampGiftForId(this.props.campId)});
+  }
+
+
+  _onSharePress = () => {
+    actions.openEmailFeedback({campId: this.props.campId});
   }
 
   renderTextIfExists(description, data) {
@@ -64,7 +70,7 @@ export default class CampDetailsScreen extends Component {
   renderSharingBlock() {
     return (
       <View bg-dark70 padding-10 marginT-12>
-        <Button link label={SHARE_FEELINGS_TEXT} labelProps={{numberOfLines: 2, center: true}}/>
+        <Button link label={SHARE_FEELINGS_TEXT} labelProps={{numberOfLines: 2, center: true}} onPress={this._onSharePress}/>
       </View>
     );
   }
@@ -87,7 +93,7 @@ export default class CampDetailsScreen extends Component {
     );
   }
 
-  renderGifts() {
+  renderGiftsList() {
     return (
       <EventsComponent
         gifts={this.state.gifts}
@@ -103,22 +109,27 @@ export default class CampDetailsScreen extends Component {
     );
   }
 
+  _renderGifts() {
+    return (
+      <View flex margin-16>
+        {this.renderGiftsHeader()}
+        {this.renderGiftsList()}
+      </View>
+    )
+  }
+
   render() {
     return (
       <View flex>
         <ScrollView style={{backgroundColor: '#F2F4F5'}}>
           {this.renderCoverImage()}
           <View flex margin-30 marginT-0>
-            {this.renderTitle()}
+            {this.props.title && this.renderTitle()}
             {this.renderIcons()}
-            {this.renderDescription()}
+            {this.props.description && this.renderDescription()}
             {this.renderSharingBlock()}
           </View>
-
-          <View flex margin-16>
-            {this.renderGiftsHeader()}
-            {this.renderGifts()}
-          </View>
+          {this.state.gifts && this._renderGifts()}
         </ScrollView>
       </View>
     );

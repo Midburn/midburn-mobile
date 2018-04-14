@@ -59,8 +59,14 @@ export const getters = remx.getters({
     return dataArray;
   },
   getCampForId(campId) {
-    return _.find(state.camps, (camp) => camp.campId === campId);
-
+    return getters.getObjectFromArrayForId(state.camps, 'campId', campId);
+    // return _.find(state.camps, (camp) => camp.campId === campId);
+  },
+  getArtForId(artId) {
+    return getters.getObjectFromArrayForId(state.art, 'artId', artId);
+  },
+  getObjectFromArrayForId(array, key, value) {
+    return _.find(array, (obj) => obj[key]=== value);
   },
   getCampTitle(campId) {
     const camp = getters.getCampForId(campId);
