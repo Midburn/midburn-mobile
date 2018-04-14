@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-const ART_PLACEHOLDER = require('./../../../cover-images/cover1.jpg');
+export const ART_PLACEHOLDER = require('./../../../cover-images/cover1.jpg');
 
 
 const IMAGES = {
