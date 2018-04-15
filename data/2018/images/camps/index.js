@@ -1,5 +1,4 @@
 import _ from 'lodash';
-import {ART_PLACEHOLDER} from "../arts";
 
 export const CAMPS_PLACEHOLDER = require('./../../../cover-images/cover1.jpg');
 
