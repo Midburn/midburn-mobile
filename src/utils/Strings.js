@@ -5,7 +5,7 @@ let locale;
 
 export function getLocale() {
   if (!locale) {
-    locale = DeviceInfo.getDeviceLocale();
+    locale = DeviceInfo.getDeviceLocale().slice(0, 2);
   }
   locale = locale === 'he' ? 'he' : DEFAULT_LOCALE;
 
