@@ -15,6 +15,8 @@
 
 #import "RCCManager.h"
 
+#import "SplashScreen.h"
+
 
 @implementation AppDelegate
 
@@ -30,6 +32,8 @@
   self.window.backgroundColor = [UIColor whiteColor];
   [[RCCManager sharedInstance] initBridgeWithBundleURL:jsCodeLocation launchOptions:launchOptions];
 
+  [SplashScreen show];
+  
   return YES;
 }
 

@@ -1,12 +1,13 @@
 package com.midburnmobileapp;
-
-
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
+import com.learnium.RNDeviceInfo.RNDeviceInfo;
 
 import android.support.annotation.Nullable;
 
 import com.facebook.react.ReactPackage;
 import com.reactnativenavigation.NavigationApplication;
 
+import java.util.Arrays;
 import java.util.List;
 
 public class MainApplication extends NavigationApplication {
@@ -19,7 +20,10 @@ public class MainApplication extends NavigationApplication {
   @Nullable
   @Override
   public List<ReactPackage> createAdditionalReactPackages() {
-    return null;
+    return Arrays.<ReactPackage>asList(
+            new SplashScreenReactPackage(),
+            new RNDeviceInfo()
+    );
   }
 
     @Nullable
