@@ -120,12 +120,14 @@ const extractGiftData = gift => {
             campId: '',
             giftId: randomUUID(),
             campName: gift['שם המחנה'],
+            campNameEn: gift['שם המחנה'],
             description: gift['תיאור הפעילות בעברית'],
             descriptionEn: gift['תיאור הפעילות באנגלית'],
             title: gift['תיאור הפעילות בעברית'],
             titleEn: gift['תיאור הפעילות באנגלית'],
             time: date.getTime() / 1000,
             locationName: gift['שם המחנה'],
+            locationNameEn: gift['שם המחנה'],
             tags: giftTags
         }
     });
@@ -154,8 +156,11 @@ const extractArtData = async art => {
         title: art['Subtitle'],
         titleEn: art['En subtitle'],
         description: art['Description'],
+        descriptionEn: art['Description'],
         artist: art['Contact name'],
+        artistEn: art['Contact name'],
         philosophy: art['Dreamprop philosophy'],
+        philosophyEn: art['Dreamprop philosophy'],
         images: imageUrls.map(art => art.name),
     }
 };
@@ -236,12 +241,15 @@ const downloadImageForCamp = async (campId, coverUrl) => {
         return "";
     }
 
+    const baseDir = path.resolve(path.join('..', '2018', 'images', 'camps', `${campId}`));
+    await ensureDir(baseDir);
+    const file = path.resolve(path.join(baseDir, 'coverUrl.png'));
+    const imageId = coverUrl.split('=')[1];
     await download.image({
-        url: `https://www.googleapis.com/drive/v3/files/${googleDriverFileId}?key=${googleApiKey}`,
-        // url: `https://googledrive.com/host/${googleDriverFileId}`,
-        dest: path.join(__baseDir, 'coverUrl.jpg'),
+        url: `https://drive.google.com/uc?export=download&id=${imageId}`,
+        dest: file,
     });
-    return `2018/camps/images/${campId}/coverUrl.jpg`
+    return `2018/images/camps/${campId}/coverUrl.jpg`
 };
 
 
@@ -254,13 +262,12 @@ const extractCampsData = camp => {
     const parsedTags = extractCampTags(tags, disabledOptions, kidsOptions);
 
     const coverUrl = camp['השנה התוכניה תופיע גם באופציה דיגיטלית. לצורך כך נשמח לקבל מכם תמונה שמייצגת את הקאמפ. בסגנון סמל הקאמפ, חברי הקאמפ או כל דבר שלדעתכם יעביר את רוח הקאמפ.'];
-    // const imageName = await downloadImageForCamp(campId, coverUrl);
-    const imageName = coverUrl;
-
+    const imageName = downloadImageForCamp(campId, coverUrl);
 
     return {
         campId: campId,
         campName: camp['שם המחנה'],
+        campNameEn: camp['שם המחנה'],
         description: camp['תיאור המחנה בעברית'],
         descriptionEn: camp['תיאור המחנה באנגלית'],
         coverUrl: imageName,
