@@ -47,24 +47,6 @@ export default class CampsTab extends PureComponent {
 
   }
 
-
-  _renderSidePanel() {
-    return (
-      <View style={{width: AVATAR_CONTAINER_WIDTH, flexWrap: 'wrap', alignContent: 'flex-end'}} row spread>
-        {_.map(this.tags, (src, key) => {
-          return (
-            <Image
-              key={key}
-              source={src}
-              style={{width: AVARTAR_SIZE, height: AVARTAR_SIZE, margin: AVATAR_MARGIN}}
-            />
-          );
-        })}
-      </View>
-
-    );
-  }
-
   _renderTexts() {
     return (
       <View right={isRTL()}>

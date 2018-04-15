@@ -70,7 +70,7 @@ class CampsScreen extends Component {
         titleEn={'Camp Title'}
         descriptionHeb={data.item.description}
         descriptionEn={data.item.descriptionEn}
-        imageSource={ART_PLACEHOLDER}
+        imageSource={store.getters.getCampImage(data)}
         tags={data.item.tags}
         onPress={this._onRowPressed}
       />

@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import * as remx from 'remx';
 import * as ArtImages from '../../../data/2018/images/arts';
+import * as CampsImages from '../../../data/2018/images/camps';
 
 
 const state = remx.state({
@@ -87,10 +88,26 @@ export const getters = remx.getters({
 
     return ans;
   },
+  getCampImage(data) {
+
+    const id = _.get(data, 'item.campId');
+    const coverImageName = _.get(data, 'coverUrl');
+
+    // if (coverImageName !== 'coverUrl.jpg') {
+    //   return;
+    // }
+    // if (!_.includes(tempArr, id)) {
+    //   console.log(`\"${id}\": require('./${id}/coverUrl.jpg'),`);
+    //   tempArr.push(id);
+    // }
+
+    const ans = CampsImages.getImageForCampId(id);
+    return ans;
+  },
   getCampGiftForId(campId) {
     const camp = getters.getCampForId(campId);
     return _.get(camp, 'gifts');
   }
 });
-
-// const tempArr = [];
+//
+const tempArr = [];
