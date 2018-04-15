@@ -241,15 +241,19 @@ const downloadImageForCamp = async (campId, coverUrl) => {
         return "";
     }
 
+    // Compress bash with Imagemagik
+    //find . -type f -iname "*.jpg" -exec convert \{\} -resize 750x444\> -sharpen 1.5 -quality 80 \{\} \;
+
+    const fileName = 'coverUrl.jpg'
     const baseDir = path.resolve(path.join('..', '2018', 'images', 'camps', `${campId}`));
     await ensureDir(baseDir);
-    const file = path.resolve(path.join(baseDir, 'coverUrl.png'));
+    const file = path.resolve(path.join(baseDir, fileName));
     const imageId = coverUrl.split('=')[1];
     await download.image({
         url: `https://drive.google.com/uc?export=download&id=${imageId}`,
         dest: file,
     });
-    return `2018/images/camps/${campId}/coverUrl.jpg`
+    return fileName
 };
 
 
