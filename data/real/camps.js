@@ -253,7 +253,7 @@ const downloadImageForCamp = async (campId, coverUrl) => {
 };
 
 
-const extractCampsData = camp => {
+const extractCampsData = async camp => {
 
     const campId = randomUUID();
     const tags = camp['סוג המחנה - בחרו עד 3 אייקונים שמציגים אתכם בצורה הטובה ביותר וממצים את הפעילויות שאתם עושים (שימו לב בחירה של יותר מ-3 אפשרויות תוביל ללקיחת 3 האפשרויות הראשונות שנבחרו) רוצים לבחור אפשרות רביעית? רשמו לנו בהערות למטה.'];
@@ -262,7 +262,7 @@ const extractCampsData = camp => {
     const parsedTags = extractCampTags(tags, disabledOptions, kidsOptions);
 
     const coverUrl = camp['השנה התוכניה תופיע גם באופציה דיגיטלית. לצורך כך נשמח לקבל מכם תמונה שמייצגת את הקאמפ. בסגנון סמל הקאמפ, חברי הקאמפ או כל דבר שלדעתכם יעביר את רוח הקאמפ.'];
-    const imageName = downloadImageForCamp(campId, coverUrl);
+    const imageName = await downloadImageForCamp(campId, coverUrl);
 
     return {
         campId: campId,
@@ -284,7 +284,8 @@ const writeJsonFile = async (fileName, data) => {
 
 const mainProcess = async () => {
     const camps = await readJsonFile('camps.json');
-    const campsProcessed = camps.map( extractCampsData );
+    //Promise.all( arts.map(async art => await extractArtData(art)) );
+    const campsProcessed = await Promise.all( camps.map(async c => extractCampsData(c) ) );
 
     const giftsRaw = await readJsonFile('gifts.json');
     const gifts = Object.keys(giftsRaw).map((key) => giftsRaw[key] );
@@ -294,10 +295,10 @@ const mainProcess = async () => {
     await writeJsonFile('camps.json', campsProcessed);
     await writeJsonFile('gifts.json', giftsProcessed);
 
-    const artsRaw = await readJsonFile('art.json');
-    const arts = Object.keys(artsRaw).map((key) => artsRaw[key] );
-    const artsProcessed = await Promise.all( arts.map(async art => await extractArtData(art)) );
-    await writeJsonFile('arts.json', artsProcessed);
+    // const artsRaw = await readJsonFile('art.json');
+    // const arts = Object.keys(artsRaw).map((key) => artsRaw[key] );
+    // const artsProcessed = await Promise.all( arts.map(async art => await extractArtData(art)) );
+    // await writeJsonFile('arts.json', artsProcessed);
 };
 
 mainProcess()
