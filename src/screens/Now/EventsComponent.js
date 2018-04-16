@@ -4,6 +4,7 @@ import {Text, View, Button, Card, Colors} from 'react-native-ui-lib';
 import _ from 'lodash';
 import {connect} from 'remx';
 import {EventComponent} from '../components/EventComponent';
+import {getHourForTime} from '../../utils/Time';
 
 export class EventsComponent extends Component {
 
@@ -22,8 +23,9 @@ export class EventsComponent extends Component {
                       titleEn={gift.item.titleEn}
                       titleHeb={gift.item.title}
                       place={gift.item.locationName}
-                      time={gift.item.hour}
-                      address={'9:30'}
+                      time={getHourForTime(gift.item.time)}
+                      addressEn={gift.item.locationNameEn}
+                      addressHeb={gift.item.locationName}
                       descriptionEn={gift.item.descriptionEn}
                       descriptionHeb={gift.item.description}
                       color={gift.item.color}
