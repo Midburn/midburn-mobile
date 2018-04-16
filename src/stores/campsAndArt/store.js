@@ -88,11 +88,14 @@ export const getters = remx.getters({
 
     return ans;
   },
-  getCampImage(data) {
-
-    const id = _.get(data, 'item.campId');
-    const coverImageName = _.get(data, 'coverUrl');
-
+  getCampImage({data, campId}) {
+    let id;
+    if (data) {
+      id = _.get(data, 'item.campId');
+    } else if (campId) {
+      id = campId;
+    }
+    // const coverImageName = _.get(data, 'coverUrl');
     // if (coverImageName !== 'coverUrl.jpg') {
     //   return;
     // }

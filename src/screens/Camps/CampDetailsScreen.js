@@ -12,13 +12,14 @@ import {isRTL} from '../../utils/Strings';
 
 // const COVER_IMAGE_EXAMPLE = require('./../../../data/cover-images/heart-1137259_1280.jpg');
 const SHARE_FEELINGS_TEXT = 'Share with us your feeling & thought about this camp';
-const {height, width} = Dimensions.get('window');
+const {width} = Dimensions.get('window');
 const ICON_SIZE = 30;
 
 const IMAGE_SIZE = {
   width,
-  height: height/3
-}
+  height: width
+};
+
 export default class CampDetailsScreen extends Component {
 
   constructor(props) {
@@ -44,10 +45,11 @@ export default class CampDetailsScreen extends Component {
 
   renderCoverImage() {
     return (
-      <View>
+      <View bg-black>
         <Image
+          resizeMode={'contain'}
           style={{width: IMAGE_SIZE.width, height: IMAGE_SIZE.height}}
-          source={getRandomCoverImage()}
+          source={this.props.coverImage}
         />
       </View>
     );

@@ -21,13 +21,15 @@ export function showCampScreen({campId, navigator}) {
   const title = _.get(camp, 'campName');
   const description = _.get(camp, 'description');
   const tags = _.get(camp, 'tags');
+  const coverImage = store.getters.getCampImage({campId});
   navigator.push({
     screen: SCREEN_NAMES.CAMP_SCREEN,
     passProps: {
       title,
       description,
       tags,
-      campId
+      campId,
+      coverImage
     },
     title
   });
