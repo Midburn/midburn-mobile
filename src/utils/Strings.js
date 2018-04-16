@@ -9,6 +9,7 @@ export function getLocale() {
   }
   locale = locale === 'he' ? 'he' : DEFAULT_LOCALE;
 
+  // return 'he';
   return locale;
 }
 

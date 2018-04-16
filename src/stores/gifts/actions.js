@@ -6,7 +6,7 @@ import * as _ from 'lodash';
 export function loadGifts() {
   const gifts = require('../../../data/2018/gifts');
   gifts.forEach(gift => {
-    gift.color = getRandomColor();
+    // gift.color = getRandomColor();
     gift.hour = moment(gift.time, 'x').format("HH:mm");
     gift.dateString = moment(gift.time, 'x').format('YYYY-MM-DD');
   });
