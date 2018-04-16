@@ -31,12 +31,14 @@ export function showCampScreen({campId, navigator}) {
       campId,
       coverImage
     },
+    navigatorStyle: {
+      tabBarHidden: true
+    },
     title
   });
 }
 
 export function showFavouritesScreen(navigator, screen, renderRow, onRowPressed) {
-
   navigator.showModal({
     screen: SCREEN_NAMES.FAVOURITES,
     passProps: {
@@ -44,7 +46,6 @@ export function showFavouritesScreen(navigator, screen, renderRow, onRowPressed)
       renderRow,
       onRowPressed
     }
-
   })
 }
 
