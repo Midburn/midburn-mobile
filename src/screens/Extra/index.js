@@ -9,6 +9,7 @@ const IMPORTANT_PHONES = 'Important Phone';
 const MIDBURN_PRINCIPLES = 'Midburn Principles';
 const MAP =  'Map';
 const SETTINGS = 'Settings';
+const OPEN_SOURCES = 'Open Sources';
 
 const RIGHT_CHEVRON = require('../../../data/img/right-chevron.png');
 
@@ -21,11 +22,13 @@ const ds = new ListView.DataSource({
 const ITEMS = ds.cloneWithRows([
   {
     image: '',
-    text: IMPORTANT_PHONES
+    text: IMPORTANT_PHONES,
+
   },
   {
     image: '',
     text: MIDBURN_PRINCIPLES,
+    screen: SCREENS.PRINCIPLES
   },
   {
     image: '',
@@ -34,15 +37,24 @@ const ITEMS = ds.cloneWithRows([
   {
     image: '',
     text: SETTINGS,
+  },
+  {
+    image: '',
+    text: OPEN_SOURCES,
+    screen: SCREENS.OPEN_SOURCES,
+    title: OPEN_SOURCES
   }
 ]);
 
 
 export default class ExtraScreen extends Component {
 
-  onPrinciplesPressed = (i) => {
+  onPressed = (item) => {
+
+
     this.props.navigator.push({
-      screen: SCREENS.PRINCIPLES
+      screen: item.screen,
+      title: item.title
     })
   }
 
@@ -53,7 +65,7 @@ export default class ExtraScreen extends Component {
         activeBackgroundColor={Colors.dark60}
         activeOpacity={0.3}
         height={77.5}
-        onPress={this.onPrinciplesPressed}
+        onPress={() => this.onPressed(item)}
         animation="fadeIn"
         easing="ease-out-expo"
         duration={1000}
@@ -77,6 +89,7 @@ export default class ExtraScreen extends Component {
             <Image style={{width: 20, height: 20}} source={RIGHT_CHEVRON}/>
           </View>
         </ListItem.Part>
+
 
         <View bg-black style={{height: 1}}/>
       </ListItem>

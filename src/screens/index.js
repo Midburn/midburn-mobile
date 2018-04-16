@@ -11,6 +11,7 @@ import CampDetailsScreen from './Camps/CampDetailsScreen'
 import FilterTagsScreen from './FilterTags'
 import FavouritesScreen from './Favourites'
 import {EventDetailsModal} from './Program/EventDetailsModal';
+import OpenSourcesScreen from './OpenSources';
 
 // register all screens of the app (including internal ones)
 export function registerContainers() {
@@ -26,4 +27,5 @@ export function registerContainers() {
 
   Navigation.registerComponent(SCREENS.CAMP_SCREEN, () => CampDetailsScreen);
   Navigation.registerComponent(SCREENS.EVENT_DETAILS, () => EventDetailsModal);
+  Navigation.registerComponent(SCREENS.OPEN_SOURCES, () => OpenSourcesScreen);
 }
