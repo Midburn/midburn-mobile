@@ -7,15 +7,16 @@ import {EventsComponent} from './EventsComponent';
 
 class NowScreen extends Component {
 
-  static navigatorButtons = {
-    rightButtons: [
-      {
-        id: 'surprise_me',
-        title: 'Now',
-        icon: require('../../../data/img/present_new.png'),
-      },
-    ]
-  };
+  // RANG - V2
+  // static navigatorButtons = {
+  //   rightButtons: [
+  //     {
+  //       id: 'surprise_me',
+  //       title: 'Now',
+  //       icon: require('../../../data/img/present_new.png'),
+  //     },
+  //   ]
+  // };
 
   render() {
     return (
