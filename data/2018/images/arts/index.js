@@ -1,6 +1,6 @@
 import _ from 'lodash';
 
-export const ART_PLACEHOLDER = require('./../../../cover-images/cover1.jpg');
+export const ART_PLACEHOLDER = require('./../midburn_logo.png');
 
 
 const IMAGES = {
