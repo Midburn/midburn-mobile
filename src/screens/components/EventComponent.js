@@ -16,6 +16,7 @@ export class EventComponent extends Component {
     super(props);
     this.title = getString(this.props.titleHeb, this.props.titleEn);
     this.description = getString(this.props.descriptionHeb, this.props.descriptionEn);
+    this.address = getString(this.props.addressHeb, this.props.addressEn);
   }
 
   _renderHeader() {
@@ -62,14 +63,14 @@ export class EventComponent extends Component {
     return (
       <Card.Section footer>
         <Card.Item>
-          <Text text90 color={this.props.color}>
+          <Text text90 color={this.props.color} style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>
             {this.props.place + ' | '}
           </Text>
           <Text text90 color={'black'}> {this.props.time}</Text>
         </Card.Item>
         <Card.Item>
           <Text style={{marginRight: 10}} text90>
-            {this.props.address}
+            {this.address}
           </Text>
         </Card.Item>
       </Card.Section>
