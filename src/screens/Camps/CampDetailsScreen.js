@@ -30,12 +30,12 @@ export default class CampDetailsScreen extends Component {
   }
 
   componentWillMount() {
-    this.setState({gifts: store.getters.getCampGiftForId(this.props.campId)});
+    this.setState({gifts: store.getters.getCampGiftForId(this.props.camp.campId)});
   }
 
 
   _onSharePress = () => {
-    actions.openEmailFeedback({campId: this.props.campId});
+    actions.openEmailFeedback({campId: this.props.camp.campId});
   }
 
   renderTextIfExists(description, data) {
@@ -58,7 +58,7 @@ export default class CampDetailsScreen extends Component {
   renderDescription() {
     return (
       <View marginT-20>
-        <Text text70>{this.props.description}</Text>
+        <Text text70>{this.props.camp.description}</Text>
       </View>
     );
   }
@@ -66,7 +66,7 @@ export default class CampDetailsScreen extends Component {
   renderTitle() {
     return (
       <View center marginT-30>
-        <Text text40>{this.props.title}</Text>
+        <Text text40>{this.props.camp.title}</Text>
       </View>
     );
   }
@@ -82,7 +82,7 @@ export default class CampDetailsScreen extends Component {
   renderIcons() {
     return (
       <View row marginT-30>
-        {_.map(this.props.tags, (tag, i) => {
+        {_.map(this.props.camp.tags, (tag, i) => {
             return (
               <View marginR-6 key={i}>
                 <Image
@@ -128,9 +128,9 @@ export default class CampDetailsScreen extends Component {
         <ScrollView style={{backgroundColor: '#F2F4F5'}}>
           {this.renderCoverImage()}
           <View flex margin-30 marginT-0>
-            {this.props.title && this.renderTitle()}
+            {this.props.camp.title && this.renderTitle()}
             {this.renderIcons()}
-            {this.props.description && this.renderDescription()}
+            {this.props.camp.description && this.renderDescription()}
             {this.renderSharingBlock()}
           </View>
           {this.state.gifts && this._renderGifts()}

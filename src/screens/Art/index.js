@@ -46,8 +46,8 @@ class ArtScreen extends Component {
   }
 
 
-  _onRowPressed = async (data) => {
-    actions.showCampScreen({data, navigator: this.props.navigator});
+  _onRowPressed = async (art) => {
+    actions.showArtScreen({art, navigator: this.props.navigator});
   }
 
   _onFavouriteFilterBarPressed = () => {
@@ -59,12 +59,10 @@ class ArtScreen extends Component {
     return (
       <ArtRow
         data={data.item}
-        campId={data.item.campId}
-        titleEn={data.item.nameEn}
-        titleHeb={data.item.name}
+        title={data.item.name}
         tags={data.item.tags}
-        imageSource={store.getters.getArtImage(data)}
-        onPress={this._onRowPressed}
+        imageSource={store.getters.getArtImage(data.item.artId)}
+        onPress={() => this._onRowPressed(data.item)}
       />
     );
   }
@@ -119,7 +117,6 @@ class ArtScreen extends Component {
 
 function mapStateToProps() {
   return {
-    campsData: store.getters.getCampsDataToShow(),
     artData: store.getters.getArtDataToShow(),
     searchText: store.getters.getSearchText(),
     selectedTab: store.getters.getSelectedTab(),

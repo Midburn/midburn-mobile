@@ -14,20 +14,15 @@ export default class ArtRow extends PureComponent {
 
   constructor(props) {
     super(props);
-    this.title = isRTL() ? this.props.titleHeb : this.props.titleEn;
-  }
-
-  _onPress = () => {
-    this.props.onPress(this.props.artId);
   }
 
   render() {
     return (
-      <Card onPress={this._onPress} key={this.props.index} containerStyle={{marginBottom: 15}}>
+      <Card onPress={this.props.onPress} key={this.props.index} containerStyle={{marginBottom: 15}}>
         <Card.Image height={120} imageSource={this.props.imageSource} />
         <Card.Section style={{flexDirection: 'row', alignItems: 'center'}} body>
           <View flex right={isRTL()}>
-            <Text text50>{this.title}</Text>
+            <Text text50>{this.props.title}</Text>
           </View>
         </Card.Section>
 

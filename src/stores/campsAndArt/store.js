@@ -76,35 +76,13 @@ export const getters = remx.getters({
   getSelectedTagIndex() {
     return state.selectedTagIndex
   },
-  getArtImage(data) {
-
-    const id = _.get(data, 'item.artId');
-    // if (!_.includes(tempArr, id)) {
-    //   console.log(`${id}: require('./${id}/art1.jpg'),`);
-    //   tempArr.push(id);
-    // }
-
-    const ans = ArtImages.getImageForArtId(id);
+  getArtImage(artId) {
+    const ans = ArtImages.getImageForArtId(artId);
 
     return ans;
   },
-  getCampImage({data, campId}) {
-    let id;
-    if (data) {
-      id = _.get(data, 'item.campId');
-    } else if (campId) {
-      id = campId;
-    }
-    // const coverImageName = _.get(data, 'coverUrl');
-    // if (coverImageName !== 'coverUrl.jpg') {
-    //   return;
-    // }
-    // if (!_.includes(tempArr, id)) {
-    //   console.log(`\"${id}\": require('./${id}/coverUrl.jpg'),`);
-    //   tempArr.push(id);
-    // }
-
-    const ans = CampsImages.getImageForCampId(id);
+  getCampImage(campId) {
+    const ans = CampsImages.getImageForCampId(campId);
     return ans;
   },
   getCampGiftForId(campId) {

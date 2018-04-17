@@ -18,13 +18,11 @@ export default class CampsTab extends PureComponent {
 
   constructor(props) {
     super(props);
-    this.tags = this.props.tags || _.times(getRandomInt(1, 6), getRandomImage);
-    this.title = isRTL() ? this.props.titleHeb : this.props.titleEn;
-    this.description = isRTL() ? this.props.descriptionHeb : this.props.descriptionEn;
+    this.tags = this.props.camp.tags || _.times(getRandomInt(1, 6), getRandomImage);
   }
 
   _onPress = () => {
-    this.props.onPress(this.props.campId);
+    this.props.onPress(this.props.camp);
   }
 
   _renderTag(text, index) {
@@ -50,8 +48,8 @@ export default class CampsTab extends PureComponent {
   _renderTexts() {
     return (
       <View right={isRTL()}>
-        <Text text60>{this.title}</Text>
-        <Text text70 marginT-12>{this.descriptionEn}</Text>
+        <Text text60>{this.props.camp.title}</Text>
+        <Text text70 marginT-12>{this.props.camp.description}</Text>
       </View>
     );
   }

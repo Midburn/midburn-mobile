@@ -4,37 +4,67 @@ import SCREEN_NAMES from "../../screens/screenNames";
 import _ from 'lodash';
 import {Linking} from 'react-native';
 import * as DeviceInfo from 'react-native-device-info';
+import {isRTL} from '../../utils/Strings';
 
 
 export function loadCamps() {
   const data = require('../../../data/2018/camps');
-  store.setters.setCamps(data);
+  const localizedData = _.map(data, (camp) => {
+    if (isRTL()) {
+      camp.title = camp.campName;
+      camp.description = camp.description;
+    } else {
+      camp.title = camp.campNameEn;
+      camp.description = camp.descriptionEn;
+    }
+
+    return camp;
+  });
+
+  store.setters.setCamps(localizedData);
 }
 
 export function loadArt() {
   const data = require('../../../data/2018/arts');
-  store.setters.setArt(data);
+  const localizedData = _.map(data, (art) => {
+    if (isRTL()) {
+      art.title = art.title;
+      art.name = art.name;
+    } else {
+      art.title = art.titleEn;
+      art.name = art.nameEn;
+    }
+
+    return art;
+  });
+  store.setters.setArt(localizedData);
 }
 
-export function showCampScreen({campId, navigator}) {
-  const camp = store.getters.getCampForId(campId);
-  const title = _.get(camp, 'campName');
-  const description = _.get(camp, 'description');
-  const tags = _.get(camp, 'tags');
-  const coverImage = store.getters.getCampImage({campId});
+export function showCampScreen({camp, navigator}) {
+  const coverImage = store.getters.getCampImage(camp.campId);
   navigator.push({
     screen: SCREEN_NAMES.CAMP_SCREEN,
     passProps: {
-      title,
-      description,
-      tags,
-      campId,
+      camp,
       coverImage
     },
     navigatorStyle: {
       tabBarHidden: true
     },
-    title
+    title: camp.title
+  });
+}
+
+export function showArtScreen({art, navigator}) {
+  navigator.push({
+    screen: SCREEN_NAMES.ART_SCREEN,
+    passProps: {
+      art
+    },
+    navigatorStyle: {
+      tabBarHidden: true
+    },
+    title: art.name
   });
 }
 

@@ -4,6 +4,7 @@ import CampsScreen from './Camps';
 import SecondTab from './Program';
 import MapScreen from './Map';
 import ArtScreen from './Art';
+import ArtDetailsScreen from './Art/ArtDetailsScreen';
 import ExtraScreen from './Extra';
 import NowScreen from './Now';
 import PrinciplesScreen from './Extra/PrinciplesScreen';
@@ -26,6 +27,7 @@ export function registerContainers() {
   Navigation.registerComponent(SCREENS.FAVOURITES, () => FavouritesScreen);
 
   Navigation.registerComponent(SCREENS.CAMP_SCREEN, () => CampDetailsScreen);
+  Navigation.registerComponent(SCREENS.ART_SCREEN, () => ArtDetailsScreen);
   Navigation.registerComponent(SCREENS.EVENT_DETAILS, () => EventDetailsModal);
   Navigation.registerComponent(SCREENS.OPEN_SOURCES, () => OpenSourcesScreen);
 }

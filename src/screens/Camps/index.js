@@ -53,8 +53,8 @@ class CampsScreen extends Component {
   }
 
 
-  _onRowPressed = async (campId) => {
-    actions.showCampScreen({campId, navigator: this.props.navigator});
+  _onRowPressed = async (camp) => {
+    actions.showCampScreen({camp, navigator: this.props.navigator});
   }
 
   _onFavouriteFilterBarPressed = () => {
@@ -65,13 +65,8 @@ class CampsScreen extends Component {
   _renderRow = (data) => {
     return (
       <CampRow
-        campId={data.item.campId}
-        titleHeb={data.item.campName}
-        titleEn={'Camp Title'}
-        descriptionHeb={data.item.description}
-        descriptionEn={data.item.descriptionEn}
-        imageSource={store.getters.getCampImage({data})}
-        tags={data.item.tags}
+        camp={data.item}
+        imageSource={store.getters.getCampImage(data.item.campId)}
         onPress={this._onRowPressed}
       />
     );
