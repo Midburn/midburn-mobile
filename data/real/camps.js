@@ -30,7 +30,10 @@ const applyGeneratedCampIds = (camps, gifts) => {
         if (giftsForCamp.isEmpty) {
             console.log(`cannot find match for ${camp.campName}`)
         }
-        giftsForCamp.forEach( g => g.campId = camp.campId );
+        giftsForCamp.forEach( g => {
+            g.campId = camp.campId
+            g.campNameEn = camp.campName
+        } );
         camp.gifts = giftsForCamp.map(gift => gift.giftId);
     })
 };
@@ -271,7 +274,7 @@ const extractCampsData = async camp => {
     return {
         campId: campId,
         campName: camp['שם המחנה'],
-        campNameEn: camp['שם המחנה'],
+        campNameEn: camp['שם מחנה אנגלית'],
         description: camp['תיאור המחנה בעברית'],
         descriptionEn: camp['תיאור המחנה באנגלית'],
         coverUrl: imageName,
