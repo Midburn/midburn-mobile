@@ -38,5 +38,13 @@
   "MIDBURN_PRINCIPLES": {
     "he": "עשרת עקרונות המידברן",
     "en": "10 Midburn Principles"
+  },
+  "FEEDBACK": {
+    "he": "נשמח לשמוע מה דעתך",
+    "en": "Give us a feedback"
+  },
+  "SAFETY": {
+    "he": "בטיחות",
+    "en": "Safety"
   }
 }

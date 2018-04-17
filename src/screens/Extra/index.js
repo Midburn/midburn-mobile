@@ -25,12 +25,17 @@ const ITEMS = ds.cloneWithRows([
   {
     image: '',
     text: Strings('PHONES'),
-
   },
   {
     image: '',
     text: Strings('MIDBURN_PRINCIPLES'),
     screen: SCREENS.PRINCIPLES
+  },
+  {
+    image: '',
+    text: Strings('SAFETY'),
+    screen: SCREENS.SAFETY,
+    title: Strings('SAFETY')
   },
   {
     image: '',
@@ -42,6 +47,13 @@ const ITEMS = ds.cloneWithRows([
   //   text: Strings('SETTINGS'),
   //   screen: SCREENS.PRINCIPLES
   // },
+  ,
+  {
+    image: '',
+    text: Strings('FEEDBACK'),
+    screen: SCREENS.APP_FEEDBACK,
+    title: Strings('FEEDBACK')
+  },
   {
     image: '',
     text: Strings('OPEN_SOURCES'),
@@ -67,13 +79,8 @@ export default class ExtraScreen extends Component {
       <ListItem
         key={i}
         activeBackgroundColor={Colors.dark60}
-        activeOpacity={0.3}
         height={77.5}
         onPress={() => this.onPressed(item)}
-        animation="fadeIn"
-        easing="ease-out-expo"
-        duration={1000}
-        useNativeDriver
       >
 
 
