@@ -3,6 +3,8 @@ import React, {Component} from 'react';
 import {StyleSheet, ListView} from 'react-native';
 import {Text, View, Button, ListItem, Colors, Image} from 'react-native-ui-lib';
 import {getRandomImage} from '../../../data/img';
+import Strings from './../../utils/Strings';
+
 
 import SCREENS from './../../screens/screenNames';
 const IMPORTANT_PHONES = 'Important Phone';
@@ -22,27 +24,29 @@ const ds = new ListView.DataSource({
 const ITEMS = ds.cloneWithRows([
   {
     image: '',
-    text: IMPORTANT_PHONES,
+    text: Strings('PHONES'),
 
   },
   {
     image: '',
-    text: MIDBURN_PRINCIPLES,
+    text: Strings('MIDBURN_PRINCIPLES'),
     screen: SCREENS.PRINCIPLES
   },
   {
     image: '',
-    text: MAP,
+    text: Strings('MAP'),
+    screen: SCREENS.MAP
   },
   {
     image: '',
-    text: SETTINGS,
+    text: Strings('SETTINGS'),
+    screen: SCREENS.PRINCIPLES
   },
   {
     image: '',
-    text: OPEN_SOURCES,
+    text: Strings('OPEN_SOURCES'),
     screen: SCREENS.OPEN_SOURCES,
-    title: OPEN_SOURCES
+    title: Strings('OPEN_SOURCES')
   }
 ]);
 
@@ -71,16 +75,11 @@ export default class ExtraScreen extends Component {
         duration={1000}
         useNativeDriver
       >
-        <ListItem.Part left>
-          <View paddingL-16>
-            <Image style={{width: 40, height: 40}} source={getRandomImage()}/>
-          </View>
-        </ListItem.Part>
 
 
         <ListItem.Part middle>
           <View paddingL-16>
-            <Text>{item.text}</Text>
+            <Text text60>{item.text}</Text>
           </View>
         </ListItem.Part>
 
@@ -89,7 +88,6 @@ export default class ExtraScreen extends Component {
             <Image style={{width: 20, height: 20}} source={RIGHT_CHEVRON}/>
           </View>
         </ListItem.Part>
-
 
         <View bg-black style={{height: 1}}/>
       </ListItem>
