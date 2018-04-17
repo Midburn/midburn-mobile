@@ -4,7 +4,7 @@ export const CAMP_PLACEHOLDER = require('./../midburn_logo.png');
 
 
 const IMAGES = {
-  '018c2fa1-e0cc-4208-a3f8-72ee4ed8a750': require('./018c2fa1-e0cc-4208-a3f8-72ee4ed8a750/coverUrl.jpg'),
+  // '018c2fa1-e0cc-4208-a3f8-72ee4ed8a750': require('./018c2fa1-e0cc-4208-a3f8-72ee4ed8a750/coverUrl.jpg'),
   '128725bc-ed85-414b-b013-4f6a1bccf4f9': require('./128725bc-ed85-414b-b013-4f6a1bccf4f9/coverUrl.jpg'),
   '12fdf79d-f8b5-4ee3-a8cb-0652a5646824': require('./12fdf79d-f8b5-4ee3-a8cb-0652a5646824/coverUrl.jpg'),
   '15226ad6-8bda-47d4-93fa-29d41efa58c0': require('./15226ad6-8bda-47d4-93fa-29d41efa58c0/coverUrl.jpg'),
@@ -22,7 +22,7 @@ const IMAGES = {
   '31fcb724-13f2-4745-bad5-ce59acc036b1': require('./31fcb724-13f2-4745-bad5-ce59acc036b1/coverUrl.jpg'),
   '3c984a70-297e-487e-bcfa-28b73aecfcd5': require('./3c984a70-297e-487e-bcfa-28b73aecfcd5/coverUrl.jpg'),
   '43a412fa-5338-4d50-988b-627dc6d619f4': require('./43a412fa-5338-4d50-988b-627dc6d619f4/coverUrl.jpg'),
-  '473d5fbc-3c08-4fa9-930e-bc5ce7e18cba': require('./473d5fbc-3c08-4fa9-930e-bc5ce7e18cba/coverUrl.jpg'),
+  // '473d5fbc-3c08-4fa9-930e-bc5ce7e18cba': require('./473d5fbc-3c08-4fa9-930e-bc5ce7e18cba/coverUrl.jpg'),
   '554daa08-7438-4225-821e-dbe231bc0457': require('./554daa08-7438-4225-821e-dbe231bc0457/coverUrl.jpg'),
   '61cc1d3f-e73a-4a5e-93ff-b5a2b11e8f0b': require('./61cc1d3f-e73a-4a5e-93ff-b5a2b11e8f0b/coverUrl.jpg'),
   '63a22ead-4de3-4385-a8b1-df88de302ec1': require('./63a22ead-4de3-4385-a8b1-df88de302ec1/coverUrl.jpg'),
@@ -58,8 +58,8 @@ const IMAGES = {
   'cb1de8c4-9cef-45ca-8d38-bfaccb794f9d': require('./cb1de8c4-9cef-45ca-8d38-bfaccb794f9d/coverUrl.jpg'),
   'd3b0abb5-87bb-4e98-8da6-8b9e44295853': require('./d3b0abb5-87bb-4e98-8da6-8b9e44295853/coverUrl.jpg'),
   'dae3fa41-b713-40be-b23f-b2432608ad1b': require('./dae3fa41-b713-40be-b23f-b2432608ad1b/coverUrl.jpg'),
-  'ec6202e4-bc7a-41f4-a3be-bf6bb4037d64': require('./ec6202e4-bc7a-41f4-a3be-bf6bb4037d64/coverUrl.jpg'),
-  'ed446d79-cb3c-463c-b816-6c6a931d66cd': require('./ed446d79-cb3c-463c-b816-6c6a931d66cd/coverUrl.jpg'),
+  // 'ec6202e4-bc7a-41f4-a3be-bf6bb4037d64': require('./ec6202e4-bc7a-41f4-a3be-bf6bb4037d64/coverUrl.jpg'),
+  // 'ed446d79-cb3c-463c-b816-6c6a931d66cd': require('./ed446d79-cb3c-463c-b816-6c6a931d66cd/coverUrl.jpg'),
   'f09f4e66-72f4-418b-b8a0-af6dd8937c5b': require('./f09f4e66-72f4-418b-b8a0-af6dd8937c5b/coverUrl.jpg'),
   'f0eb7991-adca-46f1-b802-c4b7b3182b7d': require('./f0eb7991-adca-46f1-b802-c4b7b3182b7d/coverUrl.jpg'),
   'f58a4e36-e9a4-4383-ad95-0732dae2ac38': require('./f58a4e36-e9a4-4383-ad95-0732dae2ac38/coverUrl.jpg'),
