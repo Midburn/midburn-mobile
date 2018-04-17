@@ -5,77 +5,77 @@
       "nameEn": "The Ten Principles",
       "description": "אירוע מידברן מתקיים על-פי עשרת העקרונות של ברנינג מן. עשרת העקרונות הינם קווים מנחים לקהילה אשר נכתבו בשנת 2004 על ידי לארי הארווי, ממייסדי ברנינג מן, בעבור האירועים האזוריים שהחלו להיווצר ברחבי העולם. עשרת העקרונות עוצבו במיומנות לא כדי להכתיב כיצד אנשים צריכים להיות ולהתנהג, אלא כשיקוף של מערכת האמונות והתרבות הקהילתית כפי שהתפתחה בצורה טבעית מאז האירוע הראשון. מאז ועד היום הם משמשים כקווים מנחים באירועי קהילת הברנינג מן ברחבי העולם.",
       "descriptionEn": "Burning Man Founder Larry Harvey wrote the Ten Principles in 2004 as guidelines for the newly-formed Regionals Network. They were crafted not as a dictate of how people should be and act, but as a reflection of the community’s ethos and culture as it had organically developed since the event’s inception.",
-      "logo": "../images/info/radicalinclusion.png"
+      "logo": "radicalinclusion.png"
     },
     {
       "name": "הכללה מוחלטת",
       "description": "כל אחד יכול להיות חלק מקהילת מידברן/ברנינג מן. אנו מכבדים ומקבלים בברכה כל אדם זר. אין דרישות מקדימות להשתתפות בקהילתנו.",
       "nameEn": "Radical Inclusion",
       "descriptionEn": "Anyone may be a part of Burning Man. We welcome and respect the stranger. No prerequisites exist for participation in our community",
-      "logo": "../images/info/radicalinclusion.png"
+      "logo": "radicalinclusion.png"
     },
     {
       "nameEn": "Gifting",
       "descriptionEn": "Burning Man is devoted to acts of gift giving. The value of a gift is unconditional. Gifting does not contemplate a return or an exchange for something of equal value",
       "name": "הענקת מתנות",
       "description": "גיפטינג הוא אחד מהערכים שמובילים את הקהילה. ערכה של הענקת מתנה הוא שהיא איננה מותנית בדבר. היא אינה מותנית בקבלת תמורה או בהחלפה של דבר-מה שווה-ערך.",
-      "logo": "../images/info/gifting.png"
+      "logo": "gifting.png"
     },
     {
       "nameEn": "Decommodification",
       "descriptionEn": "In order to preserve the spirit of gifting, our community seeks to create social environments that are unmediated by commercial sponsorships, transactions, or advertising. We stand ready to protect our culture from such exploitation. We resist the substitution of consumption for participatory experience",
       "name": "א-מסחריות",
       "description": "במטרה לשמר את רוח הענקת-המתנות, שואפת קהילתנו ליצור סביבה חברתית נטולת חסויות מסחריות, עסקאות או פרסום. אנו עומדים על המשמר בכדי להגן על תרבותנו מפני ניצול שכזה. אנו מעודדים השתתפות בחוויה על פני חוויה של צריכה.",
-      "logo": "../images/info/decommodification.png"
+      "logo": "decommodification.png"
     },
     {
       "nameEn": "Radical Self-reliance",
       "descriptionEn": "Burning Man encourages the individual to discover, exercise and rely on his or her inner resources",
       "name": "הסתמכות עצמית מוחלטת",
       "description": "הקהילה מעודדת את הפרט לגלות, לתרגל ולהסתמך על משאביו הפנימיים.",
-      "logo": "../images/info/radicalselfreliance.png"
+      "logo": "radicalselfreliance.png"
     },
     {
       "name": "ביטוי-עצמי מוחלט",
       "description": "ביטוי עצמי מוחלט נובע מתוך הייחודיות של הפרט. איש מלבדו ומלבד הקבוצה עמה הוא משתף פעולה אינו יכול לקבוע את תוכן הביטוי העצמי. ביטוי זה מוצע כמתנה עבור אחרים. ברוח זו, על מעניק המתנה לכבד גם את זכויותיו וחירויותיו של הנמען.",
       "nameEn": "Radical Self-expression",
       "descriptionEn": "Radical self-expression arises from the unique gifts of the individual. No one other than the individual or a collaborating group can determine its content. It is offered as a gift to others. In this spirit, the giver should respect the rights and liberties of the recipient.",
-      "logo": "../images/info/radicalselfexpression.png"
+      "logo": "radicalselfexpression.png"
     },
     {
       "name": "מאמץ קהילתי",
       "description": "קהילתנו מעריכה שיתופי-פעולה יצירתיים ומאמץ משותף. אנו שואפים ליצור, לקדם ולהגן על רשתות חברתיות, מרחבים ציבוריים, יצירות אמנות ודרכי-תקשורת שתומכות ביחסי גומלין מסוג זה.",
       "nameEn": "Communal Effort",
       "descriptionEn": "Our community values creative cooperation and collaboration. We strive to produce, promote and protect social networks, public spaces, works of art, and methods of communication that support such interaction.",
-      "logo": "../images/info/communaleffort.png"
+      "logo": "communaleffort.png"
     },
     {
       "name": "אחריות אזרחית",
       "description": "אנו מכירים בערך החברה האזרחית. על חברי קהילה שמארגנים אירועים לקחת אחריות לשלום הציבור ולדאוג לתקשר למשתתפים את אחריותם האזרחית. כמו כן אחראים המארגנים לקיים את האירועים בהתאם לחוקי המקום והמדינה.",
       "nameEn": "Civic Responsibility",
       "descriptionEn": "We value civil society. Community members who organize events should assume responsibility for public welfare and endeavor to communicate civic responsibilities to participants. They must also assume responsibility for conducting events in accordance with local, state and federal laws.",
-      "logo": "../images/info/civicresponsability.png"
+      "logo": "civicresponsability.png"
     },
     {
       "name": "אי השארת עקבות",
       "description": "קהילתנו מכבדת את הסביבה. אנו מחויבים שלא להשאיר עקבות לפעילותנו בכל מקום בו אנו מתכנסים. אנו מנקים אחרינו ושואפים להשאיר מקומות במצב טוב אף יותר מכפי שמצאנו אותם.",
       "nameEn": "Leaving No Trace",
       "descriptionEn": "Our community respects the environment. We are committed to leaving no physical trace of our activities wherever we gather. We clean up after ourselves and endeavor, whenever possible, to leave such places in a better state than when we found them.",
-      "logo": "../images/info/leavingnotrace.png"
+      "logo": "leavingnotrace.png"
     },
     {
       "name": "השתתפות",
       "description": "קהילתנו מחויבת למוסר של השתתפות. אנו מאמינים ששינוי, בין אם בפרט ובין אם בחברה כולה, יכול להתרחש רק דרך מעורבות אישית עמוקה. אנו מממשים הווייה דרך עשייה. כל אחד מוזמן לעבוד. כל אחד מוזמן לשחק. אנו הופכים את העולם לממשי דרך פעולות הפותחות את הלב.",
       "nameEn": "Participation",
       "descriptionEn": "Our community is committed to a radically participatory ethic. We believe that transformative change, whether in the individual or in society, can occur only through the medium of deeply personal participation. We achieve being through doing. Everyone is invited to work. Everyone is invited to play. We make the world real through actions that open the heart",
-      "logo": "../images/info/participation.png"
+      "logo": "participation.png"
     },
     {
       "name": "מיידיות",
       "description": "חוויה מיידית היא במובנים רבים הנדבך החשוב ביותר בתרבות שלנו. אנו שואפים להתגבר על מחסומים העומדים בינינו לבין החיבור לאני הפנימי שלנו, למציאות של הסובבים אותנו, למעורבות בחברה, ולקשר עם עולם הטבע שמעבר לשליטתם של בני אנוש.",
       "nameEn": "Immediacy",
       "descriptionEn": "Immediate experience is, in many ways, the most important touchstone of value in our culture. We seek to overcome barriers that stand between us and a recognition of our inner selves, the reality of those around us, participation in society, and contact with a natural world exceeding human powers. No idea can substitute for this experience.",
-      "logo": "../images/info/immediacy.png"
+      "logo": "immediacy.png"
     }
   ]
 }
