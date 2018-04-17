@@ -290,7 +290,7 @@ const writeJsonFile = async (fileName, data) => {
 
 
 const mainProcess = async () => {
-    const camps = await readJsonFile('camps.json');
+    const camps = await readJsonFile('camps2.json');
     //Promise.all( arts.map(async art => await extractArtData(art)) );
     const campsProcessed = await Promise.all( camps.map(async c => extractCampsData(c) ) );
 
