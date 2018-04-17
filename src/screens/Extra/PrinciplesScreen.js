@@ -2,8 +2,10 @@ import _ from 'lodash';
 import React, { Component } from 'react';
 import { Image, StyleSheet, ScrollView } from 'react-native';
 import { Button, Text, View } from 'react-native-ui-lib';
+import {isRTL} from './../../utils/Strings';
 
-const principlesData = require('../../../data/burning-man/principles.json').principles;
+
+const principlesData = require('../../../data/2018/principles.json').principles;
 
 const iconMap = {
   'radicalinclusion.png': require('../../../data/img/radicalinclusion.png'),
@@ -16,7 +18,8 @@ const iconMap = {
   'participation.png': require('../../../data/img/participation.png'),
   'radicalselfexpression.png': require('../../../data/img/radicalselfexpression.png'),
   'immediacy.png': require('../../../data/img/immediacy.png')
-}
+};
+
 export default class PrinciplesScreen extends Component {
 
   render() {
@@ -25,15 +28,17 @@ export default class PrinciplesScreen extends Component {
         {
           _.map(principlesData, (principle) => {
             return (
-              <View padding-8 key={principle.name} >
-                <View style={styles.principleLogoAndTitleContainer}>
-                  <Image
-                    source={iconMap[principle.logo]}
-                    style={styles.principleLogo}
-                  />
-                  <Text text40>{principle.name}</Text>
+              <View padding-8 key={principle.name} right={isRTL()}>
+                <View center={isRTL()} centerH={!isRTL()} style={{flexDirection: isRTL() ? 'row-reverse' : 'row'}}>
+                  <View paddingR-8={!isRTL()} paddingL-8={isRTL()}>
+                    <Image
+                      source={iconMap[principle.logo]}
+                      style={styles.principleLogo}
+                    />
+                  </View>
+                  <Text text40>{isRTL() ? principle.name : principle.nameEn}</Text>
                 </View>
-                <Text text70 style={styles.principleDescription}>{principle.description}</Text>
+                <Text text70 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{isRTL() ? principle.description : principle.descriptionEn}</Text>
               </View>
             );
           })
@@ -58,8 +63,5 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     marginLeft: -7
-    },
-  principleDescription: {
-    // paddingLeft: 48
-  }
+  },
 });
