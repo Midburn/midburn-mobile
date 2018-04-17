@@ -4,9 +4,9 @@ export const CAMP_PLACEHOLDER = require('./../midburn_logo.png');
 
 
 const IMAGES = {
-  '00cc6a64-8fca-41bd-9543-47d759232c3a': require('./00cc6a64-8fca-41bd-9543-47d759232c3a/coverUrl.jpg'),
+  // '00cc6a64-8fca-41bd-9543-47d759232c3a': require('./00cc6a64-8fca-41bd-9543-47d759232c3a/coverUrl.jpg'),
   '16b210af-3ccc-44fd-9a59-dfe3cec43806': require('./16b210af-3ccc-44fd-9a59-dfe3cec43806/coverUrl.jpg'),
-  '187540e7-51b5-457f-b9f7-1a836d3b3a31': require('./187540e7-51b5-457f-b9f7-1a836d3b3a31/coverUrl.jpg'),
+  // '187540e7-51b5-457f-b9f7-1a836d3b3a31': require('./187540e7-51b5-457f-b9f7-1a836d3b3a31/coverUrl.jpg'),
   '1b47ec1f-f564-485f-828c-831b445b1ed8': require('./1b47ec1f-f564-485f-828c-831b445b1ed8/coverUrl.jpg'),
   '1d0cf217-1025-4344-ad30-22ba8b3797e5': require('./1d0cf217-1025-4344-ad30-22ba8b3797e5/coverUrl.jpg'),
   '1f05af91-8069-4b89-a60d-ef108a0757c5': require('./1f05af91-8069-4b89-a60d-ef108a0757c5/coverUrl.jpg'),
@@ -50,11 +50,11 @@ const IMAGES = {
   '9d5d00a1-1af9-41fb-ab05-739afb684c3b': require('./9d5d00a1-1af9-41fb-ab05-739afb684c3b/coverUrl.jpg'),
   '9eef2dcd-c342-4e25-ac61-642d8ba1ab35': require('./9eef2dcd-c342-4e25-ac61-642d8ba1ab35/coverUrl.jpg'),
   'a2ed87bf-5272-4dd2-b229-57ddd5327c46': require('./a2ed87bf-5272-4dd2-b229-57ddd5327c46/coverUrl.jpg'),
-  'a4c74336-6d14-48b4-83c9-ada3f7a106c9': require('./a4c74336-6d14-48b4-83c9-ada3f7a106c9/coverUrl.jpg'),
+  // 'a4c74336-6d14-48b4-83c9-ada3f7a106c9': require('./a4c74336-6d14-48b4-83c9-ada3f7a106c9/coverUrl.jpg'),
   'b1c08694-903a-4044-8b92-83dd1fc6c16e': require('./b1c08694-903a-4044-8b92-83dd1fc6c16e/coverUrl.jpg'),
   'b2c56251-098e-4aae-9947-634ad027618a': require('./b2c56251-098e-4aae-9947-634ad027618a/coverUrl.jpg'),
   'bb2e171f-9449-46e1-94ec-8f9b0d1546dd': require('./bb2e171f-9449-46e1-94ec-8f9b0d1546dd/coverUrl.jpg'),
-  'c39f90d7-eb27-48d4-b54d-841e5400d119': require('./c39f90d7-eb27-48d4-b54d-841e5400d119/coverUrl.jpg'),
+  // 'c39f90d7-eb27-48d4-b54d-841e5400d119': require('./c39f90d7-eb27-48d4-b54d-841e5400d119/coverUrl.jpg'),
   'c5581449-1721-48f1-8588-60d625ad7455': require('./c5581449-1721-48f1-8588-60d625ad7455/coverUrl.jpg'),
   'c5a761d0-c0c2-4531-9fe9-472fa6cebad9': require('./c5a761d0-c0c2-4531-9fe9-472fa6cebad9/coverUrl.jpg'),
   'c7c56092-8c3c-48e9-aaad-9847a437ae40': require('./c7c56092-8c3c-48e9-aaad-9847a437ae40/coverUrl.jpg'),
@@ -67,7 +67,7 @@ const IMAGES = {
   'e5eba286-b31d-47b9-917f-f2d171da9f42': require('./e5eba286-b31d-47b9-917f-f2d171da9f42/coverUrl.jpg'),
   'ed97b282-17fa-4b96-a586-51d2a836501e': require('./ed97b282-17fa-4b96-a586-51d2a836501e/coverUrl.jpg'),
   'eda57f87-7d4d-453b-b92e-3ac775b761a5': require('./eda57f87-7d4d-453b-b92e-3ac775b761a5/coverUrl.jpg'),
-  'f3516689-f0a7-4bd5-b5d3-aa95a06417e': require('./f3516689-f0a7-4bd5-b5d3-aa95a06417e/coverUrl.jpg'),
+  'f3516689-f0a7-4bd5-b5d3-aa95a06417e':  require('./f3516689-f0a7-4bd5-b5d3-aa95a06417e7/coverUrl.jpg'),
 }
 
 
