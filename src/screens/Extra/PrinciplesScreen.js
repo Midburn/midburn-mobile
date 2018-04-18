@@ -5,7 +5,7 @@ import { Button, Text, View } from 'react-native-ui-lib';
 import {isRTL} from './../../utils/Strings';
 
 
-const principlesData = require('../../../data/2018/info/principles.json').principles;
+const principlesData = require('../../../data/2018/info/principles.json');
 
 const iconMap = {
   'radicalinclusion.png': require('../../../data/2018/images/info/radicalinclusion.png'),
