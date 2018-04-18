@@ -3,7 +3,6 @@ import React, {Component} from 'react';
 import {ScrollView, Image, Dimensions, Linking} from 'react-native';
 import {Text, View, Button} from 'react-native-ui-lib';
 import {getRandomImage} from '../../../data/img';
-import {getRandomCoverImage} from '../../../data/cover-images';
 import {EventsComponent} from './../Now/EventsComponent';
 import * as store from '../../stores/campsAndArt/store';
 import * as actions from '../../stores/campsAndArt/actions';

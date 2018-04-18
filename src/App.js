@@ -29,7 +29,7 @@ function start() {
         label: Strings('ART'),
         screen: SCREENS.ART,
         title: Strings('ART'),
-        icon: require('../data/img/campfire.png')
+        icon: require('../data/img/masks.png')
       },
       {
         label: Strings('PROGRAM'),
@@ -41,7 +41,7 @@ function start() {
         label: Strings('EXTRA'),
         screen: SCREENS.EXTRA,
         title: Strings('EXTRA'),
-        icon: require('../data/img/campfire.png')
+        icon: require('../data/img/more.png')
       }
 
     ],
