@@ -37,14 +37,26 @@
   },
   "MIDBURN_PRINCIPLES": {
     "he": "עשרת עקרונות המידברן",
-    "en": "10 Midburn Principles"
+    "en": "Ten Midburn Principles"
   },
   "FEEDBACK": {
     "he": "נשמח לשמוע מה דעתך",
     "en": "Give us a feedback"
   },
+  "FEEDBACK_SCREEN_TITLE": {
+    "he": "מה דעתך?",
+    "en": "Give us a feedback"
+  },
   "SAFETY": {
     "he": "בטיחות",
     "en": "Safety"
+  },
+  "WHAT_DO_YOU_THINK": {
+    "he": "🦄 יקר,\nנשמח לשמוע מה דעתך על האפליקציה.",
+    "en": "Dear 🦄,\nWe’d love to hear your feedback about the app."
+  },
+  "SURE": {
+    "he": "בטח",
+    "en": "Sure"
   }
 }
