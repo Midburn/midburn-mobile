@@ -38,7 +38,6 @@ export default class CampDetailsScreen extends Component {
 
   renderTextIfExists(description, data) {
     return data && <Text text80>{`${description}: ${data}`}</Text>
-
   }
 
   renderCoverImage() {
@@ -61,17 +60,9 @@ export default class CampDetailsScreen extends Component {
     );
   }
 
-  renderTitle() {
-    return (
-      <View center marginT-30>
-        <Text text40>{this.props.camp.title}</Text>
-      </View>
-    );
-  }
-
   renderSharingBlock() {
     return (
-      <View bg-dark70 padding-10 marginT-12>
+      <View bg-dark70 padding-10 marginT-20>
         <Button link label={SHARE_FEELINGS_TEXT} labelProps={{numberOfLines: 2, center: true}} onPress={this._onSharePress} />
       </View>
     );
@@ -81,7 +72,7 @@ export default class CampDetailsScreen extends Component {
     return (
       <View
         key={index}
-        style={{borderRadius: 10, borderWidth: 1, borderColor: Colors.dark70, padding: 6, marginRight: 4, marginTop: 12}}>
+        style={{borderRadius: 10, borderWidth: 1, borderColor: Colors.dark70, padding: 6, marginRight: 4}}>
         <Text>{text}</Text>
       </View>
 
@@ -90,7 +81,7 @@ export default class CampDetailsScreen extends Component {
 
   _renderTags() {
     return (
-      <View>
+      <View marginT-20>
         <View row>
           {_.map(this.props.camp.tags, (tag, i) => this._renderTag(tag, i))}
         </View>
@@ -108,7 +99,7 @@ export default class CampDetailsScreen extends Component {
 
   renderHeader(text) {
     return (
-      <View>
+      <View marginL-15>
         <Text text50>{text}</Text>
       </View>
     );
@@ -116,7 +107,7 @@ export default class CampDetailsScreen extends Component {
 
   _renderGifts() {
     return (
-      <View flex margin-16>
+      <View flex>
         {this.renderHeader('Gifts')}
         {this.renderGiftsList()}
       </View>
@@ -129,7 +120,7 @@ export default class CampDetailsScreen extends Component {
         <ScrollView style={{backgroundColor: '#F2F4F5'}}>
           {this.renderCoverImage()}
           <View flex margin-30 marginT-0>
-            {this.props.camp.description && this.renderDescription()}
+          {this.props.camp.description && this.renderDescription()}
             {this._renderTags()}
             {this.renderSharingBlock()}
           </View>
