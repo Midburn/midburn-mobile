@@ -2,6 +2,7 @@ import _ from 'lodash';
 import * as remx from 'remx';
 import * as ArtImages from '../../../data/2018/images/arts';
 import * as CampsImages from '../../../data/2018/images/camps';
+import {isRTL} from '../../utils/Strings';
 
 
 const state = remx.state({
@@ -43,10 +44,12 @@ export const getters = remx.getters({
     return state.search;
   },
   getArtDataToShow() {
-    return getters.getDataToShow(state.art, state.searchArt, 'name');
+    const key = isRTL() ? 'name' : 'nameEn';
+    return getters.getDataToShow(state.art, state.searchArt, key);
   },
   getCampsDataToShow() {
-    return getters.getDataToShow(state.camps, state.searchCamp, 'campName');
+    const key = isRTL() ? 'campName' : 'campNameEn';
+    return getters.getDataToShow(state.camps, state.searchCamp, key);
   },
   getDataToShow(dataArray, whatToSearch, keyToSearch) {
     if (whatToSearch) {
