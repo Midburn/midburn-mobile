@@ -46,8 +46,8 @@ class ArtScreen extends Component {
   }
 
 
-  _onRowPressed = async (art) => {
-    actions.showArtScreen({art, navigator: this.props.navigator});
+  _onRowPressed = async (art, images) => {
+    actions.showArtScreen({art, navigator: this.props.navigator, images});
   }
 
   _onFavouriteFilterBarPressed = () => {
@@ -62,7 +62,7 @@ class ArtScreen extends Component {
         title={data.item.name}
         tags={data.item.tags}
         imageSource={store.getters.getArtImage(data.item.artId)}
-        onPress={() => this._onRowPressed(data.item)}
+        onPress={() => this._onRowPressed(data.item, store.getters.getArtImages(data.item.artId))}
       />
     );
   }

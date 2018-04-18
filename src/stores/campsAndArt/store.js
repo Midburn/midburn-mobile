@@ -81,6 +81,11 @@ export const getters = remx.getters({
 
     return ans;
   },
+  getArtImages(artId) {
+    const ans = ArtImages.getImagesForArtId(artId);
+
+    return ans;
+  },
   getCampImage(campId) {
     const ans = CampsImages.getImageForCampId(campId);
     return ans;

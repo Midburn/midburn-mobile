@@ -55,11 +55,12 @@ export function showCampScreen({camp, navigator}) {
   });
 }
 
-export function showArtScreen({art, navigator}) {
+export function showArtScreen({art, navigator, images}) {
   navigator.push({
     screen: SCREEN_NAMES.ART_SCREEN,
     passProps: {
-      art
+      art,
+      images
     },
     navigatorStyle: {
       tabBarHidden: true
