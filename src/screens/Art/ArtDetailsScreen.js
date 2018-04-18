@@ -34,15 +34,15 @@ export default class ArtDetailsScreen extends PureComponent {
   renderDescription() {
     return (
       <View marginT-20>
-        <Text text70>{this.props.art.description}</Text>
+        <Text text70 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.props.art.description}</Text>
       </View>
-    );
+    );ufo
   }
 
   renderTitle() {
     return (
       <View center marginT-30>
-        <Text text40>{this.props.art.title}</Text>
+        <Text text40 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.props.art.title}</Text>
       </View>
     );
   }
@@ -50,7 +50,7 @@ export default class ArtDetailsScreen extends PureComponent {
   renderArtist() {
     return (
       <View center marginT-30>
-        <Text text70>{this.props.art.artist}</Text>
+        <Text text70 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.props.art.artist}</Text>
       </View>
     );
   }
