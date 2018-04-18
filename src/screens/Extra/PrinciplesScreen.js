@@ -8,16 +8,16 @@ import {isRTL} from './../../utils/Strings';
 const principlesData = require('../../../data/2018/info/principles.json').principles;
 
 const iconMap = {
-  'radicalinclusion.png': require('../../../data/2018/info/radicalinclusion.png'),
-  'communaleffort.png': require('../../../data/2018/info/communaleffort.png'),
-  'gifting.png': require('../../../data/2018/info/gifting.png'),
-  'civicresponsability.png': require('../../../data/2018/info/civicresponsability.png'),
-  'decommodification.png': require('../../../data/2018/info/decommodification.png'),
-  'leavingnotrace.png': require('../../../data/2018/info/leavingnotrace.png'),
-  'radicalselfreliance.png': require('../../../data/2018/info/radicalselfreliance.png'),
-  'participation.png': require('../../../data/2018/info/participation.png'),
-  'radicalselfexpression.png': require('../../../data/2018/info/radicalselfexpression.png'),
-  'immediacy.png': require('../../../data/2018/info/immediacy.png')
+  'radicalinclusion.png': require('../../../data/2018/images/info/radicalinclusion.png'),
+  'communaleffort.png': require('../../../data/2018/images/info/communaleffort.png'),
+  'gifting.png': require('../../../data/2018/images/info/gifting.png'),
+  'civicresponsability.png': require('../../../data/2018/images/info/civicresponsability.png'),
+  'decommodification.png': require('../../../data/2018/images/info/decommodification.png'),
+  'leavingnotrace.png': require('../../../data/2018/images/info/leavingnotrace.png'),
+  'radicalselfreliance.png': require('../../../data/2018/images/info/radicalselfreliance.png'),
+  'participation.png': require('../../../data/2018/images/info/participation.png'),
+  'radicalselfexpression.png': require('../../../data/2018/images/info/radicalselfexpression.png'),
+  'immediacy.png': require('../../../data/2018/images/info/immediacy.png')
 };
 
 export default class PrinciplesScreen extends Component {

@@ -5,22 +5,22 @@ import { Button, Text, View } from 'react-native-ui-lib';
 import {isRTL} from './../../utils/Strings';
 
 
-const principlesData = require('../../../data/2018/principles.json').principles;
+const principlesData = require('../../../data/2018/info/principles.json').principles;
 
 const iconMap = {
-  'radicalinclusion.png': require('../../../data/img/radicalinclusion.png'),
-  'communaleffort.png': require('../../../data/img/communaleffort.png'),
-  'gifting.png': require('../../../data/img/gifting.png'),
-  'civicresponsability.png': require('../../../data/img/civicresponsability.png'),
-  'decommodification.png': require('../../../data/img/decommodification.png'),
-  'leavingnotrace.png': require('../../../data/img/leavingnotrace.png'),
-  'radicalselfreliance.png': require('../../../data/img/radicalselfreliance.png'),
-  'participation.png': require('../../../data/img/participation.png'),
-  'radicalselfexpression.png': require('../../../data/img/radicalselfexpression.png'),
-  'immediacy.png': require('../../../data/img/immediacy.png')
+  'radicalinclusion.png': require('../../../data/2018/images/info/radicalinclusion.png'),
+  'communaleffort.png': require('../../../data/2018/images/info/communaleffort.png'),
+  'gifting.png': require('../../../data/2018/images/info/gifting.png'),
+  'civicresponsability.png': require('../../../data/2018/images/info/civicresponsability.png'),
+  'decommodification.png': require('../../../data/2018/images/info/decommodification.png'),
+  'leavingnotrace.png': require('../../../data/2018/images/info/leavingnotrace.png'),
+  'radicalselfreliance.png': require('../../../data/2018/images/info/radicalselfreliance.png'),
+  'participation.png': require('../../../data/2018/images/info/participation.png'),
+  'radicalselfexpression.png': require('../../../data/2018/images/info/radicalselfexpression.png'),
+  'immediacy.png': require('../../../data/2018/images/info/immediacy.png')
 };
 
-export default class AppFeedbackScreen extends Component {
+export default class SafetyScreen extends Component {
 
   render() {
     return (
