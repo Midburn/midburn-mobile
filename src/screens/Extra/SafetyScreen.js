@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
-import { Image, StyleSheet, ScrollView } from 'react-native';
+import {ScrollView} from 'react-native';
 import { Button, Text, View } from 'react-native-ui-lib';
 import {isRTL} from './../../utils/Strings';
 
@@ -11,7 +11,7 @@ export default class SafetyScreen extends Component {
 
   render() {
     return (
-      <View flex>
+      <View flex useSafeArea>
         <ScrollView>
           {
             _.map(safetyData, (obj) => {
@@ -25,8 +25,6 @@ export default class SafetyScreen extends Component {
               );
             })
           }
-
-
         </ScrollView>
       </View>
     );

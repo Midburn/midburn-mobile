@@ -5,7 +5,6 @@ import {connect} from 'remx';
 import CampRow from './CampRow';
 import * as store from '../../stores/campsAndArt/store';
 import * as actions from './../../stores/campsAndArt/actions';
-import {ART_PLACEHOLDER} from '../../../data/2018/images/arts';
 
 
 const SEARCH_BUTTON_ID = 'camp_search';
@@ -24,10 +23,10 @@ class CampsScreen extends Component {
         id: SEARCH_BUTTON_ID,
         systemItem: 'search'
       },
-      {
-        id: FAVOURITES_BUTTON_ID,
-        icon: require('../../../data/img/hart_full.png'),
-      }
+      // {
+      //   id: FAVOURITES_BUTTON_ID,
+      //   icon: require('../../../data/img/hart_full.png'),
+      // }
     ]
   };
 

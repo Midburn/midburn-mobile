@@ -101,10 +101,16 @@ export function openEmailFeedback(params = {campId, artId}) {
   const url = buildUrlForFeedback(params);
   try {
     if (Linking.canOpenURL(url)) {
+    console.log('RANG', 'openEmailFeedback', 111);
       Linking.openURL(url)
     }
+    else {
+    console.log('RANG', 'openEmailFeedback', 333);
+      console.warn('WARNING!', 'Can\'t open url', url);
+    }
   } catch (err) {
-    console.log('ERROR!', 'openEmailFeedback', err);
+    console.log('RANG', 'openEmailFeedback', 222);
+    console.warn('ERROR!', 'openEmailFeedback', err);
   }
 }
 
@@ -113,18 +119,20 @@ function buildUrlForFeedback({campId, artId}) {
   let subject,nameKey, nameValue, body = '';
 
 
-  if (campId) {
+  if (!_.isNil(campId)) {
     const camp = store.getters.getCampForId(campId);
     nameKey = 'camp';
     nameValue = _.get(camp, 'campName');
     subject = `Feedback for Camp: ${nameValue}`;
-  } else if (artId) {
+  } else if (!_.isNil(artId)) {
     const art = store.getters.getArtForId(artId);
     nameKey = 'art';
     nameValue = _.get(addEventListener(art), 'name');
     subject = `Feedback for Art: ${nameValue}`;
   } else {
-    throw new Error('No campId nor artId provided 😱');
+    nameKey = 'app';
+    nameValue = 'midburn-mobile';
+    subject = `Feedback to Midburn mobile app`;
   }
 
   subject = encodeURIComponent(subject);
