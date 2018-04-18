@@ -1,13 +1,9 @@
-import _ from 'lodash';
 import React, {PureComponent} from 'react';
 import {ScrollView, Image, Linking} from 'react-native';
 import {Text, View, Button, PageControl, Colors} from 'react-native-ui-lib';
-import {getRandomImage} from '../../../data/img';
-import {EventsComponent} from './../Now/EventsComponent';
-import * as store from '../../stores/campsAndArt/store';
-import * as actions from '../../stores/campsAndArt/actions';
-import {isRTL} from '../../utils/Strings';
 import {ArtCarousel} from './ArtCarousel';
+import String, {isRTL} from "../../utils/Strings";
+import * as actions from "../../stores/campsAndArt/actions";
 
 export default class ArtDetailsScreen extends PureComponent {
 
@@ -17,6 +13,10 @@ export default class ArtDetailsScreen extends PureComponent {
 
   onChangePage(index) {
     this.setState({currentPage: index});
+  }
+
+  _onSharePress = () => {
+    actions.openEmailFeedback({artId: this.props.art.artId});
   }
 
   renderImages() {
@@ -36,13 +36,13 @@ export default class ArtDetailsScreen extends PureComponent {
       <View marginT-20>
         <Text text70 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.props.art.description}</Text>
       </View>
-    );ufo
+    );
   }
 
   renderTitle() {
     return (
       <View center marginT-30>
-        <Text text40 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.props.art.title}</Text>
+        <Text text50 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.props.art.title}</Text>
       </View>
     );
   }
@@ -63,8 +63,15 @@ export default class ArtDetailsScreen extends PureComponent {
     );
   }
 
+  renderSharingBlock() {
+    return (
+      <View bg-dark70 padding-10 marginT-12>
+        <Button link label={String('ART_FEEDBACK')} labelProps={{numberOfLines: 2, center: true}} onPress={this._onSharePress} />
+      </View>
+    );
+  }
+
   render() {
-    console.log('render');
     return (
       <ScrollView style={{backgroundColor: '#F2F4F5'}}>
         {this.renderImages()}
@@ -72,6 +79,8 @@ export default class ArtDetailsScreen extends PureComponent {
           {this.renderTitle()}
           {this.renderDescription()}
           {this.renderArtist()}
+          {this.renderSharingBlock()}
+
           {/* {this.renderPhilosophy()} */}
         </View>
       </ScrollView>
