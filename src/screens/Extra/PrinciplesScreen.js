@@ -24,7 +24,7 @@ export default class PrinciplesScreen extends Component {
 
   render() {
     return (
-      <View flex>
+      <View flex useSafeArea>
         <ScrollView>
           {
             _.map(principlesData, (principle) => {
