@@ -101,15 +101,12 @@ export function openEmailFeedback(params = {campId, artId}) {
   const url = buildUrlForFeedback(params);
   try {
     if (Linking.canOpenURL(url)) {
-    console.log('RANG', 'openEmailFeedback', 111);
       Linking.openURL(url)
     }
     else {
-    console.log('RANG', 'openEmailFeedback', 333);
       console.warn('WARNING!', 'Can\'t open url', url);
     }
   } catch (err) {
-    console.log('RANG', 'openEmailFeedback', 222);
     console.warn('ERROR!', 'openEmailFeedback', err);
   }
 }
