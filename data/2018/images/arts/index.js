@@ -106,7 +106,6 @@ const IMAGES = {
 };
 
 export function getImageForArtId(id) {
-  console.log('RANG', 'getImageForArtId', id);
   if (!id || !IMAGES[id]) {
     return ART_PLACEHOLDER;
   }

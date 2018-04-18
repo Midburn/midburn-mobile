@@ -82,6 +82,24 @@ export const getters = remx.getters({
   getArtImage(artId) {
     const ans = ArtImages.getImageForArtId(artId);
 
+    //
+    //
+    // if (_.indexOf(tempArr, artId) < 0) {
+    //   tempArr.push(artId);
+    //   // console.log('RANG', 'getArtImage', tempArr);
+    // } else {
+    //   return ans;
+    // }
+    //
+    // let toPrint = `${artId}: [`;
+    // const images = getters.getArtForId(artId).images;
+    // _.forEach(images, (image, i) => {
+    //   toPrint += `require(\'./${artId}/art${i+1}.jpg\'), `
+    // });
+    // toPrint += '],';
+    // console.log('RANG', toPrint);
+    //
+
     return ans;
   },
   getArtImages(artId) {
