@@ -1,17 +1,8 @@
-import _ from 'lodash';
 import React, {Component} from 'react';
 import {StyleSheet, ListView} from 'react-native';
 import {Text, View, Button, ListItem, Colors, Image} from 'react-native-ui-lib';
-import {getRandomImage} from '../../../data/img';
 import Strings from './../../utils/Strings';
-
-
 import SCREENS from './../../screens/screenNames';
-const IMPORTANT_PHONES = 'Important Phone';
-const MIDBURN_PRINCIPLES = 'Midburn Principles';
-const MAP =  'Map';
-const SETTINGS = 'Settings';
-const OPEN_SOURCES = 'Open Sources';
 
 const RIGHT_CHEVRON = require('../../../data/img/right-chevron.png');
 
@@ -22,10 +13,10 @@ const ds = new ListView.DataSource({
 });
 
 const ITEMS = ds.cloneWithRows([
-  {
-    image: '',
-    text: Strings('PHONES'),
-  },
+  // {
+  //   image: '',
+  //   text: Strings('PHONES'),
+  // },
   {
     image: '',
     text: Strings('MIDBURN_PRINCIPLES'),
@@ -52,7 +43,7 @@ const ITEMS = ds.cloneWithRows([
     image: '',
     text: Strings('FEEDBACK'),
     screen: SCREENS.APP_FEEDBACK,
-    title: Strings('FEEDBACK')
+    title: Strings('FEEDBACK_SCREEN_TITLE')
   },
   {
     image: '',
@@ -70,7 +61,11 @@ export default class ExtraScreen extends Component {
 
     this.props.navigator.push({
       screen: item.screen,
-      title: item.title
+      title: item.title,
+      navigatorStyle: {
+        tabBarHidden: true
+      }
+
     })
   }
 
