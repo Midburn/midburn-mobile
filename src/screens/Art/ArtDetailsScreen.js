@@ -44,7 +44,7 @@ export default class ArtDetailsScreen extends Component {
   renderImagePage(image, index) {
     const Page = ({children, ...others}) => {
       return (
-        <View style={{width: IMAGE_SIZE.width}} {...others}>
+        <View bg-black style={{width: IMAGE_SIZE.width}} {...others}>
           {children}
         </View>
       );
@@ -53,8 +53,8 @@ export default class ArtDetailsScreen extends Component {
     return (
       <Page key={'image' + index}>
         <Image
-          resizeMode={'cover'}
-          style={{height: 200}}
+          resizeMode={'contain'}
+          style={{height: width, width}}
           source={image}
         />
       </Page>
