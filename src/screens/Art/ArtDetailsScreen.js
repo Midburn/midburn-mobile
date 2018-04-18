@@ -23,11 +23,6 @@ export default class ArtDetailsScreen extends PureComponent {
     return (
       <View>
         <ArtCarousel onChangePage={(index => this.onChangePage(index))} images={this.props.images} />
-        {/* <Carousel onChangePage={(index => this.onChangePage(index))}>
-          {this.props.images.map((image, index) => {
-            return this.renderImagePage(image, index);
-          })}
-        </Carousel> */}
         <PageControl
           numOfPages={this.props.images.length} currentPage={this.state.currentPage} inactiveColor={Colors.dark70} color={Colors.dark30}
           enlargeActive containerStyle={{bottom: 15}}
