@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React, {Component} from 'react';
 import {ScrollView, Image, Dimensions, Linking} from 'react-native';
-import {Text, View, Button} from 'react-native-ui-lib';
+import {Text, View, Button, Colors} from 'react-native-ui-lib';
 import {getRandomImage} from '../../../data/img';
 import {EventsComponent} from './../Now/EventsComponent';
 import * as store from '../../stores/campsAndArt/store';
@@ -72,25 +72,28 @@ export default class CampDetailsScreen extends Component {
   renderSharingBlock() {
     return (
       <View bg-dark70 padding-10 marginT-12>
-        <Button link label={SHARE_FEELINGS_TEXT} labelProps={{numberOfLines: 2, center: true}} onPress={this._onSharePress}/>
+        <Button link label={SHARE_FEELINGS_TEXT} labelProps={{numberOfLines: 2, center: true}} onPress={this._onSharePress} />
       </View>
     );
   }
 
-  renderIcons() {
+  _renderTag(text, index) {
     return (
-      <View row marginT-30>
-        {_.map(this.props.camp.tags, (tag, i) => {
-            return (
-              <View marginR-6 key={i}>
-                <Image
-                  style={{width: ICON_SIZE, height: ICON_SIZE}}
-                  source={getRandomImage()}
-                />
-              </View>
-            );
-          }
-        )}
+      <View
+        key={index}
+        style={{borderRadius: 10, borderWidth: 1, borderColor: Colors.dark70, padding: 6, marginRight: 4, marginTop: 12}}>
+        <Text>{text}</Text>
+      </View>
+
+    );
+  }
+
+  _renderTags() {
+    return (
+      <View>
+        <View row>
+          {_.map(this.props.camp.tags, (tag, i) => this._renderTag(tag, i))}
+        </View>
       </View>
     );
   }
@@ -103,10 +106,10 @@ export default class CampDetailsScreen extends Component {
     );
   }
 
-  renderGiftsHeader() {
+  renderHeader(text) {
     return (
       <View>
-        <Text text50>Gifts</Text>
+        <Text text50>{text}</Text>
       </View>
     );
   }
@@ -114,7 +117,7 @@ export default class CampDetailsScreen extends Component {
   _renderGifts() {
     return (
       <View flex margin-16>
-        {this.renderGiftsHeader()}
+        {this.renderHeader('Gifts')}
         {this.renderGiftsList()}
       </View>
     )
@@ -126,9 +129,8 @@ export default class CampDetailsScreen extends Component {
         <ScrollView style={{backgroundColor: '#F2F4F5'}}>
           {this.renderCoverImage()}
           <View flex margin-30 marginT-0>
-            {this.props.camp.title && this.renderTitle()}
-            {this.renderIcons()}
             {this.props.camp.description && this.renderDescription()}
+            {this._renderTags()}
             {this.renderSharingBlock()}
           </View>
           {this.state.gifts && this._renderGifts()}
