@@ -1,22 +1,16 @@
 import _ from 'lodash';
-import React, {Component} from 'react';
-import {ScrollView, Image, Dimensions, Linking} from 'react-native';
-import {Text, View, Button, Carousel, PageControl, Colors} from 'react-native-ui-lib';
+import React, {PureComponent} from 'react';
+import {ScrollView, Image, Linking} from 'react-native';
+import {Text, View, Button, PageControl, Colors} from 'react-native-ui-lib';
 import {getRandomImage} from '../../../data/img';
 import {EventsComponent} from './../Now/EventsComponent';
 import * as store from '../../stores/campsAndArt/store';
 import * as actions from '../../stores/campsAndArt/actions';
 import {isRTL} from '../../utils/Strings';
+import {ArtCarousel} from './ArtCarousel';
 
-const {width} = Dimensions.get('window');
+export default class ArtDetailsScreen extends PureComponent {
 
-const IMAGE_SIZE = {
-  width,
-  height: width
-};
-
-export default class ArtDetailsScreen extends Component {
-  
   state = {
     currentPage: 0,
   };
@@ -28,36 +22,17 @@ export default class ArtDetailsScreen extends Component {
   renderImages() {
     return (
       <View>
-        <Carousel onChangePage={(index => this.onChangePage(index))}>
+        <ArtCarousel onChangePage={(index => this.onChangePage(index))} images={this.props.images} />
+        {/* <Carousel onChangePage={(index => this.onChangePage(index))}>
           {this.props.images.map((image, index) => {
             return this.renderImagePage(image, index);
           })}
-        </Carousel>
+        </Carousel> */}
         <PageControl
           numOfPages={this.props.images.length} currentPage={this.state.currentPage} inactiveColor={Colors.dark70} color={Colors.dark30}
           enlargeActive containerStyle={{bottom: 15}}
         />
       </View>
-    );
-  }
-
-  renderImagePage(image, index) {
-    const Page = ({children, ...others}) => {
-      return (
-        <View bg-black style={{width: IMAGE_SIZE.width}} {...others}>
-          {children}
-        </View>
-      );
-    };
-
-    return (
-      <Page key={'image' + index}>
-        <Image
-          resizeMode={'contain'}
-          style={{height: width, width}}
-          source={image}
-        />
-      </Page>
     );
   }
 
@@ -94,6 +69,7 @@ export default class ArtDetailsScreen extends Component {
   }
 
   render() {
+    console.log('render');
     return (
       <ScrollView style={{backgroundColor: '#F2F4F5'}}>
         {this.renderImages()}
