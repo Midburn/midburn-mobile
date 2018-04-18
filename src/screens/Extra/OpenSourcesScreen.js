@@ -16,7 +16,6 @@ export default class OpenSourcesScreen extends Component {
   }
 
   _renderItem = (item, i) => {
-    console.log('RANG', '_renderItem',);
     return (
       <View flex paddingV-12 paddingL-16 key={i}>
         <Text text70>{item.item.name}</Text>

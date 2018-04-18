@@ -6,7 +6,7 @@ import {getRandomImage} from '../../../data/img';
 import {EventsComponent} from './../Now/EventsComponent';
 import * as store from '../../stores/campsAndArt/store';
 import * as actions from '../../stores/campsAndArt/actions';
-import {isRTL} from '../../utils/Strings';
+import String from '../../utils/Strings';
 
 
 const SHARE_FEELINGS_TEXT = 'Share with us your feeling & thought about this camp';
@@ -62,8 +62,8 @@ export default class CampDetailsScreen extends Component {
 
   renderSharingBlock() {
     return (
-      <View bg-dark70 padding-10 marginT-20>
-        <Button link label={SHARE_FEELINGS_TEXT} labelProps={{numberOfLines: 2, center: true}} onPress={this._onSharePress} />
+      <View bg-dark70 padding-10 marginT-12>
+        <Button link label={String('CAMP_FEEDBACK')} labelProps={{numberOfLines: 2, center: true}} onPress={this._onSharePress} />
       </View>
     );
   }
