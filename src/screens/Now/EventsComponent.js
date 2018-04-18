@@ -29,6 +29,7 @@ export class EventsComponent extends Component {
                       descriptionEn={gift.item.descriptionEn}
                       descriptionHeb={gift.item.description}
                       color={gift.item.color}
+                      tags={gift.item.tags}
       />
     );
   }

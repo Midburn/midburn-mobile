@@ -3,12 +3,12 @@ import {FlatList} from 'react-native';
 import {View, TabBar, TextInput, Text} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import ArtRow from './ArtRow';
-import IndicatorBar from '../components/IndicatorBar';
 import * as store from '../../stores/campsAndArt/store';
 import * as actions from './../../stores/campsAndArt/actions';
+import SearchBar from '../components/SearchBar';
 
 const SEARCH_BUTTON_ID = 'camp_search';
-const PLACEHOLDER_SEARCH_INPUT = 'Type camp to serach';
+const PLACEHOLDER_SEARCH_INPUT = 'Type art to search';
 
 const FILTER = {
   CAMPS: 'Camps',
@@ -74,14 +74,12 @@ class ArtScreen extends Component {
 
   _renderSearchBar() {
     return (
-      <View paddingH-8>
-        <TextInput
-          ref={(ref) => this.searchTextInputRef = ref}
-          autoCorrect={false}
-          style={{height: 40, borderColor: 'gray', borderWidth: 1}}
+      <View paddingH-15 marginT-15>
+        <SearchBar
           onChangeText={this.onTextChanged}
           value={this.state.text}
           placeholder={PLACEHOLDER_SEARCH_INPUT}
+          textInputRef={(ref) => this.searchTextInputRef = ref}
         />
       </View>
     );

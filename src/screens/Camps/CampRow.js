@@ -4,6 +4,7 @@ import {Image} from 'react-native';
 import {Card, Text, View, Colors} from 'react-native-ui-lib';
 import {getRandomImage} from '../../../data/img';
 import {isRTL} from '../../utils/Strings';
+import Tag from '../components/TagComponent';
 
 
 const AVARTAR_SIZE = 30;
@@ -25,24 +26,29 @@ export default class CampsTab extends PureComponent {
     this.props.onPress(this.props.camp);
   }
 
+  // _renderTag(text, index) {
+  //   return (
+  //     <View
+  //       key={index}
+  //       style={{borderRadius: 10, borderWidth: 1, borderColor: Colors.dark70, padding: 6, marginRight: 4, marginTop: 12}}>
+  //       <Text>{text}</Text>
+  //     </View>
+  //   );
+  // }
+
+
   _renderTag(text, index) {
     return (
-      <View
-        key={index}
-        style={{borderRadius: 10, borderWidth: 1, borderColor: Colors.dark70, padding: 6, marginRight: 4, marginTop: 12}}>
-        <Text>{text}</Text>
-      </View>
-
+      <Tag text={text} index={index} key={index}/>
     );
   }
 
   _renderTags() {
     return (
       <View row>
-        {_.map(this.tags, (tag, i) => this._renderTag(tag, i))}
+        {_.map(this.props.camp.tags, (tag, i) => this._renderTag(tag, i))}
       </View>
     );
-
   }
 
   _renderTexts() {

@@ -5,6 +5,7 @@ import {connect} from 'remx';
 import CampRow from './CampRow';
 import * as store from '../../stores/campsAndArt/store';
 import * as actions from './../../stores/campsAndArt/actions';
+import SearchBar from '../components/SearchBar';
 
 
 const SEARCH_BUTTON_ID = 'camp_search';
@@ -14,9 +15,7 @@ const PLACEHOLDER_SEARCH_INPUT = 'Type camp to search';
 
 class CampsScreen extends Component {
 
-  static navigatorStyle = {
-    navBarButtonColor: '#ed1b68'
-  };
+
   static navigatorButtons = {
     rightButtons: [
       {
@@ -79,18 +78,31 @@ class CampsScreen extends Component {
 
   _renderSearchBar() {
     return (
-      <View paddingH-8>
-        <TextInput
-          ref={(ref) => this.searchTextInputRef = ref}
-          autoCorrect={false}
-          style={{height: 40, borderColor: 'gray', borderWidth: 1}}
+      <View paddingH-15 marginT-15>
+        <SearchBar
           onChangeText={this.onTextChanged}
           value={this.state.text}
           placeholder={PLACEHOLDER_SEARCH_INPUT}
+          textInputRef={(ref) => this.searchTextInputRef = ref}
         />
       </View>
     );
   }
+
+  // _renderSearchBar() {
+  //   return (
+  //     <View paddingH-8>
+  //       <TextInput
+  //         ref={(ref) => this.searchTextInputRef = ref}
+  //         autoCorrect={false}
+  //         style={{height: 40, borderColor: 'gray', borderWidth: 1}}
+  //         onChangeText={this.onTextChanged}
+  //         value={this.state.text}
+  //         placeholder={PLACEHOLDER_SEARCH_INPUT}
+  //       />
+  //     </View>
+  //   );
+  // }
 
 
   _keyExtractor = (item, index) => {
