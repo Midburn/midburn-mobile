@@ -119,12 +119,12 @@ function buildUrlForFeedback({campId, artId}) {
   if (!_.isNil(campId)) {
     const camp = store.getters.getCampForId(campId);
     nameKey = 'camp';
-    nameValue = _.get(camp, 'campName');
+    nameValue = _.get(camp, 'campNameEn');
     subject = `Feedback for Camp: ${nameValue}`;
   } else if (!_.isNil(artId)) {
     const art = store.getters.getArtForId(artId);
     nameKey = 'art';
-    nameValue = _.get(addEventListener(art), 'name');
+    nameValue = _.get(art, 'nameEn');
     subject = `Feedback for Art: ${nameValue}`;
   } else {
     nameKey = 'app';
