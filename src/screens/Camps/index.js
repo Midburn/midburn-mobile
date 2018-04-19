@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {FlatList} from 'react-native';
+import {FlatList, Platform} from 'react-native';
 import {View, TabBar, TextInput, Text} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import CampRow from './CampRow';
@@ -11,6 +11,8 @@ import SearchBar from '../components/SearchBar';
 const SEARCH_BUTTON_ID = 'camp_search';
 const FAVOURITES_BUTTON_ID = 'camp_favourites';
 const PLACEHOLDER_SEARCH_INPUT = 'Type camp to search';
+const ANDROID_SEARCH_ICON = require('../../../data/img/search.png');
+const IS_IOS = Platform.OS === 'ios';
 
 
 class CampsScreen extends Component {
@@ -20,7 +22,8 @@ class CampsScreen extends Component {
     rightButtons: [
       {
         id: SEARCH_BUTTON_ID,
-        systemItem: 'search'
+        systemItem: 'search',
+        icon: IS_IOS ? undefined : ANDROID_SEARCH_ICON
       },
       // {
       //   id: FAVOURITES_BUTTON_ID,

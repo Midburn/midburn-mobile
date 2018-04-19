@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {FlatList} from 'react-native';
+import {FlatList, Platform} from 'react-native';
 import {View, TabBar, TextInput, Text} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import ArtRow from './ArtRow';
@@ -9,6 +9,8 @@ import SearchBar from '../components/SearchBar';
 
 const SEARCH_BUTTON_ID = 'camp_search';
 const PLACEHOLDER_SEARCH_INPUT = 'Type art to search';
+const ANDROID_SEARCH_ICON = require('../../../data/img/search.png');
+const IS_IOS = Platform.OS === 'ios';
 
 const FILTER = {
   CAMPS: 'Camps',
@@ -22,7 +24,8 @@ class ArtScreen extends Component {
     rightButtons: [
       {
         id: 'camp_search',
-        systemItem: 'search'
+        systemItem: 'search',
+        icon: IS_IOS ? undefined : ANDROID_SEARCH_ICON
       }
     ]
   };
