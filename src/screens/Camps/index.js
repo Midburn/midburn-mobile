@@ -120,7 +120,7 @@ class CampsScreen extends Component {
         data={this.props.campsData}
         renderItem={this._renderRow}
         keyExtractor={this._keyExtractor}
-        initialNumToRender={30}
+        initialNumToRender={10}
       />
     );
   }
