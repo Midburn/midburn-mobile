@@ -7,10 +7,10 @@ import * as store from '../../stores/campsAndArt/store';
 import * as actions from './../../stores/campsAndArt/actions';
 import SearchBar from '../components/SearchBar';
 
-const SEARCH_BUTTON_ID = 'camp_search';
+const SEARCH_BUTTON_ID = 'art_search';
 const PLACEHOLDER_SEARCH_INPUT = 'Type art to search';
-const ANDROID_SEARCH_ICON = require('../../../data/img/search.png');
 const IS_IOS = Platform.OS === 'ios';
+
 
 const FILTER = {
   CAMPS: 'Camps',
@@ -23,9 +23,9 @@ class ArtScreen extends Component {
   static navigatorButtons = {
     rightButtons: [
       {
-        id: 'camp_search',
+        id: SEARCH_BUTTON_ID,
         systemItem: 'search',
-        icon: IS_IOS ? undefined : ANDROID_SEARCH_ICON
+        icon: IS_IOS ? undefined : require('../../../data/img/search.png')
       }
     ]
   };
@@ -100,7 +100,7 @@ class ArtScreen extends Component {
         data={this.props.artData}
         renderItem={this._renderRow}
         keyExtractor={this._keyExtractor}
-        initialNumToRender={50}
+        initialNumToRender={10}
       />
     );
   }
