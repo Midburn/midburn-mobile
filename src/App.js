@@ -7,10 +7,10 @@ import SplashScreen from 'react-native-splash-screen'
 
 
 function start() {
-  SplashScreen.hide();
   appActions.loadTabsData();
   registerContainers();
-  
+  SplashScreen.hide();
+
   Navigation.startTabBasedApp({
     tabs: [
       {
