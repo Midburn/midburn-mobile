@@ -24,15 +24,17 @@ const randomUUID = () => {
 
 const applyGeneratedCampIds = (camps, gifts) => {
     camps.forEach( camp => {
-        // todo: check that the filter matches !!!
         const giftsForCamp = gifts.filter( g => g.campName === camp.campName );
 
         if (giftsForCamp.isEmpty) {
             console.log(`cannot find match for ${camp.campName}`)
         }
         giftsForCamp.forEach( g => {
-            g.campId = camp.campId
-            g.campNameEn = camp.campName
+            g.campId = camp.campId;
+            g.campName = camp.campName;
+            g.campNameEn = camp.campNameEn;
+            g.location = camp.location;
+            g.locationEn = camp.locationEn;
         } );
         camp.gifts = giftsForCamp.map(gift => gift.giftId);
     })
@@ -69,10 +71,12 @@ const parseGifDateTime = (dateDesc, hourDesc) => {
     return giftDates;
 };
 
+const otherTags = [];
 
 const extractGiftTags = (tags, hearingImpaired, kidsOrAdults) => {
 
     const extractedTags = [];
+
 
     if (hearingImpaired === 'כן') {
         extractedTags.push("HearingImpaired")
@@ -84,21 +88,53 @@ const extractGiftTags = (tags, hearingImpaired, kidsOrAdults) => {
         extractedTags.push("Kids")
     }
 
-    if (tags.includes('אוכל') || tags.includes('שתיה')) {
-        extractedTags.push("ServesFoodOrDrinks")
-    }
     if (tags.includes('אלכוהול')) {
-        extractedTags.push("Alcohol")
-    }
-    if (tags.includes('מסיבה')) {
-        extractedTags.push("Party")
+        extractedTags.push('Alcohol')
     }
     if (tags.includes('פעילות בשפה האנגלית')) {
-        extractedTags.push("English")
+        extractedTags.push('English')
     }
-
-    if (tags.isElement) {
+    if (tags.includes('מעגל שיח') || tags.includes('שיחת נפש בהקשבה מלאה') || tags.includes('האזנה פעילה') ||
+        tags.includes('קריוקי!!') || tags.includes('מינגלינג') || tags.includes('הפעלה')) {
+        extractedTags.push('Mingling')
+    }
+    if (tags.includes('קרב ראווה בזירת אגרוף הכריות') || tags.includes('עונשים תנכיים') || tags.includes('תחרות') ||
+        tags.includes('ריצה') || tags.includes('משימות :)') || tags.includes('פעילות חופשית בחדר חושך') ||
+        tags.includes('הפעלה') || tags.includes('ציור בתנועה') || tags.includes('משחק')) {
+        extractedTags.push('Games')
+    }
+    if (tags.includes('אוכל') || tags.includes('שתיה') || tags.includes('התרעננות')) {
+        extractedTags.push('FoodAndDrinks')
+    }
+    if (tags.includes('מסיבה')) {
+        extractedTags.push('Party')
+    }
+    if (tags.includes('יצירה')) {
+        extractedTags.push('Creative')
+    }
+    if (tags.includes('הופעה') || tags.includes('האזנה למוסיקה') || tags.includes('הופעה עבור ילדים') ||
+        tags.includes('סרט') || tags.includes('קרב ראווה בזירת אגרוף הכריות') || tags.includes('טקס') ||
+        tags.includes('מצעד') || tags.includes('קריוקי!!')) {
+        extractedTags.push("Live")
+    }
+    if (tags.includes('הרצאה') || tags.includes('הרצאה בנושא מיניות') || tags.includes('מעגל נשים') ||
+        tags.includes('סדנה')) {
+        extractedTags.push('Workshop')
+    }
+    if (tags.includes('התרעננות') || tags.includes('מעגל שיח') || tags.includes('מדיטציה') ||
+        tags.includes('מדיטציה או יוגה') || tags.includes('יוגה או מדיטציה') || tags.includes('שיחת נפש בהקשבה מלאה') ||
+        tags.includes('האזנה פעילה') || tags.includes('פעילות גוף') || tags.includes('אקרו-יוגה') ||
+        tags.includes('יוגה') || tags.includes('טיפולבגוף או בנפש') || tags.includes('תפילה')) {
+        extractedTags.push('BodyAndSoul')
+    }
+    if (tags.includes('שנצ') || tags.includes('צ\'ילינג טיים! ( זמן התרעננות) או מתאים לשנצ') || tags.includes('מנוחה') ||
+        tags.includes('זולה') || tags.includes('chill') || tags.includes('צ׳יל אאוט בסלון') ||
+        tags.includes('להרגע עם השקיעה') || tags.includes('התערסלות')) {
+        extractedTags.push('Sleep')
+    }
+    if (extractedTags.length === 0) {
         extractedTags.push("Other")
+        otherTags.push(tags)
     }
 
     return extractedTags;
@@ -195,11 +231,9 @@ const locateArtImages = async artId => {
     });
 };
 
-const extractCampTags = (tags, disabledOptions, kidsOrAdults) => {
+const extractCampTags = (rawTags, disabledOptions, kidsOrAdults) => {
 
     const extractedTags = [];
-
-
 
     if (disabledOptions === 'מונגש מוגבלויות לתנועה') {
         extractedTags.push("PhysicallyDisabled")
@@ -217,23 +251,44 @@ const extractCampTags = (tags, disabledOptions, kidsOrAdults) => {
     } else if (kidsOrAdults === 'מיועד בעיקר/גם לילדים') {
         extractedTags.push("Kids")
     }
-    //
-    // if (tags.includes('אוכל') || tags.includes('שתיה')) {
-    //     extractedTags.push("ServesFoodOrDrinks")
-    // }
-    // if (tags.includes('אלכוהול')) {
-    //     extractedTags.push("Alcohol")
-    // }
-    // if (tags.includes('מסיבה')) {
-    //     extractedTags.push("Party")
-    // }
-    // if (tags.includes('פעילות בשפה האנגלית')) {
-    //     extractedTags.push("English")
-    // }
-    //
-    // if (tags.isElement) {
-    //     extractedTags.push("Other")
-    // }
+
+
+    const tags = rawTags.split(',')
+                        .map(s => s.trim());
+
+    if (tags.includes('בר/ מגיש משקאות אלכוהולים')) {
+        extractedTags.push("Alcohol")
+    }
+    if (tags.includes('מסיבות')) {
+        extractedTags.push("Party")
+    }
+    if (tags.includes('מגיש אוכל / שתיה (לא אלכוהולית)')) {
+        extractedTags.push("FoodAndDrinks")
+    }
+    if (tags.includes('משחקים')) {
+        extractedTags.push("Play")
+    }
+    if (tags.includes('יצירה')) {
+        extractedTags.push("Creative")
+    }
+    if (tags.includes('דוברי אנגלית')) {
+        extractedTags.push("English")
+    }
+    if (tags.includes('סדנאות')) {
+        extractedTags.push("Workshop")
+    }
+    if (tags.includes('מתאים לשנ״צ')) {
+        extractedTags.push("Sleep")
+    }
+    if (tags.includes('טיפול בגוף או בנפש')) {
+        extractedTags.push("BodyAndSoul")
+    }
+    if (tags.includes('הופעות / מוזיקה חיה')) {
+        extractedTags.push("Live")
+    }
+    if (extractedTags.length === 0) {
+        extractedTags.push("Other")
+    }
 
     return extractedTags;
 };
@@ -262,14 +317,14 @@ const downloadImageForCamp = async (campId, coverUrl) => {
 
 const extractCampsData = async camp => {
 
-    const campId = randomUUID();
+    const campId = camp['מזהה מחנה'];
     const tags = camp['סוג המחנה - בחרו עד 3 אייקונים שמציגים אתכם בצורה הטובה ביותר וממצים את הפעילויות שאתם עושים (שימו לב בחירה של יותר מ-3 אפשרויות תוביל ללקיחת 3 האפשרויות הראשונות שנבחרו) רוצים לבחור אפשרות רביעית? רשמו לנו בהערות למטה.'];
     const disabledOptions = camp['האם הקאפ והפעילויות בו מונגשות?'];
     const kidsOptions = camp['מה מקומם של ילדים בפעילויות הקאמפ?'];
     const parsedTags = extractCampTags(tags, disabledOptions, kidsOptions);
 
-    const coverUrl = camp['השנה התוכניה תופיע גם באופציה דיגיטלית. לצורך כך נשמח לקבל מכם תמונה שמייצגת את הקאמפ. בסגנון סמל הקאמפ, חברי הקאמפ או כל דבר שלדעתכם יעביר את רוח הקאמפ.'];
-    const imageName = await downloadImageForCamp(campId, coverUrl);
+    // const coverUrl = camp['השנה התוכניה תופיע גם באופציה דיגיטלית. לצורך כך נשמח לקבל מכם תמונה שמייצגת את הקאמפ. בסגנון סמל הקאמפ, חברי הקאמפ או כל דבר שלדעתכם יעביר את רוח הקאמפ.'];
+    // await downloadImageForCamp(campId, coverUrl);
 
     return {
         campId: campId,
@@ -277,7 +332,9 @@ const extractCampsData = async camp => {
         campNameEn: camp['שם מחנה אנגלית'],
         description: camp['תיאור המחנה בעברית'],
         descriptionEn: camp['תיאור המחנה באנגלית'],
-        coverUrl: imageName,
+        location: camp['מיקום'],
+        locationEn: camp['מיקום אנגלית'],
+        // coverUrl: imageName,
         tags: parsedTags,
     }
 };
@@ -299,8 +356,22 @@ const mainProcess = async () => {
     const giftsProcessed = [].concat.apply([], gifts.map(extractGiftData));
     applyGeneratedCampIds( campsProcessed, giftsProcessed );
 
+/*
+[ 'סדנה',
+  'משחק',
+  'טיפולבגוף או בנפש',
+  'מייצג אינטראקטיבי',
+  'תפילה' ]
+ */
+    // console.log(allTags.reduce((a, b) => a.concat(b), []).map(s => s.trim()).filter((v, i, a) => a.indexOf(v) === i))
+
+    // const ttt = [].concat.apply(allTags).filter((v, i, a) => a.indexOf(v) === i);
+    // console.log([].concat.apply(allTags).filter((v, i, a) => a.indexOf(v) === i))
+
+    console.log(otherTags.reduce((a, b) => a.concat(b), []).map(s => s.trim()).filter((v, i, a) => a.indexOf(v) === i))
+
     await writeJsonFile('camps.json', campsProcessed);
-    await writeJsonFile('gifts.json', giftsProcessed);
+    // await writeJsonFile('gifts.json', giftsProcessed);
 
     // const artsRaw = await readJsonFile('art.json');
     // const arts = Object.keys(artsRaw).map((key) => artsRaw[key] );

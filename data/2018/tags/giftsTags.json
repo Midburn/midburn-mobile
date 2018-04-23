@@ -1,0 +1,78 @@
+[
+  {
+    "id": "HearingImpaired",
+    "title": "מונגש בשפת הסימנים",
+    "titleEn": "Hearing Impaired"
+  },
+  {
+    "id": "Adults",
+    "title": "18+",
+    "titleEn": "18+"
+  },
+  {
+    "id": "Kids",
+    "title": "מיועד בעיקר/גם לילדים",
+    "titleEn": "For Kids"
+  },
+  {
+    "id": "Alcohol",
+    "title": "בר/ מגיש משקאות אלכוהולים",
+    "titleEn": "Serves Alcohol"
+  },
+  {
+    "id": "English",
+    "title": "דוברי אנגלית",
+    "titleEn": "English"
+  },
+  {
+    "id": "Mingling",
+    "title": "מינגלינג",
+    "titleEn": "Mingling"
+  },
+  {
+    "id": "Play",
+    "title": "משחקים",
+    "titleEn": "Games"
+  },
+  {
+    "id": "FoodAndDrinks",
+    "title": "מגיש אוכל ושתיה",
+    "titleEn": "Serves Food and Drinks"
+  },
+  {
+    "id": "Party",
+    "title": "מסיבות",
+    "titleEn": "Party"
+  },
+  {
+    "id": "Creative",
+    "title": "יצירה",
+    "titleEn": "Creative"
+  },
+  {
+    "id": "Live",
+    "title": "הופעות / מוזיקה חיה",
+    "titleEn": "Live Performance or Music"
+  },
+  {
+    "id": "Workshop",
+    "title": "סדנאות",
+    "titleEn": "Workshops"
+  },
+  {
+    "id": "BodyAndSoul",
+    "title": "טיפול בגוף או בנפש",
+    "titleEn": "Treat Mind, Body and Spirit"
+  },
+  {
+    "id": "Sleep",
+    "title": "מתאים לשנ״צ",
+    "titleEn": "Sleep"
+  },
+  {
+    "id": "Other",
+    "title": "אחר",
+    "titleEn": "Other"
+  }
+]
+

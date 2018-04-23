@@ -1,0 +1,82 @@
+[
+  {
+    "id": "PhysicallyDisabled",
+    "title": "מוגבלויות תנועה",
+    "titleEn": "Physically Disabled"
+  },
+  {
+    "id": "VisuallyImpaired",
+    "title": "מונגש למוגבלויות ראיה",
+    "titleEn": "Visually Impaired"
+  },
+  {
+    "id": "HearingImpaired",
+    "title": "מונגש בשפת הסימנים",
+    "titleEn": "Hearing Impaired"
+  },
+  {
+    "id": "Adults",
+    "title": "18+",
+    "titleEn": "18+"
+  },
+  {
+    "id": "Kids",
+    "title": "מיועד בעיקר/גם לילדים",
+    "titleEn": "For Kids"
+  },
+  {
+    "id": "Alcohol",
+    "title": "בר/ מגיש משקאות אלכוהולים",
+    "titleEn": "Serves Alcohol"
+  },
+  {
+    "id": "Party",
+    "title": "מסיבות",
+    "titleEn": "Party"
+  },
+  {
+    "id": "FoodAndDrinks",
+    "title": "מגיש אוכל ושתיה",
+    "titleEn": "Serves Food and Drinks"
+  },
+  {
+    "id": "Play",
+    "title": "משחקים",
+    "titleEn": "Games"
+  },
+  {
+    "id": "Creative",
+    "title": "יצירה",
+    "titleEn": "Creative"
+  },
+  {
+    "id": "English",
+    "title": "דוברי אנגלית",
+    "titleEn": "English"
+  },
+  {
+    "id": "Workshop",
+    "title": "סדנאות",
+    "titleEn": "Workshops"
+  },
+  {
+    "id": "Sleep",
+    "title": "מתאים לשנ״צ",
+    "titleEn": "Sleep"
+  },
+  {
+    "id": "BodyAndSoul",
+    "title": "טיפול בגוף או בנפש",
+    "titleEn": "Treat Mind, Body and Spirit"
+  },
+  {
+    "id": "Live",
+    "title": "הופעות / מוזיקה חיה",
+    "titleEn": "Live Performance or Music"
+  },
+  {
+    "id": "Other",
+    "title": "אחר",
+    "titleEn": "Other"
+  }
+]
