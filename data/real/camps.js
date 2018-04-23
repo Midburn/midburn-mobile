@@ -356,22 +356,10 @@ const mainProcess = async () => {
     const giftsProcessed = [].concat.apply([], gifts.map(extractGiftData));
     applyGeneratedCampIds( campsProcessed, giftsProcessed );
 
-/*
-[ 'סדנה',
-  'משחק',
-  'טיפולבגוף או בנפש',
-  'מייצג אינטראקטיבי',
-  'תפילה' ]
- */
-    // console.log(allTags.reduce((a, b) => a.concat(b), []).map(s => s.trim()).filter((v, i, a) => a.indexOf(v) === i))
-
-    // const ttt = [].concat.apply(allTags).filter((v, i, a) => a.indexOf(v) === i);
-    // console.log([].concat.apply(allTags).filter((v, i, a) => a.indexOf(v) === i))
-
     console.log(otherTags.reduce((a, b) => a.concat(b), []).map(s => s.trim()).filter((v, i, a) => a.indexOf(v) === i))
 
     await writeJsonFile('camps.json', campsProcessed);
-    // await writeJsonFile('gifts.json', giftsProcessed);
+    await writeJsonFile('gifts.json', giftsProcessed);
 
     // const artsRaw = await readJsonFile('art.json');
     // const arts = Object.keys(artsRaw).map((key) => artsRaw[key] );
