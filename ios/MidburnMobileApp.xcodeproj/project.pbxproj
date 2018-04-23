@@ -1041,7 +1041,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.midburn.MidburnMobileApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gran33.MidburnMobileApp;
 				PRODUCT_NAME = MidburnMobileApp;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
