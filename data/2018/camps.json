@@ -5,28 +5,28 @@
 		"campNameEn": "Mid-Bar",
 		"description": "מיד בר- בר במידבר",
 		"descriptionEn": "Mid Bar- a Bar in the desert",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 6:00",
+		"locationEn": "6:00 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
 			"Alcohol"
 		],
 		"gifts": [
-			"f00c95a2-ca2a-4fa7-bd3c-0e184eb94a08",
-			"460d0b90-1371-4113-be5a-9a8a4a7ec1ae",
-			"42b08e1a-50b9-483e-a861-dfdfa8b74b0d",
-			"289a809b-168e-4333-9c70-f16e9d29f7fb",
-			"9f528fbb-f542-43e7-984d-ffcd807d5a2d"
+			"a30f9d32-5d37-4ea7-86e5-a39d981b615b",
+			"8e88f9be-26c5-4eb8-812f-755564602638",
+			"07e7e0ab-ab8c-44e8-a17a-3920eb097536",
+			"d6c70f09-7a6c-4b16-9071-3c6031a2b309",
+			"552ec617-e4d7-44b0-a036-3f395a2178dd"
 		]
 	},
 	{
 		"campId": "ab552f7a-ce9b-4f8c-96c8-2f086ee871d1",
 		"campName": "ארנבים בחול",
-		"campNameEn": "Rabits In The Sand",
+		"campNameEn": "Rabits in the sand",
 		"description": "מחנה סאונד (האוס וטכנו) וגם מיצב אמנות",
 		"descriptionEn": "Sound Camp ( Techno & House) & Art Instillation",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 9:30",
+		"locationEn": "9:30 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
 			"Party"
@@ -35,12 +35,12 @@
 	},
 	{
 		"campId": "7bf1241d-f904-448b-b030-c06018eac369",
-		"campName": "כנעניה",
-		"campNameEn": "Cnaania",
+		"campName": "כנענים",
+		"campNameEn": "Canaania",
 		"description": "פלאפל וערק בצהרים ועונשים תנ\"כיים",
 		"descriptionEn": "Falafel and arak at noon and biblical punishments",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 3:30",
+		"locationEn": "3:30 Blutat HaYtztrubal",
 		"tags": [
 			"PhysicallyDisabled",
 			"Alcohol",
@@ -48,12 +48,12 @@
 			"FoodAndDrinks"
 		],
 		"gifts": [
-			"974f8f40-786f-4da4-859c-8838052127e5",
-			"f1e694dd-febc-4408-81d9-1635d778851d",
-			"60950d02-9f7f-4f37-9a2e-67e921eaa515",
-			"7c16c858-f8c9-4d9e-b42b-0de45a51f3c7",
-			"fcf39eeb-054f-478b-bb85-1d02b004a2cc",
-			"975f5056-4356-4820-b964-97db84e02681"
+			"84ce15a3-41ce-4388-9da3-5eeaa7b0e7ab",
+			"b706c9af-a8a4-4963-b7c8-16173b9205ea",
+			"9222c4c9-9cf8-4dca-b912-e5a0c77bfdaa",
+			"19221485-50a4-4cab-a2f3-7ce6d33ecc20",
+			"39116b19-1231-4075-aeb3-9b1ab8bdb7c4",
+			"56f261bc-dc62-420f-8410-5e512307b85b"
 		]
 	},
 	{
@@ -62,8 +62,8 @@
 		"campNameEn": "Hafla Bafla",
 		"description": "הכתרת שייח? חפלה? דבר אחד בטוח-תהיה שם בפלה",
 		"descriptionEn": "Coronation? Hafla? Either way, there will be Bafla",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 6:00",
+		"locationEn": "6:00 Geza Hamoach",
 		"tags": [
 			"PhysicallyDisabled",
 			"FoodAndDrinks"
@@ -76,20 +76,20 @@
 		"campNameEn": "Malabit",
 		"description": "כל יום בצהריים מגישים מלבי קר ומסיבה אלקטרו-ערבית",
 		"descriptionEn": "cold malabi and electro-arab music at noon",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 6:00",
+		"locationEn": "6:00 Geza Hamoach",
 		"tags": [
 			"PhysicallyDisabled",
 			"Party",
 			"FoodAndDrinks"
 		],
 		"gifts": [
-			"018a2a0c-1225-4534-9774-de129a4cc298",
-			"d6287059-15b4-4ff0-8c21-c69d022606d4",
-			"55a226af-5460-4629-af0d-d0a89480ae96",
-			"dd55c405-815a-4769-8bc5-09b845820897",
-			"2d8da2df-9453-4170-a6b6-3973c65675a3",
-			"ee8358f7-5e65-497b-b066-57204918d915"
+			"68fa0804-4b47-46f2-be60-bea39b82a463",
+			"cdb2fa7a-e179-460e-b2b0-94150dd56648",
+			"6466d12f-7420-4314-a66e-6e81efebc3f5",
+			"38e69cbf-9c6e-459e-b327-e650e160ec1c",
+			"3ac953ee-6afd-4df3-93bf-44001b08a107",
+			"517b3a68-0cb9-4641-a231-30f2e3060ab9"
 		]
 	},
 	{
@@ -98,8 +98,8 @@
 		"campNameEn": "Magic Markers",
 		"description": "מכונות ארקייד בלילה!בלאדימרי בבוקר!בואו לעוף איתנו",
 		"descriptionEn": "Magic markers: Bar-Cade!",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 5:30",
+		"locationEn": "5:30 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"Alcohol",
@@ -107,12 +107,12 @@
 			"Creative"
 		],
 		"gifts": [
-			"a8626ffe-636b-4a0b-bd9f-cf22fc1796df",
-			"05f1e870-e750-4c14-b577-dbf9b242ac5d",
-			"87629414-1e38-463c-9ae3-48caf8419778",
-			"4e7a50e7-1d4b-4c7a-a437-e91ddf3bbf59",
-			"be9df093-d8a9-4686-850b-09407d71cbb9",
-			"12bbbe29-0ced-4839-8714-b8956e7023f0"
+			"db1d7ff1-ec29-424e-accf-20fba5c23bd9",
+			"79631de6-223c-4caf-a976-41e71827a378",
+			"9bb7d717-679a-41d7-9b4f-699491d1c79c",
+			"c976aad4-413a-4009-88f1-ddab2654937e",
+			"87dd0989-ad57-4d50-944c-d9721abbcbc1",
+			"0d04afde-88f4-4497-90f0-ffe60324d362"
 		]
 	},
 	{
@@ -121,59 +121,59 @@
 		"campNameEn": "Kosomo",
 		"description": "מחנה קוסומו האגדי חוזר לפלאיה בפעם החמישית",
 		"descriptionEn": "The KuSumo is back in the Playa for the 5th time",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 4:00",
+		"locationEn": "4:00 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
 			"Party",
 			"English"
 		],
 		"gifts": [
-			"a48b2c38-bfb2-4f6e-a6a2-67e265958fa1"
+			"a732c1ac-86a5-474a-9ac9-2c0110b7c8f4"
 		]
 	},
 	{
 		"campId": "52d7e5f3-603a-4f26-891a-de472f42c7a1",
 		"campName": "קומורבי העין המדברים",
-		"campNameEn": "",
+		"campNameEn": "Komorabi the eye of the desert",
 		"description": "מגישים מרגריטות ובירה",
 		"descriptionEn": "We surve beer and margarita",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 9:15",
+		"locationEn": "9:15 Geza Hamoach",
 		"tags": [
 			"Adults",
 			"Alcohol",
 			"Party"
 		],
 		"gifts": [
-			"30e91bf2-541b-4c0f-879c-0ecbe02a608d",
-			"25a86e8d-3142-49ad-a6aa-41b322d4dd43",
-			"9d6efa57-fbb4-4267-8468-fd94b3d1ae40",
-			"3786f849-e57d-45c8-86c6-ac23325f3c44",
-			"7d705c86-c4c4-4404-a843-e03d832ce516",
-			"59284600-c16b-441a-9097-a304b32e3c33"
+			"529085ad-ffad-4596-b875-d4bfa8d444f8",
+			"4348f265-6a75-4a08-9414-4a0daa97ee0d",
+			"e7d29f8b-e447-4b1b-a94e-2279f7c53663",
+			"a8786c52-d86e-48f6-9b43-fd474d6cce8f",
+			"3a7d51ff-e990-4469-9189-b08ddea72f91",
+			"f9601ad4-3314-4dca-8ce2-c9e0ee9d70e0"
 		]
 	},
 	{
 		"campId": "c5261ef4-b54a-47f0-8476-01e299879acc",
 		"campName": "הילד הפנימי",
-		"campNameEn": "The Inner Child",
+		"campNameEn": "The inner child",
 		"description": "מדברים תודעה, מבינים את המהות הרוחנית שאנחנו",
 		"descriptionEn": "consciousness understanding spiritual existence",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": " ",
+		"locationEn": " ",
 		"tags": [
 			"VisuallyImpaired",
 			"Kids",
 			"Workshop"
 		],
 		"gifts": [
-			"c11a6400-27f0-4131-ab19-a805be7cc9a3",
-			"b88a8e6c-29f1-4290-af5d-bc66d0eca299",
-			"7f19c713-c8f3-40cb-91af-4d493d4e8038",
-			"e947b4f5-8fa0-47c8-8aa0-3e64c75aafd9",
-			"f7151e6a-26bf-4995-8b1e-dab1c6fb47a9",
-			"865bd3e4-7b34-4ef7-b6f4-4333f59b55e1"
+			"3183ccc4-34f3-4ef0-ab4d-3e156b3aa6b9",
+			"fd1be6c0-2c32-43e7-a0b8-03aaa0a54c37",
+			"09ed582e-b692-4cb5-a11d-554d3dc777bf",
+			"d52f7e6a-2158-4892-9843-149b394cf9cd",
+			"3b717ed3-9996-4bda-a4f1-22c77843574d",
+			"999c4142-1830-48e2-a8f1-88645e507557"
 		]
 	},
 	{
@@ -182,8 +182,8 @@
 		"campNameEn": "Shubi Dubi",
 		"description": "בריכת כרבולים עם דובים",
 		"descriptionEn": "Teddy bears cuddle puddle",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 5:00",
+		"locationEn": "5:00 Geza Hamoach",
 		"tags": [
 			"Adults",
 			"English",
@@ -192,39 +192,39 @@
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"b27312bc-7887-414e-81ef-b84b5d50002c"
+			"98e4cad1-457b-4402-a658-433761db8d42"
 		]
 	},
 	{
 		"campId": "68563302-e4c3-412e-b460-1a6706e1adb6",
 		"campName": "צ'אפטי",
-		"campNameEn": "Tchapati",
+		"campNameEn": "Chapati",
 		"description": "ארט קאר ספינת הפיראטים, עליו מופיעים DJ",
 		"descriptionEn": "art car pirete ship is the stage to dj play music",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": " ",
+		"locationEn": " ",
 		"tags": [
 			"Alcohol",
 			"Party",
 			"Live"
 		],
 		"gifts": [
-			"2fc644c2-2639-43e9-aa4e-75afef97dcf9",
-			"54f0c3d0-5c3e-442e-81e8-e05c904ac069",
-			"b4cb7fdf-23d4-46ad-a09c-e3f40bd04807",
-			"64645c9f-3cc6-418b-a507-348772852421",
-			"5107af10-ae63-466f-9b9a-1609d4113319",
-			"ebcfa1bb-332a-4241-a476-7d9944bc77f8"
+			"49596fd8-9153-4c96-9894-4470a7bf2e06",
+			"e907bd23-620d-45af-82b8-28fd548883e6",
+			"7c931a2e-cb30-41c8-bcf0-680a9479a0ef",
+			"325bcb51-3874-4ba1-a760-97b43260fdca",
+			"43c654d9-004e-49f0-9568-4aab6e0e5671",
+			"d7112419-96bf-40d0-b4ab-bf7dbacfc10b"
 		]
 	},
 	{
 		"campId": "051a0bf3-36fc-4b37-ad83-34711e49e6a5",
-		"campName": "ארץ יצורי הפרא",
-		"campNameEn": "Wildlings Land",
+		"campName": "ארץ יצורי הפלא",
+		"campNameEn": "Land of the wildlings",
 		"description": "מספרי סיפורים לילדים בכל הגילאים 3>",
 		"descriptionEn": "Storytellers for kid of all ages <3",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 3:30",
+		"locationEn": "3:30 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
 			"Kids",
@@ -232,22 +232,22 @@
 			"Live"
 		],
 		"gifts": [
-			"650ef51e-db89-4113-af6f-aae6abe13fb8",
-			"6d8f3bce-b897-4198-b7b3-7d32af6b2a25",
-			"ccb6b91e-4047-4351-b351-7aaa4ad243e1",
-			"a3509852-8ba8-4075-93f8-b03d69cb2aeb",
-			"983fdf74-7858-41ba-8145-a86deefa580b",
-			"9cf58185-12fb-4411-92b4-49b9fb6ee710"
+			"422660c4-b418-472b-b831-a3e4cafe7cb5",
+			"c1d6dc88-4a5f-4fa8-83b9-6e2e1f325340",
+			"8f49ae9a-c4eb-4fa8-8126-e64dda8f794b",
+			"97d91867-5c16-4267-b4c8-49f545ffcc90",
+			"80783adb-c97b-4de8-83cc-a278497338cf",
+			"43decdfb-69b6-4cbc-9fc1-efd288356d43"
 		]
 	},
 	{
 		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
 		"campName": "משולש ברמודה",
-		"campNameEn": "Bermuda Triangle",
+		"campNameEn": "Barmuda Triangle",
 		"description": "בחדר החושך הממוזג שלנו לא תראו דבר,עולם של מסתורין",
 		"descriptionEn": "The Dark Room , an air-conditioned playground",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 1:30",
+		"locationEn": "1:30 Geza Hamoach",
 		"tags": [
 			"VisuallyImpaired",
 			"Adults",
@@ -256,27 +256,27 @@
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"37f7147a-13b6-46bc-9e1e-e53fe2dc6951",
-			"cb9a4302-4d9d-4a62-9b4e-0f1667b074bc",
-			"57213e2f-0533-4442-a41a-ff772ebadff9",
-			"af389f5f-bdc3-4ec4-9f48-10035e5cf6f3",
-			"c302fdb3-5988-47b2-81e8-17b0fdce6e61",
-			"b86ddda8-81c9-4e08-9100-f8b9dc0c1165",
-			"8452f10e-6082-4ef1-96a8-6dc02dcb55f4",
-			"6640d1c7-eecd-4845-ac3c-0202e82ce410",
-			"cd0b781e-cecf-43d7-a03c-2dad74774699",
-			"a1bef652-2746-4aad-a7c1-5b7a61d3f76b",
-			"cff2a044-0e49-4da0-8537-e33ce5bc35ee",
-			"d575853e-f3cd-4dbe-9c71-ba71ecca0d81",
-			"5467da41-7183-4d3b-a7d1-0203fc41071f",
-			"0f1cf60a-608d-464b-8bc8-b223d17d6c08",
-			"9f83326d-69b1-4cfc-b925-80fc5cedeee7",
-			"f234e6b8-3e6c-408c-a436-560b1072c73a",
-			"3eb2da60-1937-447a-afac-6b749fa78323",
-			"feeb5836-4f23-4d76-8292-34ce5fb31c9a",
-			"e823c890-b2cd-4711-978f-2462f01e1330",
-			"bdbcfe9b-65ba-4b69-b81a-27888ae5c61a",
-			"16e41a33-0000-4d72-aeb5-f5de157da9ea"
+			"941a3012-7131-4814-b49a-8d246b045b2d",
+			"8001f8e5-924e-4fc3-928c-953fad771e7d",
+			"5ace73f9-4d5f-4933-ab91-453b89749d74",
+			"a0266add-c4e0-4fbb-8077-6a0260df1605",
+			"2097ff18-80b1-49e7-9884-12080cb75cac",
+			"0a880d3c-34f6-4a4c-9f63-a1a440d6904e",
+			"f5c3d54a-9d44-4a15-ae13-05e81256966a",
+			"3084846f-e9ce-4ecf-b940-40bf5f370a6e",
+			"c7e0aff8-b5ee-40af-8be8-e8a5ba529b0f",
+			"ad6d545e-fb77-4dd5-87df-a23ac88b558d",
+			"5ba52977-7f3a-42c0-b2a3-ff156013251b",
+			"77824946-239c-4ae7-a555-efaeb131b9c2",
+			"fb38cfc6-8dc6-4afd-a18a-dc66b9c337af",
+			"d9a548dc-7afc-4c78-b2da-a70a9914c33d",
+			"296633c0-e0d9-4bd1-937b-8599e2011132",
+			"f3d7c861-1977-4f81-9c88-35e78e339830",
+			"be824979-2bd5-413c-a5cb-fa2cdc8f0bca",
+			"8b5ad8f5-2667-4c6f-be6a-a96bbc5438ce",
+			"5db923ab-f5bd-46de-93ef-7007fa7c345c",
+			"368854f7-170c-44b2-823d-948376aca398",
+			"fb1274c1-0655-4e09-b923-28fa956ab12d"
 		]
 	},
 	{
@@ -285,23 +285,31 @@
 		"campNameEn": "04",
 		"description": "חוויה על חושית בדום ענק וקסום לצלילי האלקטרו",
 		"descriptionEn": "we r *04* - Sound Camp",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 9:45",
+		"locationEn": "9:45 Blutat HaYtztrubal",
 		"tags": [
 			"Party",
 			"BodyAndSoul",
 			"Live"
 		],
-		"gifts": []
+		"gifts": [
+			"036f52c0-2d24-4835-b652-ecd6ef48dadd",
+			"1284feec-11b0-4717-a58a-329122e5f94d",
+			"89a6fcdc-ac93-48ee-9087-d05aa151f167",
+			"2b57a59b-39a9-473a-83ad-7d40220990a5",
+			"6fdc61d0-ef3d-44b5-877d-910919fec7cf",
+			"c4cf5f13-8919-4d0c-8554-ea0a59b71ea3",
+			"cbd23265-ed68-4d85-acfa-13b0069bcad8"
+		]
 	},
 	{
 		"campId": "ea38295e-e363-4854-b49d-042ad71df6e3",
-		"campName": "ספארקל יוניקורן",
+		"campName": "ספרקל יוניקורן",
 		"campNameEn": "Sparkle Unicorn",
 		"description": "מגיעים גם השנה להפיץ את משקה החדקרן הייחודי שלנו!",
 		"descriptionEn": "Returning to spread our amazing Unicorn Potion!!!",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 5:00",
+		"locationEn": "5:00 Blutat HaYtztrubal",
 		"tags": [
 			"PhysicallyDisabled",
 			"Adults",
@@ -310,28 +318,28 @@
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"9a763b86-276b-4bbf-bead-4c3bc7f62ecb",
-			"5b582d23-ceac-4186-a6b4-2cdb5fb45ed9",
-			"75d40ce6-c59a-4584-a0cf-eb4016afe7d2",
-			"0d3088be-8006-4ae9-8e03-a4a4012cf33d",
-			"7d070c8d-01b5-4a82-9738-511cdb81a9aa",
-			"80529f33-d0eb-4fb1-8c4b-73ceacd0d895",
-			"4c953241-4325-48dd-a858-8a8a66127e2f",
-			"005e3705-ea16-4537-9aa1-50edaf5641d8",
-			"6e2fedd5-c731-40a7-90f1-54bbc8ca1ee0",
-			"5f175502-574e-423e-b7ab-b06337ae4976",
-			"82727aa2-02fa-44d3-800f-428f3e06245c",
-			"85139455-e66f-4473-9d61-11995375b6b7"
+			"5c3b3527-0c0d-47c9-8868-595438f9dc52",
+			"0c78c712-c5a3-4837-89da-e7945c5f539c",
+			"2180bcb8-1d8f-43d7-a25f-b039122ef6c9",
+			"e7007e72-94e6-4bec-8e30-7be21fb2ab10",
+			"004ae503-b635-4c21-badb-e16a3b0e6986",
+			"b18556c5-7f9e-4e07-b04e-d81be7e6c6bf",
+			"533cdba4-086d-4b46-a1f9-8bdb9ddee4df",
+			"8e831b38-fa87-4151-949f-4a0d72606bd2",
+			"027f807a-64db-477e-a19d-fc445f90d4bc",
+			"4c8aecbf-a978-49a0-b22c-3f01b9e11d28",
+			"33e9f6a5-3825-4b9d-bba7-63b20d7ed24e",
+			"43de7fdf-bf06-4621-a8e9-899b96056e62"
 		]
 	},
 	{
 		"campId": "ce3df9a5-98d8-415f-b51d-427d93fdaead",
-		"campName": "סי ++ אבטיחים קרייזי קאמפ",
-		"campNameEn": "C++ Watermellon Crazy Camp",
+		"campName": "ס++ אבטיחים קריזי קאמפ",
+		"campNameEn": "C++ Watermellons Crazy Camp",
 		"description": "מסיבות,שייקים, קוקטיילים, פינוקים, פינות ישיבה .",
 		"descriptionEn": "Party's , cocktails, seating areas.",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 9:30",
+		"locationEn": "9:30 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"Adults",
@@ -343,9 +351,9 @@
 			"Workshop"
 		],
 		"gifts": [
-			"6eec5678-951c-41a5-a857-3571e414599e",
-			"3a256294-faca-44b8-8407-73ff5e607075",
-			"21bb6119-453e-48b6-93e4-9883a27d7858"
+			"d00492b7-a617-4ec6-ac62-be57bae93fa7",
+			"763a7a7c-9240-4667-80d2-f8318d3f4c31",
+			"e2a5f566-922d-4de2-8879-b2477825dbe9"
 		]
 	},
 	{
@@ -354,8 +362,8 @@
 		"campNameEn": "Eden Ben Zacamp",
 		"description": "אוכל משובח, מוזיקה והופעות חיות, אהבה מזרחית וכיף!",
 		"descriptionEn": "Fine Food, Live music show and Jams, Love and Fun",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "דנטריט 6:00",
+		"locationEn": "6:00 Dentrit",
 		"tags": [
 			"PhysicallyDisabled",
 			"FoodAndDrinks",
@@ -363,9 +371,9 @@
 			"Live"
 		],
 		"gifts": [
-			"7d573779-97ab-4b33-85e5-b161e55f8242",
-			"1893c785-09e1-4461-a600-94ece5b591b7",
-			"bdf683e8-4d11-43b6-ab79-c1ccf5ae5865"
+			"389a4359-f615-499c-85bf-927fede28c52",
+			"75880cb1-f88a-44bc-9df0-085383dd8baa",
+			"d8e323ee-45f8-4d1c-9aee-29b6ebeb20a3"
 		]
 	},
 	{
@@ -374,8 +382,8 @@
 		"campNameEn": "The Elders",
 		"description": "הרצאות, מדיטציות, כיבוד-קל והטענת ניידים",
 		"descriptionEn": "Lectures meditations, snacks & smartphone charger",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 2:30",
+		"locationEn": "2:30 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
 			"Adults",
@@ -384,12 +392,12 @@
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"31a512de-07d8-4d43-ab8c-2c0834fa4751",
-			"695685b2-5642-46ee-b95e-0d58fe20884b",
-			"a387d60b-9a11-41a7-bf2d-c07b62bbf029",
-			"b840b1b7-d263-4571-852f-05cebac9147b",
-			"3b11785f-1838-45bf-a3ac-a73213fbc8f2",
-			"160eddca-a6ba-4aef-b427-5fb154cf0907"
+			"1ccb37b7-8407-478e-af56-589060028d06",
+			"b3120fc6-4ff9-4fa1-9812-104f9afbd014",
+			"28837462-757c-46ea-a978-5b5f79444022",
+			"07f3a001-e2e8-4a1f-b82e-e9f2ecb52915",
+			"db393ab8-a278-4aa9-be2b-426aa4d44357",
+			"5cbf2958-674c-427f-9d5d-28b0293ddfe1"
 		]
 	},
 	{
@@ -398,64 +406,64 @@
 		"campNameEn": "Ras El Satan",
 		"description": "חושה מדברית, ומסיבות שקיעה שמרקידות כל גמל ונאקה.",
 		"descriptionEn": "Laid back Sinai camp with daily sundown parties",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 1:00",
+		"locationEn": "1:00 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"Party",
 			"Sleep"
 		],
 		"gifts": [
-			"9d5dab9a-fb53-415f-97b1-f7f86f894e4b",
-			"9c0475cf-d454-48d7-8961-7f77c19df930",
-			"a8a617fa-cb29-4021-8577-5c4dea49b984",
-			"eeb7dbfd-7632-4e65-b70c-298daf0d2466",
-			"4b4cafde-aca0-4265-ac2a-6b0da7198e67",
-			"1350a631-4f2c-41bc-85ee-0aa6e83cef75"
+			"25719535-6b62-4f49-83fa-f2cb5a01fa57",
+			"baff5a5a-358c-4259-bbe9-2b02e02f9ab1",
+			"9996d5d5-d658-4e1d-b2db-d4446bfc9a31",
+			"487b9b75-08f5-45b9-9ba4-4076ea3aa992",
+			"26af0af2-76be-4ece-835d-ec45b7eff414",
+			"27abf023-510b-4c78-9a68-3b68d12d4489"
 		]
 	},
 	{
 		"campId": "b7646080-eb24-404f-8010-c434bedcba59",
-		"campName": "בוקרף",
+		"campName": "בוקראף",
 		"campNameEn": "Bukraf",
 		"description": "לאונג' עם ספות, בר ,מסיבות וחריף",
 		"descriptionEn": "Lounge with sofas, bar, parties and  spicy",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 8:00",
+		"locationEn": "8:00 Tayelet",
 		"tags": [
 			"Alcohol",
 			"Party",
 			"Workshop"
 		],
 		"gifts": [
-			"19f81936-eaa3-4add-8d9f-0bfe88e625fb",
-			"a703521e-5d21-402c-994e-66a2703ada4a",
-			"6b7e00a6-8b1f-41e5-8ac6-0da0e44f9847",
-			"804ed1a1-7700-4798-af42-d4c12b39cec7",
-			"de6b03de-fbb5-4211-9620-f4682d1f6f49",
-			"01f0b68e-da7d-4b25-a334-38dcda10bfef",
-			"09a62338-057f-4187-94ce-21ae8ce9cd29"
+			"6624f635-d575-4dc2-be3f-465d62526409",
+			"da8b1565-1835-45af-9b04-9e5f885ade38",
+			"c3835f45-7fac-4d06-9f7c-1a6e546503f2",
+			"169b40af-87f9-4395-9995-4c57168b8b57",
+			"ef88bdbd-e3dd-447a-9cdd-af12d109ba1a",
+			"0d5ee8ba-da22-4e69-827d-e589da9c999e",
+			"b30dd03b-305d-4142-90bd-68ceb5d8c956"
 		]
 	},
 	{
 		"campId": "170f343a-47b9-4410-b698-baab7b65f1a1",
-		"campName": "שנ\"צ",
+		"campName": "שנצ",
 		"campNameEn": "Shnatz",
 		"description": "קמפ שנ\"צ מזמין אתכם למנוחת צהריים מפנקת !",
 		"descriptionEn": "Camp Shnazzz treats you to a magical afternoon nap",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 3:00",
+		"locationEn": "3:00 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
 			"Sleep"
 		],
 		"gifts": [
-			"820765b0-1d99-428b-84f4-697788b45d97",
-			"290b5671-54bb-436b-a8aa-50627777a925",
-			"86e5f8b7-cb14-4139-add0-7d2dc56a110e",
-			"81b4cdbc-8470-44e4-8e2f-1e402a8ef5d5",
-			"bc7c8285-dcca-4dec-a5f2-d48bb68135cb",
-			"10fbffb3-3b6e-419e-bc7a-d5aeaeddd978"
+			"02e9b151-bd3e-405a-a981-bd662a0142b5",
+			"78f5be32-b492-449c-b2d4-d4d3ffec39bd",
+			"0ee87614-38d9-481a-9efb-202edf471922",
+			"6dcd7062-796b-42a4-a000-f74a59b61339",
+			"7157de70-10d4-4373-a9c8-ff3310318114",
+			"973dedbb-e3c2-46b3-a4ae-ca7fee5cb73f"
 		]
 	},
 	{
@@ -464,16 +472,16 @@
 		"campNameEn": "Ezonation",
 		"description": "קונטרה מוזיקלית לשלל הפלאות של הפלאיה",
 		"descriptionEn": "Musical contradict to all Playa wonders",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 3:30",
+		"locationEn": "3:30 Blutat HaYtztrubal",
 		"tags": [
 			"Party",
 			"Play",
 			"Live"
 		],
 		"gifts": [
-			"ec8a7524-d445-4d08-a7a8-ebd907216026",
-			"50baef51-fb10-4259-8dfa-ce0d5c94124f"
+			"a8ab71da-13f5-44f2-8692-93e3e6507fbc",
+			"3f72e2c2-ac3b-476f-b176-74a570fb98db"
 		]
 	},
 	{
@@ -482,65 +490,65 @@
 		"campNameEn": "Campy Camp",
 		"description": "קאמפי קאמפ -  להירגע, לשחק, ליצור.",
 		"descriptionEn": "Campy Camp - relax, play, create.",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 3:00",
+		"locationEn": "3:00 Amigdala",
 		"tags": [
 			"Play",
 			"Creative"
 		],
 		"gifts": [
-			"fe4caf05-2a40-4ebc-9a04-5a7b25e47d3b",
-			"be2336eb-6394-41a3-88a5-1c5bca8dc2b4",
-			"8c27665c-099f-4a0d-9ed3-291d578799dd",
-			"6b52e913-d2e5-4a16-8d76-f72373b45479",
-			"26cae518-b6f5-45bf-961e-12f9587a2f13",
-			"a1cd38a9-4092-4502-ba30-9561ea0472d7",
-			"ebfd3469-6343-4178-8b26-fcef6ddbec4d",
-			"5c466711-e8ec-43aa-9a5a-a245b6a097cc",
-			"d1518747-aed2-4fc9-93a8-4dc2ba03a647",
-			"60ea3c7d-7149-4f5c-b4d3-72e81bd764b2",
-			"85a21f18-5731-4035-8349-799e9a89c7cd",
-			"d374f0e8-d3c3-4984-838d-64b850617958"
+			"91a74caf-e739-453b-89cc-1a708ff8b176",
+			"f5a1e899-b24a-4fd8-aaef-d34a65838f5a",
+			"2b5175bc-f855-45f9-844c-2d7a6d6e06f4",
+			"1e514f9c-065f-46e0-a1d2-fcaace815bb5",
+			"dc568155-3537-4454-8f00-ae797f1f0bc4",
+			"6a615028-c9a2-423c-b6e0-af2238c03f87",
+			"8517bf4b-b34f-460d-8928-4d7b7f2da9a4",
+			"5a510198-1e33-4021-92ec-932719c499aa",
+			"23d7bc26-f528-45b1-ad4a-c7327b25b947",
+			"eede7ccf-18dd-4b08-98b9-dd71b973e3cc",
+			"e4986700-e305-4898-ace6-a97c91ce2dcb",
+			"030b95b6-5d3a-482b-b120-833d09f2294b"
 		]
 	},
 	{
 		"campId": "05ffd18b-1471-44c5-935d-8aed3e6053fd",
 		"campName": "נע ונד",
-		"campNameEn": "Roaming",
+		"campNameEn": "Na Va Nad",
 		"description": "אי של שניות-מעודד נוודות פנימית-חיצונית קונטרסטית.",
 		"descriptionEn": "uni-duality- inward-outward nomadism in contrast.",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 6:00",
+		"locationEn": "6:00 Blutat HaYtztrubal",
 		"tags": [
 			"Alcohol",
 			"Party",
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"32ce0f2f-6db0-4fa7-ba3a-c9f0ab597f52",
-			"40273565-a298-4ad7-9032-b46c0c65d7df",
-			"e5ad1ebe-381c-438c-8d05-cfa474b91741",
-			"425597d4-873b-4764-bbaf-b4c44e72e702",
-			"a38504a8-1202-4248-825a-523964535655",
-			"1856c6cc-039c-4a9a-be66-898efecc0729",
-			"292444c4-fa7e-4a5d-8062-3d1dc31d2dc9",
-			"4f7ff66b-c96d-4dc6-926d-d5079d8094e8",
-			"50e24e1f-7764-4a2e-b6f6-b27beeea3bc1",
-			"c2552c1a-475a-4a13-a9c2-37b327ba02cb",
-			"25c74412-2adb-41fd-beb3-6e4ff73c8aaa",
-			"3f36eff9-9000-4d61-9271-bb90efc8c0b5",
-			"785c53b9-5aac-4cd7-8493-6048dbc5cff9",
-			"ad1cc966-27ce-408b-b569-046158ad4d6e",
-			"a611ce7d-aaff-4d79-920b-2f3b17387e38",
-			"943d4a67-e668-440b-b166-dd8a34182b9f",
-			"3fb3b781-9a00-435a-8387-c0c63644da81",
-			"89acc8fe-3845-45cf-8a1d-f76558548553",
-			"d12b391f-4240-4eb2-9243-f3047a54574c",
-			"338fa30e-ca5c-49c6-832c-52b2136f45c0",
-			"373cfa52-73a8-4058-93a4-3a4d44d18268",
-			"2ffa515c-d388-4b07-8db3-d0c8b7015a79",
-			"d5e884f2-7079-4047-aad8-8e02d5037202",
-			"922fc00c-341a-4ade-93e8-23307d5ae151"
+			"8b1db5c7-b30a-400c-809d-b69a0d119f03",
+			"b748289b-9a6d-4e9d-96eb-479aeb1d5545",
+			"6ad69eaf-a456-4061-8738-5ba815a73c9c",
+			"7c0713bc-66d1-4292-b5e4-e8a57503fe20",
+			"f4af0033-7cbd-4e33-bad2-464f664ba210",
+			"6d2fdb6b-3f19-468a-b006-907c71b26ec4",
+			"e9de164a-080c-42dc-a113-b349c1f88b87",
+			"4dc1e714-f111-41f6-be24-f2aec0d800ca",
+			"6a9c00fa-3172-417a-b353-d04070d2e4d9",
+			"677d6fe8-c4aa-4649-916a-a137a1bec86f",
+			"7b247042-f2ce-44c6-8735-d3d9ac4e7870",
+			"1d1c141e-dcc1-4b7d-a47a-d99d9c1dce16",
+			"c121c03c-4a9f-4095-8e9f-22ceb79d46d0",
+			"e8edbb90-00e3-48cb-b3a5-f679c8061595",
+			"fb7b6086-39cd-48c2-8490-4d910a01cb5b",
+			"e8d8c97c-7d7e-4630-a6b8-289add2bb06f",
+			"90291da3-c663-466b-9725-9526b7bd9d2f",
+			"b1541b1a-9f1e-49f2-bb42-77d90fdb02d8",
+			"dfcdef78-dc70-483d-a5ad-7987c6596aa6",
+			"0f046b31-f745-44d0-8c83-a9ce6983d39c",
+			"0f43773b-e73f-4df7-beba-b0267b5c1017",
+			"52432da1-d9f6-424c-af81-8d378d409b30",
+			"65053dca-8284-4624-819e-adbd946ca8b5",
+			"2bf46660-2073-44ed-8f53-00c7b25ead6e"
 		]
 	},
 	{
@@ -549,8 +557,8 @@
 		"campNameEn": "Ledburn",
 		"description": "סלון מזמין, מוזיקת צ'יל,מזרנים,מיטת מסג' ונעימי",
 		"descriptionEn": "Lounge,mattresses, chill noon music& activities",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 9:00",
+		"locationEn": "9:00 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"Adults",
@@ -562,12 +570,12 @@
 	},
 	{
 		"campId": "a3d73004-1cb8-40de-87f6-70b239c669b7",
-		"campName": "אייס, קרים אנד פייר",
-		"campNameEn": "Icecream and Fire",
+		"campName": "אייס קרים אנד פייר",
+		"campNameEn": "Ice, Cream & Fare",
 		"description": "הקמפ הותיק ביותר במידברן - ארטיקים ומנוחה",
 		"descriptionEn": "The oldest   midbern camp - Popsicles and Rest",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 3:00",
+		"locationEn": "3:00 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"FoodAndDrinks",
@@ -575,12 +583,12 @@
 			"Sleep"
 		],
 		"gifts": [
-			"f8f8f8ed-a475-49a1-a5d7-95e5385c4750",
-			"8145e0d5-7ea0-484a-9329-8f5ad5520c4a",
-			"696d6cee-3064-4d2e-916d-d6daea6077a7",
-			"3c0aaced-b2db-4910-b6b1-bf57dcb4f1b4",
-			"213ea9eb-14db-483c-8990-2010727eac2d",
-			"7967c475-4aa5-426f-af54-68295adfe675"
+			"e000e23c-9aee-4f4e-bec5-36e19cb2c1c1",
+			"b0a8ae70-f978-440d-a8bb-afed392658d8",
+			"5518166e-3b5d-446c-836e-bdf9766ccb69",
+			"cdd46487-72e1-416d-ac32-9f0447c26a8e",
+			"748513bb-a97e-4b4d-ba13-17107b692714",
+			"62f164aa-996e-4d15-aff6-dc60b8e61bff"
 		]
 	},
 	{
@@ -589,8 +597,8 @@
 		"campNameEn": "Camp 80",
 		"description": "בואו איתנו בחזרה לעתיד... מחנה 80",
 		"descriptionEn": "Come with us back to the future - Camp 80s",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 7:00",
+		"locationEn": "7:00 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"Alcohol",
@@ -598,33 +606,33 @@
 			"Live"
 		],
 		"gifts": [
-			"1aa9ebf9-ed8c-45a8-b6d9-f4cc6de35da3",
-			"ee9e274c-4a3d-445c-b46d-a56313bc64b2",
-			"b63ec9dc-c2fb-4bb6-9b9d-a2965b9bc3e8",
-			"029833fb-00ca-46bb-b09a-bec5bfd7e598",
-			"6356f2ab-f607-4642-816a-d5dedecaf720",
-			"5760e766-b982-46de-bbc3-ad6a80d54bf8",
-			"9caa75c7-7b1b-49b3-a932-a1b79937cc25",
-			"b10582fa-2912-4f4d-b85f-edac3ef42ca9",
-			"f40a9463-d20c-4fd4-b069-0ad16f55b6f4",
-			"437968b0-6ad9-41c7-bbf6-0c9fac55686f",
-			"2af2dcdd-0677-4181-91a6-992e572c16ce",
-			"b973ecf4-cb30-4d8a-b028-13235fc70584",
-			"c7a14a66-3343-44fa-9b2a-4ade008467b1",
-			"a9ad4281-100c-44bc-a797-c0f9bf581b19",
-			"d9411ac9-7450-4fb8-ab61-acccb09a5673",
-			"858a1153-f6d9-44eb-87ae-ab29319a154f",
-			"15355198-3d66-4da2-90eb-f4d8000aee46"
+			"ade15018-8233-4883-bb72-618e030e8f10",
+			"cb3102e5-2a9b-4558-bd10-fc2a96ce3188",
+			"4db1b7dc-a504-4bfe-99b3-b8d7aaa937d9",
+			"269d3f2f-a73c-4434-98de-600c34546981",
+			"4d721faa-a8d1-4b5d-8d72-74e14ba94f66",
+			"1c47e300-3528-4638-a986-fac3995b8e97",
+			"e39e934c-7078-40ff-af60-fbbd476662ed",
+			"15883a29-f06c-48bf-a042-d171ea24d151",
+			"b9943f58-e55c-4228-864b-3422a2d85dda",
+			"34788f02-2de2-43fd-b8a7-f6a4f8ebf758",
+			"c4af2b72-32c1-40c2-8fb8-9923ba70cc8a",
+			"220701a0-a05a-48cf-bbc9-1202d72a0760",
+			"5fc4d3cf-1c25-4f3a-8392-ac63fa75aeea",
+			"ccfc0acc-00f8-4bb0-8697-9745334dedf2",
+			"ecf765d8-a5c3-4ef0-9970-579d0780808d",
+			"671473a9-5f1e-4e64-985b-007552b8ca5b",
+			"dda3ef01-b48f-4904-9943-4baf3de83782"
 		]
 	},
 	{
 		"campId": "6b53d361-23af-4c05-b0ac-9bebbacd24ce",
-		"campName": "The Nest",
+		"campName": "The nest",
 		"campNameEn": "The Nest",
 		"description": "בית התה: מקום לנוח, לשתות תה 24/7 ולפעמים ורקוד",
 		"descriptionEn": "Tea House: chillout and drink tea 24/7",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 6:00",
+		"locationEn": "6:00 Blutat HaYtztrubal",
 		"tags": [
 			"PhysicallyDisabled",
 			"Party",
@@ -632,22 +640,22 @@
 			"Sleep"
 		],
 		"gifts": [
-			"687670a8-2208-4f58-b223-2395184e8ae4",
-			"7cbaa149-d220-41c7-b1af-63375fe75119",
-			"05f797cf-520d-49b3-9f6e-d3480e51b803",
-			"b8b21639-2991-41f1-94b2-a6c807983294",
-			"f3ce852d-5d93-426a-a8d4-6061ea910480",
-			"47d90a62-cdd8-4004-83fc-03c4fe75512f"
+			"bc77f28b-d869-4969-bc4c-5199587e5d16",
+			"d6e2ee63-b7ef-49aa-925e-f80d1240cad5",
+			"b93db358-133c-4eb9-819a-dc5af436c8f3",
+			"019f4144-b14c-4c4b-a05c-6ac458550cce",
+			"a5dfe8f3-e1c4-4a4f-adde-e4dc7dd540c3",
+			"d55b444b-65ba-4eda-a9c9-b6a5016b95a0"
 		]
 	},
 	{
 		"campId": "882315f6-0942-42fc-840b-dfbdcc12d8d2",
 		"campName": "ביט דה ביט",
-		"campNameEn": "Beat the Bit",
+		"campNameEn": "Beat Da Beat",
 		"description": "שותים משקאות סלק, רוקדים ומרביצים לסלקים",
 		"descriptionEn": "drink beetroot beverages, dance and punch beets",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 8:45",
+		"locationEn": "8:45 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"Alcohol",
@@ -655,12 +663,12 @@
 			"FoodAndDrinks"
 		],
 		"gifts": [
-			"dad6f9d6-8f33-4064-b2f3-5672227d6297",
-			"e86823a7-03a8-4f72-abdc-a8c822776c8d",
-			"8fbb1884-93fd-4686-8354-269982b19267",
-			"a46cbca7-0d79-4fe0-ab44-9ef17d3589f0",
-			"c6a61536-3d16-42bc-b015-55bffadbd0e7",
-			"96b8aa26-b963-4ba7-a1de-6864b3ccea9f"
+			"f0a2ee89-ce12-4f18-aacb-b9a41bf8f85b",
+			"8f6d04e1-6eaf-4041-8322-e17e444d90d9",
+			"dc213fef-d588-4756-b61c-d4cbac0d97b6",
+			"2d565ef5-68d9-4392-b8a6-43c752c53750",
+			"fc013961-c3eb-453e-9d15-86b6f5dd9903",
+			"90f17881-fd50-477a-b0aa-e37c390597cf"
 		]
 	},
 	{
@@ -669,8 +677,8 @@
 		"campNameEn": "Organicamp",
 		"description": "בית מרקחת לבעיות נפוצות ואבסורד",
 		"descriptionEn": "we will cure your buddy and soul",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 1:30",
+		"locationEn": "1:30 Geza Hamoach",
 		"tags": [
 			"PhysicallyDisabled",
 			"Alcohol",
@@ -678,69 +686,69 @@
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"4aac6419-cd0e-4f54-b767-309f46e2f92c",
-			"3138f34d-e394-4c96-823e-b04428d8e411",
-			"ad8bcc07-ac72-4814-b8f0-5bc94def1567",
-			"b454a8e3-8c65-43e5-a3d0-867cae7b9778",
-			"cb614f1a-1bc8-4691-b8fb-755c1611d858",
-			"9ca11cd2-af33-458e-8de7-842b06781e78"
+			"c783200a-9ae7-4610-a9b4-0c9bc2e2ced0",
+			"ece8e4fb-1493-4bce-a779-66135f26db05",
+			"3b099870-17d1-4a98-b0c1-328412d190cd",
+			"59631a39-0e4f-4c00-8468-4d8f0d5fc115",
+			"d824bad6-3b58-4026-bc25-cbbc50a8b451",
+			"8d930527-2718-4df6-a189-8b44274c3b97"
 		]
 	},
 	{
 		"campId": "c0d55e19-e4da-4472-8d35-2dc13566fc54",
 		"campName": "האחיות מספריים",
-		"campNameEn": "Scissor Sisters",
+		"campNameEn": "The Scissor's Sisters",
 		"description": "סלון היופי של האחיות מספריים - מקום להיגזר בו",
 		"descriptionEn": "The Scissor's Sisters Cutting (W)edge Beauty Salon",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 5:30",
+		"locationEn": "5:30 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
 			"Party",
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"d3665b58-4489-450b-b21f-253d4066223f",
-			"7d4d1f21-ed3c-493d-901d-de8790b446ab",
-			"39f88330-09fa-481a-8251-adae84a60a9f",
-			"b88c32c7-1a6b-42db-a39d-6a2168de49a0"
+			"9b588532-d507-44a7-a176-51a4e9fa3871",
+			"f4333c3f-81a8-499b-a6d4-efc14aeb0c33",
+			"aad5d172-9196-4178-a8b4-f8ddb76da075",
+			"5bafae01-bf72-49f1-b16a-2ecd5e1c901f"
 		]
 	},
 	{
 		"campId": "db052c9d-5bc3-42e4-a1b0-d2b264f7a82b",
-		"campName": "מוחאיים ג'אר مخيم جار מחנה שכן",
-		"campNameEn": "Neighbor camp",
+		"campName": "מוחיים ג'אר מחנה שכן",
+		"campNameEn": "Neighbour Camp",
 		"description": "פלסטיני-ישראלי +++ דיסקו ערבי+טרנס+נרגילות+מופלטות",
 		"descriptionEn": "Palestinian-Israeli ++ Arab disco+nargilas+mufleta",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 4:00",
+		"locationEn": "4:00 Blutat HaYtztrubal",
 		"tags": [
 			"Party",
 			"FoodAndDrinks",
 			"English"
 		],
 		"gifts": [
-			"5d06c39e-abc9-45b0-9e82-052b190d2914",
-			"ed9d3dec-db75-487c-a6db-e7d5f380369f",
-			"be4b7bfa-9058-45b9-8b63-bb63e5949a1e",
-			"67b34da8-3ef6-466f-8dfd-9873e9363453",
-			"fe2f2e3e-8776-4ca2-8430-4c14e5ff562b",
-			"80b85a58-6f61-4e70-aec5-faba8f8e4654",
-			"3cb0ac90-0c18-401e-a076-ee30ec2d4a1f",
-			"d7da229b-ab40-42e4-bbbf-2f8d0350a7bc",
-			"ced5c5ea-58be-48d4-aee2-bbc0594885a9",
-			"489fad98-4031-4f1a-b712-ea8ff669badb",
-			"fd8aeade-8e3c-47a2-807f-512b6831edab",
-			"907342ac-0590-4eaf-bf8a-95985e5e5e22",
-			"4a5c80b7-2a68-4e57-9773-25e4a2263b89",
-			"abb27bb5-15e1-43db-a4d0-056ff5089ade",
-			"cf163a8a-a4d8-479d-8c4a-73eac09800bc",
-			"3ed65408-d9eb-4bbf-ae4e-9620485d86b5",
-			"32f89126-f5ec-4d33-8519-5488d2c7a140",
-			"3dded60d-dec1-4ab6-90ed-1f9c4bbb4307",
-			"39897921-00cf-404b-9b5a-e67703edbe04",
-			"5bc6c38e-723a-4800-9f7c-e4f3b4bd79b7",
-			"56f4319b-20f1-4edb-a2a9-22bd03469114"
+			"601de738-0aa1-424a-8cb6-28bad06a951a",
+			"e1eaba24-f6ad-4b05-92ba-6ae546b1e9da",
+			"bb77e749-4eaa-4ae7-b5f4-97a330f8e69e",
+			"5575332a-2d1b-40f0-bca8-831f4f0b0d2b",
+			"b5604f13-8b1d-4926-9b68-02ba5f19d249",
+			"bee68276-9a21-4ba1-b4cc-1e82f47c880e",
+			"5f6b33f4-a463-4804-ad1b-fdb3a0c777ae",
+			"8968a6d7-7a52-4d39-b3ed-5a8c2b1e89a5",
+			"aeba0539-7bf6-4c11-bc1d-b209b8dabe97",
+			"61024831-5f04-472c-a200-c0f48a21fb3f",
+			"a2d054a4-de60-422e-9d84-de62cf2d7f0f",
+			"7729d529-0189-4879-bf07-a7204040faea",
+			"38afc7c8-1dee-4aab-8459-44d4d060f563",
+			"2461e13f-8fde-4822-97cb-10484e9b8973",
+			"4d0a8ae0-93d5-44d8-94b3-b75e4e165c2d",
+			"5a63d6e5-bc97-4afa-bebb-0cacd971a320",
+			"e13061de-d374-4d6c-ac22-10f3ba7491f5",
+			"e7cc44c2-dffa-4116-822f-efb705bc608b",
+			"45df813f-1879-4f6c-a5f2-7a89ed36273e",
+			"bfa5ecfd-00ce-4bee-b376-eae83274f5d7",
+			"1a5afb58-83b1-40bb-b802-ed3da7f383fd"
 		]
 	},
 	{
@@ -749,13 +757,13 @@
 		"campNameEn": "Shubi Dubi",
 		"description": "לשקוע בנעימות פרוותית אין סופית של חברינו הדובים.",
 		"descriptionEn": "The cuddle Puddle - endless furry softness.",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 5:00",
+		"locationEn": "5:00 Geza Hamoach",
 		"tags": [
 			"Sleep"
 		],
 		"gifts": [
-			"b27312bc-7887-414e-81ef-b84b5d50002c"
+			"98e4cad1-457b-4402-a658-433761db8d42"
 		]
 	},
 	{
@@ -764,8 +772,8 @@
 		"campNameEn": "Beyond Common Sense",
 		"description": "אירוח שמעבר להגיון הסביר בחצר הארמון",
 		"descriptionEn": "Enter kingdom's court for a \"Beyond\" experience",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 3:00",
+		"locationEn": "3:00 Blutat HaYtztrubal",
 		"tags": [
 			"PhysicallyDisabled",
 			"Adults",
@@ -774,12 +782,12 @@
 			"Play"
 		],
 		"gifts": [
-			"e12bab97-2bdf-4a8a-a584-09dafc874484",
-			"bbf4c569-b04d-48a7-ae0e-9484b10683b8",
-			"6fa7117f-6fc2-49a0-81c3-8ff5782219e3",
-			"4c2bdf25-7c37-4d84-807d-f770ba1a1419",
-			"1a2aadc4-ab1c-4506-9d1d-24ea3e04a364",
-			"27f019d0-e92a-4902-981e-2eb7c8f130cf"
+			"3b1fc1f0-5153-4c44-9dd1-afd03ccb8905",
+			"e7b5fce6-b1be-48ab-8fd2-3a3dc754e616",
+			"7db3bcbe-fff5-4a99-9528-b3e9acd846f8",
+			"1f01f20a-5281-4e83-bb01-24fc779b7019",
+			"1b11de96-d3f5-4ab7-b5a7-274320f5704f",
+			"fc86c7d3-9540-445a-aa82-ddb5c7b999dc"
 		]
 	},
 	{
@@ -788,8 +796,8 @@
 		"campNameEn": "Random Camp",
 		"description": "הפתעות רנדומליות",
 		"descriptionEn": "At camp random every day a new surprise awaits",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 5:00",
+		"locationEn": "5:00 Amigdala",
 		"tags": [
 			"Adults",
 			"Alcohol",
@@ -797,7 +805,7 @@
 			"Play"
 		],
 		"gifts": [
-			"5434eb1c-7fc8-4c86-a1ab-713d501515bb"
+			"dbc74615-736d-4be5-ba00-1c9400a5fac8"
 		]
 	},
 	{
@@ -806,20 +814,20 @@
 		"campNameEn": "Sunrise Kingdom",
 		"description": "דיפ האוס וטכנו משקיעה עד זריחה ומעבר",
 		"descriptionEn": "Deep House & Techno from sunset till sunrise",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 10:30",
+		"locationEn": "10:30 Tayelet",
 		"tags": [
 			"Party",
 			"Sleep",
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"487dd195-ca74-44a5-ba5d-a1fe0db5baf2",
-			"42ee63a2-62b7-469e-9d7c-cdd2dd1164b7",
-			"dc6f4287-98e1-4d9b-9bb0-b10acf7044ce",
-			"5c7dd34b-ede7-4330-9d23-1a1074d64ed7",
-			"5492e8db-b83c-43fa-ba92-e3b1da295928",
-			"ef6aee43-8809-4c4e-85f1-4a2e736bab6e"
+			"97fec04d-51b2-4367-a257-969bb380253f",
+			"358fd663-43d7-4fc1-9b18-dfe65ba32f11",
+			"f673e707-843f-4f46-ac1f-fefea0291eb9",
+			"348b0839-83b9-4abb-acdd-1ca9d64e367e",
+			"9058360a-37f1-4442-a72f-cbdd06dc540f",
+			"8062b427-d3cb-4854-9e29-918b1a99017f"
 		]
 	},
 	{
@@ -828,18 +836,18 @@
 		"campNameEn": "Valhalla",
 		"description": "שער גן העדן הויקינגי נפתח! בירה! טרפת! ראגנארוק!",
 		"descriptionEn": "Viking heaven is open! Beer! Madness! Ragnarök!",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 7:30",
+		"locationEn": "7:30 Tayelet",
 		"tags": [
 			"Alcohol",
 			"Party",
 			"Play"
 		],
 		"gifts": [
-			"661fb33e-9a46-487a-af32-3fe97f225e3e",
-			"742aa16b-0d89-4cbe-9f16-13272e39b0cd",
-			"74022ecb-473a-44bf-b817-625bd7ba2cb2",
-			"45345f06-2201-44c9-b137-d008e7fcb441"
+			"e7560235-1f5a-4376-911f-fa8d6d63aec2",
+			"c04c0737-f0dc-4abc-b323-0eddbdf6124b",
+			"9008ac49-2fd4-4fb2-9a2a-d5b76ef09f42",
+			"436d5699-e5d9-471b-9d35-2beb00cd1aa5"
 		]
 	},
 	{
@@ -848,15 +856,15 @@
 		"campNameEn": "Jungle Storm",
 		"description": "המקום המושלם להתפנן בו במדבר: עצים ערסלים וטפטפות",
 		"descriptionEn": "The perfect place to chill: trees, hammocks, spray",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 1:00",
+		"locationEn": "1:00 Geza Hamoach",
 		"tags": [
 			"Alcohol",
 			"English",
 			"Sleep"
 		],
 		"gifts": [
-			"2828ac70-07be-4169-8213-5e3996e61b7e"
+			"978c4017-b02c-4665-b30e-c6a704359644"
 		]
 	},
 	{
@@ -865,8 +873,8 @@
 		"campNameEn": "Mirage",
 		"description": "גלריית צילומי מידברן יוגה מדיטציה וסדנאות התפתחות",
 		"descriptionEn": "Midburn PhotoGallery & Yoga & meditation",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 2:30",
+		"locationEn": "2:30 Blutat HaYtztrubal",
 		"tags": [
 			"Adults",
 			"Creative",
@@ -874,12 +882,12 @@
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"60ca3c75-8b62-405c-ae7e-eec678ea92b2",
-			"0d0e4ef5-dbbc-4281-b4a6-2d2db72bf7ae",
-			"be3a0b72-5502-4032-b546-571224bfc386",
-			"4bfb2962-b025-4811-993b-d8cc4261826e",
-			"7043c45f-16b3-42db-b51b-a09765da7572",
-			"f88987a6-0f90-418d-b9d3-75e3567eaf58"
+			"ad99c8a3-dfc5-4701-a10c-eb0e1079fb68",
+			"99559ffd-0c2a-43ab-8404-c3f6d23d5caa",
+			"3f9df6ff-67cf-4871-9a02-4325764e8bcd",
+			"6511d61e-aab3-4c45-ab59-1e2cc01fbd08",
+			"dc5cbc44-1420-4b48-bdd4-c96c7d35f18a",
+			"2121b27e-5bfc-496c-8f3b-d5537341c860"
 		]
 	},
 	{
@@ -888,8 +896,8 @@
 		"campNameEn": "Freelove",
 		"description": "כאן חוקרים ומבטאים מיניות בכל יופיה ועל כל גווניה!",
 		"descriptionEn": "An open space for sexual exploration & expression",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 2:30",
+		"locationEn": "2:30 Geza Hamoach",
 		"tags": [
 			"PhysicallyDisabled",
 			"Adults",
@@ -897,41 +905,41 @@
 			"Workshop"
 		],
 		"gifts": [
-			"4b42ab2e-1e23-49b7-b2bf-e0ae9fd44792",
-			"42a40778-486c-46ae-b225-bbdee59d376e",
-			"89d447da-654f-4f0b-8ad2-cdc90d310d5c",
-			"e12327b8-b364-47d3-ad30-8a46c0a08fcf",
-			"ccb5ca63-816b-4eed-9a47-a45c2e66c89d",
-			"1848b20f-8107-40dd-aeee-9521d1e445cd",
-			"a459373b-f572-4398-861d-87a5de9a7f44",
-			"8eed47c8-5b05-4fa8-8d59-3d02b93417aa",
-			"a38e65fa-5c98-4024-ba6a-6b6a40b4b26a",
-			"a097abcd-7523-4dc3-97d4-4493503450c5",
-			"39e593b0-361e-41c1-95f1-796381a3a023",
-			"5c70e0fa-76b9-4245-9d7c-70569beb41bb",
-			"f04a57ba-0f6d-43b6-868e-fa98716b0b51",
-			"44201b63-dfe8-4ab8-8b14-b739cb2be4b1",
-			"6c9ce5c2-453e-45a3-aacb-f7cdebd7c6c2",
-			"70ca5646-f9cc-4bf4-b658-2196dad47b4d",
-			"9fdb6ce0-dcec-4a38-aa2e-f2e7aad44409",
-			"0406dcac-ae42-4273-8f43-bd4ab426ae18",
-			"bfa8e0ab-c553-43ad-8271-6b2be5604f7a",
-			"bc71b560-f26b-4859-acbe-83cfe7d68d57",
-			"6819433f-893a-4e1c-b2e7-641d02dd4f34",
-			"612f1d16-073a-47c7-ae07-193c9e53b36c",
-			"b52fc99d-9958-4745-b5ab-4b984e032014",
-			"3b284b2f-94f0-42b7-8cc8-146ae76c1453",
-			"2a685633-2f08-4f92-929a-eb2769b26f1f",
-			"99db2b61-b985-47e6-9613-777d1d601515",
-			"d8fc97a3-c2ca-48ad-a713-8e5636bb15c9",
-			"d5ac3b7a-6df0-4fc6-ab91-975ae60e1c20",
-			"b6d2f702-9eb9-4b0d-9aa6-e698cd512189",
-			"f5ce1163-4176-4965-9ba3-e44cd403ec22",
-			"7dd72ede-5729-4b62-bb12-91b1ecefef08",
-			"073cca82-ca38-4394-b053-5a588fbcdce9",
-			"4e19aa54-4975-4714-975a-ae5d042b9d30",
-			"679f3120-a001-49b2-acf2-2729cbc7d055",
-			"a2e6dac3-7748-4c06-ae31-93f62abed7ce"
+			"b73c4666-f7ee-4a51-82de-3f48c1a156ad",
+			"677f3c44-56d1-4b69-9d5c-bbd2dbfa42b6",
+			"ae07abe3-7c1c-4cc0-9a5c-ed34e6a48017",
+			"d4f0109f-9be6-4a75-855d-7402aafa529c",
+			"e46d94b3-6ad0-4eb1-87a5-f79629a7ce52",
+			"abf26f1a-51e5-4166-8f25-2cf146c065e9",
+			"885b9b5b-4550-41f6-926e-e5e2c591c91b",
+			"4a9eb555-8a01-4561-a4ea-46b35024887f",
+			"9b789b09-0dd5-4e85-a2f4-8247767c8649",
+			"783bdccc-23d1-48dd-b2a0-a3d97f7f5f84",
+			"af15d5e1-0789-4451-8eb5-96d5af8276ce",
+			"08f63908-5012-4cf6-9869-c17d1f3d5703",
+			"80a6f343-3c20-4982-a4ca-2e7292883bcd",
+			"ce1b3c7b-113f-44a2-bb5a-e8bea51628d9",
+			"c73c453b-9558-4a6d-a0f4-c173f61a9761",
+			"37e63c4b-ac47-4679-89d0-dc56a5744573",
+			"f4900f55-69be-4c14-afca-1b86aa0d89c0",
+			"693209a2-5d6a-435d-840a-d9d8e82f1ef6",
+			"ba81c987-2a45-48f1-aba7-55fca56ff7c3",
+			"b3e70e98-962f-4a03-99fa-cc78d32ac413",
+			"1ef8a798-66ea-41fa-beeb-93e492469616",
+			"20774434-e559-4c39-bec8-ada8a0e7386d",
+			"4e2e0e88-0fb5-4e06-9d59-15131a04159e",
+			"bb1d3195-d83f-4be3-8c92-6486a0e2c1b1",
+			"09667fd7-a696-40dd-a3a3-be6cec87a80a",
+			"5cef4070-fb95-46c4-a52c-3ef0e3c0f4d8",
+			"de4d18fa-d6e7-4f03-806f-48820d30fad8",
+			"5ba105e8-1183-45c3-899b-cc1e51696a77",
+			"5f0994e2-ad39-4ebe-a3d4-24e21f34244b",
+			"4ec5e788-183b-410f-a774-bbaef3553bb3",
+			"66576ad2-a115-4b56-b590-c5fe8a5d04be",
+			"01f3c8ad-0077-4e32-86e8-f0e6c1394a72",
+			"106c4571-db8a-43c6-9585-7185793bdd41",
+			"e350c5e8-5726-4613-a7b2-6d8eaeb17baf",
+			"7ea5ff9a-857c-4dcd-a215-e50d5423c95d"
 		]
 	},
 	{
@@ -940,38 +948,38 @@
 		"campNameEn": "Pancake Empire",
 		"description": "המתחם הפיננסי של המידברן למסיבת פנקייקים וקזינו",
 		"descriptionEn": "Spend your Midcoins in Pancake Party & the Casino",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 3:00",
+		"locationEn": "3:00 Tayelet",
 		"tags": [
 			"Alcohol",
 			"Party",
 			"Play"
 		],
 		"gifts": [
-			"e2c17b92-3cfb-48da-90fc-33d77c8fc35d",
-			"3c514073-f011-49fd-b719-76ce24bea5c7",
-			"7d978667-d81e-481d-9037-e696426eb833"
+			"479f876d-faa3-47e4-989d-e005512fc863",
+			"18d0d3bd-4418-4021-801c-a4d6736c6152",
+			"78476f0f-9fa8-454c-8441-2152e85382d8"
 		]
 	},
 	{
 		"campId": "4aced4e7-0a4b-49a4-8d54-e408742ea659",
 		"campName": "פיזדייץ",
-		"campNameEn": "",
+		"campNameEn": "Pizditz",
 		"description": "המון לבבות שמתחברים לסאונד ועושים מוזיקה",
 		"descriptionEn": "heart that contacts to sound and make a music",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 9:00",
+		"locationEn": "9:00 Blutat HaYtztrubal",
 		"tags": [
 			"Adults",
 			"Party"
 		],
 		"gifts": [
-			"dbbb0d42-6f21-4481-abae-75f49ccbabfb",
-			"99cb9ffa-bc75-4a8c-b4f7-9713e9ec0e00",
-			"5880bf5e-6dc0-419a-a5e3-ee0dc13da9fc",
-			"ffcfcc0a-49f7-4822-adc7-66cae30025ef",
-			"3b05f204-3a05-4b0a-96d5-20e799bc7ddb",
-			"de4b0277-e87a-406e-83f0-417d57581be9"
+			"90317106-0ba2-4677-acc4-cb24f51c2c5f",
+			"80a27bf8-fed7-4777-9a26-1b80c6f1fe42",
+			"2d1c7231-4a55-4985-87c7-1d9c51856622",
+			"298ed4c4-f488-4e98-8d63-1650ea72ccd1",
+			"6a0608cd-1021-4f5a-ab50-6f42132be0c4",
+			"f43ce5a8-97a5-4395-a18a-1831db8a7bab"
 		]
 	},
 	{
@@ -980,30 +988,30 @@
 		"campNameEn": "Challenge Accepted",
 		"description": "מאתגרים את הפלאיה!",
 		"descriptionEn": "CHALLENGING THE PLAYA",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 5:30",
+		"locationEn": "5:30 Geza Hamoach",
 		"tags": [
 			"PhysicallyDisabled",
 			"Play"
 		],
 		"gifts": [
-			"6d9ba110-c309-4c92-a319-58d662786319",
-			"c6d600ee-028a-4b1b-a1fa-b2d3ccd78a2b",
-			"0f294f47-89f6-4f82-a315-4bbb6eee3572",
-			"618d28f0-bbe4-4c9a-b851-3cf3758b8dd6",
-			"1acd5a3a-0130-4cec-9b2e-b787e7d64395",
-			"bdc774de-7680-4e22-85db-a1f3dbfd7c4b",
-			"41f80a8e-6bc8-4f27-ab8d-d3adf344d598"
+			"51ac5042-e9b1-42bb-b913-9120f39c68eb",
+			"f0d660f4-0524-4087-bb9c-c1156466daf6",
+			"a05f145e-7020-45c3-9197-c8bdf2ac2643",
+			"47ba7c01-e75d-4a21-becd-acf2f780056b",
+			"44b1c255-14ff-41c0-8060-04f2bd5fbd5a",
+			"c1314d69-4691-42ab-8e93-d89cf1a7ad12",
+			"b14644b9-3f18-41a8-86ab-e17bacf0bcb5"
 		]
 	},
 	{
 		"campId": "cca61dd3-eae3-466c-a68f-94b8665af520",
 		"campName": "חלום במציאות",
-		"campNameEn": "Lucid Dream",
+		"campNameEn": "Realife Dream",
 		"description": "מרחב פתוח לחלום חלומות אישיים וחברתיים",
 		"descriptionEn": "A place for social & personal dreams",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 4:30",
+		"locationEn": "4:30 Blutat HaYtztrubal",
 		"tags": [
 			"PhysicallyDisabled",
 			"FoodAndDrinks",
@@ -1011,12 +1019,12 @@
 			"Sleep"
 		],
 		"gifts": [
-			"72bb25fc-0418-4e39-afdb-d78805cc794c",
-			"0dccc9c6-bd6a-4a51-bb1b-dd7ef2687b26",
-			"589e0506-6b18-4cae-a61d-8874836b17e9",
-			"738993af-12a3-4c3d-a216-2ff1cd0115a6",
-			"fb85f69f-180a-4a76-a991-8b8bb43ae09c",
-			"0f0f697f-2a96-4b4e-af89-1bacba08c8ca"
+			"0a15ff07-5c22-41fe-b0d6-e71373e0ab9e",
+			"bfc499e2-a15b-49eb-8ba3-d4f106c1d32a",
+			"5a8ef4e9-1426-4c58-a0c3-dd1a72cbe9e7",
+			"7fdadcec-35e2-4a4a-8fcd-8d7155386cb0",
+			"338bbc7f-fc0d-4973-90ee-3a4d92c8c670",
+			"a426310b-4df0-4389-bce5-7d0904c720db"
 		]
 	},
 	{
@@ -1025,8 +1033,8 @@
 		"campNameEn": "Mexicamp",
 		"description": "מידברן חריף יותר עם מוחיטו, ריקודים וסיאסטה",
 		"descriptionEn": "A spicer Midburn with Mojito, Fiesta & Siesta.",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 4:00",
+		"locationEn": "4:00 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"Alcohol",
@@ -1034,21 +1042,21 @@
 			"Sleep"
 		],
 		"gifts": [
-			"f8e01f94-7143-4a6b-b327-9aafa84a4ca4",
-			"cd3608f0-726c-4ae3-bee7-f8beafa824e4",
-			"4249c22c-25d2-45de-a7d7-82cbf805b24a",
-			"24c72594-6474-453b-80bf-701f6e59e78c",
-			"55f87645-89df-4589-b29f-b2a41a9dd9f0",
-			"92900794-f4ec-4595-8486-2f77399394e1",
-			"f92ca4ba-7f42-4e56-88ac-86ddc0428db7",
-			"07567d24-6278-4294-87f8-5fdf201425e5",
-			"be928701-3247-44e3-8bfd-4fd702e15ceb",
-			"df78f832-c983-42ed-a279-5e966c83f808",
-			"0254131b-d9d3-421e-a314-f65889af636c",
-			"d77bda3d-bf2b-4316-9927-4cbc5d6bb1f2",
-			"dd310c3e-ca29-409e-856b-2e15ef5993bc",
-			"fdeb8a14-525a-49b1-bcbd-51a7552fc879",
-			"23692059-8881-48c6-8cec-66047aca61ba"
+			"f66b6045-f897-4909-85e4-4d785380342b",
+			"c9284721-2d03-442a-a173-32a7bb831562",
+			"3742e706-3b62-4e97-b91e-1d0bee9093ab",
+			"a3a66d84-4250-4d1a-aba8-6266f212d5b7",
+			"b3538bd1-4603-4799-b968-4857d1728c4b",
+			"1cea6fed-13ef-48c4-aa96-58e9cce5484f",
+			"8f939711-1459-4a61-833c-35cca4e7463d",
+			"6eb0bab9-79e9-4165-b343-f3d209905a84",
+			"b27f7582-b739-4b77-9ba7-411dbbaba9a4",
+			"5be2b8a9-646c-4bc6-be78-b7f01578a949",
+			"2ed71209-777f-457d-9924-ccf22f46b993",
+			"344afc8f-5dfa-4982-975f-b79796a60a4b",
+			"79ad3352-fdb9-4d94-896e-4458c6403bc4",
+			"bc7cd086-e1b0-4680-8118-8b34f5fd13bf",
+			"306e7dfc-28bc-4c50-bf9c-ec12320707dc"
 		]
 	},
 	{
@@ -1057,8 +1065,8 @@
 		"campNameEn": "The Lost Kids",
 		"description": "זירת קרב בין פיראטים לאינדיאנים עם אקדחי Nerf",
 		"descriptionEn": "Nerf shooting arena, Pirates against Indians",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 3:30",
+		"locationEn": "3:30 Amigdala",
 		"tags": [
 			"HearingImpaired",
 			"Kids",
@@ -1066,24 +1074,24 @@
 			"English"
 		],
 		"gifts": [
-			"7396d1c8-69e4-4c52-893e-477891b1cf57",
-			"7a72cee0-bfa8-43ff-8100-f4d71c9d1964",
-			"d5d99d88-53c5-4a85-8aab-37340cc41544",
-			"faa84a98-ef99-499b-8080-802904f84d3b",
-			"37821a9c-b7f6-448b-b2a3-559b12fd00ec",
-			"afdf3288-19f6-4994-baf4-4c4170d0cd61",
-			"e029e2a5-617c-4564-b38b-17238804d13f",
-			"5a61e2b4-7a24-4862-976a-5dcc5f93a76d"
+			"70d97d4b-7bc9-4918-8ecf-6895521e5c60",
+			"53631a1d-486d-4025-bcd2-e6e3d772178b",
+			"df5d1364-45a4-4d11-8f58-066b2080a613",
+			"7ff5dab9-1cbc-44d4-922b-33eee8ddf26e",
+			"d88f0993-3862-42ec-b583-bd42fbf37f4c",
+			"ca66e468-6b96-4d2f-9ba4-0f94b9286326",
+			"e7b8a1bd-04ec-484e-9f55-f50226c070b5",
+			"86c7a6b0-abcd-4e31-92a9-7a0e1124012f"
 		]
 	},
 	{
 		"campId": "b81cbc04-c0af-429c-9d1b-fa6065e8cb0f",
-		"campName": "קוף X",
-		"campNameEn": "Kof-x",
+		"campName": "קוףX",
+		"campNameEn": "Kof-X",
 		"description": "בג'ונגל הקופים תתהלכו בין קוטביות הכאוס לשלווה",
 		"descriptionEn": "Monkeys' jungle full of chaos and tranquility",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 5:00",
+		"locationEn": "5:00 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"Alcohol",
@@ -1091,17 +1099,17 @@
 			"Workshop"
 		],
 		"gifts": [
-			"ee25c685-a2f2-4b82-8233-3f5d1b516322",
-			"bca8b99d-4edb-42d2-a527-1e7a7d8d7995",
-			"a519765c-181f-48ca-abb5-600ebd508a2f",
-			"696fb45d-2761-439f-a1e5-6dcefbb77c0a",
-			"019aabae-d11d-46da-816a-88fe01796bb4",
-			"007a803c-c157-4ef0-b917-c325074f3438",
-			"8e3d64f8-72e2-41dd-ae2d-8fd206532dd6",
-			"6d424db2-0bb7-49ec-9701-f4c82a301b5f",
-			"09a398b3-6c22-4b9e-aac0-fda2c01de160",
-			"0f934b68-ae7f-437a-bcb3-6fcf03f3bdc2",
-			"553dcfab-35d5-44b2-aed5-4724a60c48ab"
+			"25d111e1-ec13-440a-a8ac-5b716182b558",
+			"3035a583-70b6-4c46-8627-17274a75136c",
+			"7f996f70-1a76-4469-b9ea-896fdbcb690a",
+			"f17a0f9e-604d-4369-b3c8-a094d0b5ec87",
+			"1196e654-4d86-4af2-8543-20d8a38b54c5",
+			"5a8aa167-ac91-4771-806a-1950a00738f5",
+			"54e1601e-a71b-4fa3-82de-e04ed611b5ae",
+			"9e90ce09-be3b-4e9d-b920-aa9baeaa4710",
+			"4d691036-edaf-4bf0-bbf5-0911a5379127",
+			"47c519a1-1425-4d22-a47a-1c37457db401",
+			"ea57c817-ce57-4dfa-b9c4-e6156a71bae4"
 		]
 	},
 	{
@@ -1110,51 +1118,51 @@
 		"campNameEn": "IHOP",
 		"description": "אינטרגלקטיק האוס אוף פנקייק מרחף באמבט אדים מופלא",
 		"descriptionEn": "Intergalactic house of pancake floating in steam",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 2:30",
+		"locationEn": "2:30 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
 			"FoodAndDrinks",
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"ac03ec6a-d956-4345-bf14-6d45ee20ed8f",
-			"5dff53ea-961f-4108-8be7-a50ae095e39e",
-			"2bb20e93-51f7-4dc9-ac16-2ff0bad3c37c",
-			"11a467d7-39dc-479b-a2d3-8e796953b276",
-			"c70c9e1d-8e48-49af-9ccf-7e56425eac75",
-			"0a6f1935-fa13-4aa0-bffc-5e7c8eebaaef",
-			"1d1e80da-3216-4d73-99ef-45ba88f431b8",
-			"872c6e07-7e84-42b1-b154-335d6323e484",
-			"ed6ddcfd-3e07-4805-8eda-369c10e1e677"
+			"c102e60f-9ffc-42c0-8507-022e28894aac",
+			"e91b0e64-68e3-4c04-a3d6-52299777f80d",
+			"a85e1454-05f8-481d-96c4-ee124ab12787",
+			"1fd52acd-6c11-4676-8e24-3309668a43a5",
+			"be782748-908c-4f77-8675-3fae9ef7054c",
+			"26778ef6-bfd4-40cc-831e-08dca0defc84",
+			"2928a336-2407-41a8-8be8-8507dabbbbe5",
+			"2214f4de-affd-46fb-870c-bf9e61e3c8ae",
+			"87b565cf-562b-4f65-89ae-663733ee539f"
 		]
 	},
 	{
 		"campId": "edfb0cb6-1e9c-4f48-96af-0ff6dc1221e1",
 		"campName": "קפה ועוגיות",
-		"campNameEn": "Coffee and Cookies",
+		"campNameEn": "Coffe & Cookies",
 		"description": "בית הקפה של הפלאייה",
 		"descriptionEn": "The playa cafe'",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 4:30",
+		"locationEn": "4:30 Blutat HaYtztrubal",
 		"tags": [
 			"PhysicallyDisabled",
 			"FoodAndDrinks"
 		],
 		"gifts": [
-			"05e52b3b-834a-4f1d-973b-6fe7a0a794a6",
-			"94ef3db8-baa8-4b1a-92bd-910aea5c4653",
-			"3cd412b5-5ee4-4ed3-8810-b22046bb6345"
+			"d4e1b7f2-5816-41a0-8785-74198f67f844",
+			"acaf898c-0ba7-45c0-ac2c-d87e43a75452",
+			"da456729-b984-4a01-a7e8-deaec69cfd7f"
 		]
 	},
 	{
 		"campId": "782c8eb2-0334-4221-b1c8-23fe4624523e",
 		"campName": "ארט טוריסמו",
-		"campNameEn": "Art Turisimo",
+		"campNameEn": "Art Turismo'",
 		"description": "קמפ סאונד פרפרים באולטרה סגול וסיורי אמנות מודרכים",
 		"descriptionEn": "Sound Camp UV Butterflies and Guided Art Tours",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": " ",
+		"locationEn": " ",
 		"tags": [
 			"Adults",
 			"Party",
@@ -1162,12 +1170,12 @@
 			"Workshop"
 		],
 		"gifts": [
-			"80aae313-84b5-4878-9c03-bb1caced35af",
-			"ffed0244-db78-41cc-becc-d8fb429f66f0",
-			"d041bf9e-b2a5-4247-a326-94fbf54c4795",
-			"a9d9e9e5-dcef-4e19-b109-2aefd8b7150e",
-			"abeb4ddf-dda0-4d28-9411-8814f799501a",
-			"d27c706b-711e-41dc-94aa-f33db8d77ecc"
+			"365808d1-e9e9-46ba-a61a-5644dafa8102",
+			"0b4e99e8-64c1-44e7-b109-b22033eb702d",
+			"de9ba88d-bb3e-4c4c-b149-a298f77e47a9",
+			"b4b44f41-f5af-49b3-8d75-52a7b93b700d",
+			"fdd52d64-20aa-484f-a426-5a24163943e0",
+			"5606437c-ca56-41ff-ba53-e76c6a034240"
 		]
 	},
 	{
@@ -1176,8 +1184,8 @@
 		"campNameEn": "Shlafi's Circus",
 		"description": "באות לקרקס את הפלאיה! הופעות והפתעות! 18+",
 		"descriptionEn": "Ur Circus wtch a show or b the show! 18+",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 5:00",
+		"locationEn": "5:00 Tayelet",
 		"tags": [
 			"HearingImpaired",
 			"Adults",
@@ -1189,55 +1197,55 @@
 	},
 	{
 		"campId": "670c5552-63e7-4491-9fb2-9113397758b3",
-		"campName": "אקס או אקס או",
+		"campName": "XOXO",
 		"campNameEn": "XOXO",
 		"description": "הרגישו כמו בסיני או בהודו בגסטהאוס של XOXO",
 		"descriptionEn": "Feel like Sinai or India in XOXO’s guesthouse",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 4:00",
+		"locationEn": "4:00 Blutat HaYtztrubal",
 		"tags": [
 			"Alcohol"
 		],
 		"gifts": [
-			"5cc87799-fc17-4324-932e-a3c3abd53cb5",
-			"5f2c946f-2087-442e-9c83-fa5d85685360",
-			"39ce3f37-8656-4c8b-82cb-e42f8853c6e9",
-			"01d8de19-eb33-482b-adc3-3be6dc435f15",
-			"53be2976-acb0-41d6-8f3f-b65aee1e006a",
-			"ecf9b11b-9e02-4335-a8c3-3e99ef9f13c4",
-			"35274184-e829-4674-beea-08c54ec7dc22"
+			"c9e95d89-26b9-4fab-a1ec-933e18247d6c",
+			"04ac5386-01cc-4470-a45e-c48e99dc2aff",
+			"2283f501-fd90-4679-9545-5b45d866dc95",
+			"9c2d902e-b3e9-443d-be21-a3906f24b176",
+			"d0869680-0e61-4e3e-97d2-c5db04532a59",
+			"ad14557d-529e-4e1f-96f0-09972fbcbd89",
+			"c38a8fa9-9921-4094-87aa-0fb55399bc13"
 		]
 	},
 	{
 		"campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
-		"campName": "א3 - הכיתה הטיפולית",
-		"campNameEn": "3A - Special Needs Class",
+		"campName": "א3 הכיתה הטיפולית",
+		"campNameEn": "3A - Special Education",
 		"description": "חזרה לבית ספר",
 		"descriptionEn": "Back to school",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 7:00",
+		"locationEn": "7:00 Amigdala",
 		"tags": [
 			"FoodAndDrinks",
 			"Play",
 			"Workshop"
 		],
 		"gifts": [
-			"694b49c1-6f8f-4159-ad23-a394d39851b6",
-			"b2ce9207-e5b4-4633-81dc-11f4f48cb1b3",
-			"570ce01e-d3bc-42ed-a431-91dbb9a50ef3",
-			"02df670d-8dec-45dc-8c07-3b73ce73e566",
-			"adaafb6b-7c3a-4c88-94bc-d48752d3c394",
-			"1415b921-a015-4ebd-ad7d-8e9fa56b79d4"
+			"8346eb94-dabe-4969-9005-dcae90cbfaf4",
+			"b7923aaa-4f6b-41bf-b6ce-1601d76a8a03",
+			"5f9963fe-3813-40da-b334-a3c03555b97b",
+			"3ac02d4f-7110-4e04-a5b9-1c93f946528a",
+			"17ffc7a2-ec4a-4f80-9729-71b483bd59b5",
+			"89cc66c3-7629-4eea-8aa1-5832485dd1dc"
 		]
 	},
 	{
 		"campId": "2af160db-947c-4d00-9632-ade5df521d53",
 		"campName": "סטרייט פרנדלי",
-		"campNameEn": "Streight Friendly",
+		"campNameEn": "Straight Friendly",
 		"description": "המחנה הגאה! מלא מסיבות גאות, מופעי דראג וטונה גלאם",
 		"descriptionEn": "The Gay camp! Gay parties, Drag shows and Glam!",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 8:00",
+		"locationEn": "8:00 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"Adults",
@@ -1246,45 +1254,45 @@
 			"Live"
 		],
 		"gifts": [
-			"d2423d76-2baf-46fa-a257-b1d3345f29e7",
-			"a345ad95-a714-4abb-b141-ff0b1b8f0a0a",
-			"8ce9b4ac-b0bd-4925-87de-f428a592626c",
-			"dd81d4ea-ddef-4c79-9d27-e1e45486a549",
-			"05f8f136-6b34-4d04-adb4-d3c443fbf384",
-			"d0179282-bb3f-4d9b-b579-1102e13c10ec",
-			"4f6ab220-f1aa-48e3-95ed-087c5e332408"
+			"2ed49075-0ec3-4944-91aa-c60f1229dc98",
+			"12155eab-1475-417d-b051-89894a1dad7b",
+			"ec2be4aa-ea83-4bee-b339-2830126c739d",
+			"11d26b71-6ce9-444a-a71c-d01129157650",
+			"d50a42bd-7b3f-4366-97af-f37db06526c7",
+			"1271ec69-8467-4d9c-8b5a-08f86df8c57d",
+			"ef0e34b0-03f4-4e7b-9fcd-4aa96effc95a"
 		]
 	},
 	{
 		"campId": "f2c0533f-1f03-4238-9a47-22fc1a803b7b",
 		"campName": "ברנפלקס",
-		"campNameEn": "Brenflex",
+		"campNameEn": "Branflex",
 		"description": "בואו לאכול קצת קורנפלקס אחרי לילה ארוך ומפרך",
 		"descriptionEn": "Come eat some cereal after a hard days night",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 1:00",
+		"locationEn": "1:00 Geza Hamoach",
 		"tags": [
 			"PhysicallyDisabled",
 			"FoodAndDrinks",
 			"Play"
 		],
 		"gifts": [
-			"f49aee92-a4fe-4a06-a6cb-5487d8f75e22",
-			"1368dd52-78f9-4fd0-a1e7-c24376025e9b",
-			"a535b0f8-cfa5-450a-9eda-cca5a614ec3e",
-			"c5c20775-3846-41ef-8e95-8f238a10e21c",
-			"0ed01a53-f0ce-46df-a71a-2fe276dba897",
-			"9ebf3fc0-10c6-43fb-93ce-271ac2edd9ba"
+			"ad1ead9b-d87c-42ba-aed7-3d198c105f1b",
+			"65a2d098-1ff2-477d-bbb7-e19e1b279017",
+			"b144f227-1f93-45dd-8818-fdb8e6b11daf",
+			"0b901f1a-b769-413c-84f8-f6446c2d5f2d",
+			"f62bcd2b-0eb8-4b19-a4f3-6827f5d55698",
+			"90ec2569-5997-4f95-afef-c11ced6a4799"
 		]
 	},
 	{
 		"campId": "6a567cc6-1211-4c7e-8fb7-119339daadb2",
 		"campName": "פילואו פייט קלאב",
-		"campNameEn": "Pillo Fight Club",
+		"campNameEn": "Pillow Fight Club",
 		"description": "זירת אגרוף מלאתלפים כריות בואו להנות בכל יום הפתעה",
 		"descriptionEn": "A stunning pillowfighting arena lots of surprises",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 9:30",
+		"locationEn": "9:30 Tayelet",
 		"tags": [
 			"HearingImpaired",
 			"Alcohol",
@@ -1292,28 +1300,28 @@
 			"Creative"
 		],
 		"gifts": [
-			"0c466908-e7ea-41a2-9d5f-c9b6a36f24f0",
-			"bce7139b-e455-4c31-9c3b-b556803bef39",
-			"1abbb2f3-a908-4925-9e34-de9055fcb1c7",
-			"021aec73-6f46-47ba-a03e-5b530601c50e",
-			"3a8db53c-d8e0-4e07-a7c2-1b2f91cbb57a",
-			"d91f25fe-e66e-4645-98f6-a3e3beda5439",
-			"26b3e2d2-5e8a-43a0-b160-5b5fc490804f",
-			"311ab4b5-cfb1-4c15-872b-82cdbd949a70",
-			"17877caa-eb5b-4ec7-baec-64708edccdc5",
-			"ce751b37-0b98-404f-8b4d-4d9024c09624",
-			"8d61d0c3-7305-4c55-b8c8-58c3e9869cb7",
-			"7b864d22-c898-4014-9cfd-02f0067d8f20"
+			"87d7c7c5-a293-4806-90fb-1a8858ecd0c9",
+			"b21057a2-f353-4fe6-8a5c-b1021e2f1f62",
+			"dc555cd4-ed55-4a80-84ca-3c4708b9f6bc",
+			"e47a5eb0-3e54-4c6e-9327-ad3ba6d915f7",
+			"44a7629c-aea3-480a-be20-22f57f5b392b",
+			"d50b59d9-2f9c-4d07-b7ac-38df09b522f5",
+			"b893750d-fead-42c9-9d45-116af5fff222",
+			"8a2f0d74-e627-4de2-9b98-e1ce126d9e7a",
+			"2d89ad49-55a8-471e-802d-c3c746b2409f",
+			"1247da73-cb33-4977-ba14-a52ea86534b9",
+			"259db3eb-924d-4e31-bf4b-89d1db5abd46",
+			"12db940f-2ebc-4a76-b917-bf75e2239f2f"
 		]
 	},
 	{
 		"campId": "d71f6151-aab2-4039-a027-b06720369730",
 		"campName": "קאמפ ווינרס",
-		"campNameEn": "Camp Winners",
+		"campNameEn": "Viners Camp",
 		"description": "מחנה קטן ורדיקלי מעניק מגוון פעילויות מטה פיזיות",
 		"descriptionEn": "Radical small camp given metaphysical activity",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 3:30",
+		"locationEn": "3:30 Blutat HaYtztrubal",
 		"tags": [
 			"VisuallyImpaired",
 			"Creative",
@@ -1325,27 +1333,30 @@
 	{
 		"campId": "5550ea99-e7d4-4ab1-b00a-8c24a2bcf121",
 		"campName": "בעקבות מנהרת הארנב",
-		"campNameEn": "Rabbit Hole",
+		"campNameEn": "Rabit Hole",
 		"description": "מחילה צוננת המהווה מפלט מרענן באמצע מדבר שרבי",
 		"descriptionEn": "Rabbit hole -  Chilled refreshing desert sanctuary",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 3:15",
+		"locationEn": "3:15 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"Kids",
 			"Alcohol",
 			"English"
 		],
-		"gifts": []
+		"gifts": [
+			"dff893c3-66bd-4ef0-aca9-6e414c0c619b",
+			"60f4722f-21e5-46ec-beb7-04bd00030f1a"
+		]
 	},
 	{
 		"campId": "704b15f0-ddca-4e6a-a4f7-b6e0c7bb79d6",
 		"campName": "בעזרת השם",
-		"campNameEn": "With God's Help",
+		"campNameEn": "God Bless",
 		"description": "בואו לפתוח את הלב ולהיוולד מחדש עם שם פלאיה קסום",
 		"descriptionEn": "Open your heart & receive a new magical Playa name",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 1:30",
+		"locationEn": "1:30 Geza Hamoach",
 		"tags": [
 			"PhysicallyDisabled",
 			"Play",
@@ -1355,13 +1366,52 @@
 		"gifts": []
 	},
 	{
+		"campId": "3d22e65a-47a6-11e8-842f-0ed5f89f718b",
+		"campName": "קיס מיי אסי",
+		"campNameEn": "Kiss My Ass",
+		"description": "",
+		"descriptionEn": "",
+		"location": "טיילת 6:30",
+		"locationEn": "6:30 Tayelet",
+		"tags": [
+			"Other"
+		],
+		"gifts": [
+			"a53ebaf5-70b3-4aa3-a897-4437b548a0c7",
+			"41c4af29-939f-4715-b1cb-339bdf69d33c",
+			"7e80e580-2947-46ad-8473-6541cfd151a9",
+			"30ba2bc2-7d4d-4af9-8c80-b7f3423d9100",
+			"d593e494-6167-40ae-8ce1-2ec2405c4cbe"
+		]
+	},
+	{
+		"campId": "09b95c62-47a7-11e8-842f-0ed5f89f718b",
+		"campName": "מקדש הבועה",
+		"campNameEn": "The Bubble Temple",
+		"description": "פעם השלישית מקדש הבועה קם מן האבק. והפעם:\nמחנה סאונד | מחנה שקט\nדאבל באבל\nהמסיבה עוברת לפלאיה\nהמחנה הופך זן\nבאיזה שדר תבחרו?\nבאיזה תדר תרטטו?\nהבועה צוללת אל חלום צלול",
+		"descriptionEn": "Third time is a charm\nAnd this time\nSound camp | Rest camp\nDouble Bubble\nParty moves onward and inward \nInto the Playa\nCamp turns to ZEN\nWhich transmit will you choose?\nWhich freq will you ride?\nThe bubble descends into a lucid dream",
+		"location": "בלוטת האיצטרובל 1:30",
+		"locationEn": "1:30 Blutat HaYtztrubal",
+		"tags": [
+			"Other"
+		],
+		"gifts": [
+			"20afc4a4-f97a-4edc-a81d-01f372f78b9e",
+			"817ac92c-1bb5-4102-b351-09f09d723508",
+			"474a9390-e5da-4b4a-aa80-7dce4554ccea",
+			"2369bada-6a0e-4c92-afe5-d6eced1451f4",
+			"ceb7acdf-e74f-4f0f-b7a7-c9876ead792d",
+			"44950cc5-17d3-43c6-b394-4aecd0401f03"
+		]
+	},
+	{
 		"campId": "16872f42-4df1-4b1e-8142-66eceebad2cb",
 		"campName": "היום שאחרי",
 		"campNameEn": "The Day After",
 		"description": "קמפ משפחות",
 		"descriptionEn": "Family Camp",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 5:30",
+		"locationEn": "5:30 Geza Hamoach",
 		"tags": [
 			"PhysicallyDisabled",
 			"Kids",
@@ -1370,12 +1420,12 @@
 			"Creative"
 		],
 		"gifts": [
-			"6c8b815c-2c1c-4821-897e-e479e37ac38a",
-			"2249a9fe-8ca9-46a9-ad5d-8d050a745bd4",
-			"2dfb0327-263a-4b20-9439-cb0f37531615",
-			"205c0e1c-a148-4f54-aaf6-b113cd277fba",
-			"dee01970-8d87-4b0e-af68-90753f71a29e",
-			"35cf3eb6-7f10-4433-9235-bb2708c191cb"
+			"6e4fcbd1-48db-460d-a722-d76078eec9ee",
+			"3a93c1f2-f628-4a99-95fb-56760b8609fa",
+			"81a88214-dc1b-4595-b9da-c0ccb02145ae",
+			"f7ac7b7e-a49e-4914-b1df-9ecb3d2f16d4",
+			"0467d55b-ed8a-4177-abaf-da34d876055f",
+			"fcb1bd06-43c5-49ef-afe1-9c0dacb9e600"
 		]
 	},
 	{
@@ -1384,28 +1434,28 @@
 		"campNameEn": "The Rebels",
 		"description": "הקרנות סרטי בורקס, חלוקת פופקורן וצמר גפן מתוק",
 		"descriptionEn": "Old Israeli Films, with popcorn and candy floss",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "היפותלמוס 6:00",
+		"locationEn": "6:00 Hypotelmos",
 		"tags": [
 			"Alcohol"
 		],
 		"gifts": [
-			"2287094b-d118-423b-ba03-183f876470dc",
-			"d1e1289b-3484-445c-b21c-f329d9fb6fc7",
-			"4065ff2c-9fc0-453c-ac55-2f0a008beccd",
-			"71446e65-ee1b-489a-bafb-e21a1b0b7dd6",
-			"39d0929d-f206-49e3-a07f-d7c3e1a889e8",
-			"e6e9e1a5-7c1f-4510-b302-3f15d6e21411"
+			"2b488119-6127-45e7-9842-05aa1f7f0b14",
+			"98fab5a0-d250-4d8f-8614-a32a27ef3e99",
+			"10abbe59-00ed-4631-9756-481a1e0dca45",
+			"9efcecef-0ac6-429e-9545-a2cb38875fa4",
+			"061ed9b5-248b-48b4-b282-fd295d2d1f1a",
+			"98db1b5a-a786-4cff-8695-851e4221779f"
 		]
 	},
 	{
 		"campId": "a45ddd4e-5d81-48de-9103-1dc95f8eb342",
-		"campName": "רדיו יוניברס",
+		"campName": "רדיו",
 		"campNameEn": "Radio Universe",
 		"description": "תחנת הרדיו של הפלאיה. מביאים לכם מוזיקה וצחוקים.",
 		"descriptionEn": "The playas radio. Bringing you music and laughs",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 6:30",
+		"locationEn": "6:30 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"Party",
@@ -1416,31 +1466,31 @@
 	},
 	{
 		"campId": "d7d763ea-80e2-40de-a69c-cda975ea5134",
-		"campName": "קאמפ אברנבאל",
+		"campName": "קפה אברבנאל",
 		"campNameEn": "Abarbanel Camp",
 		"description": "קפה אינטרנט אינטרגלקטי",
 		"descriptionEn": "Intergalactic Internet Cafe",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 3:30",
+		"locationEn": "3:30 Tayelet",
 		"tags": [
 			"Party",
 			"FoodAndDrinks",
 			"Play"
 		],
 		"gifts": [
-			"804edf7e-187b-4358-87b6-b2639a7be60d",
-			"f62f3113-70e1-4da6-8530-3508b51433a7",
-			"cfc67785-1319-4a51-9307-0f61f649669f"
+			"c6295dd0-3e41-489f-ae56-9d99ae536a76",
+			"0575854e-7e13-4a9b-a253-6f5ad33b06e2",
+			"975dfa60-e900-4116-83fd-da862c304357"
 		]
 	},
 	{
 		"campId": "0af0f8a8-d8f1-403e-b480-887be702c559",
-		"campName": "קונטרה ברן",
+		"campName": "קאמפ קונטרה ברן",
 		"campNameEn": "Contraburn",
 		"description": "בין דקלים שוכן הקונטרה למידברן,מחנות,מיצבים ומיול",
 		"descriptionEn": "Contra burn event-Tours between camps,arts.",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 6:30",
+		"locationEn": "6:30 Blutat HaYtztrubal",
 		"tags": [
 			"PhysicallyDisabled",
 			"Adults",
@@ -1448,26 +1498,26 @@
 			"English"
 		],
 		"gifts": [
-			"cf26f89a-ca0a-41df-8585-ad8971198024",
-			"3cb193da-eaa8-42c2-ac64-0ca1dcbe77db",
-			"cc09ed59-6a4e-44ae-8160-5c79dece5042",
-			"8d3ba6e2-856d-4635-b1fc-482b7a14301c",
-			"e05f02e9-4a64-461c-913f-3bc9a6af9f53",
-			"761830a1-88db-471f-9bf4-26b06eb30200",
-			"c2d7f826-2129-46e4-b5ac-a758dcd1b836",
-			"fce40957-7c25-4e9c-b595-4bf5b295b434",
-			"71ad758e-cf61-4447-a95f-3912e03e12d4",
-			"86419fb4-0766-4ed0-9438-a17395925c1d",
-			"69da4818-32c0-45ca-b278-2d54d44a3f83",
-			"d0e3d85a-f307-4d2a-9973-b1ab2e17476b",
-			"56218b5c-d0eb-4c81-91d8-1e0573cc0aa6",
-			"c661a52d-41fb-4b76-96e0-7806c8aaabe3",
-			"3b62856e-9d35-452f-9e3a-6a0402d5bfc2",
-			"8d6ddede-6a02-475a-b832-1fa1cef19e64",
-			"6d189dea-1888-4c3e-8652-a6542995fb0e",
-			"7a853262-274a-4008-a0c7-a5f56b08a158",
-			"09f67f74-50be-46a4-8ab4-77fb9f480bb1",
-			"35cd1235-b98f-47c8-a4b6-4bfe3d0155c9"
+			"4f82c39b-a169-4207-9b09-b48bb5603f7d",
+			"f40728d7-d10c-4f7a-a819-3ee5e026a66d",
+			"f908d7f0-c00c-4039-9496-cee8ad34b164",
+			"f2a10fac-f833-4b82-9d14-450482dbd4ea",
+			"7c22c8c3-eef3-4e4c-ac3c-abde83121450",
+			"2a91a513-363b-4a80-9bd7-71a41d9403c7",
+			"3dd9f341-6e32-49c7-b370-03178296fdc1",
+			"bd5214c1-3a97-4c6a-bd16-07bd230d6c0a",
+			"c17e00d6-3e82-41d9-97fc-3fd2115a09f1",
+			"63a6cd50-90d3-4e7c-a561-12232841fe1e",
+			"82c7f39f-aa70-4383-bd00-5aba9d58e7d1",
+			"db73aa45-cf3f-454a-b18b-2defd966378e",
+			"ea93285e-9395-41e1-a8b7-73bef41b20c5",
+			"bdf3a240-daca-48aa-9e2d-6e0e9a32c561",
+			"570fba45-1385-48c2-bdb3-f924a3e0e3df",
+			"7e8b6075-b3ef-4c7d-9724-c88dec8db698",
+			"cb2bc763-a50a-41e8-8563-afffb9f7ecba",
+			"de48f317-5528-4225-a58b-c5890d4e1a69",
+			"0195fff1-11ef-4d56-bf50-3f4f48f1dbe5",
+			"ca7fd1a4-f8b6-490e-b504-0d92fef76bcf"
 		]
 	},
 	{
@@ -1476,8 +1526,8 @@
 		"campNameEn": "Waiting Point",
 		"description": "אם אתם כבר מחכים, אז לפחות בכיף!",
 		"descriptionEn": "If we're already waiting, we may as well enjoy it!",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 6:15",
+		"locationEn": "6:15 Geza Hamoach",
 		"tags": [
 			"PhysicallyDisabled",
 			"Play",
@@ -1487,12 +1537,12 @@
 	},
 	{
 		"campId": "89030e42-6eda-4270-b753-f2615854d339",
-		"campName": "הלמון טרי",
+		"campName": "למון טרי",
 		"campNameEn": "Lemon Tree",
 		"description": "כשהשמש קופחת יש אצלנו לימונדה, צל ומוזיקה מדהימה",
 		"descriptionEn": "When the sun's up come for music, lemonade & shade",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 4:00",
+		"locationEn": "4:00 Tayelet",
 		"tags": [
 			"VisuallyImpaired",
 			"Party",
@@ -1500,27 +1550,27 @@
 			"Workshop"
 		],
 		"gifts": [
-			"8953901a-5b10-4af7-a01b-bfd578632569",
-			"1ff56691-05dc-42f0-be41-b3155ab414a6",
-			"c5e2985c-4f64-4ce3-b73b-54ebe5c539f1",
-			"661bada2-b751-4663-9ce8-0162d5e920d2",
-			"d37c6f1b-fe6e-49fe-a5ca-1298116f1ff4",
-			"ed7fc2ff-1762-45e5-9f14-c8f2fe7e3e93",
-			"c566e9c8-069c-4dff-82a0-f3352c4573b3",
-			"ac232d70-42ec-4cf8-8c5c-ab39f3908dcf",
-			"6b62d572-b25b-4ce4-be67-9be16e9c6c61",
-			"cf67111e-9be6-4716-a5bb-82cdfeab9516",
-			"b55e78a9-b940-4073-93ff-346f3973db33"
+			"aebc560a-c11b-495f-b9d5-2266868ae999",
+			"7874ee42-6ead-41da-b209-95117dac92f4",
+			"b21f0c00-031f-4113-9651-b912c1d8394c",
+			"e98ee1ce-2d49-4124-83c1-0387adb58ae2",
+			"70430108-09ec-4e50-898e-a5d368854c3c",
+			"9769a281-14d5-4f23-ac7e-9cc6b3b66374",
+			"3c9c1be6-d8dc-4c9f-b4f9-ad1924502055",
+			"cd9def1d-ca37-4bdb-8a17-8d9e3558b132",
+			"9036bcf0-4d32-4401-b24a-9a14a2e87b22",
+			"21d6d107-9f8f-4fc6-afd8-f1004a36b4bc",
+			"a095687f-b2ec-4b30-b4ae-7357432a310c"
 		]
 	},
 	{
 		"campId": "95c01d21-c5aa-4d07-b1f3-c64adcd34a27",
-		"campName": "קדאווה",
+		"campName": "קאדווה",
 		"campNameEn": "Kadawa",
 		"description": "מגרש משחקים ענק גדול ממך וקטן מהחיוך שלך כשתיכנסי",
 		"descriptionEn": "Our games will be big,  your smile will be bigger",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 4:30",
+		"locationEn": "4:30 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"Play",
@@ -1528,12 +1578,12 @@
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"35298ff8-ecb6-440a-ae2a-64b23a56fb75",
-			"ade58732-ef4d-4568-af82-b3cab2bdc319",
-			"0a84a4ba-2108-47fb-9350-ba8a0a5bd9af",
-			"92ceb84f-ec46-4b4d-a7e1-77832e4ae919",
-			"f9357aa7-b18f-4829-9c40-b7a9478f9fd9",
-			"29716372-d388-4872-ad59-5816aa3fa3ba"
+			"c30753d6-ddd7-4bcb-8ff9-690a82c1394e",
+			"1adea376-5efa-423d-8c00-a4a4345f50e5",
+			"e435ca37-31f0-46b5-886f-c8f076b13e18",
+			"921bbcaa-a944-4e5f-b8f3-21338c1e82a4",
+			"f7431f69-4bc1-4262-b881-57b9ac17c41f",
+			"80cd9764-d64d-4d23-9f9b-c5f0870e99a8"
 		]
 	},
 	{
@@ -1542,30 +1592,30 @@
 		"campNameEn": "The North Pole",
 		"description": "לוהט בחוץ? בואו להתקרר באיגלו הממוזג שלנו!",
 		"descriptionEn": "We invites you to chill in our cozy Igloo!",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 1:30",
+		"locationEn": "1:30 Geza Hamoach",
 		"tags": [
 			"PhysicallyDisabled",
 			"Kids",
 			"Sleep"
 		],
 		"gifts": [
-			"58d4b4ec-d7e0-4a93-bd97-6e7fe96ce178",
-			"f08fb54d-2845-442a-a9ed-ca481cdcb163",
-			"cc5831f3-e47f-4bcb-8438-74a0860c1bdf",
-			"7a1307d3-9845-46d8-9eae-b3d2850396ad",
-			"529cf4c0-7f90-400a-9dba-a0f22bd5208b",
-			"d575fe2d-f3c1-4d20-812a-eacf7a587fc6"
+			"9afbe3e7-ce67-4243-a8a2-64af176efee0",
+			"262a1ae4-2055-4846-8dfc-9fb44bce8a5f",
+			"a234a9aa-8588-45b5-9234-967305f4e7af",
+			"0919d9fa-5681-45a8-b16e-95d707bcaa45",
+			"fb3aeb68-e791-4f5e-839e-1d024e664a1b",
+			"35d8920d-d974-4686-8529-7f19d613c4bd"
 		]
 	},
 	{
 		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"campName": "שטיפל'ה",
+		"campName": "שטיפלה",
 		"campNameEn": "Shtifale",
 		"description": "מים, מים ומים! מקלחות, מסיבות וכל מה שרטוב",
 		"descriptionEn": "WATER! showers, music and everything in between",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 6:30",
+		"locationEn": "6:30 Geza Hamoach",
 		"tags": [
 			"HearingImpaired",
 			"Adults",
@@ -1574,24 +1624,24 @@
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"b7831987-b59f-4b19-ab26-b53a95a00427",
-			"c245ac71-e4b2-43ca-a6e7-117b84f0ed63",
-			"50e66dcf-a3b6-4035-83a5-9d446349c73a",
-			"ae1e7317-2104-410b-9d60-ad2f356dbc15",
-			"f9c87051-f175-4082-a690-e8b29f64d052",
-			"cc62d065-6fe9-428e-96c5-5381ca46de78",
-			"86cce0a1-a554-4906-8ed6-34aa9aebdfcb",
-			"5eafb3a6-b24e-4165-b261-dad56ebe4463",
-			"9408a642-8f56-4bde-a296-54f3fa783835",
-			"fbcd0ca0-9dc5-4262-8b51-243fb1dc2b7e",
-			"0ffc80a7-6ac9-4112-b8cc-a4a3653aaabd",
-			"1afe4292-547b-4fee-ab4f-81d50c778a8d",
-			"2ddd98cf-353a-4474-b823-d60f68b2a5ca",
-			"d0f68002-4089-48bd-b959-5efecda07230",
-			"07dfa776-6eaa-4e61-83f4-a697c03fa93b",
-			"da968d02-5959-46b9-812e-08ce9219ddaa",
-			"604fcad7-b709-4896-a42d-5782034fc2de",
-			"7a3cbb1b-a5c4-4b67-b9af-ec2e9930b0b4"
+			"b15146c3-137d-4460-95d5-40a1a63ccfb6",
+			"3fde74de-4902-439a-adb1-92cf4564e057",
+			"acb06235-f05e-4fb4-9798-6245c8ff8d0c",
+			"ab380872-153a-49a8-a308-bcfd5209e2c5",
+			"07870509-1bea-49ed-afc9-a98866a1d455",
+			"f95b4967-2315-490c-9b89-5637833b2757",
+			"62270e97-7376-4d62-ab63-4767d5da136f",
+			"b77b0a82-c373-4587-9f42-d87f09a2e39c",
+			"206313f5-9e8c-4061-84f4-773f75052d00",
+			"ca3abb0f-a181-467e-a22c-2e02ed5975f8",
+			"e9509f55-9325-472f-b943-5f458bbe1f08",
+			"9aea56ad-d4df-4fda-b777-126664a2a915",
+			"7c27be89-7d2b-4c5a-8651-cd49af769261",
+			"13adc743-e35f-40ce-aa10-a5d4e6eb8ffb",
+			"f57ed430-71b2-41f5-997f-f490bf7749db",
+			"706af83c-d593-4fe9-b91c-70eb7c1a63ba",
+			"1d0f686f-6ef6-41e1-81c6-7dc3631e2073",
+			"8a91804e-42b9-4e12-ad0d-d5f269a24210"
 		]
 	},
 	{
@@ -1600,8 +1650,8 @@
 		"campNameEn": "Cookie Kingdom",
 		"description": "עוגיות טריות, שוגר היי ופאן קופצני לילדים מגודלים",
 		"descriptionEn": "Sugar high for your inner child",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 6:30",
+		"locationEn": "6:30 Amigdala",
 		"tags": [
 			"FoodAndDrinks",
 			"Play"
@@ -1610,59 +1660,59 @@
 	},
 	{
 		"campId": "1e6bc8ee-5174-488e-8e3f-0a9962dacab4",
-		"campName": "מירי גרב והמאהל הבדואי",
-		"campNameEn": "Miri Gerev and the Bedouin Tent",
+		"campName": "מירי גרב והמאהל בדואי",
+		"campNameEn": "Miri Gerev and the Bedouin camp",
 		"description": "חפלה בדואית שרק מירי יודעת! פיתות ופינוקים בשקיעה!",
 		"descriptionEn": "Miri's Bedouin party! Pitas & treats at sunset",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 1:30",
+		"locationEn": "1:30 Blutat HaYtztrubal",
 		"tags": [
 			"FoodAndDrinks"
 		],
 		"gifts": [
-			"638fadb8-5f94-4acf-a61d-8d79fbd87149",
-			"c2290ac5-a67d-44ba-b46a-786ca90fad8e",
-			"4b9751ea-6c68-4bf1-a827-d3221965b367",
-			"f7e17140-09bd-4d51-b556-e5d6ca7a3b60",
-			"5752bdfe-19d6-418b-9edc-27472be9f8ac",
-			"1b22c736-d142-4e1f-ad51-88842566682d",
-			"e029ac29-1004-4a46-89a5-1f2af8a12995",
-			"b39e49f6-3088-4daa-9b32-940cac734afe",
-			"8b1bbebe-9d62-467d-b972-031bc8ffa078",
-			"678e1c01-1694-4aa4-ac1c-3a387eee9e3f",
-			"f4bb3308-699c-4093-9a1d-7abf58bdf81c",
-			"54f3f7ba-d147-4980-a511-05b1e7e3b0d1"
+			"5872a51a-ddcd-49ee-bb15-3c6c24ca705b",
+			"153d6b56-202b-4ad1-8d5c-0c192211343c",
+			"857eda11-6818-48c5-86ed-df3d696fc236",
+			"5e4c7457-f240-4038-8979-e351e89b5028",
+			"adfdbecd-5169-442f-be0d-65fac6377bac",
+			"cc891e75-9c12-448f-87ff-251be213b39e",
+			"e5030ee1-a35c-41be-99cb-652ee53b6c5d",
+			"30aa4496-7a90-4fbe-af46-7564988dd985",
+			"974e6cfc-319a-4769-8236-0e2192092080",
+			"029bf89d-d62a-4802-8ecf-a6e025649113",
+			"cc7a38e8-a777-4450-b9d8-6892e3d3ae41",
+			"7cf95474-6206-4da9-ad99-a7adab8eca6e"
 		]
 	},
 	{
 		"campId": "01cb5b81-03da-4c62-9d9d-39d07e9d68d4",
-		"campName": "פרפר הטמפל",
-		"campNameEn": "Butterfly Temple",
+		"campName": "פרפר הטמפאל",
+		"campNameEn": "Temple Butterfly",
 		"description": "מקיים סדנאות  לזיווג בתקשור",
 		"descriptionEn": "Conducts workshops for mating in channeling",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 4:30",
+		"locationEn": "4:30 Geza Hamoach",
 		"tags": [
 			"PhysicallyDisabled",
 			"Workshop"
 		],
 		"gifts": [
-			"a13b03f8-3df5-4e88-aea6-f3721395b144",
-			"aa764917-f14f-45b1-90ea-e5a3dc5f8166",
-			"7c8c4bf2-2720-43ee-a677-3468ca461035",
-			"a98a4ac3-c02e-4efa-8453-9bca677d74f4",
-			"7eda201e-3ba0-4ae5-b7bc-a274988a280e",
-			"a81174ae-1468-4519-b718-a6653ccd379c"
+			"be178a81-a31d-4cb9-b278-c54130bc9fc5",
+			"4f6d1cf8-6c87-497c-8d1c-8081b217480d",
+			"83096bd9-55ac-45d0-a302-cc1b69b131b0",
+			"ff429beb-8b36-4893-b8d4-91a56f48eab5",
+			"34442c00-ee6c-46be-b4e3-bdcbdd14591c",
+			"dc1bed67-6a07-4b82-becc-fa9e969fa18c"
 		]
 	},
 	{
 		"campId": "908ead14-fdf8-4348-9021-e04c7b45dfac",
 		"campName": "שיחות נפש",
-		"campNameEn": "Heart to Heart Conversations",
+		"campNameEn": "Intimate Conversations",
 		"description": "מרחב נעים ומזמין, לשבת ולקבל הקשבה והכלה.",
 		"descriptionEn": "A space where you can be truly heard and accepted",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 2:30",
+		"locationEn": "2:30 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
 			"FoodAndDrinks",
@@ -1671,30 +1721,30 @@
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"3a7ba75b-5c61-48f4-860c-c1ac010cac15",
-			"8eb57846-4f9d-4059-86a1-000f3b14ebb9",
-			"348f664b-88fb-439b-8f55-e8899359bf02",
-			"e6848a40-3545-41c8-82fd-e86d8848cc8b",
-			"111494fa-3945-425f-b154-757c43129d2f",
-			"4080a0e5-c661-4542-b750-a82107d6b66c",
-			"3def16f3-fdbf-48a8-8164-4bd0f20327a0",
-			"b3deb87e-4461-4745-ab1e-fa83a2112fd6",
-			"fd4efb1e-5f5d-42ed-bef3-28224ece3592",
-			"d8656fdb-afc3-4965-8ea7-9c1603841965",
-			"b04caa4a-5edc-4696-a843-e3094d7bd073",
-			"1e78f320-3d98-4dab-9167-209a11123b56",
-			"5d55b6c8-189b-47db-9f96-d2f9d4ef45a7",
-			"91381b7b-f2a2-4361-801d-74bb21b19321"
+			"639a0e6d-7782-440b-a55f-427d4ff704b4",
+			"0d755fdc-7b88-40df-9bed-6789980a8077",
+			"acf9c545-944a-4a9c-a7d3-a8c49ec40c85",
+			"f5e15a61-b393-4b4e-b12d-a03fd23b511a",
+			"3c0125d6-7b42-48a1-940c-1fa8a7322ba8",
+			"0a537881-32b9-4da3-8ee8-e3710c33665a",
+			"83fd1569-6afa-4333-be57-63f7c077a2cf",
+			"cf3daefa-fbc5-4563-aab9-a2911cba78c0",
+			"f9014a0d-3cbf-4720-9d0d-d5ecfc562eb5",
+			"0349ded4-3887-42ea-ad46-6c2e2a6a01ef",
+			"266214b7-900a-491e-9235-5f4462423cdd",
+			"23cb2c12-d4ae-41b6-8511-576f96bde713",
+			"e6bcd6ef-2205-4e91-b6be-55dbd8357f02",
+			"01b6d8a1-140c-4c6e-8600-4c5ed7356558"
 		]
 	},
 	{
 		"campId": "8e6c8f52-62c7-49ce-978f-be9b6a7682a8",
-		"campName": "הפולחן הרדיקלי",
+		"campName": "הפולחן הרדיקאלי",
 		"campNameEn": "Radical Ritual",
 		"description": "מקיימים את טקס הREBURN  של לידה מחדש דרך אש וטהרה",
 		"descriptionEn": "Hosts the REBURN ceremony of rebirth through fire",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 2:00",
+		"locationEn": "2:00 Blutat HaYtztrubal",
 		"tags": [
 			"Adults",
 			"Play",
@@ -1706,11 +1756,11 @@
 	{
 		"campId": "2d864e8c-8daa-4b6b-a71e-699f91e250e1",
 		"campName": "לוכדי החלומות",
-		"campNameEn": "Dream Catchers",
+		"campNameEn": "Dream Catrcher",
 		"description": "ל\"ח מוסמכים ילכדו ויפרשו חלומות בשינה ובערות",
 		"descriptionEn": "Qualified D\"C will capture&interpret dreams",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 7:00",
+		"locationEn": "7:00 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
 			"Adults",
@@ -1718,22 +1768,22 @@
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"b4bbcc7e-8c2f-4bd0-90f6-d143b1e3cb3a",
-			"464f568f-6526-4d07-9d20-dda02b648911",
-			"f4bd8849-68eb-4085-afdc-d7af337f98c6",
-			"062da268-89b5-40fc-8461-fde9c1ba59c3",
-			"e937cd65-bac9-4915-8f89-a1153ec5059e",
-			"fd7c6af3-f3ec-437c-8913-5b428ade6afb"
+			"8b29b44a-76ff-457b-aa85-15980e3d1ae1",
+			"d993e45b-15ab-4541-aa43-c6fd54c45317",
+			"beb115d1-0ef3-4c43-991c-160278fb4fac",
+			"0ca49e5c-4418-4b09-af23-1f5b73bcb39f",
+			"2c09d707-be7e-473a-acc0-498e1f7ba3c5",
+			"d9d7e139-71bc-47bd-aa16-40fa17ba93e7"
 		]
 	},
 	{
 		"campId": "005ac031-45ba-4140-bcfa-053dab7d3ab6",
-		"campName": "הפטריות",
+		"campName": "הפיטריות",
 		"campNameEn": "The Mushrooms",
 		"description": "תחנת עגינה לכל המבולבלים",
 		"descriptionEn": "Docking station for those who are confused",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 3:30",
+		"locationEn": "3:30 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"English",
@@ -1743,12 +1793,12 @@
 	},
 	{
 		"campId": "349cc38a-1361-44a1-8944-763b9fb97b4b",
-		"campName": "סמלי קאמפ - הקאמפ החמודי",
+		"campName": "סמאלי קמפ",
 		"campNameEn": "Smiley Camp",
 		"description": "בואו להריח חמודים",
 		"descriptionEn": "Coe to smell cuteness",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 5:00",
+		"locationEn": "5:00 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
 			"Party",
@@ -1756,11 +1806,11 @@
 			"Workshop"
 		],
 		"gifts": [
-			"ba6d977a-c213-43ca-9062-7c42d74bec75",
-			"fdb91a92-7bb4-4bc5-b77c-9f2d19c0dc53",
-			"91afd28d-a673-48bf-9bc4-de96b270961f",
-			"a69fef1d-d818-476e-935c-c2fd060074fc",
-			"e35a9774-c669-45d4-a1f3-c5673c5a4c5e"
+			"b16330d8-c828-45d5-986a-ea14abf72b50",
+			"e46b3d2b-16f0-4ea2-81b0-f7bcd35162fc",
+			"2c9bc0bf-b592-4a15-b729-d64aed1fa469",
+			"d5ca7608-685b-44ce-84b2-af35458feb5a",
+			"38b396c0-8054-461d-99d3-915467d781a5"
 		]
 	},
 	{
@@ -1769,8 +1819,8 @@
 		"campNameEn": "Oasis",
 		"description": "בין דקלים ואגמים, שוכן לו נווה המדבר הקריר והמזמין",
 		"descriptionEn": "surrounded by palms, an inviting oasis awaits",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "טיילת 2:00",
+		"locationEn": "2:00 Tayelet",
 		"tags": [
 			"PhysicallyDisabled",
 			"FoodAndDrinks",
@@ -1786,41 +1836,41 @@
 		"campNameEn": "Freeflow",
 		"description": "בית ספר לאמנויות הפלואו והקרקס, בואו לשחק איתנו.",
 		"descriptionEn": "Flow arts school and play ground, come and play.",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 4:30",
+		"locationEn": "4:30 Amigdala",
 		"tags": [
 			"Play",
 			"Workshop"
 		],
 		"gifts": [
-			"fc910734-9e7d-4166-ba4b-a2f1eb22c5cf",
-			"b0912029-3d10-48ee-826f-d6b6268a9782",
-			"ce64e029-a41f-4e11-be55-a8e2ca6b9a3e",
-			"c07b0eae-0f44-40db-bc45-394ba40ec2cb",
-			"ebf9e002-c6a0-4979-ab71-0836ab885d9e",
-			"856c6d6c-9e23-41b3-b539-5ebebc37e48e",
-			"c46d38ee-63e1-44ed-a1bc-867ae2a7d353",
-			"b7b862e8-2f22-4123-afde-ca5eb0af797b",
-			"92880e62-ab14-4fd6-9ce1-b4b8cc4a69f1",
-			"41ed68f1-d818-408a-a999-c37511029e71",
-			"40f3a381-b0bb-4dda-a30b-9247702a50a3",
-			"57565a14-b012-462f-8d18-0328332bf87c",
-			"3e651d53-bbdd-430b-ae8e-ed290437cab0",
-			"2aec7437-f718-4589-94b7-9d8921cec570",
-			"81e64b55-e711-4498-b688-3a8b94363e09",
-			"17128245-5c8b-4c9f-b488-53269343d8e2",
-			"f0f7fc9f-0dfc-48dc-9894-dcf75f2da99c",
-			"c0a0cc2a-3a14-4c8a-9758-c5bc5fa727ed"
+			"59b9af7f-0065-4dfa-99e9-d687959dace5",
+			"7f7ee230-01f8-4511-b04d-b1feddb989da",
+			"a32e19bf-63f3-49a1-80e7-c58a472c0861",
+			"173e1b11-d19e-4d5c-a4ea-173ddf7087a9",
+			"a1d1a205-7a7d-4795-a405-ed3551f7ad65",
+			"3c0bfa2a-2787-426a-9f5e-efca09b2379e",
+			"3fb8c85b-3654-4634-8037-1713458a8c7b",
+			"f6f8a1b9-b637-4ab9-847a-e1a4562f10e8",
+			"082a2c76-d71f-4ae3-9503-498d211585b1",
+			"fc1a8411-553e-4c6d-8415-fa0f7ee845b4",
+			"1c0d2425-6c02-4db1-844b-27b3dedc5df5",
+			"8356227c-be72-4407-8c90-a15f1d0630da",
+			"d79f3f84-2b86-4039-8af1-7a6639d71999",
+			"b02e7692-0028-4ac6-a9df-f4c4b0f93dbe",
+			"9362dfd2-3646-49ba-83af-dcb4ae9bce6d",
+			"e5a12910-1ee8-41af-bcff-b1f14f7bc94c",
+			"60a7ce3e-3792-45c1-bb96-abf8f22e3370",
+			"79fbdce7-2a02-450a-b36e-0959b24279d8"
 		]
 	},
 	{
 		"campId": "422fd4ef-0f50-416d-b2d5-75bef1f5d768",
 		"campName": "זו-זו ובניו",
-		"campNameEn": "Zu-Zu and Sons",
+		"campNameEn": "Zo-Zo and Sons",
 		"description": "בואי לגלות את החיה ששוכנת בך!",
 		"descriptionEn": "Come and find out which animals lies within you!",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 10:00",
+		"locationEn": "10:00 Amigdala",
 		"tags": [
 			"Adults",
 			"Alcohol",
@@ -1828,67 +1878,67 @@
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"8777a0d1-09d1-406b-8466-876c1f5259c5",
-			"738383fd-1ac0-49bc-acf0-9230c71700c4",
-			"3eeaf129-97a3-4c42-99cd-a69dda6b3ad0",
-			"7346b46c-aa74-4f9b-8bbf-7ec6c70edccd",
-			"f5c6b61b-73d0-4eb5-ac71-b64a0d69c47f",
-			"ea8fe963-fbe3-4874-bd60-f0fbe03b881e",
-			"e6fda544-c7e7-4feb-a794-d71a1c5492d3"
+			"a463eb52-6170-480c-85a7-62441b8b575f",
+			"6dd48a82-fc8a-408a-bb87-1f6798947372",
+			"50a6494f-385b-4fd1-b7ab-5be43e62e6f0",
+			"0f94d151-a4ef-4cc1-b4a3-104e91de9c8f",
+			"951ced0a-6dc9-4747-85e3-c7e49007868a",
+			"22533554-f641-4020-a440-3231b59b9420",
+			"a2910496-82d5-4377-95e9-f721d5b3343d"
 		]
 	},
 	{
 		"campId": "5cbf7648-60bc-4eaa-a499-4fdd1f4542a0",
-		"campName": "ג'י ספוט",
+		"campName": "G ספוט",
 		"campNameEn": "G-Spot",
 		"description": "פינת אואזיס שקטה וקרירה להנות מבר ברד קריר ומענג.",
 		"descriptionEn": "small and refreshing oasis offering ice drinks",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 4:00",
+		"locationEn": "4:00 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
 			"Alcohol",
 			"FoodAndDrinks"
 		],
 		"gifts": [
-			"1bf10921-8b50-43ca-a03d-798c546e1167",
-			"45b4e732-9307-4442-ba05-1ee47b3413b3",
-			"04038e92-70aa-4dc3-b26f-325d0908f6ea",
-			"1efb3aab-aef2-457f-bac8-ede6511734f2",
-			"d9fa19f5-05da-4d55-a6ce-e98ee682bae7",
-			"365c7c03-eddb-4af7-a9e0-ba8b803f651d"
+			"2eeefc1c-685b-4b2b-a7c8-adccad874d5d",
+			"81901e22-763b-4108-9e13-4ec5a96260c9",
+			"4a569429-ea55-440c-8d24-2248200168ea",
+			"562ac4d3-5073-4dae-8c1b-1335c6a0b012",
+			"cc456752-8864-44b3-bf40-efa687dbadb4",
+			"ebb8d6e8-b269-4edc-9900-3dd6e633a69f"
 		]
 	},
 	{
 		"campId": "e77e07ee-e1ec-4074-b84a-f2f2987d947e",
-		"campName": "קאמפייר",
+		"campName": "קמפייר",
 		"campNameEn": "Campfire",
 		"description": "חוויות ומסעות מסביב למדורה",
 		"descriptionEn": "Experiences around the camp fire",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 1:30",
+		"locationEn": "1:30 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
 			"Play",
 			"Live"
 		],
 		"gifts": [
-			"4f3113cb-2551-4f89-bff6-0d6e7d5733ee",
-			"28b7e142-f52f-42cd-a0f9-0d76006aed71",
-			"bca20684-0827-4333-a156-0fae2ea4b69b",
-			"bfd1a4f3-8719-4383-a83c-89acc8758cf0",
-			"bf734e52-77d0-4106-bf08-c50b72092a1a",
-			"6803e2f0-d6bf-4054-b6ce-decb37c6e29e"
+			"a7cfb28b-03c6-4073-b26a-4dd6acd9cd67",
+			"759c720b-af3a-4097-80c7-aa464ebe2e80",
+			"6dfb4499-1ea5-418c-895e-4854450f9103",
+			"30cdaf2a-791b-4769-ad82-a064b9fba8b2",
+			"4d99a6ad-2d48-4ca5-8df9-213bb0ea4da8",
+			"3ce5271f-612f-4d1d-907d-0b1a548a22b1"
 		]
 	},
 	{
 		"campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
 		"campName": "קמפ בליב איט",
-		"campNameEn": "Blip It Camp",
+		"campNameEn": "Blip it camp",
 		"description": "סדנאות יוגה, מדיטציה וטיפולים בתנועה.",
 		"descriptionEn": "Yoga, Meditation and Movement workshops.",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 2:00",
+		"locationEn": "2:00 Amigdala",
 		"tags": [
 			"FoodAndDrinks",
 			"Workshop",
@@ -1899,20 +1949,20 @@
 	{
 		"campId": "5b5b4306-4042-45ca-bf5b-1adc6aeb47cf",
 		"campName": "הקיבוץ",
-		"campNameEn": "The Kibutz",
+		"campNameEn": "The Kibbutz",
 		"description": "האוכל הכי בינוני בפלאייה.",
 		"descriptionEn": "A hot medium meal will be served at noon",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 2:30",
+		"locationEn": "2:30 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
 			"FoodAndDrinks"
 		],
 		"gifts": [
-			"1c8f1d90-4300-4c16-8df5-b60c130fb09d",
-			"f0da0e48-8554-4026-8d01-e1866378256f",
-			"fd945783-5394-4947-9dc5-f678a8e17822",
-			"4cf418a8-933a-4ca5-bd5a-21a7bd3acbe5"
+			"17c9345d-9ffb-4e9c-aa35-be8e6ed41a2e",
+			"10646963-fa9a-47f5-a6e7-76a9233365eb",
+			"3e4bfc05-78b7-440e-8f38-ab9c08b4d843",
+			"415a0692-5c60-43c1-b14c-33ed12506a78"
 		]
 	},
 	{
@@ -1921,47 +1971,47 @@
 		"campNameEn": "Cristal Grey",
 		"description": "קריסטל גריי והבר הנייד",
 		"descriptionEn": "Crystal Gray rolling bar",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 6:30",
+		"locationEn": "6:30 Amigdala",
 		"tags": [
 			"Adults",
 			"Alcohol"
 		],
 		"gifts": [
-			"4bbb83a9-78a4-4e7a-8186-d7cd1071dd16",
-			"666f725e-e201-426c-95ab-4ac256ae318a",
-			"dd4624f2-896a-457e-a823-e3c9da69757a"
+			"87385856-fc3e-40b0-89fe-71a139c371ca",
+			"e8cf2ed2-30fd-4cdb-8231-9b8eaa733954",
+			"d7735cf2-918a-440f-8509-b6fa9edeaa1a"
 		]
 	},
 	{
 		"campId": "6bd7c4ba-cc38-4187-96db-c3831f5d017f",
-		"campName": "סקייסקרייפרז",
-		"campNameEn": "Sky Scrapers",
+		"campName": "סקיי קרייפר",
+		"campNameEn": "Skiescreepers",
 		"description": "עופו גבוה, ,צרו אמנות, השאירו חותם רגעי",
 		"descriptionEn": "Fly high, imprint extrasensory momentary art",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 6:30",
+		"locationEn": "6:30 Blutat HaYtztrubal",
 		"tags": [
 			"Play",
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"8f7d961e-3659-44f8-ae7b-b07a96c056ab",
-			"abe3bf38-5062-4850-82d6-7d2b4cbbf72c",
-			"00244d71-2823-4cdc-b509-bbb8107fe4ac",
-			"db6776f9-ec00-4e86-9a7f-891501fb578d",
-			"cae1788e-9605-4d2b-860e-3547203dfb0c",
-			"e854479c-1b57-42df-8d34-2219426fbce2"
+			"bf46929e-4e10-49e3-b9a8-3655f4d105f8",
+			"c326d902-771d-4a66-9b16-a27e57934f6e",
+			"1eea27c3-e5ee-46f2-9a27-54b8568d2dd9",
+			"9417cc6d-8d56-42b6-93fd-c624862d560f",
+			"277d0bb4-c47f-4c52-8705-7246e2166c78",
+			"acedc7c9-0635-4214-ba3b-fe30a84a8a25"
 		]
 	},
 	{
 		"campId": "72e59b5b-3994-44f4-947a-dd4bcffb5696",
 		"campName": "מחניודה",
-		"campNameEn": "Machane Yehuda",
+		"campNameEn": "Mahneyehuda",
 		"description": "השוק של העיר הכי חמה ומאובקת משקשק ומפנק",
 		"descriptionEn": "The Market of the desssseret city",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 5:30",
+		"locationEn": "5:30 Blutat HaYtztrubal",
 		"tags": [
 			"PhysicallyDisabled",
 			"Alcohol",
@@ -1975,8 +2025,8 @@
 		"campNameEn": "Pop Camp",
 		"description": "קאמפ של אושר, חיוכים, ריקודים, ברד קר ופופקורן חם!",
 		"descriptionEn": "Camp of Smiles, Dance, slushies and Popcorn!",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "בלוטת האיצטרובל 6:45",
+		"locationEn": "6:45 Blutat HaYtztrubal",
 		"tags": [
 			"PhysicallyDisabled",
 			"Party",
@@ -1988,11 +2038,11 @@
 	{
 		"campId": "86fc20f2-9b41-4bd3-868a-4c97ec936260",
 		"campName": "ג'וקבוקס",
-		"campNameEn": "Jukebox",
+		"campNameEn": "Joke Box",
 		"description": "מוסיקה ולהיטים מכול הזמנים",
 		"descriptionEn": "Music and hits from all times",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": " ",
+		"locationEn": " ",
 		"tags": [
 			"PhysicallyDisabled",
 			"Alcohol",
@@ -2000,7 +2050,7 @@
 			"Live"
 		],
 		"gifts": [
-			"80d042ea-f094-432c-936c-10bc6a1adcc7"
+			"98e1d264-7050-4272-a2ee-ba8f352a55c1"
 		]
 	},
 	{
@@ -2009,20 +2059,20 @@
 		"campNameEn": "Michal's House",
 		"description": "קמפ שמארח חולניקים ומגיש משקאות אלכוהוליים קרים",
 		"descriptionEn": "Home for foreigners that gifts cold alcohol drinks",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "היפותלמוס 6:00",
+		"locationEn": "6:00 Hypotelmos",
 		"tags": [
 			"PhysicallyDisabled",
 			"Alcohol",
 			"English"
 		],
 		"gifts": [
-			"5e8646b6-1d7e-4abb-a6b5-94576e9fb02c",
-			"dfec1f99-9495-4c06-afc5-7a8683495426",
-			"6c2afd8c-251e-4c40-b597-69a049f6038b",
-			"276bb4e2-8afa-4b70-a3f6-8b02717195d1",
-			"ab0b7aae-d04e-4812-867e-78910f4f978b",
-			"9e35f42d-203c-4214-8d78-0954c7283095"
+			"403326a2-18e7-4d33-8e7c-5050cb4db226",
+			"c67bdb6b-0f77-4158-a089-f830fcbf1478",
+			"1bac3ef7-cb2f-41c4-86a8-cc5ffe71dd54",
+			"c752427b-b8d7-474f-bf14-d0fdd4227824",
+			"dfb8fa42-9b2e-4fe3-a5e5-0a08418c80aa",
+			"32f9ae3d-654d-46d0-8a60-d151cc538377"
 		]
 	},
 	{
@@ -2031,8 +2081,8 @@
 		"campNameEn": "Uniquecorn",
 		"description": "באישון ליל נסתובב בפלאיה הקרה ונגיש שוקו חם עם רום",
 		"descriptionEn": "Hot chocolate with rum",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "אמיגדלה 4:30",
+		"locationEn": "4:30 Amigdala",
 		"tags": [
 			"Adults",
 			"Alcohol"
@@ -2045,8 +2095,8 @@
 		"campNameEn": "Air Camp",
 		"description": "מחנה אויר עושה פוטו-בר! בואו לשתות, לקשקש ולהצטלם",
 		"descriptionEn": "air camp making foto-bar! come to drink& mingling",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "דנטריט 5:30",
+		"locationEn": "5:30 Dentrit",
 		"tags": [
 			"PhysicallyDisabled",
 			"Alcohol",
@@ -2054,7 +2104,187 @@
 			"English"
 		],
 		"gifts": [
-			"a19f9d15-e0db-48a0-bd8e-6dedc642192a"
+			"2a1ba013-9489-491c-b92e-5faf2b6a2c37"
+		]
+	},
+	{
+		"campId": "3fb940e2-47a3-11e8-842f-0ed5f89f718b",
+		"campName": "אקרו קאמפ",
+		"campNameEn": "AcroCamp",
+		"description": "סדנאות והופעות אקרובטיקה כל היום וכל הלילה",
+		"descriptionEn": "acro performances and workshops all day and all night",
+		"location": "אמיגדלה 4:45",
+		"locationEn": "4:45 Amigdala",
+		"tags": [
+			"Other"
+		],
+		"gifts": [
+			"ce2de7bc-40fa-40e1-8cad-cd4fd7de94c4",
+			"f93d858f-18e4-4a2b-b898-14c804e05602",
+			"c1b7226e-2557-4df6-956a-a33d0581fdfc",
+			"3fde2905-4cab-404d-99c6-f27485b99c7c",
+			"f4a0d971-1f8f-4c94-86e8-9a23c2dd0524",
+			"d570b4ad-3491-424e-a5f4-e66cbde006b8",
+			"d0925b0c-61a8-43b0-8180-a461b25376c5",
+			"589f44d6-7fb9-497b-8d9a-94f88f82173d",
+			"a5c6d8ce-8dd8-4c8a-a512-86574ffdf9e4",
+			"af20508a-6056-42ef-befe-1cae3be7c188",
+			"304d11dd-d5c4-44bc-a805-13ba901370d1",
+			"2a6c0da8-25c0-4218-8e82-eb980f46d913",
+			"4e2f8acc-9a04-4acb-838d-a5386e009711",
+			"2b4da9e9-c40b-40d9-9ff1-00b71246ddd6",
+			"6cddfecf-fcd9-4b07-a6d2-c1ff3bf5d41c",
+			"035dd6a3-ea36-4ccb-856e-b61d60d82e1b",
+			"d2f62b26-e27b-446f-83c8-5fe6b714a229",
+			"d8799226-a760-43fb-926c-5b97ff91b708",
+			"cb4d235e-41b4-483b-8473-42c69f6953dd"
+		]
+	},
+	{
+		"campId": "cfd5592c-47a3-11e8-842f-0ed5f89f718b",
+		"campName": "קריוקמפ",
+		"campNameEn": "Karokeamp",
+		"description": "",
+		"descriptionEn": "",
+		"location": "ווטריקלס 6:00",
+		"locationEn": "6:00 Watericals",
+		"tags": [
+			"Other"
+		],
+		"gifts": [
+			"bc95c3f5-9791-4d92-8f72-ea1ea32d24c9",
+			"d6889dee-9c4c-4e41-9fe1-9592d8ceea28",
+			"f2766023-2fc0-4c4d-bb7f-b8b5340dfe51",
+			"00b67155-d6e0-4c09-83a7-f411eea2cd09",
+			"0f709ba0-7411-4444-aad0-e772177072eb",
+			"c11bbff7-395d-41c7-941c-6ab54fd15741"
+		]
+	},
+	{
+		"campId": "979f6b28-47a4-11e8-842f-0ed5f89f718b",
+		"campName": "פוסינמה",
+		"campNameEn": "Pussinema",
+		"description": "ברוכות השוות הביתה! זו השנה השלישית שלנו במידברן. מחנה פוסינמה - ביטוי נשי ראדיקלי, אוהל קולנוע להשראה נשית, הופעות חיות, מוסיקה, מסיבות פופקורן ובר שיכורות. וגם הגברים שלנו לוקים בהערצה נשית מוחצנת וחוסר מוסיות משווע. אצלנו כולן יוצרות, עומלות ובונות את הבית, למרות שזה נראה שיש לנו עבדים, זה קורה רק במקרים מסויימים ;) אז בואו לשחק איתנו",
+		"descriptionEn": "Welcome home! We are the Pussinema, back for our dizzying success in Midburn 2015 and 2016. We are getting ready for 2017- and coming back brighter and fiery as ever! Pussinema is all about that beautiful, seductive radical feminine expression! A celebration of beauty, movement, music and feminine erotica. Every night we will host you in our warm and inviting theater tent where we will inspire you with our live shows, popcorn parties, delightful bar and our feminine mystic. And yes, we also have men. Men of the best caliber, those that worship and delight in the life and beauty of women. In our home we all work together and build together (even though it looks professional- we do all the hard work. What can we say we like to work up a sweat). Come play with us, we’ll be waiting 😉",
+		"location": "בלוטת האיצטרובל 6:00",
+		"locationEn": "6:00 Blutat HaYtztrubal",
+		"tags": [
+			"Other"
+		],
+		"gifts": [
+			"94ef8b3e-d5a3-46ac-a156-657de253629b",
+			"9948f6a9-0dea-4c04-b904-d6a5de648283",
+			"482d7bd3-fe26-4053-8d35-a21e1600e989",
+			"717cb4e6-a650-4935-8441-7fd87e062fff",
+			"f3637776-5cad-4b1d-a4ee-ebd6d9e5ca72",
+			"7565c60e-e873-44be-b95e-9202c81ccdfa"
+		]
+	},
+	{
+		"campId": "cd3a004a-47a4-11e8-842f-0ed5f89f718b",
+		"campName": "ההצגה",
+		"campNameEn": "The Show",
+		"description": "על גדות הפלאיה תופיע במה ענקית, וילון אדום, מסך עולה, זרקורים, . חברי הקהילה מוזמנים לקחת חלק בהצגה שהיא הקמפ 24\\6. הכניסה לקמפ מאחורי הקלעים, דרך חדר ההלבשה, בחרו לכם דמות, תלבושת, מבטא, סיפור חיים, או בואו ככה בלי מסכות. טקסטים מפתיעים יחכו לאמיצים שלא באו מוכנים. פיק ברכיים קל, צייס'ר מראה, שורה. \nובכלל, האינטראקציה בקמפ כולו תהיה חלק מההצגה (דמויות מרכזיות כבר לוהקו וישתתפו באופן ספונטני),יפרצו, יגרשו שחקנים סוררים, יהיה מצחיק, יהיה דרמטי. בשעות הקטנות של הלילה, הבמה תהיה פתוחה לדיאלוגים שלכם, טקסטים ותחפושת יחכו לכם בין הכריות ובמקומות מפתיעים. \nבתכנייה: פרומפנס של חברי הקמפ, סדנת אימפרוביזציה, ערב משוררים שיכורים, ערב וידיים מהוגינה, מסיבה ונציאנית, ערב עיניים עצומות לרווחה, בכניאליה, מסיבת חיות, מלולי קופים (סדנת ג'יבריש אבל לא בהכרח), ערב פנטומימה, הופעת מחול, תזמורת תצטרף לפעמים שהם יהיו במוד, ערב גבינות ויין, ערב ריקודים סלוניים. פרטיים טכניים: אנחנו מתכוונים להקים את הבמה עם הוילון האדום (8 מטר) בקדמת הקמפ בראשה יהיה לדים טירוף. חדר הלבשה (2*2), סלון הקמפ ישמש לצפייה, השתתפות ,התערבות, אלתורים.",
+		"descriptionEn": "",
+		"location": "טיילת 2:30",
+		"locationEn": "2:30 Tayelet",
+		"tags": [
+			"Other"
+		],
+		"gifts": [
+			"dea7e551-cba0-45b4-b1d6-644990941b48",
+			"13c5d233-870f-4757-b5a5-2c0abe4c3d0a",
+			"e9d3f5c2-8340-4985-8f1c-97c0a2a154ee",
+			"eb99069a-f7e1-474e-bbfa-d59160967983",
+			"d2a26673-f645-4905-8c81-c34ed7cc3377",
+			"dc8a31f1-24fa-4025-8638-4d0d64037269"
+		]
+	},
+	{
+		"campId": "3c2959ba-47a5-11e8-842f-0ed5f89f718b",
+		"campName": "ברנינגדייט",
+		"campNameEn": "BurningDate",
+		"description": "",
+		"descriptionEn": "",
+		"location": "בלוטת האיצטרובל 5:30",
+		"locationEn": "5:30 Blutat HaYtztrubal",
+		"tags": [
+			"Other"
+		],
+		"gifts": [
+			"b0292cf8-b397-4e48-8709-e980b50bed94",
+			"a54b1ee5-4123-4545-9850-9ff0536e6099",
+			"db4450bb-27a3-4013-9a03-2359d1c5aa09",
+			"f802d518-6c1c-4d27-81ca-ce9152ef3f83",
+			"1dd2e7f2-bfe3-468d-94d8-78092a374956",
+			"9af20d7f-2ee4-41fa-967e-64892198195e",
+			"e22b7d1a-0f49-41be-9cc2-04fc9ff52f29",
+			"73d1fe80-6b3a-4c33-8f0e-e5824718b4cb",
+			"71cc4997-9df5-4999-a6a0-66977eb0d758",
+			"7809d281-e5db-4836-bde8-2d855499e73a",
+			"f47b99bb-9573-4bdd-9a08-0bd6913b8a41",
+			"bf86794b-e9f3-4aed-80cd-ea4702ac8679"
+		]
+	},
+	{
+		"campId": "a99e8a7e-47a5-11e8-842f-0ed5f89f718b",
+		"campName": "מרכבה",
+		"campNameEn": "Carriage",
+		"description": "מחנה חברים שנולד בברנינג מן לפני למעלה מעשור ועלה ארצה. מורכב מחברי ילדות וילדיהם שדוגלים בעקרונות הברן ואהבת הזולת.",
+		"descriptionEn": "friends camp which started in Burning-man over a decade ago. consistent of childhood friends and their family members which adopted the Burn's principals and the love of any human sole.",
+		"location": "דנטריט 5:30",
+		"locationEn": "5:30 Dentrit",
+		"tags": [
+			"Other"
+		],
+		"gifts": [
+			"c4911523-d58b-4dab-8c40-d84de09fe39d",
+			"3e8b5c19-f2ae-4548-9fa8-a4113fcb595a",
+			"561bd205-c8cf-4e69-bd10-5382f4e1a8c3",
+			"e09bc726-2393-4360-96f4-dfbf2830cdbc",
+			"bb9bd396-0ca3-498b-87f8-71b7f2a98297",
+			"f4cd756f-53ca-4bb7-afc4-4d6fb910912e",
+			"c40a78c4-c165-4992-9b48-f105b2bb6750",
+			"9d928b46-e051-4c98-a9b9-5dce834d26ad"
+		]
+	},
+	{
+		"campId": "ce635b78-47a5-11e8-842f-0ed5f89f718b",
+		"campName": "ערסלון",
+		"campNameEn": "ArSloon",
+		"description": "בלב הפלאייה, בין סופות החול, שוכן לו נווה המדבר הוותיק והקסום - הערסלון!\nממלכת ערסלים מפנקת ומחבקת, מרחב לנוח ולצבור אנרגיות בין מסעות הפלאייה. מוזמנים באהבה להנות מאוירה נעימה, נענועים, עירסולים ופינוקים נעימים מצוות ערסלון. לשחרר אוויר, לנשום, ופשוט להיות.",
+		"descriptionEn": "A kingdom of cozy and embracing hammocks where you are invited to relax and gain energy between the Playa journeys. You are welcome to enjoy chill vibes, slow hammock rocking and more treats from the R-Saloon camp. You are invited to simply be and breath.",
+		"location": "טיילת 7:00",
+		"locationEn": "7:00 Tayelet",
+		"tags": [
+			"Other"
+		],
+		"gifts": [
+			"7ae07191-8ac0-42e3-a840-b7373a54ce48",
+			"3c45a4aa-05a9-42db-be9d-35b8e20c3af3",
+			"a7805a68-94cf-45ca-9771-7f089205f9c1",
+			"ac5e1f24-2940-46b2-977f-933ddde49a63",
+			"5553fb8e-0329-45fc-a2d3-72728b93ab2c",
+			"1aec810e-df74-4878-8801-43562cbc0dfb"
+		]
+	},
+	{
+		"campId": "3d22e65a-47a6-11e8-842f-0ed5f89f718b",
+		"campName": "תה המדבר",
+		"campNameEn": "The Dessert Tea",
+		"description": "",
+		"descriptionEn": "",
+		"location": "טיילת 1:30",
+		"locationEn": "1:30 Tayelet",
+		"tags": [
+			"Other"
+		],
+		"gifts": [
+			"5ec59f85-59dc-4af4-81a6-dc4f5af89cef",
+			"abdfee24-ff86-41ba-815b-ae402988abd8",
+			"20932306-6bce-4c75-8a98-e399e7369387",
+			"aa2cf438-fa76-48c1-88b3-bccdaf1bb858",
+			"7403ce47-1e51-41e7-be38-0bb6948e9823"
 		]
 	},
 	{
@@ -2063,8 +2293,8 @@
 		"campNameEn": "Spritzale",
 		"description": "שפריצלה מאפשר ציור בתנועה והבעה עצמית ויזואלית",
 		"descriptionEn": "A painting party on HUGE Canvas floor",
-		"location": "05:00 טיילת",
-		"locationEn": "05:00 Boardwalk",
+		"location": "גזע המוח 6:15",
+		"locationEn": "6:15 Geza Hamoach",
 		"tags": [
 			"Adults",
 			"Party",
@@ -2072,7 +2302,7 @@
 			"Workshop"
 		],
 		"gifts": [
-			"bb6bf129-93f0-4d30-a8fa-89d83d7e37c6"
+			"617b95f8-027f-4fcc-a3f7-02b6dc594587"
 		]
 	}
 ]
