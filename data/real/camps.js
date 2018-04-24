@@ -44,13 +44,17 @@ const parseGifDateTime = (dateDesc, hourDesc) => {
 
     const giftDates = [];
 
-    const hour = hourDesc[0];
-    const minute = hourDesc[1];
-
-    // todo: handles this: time ==== כל היום
+    let hour = '';
+    let minute = '';
+    if (hourDesc[0] === 'כל היום') {
+        hour = '08';
+        minute = '00';
+    } else {
+        hour = hourDesc[0];
+        minute = hourDesc[1];
+    }
 
     if (dateDesc === 'פעילות חוזרת (תופיע בכל ששת הימים!)') {
-
         const midburnStartDate = 14;
         const midburnEndDate = 20;
 
@@ -138,6 +142,8 @@ const extractGiftTags = (tags, hearingImpaired, kidsOrAdults) => {
     return extractedTags;
 };
 
+const isAllDay = (gift) => gift['שעה'] === 'כל היום'
+
 const extractGiftData = gift => {
     const dateDesc = gift['יום בו מתרחשת הפעילות'];
     const hourDesc = gift['שעה'].split(':');
@@ -163,6 +169,7 @@ const extractGiftData = gift => {
             title: gift['תיאור הפעילות בעברית'],
             titleEn: gift['תיאור הפעילות באנגלית'],
             time: date.getTime() / 1000,
+            allDay: isAllDay(gift),
             locationName: gift['שם המחנה'],
             locationNameEn: gift['שם המחנה'],
             tags: giftTags
