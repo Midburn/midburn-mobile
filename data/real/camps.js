@@ -396,7 +396,7 @@ const mainProcess = async () => {
     console.log(otherTags.reduce((a, b) => a.concat(b), []).map(s => s.trim()).filter((v, i, a) => a.indexOf(v) === i))
 
     await writeJsonFile('camps.json', campsProcessed);
-    await writeJsonFile('gifts.json', giftsProcessed);
+    await writeJsonFile('gifts.json', giftsProcessed.filter(g => g.campId !== ''));
 
     // const artsRaw = await readJsonFile('art.json');
     // const arts = Object.keys(artsRaw).map((key) => artsRaw[key] );
