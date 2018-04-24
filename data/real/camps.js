@@ -26,8 +26,8 @@ const applyGeneratedCampIds = (camps, gifts) => {
     camps.forEach( camp => {
         const giftsForCamp = gifts.filter( g => g.campName === camp.campName );
 
-        if (giftsForCamp.isEmpty) {
-            console.log(`cannot find match for ${camp.campName}`)
+        if (!giftsForCamp || giftsForCamp.length === 0) {
+            console.log(`${camp.campId} ${camp.campName}`)
         }
         giftsForCamp.forEach( g => {
             g.campId = camp.campId;
@@ -39,8 +39,6 @@ const applyGeneratedCampIds = (camps, gifts) => {
         camp.gifts = giftsForCamp.map(gift => gift.giftId);
     })
 };
-
-
 
 const parseGifDateTime = (dateDesc, hourDesc) => {
 
@@ -345,8 +343,45 @@ const writeJsonFile = async (fileName, data) => {
     writeFile(path.join('../2018', fileName), JSON.stringify(data, null, '\t'));
 }
 
+const updateAddressAndCampName = (camp, addresses) => {
+    const address = addresses.filter(a => a['קאמפ'] === camp.campName || a.override === camp.campId );
+
+    if (!address || address.length === 0) {
+        console.log(`cannot find match for ${camp.campName}`)
+    } else {
+        const a = address[0];
+        camp.campName = a['קאמפ'];
+        camp.campNameEn = a['Camp'];
+        camp.location = `${a['רחוב']} ${a['שעה']}`;
+        camp.locationEn = `${a['שעה']} ${a['Street']}`;
+    }
+    return camp;
+};
+
+const updateGiftAddressAndCampName = (gift, camps) => {
+    const skip = [ 'גיזוטה', 'דרקאריס', 'אינסנטי' ];
+
+    if (gift.campId === '' && skip.indexOf(gift.campName) > -1) {
+        return gift;
+    }
+
+    const campFind = camps.filter( c => c.campId === gift.campId );
+
+    if (!campFind || campFind.length === 0) {
+        console.log(`cannot find match for gift ${gift}`)
+    } else {
+        const camp = campFind[0];
+        gift.campName = camp.campName;
+        gift.campNameEn = camp.campNameEn;
+        gift.location = camp.location;
+        gift.locationEn = camp.locationEn;
+    }
+    return gift;
+};
+
 
 const mainProcess = async () => {
+    const addresses = await readJsonFile('address.json');
     const camps = await readJsonFile('camps2.json');
     //Promise.all( arts.map(async art => await extractArtData(art)) );
     const campsProcessed = await Promise.all( camps.map(async c => extractCampsData(c) ) );
@@ -355,6 +390,8 @@ const mainProcess = async () => {
     const gifts = Object.keys(giftsRaw).map((key) => giftsRaw[key] );
     const giftsProcessed = [].concat.apply([], gifts.map(extractGiftData));
     applyGeneratedCampIds( campsProcessed, giftsProcessed );
+    campsProcessed.map(c => updateAddressAndCampName(c, addresses) );
+    giftsProcessed.map( g => updateGiftAddressAndCampName(g, campsProcessed));
 
     console.log(otherTags.reduce((a, b) => a.concat(b), []).map(s => s.trim()).filter((v, i, a) => a.indexOf(v) === i))
 
