@@ -66,5 +66,13 @@
   "CAMP_FEEDBACK": {
     "he": "שתף אותנו ברגשות והדעות שלך\nעל מחנה זה",
     "en": "Share with us your feeling & thought\nabout this camp"
+  },
+  "SELECT_LANGUAGE": {
+    "he": "בחר את שפת האפליקציה",
+    "en": "Select app language"
+  },
+  "GIFTING": {
+    "he": "גיפטינג",
+    "en": "Gifting"
   }
 }
