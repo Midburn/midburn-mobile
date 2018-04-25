@@ -33,12 +33,11 @@ const ITEMS = ds.cloneWithRows([
   //   text: Strings('MAP'),
   //   screen: SCREENS.MAP
   // },
-  // {
-  //   image: '',
-  //   text: Strings('SETTINGS'),
-  //   screen: SCREENS.PRINCIPLES
-  // },
-  ,
+  {
+    image: '',
+    text: Strings('SETTINGS'),
+    screen: SCREENS.SETTINGS
+  },
   {
     image: '',
     text: Strings('FEEDBACK'),
