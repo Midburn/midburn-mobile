@@ -9,7 +9,6 @@ export function getLocale() {
   }
   locale = locale === 'he' ? 'he' : DEFAULT_LOCALE;
 
-  // return 'he';
   return locale;
 }
 
@@ -37,6 +36,10 @@ function applyParams(str, params) {
 
 export function getString(stringHeb, stringEn) {
   return isRTL() ? stringHeb : stringEn;
+}
+
+export function setLocale(newLocale) {
+  locale = newLocale;
 }
 
 const stringsValue = require('./values.json');

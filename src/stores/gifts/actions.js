@@ -1,7 +1,7 @@
-import * as store from './store'
-import SCREEN_NAMES from "../../screens/screenNames";
-var moment = require('moment');
 import * as _ from 'lodash';
+import * as store from './store'
+
+const moment = require('moment');
 
 export function loadGifts() {
   const gifts = require('../../../data/2018/gifts');
