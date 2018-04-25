@@ -9,35 +9,37 @@ import {isRTL} from '../../utils/Strings';
 
 export function loadCamps() {
   const data = require('../../../data/2018/camps');
-  const localizedData = _.map(data, (camp) => {
-    if (isRTL()) {
-      camp.title = camp.campName;
-      camp.description = camp.description;
-    } else {
-      camp.title = camp.campNameEn;
-      camp.description = camp.descriptionEn;
-    }
-
-    return camp;
-  });
-
-  store.setters.setCamps(localizedData);
+  // const localizedData = _.map(data, (camp) => {
+  //   if (isRTL()) {
+  //     camp.title = camp.campName;
+  //     camp.description = camp.description;
+  //   } else {
+  //     camp.title = camp.campNameEn;
+  //     camp.description = camp.descriptionEn;
+  //   }
+  //
+  //   return camp;
+  // });
+  //
+  // store.setters.setCamps(localizedData);
+  store.setters.setCamps(data);
 }
 
 export function loadArt() {
   const data = require('../../../data/2018/arts');
-  const localizedData = _.map(data, (art) => {
-    if (isRTL()) {
-      art.title = art.title;
-      art.name = art.name;
-    } else {
-      art.title = art.titleEn;
-      art.name = art.nameEn;
-    }
-
-    return art;
-  });
-  store.setters.setArt(localizedData);
+  // const localizedData = _.map(data, (art) => {
+  //   if (isRTL()) {
+  //     art.title = art.title;
+  //     art.name = art.name;
+  //   } else {
+  //     art.title = art.titleEn;
+  //     art.name = art.nameEn;
+  //   }
+  //
+  //   return art;
+  // });
+  // store.setters.setArt(localizedData);
+  store.setters.setArt(data);
 }
 
 export function showCampScreen({camp, navigator}) {
@@ -145,4 +147,5 @@ function buildUrlForFeedback({campId, artId}) {
 
   return ans;
 }
+
 

@@ -12,7 +12,7 @@ const ds = new ListView.DataSource({
   sectionHeaderHasChanged: (s1, s2) => s1 !== s2,
 });
 
-const ITEMS = ds.cloneWithRows([
+const getItems = () => ds.cloneWithRows([
   // {
   //   image: '',
   //   text: Strings('PHONES'),
@@ -55,9 +55,12 @@ const ITEMS = ds.cloneWithRows([
 
 export default class ExtraScreen extends Component {
 
+
+  constructor(props) {
+    super(props);
+    this.items = getItems();
+  }
   onPressed = (item) => {
-
-
     this.props.navigator.push({
       screen: item.screen,
       title: item.title,
@@ -99,7 +102,7 @@ export default class ExtraScreen extends Component {
     return (
       <View flex>
         <ListView
-          dataSource={ITEMS}
+          dataSource={this.items}
           renderRow={(row, sectionId, rowId) => this._renderImportantContacts(row, rowId)}
           renderSeparator={() => <View bg-dark60 height={StyleSheet.hairlineWidth}/>}/>
       </View>

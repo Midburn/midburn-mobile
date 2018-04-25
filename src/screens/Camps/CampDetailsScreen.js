@@ -9,9 +9,7 @@ import * as actions from '../../stores/campsAndArt/actions';
 import String from '../../utils/Strings';
 
 
-const SHARE_FEELINGS_TEXT = 'Share with us your feeling & thought about this camp';
 const {width} = Dimensions.get('window');
-const ICON_SIZE = 30;
 
 const IMAGE_SIZE = {
   width,
@@ -99,7 +97,7 @@ export default class CampDetailsScreen extends Component {
 
   renderHeader(text) {
     return (
-      <View marginL-15>
+      <View marginH-15 right>
         <Text text50>{text}</Text>
       </View>
     );
@@ -108,7 +106,7 @@ export default class CampDetailsScreen extends Component {
   _renderGifts() {
     return (
       <View flex>
-        {this.renderHeader('Gifts')}
+        {this.renderHeader(String('GIFTING'))}
         {this.renderGiftsList()}
       </View>
     )

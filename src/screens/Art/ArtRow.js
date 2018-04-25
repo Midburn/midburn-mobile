@@ -14,6 +14,7 @@ export default class ArtRow extends PureComponent {
 
   constructor(props) {
     super(props);
+    this.title = isRTL() ? this.props.data.name : this.props.data.nameEn;
   }
 
   render() {
@@ -22,7 +23,7 @@ export default class ArtRow extends PureComponent {
         <Card.Image height={120} imageSource={this.props.imageSource} />
         <Card.Section style={{flexDirection: 'row', alignItems: 'center'}} body>
           <View flex right={isRTL()}>
-            <Text text50>{this.props.title}</Text>
+            <Text text50>{this.title}</Text>
           </View>
         </Card.Section>
 

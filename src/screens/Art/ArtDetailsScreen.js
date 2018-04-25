@@ -7,6 +7,13 @@ import * as actions from "../../stores/campsAndArt/actions";
 
 export default class ArtDetailsScreen extends PureComponent {
 
+  constructor(props) {
+    super(props);
+    this.description = isRTL() ? this.props.art.description : this.props.art.descriptionEn;
+    this.title = isRTL() ? this.props.art.title : this.props.art.titleEn;
+
+  }
+
   state = {
     currentPage: 0,
   };
@@ -24,8 +31,12 @@ export default class ArtDetailsScreen extends PureComponent {
       <View>
         <ArtCarousel onChangePage={(index => this.onChangePage(index))} images={this.props.images} />
         <PageControl
-          numOfPages={this.props.images.length} currentPage={this.state.currentPage} inactiveColor={Colors.dark70} color={Colors.dark30}
-          enlargeActive containerStyle={{bottom: 15}}
+          numOfPages={this.props.images.length}
+          currentPage={this.state.currentPage}
+          inactiveColor={Colors.dark70}
+          color={Colors.dark30}
+          enlargeActive
+          containerStyle={{bottom: 15}}
         />
       </View>
     );
@@ -34,7 +45,7 @@ export default class ArtDetailsScreen extends PureComponent {
   renderDescription() {
     return (
       <View marginT-20>
-        <Text text70 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.props.art.description}</Text>
+        <Text text70 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.description}</Text>
       </View>
     );
   }
@@ -42,7 +53,7 @@ export default class ArtDetailsScreen extends PureComponent {
   renderTitle() {
     return (
       <View center marginT-30>
-        <Text text50 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.props.art.title}</Text>
+        <Text text50 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.title}</Text>
       </View>
     );
   }
@@ -66,7 +77,12 @@ export default class ArtDetailsScreen extends PureComponent {
   renderSharingBlock() {
     return (
       <View bg-dark70 padding-10 marginT-12>
-        <Button link label={String('ART_FEEDBACK')} labelProps={{numberOfLines: 2, center: true}} onPress={this._onSharePress} />
+        <Button
+          link
+          label={String('ART_FEEDBACK')}
+          labelProps={{numberOfLines: 2, center: true}}
+          onPress={this._onSharePress}
+        />
       </View>
     );
   }

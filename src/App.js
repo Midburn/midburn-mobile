@@ -1,14 +1,17 @@
 import {Navigation}from 'react-native-navigation';
-import { registerContainers } from './screens';
+import {registerContainers} from './screens';
 import SCREENS from './screens/screenNames';
 import * as appActions from './stores/appActions';
 import Strings from './utils/Strings';
 import SplashScreen from 'react-native-splash-screen'
 
 
-function start() {
-  appActions.loadTabsData();
-  registerContainers();
+function start(shouldLoad = true) {
+  if (shouldLoad) {
+    appActions.loadTabsData();
+    registerContainers();
+  }
+
   SplashScreen.hide();
 
   Navigation.startTabBasedApp({

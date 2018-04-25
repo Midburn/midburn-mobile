@@ -20,6 +20,8 @@ export default class CampsTab extends PureComponent {
   constructor(props) {
     super(props);
     this.tags = this.props.camp.tags || _.times(getRandomInt(1, 6), getRandomImage);
+    this.title = isRTL() ? this.props.camp.campName : this.props.camp.campNameEn;
+    this.description = isRTL() ? this.props.camp.description : this.props.camp.descriptionEn;
   }
 
   _onPress = () => {
@@ -54,8 +56,8 @@ export default class CampsTab extends PureComponent {
   _renderTexts() {
     return (
       <View right={isRTL()}>
-        <Text text60>{this.props.camp.title}</Text>
-        <Text text70 marginT-12>{this.props.camp.description}</Text>
+        <Text text60>{this.title}</Text>
+        <Text text70 marginT-12>{this.description}</Text>
       </View>
     );
   }
