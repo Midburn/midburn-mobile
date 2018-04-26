@@ -4,7 +4,6 @@ import SCREEN_NAMES from "../../screens/screenNames";
 import _ from 'lodash';
 import {Linking} from 'react-native';
 import * as DeviceInfo from 'react-native-device-info';
-import {isRTL} from '../../utils/Strings';
 
 
 export function loadCamps() {
