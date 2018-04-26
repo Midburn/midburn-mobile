@@ -4,10 +4,12 @@ import SCREEN_NAMES from "../../screens/screenNames";
 import _ from 'lodash';
 import {Linking} from 'react-native';
 import * as DeviceInfo from 'react-native-device-info';
+import {isRTL} from '../../utils/Strings';
 
 
 export function loadCamps() {
   const data = require('../../../data/2018/camps');
+  const sortedData = _.sortBy(data, isRTL ? 'campName' : 'campNameEn');
   // const localizedData = _.map(data, (camp) => {
   //   if (isRTL()) {
   //     camp.title = camp.campName;
@@ -21,11 +23,12 @@ export function loadCamps() {
   // });
   //
   // store.setters.setCamps(localizedData);
-  store.setters.setCamps(data);
+  store.setters.setCamps(sortedData);
 }
 
 export function loadArt() {
   const data = require('../../../data/2018/arts');
+  const sortedData = _.sortBy(data, isRTL ? 'name' : 'nameEn');
   // const localizedData = _.map(data, (art) => {
   //   if (isRTL()) {
   //     art.title = art.title;
@@ -38,7 +41,7 @@ export function loadArt() {
   //   return art;
   // });
   // store.setters.setArt(localizedData);
-  store.setters.setArt(data);
+  store.setters.setArt(sortedData);
 }
 
 export function loadCampTags() {

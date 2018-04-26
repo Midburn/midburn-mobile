@@ -1,5 +1,6 @@
 import * as _ from 'lodash';
 import * as store from './store'
+import {isRTL} from "../../utils/Strings";
 
 const moment = require('moment');
 
@@ -11,8 +12,10 @@ export function loadGifts() {
     gift.dateString = moment(gift.time, 'x').format('YYYY-MM-DD');
   });
 
-  store.setters.setGifts(gifts);
-  setGiftsByDay(_.sortBy(gifts, ['hour']));
+  const sortedGifts = _.sortBy(gifts, 'time');
+
+  store.setters.setGifts(sortedGifts);
+  setGiftsByDay(_.sortBy(sortedGifts, ['hour']));
 }
 
 function setGiftsByDay(gifts) {
