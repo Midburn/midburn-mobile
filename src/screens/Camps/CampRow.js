@@ -33,8 +33,8 @@ export default class CampsTab extends PureComponent {
   _renderTexts() {
     return (
       <View right={isRTL()}>
-        <Text text60>{this.title}</Text>
-        <Text text70 marginT-12>{this.description}</Text>
+        <Text text60 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.title}</Text>
+        <Text text70 marginT-12 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.description}</Text>
       </View>
     );
   }

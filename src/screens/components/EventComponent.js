@@ -40,7 +40,7 @@ export class EventComponent extends Component {
     return (
       <Card.Section>
         <View flex column right={isRTL()}>
-          <Text text90 color={Colors.dark10}>
+          <Text text90 color={Colors.dark10} style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>
             {this.description}
           </Text>
           {this._renderTags()}
