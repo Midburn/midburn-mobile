@@ -3,8 +3,6 @@ import {View, Text, Button, Colors, Image} from 'react-native-ui-lib';
 import Strings from './../../utils/Strings';
 import {setAppLanguage} from '../../stores/appActions';
 
-const gif = require('../../../data/2018/images/love.gif');
-
 const HEBREW = {label: ' 🇮🇱 עברית ', id: 'he'};
 const ENGLISH = {label: 'ENGLISH  🇺🇸', id: 'en'};
 

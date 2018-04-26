@@ -16,8 +16,8 @@ export async function loadTabsData() {
   campsAndArtActions.loadArt();
   giftsActions.loadGifts();
   campsAndArtActions.setCampsGifts();
-
-
+  campsAndArtActions.loadCampTags();
+  campsAndArtActions.loadGiftsTags();
 }
 
 export function setAppLanguage(languageId) {

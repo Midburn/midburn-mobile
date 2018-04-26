@@ -1,12 +1,13 @@
+import _ from 'lodash';
 import React, {Component} from 'react';
 import {StyleSheet, FlatList} from 'react-native';
 import {Text, View, Button, Card, Colors} from 'react-native-ui-lib';
-import _ from 'lodash';
 import {connect} from 'remx';
 import {EventComponent} from '../components/EventComponent';
 import {getHourForTime} from '../../utils/Time';
 
 export class EventsComponent extends Component {
+
 
   renderEmptyState() {
     return (
@@ -19,17 +20,18 @@ export class EventsComponent extends Component {
   _renderRow(gift, i) {
 
     return (
-      <EventComponent index={i}
-                      titleEn={gift.item.titleEn}
-                      titleHeb={gift.item.title}
-                      place={gift.item.locationName}
-                      time={getHourForTime(gift.item.time)}
-                      addressEn={gift.item.locationNameEn}
-                      addressHeb={gift.item.locationName}
-                      descriptionEn={gift.item.descriptionEn}
-                      descriptionHeb={gift.item.description}
-                      color={gift.item.color}
-                      tags={gift.item.tags}
+      <EventComponent
+        index={i}
+        titleEn={gift.item.titleEn}
+        titleHeb={gift.item.title}
+        place={gift.item.locationName}
+        time={getHourForTime(gift.item.time)}
+        addressEn={gift.item.locationNameEn}
+        addressHeb={gift.item.locationName}
+        descriptionEn={gift.item.descriptionEn}
+        descriptionHeb={gift.item.description}
+        color={gift.item.color}
+        tags={gift.item.tags}
       />
     );
   }
@@ -44,11 +46,11 @@ export class EventsComponent extends Component {
     }
     return (
       <FlatList
-          data={this.props.gifts}
-          style={styles.list}
-          renderItem={this._renderRow}
-          keyExtractor={this._keyExtractor}
-        />
+        data={this.props.gifts}
+        style={styles.list}
+        renderItem={this._renderRow}
+        keyExtractor={this._keyExtractor}
+      />
     );
   }
 }

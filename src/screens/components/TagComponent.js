@@ -14,11 +14,15 @@ function getTagColor(tag) {
     case 'alcohol':
       return '#fffa65';
     case 'servesfoodordrinks':
+    case 'foodanddrinks':
     case 'physicallydisabled':
       return '#32ff7e';
     case 'kids':
+    case 'bodyandsoul':
+    case 'games':
       return '#ffcccc';
     case 'party':
+    case 'live':
       return '#cd84f1';
     default:
       return Colors.dark70;
@@ -34,10 +38,10 @@ export default class TagComponent extends Component {
       <View
         key={this.props.index}
         style={{
-          backgroundColor: getTagColor(this.props.text),
+          backgroundColor: getTagColor(this.props.tagId),
           borderRadius: 10,
           borderWidth: 1,
-          borderColor: getTagColor(this.props.text),
+          borderColor: getTagColor(this.props.tagId),
           padding: 6,
           marginRight: 4,
           marginTop: 12

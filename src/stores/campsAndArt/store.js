@@ -10,7 +10,9 @@ const state = remx.state({
   art: [],
   searchCamp: undefined,
   searchArt: undefined,
-  selectedTagIndex: undefined
+  selectedTagIndex: undefined,
+  campTags: [],
+  giftsTags: []
 });
 
 
@@ -30,6 +32,12 @@ export const setters = remx.setters({
   setGiftForCamp(campId, gifts) {
     const camp = getters.getCampForId(campId);
     camp.gifts = gifts;
+  },
+  setCampTags(tags) {
+    state.campTags = tags;
+  },
+  setGiftsTags(tags) {
+    state.giftsTags = tags;
   }
 });
 
@@ -114,7 +122,23 @@ export const getters = remx.getters({
   getCampGiftForId(campId) {
     const camp = getters.getCampForId(campId);
     return _.get(camp, 'gifts');
+  },
+  getCampTagTitleForId(tagId) {
+    const tag = getters.getObjectFromArrayForId(state.campTags, 'id', tagId);
+    return isRTL() ? tag.title : tag.titleEn;
+
+  },
+  getGiftTagTitleForId(tagId) {
+    const tag = getters.getObjectFromArrayForId(state.giftsTags, 'id', tagId);
+    if (tagId === 'Play') {
+      debugger;
+    }
+    if (!tag) {
+      return;
+    }
+    return isRTL() ? tag.title : tag.titleEn;
   }
+
 });
 //
 const tempArr = [];

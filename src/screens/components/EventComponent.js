@@ -2,41 +2,23 @@ import _ from 'lodash';
 import React, {Component} from 'react';
 import {Text, Card, Colors, Button, View, Image} from 'react-native-ui-lib';
 import {getString, isRTL} from '../../utils/Strings';
+import * as campsAndArtStore from '../../stores/campsAndArt/store';
 
 import Tag from './../components/TagComponent';
-import TagComponent from "./TagComponent";
 
 
-function getTagColor(tag) {
-
-  const lowerCaseTag = _.toLower(tag);
-  switch(lowerCaseTag) {
-    case 'adult':
-    case 'adults':
-      return '#ff4d4d';
-    case 'english':
-      return '#18dcff';
-    case 'alcohol':
-      return '#fffa65';
-    case 'servesfoodordrinks':
-    case 'physicallydisabled':
-      return '#32ff7e';
-     case 'kids':
-      return '#ffcccc';
-    case 'party':
-      return '#cd84f1';
-    default:
-      return Colors.dark70;
-  }
-}
 
 export class EventComponent extends Component {
-
   constructor(props) {
     super(props);
     this.title = getString(this.props.titleHeb, this.props.titleEn);
     this.description = getString(this.props.descriptionHeb, this.props.descriptionEn);
     this.address = getString(this.props.addressHeb, this.props.addressEn);
+    this.tags = _.map(this.props.tags, (tagId) => {
+      return campsAndArtStore.getters.getGiftTagTitleForId(tagId);
+    });
+
+
   }
 
   _renderHeader() {
@@ -51,24 +33,10 @@ export class EventComponent extends Component {
     );
   }
 
-  // _renderTags() {
-  //   return (
-  //     <View row marginT-8>
-  //       {_.map([IMAGE_1, IMAEG_2, IMAEG_3], (tag, i) =>
-  //         <View marginR-8 key={i}>
-  //           <Image
-  //             source={tag}
-  //             style={{width: TAG_IMAGE_SIZE, height: TAG_IMAGE_SIZE}}
-  //           />
-  //         </View>
-  //       )}
-  //     </View>
-  //   );
-  // }
-
-  _renderTag(text, index) {
+  _renderTag(tag, index) {
+    const tagTitle = campsAndArtStore.getters.getGiftTagTitleForId(tag);;
     return (
-      <Tag text={text} index={index} key={index}/>
+      <Tag text={tagTitle} tagId={tag} index={index} key={index}/>
     );
   }
 

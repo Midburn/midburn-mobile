@@ -41,6 +41,16 @@ export function loadArt() {
   store.setters.setArt(data);
 }
 
+export function loadCampTags() {
+  const data = require('../../../data/2018/tags/campTags');
+  store.setters.setCampTags(data);
+}
+
+export function loadGiftsTags() {
+  const data = require('../../../data/2018/tags/giftsTags');
+  store.setters.setGiftsTags(data);
+}
+
 export function showCampScreen({camp, navigator}) {
   const coverImage = store.getters.getCampImage(camp.campId);
   navigator.push({
