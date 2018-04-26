@@ -23,7 +23,7 @@ class CampsScreen extends Component {
       {
         id: SEARCH_BUTTON_ID,
         systemItem: 'search',
-        icon: IS_IOS ? undefined : ANDROID_SEARCH_ICON
+        [!IS_IOS ? 'icon' : undefined]: ANDROID_SEARCH_ICON
       },
       // {
       //   id: FAVOURITES_BUTTON_ID,

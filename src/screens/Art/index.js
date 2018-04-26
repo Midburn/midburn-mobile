@@ -25,7 +25,7 @@ class ArtScreen extends Component {
       {
         id: SEARCH_BUTTON_ID,
         systemItem: 'search',
-        icon: IS_IOS ? undefined : require('../../../data/img/search.png')
+        [!IS_IOS ? 'icon' : undefined]: require('../../../data/img/search.png')
       }
     ]
   };
