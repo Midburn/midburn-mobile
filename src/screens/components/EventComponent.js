@@ -4,8 +4,7 @@ import {Text, Card, Colors, Button, View, Image} from 'react-native-ui-lib';
 import {getString, isRTL} from '../../utils/Strings';
 import * as campsAndArtStore from '../../stores/campsAndArt/store';
 
-import Tag from './../components/TagComponent';
-
+import Tags from './TagsComponent';
 
 
 export class EventComponent extends Component {
@@ -17,8 +16,6 @@ export class EventComponent extends Component {
     this.tags = _.map(this.props.tags, (tagId) => {
       return campsAndArtStore.getters.getGiftTagTitleForId(tagId);
     });
-
-
   }
 
   _renderHeader() {
@@ -32,19 +29,10 @@ export class EventComponent extends Component {
       </Card.Section>
     );
   }
-
-  _renderTag(tag, index) {
-    const tagTitle = campsAndArtStore.getters.getGiftTagTitleForId(tag);;
-    return (
-      <Tag text={tagTitle} tagId={tag} index={index} key={index}/>
-    );
-  }
-
+  
   _renderTags() {
     return (
-      <View row style={{flexWrap: 'wrap'}}>
-        {_.map(this.props.tags, (tag, i) => this._renderTag(tag, i))}
-      </View>
+      <Tags tags={this.props.tags} context={'gifts'}/>
     );
   }
 
@@ -88,14 +76,6 @@ export class EventComponent extends Component {
           {this._renderFooter()}
         </Card.Section>
       </Card>
-    );
-  }
-
-  renderTag() {
-    return (
-      <View>
-        <Text>Sound</Text>
-      </View>
     );
   }
 }

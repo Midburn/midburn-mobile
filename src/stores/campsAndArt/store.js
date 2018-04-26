@@ -124,21 +124,20 @@ export const getters = remx.getters({
     return _.get(camp, 'gifts');
   },
   getCampTagTitleForId(tagId) {
-    const tag = getters.getObjectFromArrayForId(state.campTags, 'id', tagId);
-    return isRTL() ? tag.title : tag.titleEn;
+    return getters.getTagTitle(state.campTags, tagId);
 
   },
   getGiftTagTitleForId(tagId) {
-    const tag = getters.getObjectFromArrayForId(state.giftsTags, 'id', tagId);
-    if (tagId === 'Play') {
-      debugger;
-    }
+    return getters.getTagTitle(state.giftsTags, tagId);
+  },
+  getTagTitle(array, tagId) {
+    const tag = getters.getObjectFromArrayForId(array, 'id', tagId);
     if (!tag) {
+
       return;
     }
     return isRTL() ? tag.title : tag.titleEn;
   }
-
 });
 //
 const tempArr = [];

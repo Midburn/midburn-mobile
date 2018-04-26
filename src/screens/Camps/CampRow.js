@@ -1,15 +1,11 @@
 import _ from 'lodash';
 import React, {PureComponent} from 'react';
-import {Image} from 'react-native';
 import {Card, Text, View, Colors} from 'react-native-ui-lib';
 import {getRandomImage} from '../../../data/img';
 import {isRTL} from '../../utils/Strings';
-import Tag from '../components/TagComponent';
+import Tags from '../components/TagsComponent';
 
 
-const AVARTAR_SIZE = 30;
-const AVATAR_MARGIN = 4;
-const AVATAR_CONTAINER_WIDTH = AVARTAR_SIZE*2 + AVATAR_MARGIN*4;
 
 function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -28,28 +24,9 @@ export default class CampsTab extends PureComponent {
     this.props.onPress(this.props.camp);
   }
 
-  // _renderTag(text, index) {
-  //   return (
-  //     <View
-  //       key={index}
-  //       style={{borderRadius: 10, borderWidth: 1, borderColor: Colors.dark70, padding: 6, marginRight: 4, marginTop: 12}}>
-  //       <Text>{text}</Text>
-  //     </View>
-  //   );
-  // }
-
-
-  _renderTag(text, index) {
-    return (
-      <Tag text={text} index={index} key={index}/>
-    );
-  }
-
   _renderTags() {
     return (
-      <View row>
-        {_.map(this.props.camp.tags, (tag, i) => this._renderTag(tag, i))}
-      </View>
+      <Tags tags={this.props.camp.tags} context={'camps'}/>
     );
   }
 
