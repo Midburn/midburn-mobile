@@ -6,9 +6,9 @@ import Strings from './utils/Strings';
 import SplashScreen from 'react-native-splash-screen'
 
 
-function start(shouldLoad = true) {
+async function start(shouldLoad = true) {
   if (shouldLoad) {
-    appActions.loadTabsData();
+    await appActions.loadTabsData();
     registerContainers();
   }
 
