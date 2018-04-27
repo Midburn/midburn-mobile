@@ -24,10 +24,11 @@ export class EventsComponent extends Component {
         index={i}
         titleEn={gift.item.titleEn}
         titleHeb={gift.item.title}
-        place={gift.item.locationName}
+        campHeb={gift.item.campName}
+        campEn={gift.item.campNameEn}
         time={getHourForTime(gift.item.time)}
-        addressEn={gift.item.locationNameEn}
-        addressHeb={gift.item.locationName}
+        addressEn={gift.item.locationEn}
+        addressHeb={gift.item.location}
         descriptionEn={gift.item.descriptionEn}
         descriptionHeb={gift.item.description}
         color={gift.item.color}
