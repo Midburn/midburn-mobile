@@ -1,9 +1,11 @@
 import _ from 'lodash';
 import React, {PureComponent} from 'react';
-import {Card, Text, View, Colors} from 'react-native-ui-lib';
+import {Card, View, Colors} from 'react-native-ui-lib';
 import {getRandomImage} from '../../../data/img';
 import {isRTL} from '../../utils/Strings';
 import Tags from '../components/TagsComponent';
+import {Text} from '../components/Text';
+
 
 
 
