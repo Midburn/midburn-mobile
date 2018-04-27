@@ -1,9 +1,11 @@
 import React, {PureComponent} from 'react';
-import {ScrollView, Image, Linking} from 'react-native';
-import {Text, View, Button, PageControl, Colors} from 'react-native-ui-lib';
+import {ScrollView} from 'react-native';
+import {View, Button, PageControl, Colors} from 'react-native-ui-lib';
 import {ArtCarousel} from './ArtCarousel';
-import String, {isRTL} from "../../utils/Strings";
-import * as actions from "../../stores/campsAndArt/actions";
+import String, {isRTL} from '../../utils/Strings';
+import * as actions from '../../stores/campsAndArt/actions';
+import {Text} from '../components/Text';
+
 
 export default class ArtDetailsScreen extends PureComponent {
 
@@ -45,7 +47,7 @@ export default class ArtDetailsScreen extends PureComponent {
   renderDescription() {
     return (
       <View marginT-20>
-        <Text text70 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.description}</Text>
+        <Text text70>{this.description}</Text>
       </View>
     );
   }
