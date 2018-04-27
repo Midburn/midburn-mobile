@@ -13,9 +13,11 @@ export class EventComponent extends Component {
     this.title = getString(this.props.titleHeb, this.props.titleEn);
     this.description = getString(this.props.descriptionHeb, this.props.descriptionEn);
     this.address = getString(this.props.addressHeb, this.props.addressEn);
+    this.location = getString(this.props.location, this.props.locationEn);
     this.tags = _.map(this.props.tags, (tagId) => {
       return campsAndArtStore.getters.getGiftTagTitleForId(tagId);
     });
+    this.camp = getString(this.props.campHeb, this.props.campEn);
   }
 
   _renderHeader() {
@@ -53,15 +55,14 @@ export class EventComponent extends Component {
     return (
       <Card.Section footer>
         <Card.Item>
-          {/*<Text text90 color={this.props.color} style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>*/}
-            {/*{this.props.place + ' | '}*/}
-          {/*</Text>*/}
           <Text text90 color={'black'}> {this.props.time}</Text>
         </Card.Item>
         <Card.Item>
-          <Text style={{marginRight: 10}} text90>
-            {this.address}
-          </Text>
+          <Text style={{marginRight: 10}} text90> {this.camp}</Text>
+          
+          {/*<Text style={{marginRight: 10}} text90>*/}
+            {/*{this.address}*/}
+          {/*</Text>*/}
         </Card.Item>
       </Card.Section>
     );
