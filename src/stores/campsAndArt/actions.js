@@ -65,7 +65,7 @@ export function showCampScreen({camp, navigator}) {
     navigatorStyle: {
       tabBarHidden: true
     },
-    title: camp.title
+    title: isRTL() ? camp.campName : camp.campNameEn
   });
 }
 
@@ -79,7 +79,7 @@ export function showArtScreen({art, navigator, images}) {
     navigatorStyle: {
       tabBarHidden: true
     },
-    title: art.name
+    title: isRTL() ? art.name : art.titleEn
   });
 }
 
