@@ -16,7 +16,7 @@ const {width} = Dimensions.get('window');
 
 const DAYS_EN = ['MON, 14', 'TUE, 15', 'WED, 16', 'THU, 17', 'FRI, 18', 'SAT, 19'];
 const DAYS_HEB = ['שני, 14', 'שלישי, 15', 'רביעי, 16', 'חמשיי, 17', 'שיש, 18', 'שבת, 19'];
-const DAYS = isRTL() ? DAYS_HEB: DAYS_EN;
+// const DAYS = isRTL() ? DAYS_HEB: DAYS_EN;
 const BUTTON_TYPE = {
   PREV: 'prev',
   CURRENT: 'current',
@@ -32,8 +32,8 @@ class ProgramScreen extends Component {
       nextDayIndex: 1,
       prevDayIndex: -1
     };
+    this.days = isRTL() ? DAYS_HEB: DAYS_EN;;
     this.carousel = undefined;
-
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
   }
 
@@ -98,14 +98,14 @@ class ProgramScreen extends Component {
   getDayLabel(index, type) {
 
     if (type === BUTTON_TYPE.CURRENT) {
-      return DAYS[index];
+      return this.days[index];
 
-    } else if (type === BUTTON_TYPE.NEXT && _.inRange(index+1, 0, DAYS.length-1)) {
-      const label = DAYS[index+1];
+    } else if (type === BUTTON_TYPE.NEXT && _.inRange(index+1, 0, this.days.length-1)) {
+      const label = this.days[index+1];
       return  isRTL() ? `${label}` : `${label}>`
 
-    } else if (type === BUTTON_TYPE.PREV && _.inRange(index-1, 0, DAYS.length)) {
-      const label = DAYS[index-1];
+    } else if (type === BUTTON_TYPE.PREV && _.inRange(index-1, 0, this.days.length)) {
+      const label = this.days[index-1];
       return isRTL() ? `${label}` : `<${label}`
     }
     return;
