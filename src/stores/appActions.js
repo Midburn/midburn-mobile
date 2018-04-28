@@ -1,6 +1,7 @@
-import {AsyncStorage} from 'react-native';
+import {AsyncStorage, Alert} from 'react-native';
 import * as campsAndArtActions from './campsAndArt/actions';
 import * as giftsActions from './gifts/actions';
+import Strings from '../utils/Strings';
 
 const APP_LANGUAGE_STORAGE_KEY = '@midburn_language:key';
 
@@ -21,8 +22,20 @@ export async function loadTabsData() {
 }
 
 export function setAppLanguage(languageId) {
-  const {setLocale} = require('../utils/Strings');
+  const {setLocale, getLocale} = require('../utils/Strings');
   const {start} = require('../App');
+
+  if (getLocale() === languageId) {
+    Alert.alert(
+     '',
+      '🤷‍♂️🤷‍♀️️',
+      [
+        {text: '🦄'},
+      ],
+      { cancelable: false }
+    );
+    return;
+  }
   setLocale(languageId);
   campsAndArtActions.loadCamps();
   campsAndArtActions.loadArt();

@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import {StyleSheet, ListView} from 'react-native';
-import {Text, View, Button, ListItem, Colors, Image} from 'react-native-ui-lib';
-import Strings from './../../utils/Strings';
+import {Text, View, Button, ListItem, Colors, Image, TouchableOpacity} from 'react-native-ui-lib';
+import Strings, {getLocale} from './../../utils/Strings';
 import SCREENS from './../../screens/screenNames';
+import {setAppLanguage} from "../../stores/appActions";
 
 const RIGHT_CHEVRON = require('../../../data/img/right-chevron.png');
 
@@ -18,12 +19,10 @@ const getItems = () => ds.cloneWithRows([
   //   text: Strings('PHONES'),
   // },
   {
-    image: '',
     text: Strings('MIDBURN_PRINCIPLES'),
     screen: SCREENS.PRINCIPLES
   },
   {
-    image: '',
     text: Strings('SAFETY'),
     screen: SCREENS.SAFETY,
     title: Strings('SAFETY')
@@ -34,18 +33,16 @@ const getItems = () => ds.cloneWithRows([
   //   screen: SCREENS.MAP
   // },
   {
-    image: '',
-    text: Strings('SETTINGS'),
-    screen: SCREENS.SETTINGS
+    text: Strings('SELECT_LANGUAGE'),
+    screen: SCREENS.SETTINGS,
+    title: Strings('SELECT_LANGUAGE')
   },
   {
-    image: '',
     text: Strings('FEEDBACK'),
     screen: SCREENS.APP_FEEDBACK,
     title: Strings('FEEDBACK_SCREEN_TITLE')
   },
   {
-    image: '',
     text: Strings('OPEN_SOURCES'),
     screen: SCREENS.OPEN_SOURCES,
     title: Strings('OPEN_SOURCES')
@@ -59,7 +56,9 @@ export default class ExtraScreen extends Component {
   constructor(props) {
     super(props);
     this.items = getItems();
+    this.locale = getLocale();
   }
+
   onPressed = (item) => {
     this.props.navigator.push({
       screen: item.screen,
@@ -71,7 +70,70 @@ export default class ExtraScreen extends Component {
     })
   }
 
+  onLanguagePressed(languageId) {
+    setAppLanguage(languageId);
+  }
+
+  renderLanguageCell(item, i) {
+    return (
+      <ListItem
+        key={i}
+        activeBackgroundColor={Colors.dark60}
+        height={77.5}
+      >
+
+
+        <ListItem.Part middle>
+          <View paddingL-16>
+            <Text text60>{item.text}</Text>
+          </View>
+        </ListItem.Part>
+
+        <ListItem.Part right>
+          <View row marginR-12 center>
+            <Button
+              onPress={() => this.onLanguagePressed('he')}
+              outline={this.locale !== 'he'}
+              outlineColor={Colors.blue50}
+              avoidInnerPadding
+              avoidMinWidth
+              center
+              text40
+              labelStyle={{paddingHorizontal: 6}}
+              label={'🇮🇱'}
+              size={'small'}
+              backgroundColor={this.locale === 'he' ? Colors.blue50 : 'transparent'}
+            />
+
+          </View>
+
+          <View row marginR-12 center>
+            <Button
+              onPress={() => this.onLanguagePressed('en')}
+              outline={this.locale !== 'en'}
+              outlineColor={Colors.red50}
+              avoidInnerPadding
+              avoidMinWidth
+              center
+              text40
+              labelStyle={{paddingHorizontal: 5}}
+              label={'🇺🇸'}
+              size={'small'}
+              backgroundColor={this.locale === 'en' ? Colors.red50 : 'transparent'}
+            />
+          </View>
+        </ListItem.Part>
+
+        <View bg-black style={{height: 1}}/>
+      </ListItem>
+    );
+
+  }
+
   _renderImportantContacts(item, i) {
+    if (item.screen === SCREENS.SETTINGS) {
+      return this.renderLanguageCell(item, i);
+    }
     return (
       <ListItem
         key={i}
