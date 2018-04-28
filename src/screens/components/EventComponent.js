@@ -58,7 +58,7 @@ export class EventComponent extends Component {
           <Text text90 color={'black'}> {this.props.time}</Text>
         </Card.Item>
         <Card.Item>
-          <Text style={{marginRight: 10}} text90> {this.camp}</Text>
+          <Text style={{marginRight: 10}} text90> {this.address}</Text>
           
           {/*<Text style={{marginRight: 10}} text90>*/}
             {/*{this.address}*/}
