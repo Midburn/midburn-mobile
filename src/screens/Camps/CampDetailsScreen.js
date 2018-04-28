@@ -64,7 +64,7 @@ export default class CampDetailsScreen extends Component {
 
   renderSharingBlock() {
     return (
-      <View bg-dark70 padding-10 marginT-22>
+      <View bg-dark70 padding-10 marginT-22 br30>
         <Button link label={String('CAMP_FEEDBACK')} labelProps={{numberOfLines: 2, center: true}} onPress={this._onSharePress} />
       </View>
     );
@@ -106,7 +106,7 @@ export default class CampDetailsScreen extends Component {
       <View flex>
         <ScrollView style={{backgroundColor: '#F2F4F5'}}>
           {this.renderCoverImage()}
-          <View flex margin-30 marginT-0>
+          <View flex margin-15 marginT-0>
           {this.description && this.renderDescription()}
             {this._renderTags()}
             {this.renderSharingBlock()}

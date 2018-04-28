@@ -78,7 +78,7 @@ export default class ArtDetailsScreen extends PureComponent {
 
   renderSharingBlock() {
     return (
-      <View bg-dark70 padding-10 marginT-12>
+      <View bg-dark70 padding-10 marginT-12 br30>
         <Button
           link
           label={String('ART_FEEDBACK')}
