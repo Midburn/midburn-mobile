@@ -14,6 +14,7 @@ import {isRTL} from '../../utils/Strings';
 const {width} = Dimensions.get('window');
 
 
+//todo: rang: get this info from json files, not hardcoded
 const DAYS_EN = ['MON, 14', 'TUE, 15', 'WED, 16', 'THU, 17', 'FRI, 18', 'SAT, 19'];
 const DAYS_HEB = ['שני, 14', 'שלישי, 15', 'רביעי, 16', 'חמישי, 17', 'שישי, 18', 'שבת, 19'];
 // const DAYS = isRTL() ? DAYS_HEB: DAYS_EN;
