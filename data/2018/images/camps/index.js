@@ -61,7 +61,7 @@ const IMAGES = {
   'd71f6151-aab2-4039-a027-b06720369730': require('./d71f6151-aab2-4039-a027-b06720369730/coverUrl.jpg'),
   'f87319d4-db3e-4cb2-bfb5-ef2b8b1f67d2': require('./f87319d4-db3e-4cb2-bfb5-ef2b8b1f67d2/coverUrl.jpg'),
   'f4ad7398-b8fd-4fd9-94cc-b3b10a492860': require('./f4ad7398-b8fd-4fd9-94cc-b3b10a492860/coverUrl.jpg'),
-  // '54c82ed4-f01e-4128-a71d-6764e9d2731c': require('./54c82ed4-f01e-4128-a71d-6764e9d2731c/coverUrl.jpg'),
+  '54c82ed4-f01e-4128-a71d-6764e9d2731c': require('./54c82ed4-f01e-4128-a71d-6764e9d2731c/coverUrl.jpg'),
   // 'fdb265f2-2d89-4760-8ba3-ccd8abbabfc1': require('./fdb265f2-2d89-4760-8ba3-ccd8abbabfc1/coverUrl.jpg'),
   '908ead14-fdf8-4348-9021-e04c7b45dfac': require('./908ead14-fdf8-4348-9021-e04c7b45dfac/coverUrl.jpg'),
   'e200f32a-6d18-4e66-8423-4ee9b27fca48': require('./e200f32a-6d18-4e66-8423-4ee9b27fca48/coverUrl.jpg')
