@@ -27,6 +27,7 @@ export default class CampDetailsScreen extends Component {
       gifts: []
     }
     this.description = isRTL() ? this.props.camp.description : this.props.camp.descriptionEn;
+    this.description = this.description.length > 0 ? this.description : undefined;
   }
 
   componentWillMount() {
