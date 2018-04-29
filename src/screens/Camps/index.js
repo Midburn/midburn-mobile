@@ -6,11 +6,11 @@ import CampRow from './CampRow';
 import * as store from '../../stores/campsAndArt/store';
 import * as actions from './../../stores/campsAndArt/actions';
 import SearchBar from '../components/SearchBar';
+import Strings, {isRTL} from '../../utils/Strings';
 
 
 const SEARCH_BUTTON_ID = 'camp_search';
 const FAVOURITES_BUTTON_ID = 'camp_favourites';
-const PLACEHOLDER_SEARCH_INPUT = 'Type camp to search';
 const ANDROID_SEARCH_ICON = require('../../../data/img/search.png');
 const IS_IOS = Platform.OS === 'ios';
 
@@ -85,7 +85,7 @@ class CampsScreen extends Component {
         <SearchBar
           onChangeText={this.onTextChanged}
           value={this.state.text}
-          placeholder={PLACEHOLDER_SEARCH_INPUT}
+          placeholder={Strings('SERACH_CAMP_PLACEHOLDER')}
           textInputRef={(ref) => this.searchTextInputRef = ref}
         />
       </View>
@@ -109,7 +109,7 @@ class CampsScreen extends Component {
 
 
   _keyExtractor = (item, index) => {
-    return index;
+    return item.campId;
   }
 
   renderCampsList() {

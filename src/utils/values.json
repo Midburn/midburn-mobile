@@ -74,5 +74,13 @@
   "GIFTING": {
     "he": "גיפטינג",
     "en": "Gifting"
+  },
+  "SERACH_CAMP_PLACEHOLDER": {
+    "he": "הקלד לחיפוש מחנה",
+    "en": "Type camp to search"
+  },
+  "SERACH_ART_PLACEHOLDER": {
+    "he": "הקלד לחיפוש מייצב",
+    "en": "Type art to search"
   }
 }

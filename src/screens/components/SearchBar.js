@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import React, {Component} from 'react';
 import {Text, View, Button, Colors, TextInput} from 'react-native-ui-lib';
+import {isRTL} from '../../utils/Strings';
 
 
 export default class SearchBar extends Component {
@@ -21,7 +22,7 @@ export default class SearchBar extends Component {
           bg-red10
           ref={(ref) => this.props.textInputRef(ref)}
           autoCorrect={false}
-          style={{textAlign: 'left', fontSize: 15,}}
+          style={{textAlign: isRTL() ? 'right': 'left', fontSize: 15}}
           onChangeText={this.props.onChangeText}
           value={this.props.text}
           placeholder={this.props.placeholder}

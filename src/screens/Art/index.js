@@ -6,9 +6,9 @@ import ArtRow from './ArtRow';
 import * as store from '../../stores/campsAndArt/store';
 import * as actions from './../../stores/campsAndArt/actions';
 import SearchBar from '../components/SearchBar';
+import Strings from '../../utils/Strings';
 
 const SEARCH_BUTTON_ID = 'art_search';
-const PLACEHOLDER_SEARCH_INPUT = 'Type art to search';
 const IS_IOS = Platform.OS === 'ios';
 
 
@@ -81,7 +81,7 @@ class ArtScreen extends Component {
         <SearchBar
           onChangeText={this.onTextChanged}
           value={this.state.text}
-          placeholder={PLACEHOLDER_SEARCH_INPUT}
+          placeholder={Strings('SERACH_ART_PLACEHOLDER')}
           textInputRef={(ref) => this.searchTextInputRef = ref}
         />
       </View>
@@ -89,7 +89,7 @@ class ArtScreen extends Component {
   }
 
   _keyExtractor = (item, index) => {
-    return index;
+    return item.artId;
   }
 
   renderArtList() {

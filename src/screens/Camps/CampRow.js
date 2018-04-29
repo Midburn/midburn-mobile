@@ -34,7 +34,7 @@ export default class CampsTab extends PureComponent {
 
   _renderTexts() {
     return (
-      <View right={isRTL()}>
+      <View right={isRTL()} key={this.props.camp.campId}>
         <Text text60 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.title}</Text>
         <Text text70 marginT-12 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.description}</Text>
       </View>
@@ -44,10 +44,10 @@ export default class CampsTab extends PureComponent {
 
   render() {
     return (
-      <Card onPress={this._onPress} key={this.props.index} containerStyle={{marginBottom: 15}}>
+      <Card onPress={this._onPress} key={this.props.camp.campId} containerStyle={{marginBottom: 15}}>
         <Card.Image height={120} imageSource={this.props.imageSource} />
-        <Card.Section style={{flexDirection: 'row', alignItems: 'center'}} body>
-          <View flex>
+        <Card.Section key={this.props.camp.campId} style={{flexDirection: 'row', alignItems: 'center'}} body>
+          <View flex key={this.props.camp.campId}>
             {this._renderTexts()}
             {this._renderTags()}
           </View>
