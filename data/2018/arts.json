@@ -1039,24 +1039,13 @@
 		"artId": 303,
 		"name": "בקתת האינסוף",
 		"nameEn": "The Infinite cabin",
-		"title": "בברן הקודם בנינו את בקתת העץ המצופה עץ ממוחזר מבחוץ ומראות מבפנים,חלל אינסופי וקסום. הבקתה הייתה בשטח המחנה שלנו. השנה אנחנו רוצים לשדרג את המייצב - להוציא אותו משטח המחנה לדיפ פלאיה, להדק ולשדרג את התחושה האינסופית עם תוספות מראות,תאורה וחצר מסביב.",
-		"titleEn": " last burn, we created a wooden cabin covered with recycled wood from the outside and with mirrors from the inside. this magic combination created a magical infinite space\n This year we want to upgrade this art installation and put it in the deep playa",
+		"title": "אל תשפטו את הבקתה רק לפי העטיפה.\n אתם מוזמנים להכנס פנימה ולגלות עולם קסום.\n להגיע אחרי השקיעה ולפתוח את הדלת בזהירות\n :)",
+		"titleEn": "Don’t judge the cabin by its cover.\nCome inside and you will find a new magical world.\nRecommend time - after the sunset and open the door carefully ",
 		"description": "",
 		"artist": "קנדה",
-		"philosophy": "בברן הקודם בנינו את בקתת העץ הבקתה הייתה בשטח המחנה שלנו. והרשנו שזה טוב אבל עדיין לא מספיק ושאפשר השנה לשדרג את המייצב ולעורר את אפקט ההפתעה והריוגש בכך שנציב אותה עמוק בתוך הפלאייה. המטרה שלנו לעורר ולרגש את חברי הפלאיה.",
+		"philosophy": "",
 		"images": [
-			"art1.jpg",
-			"art2.jpg",
-			"art3.jpg",
-			"art4.jpg",
-			"art5.jpg",
-			"art6.jpg",
-			"art7.jpg",
-			"art8.jpg",
-			"art9.jpg",
-			"art10.jpg",
-			"art11.jpg",
-			"art12.jpg"
+			"art1.jpg"
 		]
 	},
 	{

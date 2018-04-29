@@ -60,7 +60,7 @@ const IMAGES = {
   299: [require('./299/art1.jpg'), require('./299/art2.jpg'), require('./299/art3.jpg'), require('./299/art4.jpg')],
   300: [require('./300/art1.jpg'), require('./300/art2.jpg'), require('./300/art3.jpg'), require('./300/art4.jpg'), require('./300/art5.jpg'), require('./300/art6.jpg')],
   302: [require('./302/art1.jpg'), require('./302/art2.jpg'), require('./302/art3.jpg')],
-  303: [require('./303/art1.jpg'), require('./303/art2.jpg'), require('./303/art3.jpg'), require('./303/art4.jpg'), require('./303/art5.jpg'), require('./303/art6.jpg'), require('./303/art7.jpg'), require('./303/art8.jpg'), require('./303/art9.jpg'), require('./303/art10.jpg'), require('./303/art11.jpg'), require('./303/art12.jpg')],
+  303: [require('./303/art1.jpg')],
   304: [require('./304/art1.jpg'), require('./304/art2.jpg')],
   305: [require('./305/art1.jpg'), require('./305/art2.jpg'), require('./305/art3.jpg'), require('./305/art4.jpg')],
   306: [require('./306/art1.jpg'), require('./306/art2.jpg'), require('./306/art3.jpg'), require('./306/art4.jpg'), require('./306/art5.jpg'), require('./306/art6.jpg')],
