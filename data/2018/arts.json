@@ -1572,17 +1572,13 @@
 		"artId": 353,
 		"name": "חיות הפלא",
 		"nameEn": "Wonder zoo",
-		"title": "פסלי בעלי חיים מורכבים מחלקי מכונות, מתכות ישנות ופסולת רכבים. פינת החי של הפלאיה.  נא לא להאכיל את החיות!",
-		"titleEn": "The Playa's mini zoo. Metal and industrial trash will bring life to our recycled animals in cages.",
+		"title": "פסלי בעלי חיים מורכבים מחלקי מכונות, מתכות ישנות ופסולת רכבים. פינת החי של הפלאיה. נא לא להאכיל את החיות!",
+		"titleEn": "Metal animals come to life through  our  imagination joined. Recycled metals and  car waste create this wonder mini zoo. PLEASE DO NOT FEED THE ANIMALS!",
 		"description": "פינת החי התעשייתית של הפלאיה. פסלי חיות מפסולת רכבים, מכונות ומתכות. הפסולת משוננת, חלודה, חורקת, חותכת, כבדה ומאוד לא אורגנית. עם קצת דמיון ורצון, נהפוך אותה יחד לבעלי חיים קסומים. המיצב הוא תוצאה של מפגש מתמשך עם החלקים החורקים, המשוננים והחותכים של החיים, והניסיון הבלתי פוסק לגלות ולזהות יופי, תקווה ומשחקיות בכל.",
 		"artist": "יעל שושני",
 		"philosophy": "",
 		"images": [
-			"art1.jpg",
-			"art2.jpg",
-			"art3.jpg",
-			"art4.jpg",
-			"art5.jpg"
+			"art1.jpg"
 		]
 	},
 	{
