@@ -1866,7 +1866,7 @@
 	{
 		"campId": "422fd4ef-0f50-416d-b2d5-75bef1f5d768",
 		"campName": "זו-זו ובניו",
-		"campNameEn": "Zo-Zo and Sons",
+		"campNameEn": "Zoo-Zoo",
 		"description": "בואי לגלות את החיה ששוכנת בך!",
 		"descriptionEn": "Come and find out which animals lies within you!",
 		"location": "אמיגדלה 10:00",
@@ -1878,13 +1878,11 @@
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"b1e03f58-9f6d-4169-a6db-c382d8be8919",
-			"c0597ac7-08e4-41ad-9d7c-03ed3f9653fb",
-			"a67e33bf-aa81-4dde-a62c-bc5adcd7a18a",
-			"32ee123c-1143-42ab-948c-19d2a3abfb5a",
-			"7f617e63-150a-41d3-923c-e4851f16be70",
-			"d8e73ef8-e6c0-4e3e-b338-8bc07621bf57",
-			"98bac441-7c26-478b-9847-f21b334dcb0a"
+			"05670770-cfb2-4749-96ec-a225f7c168f1",
+			"96e8d66b-1248-4211-a1a8-670fa335133f",
+			"05ba5d94-5a82-4734-abd6-11c100c7bfdf",
+			"eb476061-ad49-4f08-a991-222f30d19682",
+			"c72d49ad-7642-4889-a1ab-e9abbad3d2f4"
 		]
 	},
 	{
