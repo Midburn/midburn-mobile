@@ -1157,11 +1157,7 @@
 			"PhysicallyDisabled",
 			"FoodAndDrinks"
 		],
-		"gifts": [
-			"caa4d34c-1a7f-4d97-bf41-8d794d774db1",
-			"0fea756d-c509-4e4b-b46d-0a4e59c7863b",
-			"7805fd44-5702-4128-88fa-30d49f5e2b14"
-		]
+		"gifts": [ ]
 	},
 	{
 		"campId": "782c8eb2-0334-4221-b1c8-23fe4624523e",

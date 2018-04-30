@@ -9499,63 +9499,6 @@
     "locationEn": "1:30 Blutat HaYtztrubal"
   },
   {
-    "campId": "edfb0cb6-1e9c-4f48-96af-0ff6dc1221e1",
-    "giftId": "caa4d34c-1a7f-4d97-bf41-8d794d774db1",
-    "campName": "קפה ועוגיות",
-    "campNameEn": "Coffe & Cookies",
-    "description": "במה פתוחה",
-    "descriptionEn": "Open mic",
-    "title": "במה פתוחה",
-    "titleEn": "Open mic",
-    "time": 1526396400,
-    "allDay": false,
-    "locationName": "קפה ועוגיות",
-    "locationNameEn": "קפה ועוגיות",
-    "tags": [
-      "Live"
-    ],
-    "location": "בלוטת האיצטרובל 4:30",
-    "locationEn": "4:30 Blutat HaYtztrubal"
-  },
-  {
-    "campId": "edfb0cb6-1e9c-4f48-96af-0ff6dc1221e1",
-    "giftId": "0fea756d-c509-4e4b-b46d-0a4e59c7863b",
-    "campName": "קפה ועוגיות",
-    "campNameEn": "Coffe & Cookies",
-    "description": "שירה בציבור",
-    "descriptionEn": "Sing along",
-    "title": "שירה בציבור",
-    "titleEn": "Sing along",
-    "time": 1526482800,
-    "allDay": false,
-    "locationName": "קפה ועוגיות",
-    "locationNameEn": "קפה ועוגיות",
-    "tags": [
-      "Live"
-    ],
-    "location": "בלוטת האיצטרובל 4:30",
-    "locationEn": "4:30 Blutat HaYtztrubal"
-  },
-  {
-    "campId": "edfb0cb6-1e9c-4f48-96af-0ff6dc1221e1",
-    "giftId": "7805fd44-5702-4128-88fa-30d49f5e2b14",
-    "campName": "קפה ועוגיות",
-    "campNameEn": "Coffe & Cookies",
-    "description": "ערב טד של הרצאות קצרות",
-    "descriptionEn": "TED short lectures",
-    "title": "ערב טד של הרצאות קצרות",
-    "titleEn": "TED short lectures",
-    "time": 1526569200,
-    "allDay": false,
-    "locationName": "קפה ועוגיות",
-    "locationNameEn": "קפה ועוגיות",
-    "tags": [
-      "Workshop"
-    ],
-    "location": "בלוטת האיצטרובל 4:30",
-    "locationEn": "4:30 Blutat HaYtztrubal"
-  },
-  {
     "campId": "6a567cc6-1211-4c7e-8fb7-119339daadb2",
     "giftId": "bee4d5f1-43f7-45b5-b276-1f1a37fa43c8",
     "campName": "פילואו פייט קלאב",
