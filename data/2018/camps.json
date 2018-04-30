@@ -855,12 +855,14 @@
 		"campName": "ג'אנגל סטורם",
 		"campNameEn": "Jungle Storm",
 		"description": "המקום המושלם להתפנן בו במדבר: עצים ערסלים וטפטפות",
-		"descriptionEn": "The perfect place to chill: trees, hammocks, spray",
+		"descriptionEn": "The perfect place to chill: trees, hammocks and mist",
 		"location": "גזע המוח 1:00",
 		"locationEn": "1:00 Geza Hamoach",
 		"tags": [
 			"Alcohol",
 			"English",
+			"FoodAndDrinks",
+			"Kids",
 			"Sleep"
 		],
 		"gifts": [
