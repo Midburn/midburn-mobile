@@ -4167,27 +4167,6 @@
     "locationEn": "10:30 Tayelet"
   },
   {
-    "campId": "1f9dceb9-0ac5-4774-8a0f-98c6394a4018",
-    "giftId": "39acc04b-c76e-410c-a112-c637f4ef4951",
-    "campName": "ג'אנגל סטורם",
-    "campNameEn": "Jungle Storm",
-    "description": "בואו לשתות איתנו שייקים אלכוהוליים בצהריים",
-    "descriptionEn": "Come have a drink of alcoholic shakes at lunchtime",
-    "title": "בואו לשתות איתנו שייקים אלכוהוליים בצהריים",
-    "titleEn": "Come have a drink of alcoholic shakes at lunchtime",
-    "time": 1526376600,
-    "allDay": false,
-    "locationName": "ג'אנגל סטורם",
-    "locationNameEn": "ג'אנגל סטורם",
-    "tags": [
-      "Adults",
-      "Alcohol",
-      "Sleep"
-    ],
-    "location": "גזע המוח 1:00",
-    "locationEn": "1:00 Geza Hamoach"
-  },
-  {
     "campId": "c5569ce5-8ee8-486d-9887-0355a3de5d46",
     "giftId": "0e256305-d994-47ea-be5c-576717c14296",
     "campName": "ולהאלה",
@@ -13489,6 +13468,90 @@
       "English",
       "Workshop",
       "BodyAndSoul"
+    ]
+  },
+  {
+    "campId": "1f9dceb9-0ac5-4774-8a0f-98c6394a4018",
+    "giftId": "ef80ab60-5682-45e5-ba15-7d704d8228cb",
+    "campName": "ג'אנגל סטורם",
+    "campNameEn": "Jungle Storm",
+    "description": "בואו לשתות איתנו שייקים אלכוהוליים בצהריים",
+    "descriptionEn": "Come have a drink of alcoholic shakes at lunchtime",
+    "title": "בואו לשתות איתנו שייקים אלכוהוליים בצהריים",
+    "titleEn": "Come have a drink of alcoholic shakes at lunchtime",
+    "time": 1526378400,
+    "allDay": false,
+    "locationName": "גזע המוח 1:00",
+    "locationNameEn": "1:00 Geza Hamoach",
+    "tags": [
+      "FoodAndDrinks",
+      "English",
+      "Kids",
+      "Alcohol",
+      "Sleep"
+    ]
+  },
+  {
+    "campId": "1f9dceb9-0ac5-4774-8a0f-98c6394a4018",
+    "giftId": "9b2d565c-34c4-4a43-9d72-d559000f0ef3",
+    "campName": "ג'אנגל סטורם",
+    "campNameEn": "Jungle Storm",
+    "description": "בואו לשתות איתנו שייקים אלכוהוליים בצהריים",
+    "descriptionEn": "Come have a drink of alcoholic shakes at lunchtime",
+    "title": "בואו לשתות איתנו שייקים אלכוהוליים בצהריים",
+    "titleEn": "Come have a drink of alcoholic shakes at lunchtime",
+    "time": 1526464800,
+    "allDay": false,
+    "locationName": "גזע המוח 1:00",
+    "locationNameEn": "1:00 Geza Hamoach",
+    "tags": [
+      "FoodAndDrinks",
+      "English",
+      "Kids",
+      "Alcohol",
+      "Sleep"
+    ]
+  },
+  {
+    "campId": "1f9dceb9-0ac5-4774-8a0f-98c6394a4018",
+    "giftId": "f7be9144-56b5-4645-af75-e213c2f633e1",
+    "campName": "ג'אנגל סטורם",
+    "campNameEn": "Jungle Storm",
+    "description": "בואו לשתות איתנו שייקים אלכוהוליים בצהריים",
+    "descriptionEn": "Come have a drink of alcoholic shakes at lunchtime",
+    "title": "בואו לשתות איתנו שייקים אלכוהוליים בצהריים",
+    "titleEn": "Come have a drink of alcoholic shakes at lunchtime",
+    "time": 1526551200,
+    "allDay": false,
+    "locationName": "גזע המוח 1:00",
+    "locationNameEn": "1:00 Geza Hamoach",
+    "tags": [
+      "FoodAndDrinks",
+      "English",
+      "Kids",
+      "Alcohol",
+      "Sleep"
+    ]
+  },
+  {
+    "campId": "1f9dceb9-0ac5-4774-8a0f-98c6394a4018",
+    "giftId": "4a6cdbe2-cdf2-4210-bd86-597c33f8451c",
+    "campName": "ג'אנגל סטורם",
+    "campNameEn": "Jungle Storm",
+    "description": "בואו לשתות איתנו שייקים אלכוהוליים בצהריים",
+    "descriptionEn": "Come have a drink of alcoholic shakes at lunchtime",
+    "title": "בואו לשתות איתנו שייקים אלכוהוליים בצהריים",
+    "titleEn": "Come have a drink of alcoholic shakes at lunchtime",
+    "time": 1526637600,
+    "allDay": false,
+    "locationName": "גזע המוח 1:00",
+    "locationNameEn": "1:00 Geza Hamoach",
+    "tags": [
+      "FoodAndDrinks",
+      "English",
+      "Kids",
+      "Alcohol",
+      "Sleep"
     ]
   }
 ]
