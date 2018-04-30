@@ -10,6 +10,8 @@ import com.reactnativenavigation.NavigationApplication;
 import java.util.Arrays;
 import java.util.List;
 
+import com.airbnb.android.react.maps.MapsPackage;
+
 public class MainApplication extends NavigationApplication {
 
   @Override
@@ -22,7 +24,8 @@ public class MainApplication extends NavigationApplication {
   public List<ReactPackage> createAdditionalReactPackages() {
     return Arrays.<ReactPackage>asList(
             new SplashScreenReactPackage(),
-            new RNDeviceInfo()
+            new RNDeviceInfo(),
+            new MapsPackage()
     );
   }
 

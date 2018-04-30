@@ -92,6 +92,8 @@ PODS:
     - React/Core
     - React/fishhook
     - React/RCTBlob
+  - RNFS (2.9.12):
+    - React
   - yoga (0.51.0.React)
 
 DEPENDENCIES:
@@ -115,6 +117,7 @@ DEPENDENCIES:
   - React/RCTText (from `../node_modules/react-native`)
   - React/RCTVibration (from `../node_modules/react-native`)
   - React/RCTWebSocket (from `../node_modules/react-native`)
+  - RNFS (from `../node_modules/react-native-fs`)
   - yoga (from `../node_modules/react-native/ReactCommon/yoga/yoga.podspec`)
 
 SPEC REPOS:
@@ -136,6 +139,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native-maps"
   react-native-maps:
     :path: "../node_modules/react-native-maps"
+  RNFS:
+    :path: "../node_modules/react-native-fs"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga/yoga.podspec"
 
@@ -149,8 +154,9 @@ SPEC CHECKSUMS:
   React: 541ba768b9855e10cdc76f55427a5cd0653ca806
   react-native-google-maps: 2cfe3b01f8422c7dae51d8764139fd70f888cfce
   react-native-maps: 066c2afcc89e18726377bcc685315f989ca22449
+  RNFS: bbb1a64eb245763daf34aea86f97c97c4e85f74c
   yoga: 17521bbb0dd54a47c0b3ac43253e78cdac7488e0
 
-PODFILE CHECKSUM: 12a07af567fed1cdadbafe95141deccb868b5077
+PODFILE CHECKSUM: 2a7dc4fe4862ab14269815a2efe80ba167b4461c
 
 COCOAPODS: 1.5.0
