@@ -1708,14 +1708,13 @@
 	{
 		"campId": "908ead14-fdf8-4348-9021-e04c7b45dfac",
 		"campName": "שיחות נפש",
-		"campNameEn": "Intimate Conversations",
+		"campNameEn": "Soul to Soul talks",
 		"description": "מרחב נעים ומזמין, לשבת ולקבל הקשבה והכלה.",
 		"descriptionEn": "A space where you can be truly heard and accepted",
 		"location": "אמיגדלה 2:30",
 		"locationEn": "2:30 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
-			"FoodAndDrinks",
 			"English",
 			"Workshop",
 			"BodyAndSoul"
