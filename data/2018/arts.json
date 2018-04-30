@@ -1170,13 +1170,27 @@
 	},
 	{
 		"artId": 310,
-		"name": "The RiDe - LuciFire crew",
-		"nameEn": "The Ride",
-		"title": "ספה נוסעת שתעבור בין המסיבות ותעשה שמח. \nתרים לכולם עם מלא מלא אששששששש ופופרים\nweeeee-heeeee\nיש יותר שווה מזה?",
-		"titleEn": "a sofa that rides around town and makes a lot of fire FUN",
-		"description": "החלום שלנו הולך להתגשם \nואנחנו לא חייבות 4096 תווים כדי להגיד לכם\nשזה יהיה מדהים\nלעבור בין מסיבות ולתת פוף פוף של אש בדיוק כשהמוזיקה מתגברת\nלנסוע בשקט ליד מישהו ופתאום לעשות פוף גדול של אש\nלחנות באמצע הפלאייה ככה סתם ולעשות טבעות עשן בשמיים\nלהתקרב למרחב לוציפר ולתקשר בפופים עם אחיינו הפופרים הנייחים\nלשמח להרים להרעיש\nזה מה שאנחנו אוהבים \nיש לנו חלום והוא הולך להתגשם \nאיזה אדיר!!!!",
-		"artist": "lucifire crew",
-		"philosophy": "הרצון לשמוח ולשמח עם אש אש אש\nמה שנקרא באנו להרים\nלהיות בכל מקום כל הזמן\nלהפתיע ,לתקשר, לרגש, להצחיק",
+		"name": "LuciFire",
+		"nameEn": "לוציפייר",
+		"title": "גיהנום המבטחים שלכם בפלאיה",
+		"titleEn": " if your tired or just want to melt under the fire you are welcome to lucifire",
+		"description": "",
+		"artist": "LuciFire crew",
+		"philosophy": "",
+		"images": [
+			"art1.jpg",
+			"art2.jpg"
+		]
+	},
+	{
+		"artId": 312,
+		"name": "Diablo the Poof Cube",
+		"nameEn": "Diablo the Poof Cube",
+		"title": "ניידת כדורי אש שתגיע לכל פינה בפלאיה להפתיע (אורי לא לכל פינה רישוי וזה אבל נגיע אליכם בטוח)",
+		"titleEn": "we are going to make FIRE all around town with our poof cube",
+		"description": "",
+		"artist": "LuciFire crew",
+		"philosophy": "",
 		"images": [
 			"art1.jpg",
 			"art2.jpg"
