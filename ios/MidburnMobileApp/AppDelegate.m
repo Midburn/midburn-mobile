@@ -16,13 +16,13 @@
 #import "RCCManager.h"
 
 #import "SplashScreen.h"
-
+@import GoogleMaps;
 
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  
+  [GMSServices provideAPIKey:@"AIzaSyAuTs0zms9mHDNDtdS_rVKVwhxFT85kUX8"];
   [[RCTI18nUtil sharedInstance] allowRTL:YES];
   NSURL *jsCodeLocation;
 

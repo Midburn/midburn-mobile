@@ -40,11 +40,17 @@ async function start(shouldLoad = true) {
         title: Strings('PROGRAM'),
         icon: require('../data/img/program.png')
       },
+      // {
+      //   label: Strings('EXTRA'),
+      //   screen: SCREENS.EXTRA,
+      //   title: Strings('EXTRA'),
+      //   icon: require('../data/img/more.png')
+      // },
       {
-        label: Strings('EXTRA'),
-        screen: SCREENS.EXTRA,
-        title: Strings('EXTRA'),
-        icon: require('../data/img/more.png')
+        label: Strings('MAP'),
+        screen: SCREENS.MAP,
+        title: Strings('MAP'),
+        icon: require('../data/img/map.png')
       }
 
     ],

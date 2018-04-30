@@ -1,45 +1,79 @@
-import React, {Component} from 'react';
+import React from 'react';
 import {
-  Platform,
   StyleSheet,
-  Text,
-  View
+  View,
+  Dimensions,
 } from 'react-native';
+import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 
-const instructions = Platform.select({
-  ios: 'Press Cmd+R to reload,\n' +
-  'Cmd+D or shake for dev menu',
-  android: 'Double tap R on your keyboard to reload,\n' +
-  'Shake or press menu button for dev menu',
-});
+const { width, height } = Dimensions.get('window');
 
-export default class MapScreen extends Component {
+const ASPECT_RATIO = width / height;
+const LATITUDE = -18.9193508;
+const LONGITUDE = -48.2830592;
+const LATITUDE_DELTA = 0.0922;
+const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
+const KML_FILE = 'https://pastebin.com/raw/jAzGpq1F';
+
+class MapKml extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      region: {
+        latitude: LATITUDE,
+        longitude: LONGITUDE,
+        latitudeDelta: LATITUDE_DELTA,
+        longitudeDelta: LONGITUDE_DELTA,
+      },
+    };
+
+    this.onKmlReady = this.onKmlReady.bind(this);
+  }
+
+  onKmlReady() {
+    this.map.fitToElements(true);
+  }
+
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
-          MAP TAB
-        </Text>
+        <MapView
+          // ref={(ref) => { this.map = ref; }}
+          provider={PROVIDER_GOOGLE}
+          style={styles.map}
+          initialRegion={this.state.region}
+          kmlSrc={require('../')}
+          onKmlReady={this.onKmlReady}
+        >
+          {/* <Marker
+            coordinate={this.state.region}
+            title="Test"
+            description="Test"
+          /> */}
+        </MapView>
       </View>
     );
   }
 }
 
+MapKml.propTypes = {
+  provider: MapView.ProviderPropType,
+};
+
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'flex-end',
     alignItems: 'center',
-    backgroundColor: 'yellow',
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
+  scrollview: {
+    alignItems: 'center',
+    paddingVertical: 40,
   },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+  map: {
+    width,
+    height,
   },
 });
+
+module.exports = MapKml;
