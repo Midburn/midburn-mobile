@@ -12,12 +12,6 @@ const SEARCH_BUTTON_ID = 'art_search';
 const IS_IOS = Platform.OS === 'ios';
 
 
-const FILTER = {
-  CAMPS: 'Camps',
-  ART: 'Art'
-};
-
-
 class ArtScreen extends Component {
 
   static navigatorButtons = {
@@ -42,6 +36,7 @@ class ArtScreen extends Component {
     if (event.id == SEARCH_BUTTON_ID) {
 
       this.setState({showSearchBar: !this.state.showSearchBar});
+      store.setters.setSearchArt();
       if (this.searchTextInputRef) {
         this.searchTextInputRef.focus();
       }
@@ -51,11 +46,6 @@ class ArtScreen extends Component {
 
   _onRowPressed = async (art, images) => {
     actions.showArtScreen({art, navigator: this.props.navigator, images});
-  }
-
-  _onFavouriteFilterBarPressed = () => {
-    this._onFilterBarPressed(FILTER.ART);
-
   }
 
   _renderRow = (data) => {

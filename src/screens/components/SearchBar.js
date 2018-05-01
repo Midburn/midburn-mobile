@@ -26,6 +26,7 @@ export default class SearchBar extends Component {
           onChangeText={this.props.onChangeText}
           value={this.props.text}
           placeholder={this.props.placeholder}
+          clearButtonMode={'while-editing'}
         />
     );
   }

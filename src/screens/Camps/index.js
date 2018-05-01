@@ -24,11 +24,7 @@ class CampsScreen extends Component {
         id: SEARCH_BUTTON_ID,
         systemItem: 'search',
         [!IS_IOS ? 'icon' : undefined]: ANDROID_SEARCH_ICON
-      },
-      // {
-      //   id: FAVOURITES_BUTTON_ID,
-      //   icon: require('../../../data/img/hart_full.png'),
-      // }
+      }
     ]
   };
 
@@ -43,6 +39,7 @@ class CampsScreen extends Component {
   onNavigatorEvent(event) {
     if (event.id == SEARCH_BUTTON_ID) {
       this.setState({showSearchBar: !this.state.showSearchBar});
+      store.setters.setSearchCamp();
       if (this.searchTextInputRef) {
         this.searchTextInputRef.focus();
       }
@@ -53,14 +50,8 @@ class CampsScreen extends Component {
     }
   }
 
-
   _onRowPressed = async (camp) => {
     actions.showCampScreen({camp, navigator: this.props.navigator});
-  }
-
-  _onFavouriteFilterBarPressed = () => {
-    this._onFilterBarPressed(FILTER.ART);
-
   }
 
   _renderRow = (data) => {

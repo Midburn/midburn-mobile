@@ -8,39 +8,17 @@ import {isRTL} from '../../utils/Strings';
 
 
 export function loadCamps() {
+  store.setters.setSearchCamp();
   const data = require('../../../data/2018/camps');
   const sortedData = _.sortBy(data, isRTL ? 'campName' : 'campNameEn');
-  // const localizedData = _.map(data, (camp) => {
-  //   if (isRTL()) {
-  //     camp.title = camp.campName;
-  //     camp.description = camp.description;
-  //   } else {
-  //     camp.title = camp.campNameEn;
-  //     camp.description = camp.descriptionEn;
-  //   }
-  //
-  //   return camp;
-  // });
-  //
-  // store.setters.setCamps(localizedData);
   store.setters.setCamps(sortedData);
+
 }
 
 export function loadArt() {
+  store.setters.setSearchArt();
   const data = require('../../../data/2018/arts');
   const sortedData = _.sortBy(data, isRTL ? 'name' : 'nameEn');
-  // const localizedData = _.map(data, (art) => {
-  //   if (isRTL()) {
-  //     art.title = art.title;
-  //     art.name = art.name;
-  //   } else {
-  //     art.title = art.titleEn;
-  //     art.name = art.nameEn;
-  //   }
-  //
-  //   return art;
-  // });
-  // store.setters.setArt(localizedData);
   store.setters.setArt(sortedData);
 }
 
