@@ -37,23 +37,18 @@
 		"campId": "7bf1241d-f904-448b-b030-c06018eac369",
 		"campName": "כנענים",
 		"campNameEn": "Canaania",
-		"description": "פלאפל וערק בצהרים ועונשים תנ\"כיים",
-		"descriptionEn": "Falafel and arak at noon and biblical punishments",
+		"description": "פלאפל ומשפטים כנעניים נושאי עונשים",
+		"descriptionEn": "Falafel and biblical punishments, Come enjoy our Canaan Falafel and join our biblical times court",
 		"location": "בלוטת האיצטרובל 3:30",
 		"locationEn": "3:30 Blutat HaYtztrubal",
 		"tags": [
-			"PhysicallyDisabled",
-			"Alcohol",
-			"Party",
-			"FoodAndDrinks"
+			"FoodAndDrinks",
+			"English"
 		],
 		"gifts": [
-			"0728b7c9-7e51-4eb6-8938-1a976c6d8180",
-			"313e0922-38dc-46fb-a074-28f47d547bd9",
-			"8184397b-8821-49ea-9087-4543f641da4e",
-			"99d230ee-8f1d-4814-a0f9-cd2f2cfb7222",
-			"bf9e06ba-4139-4b79-ae85-46d1e5b896c3",
-			"6d809776-0dc5-4c5c-813f-953b5bab0599"
+			"9335315d-7588-485f-ac43-435deae8c3bf",
+			"9e18e776-13cd-4a42-b495-426d862ba3d8",
+			"e172d3ad-0a38-4eca-9c6e-656bb853cb29"
 		]
 	},
 	{
@@ -197,12 +192,12 @@
 	},
 	{
 		"campId": "68563302-e4c3-412e-b460-1a6706e1adb6",
-		"campName": "צ'אפטי",
-		"campNameEn": "Chapati",
-		"description": "ארט קאר ספינת הפיראטים, עליו מופיעים DJ",
-		"descriptionEn": "art car pirete ship is the stage to dj play music",
-		"location": " ",
-		"locationEn": " ",
+		"campName": "הפיראטים (צ'פאטי)",
+		"campNameEn": "Midburn Pirates",
+		"description": "מסיבות והופעות חיות, על ספינת הפיראטים, משקיעה ועד אחרי חצות, טכנו, דיפ האוס, וגם טראנס.",
+		"descriptionEn": "art car pirates ship is the stage to dj play music, top of the line sound system and lasers show",
+		"location": "10:00 פלאיה",
+		"locationEn": "10:00 Playa",
 		"tags": [
 			"Alcohol",
 			"Party",

@@ -1,137 +1,5 @@
 [
   {
-    "campId": "7bf1241d-f904-448b-b030-c06018eac369",
-    "giftId": "0728b7c9-7e51-4eb6-8938-1a976c6d8180",
-    "campName": "כנענים",
-    "campNameEn": "Canaania",
-    "description": "פלאפל וערק בצהריים ועונשים תנכיים",
-    "descriptionEn": "Falafel and arak at noon and biblical punishments",
-    "title": "פלאפל וערק בצהריים ועונשים תנכיים",
-    "titleEn": "Falafel and arak at noon and biblical punishments",
-    "time": 1526288400,
-    "allDay": false,
-    "locationName": "כנעניה",
-    "locationNameEn": "כנעניה",
-    "tags": [
-      "Adults",
-      "Alcohol",
-      "Games",
-      "FoodAndDrinks"
-    ],
-    "location": "בלוטת האיצטרובל 3:30",
-    "locationEn": "3:30 Blutat HaYtztrubal"
-  },
-  {
-    "campId": "7bf1241d-f904-448b-b030-c06018eac369",
-    "giftId": "313e0922-38dc-46fb-a074-28f47d547bd9",
-    "campName": "כנענים",
-    "campNameEn": "Canaania",
-    "description": "פלאפל וערק בצהריים ועונשים תנכיים",
-    "descriptionEn": "Falafel and arak at noon and biblical punishments",
-    "title": "פלאפל וערק בצהריים ועונשים תנכיים",
-    "titleEn": "Falafel and arak at noon and biblical punishments",
-    "time": 1526374800,
-    "allDay": false,
-    "locationName": "כנעניה",
-    "locationNameEn": "כנעניה",
-    "tags": [
-      "Adults",
-      "Alcohol",
-      "Games",
-      "FoodAndDrinks"
-    ],
-    "location": "בלוטת האיצטרובל 3:30",
-    "locationEn": "3:30 Blutat HaYtztrubal"
-  },
-  {
-    "campId": "7bf1241d-f904-448b-b030-c06018eac369",
-    "giftId": "8184397b-8821-49ea-9087-4543f641da4e",
-    "campName": "כנענים",
-    "campNameEn": "Canaania",
-    "description": "פלאפל וערק בצהריים ועונשים תנכיים",
-    "descriptionEn": "Falafel and arak at noon and biblical punishments",
-    "title": "פלאפל וערק בצהריים ועונשים תנכיים",
-    "titleEn": "Falafel and arak at noon and biblical punishments",
-    "time": 1526461200,
-    "allDay": false,
-    "locationName": "כנעניה",
-    "locationNameEn": "כנעניה",
-    "tags": [
-      "Adults",
-      "Alcohol",
-      "Games",
-      "FoodAndDrinks"
-    ],
-    "location": "בלוטת האיצטרובל 3:30",
-    "locationEn": "3:30 Blutat HaYtztrubal"
-  },
-  {
-    "campId": "7bf1241d-f904-448b-b030-c06018eac369",
-    "giftId": "99d230ee-8f1d-4814-a0f9-cd2f2cfb7222",
-    "campName": "כנענים",
-    "campNameEn": "Canaania",
-    "description": "פלאפל וערק בצהריים ועונשים תנכיים",
-    "descriptionEn": "Falafel and arak at noon and biblical punishments",
-    "title": "פלאפל וערק בצהריים ועונשים תנכיים",
-    "titleEn": "Falafel and arak at noon and biblical punishments",
-    "time": 1526547600,
-    "allDay": false,
-    "locationName": "כנעניה",
-    "locationNameEn": "כנעניה",
-    "tags": [
-      "Adults",
-      "Alcohol",
-      "Games",
-      "FoodAndDrinks"
-    ],
-    "location": "בלוטת האיצטרובל 3:30",
-    "locationEn": "3:30 Blutat HaYtztrubal"
-  },
-  {
-    "campId": "7bf1241d-f904-448b-b030-c06018eac369",
-    "giftId": "bf9e06ba-4139-4b79-ae85-46d1e5b896c3",
-    "campName": "כנענים",
-    "campNameEn": "Canaania",
-    "description": "פלאפל וערק בצהריים ועונשים תנכיים",
-    "descriptionEn": "Falafel and arak at noon and biblical punishments",
-    "title": "פלאפל וערק בצהריים ועונשים תנכיים",
-    "titleEn": "Falafel and arak at noon and biblical punishments",
-    "time": 1526634000,
-    "allDay": false,
-    "locationName": "כנעניה",
-    "locationNameEn": "כנעניה",
-    "tags": [
-      "Adults",
-      "Alcohol",
-      "Games",
-      "FoodAndDrinks"
-    ],
-    "location": "בלוטת האיצטרובל 3:30",
-    "locationEn": "3:30 Blutat HaYtztrubal"
-  },
-  {
-    "campId": "7bf1241d-f904-448b-b030-c06018eac369",
-    "giftId": "6d809776-0dc5-4c5c-813f-953b5bab0599",
-    "campName": "כנענים",
-    "campNameEn": "Canaania",
-    "description": "פלאפל וערק בצהריים ועונשים תנכיים",
-    "descriptionEn": "Falafel and arak at noon and biblical punishments",
-    "title": "פלאפל וערק בצהריים ועונשים תנכיים",
-    "titleEn": "Falafel and arak at noon and biblical punishments",
-    "time": 1526720400,
-    "allDay": false,
-    "locationName": "כנעניה",
-    "locationNameEn": "כנעניה",
-    "tags": [
-      "Adults",
-      "Alcohol",
-      "Games",
-      "FoodAndDrinks"
-    ],
-    "location": "בלוטת האיצטרובל 3:30",
-    "locationEn": "3:30 Blutat HaYtztrubal"
-  },
-  {
     "campId": "43e4b1fa-633e-4c33-88bd-4dcc2e0558f7",
     "giftId": "f57f4cf9-1a9b-4517-b05d-36abbd080bf3",
     "campName": "מלביט",
@@ -13507,6 +13375,57 @@
       "Mingling",
       "Party",
       "Alcohol"
+    ]
+  },
+  {
+    "campId": "7bf1241d-f904-448b-b030-c06018eac369",
+    "giftId": "9335315d-7588-485f-ac43-435deae8c3bf",
+    "campName": "כנענים",
+    "campNameEn": "Canaania",
+    "description": "פלאפל ומשפטים כנעניים נושאי עונשים",
+    "descriptionEn": "Falafel and biblical punishments, Come enjoy our Canaan Falafel and join our biblical times court",
+    "title": "פלאפל ומשפטים כנעניים נושאי עונשים",
+    "titleEn": "Falafel and biblical punishments, Come enjoy our Canaan Falafel and join our biblical times court",
+    "time": 1526374800,
+    "allDay": false,
+    "locationName": "בלוטת האיצטרובל 3:30",
+    "locationNameEn": "3:30 Blutat HaYtztrubal",
+    "tags": [
+      "FoodAndDrinks"
+    ]
+  },
+  {
+    "campId": "7bf1241d-f904-448b-b030-c06018eac369",
+    "giftId": "9e18e776-13cd-4a42-b495-426d862ba3d8",
+    "campName": "כנענים",
+    "campNameEn": "Canaania",
+    "description": "פלאפל ומשפטים כנעניים נושאי עונשים",
+    "descriptionEn": "Falafel and biblical punishments, Come enjoy our Canaan Falafel and join our biblical times court",
+    "title": "פלאפל ומשפטים כנעניים נושאי עונשים",
+    "titleEn": "Falafel and biblical punishments, Come enjoy our Canaan Falafel and join our biblical times court",
+    "time": 1526461200,
+    "allDay": false,
+    "locationName": "בלוטת האיצטרובל 3:30",
+    "locationNameEn": "3:30 Blutat HaYtztrubal",
+    "tags": [
+      "FoodAndDrinks"
+    ]
+  },
+  {
+    "campId": "7bf1241d-f904-448b-b030-c06018eac369",
+    "giftId": "e172d3ad-0a38-4eca-9c6e-656bb853cb29",
+    "campName": "כנענים",
+    "campNameEn": "Canaania",
+    "description": "פלאפל ומשפטים כנעניים נושאי עונשים",
+    "descriptionEn": "Falafel and biblical punishments, Come enjoy our Canaan Falafel and join our biblical times court",
+    "title": "פלאפל ומשפטים כנעניים נושאי עונשים",
+    "titleEn": "Falafel and biblical punishments, Come enjoy our Canaan Falafel and join our biblical times court",
+    "time": 1526547600,
+    "allDay": false,
+    "locationName": "בלוטת האיצטרובל 3:30",
+    "locationNameEn": "3:30 Blutat HaYtztrubal",
+    "tags": [
+      "FoodAndDrinks"
     ]
   }
 
