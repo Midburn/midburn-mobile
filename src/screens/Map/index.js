@@ -11,9 +11,8 @@ const { width, height } = Dimensions.get('window');
 const ASPECT_RATIO = width / height;
 const LATITUDE = 30.8910278;
 const LONGITUDE = 34.7582799;
-const LATITUDE_DELTA = 0.0922;
+const LATITUDE_DELTA = 0.00322;
 const LONGITUDE_DELTA = LATITUDE_DELTA * ASPECT_RATIO;
-const KML_FILE = 'https://pastebin.com/raw/jAzGpq1F';
 
 class MapKml extends React.Component {
   constructor(props) {
@@ -39,18 +38,13 @@ class MapKml extends React.Component {
     return (
       <View style={styles.container}>
         <MapView
-          // ref={(ref) => { this.map = ref; }}
           provider={PROVIDER_GOOGLE}
           style={styles.map}
           initialRegion={this.state.region}
-          kmlSrc={'android.resource://com.midburnmobileapp/kml/midburn_map.kml'}
-          // onKmlReady={this.onKmlReady}
+          kmlFileName={'midburn_map.kml'}
+          showsUserLocation={true}
+          showsMyLocationButton
         >
-          {/* <Marker
-            coordinate={this.state.region}
-            title="Test"
-            description="Test"
-          /> */}
         </MapView>
       </View>
     );
