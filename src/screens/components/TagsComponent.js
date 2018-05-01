@@ -29,11 +29,11 @@ export default class TagsComponent extends Component {
           borderRadius: 10,
           borderWidth: 1,
           borderColor: getTagColor(tag),
-          padding: 6,
-          marginRight: 4,
-          marginTop: 12
+          padding: 4,
+          marginRight: 8,
+          marginTop: 8
         }}>
-        <Text>{this._getTitle(tag)}</Text>
+        <Text text90>{this._getTitle(tag)}</Text>
       </View>
     );
   }
