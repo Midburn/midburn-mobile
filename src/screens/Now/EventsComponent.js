@@ -12,7 +12,7 @@ export class EventsComponent extends Component {
   renderEmptyState() {
     return (
       <View flex style={styles.emptyContainer}>
-        <Text text70 dark20>No available events 🤔</Text>
+        <Text text70 dark20>לא מתחיבותים לכלום, אז מוזמנים לקפוץ לקמפ ולומר שלום בכל זמן 🤔</Text>
       </View>
     );
   }
