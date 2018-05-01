@@ -2070,160 +2070,6 @@
     "locationEn": "3:00 Tayelet"
   },
   {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "3fa36084-c06d-45aa-a30c-3021efe254b5",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "מסיבת אייטיז צהריים קרירה ומרעננת..",
-    "descriptionEn": "Cool and refreshing midday 80s party",
-    "title": "מסיבת אייטיז צהריים קרירה ומרעננת..",
-    "titleEn": "Cool and refreshing midday 80s party",
-    "time": 1526292000,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "Party"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "4756562f-c470-4abe-904d-6080a07ed980",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "מסיבת אייטיז צהריים קרירה ומרעננת..",
-    "descriptionEn": "Cool and refreshing midday 80s party",
-    "title": "מסיבת אייטיז צהריים קרירה ומרעננת..",
-    "titleEn": "Cool and refreshing midday 80s party",
-    "time": 1526378400,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "Party"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "b97762a6-28ba-4420-a9a3-611b1d3a2930",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "מסיבת אייטיז צהריים קרירה ומרעננת..",
-    "descriptionEn": "Cool and refreshing midday 80s party",
-    "title": "מסיבת אייטיז צהריים קרירה ומרעננת..",
-    "titleEn": "Cool and refreshing midday 80s party",
-    "time": 1526464800,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "Party"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "d047af43-42ea-4b54-9f92-ed82a928a204",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "מסיבת אייטיז צהריים קרירה ומרעננת..",
-    "descriptionEn": "Cool and refreshing midday 80s party",
-    "title": "מסיבת אייטיז צהריים קרירה ומרעננת..",
-    "titleEn": "Cool and refreshing midday 80s party",
-    "time": 1526551200,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "Party"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "ccc70642-0e99-428a-ac84-5bfdaf1d9847",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "מסיבת אייטיז צהריים קרירה ומרעננת..",
-    "descriptionEn": "Cool and refreshing midday 80s party",
-    "title": "מסיבת אייטיז צהריים קרירה ומרעננת..",
-    "titleEn": "Cool and refreshing midday 80s party",
-    "time": 1526637600,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "Party"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "a0ec7056-f60b-4128-ad63-3528d6e3f0e2",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "מסיבת אייטיז צהריים קרירה ומרעננת..",
-    "descriptionEn": "Cool and refreshing midday 80s party",
-    "title": "מסיבת אייטיז צהריים קרירה ומרעננת..",
-    "titleEn": "Cool and refreshing midday 80s party",
-    "time": 1526724000,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "Party"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "ed6e8c2d-534e-4c6f-9c45-ba919628c2ac",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "מסיבת מיינסטרים אייטיז - להיטים בלבד!",
-    "descriptionEn": "80s mainstream party - All hits!",
-    "title": "מסיבת מיינסטרים אייטיז - להיטים בלבד!",
-    "titleEn": "80s mainstream party - All hits!",
-    "time": 1526317200,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "Adults",
-      "Party"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "27baa14e-5c6b-48dd-a463-7e9fd80b6939",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "חגיגה בשחור - מסיבת 80s ניו וייב",
-    "descriptionEn": "Black celebration - 80s new-wave party",
-    "title": "חגיגה בשחור - מסיבת 80s ניו וייב",
-    "titleEn": "Black celebration - 80s new-wave party",
-    "time": 1526403600,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "Adults",
-      "Party"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
     "campId": "6b53d361-23af-4c05-b0ac-9bebbacd24ce",
     "giftId": "939f1dd6-a747-480a-a815-67b57023de33",
     "campName": "The nest",
@@ -2486,193 +2332,6 @@
     ],
     "location": "טיילת 8:45",
     "locationEn": "8:45 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "b33bb25b-8069-45de-9d23-823ed30c3793",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "מסיבה עברית + הופעת מיטב אמני ה-80 מעל במה אחת...",
-    "descriptionEn": "Israeli party + live show of the best 80s artists",
-    "title": "מסיבה עברית + הופעת מיטב אמני ה-80 מעל במה אחת...",
-    "titleEn": "Israeli party + live show of the best 80s artists",
-    "time": 1526490000,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "Adults",
-      "Party",
-      "Live"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "0cb5a5df-4e61-48cb-ae61-a0ea5bc44d9f",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "מסיבת אייטיז צרפתית למהדרין. ",
-    "descriptionEn": "80s all-french party",
-    "title": "מסיבת אייטיז צרפתית למהדרין. ",
-    "titleEn": "80s all-french party",
-    "time": 1526576400,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "Adults",
-      "Party"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "7b308c7c-1356-41ac-9762-fe443634d327",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "מסיבה אחרונה.. בואו להיפרד",
-    "descriptionEn": "The last party. come and say goodbye.",
-    "title": "מסיבה אחרונה.. בואו להיפרד",
-    "titleEn": "The last party. come and say goodbye.",
-    "time": 1526662800,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "Adults",
-      "Party"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "942d3038-4eb6-43e2-bf04-3f42c1cf061b",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "סרט קאלט מה-80s על מסך ענק (עם כתוביות)",
-    "descriptionEn": "Cult 80s movie on a huge screen",
-    "title": "סרט קאלט מה-80s על מסך ענק (עם כתוביות)",
-    "titleEn": "Cult 80s movie on a huge screen",
-    "time": 1526329800,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "HearingImpaired",
-      "Kids",
-      "Live"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "6b57fa64-e8de-4793-be45-86a1066dc1a1",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "סרט קאלט מה-80s על מסך ענק (עם כתוביות)",
-    "descriptionEn": "Cult 80s movie on a huge screen",
-    "title": "סרט קאלט מה-80s על מסך ענק (עם כתוביות)",
-    "titleEn": "Cult 80s movie on a huge screen",
-    "time": 1526416200,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "HearingImpaired",
-      "Kids",
-      "Live"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "1260e5bc-04db-4083-9603-6c5f71c860b2",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "סרט קאלט מה-80s על מסך ענק (עם כתוביות)",
-    "descriptionEn": "Cult 80s movie on a huge screen",
-    "title": "סרט קאלט מה-80s על מסך ענק (עם כתוביות)",
-    "titleEn": "Cult 80s movie on a huge screen",
-    "time": 1526502600,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "HearingImpaired",
-      "Kids",
-      "Live"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "b5789b9b-d981-49f1-b842-fcad0cc79f3e",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "סרט קאלט מה-80s על מסך ענק (עם כתוביות)",
-    "descriptionEn": "Cult 80s movie on a huge screen",
-    "title": "סרט קאלט מה-80s על מסך ענק (עם כתוביות)",
-    "titleEn": "Cult 80s movie on a huge screen",
-    "time": 1526589000,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "HearingImpaired",
-      "Kids",
-      "Live"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "cbbf81d0-3093-4db5-9f1b-2ec2c92ef679",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "סרט קאלט מה-80s על מסך ענק (עם כתוביות)",
-    "descriptionEn": "Cult 80s movie on a huge screen",
-    "title": "סרט קאלט מה-80s על מסך ענק (עם כתוביות)",
-    "titleEn": "Cult 80s movie on a huge screen",
-    "time": 1526675400,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "HearingImpaired",
-      "Kids",
-      "Live"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
-  },
-  {
-    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
-    "giftId": "5840b96b-642c-43a5-b8fb-e33af549009a",
-    "campName": "מחנה 80",
-    "campNameEn": "Camp 80",
-    "description": "סרט קאלט מה-80s על מסך ענק (עם כתוביות)",
-    "descriptionEn": "Cult 80s movie on a huge screen",
-    "title": "סרט קאלט מה-80s על מסך ענק (עם כתוביות)",
-    "titleEn": "Cult 80s movie on a huge screen",
-    "time": 1526761800,
-    "allDay": false,
-    "locationName": "מחנה 80",
-    "locationNameEn": "מחנה 80",
-    "tags": [
-      "HearingImpaired",
-      "Kids",
-      "Live"
-    ],
-    "location": "טיילת 7:00",
-    "locationEn": "7:00 Tayelet"
   },
   {
     "campId": "45493175-9241-461c-87ae-76f0e10291f2",
@@ -13426,6 +13085,286 @@
     "locationNameEn": "3:30 Blutat HaYtztrubal",
     "tags": [
       "FoodAndDrinks"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "b2e8e9db-dbc7-423d-bfc9-d51d6e2b6e09",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "מסיבת צהריים טראנס פתיחה / אלעד המלך!",
+    "descriptionEn": "noon party: trance by elad the king",
+    "title": "מסיבת צהריים טראנס פתיחה / אלעד המלך!",
+    "titleEn": "noon party: trance by elad the king",
+    "time": 1526378400,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Party",
+      "English",
+      "Mingling"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "81d42a94-775c-46b8-b447-6ec4847980fb",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "מסיבת ערב: ה-מסיבה!  80s מעורבב נעים לאוזן ולישבן. קוד לבוש מה שיוצא ראשון מהתיק.",
+    "descriptionEn": "evening party: opening night: 80's crazy emotional mix. dress code: what comes first from the bag..",
+    "title": "מסיבת ערב: ה-מסיבה!  80s מעורבב נעים לאוזן ולישבן. קוד לבוש מה שיוצא ראשון מהתיק.",
+    "titleEn": "evening party: opening night: 80's crazy emotional mix. dress code: what comes first from the bag..",
+    "time": 1526403600,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Party",
+      "English",
+      "Mingling"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "5698624f-80f4-41e3-9d5c-e532829d3690",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "סרט: איטי / גרמלינס",
+    "descriptionEn": "movie: Gremlins / E.T.",
+    "title": "סרט: איטי / גרמלינס",
+    "titleEn": "movie: Gremlins / E.T.",
+    "time": 1526418000,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Mingling",
+      "Live"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "abf329ec-9470-4311-8be3-536afdc22b08",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "מסיבת צהריים: מסיבת שירי, בלי שום קשר לאייטיז, מה שמקפיץ ומרגש בנות בעיקר..😝",
+    "descriptionEn": "noon party: shiri's songs.. no connection to the 80's... just to dance like crazy...",
+    "title": "מסיבת צהריים: מסיבת שירי, בלי שום קשר לאייטיז, מה שמקפיץ ומרגש בנות בעיקר..😝",
+    "titleEn": "noon party: shiri's songs.. no connection to the 80's... just to dance like crazy...",
+    "time": 1526464800,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Party",
+      "English",
+      "Mingling"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "94a4be1b-e22b-4122-82e5-97f6170d7ae9",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "מסיבת ערב: ניו וייב, הצד האפל יותר של האייטיז; מעורר מחשבה, קוד לבוש: שחור",
+    "descriptionEn": "evening party : new wave, the dark side of the 80's dress code: black",
+    "title": "מסיבת ערב: ניו וייב, הצד האפל יותר של האייטיז; מעורר מחשבה, קוד לבוש: שחור",
+    "titleEn": "evening party : new wave, the dark side of the 80's dress code: black",
+    "time": 1526490000,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Party",
+      "English",
+      "Mingling"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "df27f682-b353-4d04-83af-8a502929cfdf",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "סרט: אהבה בשחקים / ריסקי ביזנס",
+    "descriptionEn": "movie : Top Gun / Risky Business ",
+    "title": "סרט: אהבה בשחקים / ריסקי ביזנס",
+    "titleEn": "movie : Top Gun / Risky Business ",
+    "time": 1526504400,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Mingling",
+      "Live"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "0dbf2f3f-b370-4b3b-b1c2-f21b32527a27",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "מסיבת צהריים: אייטיז שנעים להזכר...",
+    "descriptionEn": "noon party : remember the 80's",
+    "title": "מסיבת צהריים: אייטיז שנעים להזכר...",
+    "titleEn": "noon party : remember the 80's",
+    "time": 1526551200,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Party",
+      "English",
+      "Mingling"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "577e77a1-784a-4495-9fdb-9007f27fe04a",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "וערב הגאלה: ערב הופעות חיות !בהמשך אייטיז ישראלי לחובבי השפה קוד לבוש - רדיקאלי.",
+    "descriptionEn": "evening party: live show night! live performers ! dress code: radical",
+    "title": "וערב הגאלה: ערב הופעות חיות !בהמשך אייטיז ישראלי לחובבי השפה קוד לבוש - רדיקאלי.",
+    "titleEn": "evening party: live show night! live performers ! dress code: radical",
+    "time": 1526576400,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Party",
+      "English",
+      "Mingling"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "38ff1c0b-0052-4677-b350-784f9a9743c8",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "סרט: מועדון ארוחת בוקר / הנסיכה הקסומה",
+    "descriptionEn": "movie : breakfast club / princess bride ",
+    "title": "סרט: מועדון ארוחת בוקר / הנסיכה הקסומה",
+    "titleEn": "movie : breakfast club / princess bride ",
+    "time": 1526590800,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Mingling",
+      "Live"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "03a1227b-2f43-43fd-af66-f424ecc057a8",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "מסיבת צהריים: טריביוט לאמנים שעזבו בטרם עת מכל הזמנים והסוגים",
+    "descriptionEn": "noon party:  tribute for dead artists from all times",
+    "title": "מסיבת צהריים: טריביוט לאמנים שעזבו בטרם עת מכל הזמנים והסוגים",
+    "titleEn": "noon party:  tribute for dead artists from all times",
+    "time": 1526551200,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Party",
+      "English",
+      "Mingling"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "fac75c7d-19d2-41f0-83ed-3c2ed0dbcde9",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "מסיבת ערב: אייטיז צרפתי היישר מצרפת בניצוחו של גרגורי סלקמון ! קוד לבוש: ביריות.",
+    "descriptionEn": "evening party: French version of the 80's! Gregory slakmon is in the house 😃 dress code: suspenders",
+    "title": "מסיבת ערב: אייטיז צרפתי היישר מצרפת בניצוחו של גרגורי סלקמון ! קוד לבוש: ביריות.",
+    "titleEn": "evening party: French version of the 80's! Gregory slakmon is in the house 😃 dress code: suspenders",
+    "time": 1526576400,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Party",
+      "English",
+      "Mingling"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "80de23dc-2350-4a2c-9ef8-831d624ce8a1",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "סרט: הכחול הגדול",
+    "descriptionEn": "movie: la grande blue",
+    "title": "סרט: הכחול הגדול",
+    "titleEn": "movie: la grande blue",
+    "time": 1526590800,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Mingling",
+      "Live"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "8c01b949-4d12-4593-9e81-4701d4622124",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "מסיבת צהריים: סט פריסטייל / רועי פריי",
+    "descriptionEn": "noon party : freestyle / roi frey",
+    "title": "מסיבת צהריים: סט פריסטייל / רועי פריי",
+    "titleEn": "noon party : freestyle / roi frey",
+    "time": 1526637600,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Party",
+      "English",
+      "Mingling"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "3d74af70-b390-436f-a965-114612bd2ca8",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "מסיבת ערב: מסיבת דיסקו בניצוחו של ערן מדר קוד לבוש: מה שעדיין נשאר נקי",
+    "descriptionEn": "evening party: disco party / eran madar dress code: whatever is clean...",
+    "title": "מסיבת ערב: מסיבת דיסקו בניצוחו של ערן מדר קוד לבוש: מה שעדיין נשאר נקי",
+    "titleEn": "evening party: disco party / eran madar dress code: whatever is clean...",
+    "time": 1526662800,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Party",
+      "English",
+      "Mingling"
+    ]
+  },
+  {
+    "campId": "9d947a8b-cacf-4a43-b8f6-cd5347458e52",
+    "giftId": "872622c8-fc60-4402-b5ae-09386b0ad7ea",
+    "campName": "מחנה 80",
+    "campNameEn": "Camp 80",
+    "description": "סרט: בחזרה לעתיד / בטמן",
+    "descriptionEn": "movie: Batman / back to the future",
+    "title": "סרט: בחזרה לעתיד / בטמן",
+    "titleEn": "movie: Batman / back to the future",
+    "time": 1526677200,
+    "allDay": false,
+    "locationName": "טיילת 7:00",
+    "locationNameEn": "7:00 Tayelet",
+    "tags": [
+      "Mingling",
+      "Live"
     ]
   }
 
