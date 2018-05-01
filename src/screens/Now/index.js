@@ -37,7 +37,7 @@ class NowScreen extends Component {
       }
       if (event.id == 'map') {
         // AlertIOS.alert('NavBar', 'map button pressed');
-        this.props.navigator.showModal({
+        this.props.navigator.push({
           screen: SCREENS.MAP
         });
       }
