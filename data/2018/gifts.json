@@ -13383,6 +13383,241 @@
       "Mingling",
       "Live"
     ]
+  },
+
+  {
+    "campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
+    "giftId": "be1e5c34-1a76-4d43-b979-ab1fa7609259",
+    "campName": "קמפ בליב איט",
+    "campNameEn": "Believe It Camp",
+    "description": "ויניאסה יוגה עם עמית אופק",
+    "descriptionEn": "Viniasa Yoga with Amit Ofek",
+    "title": "ויניאסה יוגה עם עמית אופק",
+    "titleEn": "Viniasa Yoga with Amit Ofek",
+    "time": 1526446800,
+    "allDay": false,
+    "locationName": "אמיגדלה 2:00",
+    "locationNameEn": "2:00 Amigdala",
+    "tags": [
+      "Workshop",
+      "BodyAndSoul"
+    ]
+  },
+  {
+    "campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
+    "giftId": "849bdfbd-3f64-4049-b334-707dd3da2b00",
+    "campName": "קמפ בליב איט",
+    "campNameEn": "Believe It Camp",
+    "description": "צ'י צ'ונג - כדרך חיים עם קימי",
+    "descriptionEn": "Chi Chong - As a Way of Life with Kimi",
+    "title": "צ'י צ'ונג - כדרך חיים עם קימי",
+    "titleEn": "Chi Chong - As a Way of Life with Kimi",
+    "time": 1526450400,
+    "allDay": false,
+    "locationName": "אמיגדלה 2:00",
+    "locationNameEn": "2:00 Amigdala",
+    "tags": [
+      "Workshop",
+      "BodyAndSoul"
+    ]
+  },
+  {
+    "campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
+    "giftId": "9626785e-9e9b-4000-ad38-d28bf24356e9",
+    "campName": "קמפ בליב איט",
+    "campNameEn": "Believe It Camp",
+    "description": "פאסיה יוגה עם רוי לונדר ועדן גרשון",
+    "descriptionEn": "Fascial Yoga with Roi Londer & Eden Gershon",
+    "title": "פאסיה יוגה עם רוי לונדר ועדן גרשון",
+    "titleEn": "Fascial Yoga with Roi Londer & Eden Gershon",
+    "time": 1526479200,
+    "allDay": false,
+    "locationName": "אמיגדלה 2:00",
+    "locationNameEn": "2:00 Amigdala",
+    "tags": [
+      "Workshop",
+      "BodyAndSoul"
+    ]
+  },
+  {
+    "campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
+    "giftId": "8d9a4b4e-cc14-422e-845a-b97bc9369041",
+    "campName": "קמפ בליב איט",
+    "campNameEn": "Believe It Camp",
+    "description": "להתהלך נכון על האדמה עם קימי",
+    "descriptionEn": "Walking Right on this Earth with Kimi",
+    "title": "להתהלך נכון על האדמה עם קימי",
+    "titleEn": "Walking Right on this Earth with Kimi",
+    "time": 1526482800,
+    "allDay": false,
+    "locationName": "אמיגדלה 2:00",
+    "locationNameEn": "2:00 Amigdala",
+    "tags": [
+      "Workshop",
+      "BodyAndSoul"
+    ]
+  },
+  {
+    "campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
+    "giftId": "ecc5807c-f9ec-4ac5-9f37-11c4eda88529",
+    "campName": "קמפ בליב איט",
+    "campNameEn": "Believe It Camp",
+    "description": "פאסיה יוגה עם רוי לונדר ועדן גרשון",
+    "descriptionEn": "Fascial Yoga with Roi Londer & Eden Gershon",
+    "title": "פאסיה יוגה עם רוי לונדר ועדן גרשון",
+    "titleEn": "Fascial Yoga with Roi Londer & Eden Gershon",
+    "time": 1526533200,
+    "allDay": false,
+    "locationName": "אמיגדלה 2:00",
+    "locationNameEn": "2:00 Amigdala",
+    "tags": [
+      "Workshop",
+      "BodyAndSoul"
+    ]
+  },
+  {
+    "campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
+    "giftId": "7a498574-1968-4cb4-a990-7d123badbeef",
+    "campName": "קמפ בליב איט",
+    "campNameEn": "Believe It Camp",
+    "description": "מדיטציה - כל מה שלא ידעתם עם קימי",
+    "descriptionEn": "Meditation - All you wanted to know with Kimi",
+    "title": "מדיטציה - כל מה שלא ידעתם עם קימי",
+    "titleEn": "Meditation - All you wanted to know with Kimi",
+    "time": 1526536800,
+    "allDay": false,
+    "locationName": "אמיגדלה 2:00",
+    "locationNameEn": "2:00 Amigdala",
+    "tags": [
+      "Workshop",
+      "BodyAndSoul"
+    ]
+  },
+  {
+    "campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
+    "giftId": "1a4db72a-2996-4495-ad23-da412fab6319",
+    "campName": "קמפ בליב איט",
+    "campNameEn": "Believe It Camp",
+    "description": "חקר החלל הפנימי עם לורן טאוס",
+    "descriptionEn": "Explore inner space with Lauren Taus",
+    "title": "חקר החלל הפנימי עם לורן טאוס",
+    "titleEn": "Explore inner space with Lauren Taus",
+    "time": 1526565600,
+    "allDay": false,
+    "locationName": "אמיגדלה 2:00",
+    "locationNameEn": "2:00 Amigdala",
+    "tags": [
+      "Workshop",
+      "BodyAndSoul"
+    ]
+  },
+  {
+    "campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
+    "giftId": "b02632cd-d8ce-4923-b900-9607d887e06c",
+    "campName": "קמפ בליב איט",
+    "campNameEn": "Believe It Camp",
+    "description": "ויניאסה יוגה עם עמית אופק",
+    "descriptionEn": "Viniasa Yoga with Amit Ofek",
+    "title": "ויניאסה יוגה עם עמית אופק",
+    "titleEn": "Viniasa Yoga with Amit Ofek",
+    "time": 1526569200,
+    "allDay": false,
+    "locationName": "אמיגדלה 2:00",
+    "locationNameEn": "2:00 Amigdala",
+    "tags": [
+      "Workshop",
+      "BodyAndSoul"
+    ]
+  },
+  {
+    "campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
+    "giftId": "f0ac19d5-e27f-4118-a8d6-3aa5dbddb682",
+    "campName": "קמפ בליב איט",
+    "campNameEn": "Believe It Camp",
+    "description": "ויניאסה יוגה עם עמית אופק",
+    "descriptionEn": "Viniasa Yoga with Amit Ofek",
+    "title": "ויניאסה יוגה עם עמית אופק",
+    "titleEn": "Viniasa Yoga with Amit Ofek",
+    "time": 1526619600,
+    "allDay": false,
+    "locationName": "אמיגדלה 2:00",
+    "locationNameEn": "2:00 Amigdala",
+    "tags": [
+      "Workshop",
+      "BodyAndSoul"
+    ]
+  },
+  {
+    "campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
+    "giftId": "1bfefc05-7a9f-40cb-8c66-fa773211ca62",
+    "campName": "קמפ בליב איט",
+    "campNameEn": "Believe It Camp",
+    "description": "נשימה - לשחרור רגשות מודחקים עם קימי",
+    "descriptionEn": "Breathing to Free Repressed Emotions Kimi",
+    "title": "נשימה - לשחרור רגשות מודחקים עם קימי",
+    "titleEn": "Breathing to Free Repressed Emotions Kimi",
+    "time": 1526623200,
+    "allDay": false,
+    "locationName": "אמיגדלה 2:00",
+    "locationNameEn": "2:00 Amigdala",
+    "tags": [
+      "Workshop",
+      "BodyAndSoul"
+    ]
+  },
+  {
+    "campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
+    "giftId": "9b825460-c8a4-47fd-b64c-d2e192b451fe",
+    "campName": "קמפ בליב איט",
+    "campNameEn": "Believe It Camp",
+    "description": "פאסיה יוגה עם רוי לונדר ועדן גרשון",
+    "descriptionEn": "Fascial Yoga with Roi Londer & Eden Gershon",
+    "title": "פאסיה יוגה עם רוי לונדר ועדן גרשון",
+    "titleEn": "Fascial Yoga with Roi Londer & Eden Gershon",
+    "time": 1526652000,
+    "allDay": false,
+    "locationName": "אמיגדלה 2:00",
+    "locationNameEn": "2:00 Amigdala",
+    "tags": [
+      "Workshop",
+      "BodyAndSoul"
+    ]
+  },
+  {
+    "campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
+    "giftId": "7ae45f10-ea33-49e4-9535-eeb7850538fb",
+    "campName": "קמפ בליב איט",
+    "campNameEn": "Believe It Camp",
+    "description": "להרגע ולמצוא את האני שלך עם לורן טאוס",
+    "descriptionEn": "Relaxing Back into Oneness with Lauren Taus",
+    "title": "להרגע ולמצוא את האני שלך עם לורן טאוס",
+    "titleEn": "Relaxing Back into Oneness with Lauren Taus",
+    "time": 1526655600,
+    "allDay": false,
+    "locationName": "אמיגדלה 2:00",
+    "locationNameEn": "2:00 Amigdala",
+    "tags": [
+      "Workshop",
+      "BodyAndSoul"
+    ]
+  },
+  {
+    "campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
+    "giftId": "3b8c22b6-19e7-400a-bf1a-80847eace490",
+    "campName": "קמפ בליב איט",
+    "campNameEn": "Believe It Camp",
+    "description": "אומנות הקשר והחיבור עם לורן טאוס",
+    "descriptionEn": "The Art of Connection with Lauren Taus",
+    "title": "אומנות הקשר והחיבור עם לורן טאוס",
+    "titleEn": "The Art of Connection with Lauren Taus",
+    "time": 1526738400,
+    "allDay": false,
+    "locationName": "אמיגדלה 2:00",
+    "locationNameEn": "2:00 Amigdala",
+    "tags": [
+      "Workshop",
+      "BodyAndSoul"
+    ]
   }
 
 ]
