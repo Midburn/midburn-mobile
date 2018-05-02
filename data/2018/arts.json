@@ -1775,5 +1775,21 @@
 			"art6.jpg",
 			"art7.jpg"
 		]
+	},
+	{
+		"artId": 370,
+		"name": "Good Advice Bad Advice",
+		"nameEn": "Good Advice Bad Advice",
+		"title": "מתלבטים, אבודים, מבולבלים, מחפשים כיוון חדש בחיים או בפלאיה? בואו לשתף או לקבל עצה באחד משני דוכנים מנוגדים שיוצבו באזורים שונים בכניסה לפלאיה. עצה ברומו של עולם או עצת אחיתופל משעשעת :)",
+		"titleEn": "Undecided, lost, confused, looking for a new direction in life or on the Playa? Let's share or get advice at one of two opposing stalls that will be placed in different areas at the entrance to the Playa.",
+		"description": "הדוכנים ימוקומו בסמוך לטיילת בשעות 10 ו - 2. זמין תמיד.",
+		"artist": "Netanel Katzburg",
+		"philosophy": "",
+		"images": [
+			"art1.jpg",
+			"art2.jpg",
+			"art3.jpg",
+			"art4.jpg"
+		]
 	}
 ]

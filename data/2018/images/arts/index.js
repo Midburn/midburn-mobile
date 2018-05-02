@@ -103,6 +103,7 @@ const IMAGES = {
   366: [require('./366/art1.jpg'), require('./366/art2.jpg'), require('./366/art3.jpg'), require('./366/art4.jpg'), require('./366/art5.jpg'), require('./366/art6.jpg')],
   368: [require('./368/art1.jpg'), require('./368/art2.jpg')],
   369: [require('./369/art1.jpg'), require('./369/art2.jpg'), require('./369/art3.jpg'), require('./369/art4.jpg'), require('./369/art5.jpg'), require('./369/art6.jpg'), require('./369/art7.jpg')],
+  370: [require('./369/art1.jpg'), require('./369/art2.jpg'), require('./369/art3.jpg'), require('./369/art4.jpg')],
 };
 
 export function getImageForArtId(id) {
