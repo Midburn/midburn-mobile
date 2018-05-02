@@ -1,8 +1,5 @@
-import _ from 'lodash';
 import React, {PureComponent} from 'react';
-import {Image} from 'react-native';
 import {Text, View, Card} from 'react-native-ui-lib';
-import {tagToImg} from '../../../data/img';
 import {isRTL} from '../../utils/Strings';
 
 

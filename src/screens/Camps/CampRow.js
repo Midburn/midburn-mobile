@@ -1,7 +1,6 @@
 import _ from 'lodash';
 import React, {PureComponent} from 'react';
 import {Card, View, Colors} from 'react-native-ui-lib';
-import {getRandomImage} from '../../../data/img';
 import {isRTL} from '../../utils/Strings';
 import Tags from '../components/TagsComponent';
 import {Text} from '../components/Text';
@@ -17,7 +16,7 @@ export default class CampsTab extends PureComponent {
 
   constructor(props) {
     super(props);
-    this.tags = this.props.camp.tags || _.times(getRandomInt(1, 6), getRandomImage);
+    this.tags = this.props.camp.tags;
     this.title = isRTL() ? this.props.camp.campName : this.props.camp.campNameEn;
     this.description = isRTL() ? this.props.camp.description : this.props.camp.descriptionEn;
   }
