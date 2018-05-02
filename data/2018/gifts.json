@@ -6605,6 +6605,23 @@
   },
   {
     "campId": "b53aef66-0dc9-4609-bca4-3914523f974f",
+    "giftId": "65ec9218-0b71-4ca9-bf75-1f05575c5543",
+    "campName": "מיד-בר",
+    "campNameEn": "Mid-Bar",
+    "description": "גילוי הגוף בתנועה במרחב ובזמן",
+    "descriptionEn": "Rediscovery of your body through motion in space and time",
+    "title": "גילוי הגוף בתנועה במרחב ובזמן",
+    "titleEn": "Rediscovery of your body through motion in space and time",
+    "time": 1526475600,
+    "allDay": false,
+    "locationName": "אמיגדלה 6:00",
+    "locationNameEn": "6:00 Amigdala",
+    "tags": [
+      "Workshop"
+    ]
+  },
+  {
+    "campId": "b53aef66-0dc9-4609-bca4-3914523f974f",
     "giftId": "cebecc48-837d-46e9-9764-ad669426db63",
     "campName": "מיד-בר",
     "campNameEn": "Mid-Bar",
