@@ -1,16 +1,10 @@
-import _ from 'lodash';
 import React, {PureComponent} from 'react';
-import {Card, View, Colors} from 'react-native-ui-lib';
+import {Card, Colors, View} from 'react-native-ui-lib';
 import {isRTL} from '../../utils/Strings';
 import Tags from '../components/TagsComponent';
 import {Text} from '../components/Text';
 
 
-
-
-function getRandomInt(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
 
 export default class CampsTab extends PureComponent {
 
