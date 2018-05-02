@@ -2041,24 +2041,6 @@
 		"gifts": []
 	},
 	{
-		"campId": "86fc20f2-9b41-4bd3-868a-4c97ec936260",
-		"campName": "ג'וקבוקס",
-		"campNameEn": "Joke Box",
-		"description": "מוסיקה ולהיטים מכול הזמנים",
-		"descriptionEn": "Music and hits from all times",
-		"location": " ",
-		"locationEn": " ",
-		"tags": [
-			"PhysicallyDisabled",
-			"Alcohol",
-			"Party",
-			"Live"
-		],
-		"gifts": [
-			"59c90adb-df53-4b38-b716-ae9458cd9fba"
-		]
-	},
-	{
 		"campId": "9d62e3b2-1d82-4057-bb02-2f116eecb384",
 		"campName": "הבית של מיכל",
 		"campNameEn": "Michal's House",

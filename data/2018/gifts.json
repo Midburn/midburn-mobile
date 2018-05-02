@@ -11563,27 +11563,6 @@
     "locationEn": "6:30 Blutat HaYtztrubal"
   },
   {
-    "campId": "86fc20f2-9b41-4bd3-868a-4c97ec936260",
-    "giftId": "59c90adb-df53-4b38-b716-ae9458cd9fba",
-    "campName": "ג'וקבוקס",
-    "campNameEn": "Joke Box",
-    "description": "מסיבה והפי האוור",
-    "descriptionEn": "Party and happy hour ",
-    "title": "מסיבה והפי האוור",
-    "titleEn": "Party and happy hour ",
-    "time": 1526392800,
-    "allDay": false,
-    "locationName": "ג'וקבוקס",
-    "locationNameEn": "ג'וקבוקס",
-    "tags": [
-      "FoodAndDrinks",
-      "Party",
-      "Live"
-    ],
-    "location": " ",
-    "locationEn": " "
-  },
-  {
     "campId": "9d62e3b2-1d82-4057-bb02-2f116eecb384",
     "giftId": "d1f2cbf4-e4ff-4493-b796-6914b06b72bd",
     "campName": "הבית של מיכל",
