@@ -57,7 +57,7 @@ export function showArtScreen({art, navigator, images}) {
     navigatorStyle: {
       tabBarHidden: true
     },
-    title: isRTL() ? art.name : art.titleEn
+    title: isRTL() ? art.name : art.nameEn
   });
 }
 
