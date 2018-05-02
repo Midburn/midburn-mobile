@@ -12561,28 +12561,6 @@
     "locationEn": "6:30 Amigdala"
   },
   {
-    "campId": "4abd8e0f-dc42-44f2-b5d9-3752d342137f",
-    "giftId": "305e50f7-47f9-4dce-b593-3d7a522d7541",
-    "campName": "שפריצלה",
-    "campNameEn": "Spritzale",
-    "description": "מסיבת צבע",
-    "descriptionEn": "Paint Party",
-    "title": "מסיבת צבע",
-    "titleEn": "Paint Party",
-    "time": 1526374800,
-    "allDay": false,
-    "locationName": "שפריצלה",
-    "locationNameEn": "שפריצלה",
-    "tags": [
-      "Adults",
-      "Games",
-      "Party",
-      "Workshop"
-    ],
-    "location": "גזע המוח 6:15",
-    "locationEn": "6:15 Geza Hamoach"
-  },
-  {
     "campId": "3d22e65a-47a6-11e8-842f-0ed5f89f718b",
     "giftId": "cd56e04d-b82b-4c3b-9ca5-eb00077c9874",
     "campName": "קיס מיי אסי",
@@ -13596,6 +13574,79 @@
     "tags": [
       "Workshop",
       "BodyAndSoul"
+    ]
+  },
+
+  {
+    "campId": "4abd8e0f-dc42-44f2-b5d9-3752d342137f",
+    "giftId": "5cd57eb6-2a7f-453d-826d-4e7b2a25a7f9",
+    "campName": "שפריצלה",
+    "campNameEn": "Spritzale",
+    "description": "מסיבת צבע וטכנו על רחבת קנבס ענקית!",
+    "descriptionEn": "Techno paint party on a HUGE Canvas floor",
+    "title": "מסיבת צבע וטכנו על רחבת קנבס ענקית!",
+    "titleEn": "Techno paint party on a HUGE Canvas floor",
+    "time": 1526374800,
+    "allDay": false,
+    "locationName": "גזע המוח 6:15",
+    "locationNameEn": "6:15 Geza Hamoach",
+    "tags": [
+      "Adults",
+      "Party"
+    ]
+  },
+  {
+    "campId": "4abd8e0f-dc42-44f2-b5d9-3752d342137f",
+    "giftId": "ef5110f2-e7eb-4c62-b7b2-b98798d63074",
+    "campName": "שפריצלה",
+    "campNameEn": "Spritzale",
+    "description": "מסיבת צבע וטכנו על רחבת קנבס ענקית!",
+    "descriptionEn": "Techno paint party on a HUGE Canvas floor",
+    "title": "מסיבת צבע וטכנו על רחבת קנבס ענקית!",
+    "titleEn": "Techno paint party on a HUGE Canvas floor",
+    "time": 1526468400,
+    "allDay": false,
+    "locationName": "גזע המוח 6:15",
+    "locationNameEn": "6:15 Geza Hamoach",
+    "tags": [
+      "Adults",
+      "Party"
+    ]
+  },
+  {
+    "campId": "4abd8e0f-dc42-44f2-b5d9-3752d342137f",
+    "giftId": "b65d65b5-2429-4b47-937d-80a9dc0d9dbb",
+    "campName": "שפריצלה",
+    "campNameEn": "Spritzale",
+    "description": "מסיבת צבע וטכנו על רחבת קנבס ענקית!",
+    "descriptionEn": "Techno paint party on a HUGE Canvas floor",
+    "title": "מסיבת צבע וטכנו על רחבת קנבס ענקית!",
+    "titleEn": "Techno paint party on a HUGE Canvas floor",
+    "time": 1526547600,
+    "allDay": false,
+    "locationName": "גזע המוח 6:15",
+    "locationNameEn": "6:15 Geza Hamoach",
+    "tags": [
+      "Adults",
+      "Party"
+    ]
+  },
+  {
+    "campId": "4abd8e0f-dc42-44f2-b5d9-3752d342137f",
+    "giftId": "7273a747-9755-4317-a6f5-be98db4cec55",
+    "campName": "שפריצלה",
+    "campNameEn": "Spritzale",
+    "description": "מסיבת צבע וטכנו על רחבת קנבס ענקית!",
+    "descriptionEn": "Techno paint party on a HUGE Canvas floor",
+    "title": "מסיבת צבע וטכנו על רחבת קנבס ענקית!",
+    "titleEn": "Techno paint party on a HUGE Canvas floor",
+    "time": 1526670000,
+    "allDay": false,
+    "locationName": "גזע המוח 6:15",
+    "locationNameEn": "6:15 Geza Hamoach",
+    "tags": [
+      "Adults",
+      "Party"
     ]
   }
 ]
