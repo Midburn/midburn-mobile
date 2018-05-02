@@ -25,15 +25,15 @@ export default class TagsComponent extends Component {
         centerV
         key={index}
         style={{
-          backgroundColor: getTagColor(tag),
+          backgroundColor: getTagColor(tag).color,
           borderRadius: 10,
           borderWidth: 1,
-          borderColor: getTagColor(tag),
+          borderColor: getTagColor(tag).color,
           padding: 4,
           marginRight: 8,
           marginTop: 8
         }}>
-        <Text text90>{this._getTitle(tag)}</Text>
+        <Text text100 color={getTagColor(tag).textColor}>{this._getTitle(tag)}</Text>
       </View>
     );
   }

@@ -24,7 +24,7 @@ export class EventComponent extends Component {
     return (
       <Card.Section>
         <View flex right={isRTL()}>
-          <Text style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}} text50 color={Colors.dark10}>
+          <Text style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}} text60 color={Colors.dark10}>
             {this.title}
           </Text>
         </View>
