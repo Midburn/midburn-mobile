@@ -27,6 +27,7 @@ export class EventsComponent extends Component {
         campHeb={gift.item.campName}
         campEn={gift.item.campNameEn}
         time={getHourForTime(gift.item.time)}
+        unixTime={gift.item.time}
         addressEn={gift.item.locationEn}
         addressHeb={gift.item.location}
         descriptionEn={gift.item.descriptionEn}
