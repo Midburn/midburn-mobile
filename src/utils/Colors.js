@@ -7,29 +7,42 @@ export function getTagColor(tag) {
   switch(lowerCaseTag) {
     case 'adult':
     case 'adults':
-      return tagFactory('#ff4d4d30', Colors.black);
-    case 'english':
-      return tagFactory('#18dcff30', Colors.black);
-    case 'alcohol':
-      return tagFactory('#fffa6530', Colors.black);
-    case 'servesfoodordrinks':
-    case 'foodanddrinks':
-    case 'physicallydisabled':
-      return tagFactory('#32ff7e30', Colors.black);
+      return tagFactory('#EF5350');
+    case 'hearingmpaired':
+      return tagFactory('#8D6E63');
     case 'kids':
-    case 'bodyandsoul':
+      return tagFactory('#EC407A');
+    case 'alcohol':
+      return tagFactory('#AB47BC');
+    case 'english':
+      return tagFactory('#7E57C2');
     case 'games':
-      return tagFactory('#ffcccc30', Colors.black);
+      return tagFactory('#5C6BC0');
+    case 'foodanddrinks':
+      return tagFactory('#26A69A');
     case 'party':
+      return tagFactory('#42A5F5');
+    case 'creative':
+      return tagFactory('#26C6DA');
     case 'live':
-      return tagFactory('#cd84f130', Colors.black);
+      return tagFactory('#66BB6A');
+    case 'workshop':
+      return tagFactory('#FFB300');
+    case 'bodyandsoul':
+      return tagFactory('#FF7043');
+    case 'sleep':
+      return tagFactory('#78909C');
+    case 'Mingling':
+      return tagFactory('#C0CA33');
     default:
-      return tagFactory('#E0E3E530', Colors.black);
+      return tagFactory('#000000');
   }
 }
 
-function tagFactory(color, textColor) {
-  return {color, textColor};
+
+
+function tagFactory(color) {
+  return {color, textColor: color};
 }
 
 
