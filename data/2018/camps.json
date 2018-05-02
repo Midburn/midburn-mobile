@@ -1991,13 +1991,14 @@
 		"campId": "6bd7c4ba-cc38-4187-96db-c3831f5d017f",
 		"campName": "סקיי קרייפר",
 		"campNameEn": "Skiescreepers",
-		"description": "עופו גבוה, ,צרו אמנות, השאירו חותם רגעי",
+		"description": "עופו גבוה, צרו אמנות, השאירו חותם רגעי",
 		"descriptionEn": "Fly high, imprint extrasensory momentary art",
 		"location": "בלוטת האיצטרובל 6:30",
 		"locationEn": "6:30 Blutat HaYtztrubal",
 		"tags": [
-			"Play",
-			"BodyAndSoul"
+			"Kids",
+			"Games",
+			"Creative"
 		],
 		"gifts": [
 			"099f1eaf-86bf-408f-8eb5-b99d22ff8113",
