@@ -13,6 +13,8 @@ export default class ArtDetailsScreen extends PureComponent {
     super(props);
     this.description = isRTL() ? this.props.art.description : this.props.art.descriptionEn;
     this.title = isRTL() ? this.props.art.title : this.props.art.titleEn;
+    this.name = isRTL() ? this.props.art.name : this.props.art.nameEn;
+
 
   }
 
@@ -47,7 +49,7 @@ export default class ArtDetailsScreen extends PureComponent {
   renderDescription() {
     return (
       <View marginT-20>
-        <Text text70>{this.description}</Text>
+        <Text text80 style={{fontWeight: '500', writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.description}</Text>
       </View>
     );
   }
@@ -55,7 +57,15 @@ export default class ArtDetailsScreen extends PureComponent {
   renderTitle() {
     return (
       <View center marginT-30>
-        <Text text50 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.title}</Text>
+        <Text text70 style={{fontWeight: '600', writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.title}</Text>
+      </View>
+    );
+  }
+
+  renderName() {
+    return (
+      <View center marginT-30>
+        <Text text50 style={{fontWeight: '700', writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.name}</Text>
       </View>
     );
   }
@@ -63,7 +73,7 @@ export default class ArtDetailsScreen extends PureComponent {
   renderArtist() {
     return (
       <View center marginT-30>
-        <Text text70 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.props.art.artist}</Text>
+        <Text text70 style={{fontWeight: '600', writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.props.art.artist}</Text>
       </View>
     );
   }
@@ -82,7 +92,7 @@ export default class ArtDetailsScreen extends PureComponent {
         <Button
           link
           label={String('ART_FEEDBACK')}
-          labelProps={{numberOfLines: 2, center: true}}
+          labelProps={{numberOfLines: 2, center: true, blue30: true, text70: true, style: {fontWeight: '500'}}}
           onPress={this._onSharePress}
         />
       </View>
@@ -94,6 +104,7 @@ export default class ArtDetailsScreen extends PureComponent {
       <ScrollView style={{backgroundColor: '#F2F4F5'}}>
         {this.renderImages()}
         <View flex margin-30 marginT-0>
+          {this.renderName()}
           {this.renderTitle()}
           {this.renderDescription()}
           {this.renderArtist()}
