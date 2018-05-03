@@ -20,25 +20,25 @@ async function start(shouldLoad = true) {
         label: Strings('NOW'),
         screen: SCREENS.NOW,
         title: Strings('NOW'),
-        icon: require('../data/img/open-book.png')
+        icon: require('../data/img/time.png')
       },
       {
         label: Strings('CAMPS'),
         screen: SCREENS.CAMPS,
         title: Strings('CAMPS'),
-        icon: require('../data/img/campfire.png')
+        icon: require('../data/img/camp.png')
       },
       {
         label: Strings('ART'),
         screen: SCREENS.ART,
         title: Strings('ART'),
-        icon: require('../data/img/masks.png')
+        icon: require('../data/img/art.png')
       },
       {
         label: Strings('PROGRAM'),
         screen: SCREENS.PROGRAM,
         title: Strings('PROGRAM'),
-        icon: require('../data/img/open-book.png')
+        icon: require('../data/img/program.png')
       },
       {
         label: Strings('EXTRA'),
