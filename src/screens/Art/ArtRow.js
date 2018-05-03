@@ -1,6 +1,7 @@
 import React, {PureComponent} from 'react';
 import {Text, View, Card} from 'react-native-ui-lib';
 import {isRTL} from '../../utils/Strings';
+import {DetailsComponent} from '../components/DetailsComponent';
 
 
 const AVARTAR_SIZE = 30;
@@ -18,9 +19,12 @@ export default class ArtRow extends PureComponent {
     return (
       <Card onPress={this.props.onPress} key={this.props.index} containerStyle={{marginBottom: 15}}>
         <Card.Image height={120} imageSource={this.props.imageSource} />
-        <Card.Section style={{flexDirection: 'row', alignItems: 'center'}} body>
-          <View flex right={isRTL()}>
-            <Text text50>{this.title}</Text>
+        <Card.Section body>
+          <View flex center paddingB-8 paddingT-4>
+            <Text text50 style={{fontWeight: '600'}}>{this.title}</Text>
+          </View><
+          View flex center>
+            <Text text80 dark50 style={{fontWeight: '400'}}>{this.props.data.artist}</Text>
           </View>
         </Card.Section>
 
