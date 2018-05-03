@@ -82,5 +82,9 @@
   "SERACH_ART_PLACEHOLDER": {
     "he": "הקלד לחיפוש מייצב",
     "en": "Type art to search"
+  },
+  "EVENT_EMPTY_STATE": {
+    "he": "לא מתחיבותים לכלום, אז מוזמנים לקפוץ לקמפ ולומר שלום בכל זמן 🤗",
+    "en": "Free flowing, so drop by anytime\n and say hi 🤗"
   }
 }
