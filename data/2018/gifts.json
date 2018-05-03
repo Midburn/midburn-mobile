@@ -417,111 +417,7 @@
     "location": " ",
     "locationEn": " "
   },
-  {
-    "campId": "68563302-e4c3-412e-b460-1a6706e1adb6",
-    "giftId": "53b45937-732c-44c3-b887-d82094e05b9a",
-    "campName": "צ'אפטי",
-    "campNameEn": "Chapati",
-    "description": "על הספינה מופיעים DJ מכל העולם ברמה בינלאומית ",
-    "descriptionEn": "On the ship  DJ from all over the world ",
-    "title": "על הספינה מופיעים DJ מכל העולם ברמה בינלאומית ",
-    "titleEn": "On the ship  DJ from all over the world ",
-    "time": 1526396400,
-    "allDay": false,
-    "locationName": "צ'אפטי",
-    "locationNameEn": "צ'אפטי",
-    "tags": [
-      "Alcohol",
-      "Party",
-      "Live"
-    ],
-    "location": " ",
-    "locationEn": " "
-  },
-  {
-    "campId": "68563302-e4c3-412e-b460-1a6706e1adb6",
-    "giftId": "5049b244-c151-4dd4-a607-6d135bf22cf1",
-    "campName": "צ'אפטי",
-    "campNameEn": "Chapati",
-    "description": "על הספינה מופיעים DJ מכל העולם ברמה בינלאומית ",
-    "descriptionEn": "On the ship  DJ from all over the world ",
-    "title": "על הספינה מופיעים DJ מכל העולם ברמה בינלאומית ",
-    "titleEn": "On the ship  DJ from all over the world ",
-    "time": 1526482800,
-    "allDay": false,
-    "locationName": "צ'אפטי",
-    "locationNameEn": "צ'אפטי",
-    "tags": [
-      "Alcohol",
-      "Party",
-      "Live"
-    ],
-    "location": " ",
-    "locationEn": " "
-  },
-  {
-    "campId": "68563302-e4c3-412e-b460-1a6706e1adb6",
-    "giftId": "69f97180-9543-49f5-bc2f-b36d16ae6cfa",
-    "campName": "צ'אפטי",
-    "campNameEn": "Chapati",
-    "description": "על הספינה מופיעים DJ מכל העולם ברמה בינלאומית ",
-    "descriptionEn": "On the ship  DJ from all over the world ",
-    "title": "על הספינה מופיעים DJ מכל העולם ברמה בינלאומית ",
-    "titleEn": "On the ship  DJ from all over the world ",
-    "time": 1526569200,
-    "allDay": false,
-    "locationName": "צ'אפטי",
-    "locationNameEn": "צ'אפטי",
-    "tags": [
-      "Alcohol",
-      "Party",
-      "Live"
-    ],
-    "location": " ",
-    "locationEn": " "
-  },
-  {
-    "campId": "68563302-e4c3-412e-b460-1a6706e1adb6",
-    "giftId": "919b3ea7-32ea-46f8-80a0-e7e481dbcdf4",
-    "campName": "צ'אפטי",
-    "campNameEn": "Chapati",
-    "description": "על הספינה מופיעים DJ מכל העולם ברמה בינלאומית ",
-    "descriptionEn": "On the ship  DJ from all over the world ",
-    "title": "על הספינה מופיעים DJ מכל העולם ברמה בינלאומית ",
-    "titleEn": "On the ship  DJ from all over the world ",
-    "time": 1526655600,
-    "allDay": false,
-    "locationName": "צ'אפטי",
-    "locationNameEn": "צ'אפטי",
-    "tags": [
-      "Alcohol",
-      "Party",
-      "Live"
-    ],
-    "location": " ",
-    "locationEn": " "
-  },
-  {
-    "campId": "68563302-e4c3-412e-b460-1a6706e1adb6",
-    "giftId": "78c48026-90d7-4cb9-9f52-3a9a99e0cac6",
-    "campName": "צ'אפטי",
-    "campNameEn": "Chapati",
-    "description": "על הספינה מופיעים DJ מכל העולם ברמה בינלאומית ",
-    "descriptionEn": "On the ship  DJ from all over the world ",
-    "title": "על הספינה מופיעים DJ מכל העולם ברמה בינלאומית ",
-    "titleEn": "On the ship  DJ from all over the world ",
-    "time": 1526742000,
-    "allDay": false,
-    "locationName": "צ'אפטי",
-    "locationNameEn": "צ'אפטי",
-    "tags": [
-      "Alcohol",
-      "Party",
-      "Live"
-    ],
-    "location": " ",
-    "locationEn": " "
-  },
+
   {
     "campId": "e87eb75a-2456-4732-aaa6-acc2c48d77c4",
     "giftId": "d549a219-0914-4c01-8185-86d1ec889c9a",
@@ -13825,6 +13721,102 @@
       "Mingling",
       "English",
       "FoodAndDrinks"
+    ]
+  },
+
+  {
+    "campId": "68563302-e4c3-412e-b460-1a6706e1adb6",
+    "giftId": "8c7f7316-6048-470e-a357-7d1717d9c5dd",
+    "campName": "הפיראטים (צ'פאטי)",
+    "campNameEn": "Midburn Pirates",
+    "description": "מסיבות והופעות חיות על ספינת הפיראטים, משקיעה ועד חצות (טכנו, דיפ האוס וגם טראנס)",
+    "descriptionEn": "Parties and live performances on the pirate ship, from sunset until midnight (Techno, Deep House and Trance)",
+    "title": "מסיבות והופעות חיות על ספינת הפיראטים, משקיעה ועד חצות (טכנו, דיפ האוס וגם טראנס)",
+    "titleEn": "Parties and live performances on the pirate ship, from sunset until midnight (Techno, Deep House and Trance)",
+    "time": 1526304600,
+    "allDay": false,
+    "locationName": "10:00 פלאיה",
+    "locationNameEn": "10:00 Playa",
+    "tags": [
+      "Party",
+      "Mingling",
+      "English"
+    ]
+  },
+  {
+    "campId": "68563302-e4c3-412e-b460-1a6706e1adb6",
+    "giftId": "a2c60871-66a4-4c8a-a4fe-ac0f99f6fa0b",
+    "campName": "הפיראטים (צ'פאטי)",
+    "campNameEn": "Midburn Pirates",
+    "description": "מסיבות והופעות חיות על ספינת הפיראטים, משקיעה ועד חצות (טכנו, דיפ האוס וגם טראנס)",
+    "descriptionEn": "Parties and live performances on the pirate ship, from sunset until midnight (Techno, Deep House and Trance)",
+    "title": "מסיבות והופעות חיות על ספינת הפיראטים, משקיעה ועד חצות (טכנו, דיפ האוס וגם טראנס)",
+    "titleEn": "Parties and live performances on the pirate ship, from sunset until midnight (Techno, Deep House and Trance)",
+    "time": 1526391000,
+    "allDay": false,
+    "locationName": "10:00 פלאיה",
+    "locationNameEn": "10:00 Playa",
+    "tags": [
+      "Party",
+      "Mingling",
+      "English"
+    ]
+  },
+  {
+    "campId": "68563302-e4c3-412e-b460-1a6706e1adb6",
+    "giftId": "0d2d4cb2-a9fd-443e-bbe6-f4b6cdb92663",
+    "campName": "הפיראטים (צ'פאטי)",
+    "campNameEn": "Midburn Pirates",
+    "description": "מסיבות והופעות חיות על ספינת הפיראטים, משקיעה ועד חצות (טכנו, דיפ האוס וגם טראנס)",
+    "descriptionEn": "Parties and live performances on the pirate ship, from sunset until midnight (Techno, Deep House and Trance)",
+    "title": "מסיבות והופעות חיות על ספינת הפיראטים, משקיעה ועד חצות (טכנו, דיפ האוס וגם טראנס)",
+    "titleEn": "Parties and live performances on the pirate ship, from sunset until midnight (Techno, Deep House and Trance)",
+    "time": 1526477400,
+    "allDay": false,
+    "locationName": "10:00 פלאיה",
+    "locationNameEn": "10:00 Playa",
+    "tags": [
+      "Party",
+      "Mingling",
+      "English"
+    ]
+  },
+  {
+    "campId": "68563302-e4c3-412e-b460-1a6706e1adb6",
+    "giftId": "1d567b10-3d37-4983-8dd6-f880dec523f5",
+    "campName": "הפיראטים (צ'פאטי)",
+    "campNameEn": "Midburn Pirates",
+    "description": "מסיבות והופעות חיות על ספינת הפיראטים, משקיעה ועד חצות (טכנו, דיפ האוס וגם טראנס)",
+    "descriptionEn": "Parties and live performances on the pirate ship, from sunset until midnight (Techno, Deep House and Trance)",
+    "title": "מסיבות והופעות חיות על ספינת הפיראטים, משקיעה ועד חצות (טכנו, דיפ האוס וגם טראנס)",
+    "titleEn": "Parties and live performances on the pirate ship, from sunset until midnight (Techno, Deep House and Trance)",
+    "time": 1526563800,
+    "allDay": false,
+    "locationName": "10:00 פלאיה",
+    "locationNameEn": "10:00 Playa",
+    "tags": [
+      "Party",
+      "Mingling",
+      "English"
+    ]
+  },
+  {
+    "campId": "68563302-e4c3-412e-b460-1a6706e1adb6",
+    "giftId": "f5a2d38d-0c63-4e86-9e3d-602757e6fdaf",
+    "campName": "הפיראטים (צ'פאטי)",
+    "campNameEn": "Midburn Pirates",
+    "description": "מסיבות והופעות חיות על ספינת הפיראטים, משקיעה ועד חצות (טכנו, דיפ האוס וגם טראנס)",
+    "descriptionEn": "Parties and live performances on the pirate ship, from sunset until midnight (Techno, Deep House and Trance)",
+    "title": "מסיבות והופעות חיות על ספינת הפיראטים, משקיעה ועד חצות (טכנו, דיפ האוס וגם טראנס)",
+    "titleEn": "Parties and live performances on the pirate ship, from sunset until midnight (Techno, Deep House and Trance)",
+    "time": 1526650200,
+    "allDay": false,
+    "locationName": "10:00 פלאיה",
+    "locationNameEn": "10:00 Playa",
+    "tags": [
+      "Party",
+      "Mingling",
+      "English"
     ]
   }
 
