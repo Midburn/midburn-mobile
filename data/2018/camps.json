@@ -99,7 +99,7 @@
 		"campName": "מג'יק מרקרס",
 		"campNameEn": "Magic Markers",
 		"description": "מכונות ארקייד בלילה!בלאדימרי בבוקר!בואו לעוף איתנו",
-		"descriptionEn": "Magic markers: Bar-Cade!",
+		"descriptionEn": "Arcade Machine at night. Bloody Marys in the morning. Come fly with us.",
 		"location": "טיילת 5:30",
 		"locationEn": "5:30 Tayelet",
 		"tags": [
@@ -139,7 +139,7 @@
 		"campName": "קומורבי העין המדברים",
 		"campNameEn": "Komorabi the eye of the desert",
 		"description": "מגישים מרגריטות ובירה",
-		"descriptionEn": "We surve beer and margarita",
+		"descriptionEn": "We serve beer and margarita",
 		"location": "גזע המוח 9:15",
 		"locationEn": "9:15 Geza Hamoach",
 		"tags": [
@@ -161,7 +161,7 @@
 		"campName": "הילד הפנימי",
 		"campNameEn": "The inner child",
 		"description": "מדברים תודעה, מבינים את המהות הרוחנית שאנחנו",
-		"descriptionEn": "consciousness understanding spiritual existence",
+		"descriptionEn": "Speaking about consciousness, understanding spiritual existence",
 		"location": " ",
 		"locationEn": " ",
 		"tags": [
@@ -222,7 +222,7 @@
 		"campName": "ארץ יצורי הפרא",
 		"campNameEn": "Where the Wild Things Are",
 		"description": "מספרי סיפורים לילדים בכל הגילאים 3>",
-		"descriptionEn": "Storytellers for kid of all ages <3",
+		"descriptionEn": "Storytelling for kids of all ages <3",
 		"location": "אמיגדלה 3:30",
 		"locationEn": "3:30 Amigdala",
 		"tags": [
@@ -376,7 +376,7 @@
 	{
 		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
 		"campName": "זקני השבט",
-		"campNameEn": "The Elders",
+		"campNameEn": "Tribe Elders",
 		"description": "הרצאות, מדיטציות, כיבוד-קל והטענת ניידים",
 		"descriptionEn": "Lectures meditations, snacks & smartphone charger",
 		"location": "אמיגדלה 2:30",
@@ -474,7 +474,7 @@
 		"campName": "איזוניישן",
 		"campNameEn": "Ezonation",
 		"description": "קונטרה מוזיקלית לשלל הפלאות של הפלאיה",
-		"descriptionEn": "Musical contradict to all Playa wonders",
+		"descriptionEn": "A musical that contradicts all Playa wonders.",
 		"location": "בלוטת האיצטרובל 3:30",
 		"locationEn": "3:30 Blutat HaYtztrubal",
 		"tags": [
@@ -978,7 +978,7 @@
 		"campName": "פיזדייץ",
 		"campNameEn": "Pizditz",
 		"description": "המון לבבות שמתחברים לסאונד ועושים מוזיקה",
-		"descriptionEn": "heart that contacts to sound and make a music",
+		"descriptionEn": "Many hearts join with sound to make music",
 		"location": "בלוטת האיצטרובל 9:00",
 		"locationEn": "9:00 Blutat HaYtztrubal",
 		"tags": [
@@ -1044,7 +1044,7 @@
 		"campName": "מקסיקמפ",
 		"campNameEn": "Mexicamp",
 		"description": "מידברן חריף יותר עם מוחיטו, ריקודים וסיאסטה",
-		"descriptionEn": "A spicer Midburn with Mojito, Fiesta & Siesta.",
+		"descriptionEn": "A spicier Midburn with Mojito, Fiesta & Siesta.",
 		"location": "טיילת 4:00",
 		"locationEn": "4:00 Tayelet",
 		"tags": [
@@ -1608,7 +1608,7 @@
 		"campName": "הקוטב הצפוני",
 		"campNameEn": "The North Pole",
 		"description": "לוהט בחוץ? בואו להתקרר באיגלו הממוזג שלנו!",
-		"descriptionEn": "We invites you to chill in our cozy Igloo!",
+		"descriptionEn": "We invite you to chill in our cozy igloo!",
 		"location": "גזע המוח 1:30",
 		"locationEn": "1:30 Geza Hamoach",
 		"tags": [
@@ -1806,7 +1806,7 @@
 		"campName": "סמאלי קמפ",
 		"campNameEn": "Smiley Camp",
 		"description": "בואו להריח חמודים",
-		"descriptionEn": "Coe to smell cuteness",
+		"descriptionEn": "Come to smell cuteness",
 		"location": "אמיגדלה 5:00",
 		"locationEn": "5:00 Amigdala",
 		"tags": [
