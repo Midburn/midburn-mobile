@@ -29,7 +29,7 @@ export default class CampDetailsScreen extends Component {
     this.description = isRTL() ? this.props.camp.description : this.props.camp.descriptionEn;
     this.description = this.description.length > 0 ? this.description : undefined;
 
-    this.title = isRTL() ? this.props.camp.campeName : this.props.camp.campNameEn;
+    this.title = isRTL() ? this.props.camp.campName : this.props.camp.campNameEn;
   }
 
   componentWillMount() {
@@ -55,15 +55,15 @@ export default class CampDetailsScreen extends Component {
 
   renderDescription() {
     return (
-      <View marginV-10 >
-        <Text text80 style={{fontWeight: '500'}}>{this.description}</Text>
+      <View marginV-10 right={isRTL()}>
+        <Text text80 style={{fontWeight: '500', writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.description}</Text>
       </View>
     );
   }
   _renderTitle() {
     return (
-      <View marginT-18>
-        <Text text50 style={{fontWeight: '600'}}>{this.title}</Text>
+      <View marginT-18 center>
+        <Text text50 style={{fontWeight: '600', writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.title}</Text>
       </View>
     );
   }
@@ -71,7 +71,12 @@ export default class CampDetailsScreen extends Component {
   renderSharingBlock() {
     return (
       <View bg-dark70 padding-10 marginT-22 br30>
-        <Button link label={String('CAMP_FEEDBACK')} labelProps={{numberOfLines: 2, center: true}} onPress={this._onSharePress} />
+        <Button
+          link
+          label={String('CAMP_FEEDBACK')}
+          labelProps={{numberOfLines: 2, center: true, blue30: true, text70: true, style: {fontWeight: '500'}}}
+          onPress={this._onSharePress}
+        />
       </View>
     );
   }
