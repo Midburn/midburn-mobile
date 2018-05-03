@@ -1309,48 +1309,6 @@
     "locationEn": "3:00 Amigdala"
   },
   {
-    "campId": "9a158765-98cd-4013-a8a4-8aa81ce277c7",
-    "giftId": "fcb954b5-027a-405b-9c09-2e9ab329eef2",
-    "campName": "איזוניישן",
-    "campNameEn": "Ezonation",
-    "description": "השמעת אלבומי מופת של אמנים משלל הקשת המוזיקלית",
-    "descriptionEn": "Epic albums from artists acros the musical rainbow",
-    "title": "השמעת אלבומי מופת של אמנים משלל הקשת המוזיקלית",
-    "titleEn": "Epic albums from artists acros the musical rainbow",
-    "time": 1526310000,
-    "allDay": false,
-    "locationName": "איזוניישן",
-    "locationNameEn": "איזוניישן",
-    "tags": [
-      "Party",
-      "Live"
-    ],
-    "location": "בלוטת האיצטרובל 3:30",
-    "locationEn": "3:30 Blutat HaYtztrubal"
-  },
-  {
-    "campId": "9a158765-98cd-4013-a8a4-8aa81ce277c7",
-    "giftId": "13c52762-64d3-4443-ae8e-ba67dd218f13",
-    "campName": "איזוניישן",
-    "campNameEn": "Ezonation",
-    "description": "בחירת אלבום להשמעה פעילה - שיחה, שיתוף והקשבה יחד",
-    "descriptionEn": "Select your album - share, love and express",
-    "title": "בחירת אלבום להשמעה פעילה - שיחה, שיתוף והקשבה יחד",
-    "titleEn": "Select your album - share, love and express",
-    "time": 1526461200,
-    "allDay": false,
-    "locationName": "איזוניישן",
-    "locationNameEn": "איזוניישן",
-    "tags": [
-      "Mingling",
-      "Games",
-      "Live",
-      "BodyAndSoul"
-    ],
-    "location": "בלוטת האיצטרובל 3:30",
-    "locationEn": "3:30 Blutat HaYtztrubal"
-  },
-  {
     "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
     "giftId": "167bce8a-00b7-4408-96f1-dc3e3888a3ec",
     "campName": "קאמפי קאמפ",
@@ -13886,6 +13844,197 @@
     "locationNameEn": "9:30 Amigdala",
     "tags": [
       "Party",
+      "Mingling",
+      "English"
+    ]
+  },
+
+  {
+    "campId": "9a158765-98cd-4013-a8a4-8aa81ce277c7",
+    "giftId": "298d7fc1-8ae7-455f-a13d-9b42a5402ba6",
+    "campName": "איזוניישן",
+    "campNameEn": "Ezonation",
+    "description": "בחירת אלבום להשמעה פעילה - שיחה, שיתוף והקשבה",
+    "descriptionEn": "Select and play your choice of an album!!",
+    "title": "בחירת אלבום להשמעה פעילה - שיחה, שיתוף והקשבה",
+    "titleEn": "Select and play your choice of an album!!",
+    "time": 1526288400,
+    "allDay": false,
+    "locationName": "בלוטת האיצטרובל 3:30",
+    "locationNameEn": "3:30 Blutat HaYtztrubal",
+    "tags": [
+      "Live",
+      "Mingling",
+      "English"
+    ]
+  },
+  {
+    "campId": "9a158765-98cd-4013-a8a4-8aa81ce277c7",
+    "giftId": "e6086653-9fe8-4811-897b-c975f80462b3",
+    "campName": "איזוניישן",
+    "campNameEn": "Ezonation",
+    "description": "פייד-אין: רדיוהד וטיים אימפלה בכניסה חללית לברן השמעת אלבומי מופת בשלמותם ^^",
+    "descriptionEn": "Fading in: Radiohead and Tame Impala with a stellar entrance. Full albums -  full experience ^^",
+    "title": "פייד-אין: רדיוהד וטיים אימפלה בכניסה חללית לברן השמעת אלבומי מופת בשלמותם ^^",
+    "titleEn": "Fading in: Radiohead and Tame Impala with a stellar entrance. Full albums -  full experience ^^",
+    "time": 1526311800,
+    "allDay": false,
+    "locationName": "בלוטת האיצטרובל 3:30",
+    "locationNameEn": "3:30 Blutat HaYtztrubal",
+    "tags": [
+      "Live",
+      "Mingling",
+      "English"
+    ]
+  },
+  {
+    "campId": "9a158765-98cd-4013-a8a4-8aa81ce277c7",
+    "giftId": "8eb7b88c-de4f-4f9b-82d1-8922d873b155",
+    "campName": "איזוניישן",
+    "campNameEn": "Ezonation",
+    "description": "בחירת אלבום להשמעה פעילה - שיחה, שיתוף והקשבה",
+    "descriptionEn": "Select and play your choice of an album!!",
+    "title": "בחירת אלבום להשמעה פעילה - שיחה, שיתוף והקשבה",
+    "titleEn": "Select and play your choice of an album!!",
+    "time": 1526374800,
+    "allDay": false,
+    "locationName": "בלוטת האיצטרובל 3:30",
+    "locationNameEn": "3:30 Blutat HaYtztrubal",
+    "tags": [
+      "Live",
+      "Mingling",
+      "English"
+    ]
+  },
+  {
+    "campId": "9a158765-98cd-4013-a8a4-8aa81ce277c7",
+    "giftId": "93c005da-695b-456e-8406-e72671fb88fc",
+    "campName": "איזוניישן",
+    "campNameEn": "Ezonation",
+    "description": "ערב פאנק-פסיכדליה: הרבי הנקוק / כאמל השמעת אלבומי מופת בשלמותם ^^",
+    "descriptionEn": "Psychedelic funk night: Herbie Hancock / Camel Full albums -  full experience ^^",
+    "title": "ערב פאנק-פסיכדליה: הרבי הנקוק / כאמל השמעת אלבומי מופת בשלמותם ^^",
+    "titleEn": "Psychedelic funk night: Herbie Hancock / Camel Full albums -  full experience ^^",
+    "time": 1526398200,
+    "allDay": false,
+    "locationName": "בלוטת האיצטרובל 3:30",
+    "locationNameEn": "3:30 Blutat HaYtztrubal",
+    "tags": [
+      "Live",
+      "Mingling",
+      "English"
+    ]
+  },
+  {
+    "campId": "9a158765-98cd-4013-a8a4-8aa81ce277c7",
+    "giftId": "dea38166-f978-4e00-9adf-f6b6bdef1cfa",
+    "campName": "איזוניישן",
+    "campNameEn": "Ezonation",
+    "description": "בחירת אלבום להשמעה פעילה - שיחה, שיתוף והקשבה",
+    "descriptionEn": "Select and play your choice of an album!!",
+    "title": "בחירת אלבום להשמעה פעילה - שיחה, שיתוף והקשבה",
+    "titleEn": "Select and play your choice of an album!!",
+    "time": 1526461200,
+    "allDay": false,
+    "locationName": "בלוטת האיצטרובל 3:30",
+    "locationNameEn": "3:30 Blutat HaYtztrubal",
+    "tags": [
+      "Live",
+      "Mingling",
+      "English"
+    ]
+  },
+  {
+    "campId": "9a158765-98cd-4013-a8a4-8aa81ce277c7",
+    "giftId": "bfe44e08-5289-45d9-833e-50daeacb73e5",
+    "campName": "איזוניישן",
+    "campNameEn": "Ezonation",
+    "description": "דיסקו בחללית: דאפט פאנק / טוד טרג'",
+    "descriptionEn": "Spaceship Disco: Daft Punk / Todd Terje",
+    "title": "דיסקו בחללית: דאפט פאנק / טוד טרג'",
+    "titleEn": "Spaceship Disco: Daft Punk / Todd Terje",
+    "time": 1526484600,
+    "allDay": false,
+    "locationName": "בלוטת האיצטרובל 3:30",
+    "locationNameEn": "3:30 Blutat HaYtztrubal",
+    "tags": [
+      "Live",
+      "Mingling",
+      "English"
+    ]
+  },
+  {
+    "campId": "9a158765-98cd-4013-a8a4-8aa81ce277c7",
+    "giftId": "5319722d-5788-4553-a8f1-631d789da94f",
+    "campName": "איזוניישן",
+    "campNameEn": "Ezonation",
+    "description": "בחירת אלבום להשמעה פעילה - שיחה, שיתוף והקשבה",
+    "descriptionEn": "Select and play your choice of an album!!",
+    "title": "בחירת אלבום להשמעה פעילה - שיחה, שיתוף והקשבה",
+    "titleEn": "Select and play your choice of an album!!",
+    "time": 1526547600,
+    "allDay": false,
+    "locationName": "בלוטת האיצטרובל 3:30",
+    "locationNameEn": "3:30 Blutat HaYtztrubal",
+    "tags": [
+      "Live",
+      "Mingling",
+      "English"
+    ]
+  },
+  {
+    "campId": "9a158765-98cd-4013-a8a4-8aa81ce277c7",
+    "giftId": "bc9c8086-b232-40b6-b886-4ce0a1f45b96",
+    "campName": "איזוניישן",
+    "campNameEn": "Ezonation",
+    "description": "דיג'יי רוק אנד פאקינג רול",
+    "descriptionEn": "DeeJay Rock and fucking ROLL",
+    "title": "דיג'יי רוק אנד פאקינג רול",
+    "titleEn": "DeeJay Rock and fucking ROLL",
+    "time": 1526571000,
+    "allDay": false,
+    "locationName": "בלוטת האיצטרובל 3:30",
+    "locationNameEn": "3:30 Blutat HaYtztrubal",
+    "tags": [
+      "Live",
+      "Mingling",
+      "English"
+    ]
+  },
+  {
+    "campId": "9a158765-98cd-4013-a8a4-8aa81ce277c7",
+    "giftId": "c88d9253-67af-41ca-9eb7-65f788695218",
+    "campName": "איזוניישן",
+    "campNameEn": "Ezonation",
+    "description": "בחירת אלבום להשמעה פעילה - שיחה, שיתוף והקשבה",
+    "descriptionEn": "Select and play your choice of an album!!",
+    "title": "בחירת אלבום להשמעה פעילה - שיחה, שיתוף והקשבה",
+    "titleEn": "Select and play your choice of an album!!",
+    "time": 1526634000,
+    "allDay": false,
+    "locationName": "בלוטת האיצטרובל 3:30",
+    "locationNameEn": "3:30 Blutat HaYtztrubal",
+    "tags": [
+      "Live",
+      "Mingling",
+      "English"
+    ]
+  },
+  {
+    "campId": "9a158765-98cd-4013-a8a4-8aa81ce277c7",
+    "giftId": "2f4f2768-5918-4fc5-af94-b0fe9c2a4c7c",
+    "campName": "איזוניישן",
+    "campNameEn": "Ezonation",
+    "description": "שבת ישראלית: תמוז / כוורת",
+    "descriptionEn": "Shabbat Israeleet: Tamuz / Kaveret",
+    "title": "שבת ישראלית: תמוז / כוורת",
+    "titleEn": "Shabbat Israeleet: Tamuz / Kaveret",
+    "time": 1526657400,
+    "allDay": false,
+    "locationName": "בלוטת האיצטרובל 3:30",
+    "locationNameEn": "3:30 Blutat HaYtztrubal",
+    "tags": [
+      "Live",
       "Mingling",
       "English"
     ]
