@@ -5,11 +5,9 @@ import {getString, isRTL} from '../../utils/Strings';
 import * as campsAndArtStore from '../../stores/campsAndArt/store';
 import {getHourFromTime, getDayFromTime} from '../../utils/Time';
 import Tags from './TagsComponent';
+import {DetailsComponent} from './DetailsComponent';
 
 
-const ICON_TIME = require('../../../data/img/time.png');
-const ICON_LOCATION = require('../../../data/img/mapB.png');
-const ICON_CAMP = require('../../../data/img/camp.png');
 const ICON_SIZE = 14;
 
 
@@ -57,29 +55,18 @@ export class EventComponent extends Component {
     );
   }
 
-  _renderDetailRow(icon, text1, text2) {
-    return (
-      <View paddingT-6 style={{flexDirection: isRTL() ? 'row-reverse' : 'row', alignItems: 'center'}}>
-        <Image
-          style={{width: ICON_SIZE, height: ICON_SIZE}}
-          source={icon}
-        />
-        <Text style={{writingDirection: isRTL() ? 'rtl' : 'ltr', paddingHorizontal: 8, fontWeight: '500'}} text80 color={Colors.dark10}>
-          {text1}
-        </Text>
-      </View>
-    );
-  }
 
   _renderDetails() {
     return (
       <Card.Section>
-        <View flex right={isRTL()} paddingT-4>
-          {this._renderDetailRow(ICON_TIME, getHourFromTime(this.props.unixTime))}
-          {this._renderDetailRow(ICON_CAMP, this.camp)}
-          {this._renderDetailRow(ICON_LOCATION, `${this.address}`)}
-        </View>
 
+        <DetailsComponent
+          details={[
+            {icon: 'TIME', text: getHourFromTime(this.props.unixTime)},
+            {icon: 'CAMP', text: this.camp},
+            {icon: 'LOCATION', text: this.address},
+          ]}
+        />
       </Card.Section>
     )
   }
