@@ -28,6 +28,8 @@ export default class CampDetailsScreen extends Component {
     }
     this.description = isRTL() ? this.props.camp.description : this.props.camp.descriptionEn;
     this.description = this.description.length > 0 ? this.description : undefined;
+
+    this.title = isRTL() ? this.props.camp.campeName : this.props.camp.campNameEn;
   }
 
   componentWillMount() {
@@ -37,10 +39,6 @@ export default class CampDetailsScreen extends Component {
 
   _onSharePress = () => {
     actions.openEmailFeedback({campId: this.props.camp.campId});
-  }
-
-  renderTextIfExists(description, data) {
-    return data && <Text text80>{`${description}: ${data}`}</Text>
   }
 
   renderCoverImage() {
@@ -57,8 +55,15 @@ export default class CampDetailsScreen extends Component {
 
   renderDescription() {
     return (
-      <View marginV-20>
-        <Text text70>{this.description}</Text>
+      <View marginV-10 >
+        <Text text80 style={{fontWeight: '500'}}>{this.description}</Text>
+      </View>
+    );
+  }
+  _renderTitle() {
+    return (
+      <View marginT-18>
+        <Text text50 style={{fontWeight: '600'}}>{this.title}</Text>
       </View>
     );
   }
@@ -88,7 +93,7 @@ export default class CampDetailsScreen extends Component {
   renderHeader(text) {
     return (
       <View marginH-15 right={isRTL()}>
-        <Text text50>{text}</Text>
+        <Text text50 style={{fontWeight: '600'}}>{text}</Text>
       </View>
     );
   }
@@ -108,7 +113,8 @@ export default class CampDetailsScreen extends Component {
         <ScrollView style={{backgroundColor: '#F2F4F5'}}>
           {this.renderCoverImage()}
           <View flex margin-15 marginT-0>
-          {this.description && this.renderDescription()}
+            {this.title && this._renderTitle()}
+            {this.description && this.renderDescription()}
             {this._renderTags()}
             {this.renderSharingBlock()}
           </View>
