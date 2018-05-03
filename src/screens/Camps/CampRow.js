@@ -30,7 +30,7 @@ export default class CampsTab extends PureComponent {
 
   _renderDetails() {
     return (
-      <DetailsComponent details={[{icon: 'LOCATION', text: this.location}]}/>
+      <DetailsComponent details={[{icon: 'LOCATION', text: this.location}]} />
     );
   }
 
@@ -45,7 +45,7 @@ export default class CampsTab extends PureComponent {
 
   _renderImage() {
     return (
-      <Card.Image width={'40%'} imageSource={this.props.imageSource}/>
+      <Card.Image width={'33%'} imageSource={this.props.imageSource}/>
     );
   }
 
