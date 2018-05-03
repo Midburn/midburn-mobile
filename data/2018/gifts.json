@@ -802,75 +802,6 @@
     "locationEn": " "
   },
   {
-    "campId": "ce3df9a5-98d8-415f-b51d-427d93fdaead",
-    "giftId": "9f03caf2-8fda-49f7-93bc-c1d4e0f187d1",
-    "campName": "ס++ אבטיחים קריזי קאמפ",
-    "campNameEn": "C++ Watermellons Crazy Camp",
-    "description": "מסיבות עם דיגיים מהארץ והעולם, אבטיחים ואלכוהול.",
-    "descriptionEn": "party's , watermelon, cocktails",
-    "title": "מסיבות עם דיגיים מהארץ והעולם, אבטיחים ואלכוהול.",
-    "titleEn": "party's , watermelon, cocktails",
-    "time": 1526324400,
-    "allDay": false,
-    "locationName": "סי ++ אבטיחים קרייזי קאמפ",
-    "locationNameEn": "סי ++ אבטיחים קרייזי קאמפ",
-    "tags": [
-      "Adults",
-      "Alcohol",
-      "Games",
-      "FoodAndDrinks",
-      "Party"
-    ],
-    "location": "טיילת 9:30",
-    "locationEn": "9:30 Tayelet"
-  },
-  {
-    "campId": "ce3df9a5-98d8-415f-b51d-427d93fdaead",
-    "giftId": "7142da79-e281-4a49-8b2b-be03d0a9afa5",
-    "campName": "ס++ אבטיחים קריזי קאמפ",
-    "campNameEn": "C++ Watermellons Crazy Camp",
-    "description": "מסיבות עם דיגיים מהארץ והעולם, אבטיחים ואלכוהול.",
-    "descriptionEn": "party's , watermelon, cocktails",
-    "title": "מסיבות עם דיגיים מהארץ והעולם, אבטיחים ואלכוהול.",
-    "titleEn": "party's , watermelon, cocktails",
-    "time": 1526475600,
-    "allDay": false,
-    "locationName": "סי ++ אבטיחים קרייזי קאמפ",
-    "locationNameEn": "סי ++ אבטיחים קרייזי קאמפ",
-    "tags": [
-      "Adults",
-      "Alcohol",
-      "Games",
-      "FoodAndDrinks",
-      "Party"
-    ],
-    "location": "טיילת 9:30",
-    "locationEn": "9:30 Tayelet"
-  },
-  {
-    "campId": "ce3df9a5-98d8-415f-b51d-427d93fdaead",
-    "giftId": "0581650e-2048-4e86-819c-489efa8ee349",
-    "campName": "ס++ אבטיחים קריזי קאמפ",
-    "campNameEn": "C++ Watermellons Crazy Camp",
-    "description": "מסיבות עם דיגיים מהארץ והעולם, אבטיחים ואלכוהול.",
-    "descriptionEn": "party's , watermelon, cocktails",
-    "title": "מסיבות עם דיגיים מהארץ והעולם, אבטיחים ואלכוהול.",
-    "titleEn": "party's , watermelon, cocktails",
-    "time": 1526662800,
-    "allDay": false,
-    "locationName": "סי ++ אבטיחים קרייזי קאמפ",
-    "locationNameEn": "סי ++ אבטיחים קרייזי קאמפ",
-    "tags": [
-      "Adults",
-      "Alcohol",
-      "Games",
-      "FoodAndDrinks",
-      "Party"
-    ],
-    "location": "טיילת 9:30",
-    "locationEn": "9:30 Tayelet"
-  },
-  {
     "campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
     "giftId": "809d9468-6fa1-44d2-9645-2eb0eaf59c2d",
     "campName": "זקני השבט",
@@ -13827,6 +13758,73 @@
     "tags": [
       "English",
       "Games"
+    ]
+  },
+
+  {
+    "campId": "ce3df9a5-98d8-415f-b51d-427d93fdaead",
+    "giftId": "e789821a-5956-4530-83df-4b9c937786d6",
+    "campName": "סי ++ אבטיחים קרייזי קאמפ",
+    "campNameEn": "C ++ Watermelons Crazy Camp",
+    "description": "חוויית הקיץ האולטימטיבית והמושחתת של הפלאיה עם מסיבות, אבטיחים, אלכוהול, משחקי זימה, תספורות משוגעות ופינוקים באווירה רדיקאלית.",
+    "descriptionEn": "The ultimate summer trip, a mind opening experience directly on the playa. Parties, loads of watermelons, alcohol and games, crazy haircuts and other special treats. In a community minded group and a radical lifestyle atmosphere . Welcome to C++ Watermelon 🍉 camp!",
+    "title": "חוויית הקיץ האולטימטיבית והמושחתת של הפלאיה עם מסיבות, אבטיחים, אלכוהול, משחקי זימה, תספורות משוגעות ופינוקים באווירה רדיקאלית.",
+    "titleEn": "The ultimate summer trip, a mind opening experience directly on the playa. Parties, loads of watermelons, alcohol and games, crazy haircuts and other special treats. In a community minded group and a radical lifestyle atmosphere . Welcome to C++ Watermelon 🍉 camp!",
+    "time": 1526382000,
+    "allDay": false,
+    "locationName": "טיילת 9:30",
+    "locationNameEn": "9:30 Tayelet",
+    "tags": [
+      "Adults",
+      "Alcohol",
+      "Party",
+      "Mingling",
+      "English",
+      "FoodAndDrinks"
+    ]
+  },
+  {
+    "campId": "ce3df9a5-98d8-415f-b51d-427d93fdaead",
+    "giftId": "b9a4f452-7c95-44e0-a200-a074ffa11f21",
+    "campName": "סי ++ אבטיחים קרייזי קאמפ",
+    "campNameEn": "C ++ Watermelons Crazy Camp",
+    "description": "חוויית הקיץ האולטימטיבית והמושחתת של הפלאיה עם מסיבות, אבטיחים, אלכוהול, משחקי זימה, תספורות משוגעות ופינוקים באווירה רדיקאלית.",
+    "descriptionEn": "The ultimate summer trip, a mind opening experience directly on the playa. Parties, loads of watermelons, alcohol and games, crazy haircuts and other special treats. In a community minded group and a radical lifestyle atmosphere . Welcome to C++ Watermelon 🍉 camp!",
+    "title": "חוויית הקיץ האולטימטיבית והמושחתת של הפלאיה עם מסיבות, אבטיחים, אלכוהול, משחקי זימה, תספורות משוגעות ופינוקים באווירה רדיקאלית.",
+    "titleEn": "The ultimate summer trip, a mind opening experience directly on the playa. Parties, loads of watermelons, alcohol and games, crazy haircuts and other special treats. In a community minded group and a radical lifestyle atmosphere . Welcome to C++ Watermelon 🍉 camp!",
+    "time": 1526554800,
+    "allDay": false,
+    "locationName": "טיילת 9:30",
+    "locationNameEn": "9:30 Tayelet",
+    "tags": [
+      "Adults",
+      "Alcohol",
+      "Party",
+      "Mingling",
+      "English",
+      "FoodAndDrinks"
+    ]
+  },
+  {
+    "campId": "ce3df9a5-98d8-415f-b51d-427d93fdaead",
+    "giftId": "478fe452-8fcc-4bcd-b7a6-372e1ea8b885",
+    "campName": "סי ++ אבטיחים קרייזי קאמפ",
+    "campNameEn": "C ++ Watermelons Crazy Camp",
+    "description": "חוויית הקיץ האולטימטיבית והמושחתת של הפלאיה עם מסיבות, אבטיחים, אלכוהול, משחקי זימה, תספורות משוגעות ופינוקים באווירה רדיקאלית.",
+    "descriptionEn": "The ultimate summer trip, a mind opening experience directly on the playa. Parties, loads of watermelons, alcohol and games, crazy haircuts and other special treats. In a community minded group and a radical lifestyle atmosphere . Welcome to C++ Watermelon 🍉 camp!",
+    "title": "חוויית הקיץ האולטימטיבית והמושחתת של הפלאיה עם מסיבות, אבטיחים, אלכוהול, משחקי זימה, תספורות משוגעות ופינוקים באווירה רדיקאלית.",
+    "titleEn": "The ultimate summer trip, a mind opening experience directly on the playa. Parties, loads of watermelons, alcohol and games, crazy haircuts and other special treats. In a community minded group and a radical lifestyle atmosphere . Welcome to C++ Watermelon 🍉 camp!",
+    "time": 1526641200,
+    "allDay": false,
+    "locationName": "טיילת 9:30",
+    "locationNameEn": "9:30 Tayelet",
+    "tags": [
+      "Adults",
+      "Alcohol",
+      "Party",
+      "Mingling",
+      "English",
+      "FoodAndDrinks"
     ]
   }
 
