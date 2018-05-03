@@ -5,14 +5,15 @@ import {Text, View, Button, Card, Colors} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import {EventComponent} from '../components/EventComponent';
 import {getHourForTime} from '../../utils/Time';
+import Strings from '../../utils/Strings';
 
 export class EventsComponent extends Component {
 
 
   renderEmptyState() {
     return (
-      <View flex style={styles.emptyContainer}>
-        <Text text70 dark20>לא מתחיבותים לכלום, אז מוזמנים לקפוץ לקמפ ולומר שלום בכל זמן 🤔</Text>
+      <View flex padding-15 style={styles.emptyContainer}>
+        <Text center text70 dark40 style={{fontWeight: '500'}}>{Strings("EVENT_EMPTY_STATE")}</Text>
       </View>
     );
   }
