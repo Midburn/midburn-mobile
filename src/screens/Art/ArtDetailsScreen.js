@@ -88,11 +88,11 @@ export default class ArtDetailsScreen extends PureComponent {
 
   renderSharingBlock() {
     return (
-      <View bg-dark70 padding-10 marginT-12 br30>
+      <View bg-dark70 padding-10 marginT-12 br40>
         <Button
           link
           label={String('ART_FEEDBACK')}
-          labelProps={{numberOfLines: 2, center: true, blue30: true, text70: true, style: {fontWeight: '500'}}}
+          labelProps={{numberOfLines: 2, center: true, blue30: true, text80: true, style: {fontWeight: '500'}}}
           onPress={this._onSharePress}
         />
       </View>
