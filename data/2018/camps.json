@@ -23,7 +23,7 @@
 	{
 		"campId": "ab552f7a-ce9b-4f8c-96c8-2f086ee871d1",
 		"campName": "ארנבים בחול",
-		"campNameEn": "Rabits in the sand",
+		"campNameEn": "Rabits in The Sand",
 		"description": "מחנה סאונד (האוס וטכנו) וגם מיצב אמנות",
 		"descriptionEn": "Sound Camp ( Techno & House) & Art Instillation",
 		"location": "אמיגדלה 9:30",
@@ -32,7 +32,13 @@
 			"PhysicallyDisabled",
 			"Party"
 		],
-		"gifts": []
+		"gifts": [
+			"d515f2c0-500c-484c-85b0-d680ee360421",
+			"d47933fa-c9e1-407a-8460-a48938757838",
+			"1a78140c-4aa2-4af1-80e0-e7a34c5c6852",
+			"629ea5e8-84c3-4729-97fa-af394623c8d9",
+			"9b64cb1a-f314-41d9-b1b5-cc345add3da9"
+		]
 	},
 	{
 		"campId": "7bf1241d-f904-448b-b030-c06018eac369",
