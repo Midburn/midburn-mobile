@@ -7,7 +7,8 @@ const ICON_SIZE = 14;
 const ICONS = {
   TIME: require('../../../data/img/time.png'),
   LOCATION: require('../../../data/img/mapB.png'),
-  CAMP:require('../../../data/img/camp.png'),
+  CAMP: require('../../../data/img/camp.png'),
+  ART: require('../../../data/img/art.png'),
 };
 
 export class DetailsComponent extends Component {

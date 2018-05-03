@@ -55,14 +55,14 @@ export default class CampDetailsScreen extends Component {
 
   renderDescription() {
     return (
-      <View marginV-10 right={isRTL()}>
+      <View marginV-16 right={isRTL()}>
         <Text text80 style={{fontWeight: '500', writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.description}</Text>
       </View>
     );
   }
   _renderTitle() {
     return (
-      <View marginT-18 center>
+      <View marginV-18 center marginB-6>
         <Text text50 style={{fontWeight: '600', writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.title}</Text>
       </View>
     );
@@ -70,11 +70,11 @@ export default class CampDetailsScreen extends Component {
 
   renderSharingBlock() {
     return (
-      <View bg-dark70 padding-10 marginT-22 br30>
+      <View bg-dark70 padding-8 marginT-22 br40>
         <Button
           link
           label={String('CAMP_FEEDBACK')}
-          labelProps={{numberOfLines: 2, center: true, blue30: true, text70: true, style: {fontWeight: '500'}}}
+          labelProps={{numberOfLines: 2, center: true, blue30: true, text80: true, style: {fontWeight: '500'}}}
           onPress={this._onSharePress}
         />
       </View>
