@@ -3248,25 +3248,22 @@
   },
   {
     "campId": "c81e8d18-e324-4a3c-a07e-a3437cf73bdc",
-    "giftId": "7327c7e4-8b72-47e0-b258-c274ec2fd90c",
+    "giftId": "097f037a-be4c-49de-85f2-8f3b28bc1b26",
     "campName": "ביונד קומון סנס",
     "campNameEn": "Beyond Common Sense",
-    "description": "אירוח שמעבר להגיון הסביר בחצר הארמון",
-    "descriptionEn": "Enter kingdom's court for a \"Beyond\" experience",
-    "title": "אירוח שמעבר להגיון הסביר בחצר הארמון",
-    "titleEn": "Enter kingdom's court for a \"Beyond\" experience",
-    "time": 1526295600,
+    "description": "התהלוכה הפותחת של המידברן יוצאת משעה שלוש על הטיילת בשיתוף משלחות ממחנות נושא וארט קארס. בואו לפתוח את המידברן באירוע שמעבר להיגיון הסביר.",
+    "descriptionEn": "The opening parade for MidBurn leaves from 3:00 Tayelet with delegations from camps and Art Cars. Let's open the MidBurn in an event beyond common sense.",
+    "title": "התהלוכה הפותחת של המידברן יוצאת משעה שלוש על הטיילת בשיתוף משלחות ממחנות נושא וארט קארס. בואו לפתוח את המידברן באירוע שמעבר להיגיון הסביר.",
+    "titleEn": "The opening parade for MidBurn leaves from 3:00 Tayelet with delegations from camps and Art Cars. Let's open the MidBurn in an event beyond common sense.",
+    "time": 1526302800,
     "allDay": false,
-    "locationName": "ביונד קומון סנס",
-    "locationNameEn": "ביונד קומון סנס",
+    "locationName": "טיילת 3:00",
+    "locationNameEn": "3:00 Tayelet",
     "tags": [
-      "Adults",
-      "Alcohol",
-      "Games",
-      "FoodAndDrinks"
-    ],
-    "location": "בלוטת האיצטרובל 3:00",
-    "locationEn": "3:00 Blutat HaYtztrubal"
+      "Live",
+      "Mingling",
+      "English"
+    ]
   },
   {
     "campId": "c81e8d18-e324-4a3c-a07e-a3437cf73bdc",
@@ -3344,28 +3341,6 @@
     "title": "אירוח שמעבר להגיון הסביר בחצר הארמון",
     "titleEn": "Enter kingdom's court for a \"Beyond\" experience",
     "time": 1526641200,
-    "allDay": false,
-    "locationName": "ביונד קומון סנס",
-    "locationNameEn": "ביונד קומון סנס",
-    "tags": [
-      "Adults",
-      "Alcohol",
-      "Games",
-      "FoodAndDrinks"
-    ],
-    "location": "בלוטת האיצטרובל 3:00",
-    "locationEn": "3:00 Blutat HaYtztrubal"
-  },
-  {
-    "campId": "c81e8d18-e324-4a3c-a07e-a3437cf73bdc",
-    "giftId": "d9f53b44-8d6b-4a8d-828d-7cb521a0da34",
-    "campName": "ביונד קומון סנס",
-    "campNameEn": "Beyond Common Sense",
-    "description": "אירוח שמעבר להגיון הסביר בחצר הארמון",
-    "descriptionEn": "Enter kingdom's court for a \"Beyond\" experience",
-    "title": "אירוח שמעבר להגיון הסביר בחצר הארמון",
-    "titleEn": "Enter kingdom's court for a \"Beyond\" experience",
-    "time": 1526727600,
     "allDay": false,
     "locationName": "ביונד קומון סנס",
     "locationNameEn": "ביונד קומון סנס",
