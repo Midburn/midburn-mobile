@@ -4,6 +4,7 @@ export const CAMP_PLACEHOLDER = require('./../midburn_logo.png');
 
 
 const IMAGES = {
+  '349cc38a-1361-44a1-8944-763b9fb97b4b': require('./349cc38a-1361-44a1-8944-763b9fb97b4b/coverUrl.jpg'),
   '63acf682-4017-40bd-8d00-2bc6499d941b': require('./63acf682-4017-40bd-8d00-2bc6499d941b/coverUrl.jpg'),
   '1e6bc8ee-5174-488e-8e3f-0a9962dacab4': require('./1e6bc8ee-5174-488e-8e3f-0a9962dacab4/coverUrl.jpg'),
   'b81cbc04-c0af-429c-9d1b-fa6065e8cb0f': require('./b81cbc04-c0af-429c-9d1b-fa6065e8cb0f/coverUrl.jpg'),
