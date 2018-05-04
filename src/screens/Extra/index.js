@@ -43,6 +43,11 @@ const getItems = () => ds.cloneWithRows([
     title: Strings('FEEDBACK_SCREEN_TITLE')
   },
   {
+    text: Strings('CREDITS'),
+    screen: SCREENS.CREDITS,
+    title: Strings('CREDITS')
+  },
+  {
     text: Strings('OPEN_SOURCES'),
     screen: SCREENS.OPEN_SOURCES,
     title: Strings('OPEN_SOURCES')

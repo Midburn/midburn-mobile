@@ -86,5 +86,13 @@
   "EVENT_EMPTY_STATE": {
     "he": "לא מתחיבותים לכלום, אז מוזמנים לקפוץ לקמפ\nולומר שלום בכל זמן 🤗",
     "en": "Free flowing, so drop by anytime\n and say hi 🤗"
+  },
+  "CREDITS": {
+    "he": "מי אנחנו",
+    "en": "Who are we"
+  },
+  "FEW_WORDS": {
+    "he": "כמה מילים",
+    "en": "Few Words"
   }
 }
