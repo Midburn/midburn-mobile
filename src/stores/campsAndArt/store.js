@@ -3,6 +3,8 @@ import * as remx from 'remx';
 import * as ArtImages from '../../../data/2018/images/arts';
 import * as CampsImages from '../../../data/2018/images/camps';
 import {isRTL} from '../../utils/Strings';
+const Fuse = require('fuse.js');
+
 
 
 const state = remx.state({
@@ -52,21 +54,24 @@ export const getters = remx.getters({
     return state.search;
   },
   getArtDataToShow() {
-    const key = isRTL() ? 'name' : 'nameEn';
-    return getters.getDataToShow(state.art, state.searchArt, key);
+    return getters.getDataToShow(state.art, state.searchArt, ["name", "nameEn", "title", "titleEn", "artist" ]);
   },
   getCampsDataToShow() {
-    const key = isRTL() ? 'campName' : 'campNameEn';
-    return getters.getDataToShow(state.camps, state.searchCamp, key);
+    return getters.getDataToShow(state.camps, state.searchCamp, ["campName", "campNameEn", "description", "descriptionEn", "location", "locationEn" ]);
   },
-  getDataToShow(dataArray, whatToSearch, keyToSearch) {
+  getDataToShow(dataArray, whatToSearch, keysToSearch) {
     if (whatToSearch) {
-      return _.filter(dataArray, (obj) => {
-        const text = _.get(obj, `${keyToSearch}`);
-        if (text) {
-          return _.toLower(text).includes(_.toLower(whatToSearch));
-        } return false;
-      });
+        const options = {
+            shouldSort: true,
+            threshold: 0.6,
+            location: 0,
+            distance: 100,
+            maxPatternLength: 32,
+            minMatchCharLength: 2,
+            keys: keysToSearch
+        };
+        const fuse = new Fuse(dataArray, options);
+        return fuse.search(whatToSearch);
     }
     return dataArray;
   },
