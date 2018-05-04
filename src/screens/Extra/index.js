@@ -19,6 +19,16 @@ const getItems = () => ds.cloneWithRows([
   //   text: Strings('PHONES'),
   // },
   {
+    text: Strings('CREDITS'),
+    screen: SCREENS.CREDITS,
+    title: Strings('CREDITS')
+  },
+  {
+    text: Strings('SELECT_LANGUAGE'),
+    screen: SCREENS.SETTINGS,
+    title: Strings('SELECT_LANGUAGE')
+  },
+  {
     text: Strings('MIDBURN_PRINCIPLES'),
     screen: SCREENS.PRINCIPLES
   },
@@ -27,26 +37,16 @@ const getItems = () => ds.cloneWithRows([
     screen: SCREENS.SAFETY,
     title: Strings('SAFETY')
   },
-  // {
-  //   image: '',
-  //   text: Strings('MAP'),
-  //   screen: SCREENS.MAP
-  // },
-  {
-    text: Strings('SELECT_LANGUAGE'),
-    screen: SCREENS.SETTINGS,
-    title: Strings('SELECT_LANGUAGE')
-  },
   {
     text: Strings('FEEDBACK'),
     screen: SCREENS.APP_FEEDBACK,
     title: Strings('FEEDBACK_SCREEN_TITLE')
   },
-  {
-    text: Strings('CREDITS'),
-    screen: SCREENS.CREDITS,
-    title: Strings('CREDITS')
-  },
+  // {
+  //   image: '',
+  //   text: Strings('MAP'),
+  //   screen: SCREENS.MAP
+  // },
   {
     text: Strings('OPEN_SOURCES'),
     screen: SCREENS.OPEN_SOURCES,
