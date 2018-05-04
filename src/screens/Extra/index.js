@@ -85,7 +85,7 @@ export default class ExtraScreen extends Component {
 
         <ListItem.Part middle>
           <View paddingL-16>
-            <Text text60 black style={{fontWeight: '500'}}>{item.text}</Text>
+            <Text text60 style={{fontWeight: '500'}}>{item.text}</Text>
           </View>
         </ListItem.Part>
 
@@ -145,7 +145,7 @@ export default class ExtraScreen extends Component {
 
         <ListItem.Part middle>
           <View paddingL-16>
-            <Text text60 black style={{fontWeight: '500'}}>{item.text}</Text>
+            <Text text60 style={{fontWeight: '500'}}>{item.text}</Text>
           </View>
         </ListItem.Part>
 
