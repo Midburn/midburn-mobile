@@ -18,9 +18,9 @@ export default class SafetyScreen extends Component {
               return (
                 <View padding-12 key={obj.name} right={isRTL()}>
                   <View center={isRTL()} centerH={!isRTL()} style={{flexDirection: isRTL() ? 'row-reverse' : 'row'}}>
-                    <Text text40 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{isRTL() ? obj.name : obj.nameEn}</Text>
+                    <Text text40 black style={{fontWeight: '500', writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{isRTL() ? obj.name : obj.nameEn}</Text>
                   </View>
-                  <Text text70 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{isRTL() ? obj.description : obj.descriptionEn}</Text>
+                  <Text text70 black paddingT-8 style={{fontWeight: '400', writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{isRTL() ? obj.description : obj.descriptionEn}</Text>
                 </View>
               );
             })
