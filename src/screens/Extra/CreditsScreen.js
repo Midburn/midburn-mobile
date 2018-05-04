@@ -77,7 +77,20 @@ const TEXT = {
   '\n' +
   'באהבה רבה\n' +
   'אנחנו',
-  en: ''
+  en: 'Hello to our beloved burners,\n' +
+  '\n' +
+  'It’s a great honor for us that you are using and enjoying our gifting to the burn, the mobile program.\n' +
+  '\n' +
+  'We chose this year to give a special gift to the Midburn, to give a special experience for the old and new burners who are using our app. We have come from a combination of wills and thoughts like taking care of the environment and giving a good service that will help you enjoy the burn. All this while staying disconnected from your mobile and helping you to connect with people, as much as possible.\n' +
+  'We have enjoyed working together, thinking, trying, daring, giving with love, bringing our own ideas and learning from listening to other burners\' experiences, new and old, young and old – so we can give the best experience to everyone. We will be happy to hear all your feedbacks about the app, so we can give a better service next year.\n' +
+  '\n' +
+  'We have created the digital program with love so you can enjoy the Midburn. You are invited to enjoy our special gifting - The Games of Burn, which are here to help you to get out of your comfort zone, to meet new people and enjoy the burn. Please enjoy our app but try to leave your mobile in your tent. And if you are travelling around the playa with your mobile, then see that it doesn’t disturb you from having a great burn. Off course if you are thinking about taking pictures – always remember to ask first.\n' +
+  '\n' +
+  'Enjoy the app and the burn\n' +
+  '\n' +
+  'With a lot of love\n' +
+  '\n' +
+  'Us'
 };
 
 export default class CreditsScreen extends Component {
@@ -98,6 +111,12 @@ export default class CreditsScreen extends Component {
   }
 
   _renderText() {
+    let letterFromUs = '';
+    if (isRTL()) {
+        letterFromUs = TEXT.he;
+    } else {
+      letterFromUs = TEXT.en
+    }
     return (
       <View margin-15>
         <View marginB-12>
@@ -106,7 +125,7 @@ export default class CreditsScreen extends Component {
           </Text>
         </View>
         <Text text60 black style={{writingDirection: isRTL() ? 'rtl' : 'ltr', fontWeight: '400', lineHeight: 28}}>
-          {TEXT.he}
+            {letterFromUs}
         </Text>
       </View>
     );
