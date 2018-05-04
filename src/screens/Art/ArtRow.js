@@ -19,12 +19,12 @@ export default class ArtRow extends PureComponent {
     return (
       <Card onPress={this.props.onPress} key={this.props.index} containerStyle={{marginBottom: 15}}>
         <Card.Image height={120} imageSource={this.props.imageSource} />
-        <Card.Section body>
+        <Card.Section body center>
           <View flex center paddingB-8 paddingT-4>
-            <Text text50 style={{fontWeight: '600'}}>{this.title}</Text>
-          </View><
-          View flex center>
-            <Text text80 dark50 style={{fontWeight: '400'}}>{this.props.data.artist}</Text>
+            <Text center text50 style={{fontWeight: '600'}}>{this.title}</Text>
+          </View>
+          <View flex center>
+            <Text center text80 dark50 style={{fontWeight: '400'}}>{this.props.data.artist}</Text>
           </View>
         </Card.Section>
 

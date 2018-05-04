@@ -72,8 +72,8 @@ export default class ArtDetailsScreen extends PureComponent {
 
   renderArtist() {
     return (
-      <View center marginT-30>
-        <Text text70 style={{fontWeight: '600', writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.props.art.artist}</Text>
+      <View center marginT-10>
+        <Text text80 dark40 style={{fontWeight: '500', writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.props.art.artist}</Text>
       </View>
     );
   }
@@ -81,7 +81,7 @@ export default class ArtDetailsScreen extends PureComponent {
   renderPhilosophy() {
     return (
       <View center marginT-30>
-        <Text text70>{this.props.art.philosophy}</Text>
+        <Text text70 >{this.props.art.philosophy}</Text>
       </View>
     );
   }
@@ -105,9 +105,9 @@ export default class ArtDetailsScreen extends PureComponent {
         {this.renderImages()}
         <View flex margin-30 marginT-0>
           {this.renderName()}
+          {this.renderArtist()}
           {this.renderTitle()}
           {this.renderDescription()}
-          {this.renderArtist()}
           {this.renderSharingBlock()}
 
           {/* {this.renderPhilosophy()} */}
