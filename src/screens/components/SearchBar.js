@@ -19,10 +19,9 @@ export default class SearchBar extends Component {
         <TextInput
           hideUnderline
           text80
-          bg-red10
           ref={(ref) => this.props.textInputRef(ref)}
           autoCorrect={false}
-          style={{textAlign: isRTL() ? 'right': 'left', fontSize: 15}}
+          style={{textAlign: isRTL() ? 'right': 'left', fontSize: 16, fontWeight: '500'}}
           onChangeText={this.props.onChangeText}
           value={this.props.text}
           placeholder={this.props.placeholder}
