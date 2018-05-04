@@ -19,8 +19,8 @@ const MEMBERS = [
   },
   {
     name: {
-      he: 'Sunny',
-      en: 'Sunny'
+      he: 'נעם אלמוג',
+      en: 'Noam Almog'
     },
     avatar: require('../../../data/img/members/noam_almog.jpg'),
     role: {
