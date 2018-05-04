@@ -1383,25 +1383,6 @@
 		]
 	},
 	{
-		"campId": "3d22e65a-47a6-11e8-842f-0ed5f89f718b",
-		"campName": "קיס מיי אסי",
-		"campNameEn": "Kiss My Ass",
-		"description": "",
-		"descriptionEn": "",
-		"location": "טיילת 6:30",
-		"locationEn": "6:30 Tayelet",
-		"tags": [
-			"Other"
-		],
-		"gifts": [
-			"cd56e04d-b82b-4c3b-9ca5-eb00077c9874",
-			"e51516b1-ab7c-44f6-816b-d80275899ab8",
-			"5de82572-d1e4-4be5-8045-3e8efcd2ea46",
-			"6987f802-f25d-4a73-9df1-a46cd3fcace1",
-			"d986458d-e43e-4059-ae35-ca48e4a02591"
-		]
-	},
-	{
 		"campId": "09b95c62-47a7-11e8-842f-0ed5f89f718b",
 		"campName": "מקדש הבועה",
 		"campNameEn": "The Bubble Temple",
@@ -2289,6 +2270,25 @@
 			"90267c26-b217-4462-8b62-9e0c0dcd0e15",
 			"ed099f05-5663-420e-96d2-f94164497382",
 			"d3cb73a7-4bb3-4af7-9fed-45f552d814f8"
+		]
+	},
+	{
+		"campId": "3d22e65a-47a6-11e8-842f-0ed5f89f718b",
+		"campName": "קיס מיי אסי",
+		"campNameEn": "Kiss My Ass",
+		"description": "",
+		"descriptionEn": "",
+		"location": "טיילת 6:30",
+		"locationEn": "6:30 Tayelet",
+		"tags": [
+			"Other"
+		],
+		"gifts": [
+			"cd56e04d-b82b-4c3b-9ca5-eb00077c9874",
+			"e51516b1-ab7c-44f6-816b-d80275899ab8",
+			"5de82572-d1e4-4be5-8045-3e8efcd2ea46",
+			"6987f802-f25d-4a73-9df1-a46cd3fcace1",
+			"d986458d-e43e-4059-ae35-ca48e4a02591"
 		]
 	},
 	{
