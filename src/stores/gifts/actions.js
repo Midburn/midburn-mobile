@@ -1,6 +1,7 @@
 import * as _ from 'lodash';
 import * as store from './store'
 import {isRTL} from "../../utils/Strings";
+import {getMomentObject} from '../../utils/Time';
 
 const moment = require('moment');
 
@@ -9,13 +10,18 @@ export function loadGifts() {
   gifts.forEach(gift => {
     // gift.color = getRandomColor();
     gift.hour = moment(gift.time, 'x').format("HH:mm");
-    gift.dateString = moment(gift.time, 'x').format('YYYY-MM-DD');
+    gift.dateString = getMomentObject(gift.time).format('YYYY-MM-DD');
   });
 
   const sortedGifts = _.sortBy(gifts, 'time');
 
   store.setters.setGifts(sortedGifts);
   setGiftsByDay(_.sortBy(sortedGifts, ['hour']));
+}
+
+export function loadOurLove() {
+  const love = require('../../../data/2018/app');
+  store.setters.setLove(love);
 }
 
 function setGiftsByDay(gifts) {

@@ -1,8 +1,8 @@
 import _ from 'lodash';
 import * as remx from 'remx';
-import moment from 'moment';
+import {getMomentObject, getNowUnixTime} from '../../utils/Time';
 
-const MIDBURN_STARTING_UNIX_DATE = 1526299661;
+const MIDBURN_STARTING_UNIX_DATE = 1526274000;
 const DEFAULT_NOW_HOURS_WINDOW = 3;
 
 
@@ -19,6 +19,8 @@ const state = remx.state({
   giftsDay3: [],
   giftsDay4: [],
   giftsDay5: [],
+  ourLove: [],
+  currentTime: MIDBURN_STARTING_UNIX_DATE
 
 });
 
@@ -27,6 +29,9 @@ export const setters = remx.setters({
     state.gifts = gifts;
     setters.setGiftForDays();
   },
+  setLove(love) {
+    state.ourLove = love;
+  },
   setPresentedGifts(gifts) {
     state.presentedGifts = gifts;
   },
@@ -34,22 +39,30 @@ export const setters = remx.setters({
     state.giftsByDay = giftsByDay;
   },
   setGiftForDays() {
-    let formDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE);
-    let toDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE).add(1, 'd');
+    let fromDay = getMomentObject(MIDBURN_STARTING_UNIX_DATE);
+    let toDay = getMomentObject(MIDBURN_STARTING_UNIX_DATE).add(1, 'd');
 
-    state.giftsDay1 = getters.getGiftsInRange(formDay, toDay);
-    formDay = toDay;
-    toDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE).add(2, 'd');
-    state.giftsDay2 = getters.getGiftsInRange(formDay, toDay);
-    formDay = toDay;
-    toDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE).add(3, 'd');
-    state.giftsDay3 = getters.getGiftsInRange(formDay, toDay);
-    formDay = toDay;
-    toDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE).add(4, 'd');
-    state.giftsDay4 = getters.getGiftsInRange(formDay, toDay);
-    formDay = toDay;
-    toDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE).add(5, 'd');
-    state.giftsDay5 = getters.getGiftsInRange(formDay, toDay);
+    state.giftsDay1 = getters.getGiftsInRange(fromDay, toDay);
+    fromDay = toDay;
+    toDay = getMomentObject(MIDBURN_STARTING_UNIX_DATE).add(2, 'd');
+    state.giftsDay2 = getters.getGiftsInRange(fromDay, toDay);
+    fromDay = toDay;
+    toDay = getMomentObject(MIDBURN_STARTING_UNIX_DATE).add(3, 'd');
+    state.giftsDay3 = getters.getGiftsInRange(fromDay, toDay);
+    fromDay = toDay;
+    toDay = getMomentObject(MIDBURN_STARTING_UNIX_DATE).add(4, 'd');
+    state.giftsDay4 = getters.getGiftsInRange(fromDay, toDay);
+    fromDay = toDay;
+    toDay = getMomentObject(MIDBURN_STARTING_UNIX_DATE).add(5, 'd');
+    state.giftsDay5 = getters.getGiftsInRange(fromDay, toDay);
+  },
+  setCurrentTime(time) {
+    const now = getNowUnixTime();
+    if (now < MIDBURN_STARTING_UNIX_DATE) {
+      return;
+    }
+
+    state.currentTime = now;
   },
 });
 
@@ -57,44 +70,26 @@ export const getters = remx.getters({
   getAllGifts() {
     return state.gifts;
   },
-  getPresentedGifts() {
-    return state.presentedGifts;
+  getOurLove() {
+    return state.ourLove;
   },
   getGiftsInRange(fromDate, toDate) {
     const filteredGifts = _.filter(state.gifts, (gift) => {
-      return createMomentDate(gift.time).isBetween(fromDate, toDate);
+      return getMomentObject(gift.time).isBetween(fromDate, toDate);
     });
     return _.sortBy(filteredGifts, ['hour']);
   },
   getGiftsForHoursWindow(hours = DEFAULT_NOW_HOURS_WINDOW) {
-    let formDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE);
-    let toDay = createMomentDate(MIDBURN_STARTING_UNIX_DATE).add(hours, 'h');
-    return getters.getGiftsInRange(formDay, toDay);
+    let formDay = getMomentObject(getters.getCurrentTime());
+    let toDay = getMomentObject(getters.getCurrentTime()).add(hours, 'h');
+    return getters.getGiftsInRange(formDay, toDay)
   },
   getGiftsByDay(date) {
-    const filteredGifts = state.giftsByDay[date.format('YYYY-MM-DD')];
-    return filteredGifts;//_.sortBy(filteredGifts, ['hour']);
+    return state.giftsByDay[date.format('YYYY-MM-DD')];
   },
-  getGiftsByDayForCamp(campId, date) {
-    const filteredGifts = _.filter(state.gifts, (gift) => {
-      return createMomentDate(gift.time).isSame(date, 'day') && gift.campId === campId;
-    });
-    return _.sortBy(filteredGifts, ['hour']);
+  getCurrentTime() {
+    return state.currentTime;
   },
-  getGiftsInRangeForCamp(campId, fromDate, toDate) {
-    const filteredGifts = _.filter(state.gifts, (gift) => {
-      return createMomentDate(gift.time).isBetween(fromDate, toDate) && gift.campId === campId;
-    });
-    return _.sortBy(filteredGifts, ['hour']);
-  },
-
-  getGiftsForCampId(campId) {
-    const filteredGifts = _.filter(state.gifts, (gift) => {
-      return gift.campId === campId;
-    });
-    return filteredGifts;
-  },
-
   getAllTags() {
 
     const tagsArray = _.map(state.gifts, (gift) => {
@@ -107,10 +102,11 @@ export const getters = remx.getters({
   },
   getChunkedGifts() {
     return [state.giftsDay1, state.giftsDay2, state.giftsDay3, state.giftsDay4, state.giftsDay5];
+  },
+  getLoveToSpread() {
+    const ourLoveArray = getters.getOurLove();
+    return ourLoveArray[Math.floor(Math.random() * ourLoveArray.length)];
+
   }
 });
 
-
-function createMomentDate(timestamp) {
-  return moment(timestamp, 'X');
-}

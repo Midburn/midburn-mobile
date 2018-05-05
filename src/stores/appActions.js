@@ -1,14 +1,13 @@
 import {AsyncStorage, Alert} from 'react-native';
 import * as campsAndArtActions from './campsAndArt/actions';
 import * as giftsActions from './gifts/actions';
-import Strings from '../utils/Strings';
 
 const APP_LANGUAGE_STORAGE_KEY = '@midburn_language:key';
 
 
 export async function loadTabsData() {
   const {setLocale} = require('../utils/Strings');
-  const savedAppLanguage = await getAppLanguageToAsyncStorage(APP_LANGUAGE_STORAGE_KEY);
+  const savedAppLanguage = await getFromAsyncStorage(APP_LANGUAGE_STORAGE_KEY);
   if (savedAppLanguage) {
     setLocale(savedAppLanguage);
   }
@@ -16,6 +15,7 @@ export async function loadTabsData() {
   campsAndArtActions.loadCamps();
   campsAndArtActions.loadArt();
   giftsActions.loadGifts();
+  giftsActions.loadOurLove();
   campsAndArtActions.setCampsGifts();
   campsAndArtActions.loadCampTags();
   campsAndArtActions.loadGiftsTags();
@@ -42,10 +42,10 @@ export function setAppLanguage(languageId) {
 
   start(false);
 
-  saveAppLanguageToAsyncStorage(APP_LANGUAGE_STORAGE_KEY, languageId);
+  saveToAsyncStorage(APP_LANGUAGE_STORAGE_KEY, languageId);
 }
 
-export async function saveAppLanguageToAsyncStorage(key, localeString) {
+export async function saveToAsyncStorage(key, localeString) {
   if (!localeString) {
     return;
   }
@@ -56,7 +56,7 @@ export async function saveAppLanguageToAsyncStorage(key, localeString) {
   }
 }
 
-export async function getAppLanguageToAsyncStorage(key) {
+export async function getFromAsyncStorage(key) {
   try {
     const value = await AsyncStorage.getItem(key);
     if (value !== null){

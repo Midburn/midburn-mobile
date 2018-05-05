@@ -8,9 +8,6 @@ import Tags from './TagsComponent';
 import {DetailsComponent} from './DetailsComponent';
 
 
-const ICON_SIZE = 14;
-
-
 
 export class EventComponent extends Component {
   constructor(props) {
