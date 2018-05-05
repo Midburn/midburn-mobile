@@ -37,9 +37,9 @@ export default class PrinciplesScreen extends Component {
                         style={{width: 40, height: 40,  marginLeft: -7}}
                       />
                     </View>
-                    <Text text40>{isRTL() ? principle.name : principle.nameEn}</Text>
+                    <Text text40 black>{isRTL() ? principle.name : principle.nameEn}</Text>
                   </View>
-                  <Text text70 style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{isRTL() ? principle.description : principle.descriptionEn}</Text>
+                  <Text text70 black style={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{isRTL() ? principle.description : principle.descriptionEn}</Text>
                 </View>
               );
             })
