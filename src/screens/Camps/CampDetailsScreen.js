@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {ScrollView, Image, Dimensions} from 'react-native';
+import {ScrollView, Image, Dimensions, BackHandler} from 'react-native';
 import {View, Button, Colors} from 'react-native-ui-lib';
 import {EventsComponent} from './../Now/EventsComponent';
 import * as store from '../../stores/campsAndArt/store';
@@ -28,8 +28,12 @@ export default class CampDetailsScreen extends Component {
     }
     this.description = isRTL() ? this.props.camp.description : this.props.camp.descriptionEn;
     this.description = this.description.length > 0 ? this.description : undefined;
-
     this.title = isRTL() ? this.props.camp.campName : this.props.camp.campNameEn;
+
+    BackHandler.addEventListener('hardwareBackPress', () => {
+      this.props.navigator.pop();
+      return true;
+    });
   }
 
   componentWillMount() {

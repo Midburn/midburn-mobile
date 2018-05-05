@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {FlatList, Platform} from 'react-native';
+import {BackHandler, FlatList, Platform} from 'react-native';
 import {View, TabBar, TextInput, Text} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import ArtRow from './ArtRow';
@@ -7,6 +7,7 @@ import * as store from '../../stores/campsAndArt/store';
 import * as actions from './../../stores/campsAndArt/actions';
 import SearchBar from '../components/SearchBar';
 import Strings from '../../utils/Strings';
+import {backToNowTab} from '../../stores/appActions';
 
 const SEARCH_BUTTON_ID = 'art_search';
 const IS_IOS = Platform.OS === 'ios';
@@ -41,6 +42,11 @@ class ArtScreen extends Component {
       if (this.searchTextInputRef) {
         this.searchTextInputRef.focus();
       }
+    } else if (event.id === 'didAppear') {
+      BackHandler.removeEventListener();
+      BackHandler.addEventListener('hardwareBackPress', () => {
+        return backToNowTab(this.props.navigator);
+      });
     }
   }
 

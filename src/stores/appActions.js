@@ -1,6 +1,7 @@
-import {AsyncStorage, Alert} from 'react-native';
+import {AsyncStorage, Alert, BackHandler} from 'react-native';
 import * as campsAndArtActions from './campsAndArt/actions';
 import * as giftsActions from './gifts/actions';
+import Strings from "../utils/Strings";
 
 const APP_LANGUAGE_STORAGE_KEY = '@midburn_language:key';
 
@@ -27,7 +28,7 @@ export function setAppLanguage(languageId) {
 
   if (getLocale() === languageId) {
     Alert.alert(
-     '',
+      '',
       '🤷‍♂️🤷‍♀️️',
       [
         {text: '🦄'},
@@ -64,8 +65,29 @@ export async function getFromAsyncStorage(key) {
     }
   } catch (error) {
     console.warn('ERROR - Failed to get from Async Storage');
-
   }
 }
 
+export function backToNowTab(navigator) {
+    navigator.switchToTab({
+      tabIndex: 0
+    });
+    return true;
+}
+
+export function exitApp() {
+  Alert.alert(
+    Strings('ANDROID_ALERT_TITLE'),
+    Strings('ANDROID_ALERT_MESSAGE'),
+    [
+      {text: Strings('ANDROID_ALERT_STAY'), style: 'cancel'},
+      {text: Strings('ANDROID_ALERT_LEAVE'), onPress: () => {
+          BackHandler.exitApp();
+        }},
+    ],
+    {cancelable: true}
+  );
+
+  return true;
+}
 

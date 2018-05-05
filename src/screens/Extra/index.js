@@ -1,9 +1,10 @@
 import React, {Component} from 'react';
-import {StyleSheet, ListView} from 'react-native';
+import {StyleSheet, ListView, BackHandler} from 'react-native';
 import {Text, View, Button, ListItem, Colors, Image, TouchableOpacity} from 'react-native-ui-lib';
 import Strings, {getLocale} from './../../utils/Strings';
 import SCREENS from './../../screens/screenNames';
-import {setAppLanguage} from "../../stores/appActions";
+import {backToNowTab, setAppLanguage} from '../../stores/appActions';
+import * as store from "../../stores/campsAndArt/store";
 
 const RIGHT_CHEVRON = require('../../../data/img/right-chevron.png');
 
@@ -62,6 +63,17 @@ export default class ExtraScreen extends Component {
     super(props);
     this.items = getItems();
     this.locale = getLocale();
+    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
+
+  }
+
+  onNavigatorEvent(event) {
+    if (event.id === 'willAppear') {
+      BackHandler.removeEventListener();
+      BackHandler.addEventListener('hardwareBackPress', () => {
+        return backToNowTab(this.props.navigator);
+      });
+    }
   }
 
   onPressed = (item) => {

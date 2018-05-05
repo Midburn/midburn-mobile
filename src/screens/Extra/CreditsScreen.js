@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 import {View, Text, Button, Colors, Image, Avatar} from 'react-native-ui-lib';
-import {ScrollView} from 'react-native';
+import {BackHandler, ScrollView} from 'react-native';
 import Strings, {isRTL} from './../../utils/Strings';
 
 
@@ -110,6 +110,17 @@ const TEXT = {
 
 export default class CreditsScreen extends Component {
 
+  constructor(props) {
+    super(props);
+    BackHandler.addEventListener('hardwareBackPress', () => {
+      this.props.navigator.pop();
+      return true;
+    });
+  }
+
+  // componentWillUnmount() {
+  //   BackHandler.removeEventListener();
+  // }
 
   _renderTeamMember(member, index) {
     return (

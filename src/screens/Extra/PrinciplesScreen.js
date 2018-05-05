@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
-import { Image, StyleSheet, ScrollView } from 'react-native';
+import {Image, StyleSheet, ScrollView, BackHandler} from 'react-native';
 import { Button, Text, View } from 'react-native-ui-lib';
 import {isRTL} from './../../utils/Strings';
 
@@ -21,6 +21,18 @@ const iconMap = {
 };
 
 export default class PrinciplesScreen extends Component {
+
+  constructor(props) {
+    super(props);
+    BackHandler.addEventListener('hardwareBackPress', () => {
+      this.props.navigator.pop();
+      return true;
+    });
+  }
+
+  // componentWillUnmount() {
+  //   BackHandler.removeEventListener();
+  // }
 
   render() {
     return (

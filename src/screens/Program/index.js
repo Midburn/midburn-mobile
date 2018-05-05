@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Dimensions} from 'react-native';
+import {BackHandler, Dimensions} from 'react-native';
 import {Text, View, Button, TabBar, Carousel} from 'react-native-ui-lib';
 import _ from 'lodash';
 import {connect} from 'remx';
@@ -7,6 +7,7 @@ import * as giftsStore from '../../stores/gifts/store';
 import SCREENS from './../../screens/screenNames';
 import {EventsComponent} from '../Now/EventsComponent';
 import {isRTL} from '../../utils/Strings';
+import {backToNowTab} from '../../stores/appActions';
 
 // const MIDBURN_STARTING_DATE = 1526299661000;
 // const MIDBURN_STARTING_DATE = 1522092866000; //fake date for presentation, set to 26.3
@@ -36,6 +37,7 @@ class ProgramScreen extends Component {
     this.days = isRTL() ? DAYS_HEB: DAYS_EN;;
     this.carousel = undefined;
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
+
   }
 
   onNavigatorEvent(event) {
@@ -45,6 +47,11 @@ class ProgramScreen extends Component {
           screen: SCREENS.FILTER_TAGS
         });
       }
+    } else if (event.id === 'willAppear') {
+      BackHandler.removeEventListener();
+      BackHandler.addEventListener('hardwareBackPress', () => {
+        return backToNowTab(this.props.navigator);
+      });
     }
   }
 

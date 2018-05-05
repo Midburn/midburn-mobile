@@ -2,10 +2,23 @@ import React, { Component } from 'react';
 import {View, Text, Button, Colors, Image} from 'react-native-ui-lib';
 import Strings from './../../utils/Strings';
 import {openEmailFeedback} from '../../stores/campsAndArt/actions';
+import {BackHandler} from "react-native";
 
 const gif = require('../../../data/2018/images/love.gif');
 
 export default class AppFeedbackScreen extends Component {
+
+  constructor(props) {
+    super(props);
+    BackHandler.addEventListener('hardwareBackPress', () => {
+      this.props.navigator.pop();
+      return true;
+    });
+  }
+
+  // componentWillUnmount() {
+  //   BackHandler.removeEventListener();
+  // }
 
   _onButtonPress = () => {
     openEmailFeedback({});

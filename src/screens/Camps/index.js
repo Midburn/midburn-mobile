@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {FlatList, Platform} from 'react-native';
+import {FlatList, Platform, BackHandler} from 'react-native';
 import {View, TabBar, TextInput, Text} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import CampRow from './CampRow';
@@ -7,10 +7,10 @@ import * as store from '../../stores/campsAndArt/store';
 import * as actions from './../../stores/campsAndArt/actions';
 import SearchBar from '../components/SearchBar';
 import Strings, {isRTL} from '../../utils/Strings';
+import {backToNowTab} from '../../stores/appActions';
 
 
 const SEARCH_BUTTON_ID = 'camp_search';
-const FAVOURITES_BUTTON_ID = 'camp_favourites';
 const ANDROID_SEARCH_ICON = require('../../../data/img/search.png');
 const IS_IOS = Platform.OS === 'ios';
 
@@ -44,10 +44,11 @@ class CampsScreen extends Component {
       if (this.searchTextInputRef) {
         this.searchTextInputRef.focus();
       }
-    }
-
-    if (event.id === FAVOURITES_BUTTON_ID) {
-      actions.showFavouritesScreen(this.props.navigator, '', this._renderRow, this._onRowPressed);
+    } else if (event.id === 'willAppear') {
+      BackHandler.removeEventListener();
+      BackHandler.addEventListener('hardwareBackPress', () => {
+        return backToNowTab(this.props.navigator);
+      });
     }
   }
 

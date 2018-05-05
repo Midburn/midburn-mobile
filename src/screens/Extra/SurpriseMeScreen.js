@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
 import {View, Text, Button, Colors, Image} from 'react-native-ui-lib';
-import {Platform} from 'react-native';
+import {BackHandler, Platform} from 'react-native';
 import * as store from '../../stores/gifts/store';
 import {connect} from 'remx';
 import Strings, {isRTL} from '../../utils/Strings';
@@ -18,7 +18,15 @@ class SurpriseMeScreen extends Component {
   constructor(props) {
     super(props);
     this.love = isRTL() ? this.props.loveToSpread.description : this.props.loveToSpread.descriptionEn;
+    BackHandler.addEventListener('hardwareBackPress', () => {
+      this.props.navigator.pop();
+      return true;
+    });
   }
+
+  // componentWillUnmount() {
+  //   BackHandler.removeEventListener();
+  // }
 
   _onButtonPress = () => {
     this.props.navigator.dismissModal();
@@ -33,7 +41,7 @@ class SurpriseMeScreen extends Component {
 
   render() {
     return (
-      <View flex spread margin-8 paddingV-30 bg-white>
+      <View flex spread padding-8 paddingV-15 bg-white>
         <View column center style={{marginTop: '10%'}}>
           {_.map(_.times(9, String), (str, i) => this._renderText(i))}
         </View>

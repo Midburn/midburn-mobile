@@ -102,5 +102,21 @@
   "NOW_EMPTY_STATE": {
     "he": "אין אירועים ב 3 שעות הקרובות 🌈,\nמוזמן לתאגר את עצמך וללחוץ\nעל ה 🎁 למעלה",
     "en": "No event in the next 3 hours 🌈,\nwelcome to challenge yourself\nand press the 🎁 above"
+  },
+  "ANDROID_ALERT_TITLE":{
+    "he": "כדאי לך לצאת מפה",
+    "en": "You Should Exit"
+  },
+  "ANDROID_ALERT_MESSAGE":{
+    "he": "זה זמן קסם",
+    "en": "LOVE Is In The Air"
+  },
+  "ANDROID_ALERT_STAY":{
+    "he": "השאר",
+    "en": "Stay"
+  },
+  "ANDROID_ALERT_LEAVE":{
+    "he": "צא",
+    "en": "Leave"
   }
 }

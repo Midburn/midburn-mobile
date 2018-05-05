@@ -1,6 +1,6 @@
 import _ from 'lodash';
 import React, { Component } from 'react';
-import {ScrollView} from 'react-native';
+import {BackHandler, ScrollView} from 'react-native';
 import { Button, Text, View } from 'react-native-ui-lib';
 import {isRTL} from './../../utils/Strings';
 
@@ -8,6 +8,18 @@ import {isRTL} from './../../utils/Strings';
 const safetyData = require('../../../data/2018/info/safety.json');
 
 export default class SafetyScreen extends Component {
+
+  constructor(props) {
+    super(props);
+    BackHandler.addEventListener('hardwareBackPress', () => {
+      this.props.navigator.pop();
+      return true;
+    });
+  }
+
+  // componentWillUnmount() {
+  //   BackHandler.removeEventListener();
+  // }
 
   render() {
     return (

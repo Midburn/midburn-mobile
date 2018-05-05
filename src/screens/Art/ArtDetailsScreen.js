@@ -1,10 +1,11 @@
 import React, {PureComponent} from 'react';
-import {ScrollView} from 'react-native';
+import {ScrollView, BackHandler} from 'react-native';
 import {View, Button, PageControl, Colors} from 'react-native-ui-lib';
 import {ArtCarousel} from './ArtCarousel';
 import String, {isRTL} from '../../utils/Strings';
 import * as actions from '../../stores/campsAndArt/actions';
 import {Text} from '../components/Text';
+import AppFeedbackScreen from "../Extra/AppFeedbackScreen";
 
 
 export default class ArtDetailsScreen extends PureComponent {
@@ -15,7 +16,10 @@ export default class ArtDetailsScreen extends PureComponent {
     this.title = isRTL() ? this.props.art.title : this.props.art.titleEn;
     this.name = isRTL() ? this.props.art.name : this.props.art.nameEn;
 
-
+    BackHandler.addEventListener('hardwareBackPress', () => {
+      this.props.navigator.pop();
+      return true;
+    });
   }
 
   state = {
