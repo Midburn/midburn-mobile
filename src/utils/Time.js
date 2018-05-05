@@ -8,7 +8,7 @@ export function getHourForTime(time) {
 }
 
 export function getMomentObject(time) {
-  return moment(time, 'X').locale(getLocale());
+  return moment(time, 'X').utcOffset(3).locale(getLocale());
 }
 
 export function getHourFromTime(time) {
@@ -17,4 +17,8 @@ export function getHourFromTime(time) {
 
 export function getDayFromTime(time) {
   return getMomentObject(time).format('dddd DD/MM');
+}
+
+export function getNowUnixTime() {
+  return moment().utcOffset(3).format('X');
 }
