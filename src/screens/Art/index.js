@@ -29,6 +29,7 @@ class ArtScreen extends Component {
     this.state = {
       showSearchBar: false
     };
+    this.flatListRef = undefined;
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
   }
 
@@ -61,6 +62,7 @@ class ArtScreen extends Component {
   }
 
   onTextChanged = (text) => {
+    this.flatListRef.scrollToOffset({x: 0, y: 0, animated: true});
     store.setters.setSearchArt(text)
   }
 
@@ -85,6 +87,7 @@ class ArtScreen extends Component {
   renderArtList() {
     return (
       <FlatList
+        ref={(ref) => this.flatListRef = ref}
         key={'art'}
         style={{padding: 15}}
         data={this.props.artData}

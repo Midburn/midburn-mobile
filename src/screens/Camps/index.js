@@ -33,6 +33,7 @@ class CampsScreen extends Component {
     this.state = {
       showSearchBar: false
     };
+    this.flatListRef = undefined;
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
   }
 
@@ -65,10 +66,9 @@ class CampsScreen extends Component {
   }
 
   onTextChanged = (text) => {
+    this.flatListRef.scrollToOffset({x: 0, y: 0, animated: true});
     store.setters.setSearchCamp(text)
   }
-
-
 
   _renderSearchBar() {
     return (
@@ -83,22 +83,6 @@ class CampsScreen extends Component {
     );
   }
 
-  // _renderSearchBar() {
-  //   return (
-  //     <View paddingH-8>
-  //       <TextInput
-  //         ref={(ref) => this.searchTextInputRef = ref}
-  //         autoCorrect={false}
-  //         style={{height: 40, borderColor: 'gray', borderWidth: 1}}
-  //         onChangeText={this.onTextChanged}
-  //         value={this.state.text}
-  //         placeholder={PLACEHOLDER_SEARCH_INPUT}
-  //       />
-  //     </View>
-  //   );
-  // }
-
-
   _keyExtractor = (item, index) => {
     return item.campId;
   }
@@ -106,6 +90,7 @@ class CampsScreen extends Component {
   renderCampsList() {
     return (
       <FlatList
+        ref={(ref) => this.flatListRef = ref}
         key={'camps'}
         style={{padding: 15}}
         data={this.props.campsData}
