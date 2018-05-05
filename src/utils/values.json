@@ -94,5 +94,13 @@
   "FEW_WORDS": {
     "he": "כמה מילים",
     "en": "Few Words"
+  },
+  "THANKS": {
+    "he": "תודה",
+    "en": "Thanks"
+  },
+  "NOW_EMPTY_STATE": {
+    "he": "אין אירועים ב 3 שעות הקרובות 🌈,\nמוזמן לתאגר את עצמך וללחוץ\nעל ה 🎁 למעלה",
+    "en": "No event in the next 3 hours 🌈,\nwelcome to challenge yourself\nand press the 🎁 above"
   }
 }
