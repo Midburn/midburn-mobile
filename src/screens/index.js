@@ -10,7 +10,6 @@ import NowScreen from './Now';
 import PrinciplesScreen from './Extra/PrinciplesScreen';
 import CampDetailsScreen from './Camps/CampDetailsScreen'
 import FilterTagsScreen from './FilterTags'
-import FavouritesScreen from './Favourites'
 import OpenSourcesScreen from './Extra/OpenSourcesScreen';
 import AppFeedbackScreen from './Extra/AppFeedbackScreen';
 import SafetyScreen from './Extra/SafetyScreen';
@@ -28,7 +27,6 @@ export function registerContainers() {
   Navigation.registerComponent(SCREENS.EXTRA, () => ExtraScreen);
   Navigation.registerComponent(SCREENS.PRINCIPLES, () => PrinciplesScreen);
   Navigation.registerComponent(SCREENS.FILTER_TAGS, () => FilterTagsScreen);
-  Navigation.registerComponent(SCREENS.FAVOURITES, () => FavouritesScreen);
 
   Navigation.registerComponent(SCREENS.CAMP_SCREEN, () => CampDetailsScreen);
   Navigation.registerComponent(SCREENS.ART_SCREEN, () => ArtDetailsScreen);
