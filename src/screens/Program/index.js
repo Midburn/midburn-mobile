@@ -119,14 +119,18 @@ class ProgramScreen extends Component {
           <Button link
                   label={this.getDayLabel(index, BUTTON_TYPE.PREV)}
                   onPress={this.onPrevPressed}
-                  labelStyle={{writingDirection: isRTL() ? 'rtl' : 'ltr'}}
+                  labelStyle={{writingDirection: isRTL() ? 'rtl' : 'ltr', fontWeight: '500', fontSize: 17}}
           />
         </View>
         <View center flex>
-          <Text>{this.getDayLabel(index, BUTTON_TYPE.CURRENT)}</Text>
+          <Text black text70 style={{fontWeight: '600'}}>{this.getDayLabel(index, BUTTON_TYPE.CURRENT)}</Text>
         </View>
         <View flex>
-          <Button link label={this.getDayLabel(index, BUTTON_TYPE.NEXT)} onPress={this.onNextPressed}/>
+          <Button link
+                  label={this.getDayLabel(index, BUTTON_TYPE.NEXT)}
+                  onPress={this.onNextPressed}
+                  labelStyle={{fontSize: 17, fontWeight: '500'}}
+          />
         </View>
       </View>
     );

@@ -16,6 +16,7 @@ import AppFeedbackScreen from './Extra/AppFeedbackScreen';
 import SafetyScreen from './Extra/SafetyScreen';
 import SettingsScreen from './Extra/SettingsScreen';
 import CreditsScreen from './Extra/CreditsScreen';
+import SurpriseMeScreen from './Extra/SurpriseMeScreen';
 
 // register all screens of the app (including internal ones)
 export function registerContainers() {
@@ -36,4 +37,5 @@ export function registerContainers() {
   Navigation.registerComponent(SCREENS.SAFETY, () => SafetyScreen);
   Navigation.registerComponent(SCREENS.SETTINGS, () => SettingsScreen);
   Navigation.registerComponent(SCREENS.CREDITS, () => CreditsScreen);
+  Navigation.registerComponent(SCREENS.SURPRISE_ME, () => SurpriseMeScreen);
 }
