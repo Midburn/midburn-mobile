@@ -4,7 +4,7 @@ import {isRTL} from '../../utils/Strings';
 import Tags from '../components/TagsComponent';
 import {Text} from '../components/Text';
 import {DetailsComponent} from '../components/DetailsComponent';
-
+import _ from 'lodash';
 
 
 export default class CampsTab extends PureComponent {
@@ -13,7 +13,7 @@ export default class CampsTab extends PureComponent {
     super(props);
     this.tags = this.props.camp.tags;
     this.title = isRTL() ? this.props.camp.campName : this.props.camp.campNameEn;
-    this.description = isRTL() ? this.props.camp.description : this.props.camp.descriptionEn;
+    this.description = this._campDescription();
     this.location = isRTL() ? this.props.camp.location : this.props.camp.locationEn;
     this.detailsObject = []
   }
@@ -47,6 +47,11 @@ export default class CampsTab extends PureComponent {
     return (
       <Card.Image width={'33%'} imageSource={this.props.imageSource}/>
     );
+  }
+
+  _campDescription() {
+    const description = isRTL() ? this.props.camp.description : this.props.camp.descriptionEn;
+    return _.truncate(description, { length: 125 });
   }
 
 
