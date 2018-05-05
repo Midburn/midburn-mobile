@@ -10,10 +10,15 @@ import Strings from '../../utils/Strings';
 export class EventsComponent extends Component {
 
 
+  constructor(props) {
+    super(props);
+    this.emptyStateString = _.get(this.props, 'emptyStateString', Strings("EVENT_EMPTY_STATE"));
+  }
+
   renderEmptyState() {
     return (
       <View flex padding-15 style={styles.emptyContainer}>
-        <Text center text70 dark40 style={{fontWeight: '500'}}>{Strings("EVENT_EMPTY_STATE")}</Text>
+        <Text center text70 dark40 style={{fontWeight: '500'}}>{this.emptyStateString}</Text>
       </View>
     );
   }
