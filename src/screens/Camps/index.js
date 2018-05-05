@@ -37,7 +37,7 @@ class CampsScreen extends Component {
   }
 
   onNavigatorEvent(event) {
-    if (event.id == SEARCH_BUTTON_ID) {
+    if (event.id === SEARCH_BUTTON_ID) {
       this.setState({showSearchBar: !this.state.showSearchBar});
       store.setters.setSearchCamp();
       if (this.searchTextInputRef) {
@@ -45,7 +45,7 @@ class CampsScreen extends Component {
       }
     }
 
-    if (event.id == FAVOURITES_BUTTON_ID) {
+    if (event.id === FAVOURITES_BUTTON_ID) {
       actions.showFavouritesScreen(this.props.navigator, '', this._renderRow, this._onRowPressed);
     }
   }
