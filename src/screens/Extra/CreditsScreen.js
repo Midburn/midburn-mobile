@@ -60,6 +60,21 @@ const MEMBERS = [
       he: 'עיצוב',
       en: 'UI'
     }
+  },
+  {
+    name: {
+        "campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
+        "campName": "זקני השבט",
+        "campNameEn": "Tribe Elders",
+
+      he: 'זקני השבט',
+      en: 'Tribe Elders'
+    },
+    avatar: require('../../../data/2018/images/camps/9277cb32-9b72-4040-a690-5c041cc600d1/coverUrl.jpg'),
+    role: {
+      he: 'תוכן',
+      en: 'Content'
+    }
   }
 ];
 
