@@ -5605,132 +5605,6 @@
     "locationEn": "4:00 Blutat HaYtztrubal"
   },
   {
-    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
-    "giftId": "3142ea1b-3e74-47b6-b301-3937378f3971",
-    "campName": "א3 הכיתה הטיפולית",
-    "campNameEn": "3A - Special Education",
-    "description": "חזרה לבית ספר",
-    "descriptionEn": "Back to school",
-    "title": "חזרה לבית ספר",
-    "titleEn": "Back to school",
-    "time": 1526295600,
-    "allDay": false,
-    "locationName": "א3 - הכיתה הטיפולית",
-    "locationNameEn": "א3 - הכיתה הטיפולית",
-    "tags": [
-      "Adults",
-      "Games",
-      "Workshop"
-    ],
-    "location": "אמיגדלה 7:00",
-    "locationEn": "7:00 Amigdala"
-  },
-  {
-    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
-    "giftId": "2c2d9fc1-4782-4386-9351-2b0ce3782dc9",
-    "campName": "א3 הכיתה הטיפולית",
-    "campNameEn": "3A - Special Education",
-    "description": "חזרה לבית ספר",
-    "descriptionEn": "Back to school",
-    "title": "חזרה לבית ספר",
-    "titleEn": "Back to school",
-    "time": 1526382000,
-    "allDay": false,
-    "locationName": "א3 - הכיתה הטיפולית",
-    "locationNameEn": "א3 - הכיתה הטיפולית",
-    "tags": [
-      "Adults",
-      "Games",
-      "Workshop"
-    ],
-    "location": "אמיגדלה 7:00",
-    "locationEn": "7:00 Amigdala"
-  },
-  {
-    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
-    "giftId": "668f5618-95ee-425a-bcff-b9aa81ba0874",
-    "campName": "א3 הכיתה הטיפולית",
-    "campNameEn": "3A - Special Education",
-    "description": "חזרה לבית ספר",
-    "descriptionEn": "Back to school",
-    "title": "חזרה לבית ספר",
-    "titleEn": "Back to school",
-    "time": 1526468400,
-    "allDay": false,
-    "locationName": "א3 - הכיתה הטיפולית",
-    "locationNameEn": "א3 - הכיתה הטיפולית",
-    "tags": [
-      "Adults",
-      "Games",
-      "Workshop"
-    ],
-    "location": "אמיגדלה 7:00",
-    "locationEn": "7:00 Amigdala"
-  },
-  {
-    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
-    "giftId": "608761c8-16f6-412b-9658-66be751f1520",
-    "campName": "א3 הכיתה הטיפולית",
-    "campNameEn": "3A - Special Education",
-    "description": "חזרה לבית ספר",
-    "descriptionEn": "Back to school",
-    "title": "חזרה לבית ספר",
-    "titleEn": "Back to school",
-    "time": 1526554800,
-    "allDay": false,
-    "locationName": "א3 - הכיתה הטיפולית",
-    "locationNameEn": "א3 - הכיתה הטיפולית",
-    "tags": [
-      "Adults",
-      "Games",
-      "Workshop"
-    ],
-    "location": "אמיגדלה 7:00",
-    "locationEn": "7:00 Amigdala"
-  },
-  {
-    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
-    "giftId": "b8785cd4-f053-4079-b65f-1733a40e863e",
-    "campName": "א3 הכיתה הטיפולית",
-    "campNameEn": "3A - Special Education",
-    "description": "חזרה לבית ספר",
-    "descriptionEn": "Back to school",
-    "title": "חזרה לבית ספר",
-    "titleEn": "Back to school",
-    "time": 1526641200,
-    "allDay": false,
-    "locationName": "א3 - הכיתה הטיפולית",
-    "locationNameEn": "א3 - הכיתה הטיפולית",
-    "tags": [
-      "Adults",
-      "Games",
-      "Workshop"
-    ],
-    "location": "אמיגדלה 7:00",
-    "locationEn": "7:00 Amigdala"
-  },
-  {
-    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
-    "giftId": "66c4a30f-9288-40d3-8b80-d20f77d2bb28",
-    "campName": "א3 הכיתה הטיפולית",
-    "campNameEn": "3A - Special Education",
-    "description": "חזרה לבית ספר",
-    "descriptionEn": "Back to school",
-    "title": "חזרה לבית ספר",
-    "titleEn": "Back to school",
-    "time": 1526727600,
-    "allDay": false,
-    "locationName": "א3 - הכיתה הטיפולית",
-    "locationNameEn": "א3 - הכיתה הטיפולית",
-    "tags": [
-      "Adults",
-      "Games",
-      "Workshop"
-    ],
-    "location": "אמיגדלה 7:00",
-    "locationEn": "7:00 Amigdala"
-  },
-  {
     "campId": "2af160db-947c-4d00-9632-ade5df521d53",
     "giftId": "9af954bf-7b7b-4db9-8921-1ef4f3513aff",
     "campName": "סטרייט פרנדלי",
@@ -14056,6 +13930,364 @@
       "Mingling",
       "Party",
       "Alcohol"
+    ]
+  },
+
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "1c86a4cf-a69c-4018-af2e-7b27ed01da5c",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "שושלת השוגונים ביפן. מרצה - יניב אלמוזלינו.",
+    "descriptionEn": "The Shogun Dynasty in Japan with Yaniv Almozlino.",
+    "title": "שושלת השוגונים ביפן. מרצה - יניב אלמוזלינו.",
+    "titleEn": "The Shogun Dynasty in Japan with Yaniv Almozlino.",
+    "time": 1526373900,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "a83e4aa9-b773-4be7-a5b2-244e16eba1d9",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "אומנות לחימה והגנה עצמית, 3 טכניקות פשוטות להתקפה והתחמקות (סדנה מעשית). מרצה - גל ניצן.",
+    "descriptionEn": "Martial arts and self defense, 3 practical techniques for attack and evasion with Gal Niztan",
+    "title": "אומנות לחימה והגנה עצמית, 3 טכניקות פשוטות להתקפה והתחמקות (סדנה מעשית). מרצה - גל ניצן.",
+    "titleEn": "Martial arts and self defense, 3 practical techniques for attack and evasion with Gal Niztan",
+    "time": 1526376600,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "3db69987-c6e7-47a0-a539-a461fc575d0a",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "אהבה זה כואב - כיצד להצליף נכון ובטוח. מרצה - לואר עמור.",
+    "descriptionEn": "Love hurts - how to whip the right way with Loer Amor",
+    "title": "אהבה זה כואב - כיצד להצליף נכון ובטוח. מרצה - לואר עמור.",
+    "titleEn": "Love hurts - how to whip the right way with Loer Amor",
+    "time": 1526392800,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "db14903a-c9fa-4865-b131-8567cbfdb2c9",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "לאהוב בזהירות, איך לעשות אהבה בטוחה. מרצה - לואר עמור",
+    "descriptionEn": "Tender love, how to be a safe lover with Loer Amor",
+    "title": "לאהוב בזהירות, איך לעשות אהבה בטוחה. מרצה - לואר עמור",
+    "titleEn": "Tender love, how to be a safe lover with Loer Amor",
+    "time": 1526395500,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "e61ee12e-f0ae-4d9f-9dba-4c0cfd001ceb",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "ספיד דייטינג עם רפי וטל",
+    "descriptionEn": "Speed dating game with Rafi and Tal",
+    "title": "ספיד דייטינג עם רפי וטל",
+    "titleEn": "Speed dating game with Rafi and Tal",
+    "time": 1526410800,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "11076685-9e70-44a6-b52c-121b507850fd",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "הדרך של היין והיאנג. מרצה - דורוני.",
+    "descriptionEn": "The Way of Yin and Yang with Doroni.",
+    "title": "הדרך של היין והיאנג. מרצה - דורוני.",
+    "titleEn": "The Way of Yin and Yang with Doroni.",
+    "time": 1526455800,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "62398d7c-9372-4f70-b7a7-4e1e1a27ec92",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "ללמד איך ללמד. מרצה - רותם בן יהודה.",
+    "descriptionEn": "Teach how to teach with Rotem Ben Yehuda",
+    "title": "ללמד איך ללמד. מרצה - רותם בן יהודה.",
+    "titleEn": "Teach how to teach with Rotem Ben Yehuda",
+    "time": 1526461200,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "97deeb1a-05ae-4fc9-b98e-3a39f2522f53",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "מהפכת הבינה המלאכותית - אחרית הימים ב 2048. מרצה - אוהד רוזן.",
+    "descriptionEn": "The AI revolution, the end of days in 2048 with Ohad Rozen.",
+    "title": "מהפכת הבינה המלאכותית - אחרית הימים ב 2048. מרצה - אוהד רוזן.",
+    "titleEn": "The AI revolution, the end of days in 2048 with Ohad Rozen.",
+    "time": 1526463900,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "fb8adad7-934f-4afb-b9a5-b41f76aab9c6",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "הכל או כלום. מרצה - עידו פרום.",
+    "descriptionEn": "All or nothing with Ido Frum.",
+    "title": "הכל או כלום. מרצה - עידו פרום.",
+    "titleEn": "All or nothing with Ido Frum.",
+    "time": 1526479200,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "936fd422-041c-4d1c-b215-9592e313383b",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "שעות קבלה לא רציונליות. מרצה - דן אריאלי.",
+    "descriptionEn": "Irrational office hours, ask me anything with Dan Ariely",
+    "title": "שעות קבלה לא רציונליות. מרצה - דן אריאלי.",
+    "titleEn": "Irrational office hours, ask me anything with Dan Ariely",
+    "time": 1526481900,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "1560cbae-81bb-4e61-bbb9-c5d06333229a",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "משחק מופרע של תככים ומזימות. מנחים - דיאנה ורומן.",
+    "descriptionEn": "A crazy game of intrigues with Diana and Roman",
+    "title": "משחק מופרע של תככים ומזימות. מנחים - דיאנה ורומן.",
+    "titleEn": "A crazy game of intrigues with Diana and Roman",
+    "time": 1526468400,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "d8eee95c-1076-45b1-a047-7e1f5fe81cd9",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "תקשורת מקרבת. מרצה - נועה פלג טלר.",
+    "descriptionEn": "Communicate with people the right way with Noa Peleg Teler",
+    "title": "תקשורת מקרבת. מרצה - נועה פלג טלר.",
+    "titleEn": "Communicate with people the right way with Noa Peleg Teler",
+    "time": 1526545800,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "661bbae4-dae1-4673-b775-40a80e82ebf8",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "לטוס גבוה, סדנת בניית מטוסי נייר ותחרות. מרצה - שוהם.",
+    "descriptionEn": "Fly high, learn how to build the best paper plane with Shoham.",
+    "title": "לטוס גבוה, סדנת בניית מטוסי נייר ותחרות. מרצה - שוהם.",
+    "titleEn": "Fly high, learn how to build the best paper plane with Shoham.",
+    "time": 1526548500,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "3efac8d6-47f9-495a-9454-66ab9344be19",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "מה הקשר בין ברית מילה ואפריקה? . מרצה: נטלי.",
+    "descriptionEn": "What's with circumcision and Africa? with Nataly",
+    "title": "מה הקשר בין ברית מילה ואפריקה? . מרצה: נטלי.",
+    "titleEn": "What's with circumcision and Africa? with Nataly",
+    "time": 1526551200,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "17b3544d-3cc7-4332-bef4-06de67226fa8",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "קוטביות באינטימיות ויחסים, העצמת העונג המיני. מרצה -  איילה אלישע.",
+    "descriptionEn": "Polarization in intimacy and relationships, empowerment of sexual pleasure with Ayala Elisha",
+    "title": "קוטביות באינטימיות ויחסים, העצמת העונג המיני. מרצה -  איילה אלישע.",
+    "titleEn": "Polarization in intimacy and relationships, empowerment of sexual pleasure with Ayala Elisha",
+    "time": 1526565600,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "de9f1242-3a13-4f15-b44f-2a36c6bd8294",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "ניסוי בטרנספורמציה קבוצתית. מנחה: שלג.",
+    "descriptionEn": "Group transformation experiment with Sheleg",
+    "title": "ניסוי בטרנספורמציה קבוצתית. מנחה: שלג.",
+    "titleEn": "Group transformation experiment with Sheleg",
+    "time": 1526571000,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
+    ]
+  },
+  {
+    "campId": "a15f4d1d-f895-49f6-8724-c3eb0bfdc389",
+    "giftId": "2be88666-afc9-42ce-94bf-ad9ef9448022",
+    "campName": "א3 הכיתה הטיפולית",
+    "campNameEn": "3A - Special Education",
+    "description": "אופטימיות זה הדיבור. מרצה: שלומי פרין .",
+    "descriptionEn": "Optimism is the thing with Shlomi Farin.",
+    "title": "אופטימיות זה הדיבור. מרצה: שלומי פרין .",
+    "titleEn": "Optimism is the thing with Shlomi Farin.",
+    "time": 1526549400,
+    "allDay": false,
+    "locationName": "אמיגדלה 7:00",
+    "locationNameEn": "7:00 Amigdala",
+    "tags": [
+      "Live",
+      "Games",
+      "Workshop",
+      "BodyAndSoul",
+      "English"
     ]
   }
 
