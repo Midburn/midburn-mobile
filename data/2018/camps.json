@@ -1345,7 +1345,7 @@
 	{
 		"campId": "5550ea99-e7d4-4ab1-b00a-8c24a2bcf121",
 		"campName": "בעקבות מנהרת הארנב",
-		"campNameEn": "Rabit Hole",
+		"campNameEn": "Rabbit Hole",
 		"description": "מחילה צוננת המהווה מפלט מרענן באמצע מדבר שרבי",
 		"descriptionEn": "Rabbit hole -  Chilled refreshing desert sanctuary",
 		"location": "טיילת 3:15",
@@ -1357,9 +1357,10 @@
 			"English"
 		],
 		"gifts": [
-			"d079884f-9f27-4d33-87c7-ec8ba4a8c5eb",
-			"0888e64c-5a66-4833-a2a8-f94bed323a7f"
-		]
+			"0c1139a0-0023-49dd-b221-05b13787d20a",
+			"2dec1c76-19e6-49b3-b1b5-a69a62749a9a",
+			"212b77c6-0f6f-4531-bbda-ee705ade9055",
+			"d680f083-cc2d-4e42-9a29-108be0e30442"		]
 	},
 	{
 		"campId": "704b15f0-ddca-4e6a-a4f7-b6e0c7bb79d6",
