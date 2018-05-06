@@ -13,6 +13,8 @@ const state = remx.state({
   searchCamp: undefined,
   searchArt: undefined,
   selectedTagIndex: undefined,
+  fuseCamp: undefined,
+  fuseArt: undefined,
   campTags: [],
   giftsTags: []
 });
@@ -21,9 +23,30 @@ const state = remx.state({
 export const setters = remx.setters({
   setCamps(camps) {
     state.camps = camps;
+    const options = {
+        shouldSort: true,
+        threshold: 0.6,
+        location: 0,
+        distance: 100,
+        maxPatternLength: 32,
+        minMatchCharLength: 2,
+        keys: ["campName", "campNameEn", "description", "descriptionEn", "location", "locationEn" ]
+    };
+    state.fuseCamp = new Fuse(camps, options);
   },
   setArt(art) {
     state.art = art;
+    const options = {
+        shouldSort: true,
+        threshold: 0.6,
+        location: 0,
+        distance: 100,
+        maxPatternLength: 32,
+        minMatchCharLength: 2,
+        keys: ["name", "nameEn", "title", "titleEn", "artist" ]
+    };
+
+    state.fuseArt = new Fuse(art, options);
   },
   setSearchCamp(search) {
     state.searchCamp = search;
@@ -54,26 +77,16 @@ export const getters = remx.getters({
     return state.search;
   },
   getArtDataToShow() {
-    return getters.getDataToShow(state.art, state.searchArt, ["name", "nameEn", "title", "titleEn", "artist" ]);
+      if (state.searchArt) {
+          return state.fuseArt.search(state.searchArt);
+      }
+      return state.art;
   },
   getCampsDataToShow() {
-    return getters.getDataToShow(state.camps, state.searchCamp, ["campName", "campNameEn", "description", "descriptionEn", "location", "locationEn" ]);
-  },
-  getDataToShow(dataArray, whatToSearch, keysToSearch) {
-    if (whatToSearch) {
-        const options = {
-            shouldSort: true,
-            threshold: 0.6,
-            location: 0,
-            distance: 100,
-            maxPatternLength: 32,
-            minMatchCharLength: 2,
-            keys: keysToSearch
-        };
-        const fuse = new Fuse(dataArray, options);
-        return fuse.search(whatToSearch);
-    }
-    return dataArray;
+      if (state.searchCamp) {
+          return state.fuseCamp.search(state.searchCamp);
+      }
+      return state.camps;
   },
   getCampForId(campId) {
     return getters.getObjectFromArrayForId(state.camps, 'campId', campId);
