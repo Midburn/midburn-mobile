@@ -446,12 +446,15 @@
 		"campId": "170f343a-47b9-4410-b698-baab7b65f1a1",
 		"campName": "קמפ שנ\"צ",
 		"campNameEn": "Shnazzzz",
-		"description": "קמפ שנ\"צ מזמין אתכם למנוחת צהריים בפלאיה. כל יום בין שתיים לארבע בצהריים אתם מוזמנים לנמנם ולנוח במתחם המפנק שלנו באווירה נעימה ורגועה. שעון החול יזרום ובסופו תתקיים חפלת השכמה מעוררת, כל יום מסיבת התעוררות אחרת – הפתעות ופינוקים. יש גם פינת ילדים.",
-		"descriptionEn": "Shnazzzz - For Your Siesta. Every day between 2-4 pm you are lovingly invited to our pampering camp for your well-deserved afternoon nap. Just relax and take it easy in an atmosphere of tranquility and serenity, while the sand in the hourglass trickles away slowly. Each afternoon from 16:00 to 18:00 we will celebrate awakening with fun parties! We are kid-friendly ☺",
+		"description": "קמפ שנ\"צ מזמין אתכם למנוחת צהריים בפלאיה. כל יום בין שתיים לארבע בצהריים אתם מוזמנים לנמנם ולנוח במתחם המפנק שלנו באווירה נעימה ורגועה.",
+		"descriptionEn": " Shnazzzz - for your siesta. Every day between 2-4 pm you are lovingly invited to our pampering camp for your well-deserved afternoon nap.",
 		"location": "אמיגדלה 3:00",
 		"locationEn": "3:00 Amigdala",
 		"tags": [
 			"PhysicallyDisabled",
+			"English",
+			"Kids",
+			"BodyAndSoul",
 			"Sleep"
 		],
 		"gifts": [
