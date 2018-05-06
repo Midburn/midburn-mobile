@@ -119,8 +119,8 @@
 	},
 	{
 		"campId": "43ffa9b0-691e-4ee0-af0c-a15ccdf90dbf",
-		"campName": "קוסומו",
-		"campNameEn": "Kosomo",
+		"campName": "קוסומו בים",
+		"campNameEn": "KuSumo",
 		"description": "מחנה קוסומו האגדי חוזר לפלאיה בפעם החמישית",
 		"descriptionEn": "The KuSumo is back in the Playa for the 5th time",
 		"location": "אמיגדלה 4:00",
@@ -128,6 +128,7 @@
 		"tags": [
 			"PhysicallyDisabled",
 			"Party",
+			"Kids",
 			"English"
 		],
 		"gifts": [
