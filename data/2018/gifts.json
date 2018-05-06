@@ -1309,132 +1309,6 @@
     "locationEn": "3:00 Amigdala"
   },
   {
-    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
-    "giftId": "167bce8a-00b7-4408-96f1-dc3e3888a3ec",
-    "campName": "קאמפי קאמפ",
-    "campNameEn": "Campy Camp",
-    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום",
-    "descriptionEn": "Cool misty sprinkler fun",
-    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום",
-    "titleEn": "Cool misty sprinkler fun",
-    "time": 1526299200,
-    "allDay": false,
-    "locationName": "קאמפי קאמפ",
-    "locationNameEn": "קאמפי קאמפ",
-    "tags": [
-      "Kids",
-      "FoodAndDrinks",
-      "BodyAndSoul"
-    ],
-    "location": "אמיגדלה 3:00",
-    "locationEn": "3:00 Amigdala"
-  },
-  {
-    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
-    "giftId": "cb913c75-7f18-4d76-bbc8-236c8c361afb",
-    "campName": "קאמפי קאמפ",
-    "campNameEn": "Campy Camp",
-    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום",
-    "descriptionEn": "Cool misty sprinkler fun",
-    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום",
-    "titleEn": "Cool misty sprinkler fun",
-    "time": 1526385600,
-    "allDay": false,
-    "locationName": "קאמפי קאמפ",
-    "locationNameEn": "קאמפי קאמפ",
-    "tags": [
-      "Kids",
-      "FoodAndDrinks",
-      "BodyAndSoul"
-    ],
-    "location": "אמיגדלה 3:00",
-    "locationEn": "3:00 Amigdala"
-  },
-  {
-    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
-    "giftId": "7f3f5a66-5620-4c06-af70-0f096d7afccc",
-    "campName": "קאמפי קאמפ",
-    "campNameEn": "Campy Camp",
-    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום",
-    "descriptionEn": "Cool misty sprinkler fun",
-    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום",
-    "titleEn": "Cool misty sprinkler fun",
-    "time": 1526472000,
-    "allDay": false,
-    "locationName": "קאמפי קאמפ",
-    "locationNameEn": "קאמפי קאמפ",
-    "tags": [
-      "Kids",
-      "FoodAndDrinks",
-      "BodyAndSoul"
-    ],
-    "location": "אמיגדלה 3:00",
-    "locationEn": "3:00 Amigdala"
-  },
-  {
-    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
-    "giftId": "37e7e813-b024-4593-8875-921bd024050e",
-    "campName": "קאמפי קאמפ",
-    "campNameEn": "Campy Camp",
-    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום",
-    "descriptionEn": "Cool misty sprinkler fun",
-    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום",
-    "titleEn": "Cool misty sprinkler fun",
-    "time": 1526558400,
-    "allDay": false,
-    "locationName": "קאמפי קאמפ",
-    "locationNameEn": "קאמפי קאמפ",
-    "tags": [
-      "Kids",
-      "FoodAndDrinks",
-      "BodyAndSoul"
-    ],
-    "location": "אמיגדלה 3:00",
-    "locationEn": "3:00 Amigdala"
-  },
-  {
-    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
-    "giftId": "707a85a3-e6ca-4996-aa97-830bd5eed428",
-    "campName": "קאמפי קאמפ",
-    "campNameEn": "Campy Camp",
-    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום",
-    "descriptionEn": "Cool misty sprinkler fun",
-    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום",
-    "titleEn": "Cool misty sprinkler fun",
-    "time": 1526644800,
-    "allDay": false,
-    "locationName": "קאמפי קאמפ",
-    "locationNameEn": "קאמפי קאמפ",
-    "tags": [
-      "Kids",
-      "FoodAndDrinks",
-      "BodyAndSoul"
-    ],
-    "location": "אמיגדלה 3:00",
-    "locationEn": "3:00 Amigdala"
-  },
-  {
-    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
-    "giftId": "fb76bb08-3b9b-49f3-9af6-0732193426b7",
-    "campName": "קאמפי קאמפ",
-    "campNameEn": "Campy Camp",
-    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום",
-    "descriptionEn": "Cool misty sprinkler fun",
-    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום",
-    "titleEn": "Cool misty sprinkler fun",
-    "time": 1526731200,
-    "allDay": false,
-    "locationName": "קאמפי קאמפ",
-    "locationNameEn": "קאמפי קאמפ",
-    "tags": [
-      "Kids",
-      "FoodAndDrinks",
-      "BodyAndSoul"
-    ],
-    "location": "אמיגדלה 3:00",
-    "locationEn": "3:00 Amigdala"
-  },
-  {
     "campId": "05ffd18b-1471-44c5-935d-8aed3e6053fd",
     "giftId": "2510cf99-f668-46c9-91db-908d191fd044",
     "campName": "נע ונד",
@@ -10829,126 +10703,6 @@
     "locationEn": "2:30 Amigdala"
   },
   {
-    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
-    "giftId": "4ae5a2a2-ec32-41e6-8bd2-4a96aef87e48",
-    "campName": "קאמפי קאמפ",
-    "campNameEn": "Campy Camp",
-    "description": "מנהרת אורות פסיכדלית מופעלת בנגינה על תופים וגיטרה",
-    "descriptionEn": "A colorful lights tunel played by drums & guitar",
-    "title": "מנהרת אורות פסיכדלית מופעלת בנגינה על תופים וגיטרה",
-    "titleEn": "A colorful lights tunel played by drums & guitar",
-    "time": 1526317200,
-    "allDay": false,
-    "locationName": "קאמפי קאמפ",
-    "locationNameEn": "קאמפי קאמפ",
-    "tags": [
-      "Kids",
-      "Games"
-    ],
-    "location": "אמיגדלה 3:00",
-    "locationEn": "3:00 Amigdala"
-  },
-  {
-    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
-    "giftId": "b0fdc75a-7714-4c6f-81ff-350edcf3af64",
-    "campName": "קאמפי קאמפ",
-    "campNameEn": "Campy Camp",
-    "description": "מנהרת אורות פסיכדלית מופעלת בנגינה על תופים וגיטרה",
-    "descriptionEn": "A colorful lights tunel played by drums & guitar",
-    "title": "מנהרת אורות פסיכדלית מופעלת בנגינה על תופים וגיטרה",
-    "titleEn": "A colorful lights tunel played by drums & guitar",
-    "time": 1526403600,
-    "allDay": false,
-    "locationName": "קאמפי קאמפ",
-    "locationNameEn": "קאמפי קאמפ",
-    "tags": [
-      "Kids",
-      "Games"
-    ],
-    "location": "אמיגדלה 3:00",
-    "locationEn": "3:00 Amigdala"
-  },
-  {
-    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
-    "giftId": "ae611c0c-0cb5-46dd-aa24-2f92c67bdc47",
-    "campName": "קאמפי קאמפ",
-    "campNameEn": "Campy Camp",
-    "description": "מנהרת אורות פסיכדלית מופעלת בנגינה על תופים וגיטרה",
-    "descriptionEn": "A colorful lights tunel played by drums & guitar",
-    "title": "מנהרת אורות פסיכדלית מופעלת בנגינה על תופים וגיטרה",
-    "titleEn": "A colorful lights tunel played by drums & guitar",
-    "time": 1526490000,
-    "allDay": false,
-    "locationName": "קאמפי קאמפ",
-    "locationNameEn": "קאמפי קאמפ",
-    "tags": [
-      "Kids",
-      "Games"
-    ],
-    "location": "אמיגדלה 3:00",
-    "locationEn": "3:00 Amigdala"
-  },
-  {
-    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
-    "giftId": "0164248b-4102-493c-b1b2-b990190f9231",
-    "campName": "קאמפי קאמפ",
-    "campNameEn": "Campy Camp",
-    "description": "מנהרת אורות פסיכדלית מופעלת בנגינה על תופים וגיטרה",
-    "descriptionEn": "A colorful lights tunel played by drums & guitar",
-    "title": "מנהרת אורות פסיכדלית מופעלת בנגינה על תופים וגיטרה",
-    "titleEn": "A colorful lights tunel played by drums & guitar",
-    "time": 1526576400,
-    "allDay": false,
-    "locationName": "קאמפי קאמפ",
-    "locationNameEn": "קאמפי קאמפ",
-    "tags": [
-      "Kids",
-      "Games"
-    ],
-    "location": "אמיגדלה 3:00",
-    "locationEn": "3:00 Amigdala"
-  },
-  {
-    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
-    "giftId": "eaf728be-e3ff-4cad-8b3b-d251b6dbc1ab",
-    "campName": "קאמפי קאמפ",
-    "campNameEn": "Campy Camp",
-    "description": "מנהרת אורות פסיכדלית מופעלת בנגינה על תופים וגיטרה",
-    "descriptionEn": "A colorful lights tunel played by drums & guitar",
-    "title": "מנהרת אורות פסיכדלית מופעלת בנגינה על תופים וגיטרה",
-    "titleEn": "A colorful lights tunel played by drums & guitar",
-    "time": 1526662800,
-    "allDay": false,
-    "locationName": "קאמפי קאמפ",
-    "locationNameEn": "קאמפי קאמפ",
-    "tags": [
-      "Kids",
-      "Games"
-    ],
-    "location": "אמיגדלה 3:00",
-    "locationEn": "3:00 Amigdala"
-  },
-  {
-    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
-    "giftId": "1dcd9cdf-7813-4f26-9b19-a9ea2b688f61",
-    "campName": "קאמפי קאמפ",
-    "campNameEn": "Campy Camp",
-    "description": "מנהרת אורות פסיכדלית מופעלת בנגינה על תופים וגיטרה",
-    "descriptionEn": "A colorful lights tunel played by drums & guitar",
-    "title": "מנהרת אורות פסיכדלית מופעלת בנגינה על תופים וגיטרה",
-    "titleEn": "A colorful lights tunel played by drums & guitar",
-    "time": 1526749200,
-    "allDay": false,
-    "locationName": "קאמפי קאמפ",
-    "locationNameEn": "קאמפי קאמפ",
-    "tags": [
-      "Kids",
-      "Games"
-    ],
-    "location": "אמיגדלה 3:00",
-    "locationEn": "3:00 Amigdala"
-  },
-  {
     "campId": "5b5b4306-4042-45ca-bf5b-1adc6aeb47cf",
     "giftId": "4dfecf2f-b925-43c2-b465-5d3834cdbd8e",
     "campName": "הקיבוץ",
@@ -14288,6 +14042,507 @@
       "Workshop",
       "BodyAndSoul",
       "English"
+    ]
+  },
+
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "27119239-11df-4958-80aa-18aa4710faec",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526295600,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "de947bae-9f41-4cb5-b6f0-28f43b0cdeab",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526299200,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "a96a5d55-8734-4e0c-a528-58a66713a0ef",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526302800,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "d1fa9e5e-f75e-452a-8d97-ec7b66e3e352",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526382000,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "dece1aaa-37c4-4511-8fff-9b5f998b7d6b",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526385600,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "b4dfc5df-f40a-4fe2-849a-f0458ce2fd15",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526389200,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "b44bc0d6-c8a3-4e63-adba-d5d74278223c",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526468400,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "24c5287f-2368-44e5-a570-7ccd8262a983",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526472000,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "b828288f-fc14-44d6-8b3c-a8d4abd81bc2",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526475600,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "84130a08-9afc-4a51-a294-311bb2846f5b",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526554800,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "55096fa2-0b26-4f40-84b1-96bbf4cf5550",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526558400,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "be84c10c-8524-4648-be93-829811a51c59",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526562000,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "1cf3c8b8-d16e-4a72-925d-711a18eba1b4",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526641200,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "9841068f-6eb2-44b4-8a08-79eb3cdff9ad",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526644800,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "39f2fdf6-910c-4fbc-a14a-08018fea5408",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526648400,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "63d412ec-fa59-45d6-b090-cd8e706d77c4",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526727600,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "fbe559e9-97df-4ef1-a3a0-57ade15ed7ca",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526731200,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "64fc877b-7a2c-497e-8cd7-9e2d82904673",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "descriptionEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "title": "ערפילי מים קרירים וציוצי ציפורים בשיא החום, כמה דקות להתרעננות",
+    "titleEn": "Cool misty sprinkler fun, a few minutes to freshen up",
+    "time": 1526734800,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "069a09a3-ca7c-4253-8773-97237708f4d9",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "צביעת בטיק בגווני אדום ורוד כתום וסגול - מוזמנים להביא בגדים לצביעה",
+    "descriptionEn": "red, pink, orange and purple - bring clothes and fabrics to tie dye",
+    "title": "צביעת בטיק בגווני אדום ורוד כתום וסגול - מוזמנים להביא בגדים לצביעה",
+    "titleEn": "red, pink, orange and purple - bring clothes and fabrics to tie dye",
+    "time": 1526540400,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "86e4c67a-664a-4f8f-8015-2f4ada322e3e",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "מנהרת אורות פסיכדלית, מייצב לילה, נמצא בשביל אמנויות חדש.",
+    "descriptionEn": "A psychedelic light tunnel, A night art installation located on New Art lane",
+    "title": "מנהרת אורות פסיכדלית, מייצב לילה, נמצא בשביל אמנויות חדש.",
+    "titleEn": "A psychedelic light tunnel, A night art installation located on New Art lane",
+    "time": 1526317200,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "7f0ffb86-a9a5-4173-96a8-06430629d580",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "מנהרת אורות פסיכדלית, מייצב לילה, נמצא בשביל אמנויות חדש.",
+    "descriptionEn": "A psychedelic light tunnel, A night art installation located on New Art lane",
+    "title": "מנהרת אורות פסיכדלית, מייצב לילה, נמצא בשביל אמנויות חדש.",
+    "titleEn": "A psychedelic light tunnel, A night art installation located on New Art lane",
+    "time": 1526403600,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "125f4708-c0a2-473a-a138-fd5ba0c26a88",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "מנהרת אורות פסיכדלית, מייצב לילה, נמצא בשביל אמנויות חדש.",
+    "descriptionEn": "A psychedelic light tunnel, A night art installation located on New Art lane",
+    "title": "מנהרת אורות פסיכדלית, מייצב לילה, נמצא בשביל אמנויות חדש.",
+    "titleEn": "A psychedelic light tunnel, A night art installation located on New Art lane",
+    "time": 1526490000,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "e9343d98-87d3-4708-b8c7-1ff80cc13a2f",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "מנהרת אורות פסיכדלית, מייצב לילה, נמצא בשביל אמנויות חדש.",
+    "descriptionEn": "A psychedelic light tunnel, A night art installation located on New Art lane",
+    "title": "מנהרת אורות פסיכדלית, מייצב לילה, נמצא בשביל אמנויות חדש.",
+    "titleEn": "A psychedelic light tunnel, A night art installation located on New Art lane",
+    "time": 1526576400,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "a94d5159-d4ec-4b3f-8e3b-779e438c20cb",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "מנהרת אורות פסיכדלית, מייצב לילה, נמצא בשביל אמנויות חדש.",
+    "descriptionEn": "A psychedelic light tunnel, A night art installation located on New Art lane",
+    "title": "מנהרת אורות פסיכדלית, מייצב לילה, נמצא בשביל אמנויות חדש.",
+    "titleEn": "A psychedelic light tunnel, A night art installation located on New Art lane",
+    "time": 1526662800,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
+    ]
+  },
+  {
+    "campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
+    "giftId": "43e57d87-53d8-45f6-b45e-6e52197ac2c5",
+    "campName": "קאמפי קאמפ",
+    "campNameEn": "Campy Camp",
+    "description": "מנהרת אורות פסיכדלית, מייצב לילה, נמצא בשביל אמנויות חדש.",
+    "descriptionEn": "A psychedelic light tunnel, A night art installation located on New Art lane",
+    "title": "מנהרת אורות פסיכדלית, מייצב לילה, נמצא בשביל אמנויות חדש.",
+    "titleEn": "A psychedelic light tunnel, A night art installation located on New Art lane",
+    "time": 1526749200,
+    "allDay": false,
+    "locationName": "אמיגדלה 3:00",
+    "locationNameEn": "3:00 Amigdala",
+    "tags": [
+      "Kids",
+      "Games",
+      "Workshop",
+      "Creative"
     ]
   }
 
