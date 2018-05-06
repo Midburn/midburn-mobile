@@ -29,7 +29,7 @@ const IMAGES = {
   255: [require('./255/art1.jpg'), require('./255/art2.jpg'), require('./255/art3.jpg'), require('./255/art4.jpg'), require('./255/art5.jpg'), require('./255/art6.jpg')],
   256: [require('./256/art1.jpg'), require('./256/art2.jpg'), require('./256/art3.jpg'), require('./256/art4.jpg'), require('./256/art5.jpg')],
   257: [require('./257/art1.jpg'), require('./257/art2.jpg'), require('./257/art3.jpg'), require('./257/art4.jpg'), require('./257/art5.jpg'), require('./257/art6.jpg'), require('./257/art7.jpg'), require('./257/art8.jpg'), require('./257/art9.jpg'), require('./257/art10.jpg'), require('./257/art11.jpg'), require('./257/art12.jpg'), require('./257/art13.jpg'), require('./257/art14.jpg'), require('./257/art15.jpg'), require('./257/art16.jpg'), require('./257/art17.jpg')],
-  258: [require('./258/art1.jpg'), require('./258/art2.jpg'), require('./258/art3.jpg'), require('./258/art4.jpg'), require('./258/art5.jpg'), require('./258/art6.jpg')],
+  258: [require('./258/art1.jpg')],
   259: [require('./259/art1.jpg')],
   260: [require('./260/art1.jpg'), require('./260/art2.jpg')],
   261: [require('./261/art1.jpg'), require('./261/art2.jpg'), require('./261/art3.jpg'), require('./261/art4.jpg'), require('./261/art5.jpg'), require('./261/art6.jpg'), require('./261/art7.jpg')],

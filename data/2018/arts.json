@@ -519,20 +519,16 @@
 	},
 	{
 		"artId": 258,
-		"name": "צורי משהו",
-		"nameEn": "Tsurimashou",
-		"title": "הפרשנות שלנו למשחק הדגים המסתובים שהיה בילדות של רובינו",
-		"titleEn": "You know that game FISH!",
-		"description": "המיצב יאפשר למשתתפים לדוג דגים מתוך \"בריכת דגים\" מסתובבת (בלי מים לא לדאוג)\nכל דג יהיה בעל מאפיינים אחרים שמסמלים מוזיקה מסויימת\nהשאיפה שלנו היא שכל פעם שמרימים דג מסויים, המוזיקה שמאפיינת את אותו הדג תתחיל להתנגן ברקע",
+		"name": "דרופ דה מייק -צורי משהו",
+		"nameEn": "Drop Da Mic - TsuriMashou",
+		"title": "לו דגים היו יכולים לדבר, הם היו שרים.",
+		"titleEn": "If fish could speak, they would Lalalalalalala!!!",
+		"description": "רק צריך לנסות לתת להם מיקרופון.",
+		"descriptionEn": "all that's left is dropping them da mic",
 		"artist": "מחנה קוסומו",
 		"philosophy": "משחק הדגים של פעם רק בגדול",
 		"images": [
-			"art1.jpg",
-			"art2.jpg",
-			"art3.jpg",
-			"art4.jpg",
-			"art5.jpg",
-			"art6.jpg"
+			"art1.jpg"
 		]
 	},
 	{
