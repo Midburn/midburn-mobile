@@ -1927,13 +1927,12 @@
 	{
 		"campId": "fc78be09-ae34-4538-aa2f-72af1e03e434",
 		"campName": "קמפ בליב איט",
-		"campNameEn": "Believe It Camp",
+		"campNameEn": "Camp Believe-it",
 		"description": "סדנאות יוגה, מדיטציה וטיפולים בתנועה.",
 		"descriptionEn": "Yoga, Meditation and Movement workshops.",
 		"location": "אמיגדלה 2:00",
 		"locationEn": "2:00 Amigdala",
 		"tags": [
-			"FoodAndDrinks",
 			"Workshop",
 			"BodyAndSoul"
 		],
