@@ -56,7 +56,7 @@ export const setters = remx.setters({
     toDay = getMomentObject(MIDBURN_STARTING_UNIX_DATE).add(5, 'd');
     state.giftsDay5 = getters.getGiftsInRange(fromDay, toDay);
   },
-  setCurrentTime(time) {
+  setCurrentTime() {
     const now = getNowUnixTime();
     if (now < MIDBURN_STARTING_UNIX_DATE) {
       return;
@@ -73,16 +73,23 @@ export const getters = remx.getters({
   getOurLove() {
     return state.ourLove;
   },
-  getGiftsInRange(fromDate, toDate) {
-    const filteredGifts = _.filter(state.gifts, (gift) => {
+  getGiftsInRange(fromDate, toDate, minimum = -1) {
+    let filteredGifts = _.filter(state.gifts, (gift) => {
       return getMomentObject(gift.time).isBetween(fromDate, toDate);
     });
+
+    if (minimum > 0 && minimum > filteredGifts.length) {
+      filteredGifts = _.filter(state.gifts, (gift) => {
+        return getMomentObject(gift.time).isBetween(fromDate, toDate.add(3, 'days'));
+      });
+      filteredGifts = _.take(filteredGifts, minimum);
+    }
     return _.sortBy(filteredGifts, ['hour']);
   },
   getGiftsForHoursWindow(hours = DEFAULT_NOW_HOURS_WINDOW) {
     let formDay = getMomentObject(getters.getCurrentTime());
     let toDay = getMomentObject(getters.getCurrentTime()).add(hours, 'h');
-    return getters.getGiftsInRange(formDay, toDay)
+    return getters.getGiftsInRange(formDay, toDay, 20);
   },
   getGiftsByDay(date) {
     return state.giftsByDay[date.format('YYYY-MM-DD')];

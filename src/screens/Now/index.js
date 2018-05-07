@@ -53,13 +53,6 @@ class NowScreen extends Component {
         });
         break;
     }
-
-
-
-    // else if (event.id === 'backPress') {
-    //   console.warn('RANG', 'onNavigatorEvent', 'NNNOOOWWW');
-    //  exitApp();
-    // }
   }
 
   render() {
