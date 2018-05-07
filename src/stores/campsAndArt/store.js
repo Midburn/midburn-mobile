@@ -30,7 +30,7 @@ export const setters = remx.setters({
         distance: 100,
         maxPatternLength: 32,
         minMatchCharLength: 2,
-        keys: ["campName", "campNameEn", "description", "descriptionEn", "location", "locationEn" ]
+        keys: ["campName", "campNameEn", "location", "locationEn" ]
     };
     state.fuseCamp = new Fuse(camps, options);
   },
