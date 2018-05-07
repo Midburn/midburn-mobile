@@ -43,11 +43,11 @@ const getItems = () => ds.cloneWithRows([
     screen: SCREENS.APP_FEEDBACK,
     title: Strings('FEEDBACK_SCREEN_TITLE')
   },
-  // {
-  //   image: '',
-  //   text: Strings('MAP'),
-  //   screen: SCREENS.MAP
-  // },
+  {
+    image: '',
+    text: Strings('MAP'),
+    screen: SCREENS.MAP
+  },
   {
     text: Strings('OPEN_SOURCES'),
     screen: SCREENS.OPEN_SOURCES,
