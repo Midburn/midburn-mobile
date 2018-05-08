@@ -6,8 +6,8 @@ import Pdf from 'react-native-pdf';
 export default class MapScreen extends React.Component {
     render() {
         const source = Platform.select({
-            ios: () => require('../../../data/2018/map/CityMap2018.pdf'),  // ios only
-            android: () => { uri:'bundle-assets://test.pdf' }, // change to real path, or add to android asserts
+            ios: () => require('../../../data/2018/map/CityMap2018.pdf'),
+            android: () => {uri: 'bundle-assets://data/2018/map/CityMap2018.pdf' },
         })();
 
         return (
