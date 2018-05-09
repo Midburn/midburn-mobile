@@ -8,7 +8,8 @@ export function getTagColor(tag) {
     case 'adult':
     case 'adults':
       return tagFactory('#EF5350');
-    case 'hearingmpaired':
+    case 'hearingimpaired':
+    case 'physicallydisabled':
       return tagFactory('#8D6E63');
     case 'kids':
       return tagFactory('#EC407A');
@@ -17,6 +18,7 @@ export function getTagColor(tag) {
     case 'english':
       return tagFactory('#7E57C2');
     case 'games':
+    case 'play':
       return tagFactory('#5C6BC0');
     case 'foodanddrinks':
       return tagFactory('#26A69A');
@@ -32,19 +34,17 @@ export function getTagColor(tag) {
       return tagFactory('#FF7043');
     case 'sleep':
       return tagFactory('#78909C');
-    case 'Mingling':
+    case 'mingling':
       return tagFactory('#C0CA33');
     default:
+      console.log('RANG', 'getTagColor', tag);
       return tagFactory('#000000');
   }
 }
 
-
-
 function tagFactory(color) {
   return {color, textColor: color};
 }
-
 
 export function getColorForTime(time) {
   const hour = getHourFromTime(time);
