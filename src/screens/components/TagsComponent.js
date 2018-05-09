@@ -23,11 +23,15 @@ export default class TagsComponent extends Component {
   _renderTag(tag, index) {
     return (
       <Tag
+        tag={tag}
         key={`${tag}-${index}`}
         text={this._getTitle(tag)}
         borderColor={getTagColor(tag).color}
         textColor={getTagColor(tag).textColor}
         bigTag={this.props.fullScreen}
+        onPress={this.props.onTagPressed}
+        filtered={giftsStore.getters.getFilterForTagId(tag)}
+        filteredDesign={this.props.filteredDesign}
       />
     );
   }

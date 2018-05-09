@@ -18,7 +18,8 @@ export function loadGifts() {
 
 export function loadGiftsTags() {
   const data = require('../../../data/2018/tags/giftsTags');
-  store.setters.setGiftsTags(data);
+  const dataWithFiltered = _.map(data, (tag) => _.merge(tag, {filtered: false}));
+  store.setters.setGiftsTags(dataWithFiltered);
 }
 
 export function loadOurLove() {
@@ -27,8 +28,13 @@ export function loadOurLove() {
 }
 
 
-export function dismissFilterScreen(navigator) {
-  navigator.dismissModal();
+export function dismissFilterScreen(navigator, avoidDismissModal = false) {
+  store.setters.setLoading(true);
+  store.setters.setGiftForDays(true);
+  if (!avoidDismissModal) {
+    navigator.dismissModal();
+  }
+  store.setters.setLoading(false);
 }
 
 function getRandomColor() {

@@ -48,7 +48,11 @@ export class EventComponent extends Component {
 
   _renderTags() {
     return (
-      <Tags tags={this.props.tags} context={'gifts'}/>
+      <Tags
+        tags={this.props.tags}
+        context={'gifts'}
+        filteredDesign={this.props.filteredDesign}
+      />
     );
   }
 

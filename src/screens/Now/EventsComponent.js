@@ -23,7 +23,7 @@ export class EventsComponent extends Component {
     );
   }
 
-  _renderRow(gift, i) {
+  _renderRow = (gift, i) => {
 
     return (
       <EventComponent
@@ -40,6 +40,7 @@ export class EventsComponent extends Component {
         descriptionHeb={gift.item.description}
         color={gift.item.color}
         tags={gift.item.tags}
+        filteredDesign={_.get(this.props, 'filteredDesign')}
       />
     );
   }

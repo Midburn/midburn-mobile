@@ -1,13 +1,16 @@
-import React, {Component} from 'react';
-import {BackHandler, Dimensions} from 'react-native';
-import {Text, View, Button, TabBar, Carousel} from 'react-native-ui-lib';
 import _ from 'lodash';
+import React, {Component} from 'react';
+import {BackHandler, Dimensions, ScrollView, ActivityIndicator} from 'react-native';
+import {Text, View, Button, TabBar, Carousel} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import * as giftsStore from '../../stores/gifts/store';
 import SCREENS from './../../screens/screenNames';
 import {EventsComponent} from '../Now/EventsComponent';
 import {isRTL} from '../../utils/Strings';
 import {backToNowTab} from '../../stores/appActions';
+import Tag from '../components/TagComponent';
+import {getTagColor} from "../../utils/Colors";
+import Strings from "../../utils/Strings";
 
 const {width} = Dimensions.get('window');
 
@@ -50,9 +53,7 @@ class ProgramScreen extends Component {
   onNavigatorEvent(event) {
     if (event.type === 'NavBarButtonPress') {
       if (event.id === FILTER_NAV_BAR) {
-        this.props.navigator.showModal({
-          screen: SCREENS.FILTER_TAGS
-        });
+        this.showFilterScreen();
       }
     } else if (event.id === 'willAppear') {
       BackHandler.removeEventListener();
@@ -61,6 +62,13 @@ class ProgramScreen extends Component {
       });
     }
   }
+
+  showFilterScreen = () => {
+    this.props.navigator.showModal({
+      screen: SCREENS.FILTER_TAGS
+    });
+  }
+
 
 
   onEventPressed = (event) => {
@@ -81,7 +89,7 @@ class ProgramScreen extends Component {
       <View width={width} key={i}>
         {this._renderTopNextPrevStrip(i)}
 
-        <EventsComponent gifts={giftsOfDay} />
+        <EventsComponent gifts={giftsOfDay} filteredDesign={true} emptyStateString={Strings('NO_FILTERED_EVENTS')}/>
       </View>
     );
   }
@@ -150,9 +158,45 @@ class ProgramScreen extends Component {
     );
   }
 
+  _renderFiltersBar() {
+    return (
+      <View>
+        <ScrollView horizontal={true} contentContainerStyle={{paddingHorizontal: 8}}>
+          <View row flex center>
+            { _.map(this.props.filteredTags, (tag, index) => {
+              return (
+                <View key={tag.id} marginB-8>
+                  <Tag
+                    tag={tag.id}
+                    key={`${tag.id}-${index}`}
+                    text={giftsStore.getters.getGiftTagTitleForId(tag.id)}
+                    borderColor={getTagColor(tag.id).color}
+                    textColor={getTagColor(tag.id).textColor}
+                    filtered={giftsStore.getters.getFilterForTagId(tag.id)}
+                    onPress={this.showFilterScreen}
+                    filteredDesign={true}
+                  />
+                </View>
+              );
+            })}
+          </View>
+        </ScrollView>
+      </View>
+
+    );
+  }
+
   render() {
+    if (this.props.loading) {
+      return (
+        <View flex center>
+          <ActivityIndicator/>
+        </View>
+      )
+    }
     return (
       <View flex>
+        {this._renderFiltersBar()}
         {this.renderGiftsList()}
       </View>
     );
@@ -162,7 +206,9 @@ class ProgramScreen extends Component {
 
 function mapStateToProps() {
   return {
-    gifts: giftsStore.getters.getChunkedGifts()
+    gifts: giftsStore.getters.getChunkedGifts(),
+    filteredTags: giftsStore.getters.getFilteredTags(),
+    loading: giftsStore.getters.getLoading()
   };
 }
 

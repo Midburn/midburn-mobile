@@ -1,33 +1,47 @@
 import _ from 'lodash';
 import React, {Component} from 'react';
-import {SafeAreaView, ScrollView} from 'react-native';
+import {Platform, SafeAreaView, ScrollView} from 'react-native';
 import {Text, View, Button, TabBar} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import * as giftsStore from '../../stores/gifts/store';
-import * as campsAndArtStore from '../../stores/campsAndArt/store';
 import * as giftsActions from '../../stores/gifts/actions';
-import TagsComponent from "../components/TagsComponent";
-import Strings from "../../utils/Strings";
+import TagsComponent from '../components/TagsComponent';
+import Strings from '../../utils/Strings';
 
 const CLOSE_IMAGE = require('../../../data/img/close.png');
+const IS_IOS = Platform.OS === 'ios';
 
 class FilterTagsScreen extends Component {
   static navigatorStyle = {
     navBarHidden: true
   };
 
-
   constructor(props) {
     super(props);
     this.tags = _.map(this.props.tags, 'id');
+
+    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
+
   }
+
+  onNavigatorEvent(event) {
+    if (!IS_IOS) {
+      switch (event.id) {
+        case 'willDisappear':
+          giftsActions.dismissFilterScreen(this.props.navigator, true);
+          break;
+      }
+    }
+  }
+
+//PLATFORM_ANDROID && event.id === 'backPress')
 
   onClosePressed = () => {
     giftsActions.dismissFilterScreen(this.props.navigator);
   };
 
   onClearPressed = () => {
-    campsAndArtStore.setters.cleanFilters();
+    giftsStore.setters.cleanFilters();
   }
 
 
@@ -44,20 +58,31 @@ class FilterTagsScreen extends Component {
           link
           label={Strings('CLEAN_FILTER')}
           onPress={this.onClearPressed}
+          labelProps={{style: {fontWeight: '500'}, blue30: true, text60: true}}
         />
 
       </View>
     );
   }
 
+  _onTagPressed = (tag) => {
+    giftsStore.setters.toggleTagFilter(tag);
+  }
+
   render() {
     return (
       <SafeAreaView style={{flex: 1}}>
-        <View marginH-12 flex>
+        <View paddingH-12 flex bg-white paddingV-8>
           {this._renderHeader()}
           <View paddingT-22 flex>
             <ScrollView>
-              <TagsComponent tags={this.tags} context={'gifts'} fullScreen={true}/>
+              <TagsComponent
+                tags={this.tags}
+                context={'gifts'}
+                fullScreen={true}
+                onTagPressed={this._onTagPressed}
+                filteredDesign={true}
+              />
             </ScrollView>
           </View>
         </View>
