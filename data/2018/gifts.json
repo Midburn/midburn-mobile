@@ -3248,108 +3248,6 @@
 		"locationEn": "3:30 Blutat HaYtztrubal"
 	},
 	{
-		"campId": "782c8eb2-0334-4221-b1c8-23fe4624523e",
-		"giftId": "0db20d0c-49b2-4068-a0ee-45feddac1275",
-		"campName": "ארט טוריסמו",
-		"campNameEn": "Art Turismo'",
-		"title": "קמפ סאונד Butterfly Effect עפים איתכם בסט שקיעה",
-		"titleEn": "Sound Camp Butterfly Effect Crazy Sunset Set",
-		"time": 1526310000,
-		"tags": [
-			"Adults",
-			"Alcohol",
-			"Party",
-			"Live"
-		],
-		"location": " ",
-		"locationEn": " "
-	},
-	{
-		"campId": "782c8eb2-0334-4221-b1c8-23fe4624523e",
-		"giftId": "4b2f4d70-57f6-437a-a65f-09e643808e8d",
-		"campName": "ארט טוריסמו",
-		"campNameEn": "Art Turismo'",
-		"title": "קמפ סאונד Butterfly Effect עפים איתכם בסט שקיעה",
-		"titleEn": "Sound Camp Butterfly Effect Crazy Sunset Set",
-		"time": 1526396400,
-		"tags": [
-			"Adults",
-			"Alcohol",
-			"Party",
-			"Live"
-		],
-		"location": " ",
-		"locationEn": " "
-	},
-	{
-		"campId": "782c8eb2-0334-4221-b1c8-23fe4624523e",
-		"giftId": "12f73e28-05a0-4838-91e5-e3b0289601d4",
-		"campName": "ארט טוריסמו",
-		"campNameEn": "Art Turismo'",
-		"title": "קמפ סאונד Butterfly Effect עפים איתכם בסט שקיעה",
-		"titleEn": "Sound Camp Butterfly Effect Crazy Sunset Set",
-		"time": 1526482800,
-		"tags": [
-			"Adults",
-			"Alcohol",
-			"Party",
-			"Live"
-		],
-		"location": " ",
-		"locationEn": " "
-	},
-	{
-		"campId": "782c8eb2-0334-4221-b1c8-23fe4624523e",
-		"giftId": "412d728f-fc1e-4275-a8ed-f62c26e0044d",
-		"campName": "ארט טוריסמו",
-		"campNameEn": "Art Turismo'",
-		"title": "קמפ סאונד Butterfly Effect עפים איתכם בסט שקיעה",
-		"titleEn": "Sound Camp Butterfly Effect Crazy Sunset Set",
-		"time": 1526569200,
-		"tags": [
-			"Adults",
-			"Alcohol",
-			"Party",
-			"Live"
-		],
-		"location": " ",
-		"locationEn": " "
-	},
-	{
-		"campId": "782c8eb2-0334-4221-b1c8-23fe4624523e",
-		"giftId": "f2628d08-ceed-4163-bcf5-a9c42c69f4e4",
-		"campName": "ארט טוריסמו",
-		"campNameEn": "Art Turismo'",
-		"title": "קמפ סאונד Butterfly Effect עפים איתכם בסט שקיעה",
-		"titleEn": "Sound Camp Butterfly Effect Crazy Sunset Set",
-		"time": 1526655600,
-		"tags": [
-			"Adults",
-			"Alcohol",
-			"Party",
-			"Live"
-		],
-		"location": " ",
-		"locationEn": " "
-	},
-	{
-		"campId": "782c8eb2-0334-4221-b1c8-23fe4624523e",
-		"giftId": "395ffd61-bcf8-42e2-954b-b7bf62c3a6e1",
-		"campName": "ארט טוריסמו",
-		"campNameEn": "Art Turismo'",
-		"title": "קמפ סאונד Butterfly Effect עפים איתכם בסט שקיעה",
-		"titleEn": "Sound Camp Butterfly Effect Crazy Sunset Set",
-		"time": 1526742000,
-		"tags": [
-			"Adults",
-			"Alcohol",
-			"Party",
-			"Live"
-		],
-		"location": " ",
-		"locationEn": " "
-	},
-	{
 		"campId": "7bf1241d-f904-448b-b030-c06018eac369",
 		"giftId": "9e18e776-13cd-4a42-b495-426d862ba3d8",
 		"campName": "כנענים",
@@ -11259,6 +11157,87 @@
 		"time": 1526634000,
 		"locationName": "גזע המוח 6:30",
 		"locationNameEn": "6:30 Geza Hamoach",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+
+	{
+		"campId": "782c8eb2-0334-4221-b1c8-23fe4624523e",
+		"giftId": "73363531-4e46-4741-9904-3f5eeff1a37f",
+		"campName": "קמפ אפקט הפרפר (ארט טוריסמו לשעבר)",
+		"campNameEn": "Butterfly Effect camp (ex Art Turismo)",
+		"title": "סיורי אמנות מודרכים בפלאיה",
+		"titleEn": "Playa Guided Art Tours",
+		"time": 1526310000,
+		"locationName": "אמיגדלה 6:30",
+		"locationNameEn": "6:30 Amigdala",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+	{
+		"campId": "782c8eb2-0334-4221-b1c8-23fe4624523e",
+		"giftId": "05047b62-7671-4df6-b6c2-3978e7bdc5bc",
+		"campName": "קמפ אפקט הפרפר (ארט טוריסמו לשעבר)",
+		"campNameEn": "Butterfly Effect camp (ex Art Turismo)",
+		"title": "סיורי אמנות מודרכים בפלאיה",
+		"titleEn": "Playa Guided Art Tours",
+		"time": 1526396400,
+		"locationName": "אמיגדלה 6:30",
+		"locationNameEn": "6:30 Amigdala",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+	{
+		"campId": "782c8eb2-0334-4221-b1c8-23fe4624523e",
+		"giftId": "3728da41-754c-4877-98fe-e32279da1d81",
+		"campName": "קמפ אפקט הפרפר (ארט טוריסמו לשעבר)",
+		"campNameEn": "Butterfly Effect camp (ex Art Turismo)",
+		"title": "סיורי אמנות מודרכים בפלאיה",
+		"titleEn": "Playa Guided Art Tours",
+		"time": 1526482800,
+		"locationName": "אמיגדלה 6:30",
+		"locationNameEn": "6:30 Amigdala",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+	{
+		"campId": "782c8eb2-0334-4221-b1c8-23fe4624523e",
+		"giftId": "4501c105-80ef-4f70-b832-4771b758b274",
+		"campName": "קמפ אפקט הפרפר (ארט טוריסמו לשעבר)",
+		"campNameEn": "Butterfly Effect camp (ex Art Turismo)",
+		"title": "סיורי אמנות מודרכים בפלאיה",
+		"titleEn": "Playa Guided Art Tours",
+		"time": 1526569200,
+		"locationName": "אמיגדלה 6:30",
+		"locationNameEn": "6:30 Amigdala",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+	{
+		"campId": "782c8eb2-0334-4221-b1c8-23fe4624523e",
+		"giftId": "8ff6b5c6-0031-4235-9e55-48c3efbbaa06",
+		"campName": "קמפ אפקט הפרפר (ארט טוריסמו לשעבר)",
+		"campNameEn": "Butterfly Effect camp (ex Art Turismo)",
+		"title": "סיורי אמנות מודרכים בפלאיה",
+		"titleEn": "Playa Guided Art Tours",
+		"time": 1526655600,
+		"locationName": "אמיגדלה 6:30",
+		"locationNameEn": "6:30 Amigdala",
 		"tags": [
 			"English",
 			"Mingling",

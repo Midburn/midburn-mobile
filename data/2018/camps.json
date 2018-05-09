@@ -1189,25 +1189,22 @@
 	},
 	{
 		"campId": "782c8eb2-0334-4221-b1c8-23fe4624523e",
-		"campName": "ארט טוריסמו",
-		"campNameEn": "Art Turismo'",
+		"campName": "קמפ אפקט הפרפר (ארט טוריסמו לשעבר)",
+		"campNameEn": "Butterfly Effect camp (ex Art Turismo)",
 		"description": "קמפ סאונד פרפרים באולטרה סגול וסיורי אמנות מודרכים",
 		"descriptionEn": "Sound Camp UV Butterflies and Guided Art Tours",
-		"location": " ",
-		"locationEn": " ",
+		"location": "אמיגדלה 6:30",
+		"locationEn": "6:30 Amigdala",
 		"tags": [
-			"Adults",
-			"Party",
-			"Creative",
+			"English",
 			"Workshop"
 		],
 		"gifts": [
-			"0db20d0c-49b2-4068-a0ee-45feddac1275",
-			"4b2f4d70-57f6-437a-a65f-09e643808e8d",
-			"12f73e28-05a0-4838-91e5-e3b0289601d4",
-			"412d728f-fc1e-4275-a8ed-f62c26e0044d",
-			"f2628d08-ceed-4163-bcf5-a9c42c69f4e4",
-			"395ffd61-bcf8-42e2-954b-b7bf62c3a6e1"
+			"73363531-4e46-4741-9904-3f5eeff1a37f",
+			"05047b62-7671-4df6-b6c2-3978e7bdc5bc",
+			"3728da41-754c-4877-98fe-e32279da1d81",
+			"4501c105-80ef-4f70-b832-4771b758b274",
+			"8ff6b5c6-0031-4235-9e55-48c3efbbaa06"
 		]
 	},
 	{
