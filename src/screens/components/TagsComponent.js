@@ -3,8 +3,10 @@ import React, {Component} from 'react';
 import {View, Button, Colors} from 'react-native-ui-lib';
 import {getTagColor} from '../../utils/Colors';
 import * as campsAndArtStore from "../../stores/campsAndArt/store";
+import * as giftsStore from "../../stores/gifts/store";
 import {isRTL} from '../../utils/Strings';
 import {Text} from '../components/Text';
+import Tag from './TagComponent';
 
 
 
@@ -21,21 +23,12 @@ export default class TagsComponent extends Component {
 
   _renderTag(tag, index) {
     return (
-      <View
-        centerV
-        key={index}
-        style={{
-          borderRadius: 10,
-          borderWidth: 1,
-          borderColor: getTagColor(tag).color,
-          padding: 4,
-          paddingHorizontal: 8,
-          marginRight: isRTL() ? 0 : 8,
-          marginLeft: isRTL() ? 8 : 0,
-          marginTop: 8
-        }}>
-        <Text text100 color={getTagColor(tag).textColor} style={{fontWeight: '600'}}>{this._getTitle(tag)}</Text>
-      </View>
+      <Tag
+        key={`${tag}-${index}`}
+        text={this._getTitle(tag)}
+        borderColor={getTagColor(tag).color}
+        textColor={getTagColor(tag).textColor}
+      />
     );
   }
 
