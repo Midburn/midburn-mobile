@@ -25,7 +25,7 @@ export default class TagsComponent extends Component {
         centerV
         key={this.props.tag}
         style={{
-          backgroundColor: filtered ? this.props.borderColor : Colors.white,
+          backgroundColor: filtered ? this.props.borderColor : 'transparent',
           borderRadius: this.props.bigTag ? 20 :10,
           borderWidth: this.props.bigTag ? 2 : 1,
           borderColor: this.props.borderColor,
