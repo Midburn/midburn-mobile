@@ -9,16 +9,8 @@ const DEFAULT_NOW_HOURS_WINDOW = 3;
 
 const state = remx.state({
   gifts: [],
-  giftsByDay: {
-    "2010-20-20": [
+  giftsAllDays: [],
 
-    ]
-  },
-  giftsDay1: [],
-  giftsDay2: [],
-  giftsDay3: [],
-  giftsDay4: [],
-  giftsDay5: [],
   ourLove: [],
   currentTime: MIDBURN_STARTING_UNIX_DATE,
   giftsTags: []
@@ -32,33 +24,30 @@ export const setters = remx.setters({
   setLove(love) {
     state.ourLove = love;
   },
-  setGiftsByDay(giftsByDay) {
-    state.giftsByDay = giftsByDay;
-  },
   setGiftForDays() {
     let fromDay = getMomentObject(MIDBURN_STARTING_UNIX_DATE);
     let toDay = getMomentObject(MIDBURN_STARTING_UNIX_DATE).add(1, 'd');
 
-    state.giftsDay1 = getters.getGiftsInRange(fromDay, toDay);
+    const day1 = getters.getGiftsInRange(fromDay, toDay);
     fromDay = toDay;
     toDay = getMomentObject(MIDBURN_STARTING_UNIX_DATE).add(2, 'd');
-    state.giftsDay2 = getters.getGiftsInRange(fromDay, toDay);
+    const day2 = getters.getGiftsInRange(fromDay, toDay);
     fromDay = toDay;
     toDay = getMomentObject(MIDBURN_STARTING_UNIX_DATE).add(3, 'd');
-    state.giftsDay3 = getters.getGiftsInRange(fromDay, toDay);
+    const day3 = getters.getGiftsInRange(fromDay, toDay);
     fromDay = toDay;
     toDay = getMomentObject(MIDBURN_STARTING_UNIX_DATE).add(4, 'd');
-    state.giftsDay4 = getters.getGiftsInRange(fromDay, toDay);
+    const day4 = getters.getGiftsInRange(fromDay, toDay);
     fromDay = toDay;
     toDay = getMomentObject(MIDBURN_STARTING_UNIX_DATE).add(5, 'd');
-    state.giftsDay5 = getters.getGiftsInRange(fromDay, toDay);
+    const day5 = getters.getGiftsInRange(fromDay, toDay);
+    state.giftsAllDays = [day1, day2, day3, day4, day5];
   },
   setCurrentTime() {
     const now = getNowUnixTime();
     if (now < MIDBURN_STARTING_UNIX_DATE) {
       return;
     }
-
     state.currentTime = now;
   },
   setGiftsTags(tags) {
@@ -91,24 +80,11 @@ export const getters = remx.getters({
     let toDay = getMomentObject(getters.getCurrentTime()).add(hours, 'h');
     return getters.getGiftsInRange(formDay, toDay, 20);
   },
-  getGiftsByDay(date) {
-    return state.giftsByDay[date.format('YYYY-MM-DD')];
-  },
   getCurrentTime() {
     return state.currentTime;
   },
-  getAllTags() {
-
-    const tagsArray = _.map(state.gifts, (gift) => {
-      return _.get(gift, 'tags');
-    });
-
-    const tagsWithDuplicates =  _.flattenDeep(tagsArray);
-    return _.uniq(tagsWithDuplicates);
-
-  },
   getChunkedGifts() {
-    return [state.giftsDay1, state.giftsDay2, state.giftsDay3, state.giftsDay4, state.giftsDay5];
+    return state.giftsAllDays;
   },
   getLoveToSpread() {
     const ourLoveArray = getters.getOurLove();
@@ -125,6 +101,9 @@ export const getters = remx.getters({
       return;
     }
     return isRTL() ? tag.title : tag.titleEn;
+  },
+  getGiftsTags() {
+    return state.giftsTags;
   }
 });
 
