@@ -8,8 +8,7 @@ import String from '../../utils/Strings';
 import {Text} from '../components/Text';
 import Tags from '../components/TagsComponent';
 import {isRTL} from '../../utils/Strings';
-
-
+import {DetailsComponent} from '../components/DetailsComponent';
 
 
 const {width} = Dimensions.get('window');
@@ -29,6 +28,7 @@ export default class CampDetailsScreen extends Component {
     this.description = isRTL() ? this.props.camp.description : this.props.camp.descriptionEn;
     this.description = this.description.length > 0 ? this.description : undefined;
     this.title = isRTL() ? this.props.camp.campName : this.props.camp.campNameEn;
+    this.location = isRTL() ? this.props.camp.location : this.props.camp.locationEn;
 
     BackHandler.addEventListener('hardwareBackPress', () => {
       this.props.navigator.pop();
@@ -59,7 +59,7 @@ export default class CampDetailsScreen extends Component {
 
   renderDescription() {
     return (
-      <View marginV-16 right={isRTL()}>
+      <View marginT-16 marginB-3 right={isRTL()}>
         <Text text80 style={{fontWeight: '500', writingDirection: isRTL() ? 'rtl' : 'ltr'}}>{this.description}</Text>
       </View>
     );
@@ -116,6 +116,12 @@ export default class CampDetailsScreen extends Component {
     )
   }
 
+  _renderDetails() {
+    return (
+      <DetailsComponent details={[{icon: 'LOCATION', text: this.location}]}/>
+    );
+  }
+
   render() {
     return (
       <View flex>
@@ -124,6 +130,7 @@ export default class CampDetailsScreen extends Component {
           <View flex margin-15 marginT-0>
             {this.title && this._renderTitle()}
             {this.description && this.renderDescription()}
+            {this._renderDetails()}
             {this._renderTags()}
             {this.renderSharingBlock()}
           </View>
