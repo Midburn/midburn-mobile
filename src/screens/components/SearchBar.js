@@ -1,18 +1,11 @@
-import _ from 'lodash';
 import React, {Component} from 'react';
-import {Text, View, Button, Colors, TextInput} from 'react-native-ui-lib';
+import {Colors, TextInput} from 'react-native-ui-lib';
 import {isRTL} from '../../utils/Strings';
 
 
 export default class SearchBar extends Component {
 
 
-// <SerachBar
-// onChangeText={this.onTextChanged}
-// value={this.state.text}
-// placeholder={PLACEHOLDER_SEARCH_INPUT}
-// ref={(ref) => this.searchTextInputRef = ref}
-// />
 
   render() {
     return (
