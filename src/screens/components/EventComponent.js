@@ -2,7 +2,7 @@ import _ from 'lodash';
 import React, {Component} from 'react';
 import {Text, Card, Colors, Button, View, Image} from 'react-native-ui-lib';
 import {getString, isRTL} from '../../utils/Strings';
-import * as campsAndArtStore from '../../stores/campsAndArt/store';
+import * as giftsStore from '../../stores/gifts/store';
 import {getHourFromTime, getDayFromTime} from '../../utils/Time';
 import Tags from './TagsComponent';
 import {DetailsComponent} from './DetailsComponent';
@@ -16,7 +16,7 @@ export class EventComponent extends Component {
     this.description = getString(this.props.descriptionHeb, this.props.descriptionEn);
     this.address = getString(this.props.addressHeb, this.props.addressEn);
     this.tags = _.map(this.props.tags, (tagId) => {
-      return campsAndArtStore.getters.getGiftTagTitleForId(tagId);
+      return giftsStore.getters.getGiftTagTitleForId(tagId);
     });
     this.camp = getString(this.props.campHeb, this.props.campEn);
   }

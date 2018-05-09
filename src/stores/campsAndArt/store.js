@@ -16,7 +16,6 @@ const state = remx.state({
   fuseCamp: undefined,
   fuseArt: undefined,
   campTags: [],
-  giftsTags: []
 });
 
 
@@ -61,9 +60,7 @@ export const setters = remx.setters({
   setCampTags(tags) {
     state.campTags = tags;
   },
-  setGiftsTags(tags) {
-    state.giftsTags = tags;
-  }
+
 });
 
 export const getters = remx.getters({
@@ -97,10 +94,6 @@ export const getters = remx.getters({
   },
   getObjectFromArrayForId(array, key, value) {
     return _.find(array, (obj) => obj[key]=== value);
-  },
-  getCampTitle(campId) {
-    const camp = getters.getCampForId(campId);
-    _.get(camp, 'title');
   },
   getSelectedTagIndex() {
     return state.selectedTagIndex
@@ -143,10 +136,6 @@ export const getters = remx.getters({
   },
   getCampTagTitleForId(tagId) {
     return getters.getTagTitle(state.campTags, tagId);
-
-  },
-  getGiftTagTitleForId(tagId) {
-    return getters.getTagTitle(state.giftsTags, tagId);
   },
   getTagTitle(array, tagId) {
     const tag = getters.getObjectFromArrayForId(array, 'id', tagId);

@@ -19,7 +19,7 @@ export async function loadTabsData() {
   giftsActions.loadOurLove();
   campsAndArtActions.setCampsGifts();
   campsAndArtActions.loadCampTags();
-  campsAndArtActions.loadGiftsTags();
+  giftsActions.loadGiftsTags();
 }
 
 export function setAppLanguage(languageId) {

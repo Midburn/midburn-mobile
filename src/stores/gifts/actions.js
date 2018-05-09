@@ -1,6 +1,5 @@
 import * as _ from 'lodash';
 import * as store from './store'
-import {isRTL} from "../../utils/Strings";
 import {getMomentObject} from '../../utils/Time';
 
 const moment = require('moment');
@@ -19,6 +18,11 @@ export function loadGifts() {
   setGiftsByDay(_.sortBy(sortedGifts, ['hour']));
 }
 
+export function loadGiftsTags() {
+  const data = require('../../../data/2018/tags/giftsTags');
+  store.setters.setGiftsTags(data);
+}
+
 export function loadOurLove() {
   const love = require('../../../data/2018/app');
   store.setters.setLove(love);
@@ -35,10 +39,6 @@ function setGiftsByDay(gifts) {
   });
 
   store.setters.setGiftsByDay(giftByDate);
-}
-
-export function presentGiftsByDate(date) {
-  store.setters.setPresentedGifts(store.getters.getGiftsByDay(date));
 }
 
 export function dismissFilterScreen(navigator) {

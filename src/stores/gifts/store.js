@@ -1,6 +1,7 @@
 import _ from 'lodash';
 import * as remx from 'remx';
 import {getMomentObject, getNowUnixTime} from '../../utils/Time';
+import {isRTL} from "../../utils/Strings";
 
 const MIDBURN_STARTING_UNIX_DATE = 1526274000;
 const DEFAULT_NOW_HOURS_WINDOW = 3;
@@ -13,15 +14,14 @@ const state = remx.state({
 
     ]
   },
-  presentedGifts: [],
   giftsDay1: [],
   giftsDay2: [],
   giftsDay3: [],
   giftsDay4: [],
   giftsDay5: [],
   ourLove: [],
-  currentTime: MIDBURN_STARTING_UNIX_DATE
-
+  currentTime: MIDBURN_STARTING_UNIX_DATE,
+  giftsTags: []
 });
 
 export const setters = remx.setters({
@@ -31,9 +31,6 @@ export const setters = remx.setters({
   },
   setLove(love) {
     state.ourLove = love;
-  },
-  setPresentedGifts(gifts) {
-    state.presentedGifts = gifts;
   },
   setGiftsByDay(giftsByDay) {
     state.giftsByDay = giftsByDay;
@@ -64,6 +61,9 @@ export const setters = remx.setters({
 
     state.currentTime = now;
   },
+  setGiftsTags(tags) {
+    state.giftsTags = tags;
+  }
 });
 
 export const getters = remx.getters({
@@ -114,6 +114,17 @@ export const getters = remx.getters({
     const ourLoveArray = getters.getOurLove();
     return ourLoveArray[Math.floor(Math.random() * ourLoveArray.length)];
 
+  },
+  getObjectFromArrayForId(array, key, value) {
+    return _.find(array, (obj) => obj[key]=== value);
+  },
+  getGiftTagTitleForId(tagId) {
+    const tag = getters.getObjectFromArrayForId(state.giftsTags, 'id', tagId);
+    if (!tag) {
+
+      return;
+    }
+    return isRTL() ? tag.title : tag.titleEn;
   }
 });
 

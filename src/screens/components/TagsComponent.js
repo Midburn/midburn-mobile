@@ -15,7 +15,7 @@ export default class TagsComponent extends Component {
     if (this.props.context === 'camps') {
       return campsAndArtStore.getters.getCampTagTitleForId(tag);
     } else if (this.props.context === 'gifts') {
-      return campsAndArtStore.getters.getGiftTagTitleForId(tag);
+      return giftsStore.getters.getGiftTagTitleForId(tag);
     }
   }
 
