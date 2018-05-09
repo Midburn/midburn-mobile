@@ -58,6 +58,8 @@ ext {
 }
 
 dependencies {
+    compile project(':react-native-pdf')
+    compile project(':react-native-fetch-blob')
     compile project(':react-native-device-info')
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "com.facebook.react:react-native:+"

@@ -1,5 +1,8 @@
 package com.midburnmobileapp;
 import org.devio.rn.splashscreen.SplashScreenReactPackage;
+import org.wonday.pdf.RCTPdfView;
+
+import com.RNFetchBlob.RNFetchBlobPackage;
 import com.learnium.RNDeviceInfo.RNDeviceInfo;
 
 import android.support.annotation.Nullable;
@@ -22,7 +25,9 @@ public class MainApplication extends NavigationApplication {
   public List<ReactPackage> createAdditionalReactPackages() {
     return Arrays.<ReactPackage>asList(
             new SplashScreenReactPackage(),
-            new RNDeviceInfo()
+            new RNDeviceInfo(),
+            new RNFetchBlobPackage(),
+            new RCTPdfView()
     );
   }
 

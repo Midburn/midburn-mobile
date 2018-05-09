@@ -2,7 +2,6 @@ import {Navigation} from 'react-native-navigation';
 import SCREENS from './screenNames';
 import CampsScreen from './Camps';
 import SecondTab from './Program';
-import MapScreen from './Map';
 import ArtScreen from './Art';
 import ArtDetailsScreen from './Art/ArtDetailsScreen';
 import ExtraScreen from './Extra';
@@ -15,13 +14,13 @@ import AppFeedbackScreen from './Extra/AppFeedbackScreen';
 import SafetyScreen from './Extra/SafetyScreen';
 import SettingsScreen from './Extra/SettingsScreen';
 import CreditsScreen from './Extra/CreditsScreen';
+import MapScreen from './Extra/MapScreen';
 import SurpriseMeScreen from './Extra/SurpriseMeScreen';
 
 // register all screens of the app (including internal ones)
 export function registerContainers() {
   Navigation.registerComponent(SCREENS.CAMPS, () => CampsScreen);
   Navigation.registerComponent(SCREENS.PROGRAM, () => SecondTab);
-  Navigation.registerComponent(SCREENS.MAP, () => MapScreen);
   Navigation.registerComponent(SCREENS.ART, () => ArtScreen);
   Navigation.registerComponent(SCREENS.NOW, () => NowScreen);
   Navigation.registerComponent(SCREENS.EXTRA, () => ExtraScreen);
@@ -35,5 +34,6 @@ export function registerContainers() {
   Navigation.registerComponent(SCREENS.SAFETY, () => SafetyScreen);
   Navigation.registerComponent(SCREENS.SETTINGS, () => SettingsScreen);
   Navigation.registerComponent(SCREENS.CREDITS, () => CreditsScreen);
+  Navigation.registerComponent(SCREENS.MAP, () => MapScreen);
   Navigation.registerComponent(SCREENS.SURPRISE_ME, () => SurpriseMeScreen);
 }
