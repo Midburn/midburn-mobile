@@ -6,6 +6,7 @@ import {connect} from 'remx';
 import {EventComponent} from '../components/EventComponent';
 import {getHourForTime} from '../../utils/Time';
 import Strings from '../../utils/Strings';
+import * as campsAndArtStore from '../../stores/campsAndArt/store';
 
 export class EventsComponent extends Component {
 
@@ -24,6 +25,7 @@ export class EventsComponent extends Component {
   }
 
   _renderRow = (gift, i) => {
+    const address = campsAndArtStore.getters.getCampAddressById(gift.item.campId);
 
     return (
       <EventComponent
@@ -34,8 +36,8 @@ export class EventsComponent extends Component {
         campEn={gift.item.campNameEn}
         time={getHourForTime(gift.item.time)}
         unixTime={gift.item.time}
-        addressEn={gift.item.locationEn}
-        addressHeb={gift.item.location}
+        addressEn={address.en}
+        addressHeb={address.he}
         descriptionEn={gift.item.descriptionEn}
         descriptionHeb={gift.item.description}
         color={gift.item.color}

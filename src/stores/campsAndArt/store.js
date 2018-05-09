@@ -144,6 +144,10 @@ export const getters = remx.getters({
       return;
     }
     return isRTL() ? tag.title : tag.titleEn;
+  },
+  getCampAddressById(campId) {
+    const camp = getters.getCampForId(campId);
+    return {he: camp.location, en: camp.locationEn}
   }
 });
 //
