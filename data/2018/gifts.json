@@ -4887,306 +4887,6 @@
 		"locationEn": "4:00 Amigdala"
 	},
 	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "ccd10e76-db80-41b4-8801-9d6b61a4bd31",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "Ledburn RIOT - לדברן מזרימים את הרחבה",
-		"titleEn": "Ledburn RIOT - caution wet dance floor!",
-		"time": 1526641200,
-		"tags": [
-			"Adults",
-			"Games",
-			"Party"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "7e4d4119-c6be-4895-b563-b99267374b0d",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "לימונים X שטיפל'ה - עץ הלימונים בא להרטיב את החול",
-		"titleEn": "LemonAid - Lemon Tree coming to wash with sound",
-		"time": 1526554800,
-		"tags": [
-			"Adults",
-			"Games",
-			"Party"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "f77129e4-de68-4eb1-8c55-92725afee022",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "טיפות ומדבקות - מסיבת מים שכולה נשים",
-		"titleEn": "The wet sound of freedom - all WOMEN party",
-		"time": 1526468400,
-		"tags": [
-			"Adults",
-			"Games",
-			"Party"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "e354c8c0-d069-465f-9347-f503aeee695d",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "זרם ראשי - נשף מסכות, מיינסטרים ומים!",
-		"titleEn": "Masquerade, mainstream and WATER!",
-		"time": 1526382000,
-		"tags": [
-			"Adults",
-			"Games",
-			"Party"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "030976fe-d782-4448-998f-82defd5e7a42",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
-		"titleEn": "Radical showers - 2L per shower recommended ",
-		"time": 1526713200,
-		"tags": [
-			"HearingImpaired",
-			"Adults",
-			"Games",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "d8759f79-81f2-4d8a-9c6e-af3c7f2cc7a3",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
-		"titleEn": "Radical showers - 2L per shower recommended ",
-		"time": 1526648400,
-		"tags": [
-			"HearingImpaired",
-			"Adults",
-			"Games",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "818803e4-794e-46b4-926e-e223f9c46aa0",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
-		"titleEn": "Radical showers - 2L per shower recommended ",
-		"time": 1526626800,
-		"tags": [
-			"HearingImpaired",
-			"Adults",
-			"Games",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "8ffae922-8c25-4c16-b47c-64ef4bbfea90",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
-		"titleEn": "Radical showers - 2L per shower recommended",
-		"time": 1526562000,
-		"tags": [
-			"HearingImpaired",
-			"Adults",
-			"Games",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "21a080df-0ab2-421e-ac26-f823e5ee415d",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
-		"titleEn": "Radical showers - 2L per shower recommended ",
-		"time": 1526540400,
-		"tags": [
-			"HearingImpaired",
-			"Adults",
-			"Games",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "70ee9484-6236-4b37-a556-242068cd168b",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "מקלחות ראדיקליות לנשות הפלאייה",
-		"titleEn": "Radical showers for radical women",
-		"time": 1526461200,
-		"tags": [
-			"HearingImpaired",
-			"Adults",
-			"Games",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "4a119a91-4292-4c59-b9fa-8c9a28ec89d6",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
-		"titleEn": "Radical showers - 2L per shower recommended",
-		"time": 1526454000,
-		"tags": [
-			"HearingImpaired",
-			"Adults",
-			"Games",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "51dfebcb-6a9d-4f45-b6a2-ba003156711d",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
-		"titleEn": "Radical showers - 2L per shower recommended ",
-		"time": 1526389200,
-		"tags": [
-			"HearingImpaired",
-			"Adults",
-			"Games",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "6aa46826-1ecf-4319-84d8-24f074253785",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
-		"titleEn": "Radical showers - 2L per shower recommended",
-		"time": 1526475600,
-		"tags": [
-			"HearingImpaired",
-			"Adults",
-			"Games",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "621e7dc8-508c-4f7a-b9cd-e5079f3edf44",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
-		"titleEn": "Radical showers - 2L per shower recommended",
-		"time": 1526454000,
-		"tags": [
-			"HearingImpaired",
-			"Adults",
-			"Games",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "94197dc8-fb52-4a0b-9dad-bbec50b298e5",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
-		"titleEn": "Radical showers - 2L per shower recommended",
-		"time": 1526389200,
-		"tags": [
-			"HearingImpaired",
-			"Adults",
-			"Games",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "fd3bed0c-783d-4fb6-8f0a-cb3853c95ee9",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
-		"titleEn": "Radical showers - 2L per shower recommended",
-		"time": 1526367600,
-		"tags": [
-			"HearingImpaired",
-			"Games",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "0ce280b9-457d-46d3-bc0e-829f61d7c2ae",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
-		"titleEn": "Radical showers - 2L per shower recommended ",
-		"time": 1526302800,
-		"tags": [
-			"HearingImpaired",
-			"Adults",
-			"Games",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
-		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
-		"giftId": "4c06c4df-f62e-4d40-bae6-973b0399a03b",
-		"campName": "שטיפלה",
-		"campNameEn": "Shtifale",
-		"title": "מסבנים @ מפ\"צ - אוהבים, מרטיבים ומקפיצים את מפ\"צ",
-		"titleEn": "Shtifalle @ DPW - giving back LOVE, WATER & SOUND",
-		"time": 1526295600,
-		"tags": [
-			"Adults",
-			"Games",
-			"Party"
-		],
-		"location": "גזע המוח 6:30",
-		"locationEn": "6:30 Geza Hamoach"
-	},
-	{
 		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
 		"giftId": "809d9468-6fa1-44d2-9645-2eb0eaf59c2d",
 		"campName": "זקני השבט",
@@ -11387,5 +11087,182 @@
 		],
 		"location": "בלוטת האיצטרובל 2:30",
 		"locationEn": "2:30 Blutat HaYtztrubal"
+	},
+
+	{
+		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
+		"giftId": "002e96eb-8f7d-4c5d-9107-82385b1ba549",
+		"campName": "שטיפלה",
+		"campNameEn": "Shtifale",
+		"title": "מסבנים @ מפ\\\"צ - אוהבים, מרטיבים ומקפיצים את מפ\\\"צ",
+		"titleEn": "Shtifalle @ DPW - giving back LOVE, WATER & SOUND",
+		"time": 1526295600,
+		"locationName": "גזע המוח 6:30",
+		"locationNameEn": "6:30 Geza Hamoach",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+	{
+		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
+		"giftId": "1f2a3e9e-2f9c-4b3e-8939-8f953b18119f",
+		"campName": "שטיפלה",
+		"campNameEn": "Shtifale",
+		"title": "זרם ראשי - נשף מסכות, מיינסטרים ומים!",
+		"titleEn": "Masquerade, mainstream and WATER!",
+		"time": 1526382000,
+		"locationName": "גזע המוח 6:30",
+		"locationNameEn": "6:30 Geza Hamoach",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+	{
+		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
+		"giftId": "e4ff6bcd-6c1d-4878-a834-4f650980243b",
+		"campName": "שטיפלה",
+		"campNameEn": "Shtifale",
+		"title": "טיפות ומדבקות - מסיבת מים שכולה נשים",
+		"titleEn": "The wet sound of freedom - all WOMEN party",
+		"time": 1526468400,
+		"locationName": "גזע המוח 6:30",
+		"locationNameEn": "6:30 Geza Hamoach",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+	{
+		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
+		"giftId": "168b7f0c-5368-48ab-ab2d-649565aec7a4",
+		"campName": "שטיפלה",
+		"campNameEn": "Shtifale",
+		"title": "לימונים X שטיפל'ה - עץ הלימונים בא להרטיב את החול",
+		"titleEn": "LemonAid - Lemon Tree coming to wash with sound",
+		"time": 1526554800,
+		"locationName": "גזע המוח 6:30",
+		"locationNameEn": "6:30 Geza Hamoach",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+	{
+		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
+		"giftId": "597cab06-eb37-448c-902a-8b128e9f6359",
+		"campName": "שטיפלה",
+		"campNameEn": "Shtifale",
+		"title": "Ledburn RIOT - לדברן מזרימים את הרחבה",
+		"titleEn": "Ledburn RIOT - caution wet dance floor!",
+		"time": 1526621400,
+		"locationName": "גזע המוח 6:30",
+		"locationNameEn": "6:30 Geza Hamoach",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+	{
+		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
+		"giftId": "72117e5d-a4de-4814-a37c-ec3bfbf0d9bc",
+		"campName": "שטיפלה",
+		"campNameEn": "Shtifale",
+		"title": "שרים במקלחת - קריוקי",
+		"titleEn": "שרים במקלחת - קריוקי",
+		"time": 1526641200,
+		"locationName": "גזע המוח 6:30",
+		"locationNameEn": "6:30 Geza Hamoach",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+	{
+		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
+		"giftId": "191ab705-a732-4c14-9e55-66da87038e0d",
+		"campName": "שטיפלה",
+		"campNameEn": "Shtifale",
+		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
+		"titleEn": "Radical showers - 2L per shower recommended",
+		"time": 1526288400,
+		"locationName": "גזע המוח 6:30",
+		"locationNameEn": "6:30 Geza Hamoach",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+	{
+		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
+		"giftId": "e0fc33df-0d8b-4516-bdb0-016c2317f426",
+		"campName": "שטיפלה",
+		"campNameEn": "Shtifale",
+		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
+		"titleEn": "Radical showers - 2L per shower recommended",
+		"time": 1526374800,
+		"locationName": "גזע המוח 6:30",
+		"locationNameEn": "6:30 Geza Hamoach",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+	{
+		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
+		"giftId": "8a95a53a-8e3c-4019-b247-5c363083bbf7",
+		"campName": "שטיפלה",
+		"campNameEn": "Shtifale",
+		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
+		"titleEn": "Radical showers - 2L per shower recommended",
+		"time": 1526461200,
+		"locationName": "גזע המוח 6:30",
+		"locationNameEn": "6:30 Geza Hamoach",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+	{
+		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
+		"giftId": "45db3cff-a97a-4418-a343-915dc53168b7",
+		"campName": "שטיפלה",
+		"campNameEn": "Shtifale",
+		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
+		"titleEn": "Radical showers - 2L per shower recommended",
+		"time": 1526547600,
+		"locationName": "גזע המוח 6:30",
+		"locationNameEn": "6:30 Geza Hamoach",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
+	},
+	{
+		"campId": "60f676ec-3b20-40e5-ab41-7ca792b122df",
+		"giftId": "2b1b6a4b-4d42-49d2-a2fb-025bd5a56ac1",
+		"campName": "שטיפלה",
+		"campNameEn": "Shtifale",
+		"title": "מקלחות ראדיקליות לכל הפלאייה - ממולץ 2 ל' מים לאדם",
+		"titleEn": "Radical showers - 2L per shower recommended",
+		"time": 1526634000,
+		"locationName": "גזע המוח 6:30",
+		"locationNameEn": "6:30 Geza Hamoach",
+		"tags": [
+			"English",
+			"Mingling",
+			"Party"
+		]
 	}
 ]
