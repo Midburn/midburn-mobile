@@ -118,5 +118,9 @@
   "ANDROID_ALERT_LEAVE":{
     "he": "צא",
     "en": "Leave"
+  },
+  "CLEAN_FILTER":{
+    "he": "נקה",
+    "en": "Clean"
   }
 }
