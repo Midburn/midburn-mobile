@@ -122,5 +122,9 @@
   "CLEAN_FILTER":{
     "he": "נקה",
     "en": "Clean"
-  }
+  },
+  "NO_FILTERED_EVENTS": {
+  "he": "אין אירועים בסינון שנבחר 💝",
+  "en": "No events on selected filters 💝"
+}
 }
