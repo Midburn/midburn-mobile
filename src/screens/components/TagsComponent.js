@@ -27,6 +27,7 @@ export default class TagsComponent extends Component {
         text={this._getTitle(tag)}
         borderColor={getTagColor(tag).color}
         textColor={getTagColor(tag).textColor}
+        bigTag={this.props.fullScreen}
       />
     );
   }

@@ -20,8 +20,19 @@ const BUTTON_TYPE = {
   CURRENT: 'current',
   NEXT: 'next'
 };
+const FILTER_NAV_BAR = 'NAV_BAR_BUTTON_FILTER';
 
 class ProgramScreen extends Component {
+
+  static navigatorButtons = {
+    rightButtons: [
+      {
+        id: FILTER_NAV_BAR,
+        icon: require('../../../data/img/filter.png'),
+      },
+    ]
+  };
+
   constructor(props) {
     super(props);
     this.state = {
@@ -30,15 +41,15 @@ class ProgramScreen extends Component {
       nextDayIndex: 1,
       prevDayIndex: -1
     };
-    this.days = isRTL() ? DAYS_HEB: DAYS_EN;;
+    this.days = isRTL() ? DAYS_HEB: DAYS_EN;
     this.carousel = undefined;
     this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
 
   }
 
   onNavigatorEvent(event) {
-    if (event.type == 'NavBarButtonPress') {
-      if (event.id == 'filter_tags') {
+    if (event.type === 'NavBarButtonPress') {
+      if (event.id === FILTER_NAV_BAR) {
         this.props.navigator.showModal({
           screen: SCREENS.FILTER_TAGS
         });

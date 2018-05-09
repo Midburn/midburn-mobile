@@ -13,8 +13,8 @@ export default class TagsComponent extends Component {
         centerV
         key={index}
         style={{
-          borderRadius: 10,
-          borderWidth: 1,
+          borderRadius: this.props.bigTag ? 20 :10,
+          borderWidth: this.props.bigTag ? 2 : 1,
           borderColor: this.props.borderColor,
           padding: 4,
           paddingHorizontal: 8,
@@ -22,7 +22,7 @@ export default class TagsComponent extends Component {
           marginLeft: isRTL() ? 8 : 0,
           marginTop: 8
         }}>
-        <Text text100 color={this.props.textColor} style={{fontWeight: '600'}}>{this.props.text}</Text>
+        <Text text100 text60={this.props.bigTag} color={this.props.textColor} style={{fontWeight: '600'}}>{this.props.text}</Text>
       </View>
     );
   }
