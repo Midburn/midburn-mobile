@@ -2780,22 +2780,6 @@
 		"locationEn": "7:00 Tayelet"
 	},
 	{
-		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
-		"giftId": "ce808a31-2ad8-414c-a4a0-9a576d977cf4",
-		"campName": "מיראז'",
-		"campNameEn": "Mirage",
-		"title": "גלריית צילומי מידברן יוגה מדיטציה וסדנאות התפתחות",
-		"titleEn": "Midburn PhotoGallery & Yoga & meditation",
-		"time": 1526479200,
-		"tags": [
-			"Adults",
-			"Workshop",
-			"BodyAndSoul"
-		],
-		"location": "בלוטת האיצטרובל 2:30",
-		"locationEn": "2:30 Blutat HaYtztrubal"
-	},
-	{
 		"campId": "670c5552-63e7-4491-9fb2-9113397758b3",
 		"giftId": "6ffa5644-be5b-4135-9055-93d5e8a3a703",
 		"campName": "XOXO",
@@ -3558,38 +3542,6 @@
 		"locationEn": "4:00 Blutat HaYtztrubal"
 	},
 	{
-		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
-		"giftId": "499df74a-3b65-45b1-9851-fee3f6e9b803",
-		"campName": "מיראז'",
-		"campNameEn": "Mirage",
-		"title": "גלריית צילומי מידברן יוגה מדיטציה וסדנאות התפתחות",
-		"titleEn": "Midburn PhotoGallery & Yoga & meditation",
-		"time": 1526392800,
-		"tags": [
-			"Adults",
-			"Workshop",
-			"BodyAndSoul"
-		],
-		"location": "בלוטת האיצטרובל 2:30",
-		"locationEn": "2:30 Blutat HaYtztrubal"
-	},
-	{
-		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
-		"giftId": "4e3161a3-e8b6-43fc-ae16-dff5a5b35292",
-		"campName": "מיראז'",
-		"campNameEn": "Mirage",
-		"title": "גלריית צילומי מידברן יוגה מדיטציה וסדנאות התפתחות",
-		"titleEn": "Midburn PhotoGallery & Yoga & meditation",
-		"time": 1526306400,
-		"tags": [
-			"Adults",
-			"Workshop",
-			"BodyAndSoul"
-		],
-		"location": "בלוטת האיצטרובל 2:30",
-		"locationEn": "2:30 Blutat HaYtztrubal"
-	},
-	{
 		"campId": "908ead14-fdf8-4348-9021-e04c7b45dfac",
 		"giftId": "fb8f67f6-0eee-45fb-b284-c787e7b172a3",
 		"campName": "שיחות נפש",
@@ -3774,54 +3726,6 @@
 		],
 		"location": "טיילת 9:30",
 		"locationEn": "9:30 Tayelet"
-	},
-	{
-		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
-		"giftId": "d5df7903-6219-4cf6-bd6a-4631b4f6f2e5",
-		"campName": "מיראז'",
-		"campNameEn": "Mirage",
-		"title": "גלריית צילומי מידברן יוגה מדיטציה וסדנאות התפתחות",
-		"titleEn": "Midburn PhotoGallery & Yoga & meditation",
-		"time": 1526565600,
-		"tags": [
-			"Adults",
-			"Workshop",
-			"BodyAndSoul"
-		],
-		"location": "בלוטת האיצטרובל 2:30",
-		"locationEn": "2:30 Blutat HaYtztrubal"
-	},
-	{
-		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
-		"giftId": "1ed61eff-cbde-4dc8-be37-183efb54e517",
-		"campName": "מיראז'",
-		"campNameEn": "Mirage",
-		"title": "גלריית צילומי מידברן יוגה מדיטציה וסדנאות התפתחות",
-		"titleEn": "Midburn PhotoGallery & Yoga & meditation",
-		"time": 1526652000,
-		"tags": [
-			"Adults",
-			"Workshop",
-			"BodyAndSoul"
-		],
-		"location": "בלוטת האיצטרובל 2:30",
-		"locationEn": "2:30 Blutat HaYtztrubal"
-	},
-	{
-		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
-		"giftId": "2f023b69-dae8-4816-a152-f6977c7939cb",
-		"campName": "מיראז'",
-		"campNameEn": "Mirage",
-		"title": "גלריית צילומי מידברן יוגה מדיטציה וסדנאות התפתחות",
-		"titleEn": "Midburn PhotoGallery & Yoga & meditation",
-		"time": 1526738400,
-		"tags": [
-			"Adults",
-			"Workshop",
-			"BodyAndSoul"
-		],
-		"location": "בלוטת האיצטרובל 2:30",
-		"locationEn": "2:30 Blutat HaYtztrubal"
 	},
 	{
 		"campId": "54c82ed4-f01e-4128-a71d-6764e9d2731c",
@@ -11318,5 +11222,170 @@
 		],
 		"location": "אמיגדלה 2:00",
 		"locationEn": "2:00 Amigdala"
+	},
+	{
+		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
+		"giftId": "ce6de062-4576-4a43-b843-4c6e0999041e",
+		"campName": "מיראז'",
+		"campNameEn": "Mirage",
+		"title": "צ'אקרה דאנס ויקטוריה וקים",
+		"titleEn": "Chakra Dance Victoria & Kim",
+		"time": 1526306400,
+		"tags": [
+			"Workshop",
+			"BodyAndSoul"
+		],
+		"location": "בלוטת האיצטרובל 2:30",
+		"locationEn": "2:30 Blutat HaYtztrubal"
+	},
+	{
+		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
+		"giftId": "9ac3e08b-2522-4cff-bb70-a0c2c78bef08",
+		"campName": "מיראז'",
+		"campNameEn": "Mirage",
+		"title": "מדיטציה בועז",
+		"titleEn": "Meditation Boaz",
+		"time": 1526373000,
+		"tags": [
+			"Workshop",
+			"BodyAndSoul"
+		],
+		"location": "בלוטת האיצטרובל 2:30",
+		"locationEn": "2:30 Blutat HaYtztrubal"
+	},
+	{
+		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
+		"giftId": "8a185904-63cd-42e9-974e-29e19f0183d6",
+		"campName": "מיראז'",
+		"campNameEn": "Mirage",
+		"title": "אקרויוגה רוס וטס",
+		"titleEn": "Acroyoga Ross & Tess",
+		"time": 1526392800,
+		"tags": [
+			"Workshop",
+			"BodyAndSoul"
+		],
+		"location": "בלוטת האיצטרובל 2:30",
+		"locationEn": "2:30 Blutat HaYtztrubal"
+	},
+	{
+		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
+		"giftId": "cd6f6789-f9d2-4f1f-b531-62d7b96f4e18",
+		"campName": "מיראז'",
+		"campNameEn": "Mirage",
+		"title": "טקס קקאו ויקטוריה וקים",
+		"titleEn": "Cacao Ceremony Victoria & Kim",
+		"time": 1526403600,
+		"tags": [
+			"Workshop",
+			"BodyAndSoul"
+		],
+		"location": "בלוטת האיצטרובל 2:30",
+		"locationEn": "2:30 Blutat HaYtztrubal"
+	},
+	{
+		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
+		"giftId": "9134c916-3c36-4d67-ab88-3983776634af",
+		"campName": "מיראז'",
+		"campNameEn": "Mirage",
+		"title": "יוגה טורי",
+		"titleEn": "Yoga Tory",
+		"time": 1526459400,
+		"tags": [
+			"Workshop",
+			"BodyAndSoul"
+		],
+		"location": "בלוטת האיצטרובל 2:30",
+		"locationEn": "2:30 Blutat HaYtztrubal"
+	},
+	{
+		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
+		"giftId": "07eb9636-b40b-487e-af8c-064df33d15a5",
+		"campName": "מיראז'",
+		"campNameEn": "Mirage",
+		"title": "אקרויוגה יובל",
+		"titleEn": "Acroyoga Yuval",
+		"time": 1526479200,
+		"tags": [
+			"Workshop",
+			"BodyAndSoul"
+		],
+		"location": "בלוטת האיצטרובל 2:30",
+		"locationEn": "2:30 Blutat HaYtztrubal"
+	},
+	{
+		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
+		"giftId": "5e4e4fbe-7c51-438c-8d36-12b552de5758",
+		"campName": "מיראז'",
+		"campNameEn": "Mirage",
+		"title": "טקס קקאו ויקטוריה וקים",
+		"titleEn": "Cacao Ceremony Victoria & Kim",
+		"time": 1526490000,
+		"tags": [
+			"Workshop",
+			"BodyAndSoul"
+		],
+		"location": "בלוטת האיצטרובל 2:30",
+		"locationEn": "2:30 Blutat HaYtztrubal"
+	},
+	{
+		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
+		"giftId": "eb6d4fef-3cbf-45d5-b916-40c0ea1209e8",
+		"campName": "מיראז'",
+		"campNameEn": "Mirage",
+		"title": "יוגה ורייקי קים",
+		"titleEn": "Yoga & Reiki Kim",
+		"time": 1526545800,
+		"tags": [
+			"Workshop",
+			"BodyAndSoul"
+		],
+		"location": "בלוטת האיצטרובל 2:30",
+		"locationEn": "2:30 Blutat HaYtztrubal"
+	},
+	{
+		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
+		"giftId": "cf448080-6a37-4040-8d28-5211aae18212",
+		"campName": "מיראז'",
+		"campNameEn": "Mirage",
+		"title": "יוגה ומדיטציה ויקטוריה",
+		"titleEn": "Yoga & Meditation Victoria",
+		"time": 1526565600,
+		"tags": [
+			"Workshop",
+			"BodyAndSoul"
+		],
+		"location": "בלוטת האיצטרובל 2:30",
+		"locationEn": "2:30 Blutat HaYtztrubal"
+	},
+	{
+		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
+		"giftId": "26319a10-9682-4288-8065-54e6a6056d26",
+		"campName": "מיראז'",
+		"campNameEn": "Mirage",
+		"title": "דיבור מהבטן יאיר",
+		"titleEn": "Belly talk Yair",
+		"time": 1526632200,
+		"tags": [
+			"Workshop",
+			"BodyAndSoul"
+		],
+		"location": "בלוטת האיצטרובל 2:30",
+		"locationEn": "2:30 Blutat HaYtztrubal"
+	},
+	{
+		"campId": "94bdf72d-649d-48ae-b09e-e13bdaf82dfa",
+		"giftId": "85fbed76-b029-4592-838d-7a79cc4370e1",
+		"campName": "מיראז'",
+		"campNameEn": "Mirage",
+		"title": "יוגה ומנטרה טיפאני",
+		"titleEn": "Yoga & Mantra Tiffany",
+		"time": 1526652000,
+		"tags": [
+			"Workshop",
+			"BodyAndSoul"
+		],
+		"location": "בלוטת האיצטרובל 2:30",
+		"locationEn": "2:30 Blutat HaYtztrubal"
 	}
 ]
