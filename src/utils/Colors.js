@@ -37,7 +37,6 @@ export function getTagColor(tag) {
     case 'mingling':
       return tagFactory('#C0CA33');
     default:
-      console.log('RANG', 'getTagColor', tag);
       return tagFactory('#000000');
   }
 }
