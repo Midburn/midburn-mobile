@@ -14439,6 +14439,107 @@
       "Workshop",
       "BodyAndSoul"
     ]
+  },
+
+  {
+    "campId": "22e789e5-7718-4525-a195-a6128692505e",
+    "giftId": "80c4e0c6-c966-4e4d-b18e-08af2fd9ded5",
+    "campName": "מיצרימונים",
+    "campNameEn": "Mitzrimonim",
+    "description": "מסיבת צהריים מצרית סביב האנוביס עם דיג׳ייז, ערקרימונים וספאנקים",
+    "descriptionEn": "Egyptian lunch party around the anubis with DJs, arakrimonim and spankins",
+    "title": "מסיבת צהריים מצרית סביב האנוביס עם דיג׳ייז, ערקרימונים וספאנקים",
+    "titleEn": "Egyptian lunch party around the anubis with DJs, arakrimonim and spankins",
+    "time": 1526302800,
+    "allDay": false,
+    "locationName": "טיילת 8:30",
+    "locationNameEn": "8:30 Tayelet",
+    "tags": [
+      "English",
+      "Mingling",
+      "Party",
+      "Alcohol"
+    ]
+  },
+  {
+    "campId": "22e789e5-7718-4525-a195-a6128692505e",
+    "giftId": "9f87fd17-b411-4517-9905-ddc1d7d5774f",
+    "campName": "מיצרימונים",
+    "campNameEn": "Mitzrimonim",
+    "description": "מסיבת צהריים מצרית סביב האנוביס עם דיג׳ייז, ערקרימונים וספאנקים",
+    "descriptionEn": "Egyptian lunch party around the anubis with DJs, arakrimonim and spankins",
+    "title": "מסיבת צהריים מצרית סביב האנוביס עם דיג׳ייז, ערקרימונים וספאנקים",
+    "titleEn": "Egyptian lunch party around the anubis with DJs, arakrimonim and spankins",
+    "time": 1526389200,
+    "allDay": false,
+    "locationName": "טיילת 8:30",
+    "locationNameEn": "8:30 Tayelet",
+    "tags": [
+      "English",
+      "Mingling",
+      "Party",
+      "Alcohol"
+    ]
+  },
+  {
+    "campId": "22e789e5-7718-4525-a195-a6128692505e",
+    "giftId": "358c7ba4-8228-4a85-97a8-22ede01dfc3e",
+    "campName": "מיצרימונים",
+    "campNameEn": "Mitzrimonim",
+    "description": "קלאופארטי! מסיבת ערב שם נעלה באש השמיימה סביב אדים של וייבז.",
+    "descriptionEn": "Cloparty! An evening party Where we will go up to heaven Around the Vibes steam.",
+    "title": "קלאופארטי! מסיבת ערב שם נעלה באש השמיימה סביב אדים של וייבז.",
+    "titleEn": "Cloparty! An evening party Where we will go up to heaven Around the Vibes steam.",
+    "time": 1526486400,
+    "allDay": false,
+    "locationName": "טיילת 8:30",
+    "locationNameEn": "8:30 Tayelet",
+    "tags": [
+      "English",
+      "Mingling",
+      "Party",
+      "Alcohol"
+    ]
+  },
+  {
+    "campId": "22e789e5-7718-4525-a195-a6128692505e",
+    "giftId": "316a0af8-efaa-4843-b1a8-f3d21d95c5a6",
+    "campName": "מיצרימונים",
+    "campNameEn": "Mitzrimonim",
+    "description": "מסיבת צהריים מצרית סביב האנוביס עם דיג׳ייז, ערקרימונים וספאנקים",
+    "descriptionEn": "Egyptian lunch party around the anubis with DJs, arakrimonim and spankins",
+    "title": "מסיבת צהריים מצרית סביב האנוביס עם דיג׳ייז, ערקרימונים וספאנקים",
+    "titleEn": "Egyptian lunch party around the anubis with DJs, arakrimonim and spankins",
+    "time": 1526562000,
+    "allDay": false,
+    "locationName": "טיילת 8:30",
+    "locationNameEn": "8:30 Tayelet",
+    "tags": [
+      "English",
+      "Mingling",
+      "Party",
+      "Alcohol"
+    ]
+  },
+  {
+    "campId": "22e789e5-7718-4525-a195-a6128692505e",
+    "giftId": "d5509bca-c3b3-49a5-9216-b73f937f062b",
+    "campName": "מיצרימונים",
+    "campNameEn": "Mitzrimonim",
+    "description": "מסיבת צהריים מצרית סביב האנוביס עם דיג׳ייז, ערקרימונים וספאנקים",
+    "descriptionEn": "Egyptian lunch party around the anubis with DJs, arakrimonim and spankins",
+    "title": "מסיבת צהריים מצרית סביב האנוביס עם דיג׳ייז, ערקרימונים וספאנקים",
+    "titleEn": "Egyptian lunch party around the anubis with DJs, arakrimonim and spankins",
+    "time": 1526648400,
+    "allDay": false,
+    "locationName": "טיילת 8:30",
+    "locationNameEn": "8:30 Tayelet",
+    "tags": [
+      "English",
+      "Mingling",
+      "Party",
+      "Alcohol"
+    ]
   }
 
 ]

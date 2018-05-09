@@ -2335,5 +2335,25 @@
 			"ef5110f2-e7eb-4c62-b7b2-b98798d63074",
 			"7273a747-9755-4317-a6f5-be98db4cec55"
 		]
+	},
+	{
+		"campId": "22e789e5-7718-4525-a195-a6128692505e",
+		"campName": "מיצרימונים",
+		"campNameEn": "Mitzrimonim",
+		"description": "אתם שואלים והמיצרימונים! כל יום אנחנו מרימים סביב האנוביס במסיבת צהריים מצרית עם דיג׳ייז, ערקרימונים וספאנקים מ-16:00 עד 19:00. אל תפספסו את מופעי הפתיחה של מסיבות הצהריים!",
+		"descriptionEn": "You ask and the Mitzrimonim ¯\\_(ツ)_/¯  Every day we lift around the anubis at an Egyptian lunch party with DJs, arakrimonim and spankins from 16:00 to 19:00. Do not miss the opening parties of lunch parties! (Translated by egyptian Google)",
+		"location": "טיילת 8:30",
+		"locationEn": "8:30 Tayelet",
+		"tags": [
+			"Party",
+			"Alcohol"
+		],
+		"gifts": [
+			"80c4e0c6-c966-4e4d-b18e-08af2fd9ded5",
+			"9f87fd17-b411-4517-9905-ddc1d7d5774f",
+			"358c7ba4-8228-4a85-97a8-22ede01dfc3e",
+			"316a0af8-efaa-4843-b1a8-f3d21d95c5a6",
+			"d5509bca-c3b3-49a5-9216-b73f937f062b"
+		]
 	}
 ]
