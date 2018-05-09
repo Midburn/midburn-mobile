@@ -1,11 +1,10 @@
 import _ from 'lodash';
 import React, {Component} from 'react';
-import {View, Button, Colors} from 'react-native-ui-lib';
+import {View, Colors} from 'react-native-ui-lib';
 import {getTagColor} from '../../utils/Colors';
 import * as campsAndArtStore from "../../stores/campsAndArt/store";
 import * as giftsStore from "../../stores/gifts/store";
 import {isRTL} from '../../utils/Strings';
-import {Text} from '../components/Text';
 import Tag from './TagComponent';
 
 
