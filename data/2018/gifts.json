@@ -2126,27 +2126,6 @@
   },
   {
     "campId": "3fb940e2-47a3-11e8-842f-0ed5f89f718b",
-    "giftId": "2f2282df-449b-40d4-a05b-74b8ded2b36f",
-    "campName": "אקרו קאמפ",
-    "campNameEn": "AcroCamp",
-    "description": "בואו ללמוד לעוף!!! שיעור אקרו למתחילים וממשיכים.",
-    "descriptionEn": "Come to learn to fly!!! An acro lesson for all.",
-    "title": "בואו ללמוד לעוף!!! שיעור אקרו למתחילים וממשיכים.",
-    "titleEn": "Come to learn to fly!!! An acro lesson for all.",
-    "time": 1526295600,
-    "allDay": false,
-    "locationName": "אקרו קמפ",
-    "locationNameEn": "אקרו קמפ",
-    "tags": [
-      "Kids",
-      "Games",
-      "Workshop"
-    ],
-    "location": "אמיגדלה 4:45",
-    "locationEn": "4:45 Amigdala"
-  },
-  {
-    "campId": "3fb940e2-47a3-11e8-842f-0ed5f89f718b",
     "giftId": "1dab3531-fe71-42d4-8c9b-af636c613058",
     "campName": "אקרו קאמפ",
     "campNameEn": "AcroCamp",
@@ -2239,27 +2218,6 @@
     "title": "בואו ללמוד לעוף!!! שיעור אקרו למתחילים וממשיכים.",
     "titleEn": "Come to learn to fly!!! An acro lesson for all.",
     "time": 1526727600,
-    "allDay": false,
-    "locationName": "אקרו קמפ",
-    "locationNameEn": "אקרו קמפ",
-    "tags": [
-      "Kids",
-      "Games",
-      "Workshop"
-    ],
-    "location": "אמיגדלה 4:45",
-    "locationEn": "4:45 Amigdala"
-  },
-  {
-    "campId": "3fb940e2-47a3-11e8-842f-0ed5f89f718b",
-    "giftId": "1d2b17a7-2b28-4713-b666-5c5a8fe255bb",
-    "campName": "אקרו קאמפ",
-    "campNameEn": "AcroCamp",
-    "description": "בואו ללמוד לעוף!!!שיעור אקרו למתחילים וממשיכים.",
-    "descriptionEn": "Come to learn to fly!!! An acro lesson for all.",
-    "title": "בואו ללמוד לעוף!!!שיעור אקרו למתחילים וממשיכים.",
-    "titleEn": "Come to learn to fly!!! An acro lesson for all.",
-    "time": 1526301000,
     "allDay": false,
     "locationName": "אקרו קמפ",
     "locationNameEn": "אקרו קמפ",
@@ -2370,28 +2328,6 @@
     "locationNameEn": "אקרו קמפ",
     "tags": [
       "Kids",
-      "Games",
-      "Workshop"
-    ],
-    "location": "אמיגדלה 4:45",
-    "locationEn": "4:45 Amigdala"
-  },
-  {
-    "campId": "3fb940e2-47a3-11e8-842f-0ed5f89f718b",
-    "giftId": "2e0a4235-ba58-46a0-9cd0-c4d5a3b62f79",
-    "campName": "אקרו קאמפ",
-    "campNameEn": "AcroCamp",
-    "description": "בואו ללמוד לעוף!!!שיעור אקרו למתחילים וממשיכים.",
-    "descriptionEn": "Come to learn to fly!!! An acro lesson for all.",
-    "title": "בואו ללמוד לעוף!!!שיעור אקרו למתחילים וממשיכים.",
-    "titleEn": "Come to learn to fly!!! An acro lesson for all.",
-    "time": 1526306400,
-    "allDay": false,
-    "locationName": "אקרו קמפ",
-    "locationNameEn": "אקרו קמפ",
-    "tags": [
-      "Kids",
-      "English",
       "Games",
       "Workshop"
     ],
@@ -2529,26 +2465,6 @@
     ],
     "location": "בלוטת האיצטרובל 4:00",
     "locationEn": "4:00 Blutat HaYtztrubal"
-  },
-  {
-    "campId": "3fb940e2-47a3-11e8-842f-0ed5f89f718b",
-    "giftId": "84eee486-2ccc-4b9e-b5a4-0c2bec57fbdf",
-    "campName": "אקרו קאמפ",
-    "campNameEn": "AcroCamp",
-    "description": "מפגש לילי של אקרו ואורות. צלמים מוזמנים!!!",
-    "descriptionEn": "A night jam of acro an light.",
-    "title": "מפגש לילי של אקרו ואורות. צלמים מוזמנים!!!",
-    "titleEn": "A night jam of acro an light.",
-    "time": 1526493600,
-    "allDay": false,
-    "locationName": "אקרו קמפ",
-    "locationNameEn": "אקרו קמפ",
-    "tags": [
-      "Adults",
-      "Live"
-    ],
-    "location": "אמיגדלה 4:45",
-    "locationEn": "4:45 Amigdala"
   },
   {
     "campId": "d6efdd4e-d1f8-480c-a354-af0ad8e2be55",
