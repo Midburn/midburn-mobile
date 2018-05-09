@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import {BackHandler, Platform} from 'react-native';
 import {Text, View, Button, Card, Colors} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import * as giftsStore from '../../stores/gifts/store';
@@ -6,21 +7,40 @@ import {EventsComponent} from './EventsComponent';
 import SCREEN_NAMES from '../screenNames';
 import Strings from "../../utils/Strings";
 import {exitApp} from "../../stores/appActions";
-import {BackHandler} from "react-native";
 
 
 const SURPRISE_ME = 'NAV_BAR_BUTTON_SURPRISE_ME';
+const MAP = 'NAV_BAR_BUTTON_MAP';
+const SURPRISE_ME_ICON = require('../../../data/img/present.png');
+const MAP_ICON = require('../../../data/img/mapNavBar.png');
+const IS_IOS = Platform.OS === 'ios';
 
 class NowScreen extends Component {
 
-  static navigatorButtons = {
+  static navigatorButtons = IS_IOS ? {
     rightButtons: [
       {
         id: SURPRISE_ME,
-        title: 'Now',
-        icon: require('../../../data/img/present.png'),
+        icon: SURPRISE_ME_ICON,
+      },
+    ],
+    leftButtons: [
+      {
+        id: MAP,
+        icon: MAP_ICON,
       },
     ]
+  } : {
+    rightButtons: [
+      {
+        id: SURPRISE_ME,
+        icon: SURPRISE_ME_ICON,
+      },
+      {
+        id: MAP,
+        icon: MAP_ICON,
+      }
+    ],
   };
 
   constructor(props) {
@@ -32,6 +52,15 @@ class NowScreen extends Component {
     if (event.id === SURPRISE_ME) {
       this.props.navigator.showModal( {
         screen: SCREEN_NAMES.SURPRISE_ME,
+      });
+    }
+
+    if (event.id === MAP) {
+      this.props.navigator.push( {
+        screen: SCREEN_NAMES.MAP,
+        navigatorStyle: {
+          tabBarHidden: true
+        }
       });
     }
 
