@@ -58,7 +58,7 @@ class FilterTagsScreen extends Component {
           link
           label={Strings('CLEAN_FILTER')}
           onPress={this.onClearPressed}
-          labelProps={{style: {fontWeight: '500'}, blue30: true, text60: true}}
+          labelProps={{style: {fontWeight: '600'}, blue30: true, text60: true}}
         />
 
       </View>

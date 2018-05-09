@@ -16,10 +16,6 @@ export default class AppFeedbackScreen extends Component {
     });
   }
 
-  // componentWillUnmount() {
-  //   BackHandler.removeEventListener();
-  // }
-
   _onButtonPress = () => {
     openEmailFeedback({});
   }
@@ -28,7 +24,7 @@ export default class AppFeedbackScreen extends Component {
     return (
       <View flex spread margin-16>
         <View flex centerH paddingT-40>
-          <Text text40 center>
+          <Text text40 center style={{fontWeight: '500'}}>
             {Strings('WHAT_DO_YOU_THINK')}
           </Text>
           <View marginT-50>
