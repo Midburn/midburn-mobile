@@ -30,6 +30,11 @@ const getItems = () => ds.cloneWithRows([
     title: Strings('SELECT_LANGUAGE')
   },
   {
+    image: '',
+    text: Strings('MAP'),
+    screen: SCREENS.MAP
+  },
+  {
     text: Strings('MIDBURN_PRINCIPLES'),
     screen: SCREENS.PRINCIPLES
   },
@@ -42,11 +47,6 @@ const getItems = () => ds.cloneWithRows([
     text: Strings('FEEDBACK'),
     screen: SCREENS.APP_FEEDBACK,
     title: Strings('FEEDBACK_SCREEN_TITLE')
-  },
-  {
-    image: '',
-    text: Strings('MAP'),
-    screen: SCREENS.MAP
   },
   {
     text: Strings('OPEN_SOURCES'),
