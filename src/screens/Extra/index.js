@@ -184,7 +184,7 @@ export default class ExtraScreen extends Component {
 
   _renderVersionNumber = () => {
     return (
-      <View center paddingT-16>
+      <View center paddingV-16>
         <Text text80 dark50>MidburnMobile v{appVersionNumber()}</Text>
       </View>
     );
