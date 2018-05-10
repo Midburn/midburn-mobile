@@ -128,7 +128,15 @@
     "en": "Clean"
   },
   "NO_FILTERED_EVENTS": {
-  "he": "אין אירועים בסינון שנבחר 💝",
-  "en": "No events on selected filters 💝"
-}
+    "he": "אין אירועים בסינון שנבחר 💝",
+    "en": "No events on selected filters 💝"
+  },
+  "APPLY_FILTER": {
+    "he": "סנן",
+    "en": "Apply"
+  },
+  "SHARE_APP": {
+    "he": "שתף",
+    "en": "Share"
+  }
 }
