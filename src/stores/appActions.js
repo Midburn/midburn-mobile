@@ -1,9 +1,10 @@
-import {AsyncStorage, Alert, BackHandler} from 'react-native';
+import {AsyncStorage, Alert, BackHandler, Share} from 'react-native';
 import * as campsAndArtActions from './campsAndArt/actions';
 import * as giftsActions from './gifts/actions';
 import Strings from "../utils/Strings";
 
 const APP_LANGUAGE_STORAGE_KEY = '@midburn_language:key';
+const APP_WEBSITE = 'https://www.midburnapp.org/';
 
 
 export async function loadTabsData() {
@@ -89,5 +90,13 @@ export function exitApp() {
   );
 
   return true;
+}
+
+export function shareApp() {
+  Share.share(
+    {
+      title: `Checkout Midburn 2018 App`,
+      message: `Checkout Midburn 2018 App\n${APP_WEBSITE}`
+    });
 }
 

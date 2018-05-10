@@ -1,9 +1,9 @@
 import React, {Component} from 'react';
-import {StyleSheet, ListView, BackHandler} from 'react-native';
-import {Text, View, Button, ListItem, Colors, Image, TouchableOpacity} from 'react-native-ui-lib';
+import {BackHandler, ListView, StyleSheet} from 'react-native';
+import {Button, Colors, Image, ListItem, Text, TouchableOpacity, View} from 'react-native-ui-lib';
 import Strings, {getLocale} from './../../utils/Strings';
 import SCREENS from './../../screens/screenNames';
-import {backToNowTab, setAppLanguage} from '../../stores/appActions';
+import {backToNowTab, setAppLanguage, shareApp} from '../../stores/appActions';
 import {appVersionNumber} from '../../utils/Misc';
 
 const RIGHT_CHEVRON = require('../../../data/img/right-chevron.png');
@@ -23,6 +23,9 @@ const getItems = () => ds.cloneWithRows([
     text: Strings('CREDITS'),
     screen: SCREENS.CREDITS,
     title: Strings('CREDITS')
+  },
+  {
+    text: Strings('SHARE_APP'),
   },
   {
     text: Strings('SELECT_LANGUAGE'),
@@ -82,6 +85,11 @@ export default class ExtraScreen extends Component {
   }
 
   onPressed = (item) => {
+    if (item.text === Strings('SHARE_APP')) {
+      shareApp();
+      return
+    }
+
     this.props.navigator.push({
       screen: item.screen,
       title: item.title,
@@ -149,8 +157,8 @@ export default class ExtraScreen extends Component {
         <View bg-black style={{height: 1}}/>
       </ListItem>
     );
-
   }
+
 
   _renderImportantContacts(item, i) {
     if (item.screen === SCREENS.SETTINGS) {
