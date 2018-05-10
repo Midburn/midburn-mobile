@@ -4785,51 +4785,6 @@
 		"locationEn": "4:00 Amigdala"
 	},
 	{
-		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
-		"giftId": "809d9468-6fa1-44d2-9645-2eb0eaf59c2d",
-		"campName": "זקני השבט",
-		"campNameEn": "Tribe Elders",
-		"title": "תבונת התודעה- המסתורין של להיות בן אדם. ",
-		"titleEn": "Consciousness - the mystery of being a human being",
-		"time": 1526374800,
-		"tags": [
-			"Adults",
-			"Workshop"
-		],
-		"location": "אמיגדלה 2:30",
-		"locationEn": "2:30 Amigdala"
-	},
-	{
-		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
-		"giftId": "5e01e1e3-74bd-4613-b743-483b3f0f4017",
-		"campName": "זקני השבט",
-		"campNameEn": "Tribe Elders",
-		"title": "תרבות הנתינה בישראל בדגש על נתינה כספית).",
-		"titleEn": "The culture of giving in Israel ",
-		"time": 1526461200,
-		"tags": [
-			"Adults",
-			"Workshop"
-		],
-		"location": "אמיגדלה 2:30",
-		"locationEn": "2:30 Amigdala"
-	},
-	{
-		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
-		"giftId": "70705058-0cfb-4ab7-93a5-439065f00389",
-		"campName": "זקני השבט",
-		"campNameEn": "Tribe Elders",
-		"title": "מציאת הדרך האישית- המסע הרוחני הפרטי של האדם",
-		"titleEn": "Finding the personal  spiritual journey",
-		"time": 1526547600,
-		"tags": [
-			"Adults",
-			"Workshop"
-		],
-		"location": "אמיגדלה 2:30",
-		"locationEn": "2:30 Amigdala"
-	},
-	{
 		"campId": "6a567cc6-1211-4c7e-8fb7-119339daadb2",
 		"giftId": "2828da78-bddf-41c6-a2d8-38c90b3e9095",
 		"campName": "פילואו פייט קלאב",
@@ -4918,51 +4873,6 @@
 		],
 		"location": "טיילת 9:30",
 		"locationEn": "9:30 Tayelet"
-	},
-	{
-		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
-		"giftId": "bceb7d4e-d101-4255-abd8-901623a484eb",
-		"campName": "זקני השבט",
-		"campNameEn": "Tribe Elders",
-		"title": "מציאת הדרך האישית- המסע הרוחני הפרטי של האדם ",
-		"titleEn": "The personal spiritual path",
-		"time": 1526547600,
-		"tags": [
-			"Adults",
-			"Workshop"
-		],
-		"location": "אמיגדלה 2:30",
-		"locationEn": "2:30 Amigdala"
-	},
-	{
-		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
-		"giftId": "60b91640-09f1-4900-a77d-01d34041b592",
-		"campName": "זקני השבט",
-		"campNameEn": "Tribe Elders",
-		"title": "תבונת התודעה- המסתורין של להיות בן אדם",
-		"titleEn": "The mystery of being human",
-		"time": 1526374800,
-		"tags": [
-			"Adults",
-			"Workshop"
-		],
-		"location": "אמיגדלה 2:30",
-		"locationEn": "2:30 Amigdala"
-	},
-	{
-		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
-		"giftId": "b1e05209-0498-43a2-99b8-dad27f500cd8",
-		"campName": "זקני השבט",
-		"campNameEn": "Tribe Elders",
-		"title": "תרבות הנתינה בישראל בדגש על נתינה כספית",
-		"titleEn": "The culture of giving (money) in Israel  ",
-		"time": 1526461200,
-		"tags": [
-			"Adults",
-			"Workshop"
-		],
-		"location": "אמיגדלה 2:30",
-		"locationEn": "2:30 Amigdala"
 	},
 	{
 		"campId": "979f6b28-47a4-11e8-842f-0ed5f89f718b",
@@ -11406,6 +11316,132 @@
 			"English",
 			"Mingling",
 			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+
+	{
+		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
+		"giftId": "140b940d-b506-44cd-bcc0-831ed4aeff0a",
+		"campName": "זקני השבט",
+		"campNameEn": "Tribe Elders",
+		"title": "כיתת תנועה הוליסטית (יוגה, פילטיס, צ'יקונג...)",
+		"titleEn": "Yoga &  Holistic Movement Class (Pilates, Chi Gong etc.)",
+		"time": 1526365800,
+		"locationName": "אמיגדלה 2:30",
+		"locationNameEn": "2:30 Amigdala",
+		"tags": [
+			"Adults",
+			"English",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
+		"giftId": "32b953e9-9b3e-44ed-ab0b-3e778e69673c",
+		"campName": "זקני השבט",
+		"campNameEn": "Tribe Elders",
+		"title": "כיתת תנועה הוליסטית (יוגה, פילטיס, צ'יקונג...)",
+		"titleEn": "Yoga &  Holistic Movement Class (Pilates, Chi Gong etc.)",
+		"time": 1526452200,
+		"locationName": "אמיגדלה 2:30",
+		"locationNameEn": "2:30 Amigdala",
+		"tags": [
+			"Adults",
+			"English",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
+		"giftId": "e32cf001-ed8b-47da-a8e3-127a36849379",
+		"campName": "זקני השבט",
+		"campNameEn": "Tribe Elders",
+		"title": "כיתת תנועה הוליסטית (יוגה, פילטיס, צ'יקונג...)",
+		"titleEn": "Yoga &  Holistic Movement Class (Pilates, Chi Gong etc.)",
+		"time": 1526538600,
+		"locationName": "אמיגדלה 2:30",
+		"locationNameEn": "2:30 Amigdala",
+		"tags": [
+			"Adults",
+			"English",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
+		"giftId": "27ab59fd-9ea5-45a0-a26c-780f36f3c67c",
+		"campName": "זקני השבט",
+		"campNameEn": "Tribe Elders",
+		"title": "כיתת תנועה הוליסטית (יוגה, פילטיס, צ'יקונג...)",
+		"titleEn": "Yoga &  Holistic Movement Class (Pilates, Chi Gong etc.)",
+		"time": 1526625000,
+		"locationName": "אמיגדלה 2:30",
+		"locationNameEn": "2:30 Amigdala",
+		"tags": [
+			"Adults",
+			"English",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
+		"giftId": "c49740b4-feff-4a96-b750-d06bac809775",
+		"campName": "זקני השבט",
+		"campNameEn": "Tribe Elders",
+		"title": "כיתת תנועה הוליסטית (יוגה, פילטיס, צ'יקונג...)",
+		"titleEn": "Yoga &  Holistic Movement Class (Pilates, Chi Gong etc.)",
+		"time": 1526711400,
+		"locationName": "אמיגדלה 2:30",
+		"locationNameEn": "2:30 Amigdala",
+		"tags": [
+			"Adults",
+			"English",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
+		"giftId": "50cbe6c4-87e0-4148-ac6f-66a17cee787e",
+		"campName": "זקני השבט",
+		"campNameEn": "Tribe Elders",
+		"title": "תבונת התודעה- המסתורין של להיות בן אדם (פרופסור עודד מימון ואורני פטרושקה)",
+		"titleEn": "Consciousness - the mystery of being a human being",
+		"time": 1526374800,
+		"locationName": "אמיגדלה 2:30",
+		"locationNameEn": "2:30 Amigdala",
+		"tags": [
+			"Live",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
+		"giftId": "baec520f-84fa-4cce-ac5b-55ce13171f35",
+		"campName": "זקני השבט",
+		"campNameEn": "Tribe Elders",
+		"title": "תרבות הנתינה בישראל בדגש על נתינה כספית (פרופסור עודד מימון ואורני פטרושקה).",
+		"titleEn": "The culture of giving in Israel ",
+		"time": 1526461200,
+		"locationName": "אמיגדלה 2:30",
+		"locationNameEn": "2:30 Amigdala",
+		"tags": [
+			"Live",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
+		"giftId": "6ac1cdd1-9e36-4599-882e-f8a96ea07b7f",
+		"campName": "זקני השבט",
+		"campNameEn": "Tribe Elders",
+		"title": "מציאת הדרך האישית- המסע הרוחני הפרטי של האדם (פרופסור עודד מימון ואורני פטרושקה).",
+		"titleEn": "Finding the personal  spiritual journey",
+		"time": 1526547600,
+		"locationName": "אמיגדלה 2:30",
+		"locationNameEn": "2:30 Amigdala",
+		"tags": [
+			"Live",
 			"BodyAndSoul"
 		]
 	}

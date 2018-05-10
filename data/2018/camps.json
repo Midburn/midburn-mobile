@@ -383,24 +383,26 @@
 		"campId": "9277cb32-9b72-4040-a690-5c041cc600d1",
 		"campName": "זקני השבט",
 		"campNameEn": "Tribe Elders",
-		"description": "הרצאות, מדיטציות, כיבוד-קל והטענת ניידים",
-		"descriptionEn": "Lectures meditations, snacks & smartphone charger",
+		"description": "הרצאות, מדיטציות, שיעורי תנועה הוליסטית, הטענת ניידים  וכיבוד קל",
+		"descriptionEn": "Lectures meditations, Yoga & holistic movements classes, smartphone charger and snacks",
 		"location": "אמיגדלה 2:30",
 		"locationEn": "2:30 Amigdala",
 		"tags": [
-			"PhysicallyDisabled",
 			"Adults",
+			"English",
 			"FoodAndDrinks",
 			"Workshop",
 			"BodyAndSoul"
 		],
 		"gifts": [
-			"809d9468-6fa1-44d2-9645-2eb0eaf59c2d",
-			"5e01e1e3-74bd-4613-b743-483b3f0f4017",
-			"70705058-0cfb-4ab7-93a5-439065f00389",
-			"bceb7d4e-d101-4255-abd8-901623a484eb",
-			"60b91640-09f1-4900-a77d-01d34041b592",
-			"b1e05209-0498-43a2-99b8-dad27f500cd8"
+			"140b940d-b506-44cd-bcc0-831ed4aeff0a",
+			"32b953e9-9b3e-44ed-ab0b-3e778e69673c",
+			"e32cf001-ed8b-47da-a8e3-127a36849379",
+			"27ab59fd-9ea5-45a0-a26c-780f36f3c67c",
+			"c49740b4-feff-4a96-b750-d06bac809775",
+			"50cbe6c4-87e0-4148-ac6f-66a17cee787e",
+			"baec520f-84fa-4cce-ac5b-55ce13171f35",
+			"6ac1cdd1-9e36-4599-882e-f8a96ea07b7f"
 		]
 	},
 	{
