@@ -69,6 +69,10 @@ class FilterTagsScreen extends Component {
     giftsStore.setters.toggleTagFilter(tag);
   }
 
+  _onApplyFilterPress = () => {
+    giftsActions.dismissFilterScreen(this.props.navigator);
+  }
+
   render() {
     return (
       <SafeAreaView style={{flex: 1}}>
@@ -83,6 +87,14 @@ class FilterTagsScreen extends Component {
                 onTagPressed={this._onTagPressed}
                 filteredDesign={true}
               />
+              <View paddingT-54 center>
+                <Button
+                  onPress={this._onApplyFilterPress}
+                  label={Strings('APPLY_FILTER')}
+                  size={'medium'}
+                  labelStyle={{ fontWeight: '600'}}
+                />
+              </View>
             </ScrollView>
           </View>
         </View>
