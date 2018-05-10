@@ -35,6 +35,11 @@ const getItems = () => ds.cloneWithRows([
     screen: SCREENS.MAP
   },
   {
+    image: '',
+    text: Strings('MAP_ACCESSIBILITY'),
+    screen: SCREENS.MAP_ACCESSIBILITY
+  },
+  {
     text: Strings('MIDBURN_PRINCIPLES'),
     screen: SCREENS.PRINCIPLES
   },

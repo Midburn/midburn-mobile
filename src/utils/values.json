@@ -35,6 +35,10 @@
     "he": "מפה",
     "en": "Map"
   },
+  "MAP_ACCESSIBILITY": {
+    "he": "מפה מונגשת",
+    "en": "Accessibility Map"
+  },
   "MIDBURN_PRINCIPLES": {
     "he": "עשרת העקרונות",
     "en": "The Ten Principles"

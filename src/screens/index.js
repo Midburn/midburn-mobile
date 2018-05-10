@@ -15,6 +15,7 @@ import SafetyScreen from './Extra/SafetyScreen';
 import SettingsScreen from './Extra/SettingsScreen';
 import CreditsScreen from './Extra/CreditsScreen';
 import MapScreen from './Extra/MapScreen';
+import AccessibilityMapScreen from './Extra/AccessibilityMapScreen';
 import SurpriseMeScreen from './Extra/SurpriseMeScreen';
 
 // register all screens of the app (including internal ones)
@@ -35,5 +36,6 @@ export function registerContainers() {
   Navigation.registerComponent(SCREENS.SETTINGS, () => SettingsScreen);
   Navigation.registerComponent(SCREENS.CREDITS, () => CreditsScreen);
   Navigation.registerComponent(SCREENS.MAP, () => MapScreen);
+  Navigation.registerComponent(SCREENS.MAP_ACCESSIBILITY, () => AccessibilityMapScreen);
   Navigation.registerComponent(SCREENS.SURPRISE_ME, () => SurpriseMeScreen);
 }
