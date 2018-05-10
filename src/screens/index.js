@@ -38,4 +38,5 @@ export function registerContainers() {
   Navigation.registerComponent(SCREENS.MAP, () => MapScreen);
   Navigation.registerComponent(SCREENS.MAP_ACCESSIBILITY, () => AccessibilityMapScreen);
   Navigation.registerComponent(SCREENS.SURPRISE_ME, () => SurpriseMeScreen);
+
 }
