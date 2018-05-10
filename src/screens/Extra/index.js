@@ -4,7 +4,7 @@ import {Text, View, Button, ListItem, Colors, Image, TouchableOpacity} from 'rea
 import Strings, {getLocale} from './../../utils/Strings';
 import SCREENS from './../../screens/screenNames';
 import {backToNowTab, setAppLanguage} from '../../stores/appActions';
-import * as store from "../../stores/campsAndArt/store";
+import {appVersionNumber} from '../../utils/Misc';
 
 const RIGHT_CHEVRON = require('../../../data/img/right-chevron.png');
 
@@ -177,13 +177,29 @@ export default class ExtraScreen extends Component {
     )
   }
 
+  _renderVersionNumber = () => {
+    return (
+      <View center paddingT-16>
+        <Text text80 dark50>MidburnMobile v{appVersionNumber()}</Text>
+      </View>
+    );
+  }
+
+  _renderSeparator = () => {
+    return (
+      <View bg-dark60 height={StyleSheet.hairlineWidth}/>
+    );
+  }
+
   render() {
     return (
       <View flex>
         <ListView
           dataSource={this.items}
           renderRow={(row, sectionId, rowId) => this._renderImportantContacts(row, rowId)}
-          renderSeparator={() => <View bg-dark60 height={StyleSheet.hairlineWidth}/>}/>
+          renderSeparator={this._renderSeparator}
+          renderFooter={this._renderVersionNumber}
+        />
       </View>
     );
   }
