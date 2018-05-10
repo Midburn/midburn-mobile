@@ -1,5 +1,5 @@
 import React from 'react';
-import {Dimensions, Platform, BackHandler} from 'react-native';
+import {Dimensions, BackHandler} from 'react-native';
 import {View} from 'react-native-ui-lib'
 import Pdf from 'react-native-pdf';
 
