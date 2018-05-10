@@ -4965,22 +4965,6 @@
 		"locationEn": "2:30 Amigdala"
 	},
 	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "552c7b92-ad87-4c45-bee0-34b648de2674",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "מעגל גברים",
-		"titleEn": "Men's Circle",
-		"time": 1526486400,
-		"tags": [
-			"Adults",
-			"Workshop",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
 		"campId": "979f6b28-47a4-11e8-842f-0ed5f89f718b",
 		"giftId": "30667b4b-55fd-43a4-8b14-948407ea8a34",
 		"campName": "פוסינמה",
@@ -9045,232 +9029,6 @@
 		"locationEn": "3:00 Amigdala"
 	},
 	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "bc2a2b8c-e5c9-4941-a6b6-080b303c7d25",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "חידות בחושך",
-		"titleEn": "Puzzles in the dark",
-		"time": 1526457600,
-		"tags": [
-			"Adults",
-			"Games"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "f98275c8-24a9-4e3f-98f9-47f3720f2494",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "מקום מפלט - סרט בחושך, חלל או אוקיינוס",
-		"titleEn": "A Gataway - Movie in the dark, space or ocean ",
-		"time": 1526740200,
-		"tags": [
-			"Adults",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "0d0cb587-f3e9-43b4-beb2-c39edc8423f3",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "מקום מפלט - סרט בחושך, חלל או אוקיינוס",
-		"titleEn": "A Gataway - Movie in the dark, space or ocean ",
-		"time": 1526653800,
-		"tags": [
-			"Adults",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "926ea92f-a9a8-4448-901c-82324e6a0bb6",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "מקום מפלט - סרט בחושך, חלל או אוקיינוס",
-		"titleEn": "A Gataway - Movie in the dark, space or ocean ",
-		"time": 1526567400,
-		"tags": [
-			"Adults",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "19aa89fd-3101-440b-aa8c-d13ec8a07c92",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "מקום מפלט - סרט בחושך, חלל או אוקיינוס",
-		"titleEn": "A Gataway - Movie in the dark, space or ocean ",
-		"time": 1526481000,
-		"tags": [
-			"Adults",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "e4a725f5-cbf2-470c-8fa4-082ed762f7a0",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "מקום מפלט - סרט בחושך, חלל או אוקיינוס",
-		"titleEn": "A Gataway - Movie in the dark, space or ocean ",
-		"time": 1526394600,
-		"tags": [
-			"Adults",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "57e06754-faf6-43fc-b043-0ce829f1b1cc",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "מקום מפלט - סרט בחושך, חלל או אוקיינוס",
-		"titleEn": "A Gataway - Movie in the dark, space or ocean ",
-		"time": 1526308200,
-		"tags": [
-			"Adults",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "f2baaa99-a6f3-4e13-9539-1280d2bd2ae9",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "עיסויים פרטניים",
-		"titleEn": "Private massages",
-		"time": 1526371200,
-		"tags": [
-			"Adults",
-			"Workshop",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "2c15a4f8-2b4d-4384-a3c1-44000670a5d3",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "פעילות חופשית בחדר חושך",
-		"titleEn": "Free play in the dark room",
-		"time": 1526760000,
-		"tags": [
-			"Adults",
-			"Games"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "034914eb-714c-4001-9621-7958c8c4c3dc",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "פעילות חופשית בחדר חושך",
-		"titleEn": "Free play in the dark room",
-		"time": 1526673600,
-		"tags": [
-			"Adults",
-			"Games"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "20a42f48-1f55-4a42-9bdf-42c66cfb5a42",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "פעילות חופשית בחדר חושך",
-		"titleEn": "Free play in the dark room",
-		"time": 1526587200,
-		"tags": [
-			"Adults",
-			"Games"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "76f6998e-13cf-4f01-9d82-3e370b2ec3d6",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "פעילות חופשית בחדר חושך",
-		"titleEn": "Free play in the dark room",
-		"time": 1526500800,
-		"tags": [
-			"Adults",
-			"Games"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "a275f822-f9a9-461f-a5b3-1f557ea4fad8",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "פעילות חופשית בחדר חושך",
-		"titleEn": "Free play in the dark room",
-		"time": 1526414400,
-		"tags": [
-			"Adults",
-			"Games"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "13875902-5c6e-4a5b-87be-1222f70da103",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "פעילות חופשית בחדר חושך",
-		"titleEn": "Free play in the dark room",
-		"time": 1526328000,
-		"tags": [
-			"Adults",
-			"Games"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "4bd46b6f-d4d0-4356-b2a0-646a6f2544ee",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "סדנת גניחות לנשים",
-		"titleEn": "A moaning workshop for women",
-		"time": 1526549400,
-		"tags": [
-			"Adults",
-			"Workshop"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
 		"campId": "e87eb75a-2456-4732-aaa6-acc2c48d77c4",
 		"giftId": "d549a219-0914-4c01-8185-86d1ec889c9a",
 		"campName": "04",
@@ -9519,70 +9277,6 @@
 		],
 		"location": "טיילת 1:00",
 		"locationEn": "1:00 Tayelet"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "2f382e69-830f-427d-b012-babc263ea12f",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "מעגל נשים ",
-		"titleEn": "Woman Circle",
-		"time": 1526400000,
-		"tags": [
-			"Adults",
-			"Workshop",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "376af8ba-e4f1-4c5c-a339-1fa937b57469",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "Sexperiment - Guys",
-		"titleEn": "Sexperiment - Guys",
-		"time": 1526495400,
-		"tags": [
-			"Adults",
-			"Workshop",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "0d705463-ec17-4ce4-8b28-a929eb43b907",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "Sexperiment - Girls",
-		"titleEn": "Sexperiment - Girls",
-		"time": 1526409000,
-		"tags": [
-			"Adults",
-			"Workshop",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "5b349bfc-1d7a-4e93-996a-d85da8ec9e1f",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "עינוג עצמי",
-		"titleEn": "Self pleasure",
-		"time": 1526322600,
-		"tags": [
-			"Adults",
-			"Workshop",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
 	},
 	{
 		"campId": "e87eb75a-2456-4732-aaa6-acc2c48d77c4",
@@ -9920,22 +9614,6 @@
 		],
 		"location": "אמיגדלה 3:00",
 		"locationEn": "3:00 Amigdala"
-	},
-	{
-		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
-		"giftId": "159df061-bd8e-4692-b048-5a5e65270337",
-		"campName": "משולש ברמודה",
-		"campNameEn": "Barmuda Triangle",
-		"title": "מדיטציה",
-		"titleEn": "Meditation",
-		"time": 1526457600,
-		"tags": [
-			"Adults",
-			"Workshop",
-			"BodyAndSoul"
-		],
-		"location": "גזע המוח 1:30",
-		"locationEn": "1:30 Geza Hamoach"
 	},
 	{
 		"campId": "e5d0895f-5e02-4ce3-8307-c990fea3423b",
@@ -11242,6 +10920,493 @@
 			"English",
 			"Mingling",
 			"Party"
+		]
+	},
+
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "ec5a290d-d675-44ff-a6b6-58c4b9d0bf08",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "מעגל נשים-סדנה מונחת. מיועדת לנשים בלבד. מטרת הסדנה היא לדבר בצורה פתוחה וחופשית על נשיות , מיניות ועוד",
+		"titleEn": "Woman’s Circle - A guided workshop for women only. The goal of the session is to openly and freely discuss femininity, sexuality, and more.",
+		"time": 1526322600,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "58c749bc-896c-420c-9786-1d7a0c76fc39",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "עיסויים פרטניים- למספר משתתפים במקביל (אפשר בעירום). מיועד ל-10 משתתפים כל פעם.  - אז כל 15 דקות מכניסים אחרים מבחוץ לסשן. הסדנה היא שעה וחצי. יתקיימו 6 סבבים. רצוי לבוא עם מגבת.",
+		"titleEn": "Partnered Massages - For a limited number of partners in parallel (nudity optional). Designed for 10 participants at a time. Every 15 minutes there will be new participants; the workshop will last 1.5 hours, with 6 rounds. Bring your own towel.",
+		"time": 1526371200,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "861f19c9-24b2-41f5-b4d5-5ad07357626f",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "דייט בחשכה - סדנה שמיועדת לרווקים ורווקות בלבד. סדנה מונחת למציאת בן/בת זוג בחושך. 13 גברים ו- 13 נשים.  סדנה של שעה.",
+		"titleEn": "“Blind” Date - A workshop for singles only. A guided workshop for finding your partner, in the dark. 13 men and 13 women. A one-hour workshop.",
+		"time": 1526378400,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "01f652b1-812a-4e2f-8c0b-e9e1fa7c687d",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "סרט בחושך - סרט ללא תמונה רק שומעים את הסרט.",
+		"titleEn": "Movie in the Dark - A movie without picture. Enjoy the sounds of familiar films.",
+		"time": 1526382000,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "3049e9da-762d-4276-b11d-c00092abdb02",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "מעגל גברים-סדנה מונחת. מיועדת לגברים בלבד. מטרת הסדנה היא לדבר בצורה פתוחה וחופשית על גבריות , מיניות ועוד.",
+		"titleEn": "Men’s Circle - A guided workshop for men only. The goal of the session is to openly and freely discuss masculinity, sexuality, and more.",
+		"time": 1526391000,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "a944209d-ebd3-4d71-83d4-8b358fed3cef",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "חדר וידויים -סדנת וידויים למספר משתתפים בקבוצה . אנשים יכנסו ובצורה מונחת הם יתוודו על סודות ו/או סיפורים מביכים .להכניס קבוצה של עד 25 איש. מ. 30 דקות כל סשן- שלושה  סשנים. סה\"כ הסדנה תהיה שעה וחצי",
+		"titleEn": "Confession Booth - A Confession Workshop for a limited number of participants. People will be guided inside, and confess their secrets and/or embarrassing stories. 25 people per 30-minute session. There will be 3 sessions.",
+		"time": 1526394600,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "ec73fc41-8e8f-45e3-b8a3-d1f6824eeb42",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "Sexperiment - Women סדנה מונחת בעלת אופי מיני לנשים בלבד. מטרת הסדנה היא לחקור מגע חד מיני במרחב מוגן עם הנחיה. עד 20 נשים. רצוי לבוא עם מגבת. ",
+		"titleEn": "Sexperimenting with Women - A guided workshop of a sexual nature, for women only. The goal of the session is to explore same-sex contact and sexuality in a safe, judgement-free environment, with guidance. Up to 20 women. Bring your own towel.",
+		"time": 1526407200,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "ef99f859-b399-457f-a3c8-592a0e0c9a49",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "משחק חופשי - מתחם מיני מפוקח לזוגות ושלישיות בלבד בחושך ועם כיסוי עיניים. רצוי להביא מגבת",
+		"titleEn": "Free Play - A space for supervised sexuality, for couples and triads only - in the dark and with eye masks. Bring your own towel.",
+		"time": 1526414400,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "e1db2743-6731-4506-95d0-da1ff98f547f",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "מדיטציה-\"סדנאות מדיטציה ודמיון מודרך בנושא אהבה עצמית וחיזוק רגשות חיוביים וחיבור למיניות בריאה.שעה וחצי של רגיעה ודמיון מודרך.  סדנה של שעה וחצי . עד 20 איש",
+		"titleEn": "Meditation - Meditation workshops and guided visualizations about self-love and maintaining positive emotions, as well as a connection to healthy sexuality. An hour and a half. Up to 20 participants.",
+		"time": 1526463000,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "7a272746-a412-4e96-a954-0a00e2e1ffdf",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "מחליפים חליפות -סדנה מונחת.מחליפים בגדים-  נכנסים לחדר, נעמדים מסביב  בהינתן האות מורידים בגדים וזורקים למרכז החדר.   אחר כך כל אחד צריך למצוא בגד ולהתלבש חזרה...  (15 דקות כל קבוצה.",
+		"titleEn": "(Ex) Clothes - A guided workshop. Come into the Dark Room - we’ll stand in a circle, and at once strip our clothes and throw them into the center. Everyone will rush to choose a new garment and get redressed in a new outfit.",
+		"time": 1526466600,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "340d8a12-15b9-4d0f-8e1a-6f46a131bac3",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "מקום מפלט החדר הופך למקום אליו בורחים מההמולה בחוץ כדי לנוח ולהירגע.",
+		"titleEn": "מקום מפלט החדר הופך למקום אליו בורחים מההמולה בחוץ כדי לנוח ולהירגע.",
+		"time": 1526468400,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "ce48a0b3-ea0d-4c7f-85ef-4cac8b4e91c4",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "מעגלי מגע- לרווקים ורווקות.תהיה הדרכה והנחיה בתוך החדר חושך. 3 סבבים של חצי שעה כל סבב.עד 20 אנשים. סה\"כ הסדנה תהיה שעה וחצי שעה וחצי",
+		"titleEn": "Touching Circles - For singles. There will be instruction and guidance in the dark room. Three rounds of thirty minutes each; each one with up to 20 participants.",
+		"time": 1526475600,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "3d3d7bd3-5d57-4bbf-ac86-edbdd85f87f8",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "משחקים בחושך סדנה מונחת. המשתתפים יחולקו לקבוצות ותתקיים תחרות בין הקבוצות. עד 20 איש.",
+		"titleEn": "Playing in the Dark - A guided workshop. The participants will divide into teams and compete against each other in dark. Up to 20 participants.",
+		"time": 1526481000,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "6bf576c3-6af3-40ac-88aa-172977c1b8f3",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "Sexperimenting with Men\t\"סדנה מונחת בעלת אופי מיני לגברים בלבד. מטרת הסדנה היא לחקור מגע חד מיני במרחב מוגן עם הנחיה. עד 20 גברים.",
+		"titleEn": "Sexperimenting with Men - A guided workshop of a sexual nature, for men only. The goal of the session is to explore same-sex contact and sexuality in a safe, judgement-free environment, with guidance. Up to 20 men. Bring your own towel.",
+		"time": 1526495400,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "f1f74567-87d4-43c5-8960-7700e68e727a",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "משחק חופשי - מתחם מיני מפוקח לזוגות ושלישיות בלבד בחושך ועם כיסוי עיניים. רצוי להביא מגבת",
+		"titleEn": "Free Play - A space for supervised sexuality, for couples and triads only - in the dark and with eye masks. Bring your own towel.",
+		"time": 1526500800,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "ef39200a-4464-43d7-a049-adbc2ddf73a3",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "שירה בחושך-סדנה מונחת לשירה בחושך. מתאים ומיועד לכולם... גם לזייפנים.  20 משתתפים",
+		"titleEn": "Singing in the Dark  - A guided workshop for singing in the dark. Appropriate for everyone, even imposters. Up to 20 participants.",
+		"time": 1526544000,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "1e310ec8-08ad-4901-88ae-d0e816074d9b",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "מדיטציה-\"סדנאות מדיטציה ודמיון מודרך בנושא אהבה עצמית וחיזוק רגשות חיוביים וחיבור למיניות בריאה.שעה וחצי של רגיעה ודמיון מודרך.  סדנה של שעה וחצי . עד 20 איש",
+		"titleEn": "Meditation - Meditation workshops and guided visualizations about self-love and maintaining positive emotions, as well as a connection to healthy sexuality. An hour and a half. Up to 20 participants.",
+		"time": 1526547600,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "e143dc83-74ec-4dd6-970e-d62ce92f9c42",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "סרט בחושך - סרט ללא תמונה רק שומעים את הסרט.",
+		"titleEn": "Movie in the Dark - A movie without picture. Enjoy the sounds of familiar films.",
+		"time": 1526554800,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "7ad32bb0-1294-44be-8103-1efb68b37bf4",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "-ציור זוגי- נכנסים בזוגות מקבלים כל אחד בורד, נייר מוצמד עם נייר דבק ועיפרון ואז על פי מישוש מציירים את בן הזוג.  שעה.בזוגות עד 20 איש. הסדנה תתקיימת בהדרכה באנגלית",
+		"titleEn": "Drawing by Touch - Paired drawing. Each pair will receive a board and drawing supplies, and will take turns drawing their partner in the dark, by touch only. One hour. Up to 20 participants, in couples. The workshop will be with English instruction.",
+		"time": 1526562000,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "0696c9cf-a48a-4a9b-b7d3-2d77a5339496",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "מוזיאון המישוש-\tחדר החושך יהפוך למוזיאון מישוש והמשתתפים יטיילו ברחבי החדר , יחקרו את החפצים הפזורים בו ויצטרכו לנחש מה זה. עד 10 משתתפים יחד בזמן נתון",
+		"titleEn": "The Touch Museum - The Dark Room will turn into a Touch Museum, with the participants free to roam the space, exploring the objects distributed throughout and guessing what they are. Up to 10 participants at a time.",
+		"time": 1526567400,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "ff306819-7df3-499e-987c-081909308be8",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "משחק חופשי - מתחם מיני מפוקח לזוגות ושלישיות בלבד בחושך ועם כיסוי עיניים. רצוי להביא מגבת",
+		"titleEn": "Free Play - A space for supervised sexuality, for couples and triads only - in the dark and with eye masks. Bring your own towel.",
+		"time": 1526587200,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "e0beb89d-8788-4907-8f43-a666e83e6ca4",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "סדנה על עיוורון\tסדנה של שעה איך זה מרגיש להיות עיוור.",
+		"titleEn": "Blindness Workshop - A workshop on the experience of being blind. 1 hour.",
+		"time": 1526630400,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "038e47c6-48f2-4236-884b-9fb0bc1259c2",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "משחקים בחושך\tסדנה מונחת ומפתיעה . עד 20 איש.",
+		"titleEn": "Playing in the Dark - A guided workshop.  other in dark. Up to 20 participants",
+		"time": 1526634000,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "802d13b6-39f6-4644-90c6-d1c5fe3183aa",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "מקום מפלט החדר הופך למקום אליו בורחים מההמולה בחוץ כדי לנוח ולהירגע. ",
+		"titleEn": "מקום מפלט החדר הופך למקום אליו בורחים מההמולה בחוץ כדי לנוח ולהירגע.",
+		"time": 1526641200,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "bd0e088e-34d0-4b8b-9479-4a3cecbfc0e2",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "הספדה בחושך-סדנה מונחת. שני חלקים חלק של הספד על עצמך ואחכ על מישהו אחר. עד 20 משתתפים.",
+		"titleEn": "Eulogies in the Dark - A guided workshop. First we will eulogize ourselves, and then we will eulogize one another. Up to 20 participants.",
+		"time": 1526648400,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "6fd7b96d-5d52-4fdc-898e-c655be1bdf4d",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "מסיבה בחושך-מסיבה בחושך יחפים ובלבוש מינימלי על מנת להרגיש את המוזיקה ולא רק לשמוע אותה. עד 25 משתתפים בכל פעם.",
+		"titleEn": "Party in the Dark - A barefoot party in the dark with minimal clothing. Feel the music, instead of just hearing it. Up to 25 participants at a time",
+		"time": 1526653800,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
+		]
+	},
+	{
+		"campId": "e8acd228-95c1-431a-95db-1a70679a1614",
+		"giftId": "94fac1ce-adc0-4259-a13b-76169f35d8a5",
+		"campName": "משולש ברמודה",
+		"campNameEn": "Bermuda Triangle",
+		"title": "משחק חופשי - מתחם מיני מפוקח לזוגות ושלישיות בלבד בחושך ועם כיסוי עיניים. רצוי להביא מגבת",
+		"titleEn": "Free Play - A space for supervised sexuality, for couples and triads only - in the dark and with eye masks. Bring your own towel.",
+		"time": 1526673600,
+		"locationName": "גזע המוח 1:30",
+		"locationNameEn": "1:30 Geza Hamoach",
+		"tags": [
+			"Adults",
+			"English",
+			"Mingling",
+			"VisuallyImpaired",
+			"BodyAndSoul"
 		]
 	}
 ]
