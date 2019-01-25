@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {FlatList, Platform, BackHandler} from 'react-native';
+import {Navigation} from 'react-native-navigation';
 import {View, TabBar, TextInput, Text} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import CampRow from './CampRow';
@@ -15,18 +16,21 @@ const ANDROID_SEARCH_ICON = require('../../../data/img/search.png');
 const IS_IOS = Platform.OS === 'ios';
 
 
-class CampsScreen extends Component {
-
-
-  static navigatorButtons = {
+const rightButtons = {
+  topBar: {
     rightButtons: [
       {
         id: SEARCH_BUTTON_ID,
         systemItem: 'search',
-        [!IS_IOS ? 'icon' : undefined]: ANDROID_SEARCH_ICON
+        [!IS_IOS ? 'icon' : undefined]: require('../../../data/img/search.png')
       }
-    ]
-  };
+    ],
+    leftButtons: []
+
+  }
+};
+
+class CampsScreen extends Component {
 
   constructor(props) {
     super(props);
@@ -34,26 +38,31 @@ class CampsScreen extends Component {
       showSearchBar: false
     };
     this.flatListRef = undefined;
-    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
+    Navigation.events().bindComponent(this);
+    Navigation.mergeOptions(this.props.componentId, rightButtons);
   }
 
-  onNavigatorEvent(event) {
-    if (event.id === SEARCH_BUTTON_ID) {
+  componentDidMount(): void {
+    BackHandler.removeEventListener();
+    BackHandler.addEventListener('hardwareBackPress', () => {
+      return backToNowTab(this.props.componentId);
+    });
+  }
+
+
+
+  navigationButtonPressed({buttonId}) {
+    if (buttonId === SEARCH_BUTTON_ID) {
       this.setState({showSearchBar: !this.state.showSearchBar});
       store.setters.setSearchCamp();
       if (this.searchTextInputRef) {
         this.searchTextInputRef.focus();
       }
-    } else if (event.id === 'willAppear') {
-      BackHandler.removeEventListener();
-      BackHandler.addEventListener('hardwareBackPress', () => {
-        return backToNowTab(this.props.navigator);
-      });
     }
   }
 
   _onRowPressed = async (camp) => {
-    actions.showCampScreen({camp, navigator: this.props.navigator});
+    actions.showCampScreen({camp, componentId: this.props.componentId});
   }
 
   _renderRow = (data) => {

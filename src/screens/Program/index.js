@@ -46,7 +46,7 @@ class ProgramScreen extends Component {
     };
     this.days = isRTL() ? DAYS_HEB: DAYS_EN;
     this.carousel = undefined;
-    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
+    // this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
 
   }
 

@@ -71,17 +71,13 @@ export default class ExtraScreen extends Component {
     super(props);
     this.items = getItems();
     this.locale = getLocale();
-    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
-
   }
 
-  onNavigatorEvent(event) {
-    if (event.id === 'willAppear') {
-      BackHandler.removeEventListener();
-      BackHandler.addEventListener('hardwareBackPress', () => {
-        return backToNowTab(this.props.navigator);
-      });
-    }
+  componentWillMount(): void {
+    BackHandler.removeEventListener();
+    BackHandler.addEventListener('hardwareBackPress', () => {
+      return backToNowTab(this.props.navigator);
+    });
   }
 
   onPressed = (item) => {

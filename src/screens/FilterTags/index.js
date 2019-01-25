@@ -20,7 +20,7 @@ class FilterTagsScreen extends Component {
     super(props);
     this.tags = _.map(this.props.tags, 'id');
 
-    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
+    // this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
 
   }
 

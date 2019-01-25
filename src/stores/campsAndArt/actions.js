@@ -4,6 +4,7 @@ import SCREEN_NAMES from "../../screens/screenNames";
 import _ from 'lodash';
 import {Linking} from 'react-native';
 import * as DeviceInfo from 'react-native-device-info';
+import {Navigation} from 'react-native-navigation';
 import {isRTL} from '../../utils/Strings';
 
 
@@ -27,32 +28,48 @@ export function loadCampTags() {
   store.setters.setCampTags(data);
 }
 
-export function showCampScreen({camp, navigator}) {
+export function showCampScreen({camp, componentId}) {
   const coverImage = store.getters.getCampImage(camp.campId);
-  navigator.push({
-    screen: SCREEN_NAMES.CAMP_SCREEN,
-    passProps: {
-      camp,
-      coverImage
+  Navigation.push(componentId, {
+    component: {
+      name: SCREEN_NAMES.CAMP_SCREEN,
+      passProps: {
+        camp,
+        coverImage
+      },
+      options: {
+        bottomTabs: {
+          visible: false
+        },
+        topBar: {
+          title: {
+            text: isRTL() ? camp.campName : camp.campNameEn
+          }
+        }
+      }
     },
-    navigatorStyle: {
-      tabBarHidden: true
-    },
-    title: isRTL() ? camp.campName : camp.campNameEn
   });
 }
 
-export function showArtScreen({art, navigator, images}) {
-  navigator.push({
-    screen: SCREEN_NAMES.ART_SCREEN,
-    passProps: {
-      art,
-      images
+export function showArtScreen({art, componentId, images}) {
+  Navigation.push(componentId, {
+    component: {
+      name: SCREEN_NAMES.ART_SCREEN,
+      passProps: {
+        art,
+        images
+      },
+      options: {
+        bottomTabs: {
+          visible: false
+        },
+        topBar: {
+          title: {
+            text: isRTL() ? art.name : art.nameEn
+          }
+        }
+      }
     },
-    navigatorStyle: {
-      tabBarHidden: true
-    },
-    title: isRTL() ? art.name : art.nameEn
   });
 }
 

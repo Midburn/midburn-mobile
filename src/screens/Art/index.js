@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {BackHandler, FlatList, Platform} from 'react-native';
+import {Navigation} from 'react-native-navigation';
 import {View, TabBar, TextInput, Text} from 'react-native-ui-lib';
 import {connect} from 'remx';
 import ArtRow from './ArtRow';
@@ -12,18 +13,21 @@ import {backToNowTab} from '../../stores/appActions';
 const SEARCH_BUTTON_ID = 'art_search';
 const IS_IOS = Platform.OS === 'ios';
 
-
-class ArtScreen extends Component {
-
-  static navigatorButtons = {
+const rightButtons = {
+  topBar: {
     rightButtons: [
       {
         id: SEARCH_BUTTON_ID,
         systemItem: 'search',
         [!IS_IOS ? 'icon' : undefined]: require('../../../data/img/search.png')
       }
-    ]
-  };
+    ],
+    leftButtons: []
+
+  }
+};
+
+class ArtScreen extends Component {
 
   constructor(props) {
     super(props);
@@ -31,11 +35,12 @@ class ArtScreen extends Component {
       showSearchBar: false
     };
     this.flatListRef = undefined;
-    this.props.navigator.setOnNavigatorEvent(this.onNavigatorEvent.bind(this));
+    Navigation.events().bindComponent(this);
+    Navigation.mergeOptions(this.props.componentId, rightButtons);
   }
 
-  onNavigatorEvent(event) {
-    if (event.id == SEARCH_BUTTON_ID) {
+  navigationButtonPressed({ buttonId }) {
+    if (buttonId === SEARCH_BUTTON_ID) {
 
       this.setState({showSearchBar: !this.state.showSearchBar});
       store.setters.setSearchArt();
@@ -45,14 +50,14 @@ class ArtScreen extends Component {
     } else if (event.id === 'didAppear') {
       BackHandler.removeEventListener();
       BackHandler.addEventListener('hardwareBackPress', () => {
-        return backToNowTab(this.props.navigator);
+        return backToNowTab(this.props.componentId);
       });
     }
   }
 
 
   _onRowPressed = async (art, images) => {
-    actions.showArtScreen({art, navigator: this.props.navigator, images});
+    actions.showArtScreen({art, componentId: this.props.componentId, images});
   }
 
   _renderRow = (data) => {
